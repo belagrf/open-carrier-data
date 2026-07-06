@@ -61,7 +61,6 @@
       "android_carrier_config": {
         "allow_add_call_during_video_call": false,
         "allow_adding_apns_bool": false,
-        "allow_hold_in_ims_call": false,
         "allow_merge_wifi_calls_when_vowifi_off_bool": false,
         "apn_expand_bool": false,
         "call_forwarding_blocks_while_roaming_string_array": [
@@ -295,6 +294,26 @@
         ]
       },
       "profile_id": "open.20601.77cc677cae22"
+    },
+    {
+      "android_carrier_config": {
+        "carrier_volte_available_bool": true
+      },
+      "display_name": "Cape",
+      "match": {
+        "android_carrier_ids": [
+          2670
+        ],
+        "gid1_prefixes": [
+          "2273"
+        ],
+        "mccmnc": [
+          "20601",
+          "302220",
+          "311588"
+        ]
+      },
+      "profile_id": "open.20601.9b971ea39e73"
     },
     {
       "android_carrier_config": {
@@ -664,7 +683,7 @@
       "android_carrier_config": {
         "default_mtu_int": 1358
       },
-      "display_name": "Vodafone",
+      "display_name": "One HU",
       "match": {
         "android_carrier_ids": [
           1535
@@ -728,6 +747,24 @@
         ]
       },
       "profile_id": "open.22208.6f1e031bbd6f"
+    },
+    {
+      "android_carrier_config": {
+        "carrier_supports_ss_over_ut_bool": true,
+        "carrier_volte_available_bool": true,
+        "enhanced_4g_lte_on_by_default_bool": true,
+        "hide_enhanced_4g_lte_bool": false
+      },
+      "display_name": "netplus.ch",
+      "match": {
+        "android_carrier_ids": [
+          2677
+        ],
+        "mccmnc": [
+          "22874"
+        ]
+      },
+      "profile_id": "open.22874.011e2daaef3a"
     },
     {
       "android_carrier_config": {
@@ -1574,7 +1611,7 @@
         "maxImageWidth": 2592,
         "maxMessageSize": 256000
       },
-      "display_name": "Nov Operator",
+      "display_name": "A1",
       "match": {
         "android_carrier_ids": [
           1609
@@ -2112,7 +2149,6 @@
       "android_carrier_config": {
         "allow_add_call_during_video_call": false,
         "allow_adding_apns_bool": false,
-        "allow_hold_in_ims_call": false,
         "allow_merge_wifi_calls_when_vowifi_off_bool": false,
         "apn_expand_bool": false,
         "call_forwarding_blocks_while_roaming_string_array": [
@@ -2403,18 +2439,16 @@
         ],
         "mccmnc": [
           "310030",
-          "310070",
           "310170",
           "310280",
           "310380",
           "310410",
           "310560",
-          "310680",
           "310950",
           "311180"
         ]
       },
-      "profile_id": "open.310030.15773913918d"
+      "profile_id": "open.310030.82b9c25f1bc1"
     },
     {
       "android_carrier_config": {
@@ -2812,7 +2846,6 @@
       "android_carrier_config": {
         "allow_add_call_during_video_call": false,
         "allow_adding_apns_bool": false,
-        "allow_hold_in_ims_call": false,
         "allow_merge_wifi_calls_when_vowifi_off_bool": false,
         "apn_expand_bool": false,
         "call_forwarding_blocks_while_roaming_string_array": [
@@ -2936,7 +2969,6 @@
       "android_carrier_config": {
         "allow_add_call_during_video_call": false,
         "allow_adding_apns_bool": false,
-        "allow_hold_in_ims_call": false,
         "allow_merge_wifi_calls_when_vowifi_off_bool": false,
         "apn_expand_bool": false,
         "call_forwarding_blocks_while_roaming_string_array": [
@@ -3103,10 +3135,11 @@
           1813
         ],
         "mccmnc": [
-          "310750"
+          "310750",
+          "312130"
         ]
       },
-      "profile_id": "open.310750.1b8f9d244785"
+      "profile_id": "open.310750.966664767e5c"
     },
     {
       "android_carrier_config": {
@@ -3725,6 +3758,7 @@
           2119
         ],
         "mccmnc": [
+          "312670",
           "313100",
           "313110",
           "313120",
@@ -3732,7 +3766,24 @@
           "313140"
         ]
       },
-      "profile_id": "open.313100.f98ae2c6c28a"
+      "profile_id": "open.312670.4e2b008c0ffb"
+    },
+    {
+      "android_carrier_config": {
+        "enableGroupMms": false,
+        "enabledMMS": false
+      },
+      "display_name": "FirstNet Pacific",
+      "match": {
+        "android_carrier_ids": [
+          10013
+        ],
+        "mccmnc": [
+          "313110",
+          "313120"
+        ]
+      },
+      "profile_id": "open.313110.111b80ddf995"
     },
     {
       "android_carrier_config": {
@@ -3779,7 +3830,6 @@
       "android_carrier_config": {
         "allow_add_call_during_video_call": false,
         "allow_adding_apns_bool": false,
-        "allow_hold_in_ims_call": false,
         "allow_merge_wifi_calls_when_vowifi_off_bool": false,
         "apn_expand_bool": false,
         "call_forwarding_blocks_while_roaming_string_array": [
@@ -3883,6 +3933,24 @@
         ]
       },
       "profile_id": "open.314240.73697514665b"
+    },
+    {
+      "android_carrier_config": {
+        "carrier_volte_available_bool": true
+      },
+      "display_name": "Cape",
+      "match": {
+        "android_carrier_ids": [
+          2670
+        ],
+        "gid1_prefixes": [
+          "2273"
+        ],
+        "mccmnc": [
+          "314560"
+        ]
+      },
+      "profile_id": "open.314560.a8917ba67627"
     },
     {
       "android_carrier_config": {
@@ -4723,6 +4791,21 @@
     },
     {
       "android_carrier_config": {
+        "carrier_volte_available_bool": true
+      },
+      "display_name": "Omnnea",
+      "match": {
+        "android_carrier_ids": [
+          2167
+        ],
+        "mccmnc": [
+          "41892"
+        ]
+      },
+      "profile_id": "open.41892.7aff50e0dd5c"
+    },
+    {
+      "android_carrier_config": {
         "maxImageHeight": 1944,
         "maxImageWidth": 2592,
         "maxMessageSize": 409600
@@ -4817,7 +4900,7 @@
         "ims_dtmf_tone_delay_int": 215,
         "maxImageHeight": 1944,
         "maxImageWidth": 2592,
-        "maxMessageSize": 307200,
+        "maxMessageSize": 2097152,
         "maxMessageTextSize": -1,
         "recipientLimit": -1,
         "volte_replacement_rat_int": 3
@@ -5338,6 +5421,22 @@
         ]
       },
       "profile_id": "open.72402.5ccb5e85a232"
+    },
+    {
+      "android_carrier_config": {
+        "carrier_volte_available_bool": true,
+        "carrier_wfc_ims_available_bool": true
+      },
+      "display_name": "Brisanet",
+      "match": {
+        "android_carrier_ids": [
+          2659
+        ],
+        "mccmnc": [
+          "72477"
+        ]
+      },
+      "profile_id": "open.72477.ae62c7e7eaaf"
     },
     {
       "android_carrier_config": {

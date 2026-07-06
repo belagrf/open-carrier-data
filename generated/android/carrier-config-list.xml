@@ -663,6 +663,16 @@
   <carrier_config cid="10008" gid1="BA01270000000000" mcc="311" mnc="480" name="Tracfone-VZW">
     <boolean name="enabledTransID" value="true" />
   </carrier_config>
+  <!-- open.313110.111b80ddf995 -->
+  <carrier_config cid="10013" mcc="313" mnc="110" name="FirstNet Pacific">
+    <boolean name="enableGroupMms" value="false" />
+    <boolean name="enabledMMS" value="false" />
+  </carrier_config>
+  <!-- open.313110.111b80ddf995 -->
+  <carrier_config cid="10013" mcc="313" mnc="120" name="FirstNet Pacific">
+    <boolean name="enableGroupMms" value="false" />
+    <boolean name="enabledMMS" value="false" />
+  </carrier_config>
   <!-- open.313770.fb97a55ec318 -->
   <carrier_config cid="10030" mcc="313" mnc="770" name="TANGO-US">
     <boolean name="carrier_volte_available_bool" value="true" />
@@ -706,7 +716,7 @@
     <int name="recipientLimit" value="20" />
     <int name="smsToMmsTextThreshold" value="1" />
   </carrier_config>
-  <!-- open.310030.15773913918d -->
+  <!-- open.310030.82b9c25f1bc1 -->
   <carrier_config cid="1187" mcc="310" mnc="030" name="AT&amp;T">
     <boolean name="allow_hold_call_during_emergency_bool" value="false" />
     <boolean name="allow_merging_rtt_calls_bool" value="true" />
@@ -730,31 +740,7 @@
     <boolean name="support_pause_ims_video_calls_bool" value="false" />
     <int name="volte_replacement_rat_int" value="3" />
   </carrier_config>
-  <!-- open.310030.15773913918d -->
-  <carrier_config cid="1187" mcc="310" mnc="070" name="AT&amp;T">
-    <boolean name="allow_hold_call_during_emergency_bool" value="false" />
-    <boolean name="allow_merging_rtt_calls_bool" value="true" />
-    <boolean name="carrier_default_wfc_ims_roaming_enabled_bool" value="true" />
-    <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
-    <int name="default_mtu_int" value="1430" />
-    <boolean name="enableSMSDeliveryReports" value="false" />
-    <boolean name="ims.rcs_request_forbidden_by_sip_489_bool" value="true" />
-    <boolean name="ims.use_tel_uri_for_pidf_xml" value="true" />
-    <int name="ims_dtmf_tone_delay_int" value="120" />
-    <string-array name="ims_reasoninfo_mapping_string_array" num="2">
-      <item value="352|emergency calls over wifi not allowed in this location|1622" />
-      <item value="332|service not allowed in this location|1623" />
-    </string-array>
-    <int name="maxImageHeight" value="1944" />
-    <int name="maxImageWidth" value="2592" />
-    <int name="maxMessageSize" value="1048576" />
-    <int name="recipientLimit" value="20" />
-    <boolean name="rtt_supported_bool" value="true" />
-    <boolean name="rtt_supported_while_roaming_bool" value="true" />
-    <boolean name="support_pause_ims_video_calls_bool" value="false" />
-    <int name="volte_replacement_rat_int" value="3" />
-  </carrier_config>
-  <!-- open.310030.15773913918d -->
+  <!-- open.310030.82b9c25f1bc1 -->
   <carrier_config cid="1187" mcc="310" mnc="170" name="AT&amp;T">
     <boolean name="allow_hold_call_during_emergency_bool" value="false" />
     <boolean name="allow_merging_rtt_calls_bool" value="true" />
@@ -778,7 +764,7 @@
     <boolean name="support_pause_ims_video_calls_bool" value="false" />
     <int name="volte_replacement_rat_int" value="3" />
   </carrier_config>
-  <!-- open.310030.15773913918d -->
+  <!-- open.310030.82b9c25f1bc1 -->
   <carrier_config cid="1187" mcc="310" mnc="280" name="AT&amp;T">
     <boolean name="allow_hold_call_during_emergency_bool" value="false" />
     <boolean name="allow_merging_rtt_calls_bool" value="true" />
@@ -802,7 +788,7 @@
     <boolean name="support_pause_ims_video_calls_bool" value="false" />
     <int name="volte_replacement_rat_int" value="3" />
   </carrier_config>
-  <!-- open.310030.15773913918d -->
+  <!-- open.310030.82b9c25f1bc1 -->
   <carrier_config cid="1187" mcc="310" mnc="380" name="AT&amp;T">
     <boolean name="allow_hold_call_during_emergency_bool" value="false" />
     <boolean name="allow_merging_rtt_calls_bool" value="true" />
@@ -826,7 +812,7 @@
     <boolean name="support_pause_ims_video_calls_bool" value="false" />
     <int name="volte_replacement_rat_int" value="3" />
   </carrier_config>
-  <!-- open.310030.15773913918d -->
+  <!-- open.310030.82b9c25f1bc1 -->
   <carrier_config cid="1187" mcc="310" mnc="410" name="AT&amp;T">
     <boolean name="allow_hold_call_during_emergency_bool" value="false" />
     <boolean name="allow_merging_rtt_calls_bool" value="true" />
@@ -850,7 +836,7 @@
     <boolean name="support_pause_ims_video_calls_bool" value="false" />
     <int name="volte_replacement_rat_int" value="3" />
   </carrier_config>
-  <!-- open.310030.15773913918d -->
+  <!-- open.310030.82b9c25f1bc1 -->
   <carrier_config cid="1187" mcc="310" mnc="560" name="AT&amp;T">
     <boolean name="allow_hold_call_during_emergency_bool" value="false" />
     <boolean name="allow_merging_rtt_calls_bool" value="true" />
@@ -874,31 +860,7 @@
     <boolean name="support_pause_ims_video_calls_bool" value="false" />
     <int name="volte_replacement_rat_int" value="3" />
   </carrier_config>
-  <!-- open.310030.15773913918d -->
-  <carrier_config cid="1187" mcc="310" mnc="680" name="AT&amp;T">
-    <boolean name="allow_hold_call_during_emergency_bool" value="false" />
-    <boolean name="allow_merging_rtt_calls_bool" value="true" />
-    <boolean name="carrier_default_wfc_ims_roaming_enabled_bool" value="true" />
-    <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
-    <int name="default_mtu_int" value="1430" />
-    <boolean name="enableSMSDeliveryReports" value="false" />
-    <boolean name="ims.rcs_request_forbidden_by_sip_489_bool" value="true" />
-    <boolean name="ims.use_tel_uri_for_pidf_xml" value="true" />
-    <int name="ims_dtmf_tone_delay_int" value="120" />
-    <string-array name="ims_reasoninfo_mapping_string_array" num="2">
-      <item value="352|emergency calls over wifi not allowed in this location|1622" />
-      <item value="332|service not allowed in this location|1623" />
-    </string-array>
-    <int name="maxImageHeight" value="1944" />
-    <int name="maxImageWidth" value="2592" />
-    <int name="maxMessageSize" value="1048576" />
-    <int name="recipientLimit" value="20" />
-    <boolean name="rtt_supported_bool" value="true" />
-    <boolean name="rtt_supported_while_roaming_bool" value="true" />
-    <boolean name="support_pause_ims_video_calls_bool" value="false" />
-    <int name="volte_replacement_rat_int" value="3" />
-  </carrier_config>
-  <!-- open.310030.15773913918d -->
+  <!-- open.310030.82b9c25f1bc1 -->
   <carrier_config cid="1187" mcc="310" mnc="950" name="AT&amp;T">
     <boolean name="allow_hold_call_during_emergency_bool" value="false" />
     <boolean name="allow_merging_rtt_calls_bool" value="true" />
@@ -922,7 +884,7 @@
     <boolean name="support_pause_ims_video_calls_bool" value="false" />
     <int name="volte_replacement_rat_int" value="3" />
   </carrier_config>
-  <!-- open.310030.15773913918d -->
+  <!-- open.310030.82b9c25f1bc1 -->
   <carrier_config cid="1187" mcc="311" mnc="180" name="AT&amp;T">
     <boolean name="allow_hold_call_during_emergency_bool" value="false" />
     <boolean name="allow_merging_rtt_calls_bool" value="true" />
@@ -1354,7 +1316,7 @@
     <int name="default_mtu_int" value="1440" />
   </carrier_config>
   <!-- open.21670.a90e85c2329e -->
-  <carrier_config cid="1535" imsi="21670[0-9][0-9]2[0-9]*" mcc="216" mnc="70" name="Vodafone">
+  <carrier_config cid="1535" imsi="21670[0-9][0-9]2[0-9]*" mcc="216" mnc="70" name="One HU">
     <int name="default_mtu_int" value="1358" />
   </carrier_config>
   <!-- open.27402.eeded27e46be -->
@@ -1400,7 +1362,7 @@
     <int name="maxMessageSize" value="131072" />
   </carrier_config>
   <!-- open.29403.e1fa7b308cce -->
-  <carrier_config cid="1609" mcc="294" mnc="03" name="Nov Operator">
+  <carrier_config cid="1609" mcc="294" mnc="03" name="A1">
     <int name="maxImageHeight" value="1944" />
     <int name="maxImageWidth" value="2592" />
     <int name="maxMessageSize" value="256000" />
@@ -1612,8 +1574,21 @@
     <int name="recipientLimit" value="20" />
     <int name="smsToMmsTextThreshold" value="1" />
   </carrier_config>
-  <!-- open.310750.1b8f9d244785 -->
+  <!-- open.310750.966664767e5c -->
   <carrier_config cid="1813" mcc="310" mnc="750" name="East Kentucky Network LLC dba Appalachian Wireless">
+    <boolean name="enableMultipartSMS" value="true" />
+    <boolean name="enabledMMS" value="true" />
+    <string name="httpParams">X-MDN: ##LINE1##</string>
+    <int name="maxImageHeight" value="2432" />
+    <int name="maxImageWidth" value="4320" />
+    <int name="maxMessageSize" value="1228800" />
+    <int name="maxMessageTextSize" value="-1" />
+    <int name="maxSubjectLength" value="80" />
+    <int name="recipientLimit" value="20" />
+    <int name="smsToMmsTextThreshold" value="1" />
+  </carrier_config>
+  <!-- open.310750.966664767e5c -->
+  <carrier_config cid="1813" mcc="312" mnc="130" name="East Kentucky Network LLC dba Appalachian Wireless">
     <boolean name="enableMultipartSMS" value="true" />
     <boolean name="enabledMMS" value="true" />
     <string name="httpParams">X-MDN: ##LINE1##</string>
@@ -1700,7 +1675,6 @@
   <carrier_config cid="1839" gid1="BAE0000000000000" mcc="204" mnc="04" name="Verizon Wireless">
     <boolean name="allow_add_call_during_video_call" value="false" />
     <boolean name="allow_adding_apns_bool" value="false" />
-    <boolean name="allow_hold_in_ims_call" value="false" />
     <boolean name="allow_merge_wifi_calls_when_vowifi_off_bool" value="false" />
     <boolean name="apn_expand_bool" value="false" />
     <string-array name="call_forwarding_blocks_while_roaming_string_array" num="2">
@@ -1804,7 +1778,6 @@
   <carrier_config cid="1839" mcc="310" mnc="012" name="Verizon Wireless">
     <boolean name="allow_add_call_during_video_call" value="false" />
     <boolean name="allow_adding_apns_bool" value="false" />
-    <boolean name="allow_hold_in_ims_call" value="false" />
     <boolean name="allow_merge_wifi_calls_when_vowifi_off_bool" value="false" />
     <boolean name="apn_expand_bool" value="false" />
     <string-array name="call_forwarding_blocks_while_roaming_string_array" num="2">
@@ -1908,7 +1881,6 @@
   <carrier_config cid="1839" mcc="310" mnc="590" name="Verizon Wireless">
     <boolean name="allow_add_call_during_video_call" value="false" />
     <boolean name="allow_adding_apns_bool" value="false" />
-    <boolean name="allow_hold_in_ims_call" value="false" />
     <boolean name="allow_merge_wifi_calls_when_vowifi_off_bool" value="false" />
     <boolean name="apn_expand_bool" value="false" />
     <string-array name="call_forwarding_blocks_while_roaming_string_array" num="2">
@@ -2012,7 +1984,6 @@
   <carrier_config cid="1839" mcc="310" mnc="591" name="Verizon Wireless">
     <boolean name="allow_add_call_during_video_call" value="false" />
     <boolean name="allow_adding_apns_bool" value="false" />
-    <boolean name="allow_hold_in_ims_call" value="false" />
     <boolean name="allow_merge_wifi_calls_when_vowifi_off_bool" value="false" />
     <boolean name="apn_expand_bool" value="false" />
     <string-array name="call_forwarding_blocks_while_roaming_string_array" num="2">
@@ -2116,7 +2087,6 @@
   <carrier_config cid="1839" mcc="310" mnc="592" name="Verizon Wireless">
     <boolean name="allow_add_call_during_video_call" value="false" />
     <boolean name="allow_adding_apns_bool" value="false" />
-    <boolean name="allow_hold_in_ims_call" value="false" />
     <boolean name="allow_merge_wifi_calls_when_vowifi_off_bool" value="false" />
     <boolean name="apn_expand_bool" value="false" />
     <string-array name="call_forwarding_blocks_while_roaming_string_array" num="2">
@@ -2220,7 +2190,6 @@
   <carrier_config cid="1839" mcc="310" mnc="593" name="Verizon Wireless">
     <boolean name="allow_add_call_during_video_call" value="false" />
     <boolean name="allow_adding_apns_bool" value="false" />
-    <boolean name="allow_hold_in_ims_call" value="false" />
     <boolean name="allow_merge_wifi_calls_when_vowifi_off_bool" value="false" />
     <boolean name="apn_expand_bool" value="false" />
     <string-array name="call_forwarding_blocks_while_roaming_string_array" num="2">
@@ -2324,7 +2293,6 @@
   <carrier_config cid="1839" mcc="310" mnc="594" name="Verizon Wireless">
     <boolean name="allow_add_call_during_video_call" value="false" />
     <boolean name="allow_adding_apns_bool" value="false" />
-    <boolean name="allow_hold_in_ims_call" value="false" />
     <boolean name="allow_merge_wifi_calls_when_vowifi_off_bool" value="false" />
     <boolean name="apn_expand_bool" value="false" />
     <string-array name="call_forwarding_blocks_while_roaming_string_array" num="2">
@@ -2428,7 +2396,6 @@
   <carrier_config cid="1839" mcc="310" mnc="595" name="Verizon Wireless">
     <boolean name="allow_add_call_during_video_call" value="false" />
     <boolean name="allow_adding_apns_bool" value="false" />
-    <boolean name="allow_hold_in_ims_call" value="false" />
     <boolean name="allow_merge_wifi_calls_when_vowifi_off_bool" value="false" />
     <boolean name="apn_expand_bool" value="false" />
     <string-array name="call_forwarding_blocks_while_roaming_string_array" num="2">
@@ -2532,7 +2499,6 @@
   <carrier_config cid="1839" mcc="310" mnc="596" name="Verizon Wireless">
     <boolean name="allow_add_call_during_video_call" value="false" />
     <boolean name="allow_adding_apns_bool" value="false" />
-    <boolean name="allow_hold_in_ims_call" value="false" />
     <boolean name="allow_merge_wifi_calls_when_vowifi_off_bool" value="false" />
     <boolean name="apn_expand_bool" value="false" />
     <string-array name="call_forwarding_blocks_while_roaming_string_array" num="2">
@@ -2636,7 +2602,6 @@
   <carrier_config cid="1839" mcc="310" mnc="597" name="Verizon Wireless">
     <boolean name="allow_add_call_during_video_call" value="false" />
     <boolean name="allow_adding_apns_bool" value="false" />
-    <boolean name="allow_hold_in_ims_call" value="false" />
     <boolean name="allow_merge_wifi_calls_when_vowifi_off_bool" value="false" />
     <boolean name="apn_expand_bool" value="false" />
     <string-array name="call_forwarding_blocks_while_roaming_string_array" num="2">
@@ -2740,7 +2705,6 @@
   <carrier_config cid="1839" mcc="310" mnc="598" name="Verizon Wireless">
     <boolean name="allow_add_call_during_video_call" value="false" />
     <boolean name="allow_adding_apns_bool" value="false" />
-    <boolean name="allow_hold_in_ims_call" value="false" />
     <boolean name="allow_merge_wifi_calls_when_vowifi_off_bool" value="false" />
     <boolean name="apn_expand_bool" value="false" />
     <string-array name="call_forwarding_blocks_while_roaming_string_array" num="2">
@@ -2844,7 +2808,6 @@
   <carrier_config cid="1839" mcc="310" mnc="599" name="Verizon Wireless">
     <boolean name="allow_add_call_during_video_call" value="false" />
     <boolean name="allow_adding_apns_bool" value="false" />
-    <boolean name="allow_hold_in_ims_call" value="false" />
     <boolean name="allow_merge_wifi_calls_when_vowifi_off_bool" value="false" />
     <boolean name="apn_expand_bool" value="false" />
     <string-array name="call_forwarding_blocks_while_roaming_string_array" num="2">
@@ -2948,7 +2911,6 @@
   <carrier_config cid="1839" mcc="310" mnc="890" name="Verizon Wireless">
     <boolean name="allow_add_call_during_video_call" value="false" />
     <boolean name="allow_adding_apns_bool" value="false" />
-    <boolean name="allow_hold_in_ims_call" value="false" />
     <boolean name="allow_merge_wifi_calls_when_vowifi_off_bool" value="false" />
     <boolean name="apn_expand_bool" value="false" />
     <string-array name="call_forwarding_blocks_while_roaming_string_array" num="2">
@@ -3052,7 +3014,6 @@
   <carrier_config cid="1839" mcc="311" mnc="270" name="Verizon Wireless">
     <boolean name="allow_add_call_during_video_call" value="false" />
     <boolean name="allow_adding_apns_bool" value="false" />
-    <boolean name="allow_hold_in_ims_call" value="false" />
     <boolean name="allow_merge_wifi_calls_when_vowifi_off_bool" value="false" />
     <boolean name="apn_expand_bool" value="false" />
     <string-array name="call_forwarding_blocks_while_roaming_string_array" num="2">
@@ -3156,7 +3117,6 @@
   <carrier_config cid="1839" mcc="311" mnc="280" name="Verizon Wireless">
     <boolean name="allow_add_call_during_video_call" value="false" />
     <boolean name="allow_adding_apns_bool" value="false" />
-    <boolean name="allow_hold_in_ims_call" value="false" />
     <boolean name="allow_merge_wifi_calls_when_vowifi_off_bool" value="false" />
     <boolean name="apn_expand_bool" value="false" />
     <string-array name="call_forwarding_blocks_while_roaming_string_array" num="2">
@@ -3260,7 +3220,6 @@
   <carrier_config cid="1839" mcc="311" mnc="281" name="Verizon Wireless">
     <boolean name="allow_add_call_during_video_call" value="false" />
     <boolean name="allow_adding_apns_bool" value="false" />
-    <boolean name="allow_hold_in_ims_call" value="false" />
     <boolean name="allow_merge_wifi_calls_when_vowifi_off_bool" value="false" />
     <boolean name="apn_expand_bool" value="false" />
     <string-array name="call_forwarding_blocks_while_roaming_string_array" num="2">
@@ -3364,7 +3323,6 @@
   <carrier_config cid="1839" mcc="311" mnc="282" name="Verizon Wireless">
     <boolean name="allow_add_call_during_video_call" value="false" />
     <boolean name="allow_adding_apns_bool" value="false" />
-    <boolean name="allow_hold_in_ims_call" value="false" />
     <boolean name="allow_merge_wifi_calls_when_vowifi_off_bool" value="false" />
     <boolean name="apn_expand_bool" value="false" />
     <string-array name="call_forwarding_blocks_while_roaming_string_array" num="2">
@@ -3468,7 +3426,6 @@
   <carrier_config cid="1839" mcc="311" mnc="283" name="Verizon Wireless">
     <boolean name="allow_add_call_during_video_call" value="false" />
     <boolean name="allow_adding_apns_bool" value="false" />
-    <boolean name="allow_hold_in_ims_call" value="false" />
     <boolean name="allow_merge_wifi_calls_when_vowifi_off_bool" value="false" />
     <boolean name="apn_expand_bool" value="false" />
     <string-array name="call_forwarding_blocks_while_roaming_string_array" num="2">
@@ -3572,7 +3529,6 @@
   <carrier_config cid="1839" mcc="311" mnc="284" name="Verizon Wireless">
     <boolean name="allow_add_call_during_video_call" value="false" />
     <boolean name="allow_adding_apns_bool" value="false" />
-    <boolean name="allow_hold_in_ims_call" value="false" />
     <boolean name="allow_merge_wifi_calls_when_vowifi_off_bool" value="false" />
     <boolean name="apn_expand_bool" value="false" />
     <string-array name="call_forwarding_blocks_while_roaming_string_array" num="2">
@@ -3676,7 +3632,6 @@
   <carrier_config cid="1839" mcc="311" mnc="285" name="Verizon Wireless">
     <boolean name="allow_add_call_during_video_call" value="false" />
     <boolean name="allow_adding_apns_bool" value="false" />
-    <boolean name="allow_hold_in_ims_call" value="false" />
     <boolean name="allow_merge_wifi_calls_when_vowifi_off_bool" value="false" />
     <boolean name="apn_expand_bool" value="false" />
     <string-array name="call_forwarding_blocks_while_roaming_string_array" num="2">
@@ -3780,7 +3735,6 @@
   <carrier_config cid="1839" mcc="311" mnc="286" name="Verizon Wireless">
     <boolean name="allow_add_call_during_video_call" value="false" />
     <boolean name="allow_adding_apns_bool" value="false" />
-    <boolean name="allow_hold_in_ims_call" value="false" />
     <boolean name="allow_merge_wifi_calls_when_vowifi_off_bool" value="false" />
     <boolean name="apn_expand_bool" value="false" />
     <string-array name="call_forwarding_blocks_while_roaming_string_array" num="2">
@@ -3884,7 +3838,6 @@
   <carrier_config cid="1839" mcc="311" mnc="287" name="Verizon Wireless">
     <boolean name="allow_add_call_during_video_call" value="false" />
     <boolean name="allow_adding_apns_bool" value="false" />
-    <boolean name="allow_hold_in_ims_call" value="false" />
     <boolean name="allow_merge_wifi_calls_when_vowifi_off_bool" value="false" />
     <boolean name="apn_expand_bool" value="false" />
     <string-array name="call_forwarding_blocks_while_roaming_string_array" num="2">
@@ -3988,7 +3941,6 @@
   <carrier_config cid="1839" mcc="311" mnc="288" name="Verizon Wireless">
     <boolean name="allow_add_call_during_video_call" value="false" />
     <boolean name="allow_adding_apns_bool" value="false" />
-    <boolean name="allow_hold_in_ims_call" value="false" />
     <boolean name="allow_merge_wifi_calls_when_vowifi_off_bool" value="false" />
     <boolean name="apn_expand_bool" value="false" />
     <string-array name="call_forwarding_blocks_while_roaming_string_array" num="2">
@@ -4092,7 +4044,6 @@
   <carrier_config cid="1839" mcc="311" mnc="289" name="Verizon Wireless">
     <boolean name="allow_add_call_during_video_call" value="false" />
     <boolean name="allow_adding_apns_bool" value="false" />
-    <boolean name="allow_hold_in_ims_call" value="false" />
     <boolean name="allow_merge_wifi_calls_when_vowifi_off_bool" value="false" />
     <boolean name="apn_expand_bool" value="false" />
     <string-array name="call_forwarding_blocks_while_roaming_string_array" num="2">
@@ -4196,7 +4147,6 @@
   <carrier_config cid="1839" mcc="311" mnc="480" name="Verizon Wireless">
     <boolean name="allow_add_call_during_video_call" value="false" />
     <boolean name="allow_adding_apns_bool" value="false" />
-    <boolean name="allow_hold_in_ims_call" value="false" />
     <boolean name="allow_merge_wifi_calls_when_vowifi_off_bool" value="false" />
     <boolean name="apn_expand_bool" value="false" />
     <string-array name="call_forwarding_blocks_while_roaming_string_array" num="2">
@@ -4300,7 +4250,6 @@
   <carrier_config cid="1839" mcc="311" mnc="481" name="Verizon Wireless">
     <boolean name="allow_add_call_during_video_call" value="false" />
     <boolean name="allow_adding_apns_bool" value="false" />
-    <boolean name="allow_hold_in_ims_call" value="false" />
     <boolean name="allow_merge_wifi_calls_when_vowifi_off_bool" value="false" />
     <boolean name="apn_expand_bool" value="false" />
     <string-array name="call_forwarding_blocks_while_roaming_string_array" num="2">
@@ -4404,7 +4353,6 @@
   <carrier_config cid="1839" mcc="311" mnc="482" name="Verizon Wireless">
     <boolean name="allow_add_call_during_video_call" value="false" />
     <boolean name="allow_adding_apns_bool" value="false" />
-    <boolean name="allow_hold_in_ims_call" value="false" />
     <boolean name="allow_merge_wifi_calls_when_vowifi_off_bool" value="false" />
     <boolean name="apn_expand_bool" value="false" />
     <string-array name="call_forwarding_blocks_while_roaming_string_array" num="2">
@@ -4508,7 +4456,6 @@
   <carrier_config cid="1839" mcc="311" mnc="483" name="Verizon Wireless">
     <boolean name="allow_add_call_during_video_call" value="false" />
     <boolean name="allow_adding_apns_bool" value="false" />
-    <boolean name="allow_hold_in_ims_call" value="false" />
     <boolean name="allow_merge_wifi_calls_when_vowifi_off_bool" value="false" />
     <boolean name="apn_expand_bool" value="false" />
     <string-array name="call_forwarding_blocks_while_roaming_string_array" num="2">
@@ -4612,7 +4559,6 @@
   <carrier_config cid="1839" mcc="311" mnc="484" name="Verizon Wireless">
     <boolean name="allow_add_call_during_video_call" value="false" />
     <boolean name="allow_adding_apns_bool" value="false" />
-    <boolean name="allow_hold_in_ims_call" value="false" />
     <boolean name="allow_merge_wifi_calls_when_vowifi_off_bool" value="false" />
     <boolean name="apn_expand_bool" value="false" />
     <string-array name="call_forwarding_blocks_while_roaming_string_array" num="2">
@@ -4716,7 +4662,6 @@
   <carrier_config cid="1839" mcc="311" mnc="485" name="Verizon Wireless">
     <boolean name="allow_add_call_during_video_call" value="false" />
     <boolean name="allow_adding_apns_bool" value="false" />
-    <boolean name="allow_hold_in_ims_call" value="false" />
     <boolean name="allow_merge_wifi_calls_when_vowifi_off_bool" value="false" />
     <boolean name="apn_expand_bool" value="false" />
     <string-array name="call_forwarding_blocks_while_roaming_string_array" num="2">
@@ -4820,7 +4765,6 @@
   <carrier_config cid="1839" mcc="311" mnc="486" name="Verizon Wireless">
     <boolean name="allow_add_call_during_video_call" value="false" />
     <boolean name="allow_adding_apns_bool" value="false" />
-    <boolean name="allow_hold_in_ims_call" value="false" />
     <boolean name="allow_merge_wifi_calls_when_vowifi_off_bool" value="false" />
     <boolean name="apn_expand_bool" value="false" />
     <string-array name="call_forwarding_blocks_while_roaming_string_array" num="2">
@@ -4924,7 +4868,6 @@
   <carrier_config cid="1839" mcc="311" mnc="487" name="Verizon Wireless">
     <boolean name="allow_add_call_during_video_call" value="false" />
     <boolean name="allow_adding_apns_bool" value="false" />
-    <boolean name="allow_hold_in_ims_call" value="false" />
     <boolean name="allow_merge_wifi_calls_when_vowifi_off_bool" value="false" />
     <boolean name="apn_expand_bool" value="false" />
     <string-array name="call_forwarding_blocks_while_roaming_string_array" num="2">
@@ -5028,7 +4971,6 @@
   <carrier_config cid="1839" mcc="311" mnc="488" name="Verizon Wireless">
     <boolean name="allow_add_call_during_video_call" value="false" />
     <boolean name="allow_adding_apns_bool" value="false" />
-    <boolean name="allow_hold_in_ims_call" value="false" />
     <boolean name="allow_merge_wifi_calls_when_vowifi_off_bool" value="false" />
     <boolean name="apn_expand_bool" value="false" />
     <string-array name="call_forwarding_blocks_while_roaming_string_array" num="2">
@@ -5132,7 +5074,6 @@
   <carrier_config cid="1839" mcc="311" mnc="489" name="Verizon Wireless">
     <boolean name="allow_add_call_during_video_call" value="false" />
     <boolean name="allow_adding_apns_bool" value="false" />
-    <boolean name="allow_hold_in_ims_call" value="false" />
     <boolean name="allow_merge_wifi_calls_when_vowifi_off_bool" value="false" />
     <boolean name="apn_expand_bool" value="false" />
     <string-array name="call_forwarding_blocks_while_roaming_string_array" num="2">
@@ -5489,7 +5430,7 @@
     <int name="ims_dtmf_tone_delay_int" value="215" />
     <int name="maxImageHeight" value="1944" />
     <int name="maxImageWidth" value="2592" />
-    <int name="maxMessageSize" value="307200" />
+    <int name="maxMessageSize" value="2097152" />
     <int name="maxMessageTextSize" value="-1" />
     <int name="recipientLimit" value="-1" />
     <int name="volte_replacement_rat_int" value="3" />
@@ -6655,7 +6596,6 @@
   <carrier_config cid="2032" gid1="BA01450000000000" mcc="310" mnc="590" name="Xfinity Mobile">
     <boolean name="allow_add_call_during_video_call" value="false" />
     <boolean name="allow_adding_apns_bool" value="false" />
-    <boolean name="allow_hold_in_ims_call" value="false" />
     <boolean name="allow_merge_wifi_calls_when_vowifi_off_bool" value="false" />
     <boolean name="apn_expand_bool" value="false" />
     <string-array name="call_forwarding_blocks_while_roaming_string_array" num="2">
@@ -6753,7 +6693,6 @@
   <carrier_config cid="2032" gid1="BA01450000000000" mcc="310" mnc="599" name="Xfinity Mobile">
     <boolean name="allow_add_call_during_video_call" value="false" />
     <boolean name="allow_adding_apns_bool" value="false" />
-    <boolean name="allow_hold_in_ims_call" value="false" />
     <boolean name="allow_merge_wifi_calls_when_vowifi_off_bool" value="false" />
     <boolean name="apn_expand_bool" value="false" />
     <string-array name="call_forwarding_blocks_while_roaming_string_array" num="2">
@@ -6851,7 +6790,6 @@
   <carrier_config cid="2032" gid1="BA01450000000000" mcc="311" mnc="480" name="Xfinity Mobile">
     <boolean name="allow_add_call_during_video_call" value="false" />
     <boolean name="allow_adding_apns_bool" value="false" />
-    <boolean name="allow_hold_in_ims_call" value="false" />
     <boolean name="allow_merge_wifi_calls_when_vowifi_off_bool" value="false" />
     <boolean name="apn_expand_bool" value="false" />
     <string-array name="call_forwarding_blocks_while_roaming_string_array" num="2">
@@ -6949,7 +6887,6 @@
   <carrier_config cid="2032" gid1="BA01450000000000" mcc="311" mnc="481" name="Xfinity Mobile">
     <boolean name="allow_add_call_during_video_call" value="false" />
     <boolean name="allow_adding_apns_bool" value="false" />
-    <boolean name="allow_hold_in_ims_call" value="false" />
     <boolean name="allow_merge_wifi_calls_when_vowifi_off_bool" value="false" />
     <boolean name="apn_expand_bool" value="false" />
     <string-array name="call_forwarding_blocks_while_roaming_string_array" num="2">
@@ -7047,7 +6984,6 @@
   <carrier_config cid="2032" gid1="BA01450000000000" mcc="311" mnc="482" name="Xfinity Mobile">
     <boolean name="allow_add_call_during_video_call" value="false" />
     <boolean name="allow_adding_apns_bool" value="false" />
-    <boolean name="allow_hold_in_ims_call" value="false" />
     <boolean name="allow_merge_wifi_calls_when_vowifi_off_bool" value="false" />
     <boolean name="apn_expand_bool" value="false" />
     <string-array name="call_forwarding_blocks_while_roaming_string_array" num="2">
@@ -7145,7 +7081,6 @@
   <carrier_config cid="2032" gid1="BA01450000000000" mcc="311" mnc="483" name="Xfinity Mobile">
     <boolean name="allow_add_call_during_video_call" value="false" />
     <boolean name="allow_adding_apns_bool" value="false" />
-    <boolean name="allow_hold_in_ims_call" value="false" />
     <boolean name="allow_merge_wifi_calls_when_vowifi_off_bool" value="false" />
     <boolean name="apn_expand_bool" value="false" />
     <string-array name="call_forwarding_blocks_while_roaming_string_array" num="2">
@@ -7243,7 +7178,6 @@
   <carrier_config cid="2032" gid1="BA01450000000000" mcc="311" mnc="484" name="Xfinity Mobile">
     <boolean name="allow_add_call_during_video_call" value="false" />
     <boolean name="allow_adding_apns_bool" value="false" />
-    <boolean name="allow_hold_in_ims_call" value="false" />
     <boolean name="allow_merge_wifi_calls_when_vowifi_off_bool" value="false" />
     <boolean name="apn_expand_bool" value="false" />
     <string-array name="call_forwarding_blocks_while_roaming_string_array" num="2">
@@ -7341,7 +7275,6 @@
   <carrier_config cid="2032" gid1="BA01450000000000" mcc="311" mnc="485" name="Xfinity Mobile">
     <boolean name="allow_add_call_during_video_call" value="false" />
     <boolean name="allow_adding_apns_bool" value="false" />
-    <boolean name="allow_hold_in_ims_call" value="false" />
     <boolean name="allow_merge_wifi_calls_when_vowifi_off_bool" value="false" />
     <boolean name="apn_expand_bool" value="false" />
     <string-array name="call_forwarding_blocks_while_roaming_string_array" num="2">
@@ -7439,7 +7372,6 @@
   <carrier_config cid="2032" gid1="BA01450000000000" mcc="311" mnc="486" name="Xfinity Mobile">
     <boolean name="allow_add_call_during_video_call" value="false" />
     <boolean name="allow_adding_apns_bool" value="false" />
-    <boolean name="allow_hold_in_ims_call" value="false" />
     <boolean name="allow_merge_wifi_calls_when_vowifi_off_bool" value="false" />
     <boolean name="apn_expand_bool" value="false" />
     <string-array name="call_forwarding_blocks_while_roaming_string_array" num="2">
@@ -7537,7 +7469,6 @@
   <carrier_config cid="2032" gid1="BA01450000000000" mcc="311" mnc="487" name="Xfinity Mobile">
     <boolean name="allow_add_call_during_video_call" value="false" />
     <boolean name="allow_adding_apns_bool" value="false" />
-    <boolean name="allow_hold_in_ims_call" value="false" />
     <boolean name="allow_merge_wifi_calls_when_vowifi_off_bool" value="false" />
     <boolean name="apn_expand_bool" value="false" />
     <string-array name="call_forwarding_blocks_while_roaming_string_array" num="2">
@@ -7635,7 +7566,6 @@
   <carrier_config cid="2032" gid1="BA01450000000000" mcc="311" mnc="488" name="Xfinity Mobile">
     <boolean name="allow_add_call_during_video_call" value="false" />
     <boolean name="allow_adding_apns_bool" value="false" />
-    <boolean name="allow_hold_in_ims_call" value="false" />
     <boolean name="allow_merge_wifi_calls_when_vowifi_off_bool" value="false" />
     <boolean name="apn_expand_bool" value="false" />
     <string-array name="call_forwarding_blocks_while_roaming_string_array" num="2">
@@ -7733,7 +7663,6 @@
   <carrier_config cid="2032" gid1="BA01450000000000" mcc="311" mnc="489" name="Xfinity Mobile">
     <boolean name="allow_add_call_during_video_call" value="false" />
     <boolean name="allow_adding_apns_bool" value="false" />
-    <boolean name="allow_hold_in_ims_call" value="false" />
     <boolean name="allow_merge_wifi_calls_when_vowifi_off_bool" value="false" />
     <boolean name="apn_expand_bool" value="false" />
     <string-array name="call_forwarding_blocks_while_roaming_string_array" num="2">
@@ -7919,31 +7848,37 @@
   <carrier_config cid="2118" mcc="234" mnc="10" name="giffgaff" spn="\Qgiffgaff\E">
     <int name="smsToMmsTextThreshold" value="10" />
   </carrier_config>
-  <!-- open.313100.f98ae2c6c28a -->
+  <!-- open.312670.4e2b008c0ffb -->
+  <carrier_config cid="2119" mcc="312" mnc="670" name="FirstNet">
+    <boolean name="allow_hold_call_during_emergency_bool" value="false" />
+    <boolean name="carrier_default_wfc_ims_roaming_enabled_bool" value="true" />
+    <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
+  </carrier_config>
+  <!-- open.312670.4e2b008c0ffb -->
   <carrier_config cid="2119" mcc="313" mnc="100" name="FirstNet">
     <boolean name="allow_hold_call_during_emergency_bool" value="false" />
     <boolean name="carrier_default_wfc_ims_roaming_enabled_bool" value="true" />
     <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
   </carrier_config>
-  <!-- open.313100.f98ae2c6c28a -->
+  <!-- open.312670.4e2b008c0ffb -->
   <carrier_config cid="2119" mcc="313" mnc="110" name="FirstNet">
     <boolean name="allow_hold_call_during_emergency_bool" value="false" />
     <boolean name="carrier_default_wfc_ims_roaming_enabled_bool" value="true" />
     <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
   </carrier_config>
-  <!-- open.313100.f98ae2c6c28a -->
+  <!-- open.312670.4e2b008c0ffb -->
   <carrier_config cid="2119" mcc="313" mnc="120" name="FirstNet">
     <boolean name="allow_hold_call_during_emergency_bool" value="false" />
     <boolean name="carrier_default_wfc_ims_roaming_enabled_bool" value="true" />
     <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
   </carrier_config>
-  <!-- open.313100.f98ae2c6c28a -->
+  <!-- open.312670.4e2b008c0ffb -->
   <carrier_config cid="2119" mcc="313" mnc="130" name="FirstNet">
     <boolean name="allow_hold_call_during_emergency_bool" value="false" />
     <boolean name="carrier_default_wfc_ims_roaming_enabled_bool" value="true" />
     <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
   </carrier_config>
-  <!-- open.313100.f98ae2c6c28a -->
+  <!-- open.312670.4e2b008c0ffb -->
   <carrier_config cid="2119" mcc="313" mnc="140" name="FirstNet">
     <boolean name="allow_hold_call_during_emergency_bool" value="false" />
     <boolean name="carrier_default_wfc_ims_roaming_enabled_bool" value="true" />
@@ -8005,6 +7940,10 @@
     <boolean name="carrier_wfc_ims_available_bool" value="true" />
     <boolean name="show_ims_registration_status_bool" value="true" />
     <boolean name="show_wifi_calling_icon_in_status_bar_bool" value="true" />
+  </carrier_config>
+  <!-- open.41892.7aff50e0dd5c -->
+  <carrier_config cid="2167" mcc="418" mnc="92" name="Omnnea">
+    <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
   <!-- open.20404.4f09afffc6d4 -->
   <carrier_config cid="2237" mcc="204" mnc="04" name="China Telecom" spn="\Q中国电信\E">
@@ -8390,7 +8329,6 @@
   <carrier_config cid="2556" gid1="BA01640000000000" mcc="310" mnc="590" name="Xfinity Mobile 2.0">
     <boolean name="allow_add_call_during_video_call" value="false" />
     <boolean name="allow_adding_apns_bool" value="false" />
-    <boolean name="allow_hold_in_ims_call" value="false" />
     <boolean name="allow_merge_wifi_calls_when_vowifi_off_bool" value="false" />
     <boolean name="apn_expand_bool" value="false" />
     <string-array name="call_forwarding_blocks_while_roaming_string_array" num="2">
@@ -8488,7 +8426,6 @@
   <carrier_config cid="2556" gid1="BA01640000000000" mcc="310" mnc="591" name="Xfinity Mobile 2.0">
     <boolean name="allow_add_call_during_video_call" value="false" />
     <boolean name="allow_adding_apns_bool" value="false" />
-    <boolean name="allow_hold_in_ims_call" value="false" />
     <boolean name="allow_merge_wifi_calls_when_vowifi_off_bool" value="false" />
     <boolean name="apn_expand_bool" value="false" />
     <string-array name="call_forwarding_blocks_while_roaming_string_array" num="2">
@@ -8586,7 +8523,6 @@
   <carrier_config cid="2556" gid1="BA01640000000000" mcc="310" mnc="599" name="Xfinity Mobile 2.0">
     <boolean name="allow_add_call_during_video_call" value="false" />
     <boolean name="allow_adding_apns_bool" value="false" />
-    <boolean name="allow_hold_in_ims_call" value="false" />
     <boolean name="allow_merge_wifi_calls_when_vowifi_off_bool" value="false" />
     <boolean name="apn_expand_bool" value="false" />
     <string-array name="call_forwarding_blocks_while_roaming_string_array" num="2">
@@ -8684,7 +8620,6 @@
   <carrier_config cid="2556" gid1="BA01640000000000" mcc="311" mnc="480" name="Xfinity Mobile 2.0">
     <boolean name="allow_add_call_during_video_call" value="false" />
     <boolean name="allow_adding_apns_bool" value="false" />
-    <boolean name="allow_hold_in_ims_call" value="false" />
     <boolean name="allow_merge_wifi_calls_when_vowifi_off_bool" value="false" />
     <boolean name="apn_expand_bool" value="false" />
     <string-array name="call_forwarding_blocks_while_roaming_string_array" num="2">
@@ -8782,7 +8717,6 @@
   <carrier_config cid="2556" gid1="BA01640000000000" mcc="311" mnc="481" name="Xfinity Mobile 2.0">
     <boolean name="allow_add_call_during_video_call" value="false" />
     <boolean name="allow_adding_apns_bool" value="false" />
-    <boolean name="allow_hold_in_ims_call" value="false" />
     <boolean name="allow_merge_wifi_calls_when_vowifi_off_bool" value="false" />
     <boolean name="apn_expand_bool" value="false" />
     <string-array name="call_forwarding_blocks_while_roaming_string_array" num="2">
@@ -8880,7 +8814,6 @@
   <carrier_config cid="2556" gid1="BA01640000000000" mcc="311" mnc="482" name="Xfinity Mobile 2.0">
     <boolean name="allow_add_call_during_video_call" value="false" />
     <boolean name="allow_adding_apns_bool" value="false" />
-    <boolean name="allow_hold_in_ims_call" value="false" />
     <boolean name="allow_merge_wifi_calls_when_vowifi_off_bool" value="false" />
     <boolean name="apn_expand_bool" value="false" />
     <string-array name="call_forwarding_blocks_while_roaming_string_array" num="2">
@@ -8978,7 +8911,6 @@
   <carrier_config cid="2556" gid1="BA01640000000000" mcc="311" mnc="483" name="Xfinity Mobile 2.0">
     <boolean name="allow_add_call_during_video_call" value="false" />
     <boolean name="allow_adding_apns_bool" value="false" />
-    <boolean name="allow_hold_in_ims_call" value="false" />
     <boolean name="allow_merge_wifi_calls_when_vowifi_off_bool" value="false" />
     <boolean name="apn_expand_bool" value="false" />
     <string-array name="call_forwarding_blocks_while_roaming_string_array" num="2">
@@ -9076,7 +9008,6 @@
   <carrier_config cid="2556" gid1="BA01640000000000" mcc="311" mnc="484" name="Xfinity Mobile 2.0">
     <boolean name="allow_add_call_during_video_call" value="false" />
     <boolean name="allow_adding_apns_bool" value="false" />
-    <boolean name="allow_hold_in_ims_call" value="false" />
     <boolean name="allow_merge_wifi_calls_when_vowifi_off_bool" value="false" />
     <boolean name="apn_expand_bool" value="false" />
     <string-array name="call_forwarding_blocks_while_roaming_string_array" num="2">
@@ -9174,7 +9105,6 @@
   <carrier_config cid="2556" gid1="BA01640000000000" mcc="311" mnc="485" name="Xfinity Mobile 2.0">
     <boolean name="allow_add_call_during_video_call" value="false" />
     <boolean name="allow_adding_apns_bool" value="false" />
-    <boolean name="allow_hold_in_ims_call" value="false" />
     <boolean name="allow_merge_wifi_calls_when_vowifi_off_bool" value="false" />
     <boolean name="apn_expand_bool" value="false" />
     <string-array name="call_forwarding_blocks_while_roaming_string_array" num="2">
@@ -9272,7 +9202,6 @@
   <carrier_config cid="2556" gid1="BA01640000000000" mcc="311" mnc="486" name="Xfinity Mobile 2.0">
     <boolean name="allow_add_call_during_video_call" value="false" />
     <boolean name="allow_adding_apns_bool" value="false" />
-    <boolean name="allow_hold_in_ims_call" value="false" />
     <boolean name="allow_merge_wifi_calls_when_vowifi_off_bool" value="false" />
     <boolean name="apn_expand_bool" value="false" />
     <string-array name="call_forwarding_blocks_while_roaming_string_array" num="2">
@@ -9370,7 +9299,6 @@
   <carrier_config cid="2556" gid1="BA01640000000000" mcc="311" mnc="487" name="Xfinity Mobile 2.0">
     <boolean name="allow_add_call_during_video_call" value="false" />
     <boolean name="allow_adding_apns_bool" value="false" />
-    <boolean name="allow_hold_in_ims_call" value="false" />
     <boolean name="allow_merge_wifi_calls_when_vowifi_off_bool" value="false" />
     <boolean name="apn_expand_bool" value="false" />
     <string-array name="call_forwarding_blocks_while_roaming_string_array" num="2">
@@ -9468,7 +9396,6 @@
   <carrier_config cid="2556" gid1="BA01640000000000" mcc="311" mnc="488" name="Xfinity Mobile 2.0">
     <boolean name="allow_add_call_during_video_call" value="false" />
     <boolean name="allow_adding_apns_bool" value="false" />
-    <boolean name="allow_hold_in_ims_call" value="false" />
     <boolean name="allow_merge_wifi_calls_when_vowifi_off_bool" value="false" />
     <boolean name="apn_expand_bool" value="false" />
     <string-array name="call_forwarding_blocks_while_roaming_string_array" num="2">
@@ -9566,7 +9493,6 @@
   <carrier_config cid="2556" gid1="BA01640000000000" mcc="311" mnc="489" name="Xfinity Mobile 2.0">
     <boolean name="allow_add_call_during_video_call" value="false" />
     <boolean name="allow_adding_apns_bool" value="false" />
-    <boolean name="allow_hold_in_ims_call" value="false" />
     <boolean name="allow_merge_wifi_calls_when_vowifi_off_bool" value="false" />
     <boolean name="apn_expand_bool" value="false" />
     <string-array name="call_forwarding_blocks_while_roaming_string_array" num="2">
@@ -9664,7 +9590,6 @@
   <carrier_config cid="2556" mcc="314" mnc="240" name="Xfinity Mobile 2.0">
     <boolean name="allow_add_call_during_video_call" value="false" />
     <boolean name="allow_adding_apns_bool" value="false" />
-    <boolean name="allow_hold_in_ims_call" value="false" />
     <boolean name="allow_merge_wifi_calls_when_vowifi_off_bool" value="false" />
     <boolean name="apn_expand_bool" value="false" />
     <string-array name="call_forwarding_blocks_while_roaming_string_array" num="2">
@@ -9811,6 +9736,34 @@
     <boolean name="carrier_volte_available_bool" value="true" />
     <boolean name="hide_ims_apn_bool" value="true" />
     <int name="volte_replacement_rat_int" value="3" />
+  </carrier_config>
+  <!-- open.72477.ae62c7e7eaaf -->
+  <carrier_config cid="2659" mcc="724" mnc="77" name="Brisanet">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="carrier_wfc_ims_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.20601.9b971ea39e73 -->
+  <carrier_config cid="2670" gid1="2273" mcc="206" mnc="01" name="Cape">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.20601.9b971ea39e73 -->
+  <carrier_config cid="2670" gid1="2273" mcc="302" mnc="220" name="Cape">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.20601.9b971ea39e73 -->
+  <carrier_config cid="2670" gid1="2273" mcc="311" mnc="588" name="Cape">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.314560.a8917ba67627 -->
+  <carrier_config cid="2670" gid1="2273" mcc="314" mnc="560" name="Cape">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.22874.011e2daaef3a -->
+  <carrier_config cid="2677" mcc="228" mnc="74" name="netplus.ch">
+    <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
+    <boolean name="hide_enhanced_4g_lte_bool" value="false" />
   </carrier_config>
   <!-- open.20809.3cfed17632bb -->
   <carrier_config cid="27" mcc="208" mnc="09" name="SFR">

@@ -63,6 +63,22 @@
         "profile_id": "open.310590.0a4d8b840b51"
       }
     ],
+    "10013": [
+      {
+        "display_name": "FirstNet Pacific",
+        "match": {
+          "android_carrier_ids": [
+            10013
+          ],
+          "mccmnc": [
+            "313110",
+            "313120"
+          ]
+        },
+        "path": "carriers/open/313110.111b80ddf995.json",
+        "profile_id": "open.313110.111b80ddf995"
+      }
+    ],
     "10030": [
       {
         "display_name": "TANGO-US",
@@ -132,19 +148,17 @@
           ],
           "mccmnc": [
             "310030",
-            "310070",
             "310170",
             "310280",
             "310380",
             "310410",
             "310560",
-            "310680",
             "310950",
             "311180"
           ]
         },
-        "path": "carriers/open/310030.15773913918d.json",
-        "profile_id": "open.310030.15773913918d"
+        "path": "carriers/open/310030.82b9c25f1bc1.json",
+        "profile_id": "open.310030.82b9c25f1bc1"
       }
     ],
     "1190": [
@@ -518,7 +532,7 @@
     ],
     "1535": [
       {
-        "display_name": "Vodafone",
+        "display_name": "One HU",
         "match": {
           "android_carrier_ids": [
             1535
@@ -602,7 +616,7 @@
     ],
     "1609": [
       {
-        "display_name": "Nov Operator",
+        "display_name": "A1",
         "match": {
           "android_carrier_ids": [
             1609
@@ -887,11 +901,12 @@
             1813
           ],
           "mccmnc": [
-            "310750"
+            "310750",
+            "312130"
           ]
         },
-        "path": "carriers/open/310750.1b8f9d244785.json",
-        "profile_id": "open.310750.1b8f9d244785"
+        "path": "carriers/open/310750.966664767e5c.json",
+        "profile_id": "open.310750.966664767e5c"
       }
     ],
     "1815": [
@@ -2189,6 +2204,7 @@
             2119
           ],
           "mccmnc": [
+            "312670",
             "313100",
             "313110",
             "313120",
@@ -2196,8 +2212,8 @@
             "313140"
           ]
         },
-        "path": "carriers/open/313100.f98ae2c6c28a.json",
-        "profile_id": "open.313100.f98ae2c6c28a"
+        "path": "carriers/open/312670.4e2b008c0ffb.json",
+        "profile_id": "open.312670.4e2b008c0ffb"
       }
     ],
     "2130": [
@@ -2311,6 +2327,21 @@
         },
         "path": "carriers/open/27411.bf9d9bfd800c.json",
         "profile_id": "open.27411.bf9d9bfd800c"
+      }
+    ],
+    "2167": [
+      {
+        "display_name": "Omnnea",
+        "match": {
+          "android_carrier_ids": [
+            2167
+          ],
+          "mccmnc": [
+            "41892"
+          ]
+        },
+        "path": "carriers/open/41892.7aff50e0dd5c.json",
+        "profile_id": "open.41892.7aff50e0dd5c"
       }
     ],
     "2237": [
@@ -3350,6 +3381,72 @@
         },
         "path": "carriers/open/314720.31d855b88a11.json",
         "profile_id": "open.314720.31d855b88a11"
+      }
+    ],
+    "2659": [
+      {
+        "display_name": "Brisanet",
+        "match": {
+          "android_carrier_ids": [
+            2659
+          ],
+          "mccmnc": [
+            "72477"
+          ]
+        },
+        "path": "carriers/open/72477.ae62c7e7eaaf.json",
+        "profile_id": "open.72477.ae62c7e7eaaf"
+      }
+    ],
+    "2670": [
+      {
+        "display_name": "Cape",
+        "match": {
+          "android_carrier_ids": [
+            2670
+          ],
+          "gid1_prefixes": [
+            "2273"
+          ],
+          "mccmnc": [
+            "20601",
+            "302220",
+            "311588"
+          ]
+        },
+        "path": "carriers/open/20601.9b971ea39e73.json",
+        "profile_id": "open.20601.9b971ea39e73"
+      },
+      {
+        "display_name": "Cape",
+        "match": {
+          "android_carrier_ids": [
+            2670
+          ],
+          "gid1_prefixes": [
+            "2273"
+          ],
+          "mccmnc": [
+            "314560"
+          ]
+        },
+        "path": "carriers/open/314560.a8917ba67627.json",
+        "profile_id": "open.314560.a8917ba67627"
+      }
+    ],
+    "2677": [
+      {
+        "display_name": "netplus.ch",
+        "match": {
+          "android_carrier_ids": [
+            2677
+          ],
+          "mccmnc": [
+            "22874"
+          ]
+        },
+        "path": "carriers/open/22874.011e2daaef3a.json",
+        "profile_id": "open.22874.011e2daaef3a"
       }
     ],
     "27": [

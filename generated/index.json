@@ -296,6 +296,11 @@
       "profile_id": "open.20601.924dd9b15c3c"
     },
     {
+      "display_name": "Cape",
+      "path": "carriers/open/20601.9b971ea39e73.json",
+      "profile_id": "open.20601.9b971ea39e73"
+    },
+    {
       "display_name": "vtr",
       "path": "carriers/open/20601.ba7a48787db8.json",
       "profile_id": "open.20601.ba7a48787db8"
@@ -1126,7 +1131,7 @@
       "profile_id": "open.21670.1b3b9f7d0a6f"
     },
     {
-      "display_name": "Vodafone",
+      "display_name": "One HU",
       "path": "carriers/open/21670.a90e85c2329e.json",
       "profile_id": "open.21670.a90e85c2329e"
     },
@@ -1634,6 +1639,11 @@
       "display_name": "Lycamobile",
       "path": "carriers/open/22854.fa4b13977150.json",
       "profile_id": "open.22854.fa4b13977150"
+    },
+    {
+      "display_name": "netplus.ch",
+      "path": "carriers/open/22874.011e2daaef3a.json",
+      "profile_id": "open.22874.011e2daaef3a"
     },
     {
       "display_name": "MOBIL.CZ",
@@ -3481,7 +3491,7 @@
       "profile_id": "open.29403.506dfa1d953e"
     },
     {
-      "display_name": "Nov Operator",
+      "display_name": "A1",
       "path": "carriers/open/29403.e1fa7b308cce.json",
       "profile_id": "open.29403.e1fa7b308cce"
     },
@@ -4041,14 +4051,14 @@
       "profile_id": "open.310028.d4cf5389dce9"
     },
     {
-      "display_name": "AT&T",
-      "path": "carriers/open/310030.15773913918d.json",
-      "profile_id": "open.310030.15773913918d"
-    },
-    {
       "display_name": "Truphone",
       "path": "carriers/open/310030.79ea374cf0b3.json",
       "profile_id": "open.310030.79ea374cf0b3"
+    },
+    {
+      "display_name": "AT&T",
+      "path": "carriers/open/310030.82b9c25f1bc1.json",
+      "profile_id": "open.310030.82b9c25f1bc1"
     },
     {
       "display_name": "MTA Communications dba MTA Wireless",
@@ -4662,8 +4672,8 @@
     },
     {
       "display_name": "East Kentucky Network LLC dba Appalachian Wireless",
-      "path": "carriers/open/310750.1b8f9d244785.json",
-      "profile_id": "open.310750.1b8f9d244785"
+      "path": "carriers/open/310750.966664767e5c.json",
+      "profile_id": "open.310750.966664767e5c"
     },
     {
       "display_name": "iWireless",
@@ -5172,6 +5182,11 @@
     },
     {
       "display_name": "FirstNet",
+      "path": "carriers/open/312670.4e2b008c0ffb.json",
+      "profile_id": "open.312670.4e2b008c0ffb"
+    },
+    {
+      "display_name": "FirstNet",
       "path": "carriers/open/312670.eaaa2752febd.json",
       "profile_id": "open.312670.eaaa2752febd"
     },
@@ -5191,9 +5206,9 @@
       "profile_id": "open.313100.7d8b22bfc5b1"
     },
     {
-      "display_name": "FirstNet",
-      "path": "carriers/open/313100.f98ae2c6c28a.json",
-      "profile_id": "open.313100.f98ae2c6c28a"
+      "display_name": "FirstNet Pacific",
+      "path": "carriers/open/313110.111b80ddf995.json",
+      "profile_id": "open.313110.111b80ddf995"
     },
     {
       "display_name": "DOCOMO PACIFIC",
@@ -5234,6 +5249,11 @@
       "display_name": "Xfinity Mobile 2.0",
       "path": "carriers/open/314240.73697514665b.json",
       "profile_id": "open.314240.73697514665b"
+    },
+    {
+      "display_name": "Cape",
+      "path": "carriers/open/314560.a8917ba67627.json",
+      "profile_id": "open.314560.a8917ba67627"
     },
     {
       "display_name": "OXIO",
@@ -9067,6 +9087,11 @@
     },
     {
       "display_name": "Omnnea",
+      "path": "carriers/open/41892.7aff50e0dd5c.json",
+      "profile_id": "open.41892.7aff50e0dd5c"
+    },
+    {
+      "display_name": "Omnnea",
       "path": "carriers/open/41892.8df0f19aa2ea.json",
       "profile_id": "open.41892.8df0f19aa2ea"
     },
@@ -12029,6 +12054,11 @@
       "display_name": "1GLOBAL",
       "path": "carriers/open/72455.37ec736ea766.json",
       "profile_id": "open.72455.37ec736ea766"
+    },
+    {
+      "display_name": "Brisanet",
+      "path": "carriers/open/72477.ae62c7e7eaaf.json",
+      "profile_id": "open.72477.ae62c7e7eaaf"
     },
     {
       "display_name": "entel",

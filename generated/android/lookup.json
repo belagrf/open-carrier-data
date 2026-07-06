@@ -1564,6 +1564,38 @@
       "profile_id": "open.20601.924dd9b15c3c"
     },
     {
+      "android_apn_count": 0,
+      "capabilities": {
+        "esim": "unknown",
+        "ims_conference": "unknown",
+        "mms": "unknown",
+        "rcs": "unknown",
+        "sms_over_ims": "unknown",
+        "video_calling": "unknown",
+        "volte": "supported",
+        "vonr": "unknown",
+        "vowifi": "unknown",
+        "wifi_calling_roaming": "unknown"
+      },
+      "display_name": "Cape",
+      "has_android_carrier_config": true,
+      "match": {
+        "android_carrier_ids": [
+          2670
+        ],
+        "gid1_prefixes": [
+          "2273"
+        ],
+        "mccmnc": [
+          "20601",
+          "302220",
+          "311588"
+        ]
+      },
+      "path": "carriers/open/20601.9b971ea39e73.json",
+      "profile_id": "open.20601.9b971ea39e73"
+    },
+    {
       "android_apn_count": 1,
       "capabilities": {
         "esim": "unknown",
@@ -5956,7 +5988,7 @@
         "vowifi": "unknown",
         "wifi_calling_roaming": "unknown"
       },
-      "display_name": "Vodafone",
+      "display_name": "One HU",
       "has_android_carrier_config": true,
       "match": {
         "android_carrier_ids": [
@@ -8543,6 +8575,33 @@
       },
       "path": "carriers/open/22854.fa4b13977150.json",
       "profile_id": "open.22854.fa4b13977150"
+    },
+    {
+      "android_apn_count": 0,
+      "capabilities": {
+        "esim": "unknown",
+        "ims_conference": "unknown",
+        "mms": "unknown",
+        "rcs": "unknown",
+        "sms_over_ims": "unknown",
+        "video_calling": "unknown",
+        "volte": "supported",
+        "vonr": "unknown",
+        "vowifi": "unknown",
+        "wifi_calling_roaming": "unknown"
+      },
+      "display_name": "netplus.ch",
+      "has_android_carrier_config": true,
+      "match": {
+        "android_carrier_ids": [
+          2677
+        ],
+        "mccmnc": [
+          "22874"
+        ]
+      },
+      "path": "carriers/open/22874.011e2daaef3a.json",
+      "profile_id": "open.22874.011e2daaef3a"
     },
     {
       "android_apn_count": 7,
@@ -17949,7 +18008,7 @@
         "vowifi": "unknown",
         "wifi_calling_roaming": "unknown"
       },
-      "display_name": "Nov Operator",
+      "display_name": "A1",
       "has_android_carrier_config": true,
       "match": {
         "android_carrier_ids": [
@@ -20984,42 +21043,6 @@
       "profile_id": "open.310028.d4cf5389dce9"
     },
     {
-      "android_apn_count": 0,
-      "capabilities": {
-        "esim": "unknown",
-        "ims_conference": "unknown",
-        "mms": "unknown",
-        "rcs": "unknown",
-        "sms_over_ims": "unknown",
-        "video_calling": "unknown",
-        "volte": "unknown",
-        "vonr": "unknown",
-        "vowifi": "unknown",
-        "wifi_calling_roaming": "supported"
-      },
-      "display_name": "AT&T",
-      "has_android_carrier_config": true,
-      "match": {
-        "android_carrier_ids": [
-          1187
-        ],
-        "mccmnc": [
-          "310030",
-          "310070",
-          "310170",
-          "310280",
-          "310380",
-          "310410",
-          "310560",
-          "310680",
-          "310950",
-          "311180"
-        ]
-      },
-      "path": "carriers/open/310030.15773913918d.json",
-      "profile_id": "open.310030.15773913918d"
-    },
-    {
       "android_apn_count": 3,
       "capabilities": {
         "esim": "unknown",
@@ -21042,6 +21065,40 @@
       },
       "path": "carriers/open/310030.79ea374cf0b3.json",
       "profile_id": "open.310030.79ea374cf0b3"
+    },
+    {
+      "android_apn_count": 0,
+      "capabilities": {
+        "esim": "unknown",
+        "ims_conference": "unknown",
+        "mms": "unknown",
+        "rcs": "unknown",
+        "sms_over_ims": "unknown",
+        "video_calling": "unknown",
+        "volte": "unknown",
+        "vonr": "unknown",
+        "vowifi": "unknown",
+        "wifi_calling_roaming": "supported"
+      },
+      "display_name": "AT&T",
+      "has_android_carrier_config": true,
+      "match": {
+        "android_carrier_ids": [
+          1187
+        ],
+        "mccmnc": [
+          "310030",
+          "310170",
+          "310280",
+          "310380",
+          "310410",
+          "310560",
+          "310950",
+          "311180"
+        ]
+      },
+      "path": "carriers/open/310030.82b9c25f1bc1.json",
+      "profile_id": "open.310030.82b9c25f1bc1"
     },
     {
       "android_apn_count": 0,
@@ -24304,11 +24361,12 @@
           1813
         ],
         "mccmnc": [
-          "310750"
+          "310750",
+          "312130"
         ]
       },
-      "path": "carriers/open/310750.1b8f9d244785.json",
-      "profile_id": "open.310750.1b8f9d244785"
+      "path": "carriers/open/310750.966664767e5c.json",
+      "profile_id": "open.310750.966664767e5c"
     },
     {
       "android_apn_count": 6,
@@ -26926,6 +26984,38 @@
       "profile_id": "open.312670.2b08d2ac80a4"
     },
     {
+      "android_apn_count": 0,
+      "capabilities": {
+        "esim": "unknown",
+        "ims_conference": "unknown",
+        "mms": "unknown",
+        "rcs": "unknown",
+        "sms_over_ims": "unknown",
+        "video_calling": "unknown",
+        "volte": "unknown",
+        "vonr": "unknown",
+        "vowifi": "unknown",
+        "wifi_calling_roaming": "supported"
+      },
+      "display_name": "FirstNet",
+      "has_android_carrier_config": true,
+      "match": {
+        "android_carrier_ids": [
+          2119
+        ],
+        "mccmnc": [
+          "312670",
+          "313100",
+          "313110",
+          "313120",
+          "313130",
+          "313140"
+        ]
+      },
+      "path": "carriers/open/312670.4e2b008c0ffb.json",
+      "profile_id": "open.312670.4e2b008c0ffb"
+    },
+    {
       "android_apn_count": 2,
       "capabilities": {
         "esim": "unknown",
@@ -27029,31 +27119,28 @@
       "capabilities": {
         "esim": "unknown",
         "ims_conference": "unknown",
-        "mms": "unknown",
+        "mms": "unsupported",
         "rcs": "unknown",
         "sms_over_ims": "unknown",
         "video_calling": "unknown",
         "volte": "unknown",
         "vonr": "unknown",
         "vowifi": "unknown",
-        "wifi_calling_roaming": "supported"
+        "wifi_calling_roaming": "unknown"
       },
-      "display_name": "FirstNet",
+      "display_name": "FirstNet Pacific",
       "has_android_carrier_config": true,
       "match": {
         "android_carrier_ids": [
-          2119
+          10013
         ],
         "mccmnc": [
-          "313100",
           "313110",
-          "313120",
-          "313130",
-          "313140"
+          "313120"
         ]
       },
-      "path": "carriers/open/313100.f98ae2c6c28a.json",
-      "profile_id": "open.313100.f98ae2c6c28a"
+      "path": "carriers/open/313110.111b80ddf995.json",
+      "profile_id": "open.313110.111b80ddf995"
     },
     {
       "android_apn_count": 2,
@@ -27261,6 +27348,36 @@
       },
       "path": "carriers/open/314240.73697514665b.json",
       "profile_id": "open.314240.73697514665b"
+    },
+    {
+      "android_apn_count": 0,
+      "capabilities": {
+        "esim": "unknown",
+        "ims_conference": "unknown",
+        "mms": "unknown",
+        "rcs": "unknown",
+        "sms_over_ims": "unknown",
+        "video_calling": "unknown",
+        "volte": "supported",
+        "vonr": "unknown",
+        "vowifi": "unknown",
+        "wifi_calling_roaming": "unknown"
+      },
+      "display_name": "Cape",
+      "has_android_carrier_config": true,
+      "match": {
+        "android_carrier_ids": [
+          2670
+        ],
+        "gid1_prefixes": [
+          "2273"
+        ],
+        "mccmnc": [
+          "314560"
+        ]
+      },
+      "path": "carriers/open/314560.a8917ba67627.json",
+      "profile_id": "open.314560.a8917ba67627"
     },
     {
       "android_apn_count": 0,
@@ -47210,6 +47327,33 @@
       "profile_id": "open.41866.ac04bd3359a7"
     },
     {
+      "android_apn_count": 0,
+      "capabilities": {
+        "esim": "unknown",
+        "ims_conference": "unknown",
+        "mms": "unknown",
+        "rcs": "unknown",
+        "sms_over_ims": "unknown",
+        "video_calling": "unknown",
+        "volte": "supported",
+        "vonr": "unknown",
+        "vowifi": "unknown",
+        "wifi_calling_roaming": "unknown"
+      },
+      "display_name": "Omnnea",
+      "has_android_carrier_config": true,
+      "match": {
+        "android_carrier_ids": [
+          2167
+        ],
+        "mccmnc": [
+          "41892"
+        ]
+      },
+      "path": "carriers/open/41892.7aff50e0dd5c.json",
+      "profile_id": "open.41892.7aff50e0dd5c"
+    },
+    {
       "android_apn_count": 1,
       "capabilities": {
         "esim": "unknown",
@@ -62043,6 +62187,33 @@
       },
       "path": "carriers/open/72455.37ec736ea766.json",
       "profile_id": "open.72455.37ec736ea766"
+    },
+    {
+      "android_apn_count": 0,
+      "capabilities": {
+        "esim": "unknown",
+        "ims_conference": "unknown",
+        "mms": "unknown",
+        "rcs": "unknown",
+        "sms_over_ims": "unknown",
+        "video_calling": "unknown",
+        "volte": "supported",
+        "vonr": "unknown",
+        "vowifi": "supported",
+        "wifi_calling_roaming": "unknown"
+      },
+      "display_name": "Brisanet",
+      "has_android_carrier_config": true,
+      "match": {
+        "android_carrier_ids": [
+          2659
+        ],
+        "mccmnc": [
+          "72477"
+        ]
+      },
+      "path": "carriers/open/72477.ae62c7e7eaaf.json",
+      "profile_id": "open.72477.ae62c7e7eaaf"
     },
     {
       "android_apn_count": 6,
