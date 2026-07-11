@@ -3171,6 +3171,11 @@
       "profile_id": "open.26202.b148b725e925"
     },
     {
+      "display_name": "vodafone.de (VD2)",
+      "path": "carriers/open/26202.c148f32b9a2c.json",
+      "profile_id": "open.26202.c148f32b9a2c"
+    },
+    {
       "display_name": "vf nl",
       "path": "carriers/open/26202.db9b35c48658.json",
       "profile_id": "open.26202.db9b35c48658"
@@ -3239,6 +3244,11 @@
       "display_name": "Carrier 26209",
       "path": "carriers/open/26209.66062d3d36fc.json",
       "profile_id": "open.26209.66062d3d36fc"
+    },
+    {
+      "display_name": "vodafone.de.lab (VD2)",
+      "path": "carriers/open/26209.f0f145342ecd.json",
+      "profile_id": "open.26209.f0f145342ecd"
     },
     {
       "display_name": "Carrier 26211",

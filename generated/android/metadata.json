@@ -4,8 +4,8 @@
     "carrier_config_profiles_with_unrepresentable_match": 51
   },
   "output": {
-    "apn_row_count": 6303,
-    "carrier_config_xml_block_count": 739
+    "apn_row_count": 6307,
+    "carrier_config_xml_block_count": 741
   },
   "schema_version": 1,
   "target": {

@@ -1536,6 +1536,8 @@
   <apn apn="IMS" carrier="Vodafone.de (GCF) IMS" mcc="262" mnc="02" mvno_match_data="Vodafone.de" mvno_type="spn" protocol="IPV4V6" type="ims" />
   <apn apn="event.vodafone.de" carrier="Vodafone.de (GCF) VF DE Event" mcc="262" mmsc="http://139.7.24.1/servlets/mms" mmsport="80" mmsproxy="139.007.029.017" mnc="02" mvno_match_data="Vodafone.de" mvno_type="spn" protocol="IPV4V6" roaming_protocol="IPV4V6" type="mms" />
   <apn apn="web.vodafone.de" carrier="Vodafone.de (GCF) VF DE Web" mcc="262" mnc="02" mvno_match_data="Vodafone.de" mvno_type="spn" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,xcap" />
+  <apn apn="IMS" carrier="vodafone.de (VD2) IMS" mcc="262" mnc="02" mvno_match_data="vodafone.de" mvno_type="spn" protocol="IPV4V6" roaming_protocol="IPV4V6" type="ims" />
+  <apn apn="web.vodafone.de" carrier="vodafone.de (VD2) VF DE Web" mcc="262" mnc="02" mvno_match_data="vodafone.de" mvno_type="spn" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,xcap" />
   <apn apn="ims" carrier="Carrier 26203 O2 DE IMS" carrier_id="1456" mcc="262" mnc="03" protocol="IPV4V6" roaming_protocol="IPV4V6" type="ims" user_visible="false" />
   <apn apn="internet" carrier="Carrier 26203 O2 DE Internet" carrier_id="1456" mcc="262" mmsc="http://10.81.0.7:8002" mmsport="8080" mmsproxy="82.113.100.5" mnc="03" type="default,mms,supl" />
   <apn apn="internet.eplus.de" authtype="1" carrier="Carrier 26203 MEDIONmobile" mcc="262" mnc="03" password="internet" type="default,supl" user="eplus" />
@@ -1564,6 +1566,8 @@
   <apn apn="internet" carrier="o2 - de (GCF) o2 Internet" mcc="262" mnc="07" mvno_match_data="o2 - de" mvno_type="spn" type="default,xcap" />
   <apn apn="internet" carrier="o2 - de (GCF) o2 MMS" mcc="262" mmsc="http://10.81.0.7:8002" mmsport="8080" mmsproxy="82.113.100.5" mnc="07" mvno_match_data="o2 - de" mvno_type="spn" type="mms" />
   <apn apn="ims" carrier="Carrier 26208 O2 DE IMS" mcc="262" mnc="08" mvno_match_data="2620739" mvno_type="imsi" protocol="IPV4V6" roaming_protocol="IPV4V6" type="ims" />
+  <apn apn="ims32.testnetz-vd2.de" carrier="vodafone.de.lab (VD2) IMS" mcc="262" mnc="09" mvno_match_data="vodafone.de.lab" mvno_type="spn" protocol="IPV4V6" roaming_protocol="IPV4V6" type="ims" />
+  <apn apn="web32.testnetz-vd2.de" carrier="vodafone.de.lab (VD2) VF DE Web" mcc="262" mnc="09" mvno_match_data="vodafone.de.lab" mvno_type="spn" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,xcap" />
   <apn apn="hos" bearer_bitmask="14" carrier="Carrier 26223 1and1 XCAP" carrier_id="2536" mcc="262" mnc="23" protocol="IPV4V6" roaming_protocol="IPV4V6" type="xcap" />
   <apn apn="ims" bearer_bitmask="14|18|20" carrier="Carrier 26223 1and1 IMS" carrier_id="2536" mcc="262" mnc="23" protocol="IPV6" roaming_protocol="IPV4V6" type="ims" />
   <apn apn="internet" authtype="1" carrier="Carrier 26223 1and1 Internet" carrier_id="2536" mcc="262" mnc="23" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,supl" />

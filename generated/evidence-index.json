@@ -7287,6 +7287,41 @@
     },
     {
       "observation_count": 1,
+      "observed_scope": {
+        "android_majors": [
+          "13"
+        ],
+        "models": [
+          "SM-G981B"
+        ],
+        "multi_csc": [
+          "OXM"
+        ],
+        "omc_revisions": [
+          "0013"
+        ],
+        "omc_versions": [
+          "SAOMC_SM-G981B_OXM_VD2_13_0013"
+        ],
+        "sales_codes": [
+          "VD2"
+        ],
+        "source_layers": [
+          "gras_delta"
+        ]
+      },
+      "profile_id": "open.26202.c148f32b9a2c",
+      "reviewed_range": {
+        "newest": "2026-07-11",
+        "oldest": "2026-07-11"
+      },
+      "sources": [
+        "samsung_omc"
+      ],
+      "verified_observation_count": 0
+    },
+    {
+      "observation_count": 1,
       "profile_id": "open.26202.db9b35c48658",
       "sources": [
         "apple_carrier_bundles"
@@ -7474,6 +7509,41 @@
       ],
       "sources": [
         "mobile_broadband_provider_info"
+      ],
+      "verified_observation_count": 0
+    },
+    {
+      "observation_count": 1,
+      "observed_scope": {
+        "android_majors": [
+          "13"
+        ],
+        "models": [
+          "SM-G981B"
+        ],
+        "multi_csc": [
+          "OXM"
+        ],
+        "omc_revisions": [
+          "0013"
+        ],
+        "omc_versions": [
+          "SAOMC_SM-G981B_OXM_VD2_13_0013"
+        ],
+        "sales_codes": [
+          "VD2"
+        ],
+        "source_layers": [
+          "gras_delta"
+        ]
+      },
+      "profile_id": "open.26209.f0f145342ecd",
+      "reviewed_range": {
+        "newest": "2026-07-11",
+        "oldest": "2026-07-11"
+      },
+      "sources": [
+        "samsung_omc"
       ],
       "verified_observation_count": 0
     },
