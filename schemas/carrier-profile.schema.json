@@ -197,6 +197,7 @@
           "ims.sip_over_ipsec_enabled_bool",
           "ims.use_sip_uri_for_presence_subscribe_bool",
           "ims.use_tel_uri_for_pidf_xml",
+          "imssms.sms_over_ims_supported_bool",
           "ims_conference_size_limit_int",
           "ims_dtmf_tone_delay_int",
           "ims_reasoninfo_mapping_string_array",

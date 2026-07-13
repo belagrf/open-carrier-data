@@ -66,6 +66,20 @@ when its recorded check is more than 180 days old.
   firmware observations need a real release date, not merely a recent import
   date
 
+### Samsung IMS capability evidence
+
+- upstream: Samsung IMS carrier maps, service switches, and usable service
+  profiles from versioned Samsung firmware
+- data: positive, device-scoped VoLTE, Wi-Fi Calling, VoNR, video calling,
+  SMS-over-IMS, and RCS capability observations
+- public policy: raw Samsung IMS files and profile parameters remain private;
+  public evidence includes only neutral carrier matches, capabilities, and a
+  safe model/region/build scope summary
+- freshness: automation checks Samsung's current firmware metadata for the
+  exact model and region; a build mismatch quarantines the old observations
+- negative rule: a false or absent Samsung switch is not published as proof
+  that the carrier universally lacks a feature
+
 ## Merge Rules
 
 Sources are observations, not public carrier identities.

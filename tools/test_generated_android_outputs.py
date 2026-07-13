@@ -292,6 +292,11 @@ def main() -> int:
                             },
                         ],
                         "verified_observation_count": 0,
+                        "observed_scope": {
+                            "models": ["SM-TEST"],
+                            "firmware_regions": ["TST"],
+                            "firmware_builds": ["TESTXX1"],
+                        },
                     }
                     for profile_id in profile_ids
                 ],

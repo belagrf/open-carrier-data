@@ -107,7 +107,8 @@ the rest of the database.
 ## Where The Data Comes From
 
 The current stable snapshot combines maintained AOSP, LineageOS, Mobile
-Broadband Provider Info, Apple carrier-bundle, and Samsung OMC observations.
+Broadband Provider Info, Apple carrier-bundle, Samsung OMC, and scoped Samsung
+IMS capability observations.
 Each source is translated into the same neutral profile model.
 
 `generated/evidence-index.json` records:
@@ -118,7 +119,8 @@ Each source is translated into the same neutral profile model.
 - declared source terms;
 - which source families support each exact capability, CarrierConfig key,
   add-on, and APN fact;
-- Samsung model, OMC, sales-code, and revision scope when safely publishable;
+- Samsung model, firmware build/region, OMC, sales-code, and revision scope
+  when safely publishable;
 - conflicts and quality gates that caused a value to become conditional or be
   omitted.
 
