@@ -1,23 +1,14 @@
 {
   "addons": {
     "emergency_calling": {
-      "e911_routing_policy": "auto",
-      "emergency_dial_call_style": "DisableMuteHold,EndPreviousCall"
+      "e911_routing_policy": "auto"
     },
     "network_policy": {
       "display_antenna_limited": true,
-      "gcf_sor": true,
-      "mobile_network_setting_menu_tokens": [
-        "+dataenabled",
-        "-preferrednetworkmode",
-        "+disable2gmenu",
-        "-voltecall"
-      ],
-      "network_type_capability": "ATT-XAR-GSM-USA",
-      "voice_network_setting_style": "UsaGsmNetworkSetting,CdmaSubscriptionEnable,SupportENSNetworkSetting,SupportDataOffNotification,NetworkSetting_AIO"
+      "gcf_sor": true
     },
-    "operator_display": {
-      "indicator_icon_branding": "ATT_OPEN"
+    "wifi_calling": {
+      "show_vowifi_end_call": true
     }
   },
   "android_apns": [

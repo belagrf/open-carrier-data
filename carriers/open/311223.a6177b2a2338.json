@@ -1,7 +1,7 @@
 {
   "addons": {
     "emergency_calling": {
-      "emergency_dial_call_style": "BlockLog,DisableMuteHold"
+      "e911_routing_policy": "auto"
     },
     "network_policy": {
       "mobile_network_setting_menu_tokens": [
@@ -11,9 +11,6 @@
       ],
       "network_type_capability": "USC-USC-GLB-USA",
       "voice_network_setting_style": "NetworkSetting_USC"
-    },
-    "operator_display": {
-      "indicator_icon_branding": "USC_OPEN"
     }
   },
   "android_apns": [

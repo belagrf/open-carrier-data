@@ -7,12 +7,12 @@
     "network_policy": {
       "display_antenna_limited": true,
       "gcf_sor": true,
-      "network_type_capability": "CHC-CHC-GSM-CHN",
+      "network_selection_menu_style": "NUMERIC",
       "voice_network_setting_style": "SupportSoftSim"
     },
     "operator_display": {
       "five_g_icon_branding": "UseOneShapedIcon",
-      "indicator_icon_branding": "CHC"
+      "refer_eons_without_lac": true
     }
   },
   "android_apns": [

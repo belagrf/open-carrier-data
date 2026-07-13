@@ -16,9 +16,6 @@
       ],
       "network_type_capability": "VZW-FKR-GLB-USA",
       "voice_network_setting_style": "ManualSelectionWhenBootup,SystemSelectionAutoAB,SupportDataPopup"
-    },
-    "operator_display": {
-      "indicator_icon_branding": "VZW_OPEN"
     }
   },
   "android_apns": [

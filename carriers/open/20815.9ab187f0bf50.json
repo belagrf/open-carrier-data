@@ -34,6 +34,19 @@
       ]
     },
     {
+      "apn": "ims",
+      "authtype": 0,
+      "carrier_enabled": true,
+      "mvno_match_data": "F006",
+      "mvno_type": "gid",
+      "name": "IMS",
+      "protocol": "IPV6",
+      "roaming_protocol": "IPV6",
+      "types": [
+        "ims"
+      ]
+    },
+    {
       "apn": "internet.telco.re",
       "authtype": 0,
       "carrier_enabled": true,

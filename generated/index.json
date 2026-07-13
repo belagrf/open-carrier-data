@@ -46,6 +46,11 @@
       "profile_id": "open.00101.180076a2bec6"
     },
     {
+      "display_name": "VZWCDMA",
+      "path": "carriers/open/00101.2c9bef2801e7.json",
+      "profile_id": "open.00101.2c9bef2801e7"
+    },
+    {
       "display_name": "LRA Test",
       "path": "carriers/open/00101.3c714ab4cc47.json",
       "profile_id": "open.00101.3c714ab4cc47"
@@ -54,6 +59,11 @@
       "display_name": "Test001 Amarisoft",
       "path": "carriers/open/00101.3ed0bf46056b.json",
       "profile_id": "open.00101.3ed0bf46056b"
+    },
+    {
+      "display_name": "USC Test CDMA",
+      "path": "carriers/open/00101.4043e64447fd.json",
+      "profile_id": "open.00101.4043e64447fd"
     },
     {
       "display_name": "CHACDMA",
@@ -104,6 +114,11 @@
       "display_name": "Carrier 001010",
       "path": "carriers/open/001010.417a64b65fc8.json",
       "profile_id": "open.001010.417a64b65fc8"
+    },
+    {
+      "display_name": "VZWCDMA",
+      "path": "carriers/open/001010.4ea8f445ac1f.json",
+      "profile_id": "open.001010.4ea8f445ac1f"
     },
     {
       "display_name": "LRA VZW Test",
@@ -524,6 +539,11 @@
       "display_name": "TFNCDMA",
       "path": "carriers/open/20404.e4fb02d9a03a.json",
       "profile_id": "open.20404.e4fb02d9a03a"
+    },
+    {
+      "display_name": "VZWCDMA",
+      "path": "carriers/open/20404.e63a4258b06d.json",
+      "profile_id": "open.20404.e63a4258b06d"
     },
     {
       "display_name": "\u4e2d\u56fd\u7535\u4fe1(\u6fb3\u95e8)",
@@ -2641,6 +2661,11 @@
       "profile_id": "open.21902.1b5c3b6a4c2e"
     },
     {
+      "display_name": "A1 HR",
+      "path": "carriers/open/21910.4d892f480fbf.json",
+      "profile_id": "open.21910.4d892f480fbf"
+    },
+    {
       "display_name": "Carrier 21910",
       "path": "carriers/open/21910.cf0b7334b682.json",
       "profile_id": "open.21910.cf0b7334b682"
@@ -2701,6 +2726,11 @@
       "profile_id": "open.22001.580b9d5bd419"
     },
     {
+      "display_name": "Yettel SRB",
+      "path": "carriers/open/22001.804c98ea029b.json",
+      "profile_id": "open.22001.804c98ea029b"
+    },
+    {
       "display_name": "Carrier 22002",
       "path": "carriers/open/22002.d30c32acd40b.json",
       "profile_id": "open.22002.d30c32acd40b"
@@ -2719,6 +2749,11 @@
       "display_name": "Carrier 22005",
       "path": "carriers/open/22005.4a37529fc96b.json",
       "profile_id": "open.22005.4a37529fc96b"
+    },
+    {
+      "display_name": "A1 SRB",
+      "path": "carriers/open/22005.f9ed4f975038.json",
+      "profile_id": "open.22005.f9ed4f975038"
     },
     {
       "display_name": "VALA",
@@ -2899,6 +2934,11 @@
       "display_name": "UNEFON",
       "path": "carriers/open/22201.73cff86b29f9.json",
       "profile_id": "open.22201.73cff86b29f9"
+    },
+    {
+      "display_name": "Kena Mobile",
+      "path": "carriers/open/22201.7a37504a2679.json",
+      "profile_id": "open.22201.7a37504a2679"
     },
     {
       "display_name": "CoopVoce2",
@@ -3516,6 +3556,11 @@
       "profile_id": "open.23203.8f82fa41ad3c"
     },
     {
+      "display_name": "KUFNET",
+      "path": "carriers/open/23203.9b21fe423c29.json",
+      "profile_id": "open.23203.9b21fe423c29"
+    },
+    {
       "display_name": "TMobile AT",
       "path": "carriers/open/23203.9d7e121f69ad.json",
       "profile_id": "open.23203.9d7e121f69ad"
@@ -3691,6 +3736,11 @@
       "profile_id": "open.23214.1b775a74635d"
     },
     {
+      "display_name": "spusu",
+      "path": "carriers/open/23217.75bbabc420ae.json",
+      "profile_id": "open.23217.75bbabc420ae"
+    },
+    {
       "display_name": "Tchibo At",
       "path": "carriers/open/23217.8d5b20901ea3.json",
       "profile_id": "open.23217.8d5b20901ea3"
@@ -3734,6 +3784,11 @@
       "display_name": "Carrier 23228",
       "path": "carriers/open/23228.ba2c8df322ad.json",
       "profile_id": "open.23228.ba2c8df322ad"
+    },
+    {
+      "display_name": "spusu",
+      "path": "carriers/open/23228.fee058c071ff.json",
+      "profile_id": "open.23228.fee058c071ff"
     },
     {
       "display_name": "BT Mobile",
@@ -5156,6 +5211,11 @@
       "profile_id": "open.246081.c8b67a0f4027"
     },
     {
+      "display_name": "VZWCDMA",
+      "path": "carriers/open/246081.cbb2c336612f.json",
+      "profile_id": "open.246081.cbb2c336612f"
+    },
+    {
       "display_name": "Carrier 24681",
       "path": "carriers/open/24681.1407d09e9905.json",
       "profile_id": "open.24681.1407d09e9905"
@@ -5174,6 +5234,11 @@
       "display_name": "TFNCDMA",
       "path": "carriers/open/24681.916155e82573.json",
       "profile_id": "open.24681.916155e82573"
+    },
+    {
+      "display_name": "VZWCDMA",
+      "path": "carriers/open/24681.96a7710afc25.json",
+      "profile_id": "open.24681.96a7710afc25"
     },
     {
       "display_name": "Tracfone - Test",
@@ -5986,6 +6051,11 @@
       "profile_id": "open.262800.80956c5c5edf"
     },
     {
+      "display_name": "USC Test CDMA",
+      "path": "carriers/open/262800.c1c0acc89a82.json",
+      "profile_id": "open.262800.c1c0acc89a82"
+    },
+    {
       "display_name": "Tmoericssonlab Us",
       "path": "carriers/open/262800.c2dd98445bbc.json",
       "profile_id": "open.262800.c2dd98445bbc"
@@ -6054,6 +6124,11 @@
       "display_name": "Carrier 26806",
       "path": "carriers/open/26806.c7563b3fb3c7.json",
       "profile_id": "open.26806.c7563b3fb3c7"
+    },
+    {
+      "display_name": "MEO",
+      "path": "carriers/open/26806.e461968bb9a2.json",
+      "profile_id": "open.26806.e461968bb9a2"
     },
     {
       "display_name": "Carrier 26807",
@@ -6599,6 +6674,11 @@
       "display_name": "IPKO",
       "path": "carriers/open/29341.a45b623fb649.json",
       "profile_id": "open.29341.a45b623fb649"
+    },
+    {
+      "display_name": "Mobitel",
+      "path": "carriers/open/29341.b28c965a0cd2.json",
+      "profile_id": "open.29341.b28c965a0cd2"
     },
     {
       "display_name": "Carrier 29364",
@@ -7601,6 +7681,11 @@
       "profile_id": "open.310004.7d6255ffa15e"
     },
     {
+      "display_name": "VZWCDMA",
+      "path": "carriers/open/310004.b4989e0df9cd.json",
+      "profile_id": "open.310004.b4989e0df9cd"
+    },
+    {
       "display_name": "TFNCDMA",
       "path": "carriers/open/310004.b697ac50fe58.json",
       "profile_id": "open.310004.b697ac50fe58"
@@ -7706,6 +7791,11 @@
       "profile_id": "open.310028.256ac5db2eef"
     },
     {
+      "display_name": "USC Test CDMA",
+      "path": "carriers/open/310028.3cd17b540ed9.json",
+      "profile_id": "open.310028.3cd17b540ed9"
+    },
+    {
       "display_name": "TFNCDMA",
       "path": "carriers/open/310028.86c59679a3a6.json",
       "profile_id": "open.310028.86c59679a3a6"
@@ -7729,6 +7819,11 @@
       "display_name": "ALU Test-SIM",
       "path": "carriers/open/310028.d4cf5389dce9.json",
       "profile_id": "open.310028.d4cf5389dce9"
+    },
+    {
+      "display_name": "VZWCDMA",
+      "path": "carriers/open/310028.db14a7b77126.json",
+      "profile_id": "open.310028.db14a7b77126"
     },
     {
       "display_name": "AT&T",
@@ -7834,6 +7929,11 @@
       "display_name": "Carrier 310090",
       "path": "carriers/open/310090.4f00a20e9474.json",
       "profile_id": "open.310090.4f00a20e9474"
+    },
+    {
+      "display_name": "ATT PCN",
+      "path": "carriers/open/310090.d7b2fe98ac69.json",
+      "profile_id": "open.310090.d7b2fe98ac69"
     },
     {
       "display_name": "Carrier 310100",
@@ -8311,6 +8411,11 @@
       "profile_id": "open.310240.2ec6651aaa02"
     },
     {
+      "display_name": "Comcast",
+      "path": "carriers/open/310240.323b366b4c7a.json",
+      "profile_id": "open.310240.323b366b4c7a"
+    },
+    {
       "display_name": "TMobile US DSH",
       "path": "carriers/open/310240.32f91bf59c02.json",
       "profile_id": "open.310240.32f91bf59c02"
@@ -8344,6 +8449,11 @@
       "display_name": "Boosttmo Us",
       "path": "carriers/open/310240.3e698779f349.json",
       "profile_id": "open.310240.3e698779f349"
+    },
+    {
+      "display_name": "Charter",
+      "path": "carriers/open/310240.432a3daecbe5.json",
+      "profile_id": "open.310240.432a3daecbe5"
     },
     {
       "display_name": "Nymobile Us",
@@ -9731,6 +9841,11 @@
       "profile_id": "open.310280.cb7543a91e5a"
     },
     {
+      "display_name": "ATT PCN",
+      "path": "carriers/open/310280.ce8da948bcc5.json",
+      "profile_id": "open.310280.ce8da948bcc5"
+    },
+    {
       "display_name": "ATT US GoogleGC",
       "path": "carriers/open/310280.d1bd0cdc6c58.json",
       "profile_id": "open.310280.d1bd0cdc6c58"
@@ -9849,6 +9964,11 @@
       "display_name": "USC Test",
       "path": "carriers/open/310332.98c10815e081.json",
       "profile_id": "open.310332.98c10815e081"
+    },
+    {
+      "display_name": "USC Test CDMA",
+      "path": "carriers/open/310332.f4e05faa65ef.json",
+      "profile_id": "open.310332.f4e05faa65ef"
     },
     {
       "display_name": "Carrier 310340",
@@ -10039,6 +10159,11 @@
       "display_name": "Boostmobile Us",
       "path": "carriers/open/310410.715a74b9db72.json",
       "profile_id": "open.310410.715a74b9db72"
+    },
+    {
+      "display_name": "ATT PCN",
+      "path": "carriers/open/310410.75d22012ba05.json",
+      "profile_id": "open.310410.75d22012ba05"
     },
     {
       "display_name": "Commonmvnxatt Us",
@@ -10891,6 +11016,11 @@
       "profile_id": "open.310950.4e60218be247"
     },
     {
+      "display_name": "ATT PCN",
+      "path": "carriers/open/310950.568ad9e13612.json",
+      "profile_id": "open.310950.568ad9e13612"
+    },
+    {
       "display_name": "Commonmvnxatt Us",
       "path": "carriers/open/310950.5aa0aeba7a48.json",
       "profile_id": "open.310950.5aa0aeba7a48"
@@ -11089,6 +11219,11 @@
       "display_name": "VZW TEST",
       "path": "carriers/open/311028.30886899dd6f.json",
       "profile_id": "open.311028.30886899dd6f"
+    },
+    {
+      "display_name": "VZWCDMA",
+      "path": "carriers/open/311028.8e2a84e0ef5c.json",
+      "profile_id": "open.311028.8e2a84e0ef5c"
     },
     {
       "display_name": "Carrier 311030",
@@ -11391,6 +11526,11 @@
       "profile_id": "open.311180.caf457b61d5c"
     },
     {
+      "display_name": "ATT PCN",
+      "path": "carriers/open/311180.cc0591e5d82f.json",
+      "profile_id": "open.311180.cc0591e5d82f"
+    },
+    {
       "display_name": "Commonmvnxatt Us",
       "path": "carriers/open/311180.cc3b7ad3e277.json",
       "profile_id": "open.311180.cc3b7ad3e277"
@@ -11651,6 +11791,11 @@
       "profile_id": "open.311270.3fff037d794f"
     },
     {
+      "display_name": "VZWCDMA",
+      "path": "carriers/open/311270.4363d372adc3.json",
+      "profile_id": "open.311270.4363d372adc3"
+    },
+    {
       "display_name": "Tracfone - ALU Test2",
       "path": "carriers/open/311270.43977274f15e.json",
       "profile_id": "open.311270.43977274f15e"
@@ -11774,6 +11919,11 @@
       "display_name": "Tracfone - Ericsson Test",
       "path": "carriers/open/311390.74ad662f8fac.json",
       "profile_id": "open.311390.74ad662f8fac"
+    },
+    {
+      "display_name": "VZWCDMA",
+      "path": "carriers/open/311390.9190cc58ac17.json",
+      "profile_id": "open.311390.9190cc58ac17"
     },
     {
       "display_name": "VZW TEST",
@@ -11934,6 +12084,11 @@
       "display_name": "TFW",
       "path": "carriers/open/311480.57492eedf261.json",
       "profile_id": "open.311480.57492eedf261"
+    },
+    {
+      "display_name": "VZWCDMA",
+      "path": "carriers/open/311480.59a1896af2d1.json",
+      "profile_id": "open.311480.59a1896af2d1"
     },
     {
       "display_name": "Xfinity Mobile",
@@ -12996,6 +13151,16 @@
       "profile_id": "open.312670.4e2b008c0ffb"
     },
     {
+      "display_name": "ATT FN 5GC",
+      "path": "carriers/open/312670.a7e39099b7fa.json",
+      "profile_id": "open.312670.a7e39099b7fa"
+    },
+    {
+      "display_name": "ATT FN",
+      "path": "carriers/open/312670.cc358354bdc2.json",
+      "profile_id": "open.312670.cc358354bdc2"
+    },
+    {
       "display_name": "Carrier 312670",
       "path": "carriers/open/312670.eaaa2752febd.json",
       "profile_id": "open.312670.eaaa2752febd"
@@ -13014,6 +13179,11 @@
       "display_name": "VZW",
       "path": "carriers/open/312770.42f244a9ef6b.json",
       "profile_id": "open.312770.42f244a9ef6b"
+    },
+    {
+      "display_name": "VZWCDMA",
+      "path": "carriers/open/312770.6078c315c195.json",
+      "profile_id": "open.312770.6078c315c195"
     },
     {
       "display_name": "TFNCDMA",
@@ -13056,6 +13226,16 @@
       "profile_id": "open.313100.7d8b22bfc5b1"
     },
     {
+      "display_name": "ATT FN",
+      "path": "carriers/open/313100.f8879ecb407c.json",
+      "profile_id": "open.313100.f8879ecb407c"
+    },
+    {
+      "display_name": "ATT FN 5GC",
+      "path": "carriers/open/313100.fccddc9d69e0.json",
+      "profile_id": "open.313100.fccddc9d69e0"
+    },
+    {
       "display_name": "FirstNet Pacific",
       "path": "carriers/open/313110.111b80ddf995.json",
       "profile_id": "open.313110.111b80ddf995"
@@ -13071,6 +13251,16 @@
       "profile_id": "open.313110.87671bac27fe"
     },
     {
+      "display_name": "DPAC FN",
+      "path": "carriers/open/313110.dd42eae17f7b.json",
+      "profile_id": "open.313110.dd42eae17f7b"
+    },
+    {
+      "display_name": "ASTCA FN",
+      "path": "carriers/open/313120.1015948df967.json",
+      "profile_id": "open.313120.1015948df967"
+    },
+    {
       "display_name": "Carrier 313120",
       "path": "carriers/open/313120.9af1d7beee4e.json",
       "profile_id": "open.313120.9af1d7beee4e"
@@ -13079,6 +13269,26 @@
       "display_name": "Carrier 313130",
       "path": "carriers/open/313130.861c816c9098.json",
       "profile_id": "open.313130.861c816c9098"
+    },
+    {
+      "display_name": "ATT FN 5GC",
+      "path": "carriers/open/313130.ee02433214ea.json",
+      "profile_id": "open.313130.ee02433214ea"
+    },
+    {
+      "display_name": "ATT FN",
+      "path": "carriers/open/313130.fd33a7d06de9.json",
+      "profile_id": "open.313130.fd33a7d06de9"
+    },
+    {
+      "display_name": "ATT FN",
+      "path": "carriers/open/313140.407bc7054731.json",
+      "profile_id": "open.313140.407bc7054731"
+    },
+    {
+      "display_name": "ATT FN 5GC",
+      "path": "carriers/open/313140.4d757c347dbb.json",
+      "profile_id": "open.313140.4d757c347dbb"
     },
     {
       "display_name": "Carrier 313140",
@@ -13431,9 +13641,19 @@
       "profile_id": "open.314020.a3705a1d330e"
     },
     {
+      "display_name": "CHA_ESIM",
+      "path": "carriers/open/314020.fe8595b5e392.json",
+      "profile_id": "open.314020.fe8595b5e392"
+    },
+    {
       "display_name": "Carrier 314200",
       "path": "carriers/open/314200.8bdf85bbd9a4.json",
       "profile_id": "open.314200.8bdf85bbd9a4"
+    },
+    {
+      "display_name": "CCT_ESIM",
+      "path": "carriers/open/314200.8e66b9d6299f.json",
+      "profile_id": "open.314200.8e66b9d6299f"
     },
     {
       "display_name": "Carrier 314240",
@@ -19392,6 +19612,11 @@
     },
     {
       "display_name": "Ooredoo",
+      "path": "carriers/open/41405.d0e18d48b6d3.json",
+      "profile_id": "open.41405.d0e18d48b6d3"
+    },
+    {
+      "display_name": "Ooredoo",
       "path": "carriers/open/41405.f3685105ba89.json",
       "profile_id": "open.41405.f3685105ba89"
     },
@@ -20094,6 +20319,11 @@
       "display_name": "Ministry of Interior",
       "path": "carriers/open/42706.b28aac6f521f.json",
       "profile_id": "open.42706.b28aac6f521f"
+    },
+    {
+      "display_name": "MOD",
+      "path": "carriers/open/42707.a700125c496f.json",
+      "profile_id": "open.42707.a700125c496f"
     },
     {
       "display_name": "Skytel",
@@ -21156,6 +21386,11 @@
       "profile_id": "open.45209.e22777e72369"
     },
     {
+      "display_name": "csl prepaid(2)",
+      "path": "carriers/open/45400.02f30f27c81c.json",
+      "profile_id": "open.45400.02f30f27c81c"
+    },
+    {
       "display_name": "Reliance",
       "path": "carriers/open/45400.05cf6759fa72.json",
       "profile_id": "open.45400.05cf6759fa72"
@@ -21176,9 +21411,19 @@
       "profile_id": "open.45400.109910787255"
     },
     {
+      "display_name": "SUN Mobile",
+      "path": "carriers/open/45400.14ec3f575e49.json",
+      "profile_id": "open.45400.14ec3f575e49"
+    },
+    {
       "display_name": "Reliance",
       "path": "carriers/open/45400.15ae31f5a476.json",
       "profile_id": "open.45400.15ae31f5a476"
+    },
+    {
+      "display_name": "1O1O",
+      "path": "carriers/open/45400.1e017a129dfc.json",
+      "profile_id": "open.45400.1e017a129dfc"
     },
     {
       "display_name": "RedteaMobile",
@@ -21221,6 +21466,11 @@
       "profile_id": "open.45400.5063d75575de"
     },
     {
+      "display_name": "Global Call",
+      "path": "carriers/open/45400.51d1e374c0b7.json",
+      "profile_id": "open.45400.51d1e374c0b7"
+    },
+    {
       "display_name": "Truphone Zz",
       "path": "carriers/open/45400.5a8777bf15dd.json",
       "profile_id": "open.45400.5a8777bf15dd"
@@ -21244,6 +21494,16 @@
       "display_name": "aloSIM",
       "path": "carriers/open/45400.6ee187065e29.json",
       "profile_id": "open.45400.6ee187065e29"
+    },
+    {
+      "display_name": "csl.",
+      "path": "carriers/open/45400.708cc3df9c6e.json",
+      "profile_id": "open.45400.708cc3df9c6e"
+    },
+    {
+      "display_name": "csl prepaid(1)",
+      "path": "carriers/open/45400.77e6d5df5174.json",
+      "profile_id": "open.45400.77e6d5df5174"
     },
     {
       "display_name": "Reliance",
@@ -21291,6 +21551,16 @@
       "profile_id": "open.45400.b5293ba27244"
     },
     {
+      "display_name": "csl prepaid(3)",
+      "path": "carriers/open/45400.b796b1ca3400.json",
+      "profile_id": "open.45400.b796b1ca3400"
+    },
+    {
+      "display_name": "Truphone HK",
+      "path": "carriers/open/45400.cf7df7c55855.json",
+      "profile_id": "open.45400.cf7df7c55855"
+    },
+    {
       "display_name": "Reliance",
       "path": "carriers/open/45400.e3baa673727c.json",
       "profile_id": "open.45400.e3baa673727c"
@@ -21311,6 +21581,11 @@
       "profile_id": "open.45401.b48fc15efce1"
     },
     {
+      "display_name": "CITIC Telecom",
+      "path": "carriers/open/45401.d9f4b4713274.json",
+      "profile_id": "open.45401.d9f4b4713274"
+    },
+    {
       "display_name": "Reliance",
       "path": "carriers/open/45402.016f12999857.json",
       "profile_id": "open.45402.016f12999857"
@@ -21329,6 +21604,11 @@
       "display_name": "Reliance",
       "path": "carriers/open/45402.11d8bcf4b5f1.json",
       "profile_id": "open.45402.11d8bcf4b5f1"
+    },
+    {
+      "display_name": "1O1O",
+      "path": "carriers/open/45402.121637c81617.json",
+      "profile_id": "open.45402.121637c81617"
     },
     {
       "display_name": "Carrier 45402",
@@ -21361,6 +21641,11 @@
       "profile_id": "open.45402.439f9e0560b5"
     },
     {
+      "display_name": "csl prepaid(1)",
+      "path": "carriers/open/45402.4d860aba3bb0.json",
+      "profile_id": "open.45402.4d860aba3bb0"
+    },
+    {
       "display_name": "Reliance",
       "path": "carriers/open/45402.516d34bccabf.json",
       "profile_id": "open.45402.516d34bccabf"
@@ -21386,6 +21671,11 @@
       "profile_id": "open.45402.7921e511cf39"
     },
     {
+      "display_name": "csl.",
+      "path": "carriers/open/45402.83501065a010.json",
+      "profile_id": "open.45402.83501065a010"
+    },
+    {
       "display_name": "Reliance",
       "path": "carriers/open/45402.83aa5b0a36c3.json",
       "profile_id": "open.45402.83aa5b0a36c3"
@@ -21394,6 +21684,11 @@
       "display_name": "Reliance",
       "path": "carriers/open/45402.85d9f526693c.json",
       "profile_id": "open.45402.85d9f526693c"
+    },
+    {
+      "display_name": "csl prepaid(3)",
+      "path": "carriers/open/45402.99750ecefce1.json",
+      "profile_id": "open.45402.99750ecefce1"
     },
     {
       "display_name": "Reliance",
@@ -21406,6 +21701,16 @@
       "profile_id": "open.45402.bcd5ae4c556c"
     },
     {
+      "display_name": "Global Call",
+      "path": "carriers/open/45402.bcfa687f64a6.json",
+      "profile_id": "open.45402.bcfa687f64a6"
+    },
+    {
+      "display_name": "SUN Mobile",
+      "path": "carriers/open/45402.bec631eff9d4.json",
+      "profile_id": "open.45402.bec631eff9d4"
+    },
+    {
       "display_name": "Reliance",
       "path": "carriers/open/45402.e2987e190b04.json",
       "profile_id": "open.45402.e2987e190b04"
@@ -21414,6 +21719,11 @@
       "display_name": "Reliance",
       "path": "carriers/open/45402.f29c16927239.json",
       "profile_id": "open.45402.f29c16927239"
+    },
+    {
+      "display_name": "csl prepaid(2)",
+      "path": "carriers/open/45402.f57662b7b3a9.json",
+      "profile_id": "open.45402.f57662b7b3a9"
     },
     {
       "display_name": "HKBN",
@@ -21441,9 +21751,19 @@
       "profile_id": "open.45403.5b5cac721dd7"
     },
     {
+      "display_name": "HKBN",
+      "path": "carriers/open/45403.7ce67650e9be.json",
+      "profile_id": "open.45403.7ce67650e9be"
+    },
+    {
       "display_name": "RedteaMobile",
       "path": "carriers/open/45403.899c149e81ec.json",
       "profile_id": "open.45403.899c149e81ec"
+    },
+    {
+      "display_name": "Mo",
+      "path": "carriers/open/45403.b7453665fcb6.json",
+      "profile_id": "open.45403.b7453665fcb6"
     },
     {
       "display_name": "DENT",
@@ -21454,6 +21774,11 @@
       "display_name": "AIRSIMe",
       "path": "carriers/open/45403.dc382c0c8d3f.json",
       "profile_id": "open.45403.dc382c0c8d3f"
+    },
+    {
+      "display_name": "Hutchison HK",
+      "path": "carriers/open/45403.e9ac596ad28a.json",
+      "profile_id": "open.45403.e9ac596ad28a"
     },
     {
       "display_name": "MultiByte",
@@ -21469,6 +21794,16 @@
       "display_name": "Carrier 45404",
       "path": "carriers/open/45404.5987da93af93.json",
       "profile_id": "open.45404.5987da93af93"
+    },
+    {
+      "display_name": "3(3G)",
+      "path": "carriers/open/45404.a9997b513c4f.json",
+      "profile_id": "open.45404.a9997b513c4f"
+    },
+    {
+      "display_name": "SmarTone HK",
+      "path": "carriers/open/45406.16c2a78b25f0.json",
+      "profile_id": "open.45406.16c2a78b25f0"
     },
     {
       "display_name": "Carrier 45406",
@@ -21531,6 +21866,11 @@
       "profile_id": "open.45408.87ee588b7c80"
     },
     {
+      "display_name": "Truphone HK",
+      "path": "carriers/open/45408.b0e80738f0d8.json",
+      "profile_id": "open.45408.b0e80738f0d8"
+    },
+    {
       "display_name": "Truphone",
       "path": "carriers/open/45408.f8fd3e9860ed.json",
       "profile_id": "open.45408.f8fd3e9860ed"
@@ -21541,14 +21881,29 @@
       "profile_id": "open.45409.53b7baddc029"
     },
     {
+      "display_name": "csl(3G)",
+      "path": "carriers/open/45410.24e65a26db3c.json",
+      "profile_id": "open.45410.24e65a26db3c"
+    },
+    {
       "display_name": "Carrier 45410",
       "path": "carriers/open/45410.7a054e30d9e1.json",
       "profile_id": "open.45410.7a054e30d9e1"
     },
     {
+      "display_name": "CHKT",
+      "path": "carriers/open/45411.5d6f77b0501e.json",
+      "profile_id": "open.45411.5d6f77b0501e"
+    },
+    {
       "display_name": "MultiByte",
       "path": "carriers/open/45412.13bf3792c385.json",
       "profile_id": "open.45412.13bf3792c385"
+    },
+    {
+      "display_name": "China Mobile HK",
+      "path": "carriers/open/45412.19353bdc56c1.json",
+      "profile_id": "open.45412.19353bdc56c1"
     },
     {
       "display_name": "CMLink",
@@ -21586,6 +21941,11 @@
       "profile_id": "open.45413.37d80f26a028"
     },
     {
+      "display_name": "China Mobile HK",
+      "path": "carriers/open/45413.ba08c652d1b3.json",
+      "profile_id": "open.45413.ba08c652d1b3"
+    },
+    {
       "display_name": "Carrier 45413",
       "path": "carriers/open/45413.f24ef942dcdb.json",
       "profile_id": "open.45413.f24ef942dcdb"
@@ -21594,6 +21954,16 @@
       "display_name": "Carrier 45414",
       "path": "carriers/open/45414.7302fbe0bc39.json",
       "profile_id": "open.45414.7302fbe0bc39"
+    },
+    {
+      "display_name": "3(2G)",
+      "path": "carriers/open/45414.94773dbcee8e.json",
+      "profile_id": "open.45414.94773dbcee8e"
+    },
+    {
+      "display_name": "SmarTone HK",
+      "path": "carriers/open/45415.18127f0ed08b.json",
+      "profile_id": "open.45415.18127f0ed08b"
     },
     {
       "display_name": "Carrier 45415",
@@ -21606,9 +21976,19 @@
       "profile_id": "open.45416.91ac3f4412b9"
     },
     {
+      "display_name": "PCCW-HKT",
+      "path": "carriers/open/45416.fc0f57bfd18d.json",
+      "profile_id": "open.45416.fc0f57bfd18d"
+    },
+    {
       "display_name": "Carrier 45417",
       "path": "carriers/open/45417.3d47850166ca.json",
       "profile_id": "open.45417.3d47850166ca"
+    },
+    {
+      "display_name": "SmarTone HK",
+      "path": "carriers/open/45417.f88ca411bffb.json",
+      "profile_id": "open.45417.f88ca411bffb"
     },
     {
       "display_name": "Reliance",
@@ -21629,6 +22009,11 @@
       "display_name": "Reliance",
       "path": "carriers/open/45418.1f91c561f230.json",
       "profile_id": "open.45418.1f91c561f230"
+    },
+    {
+      "display_name": "SUN Mobile",
+      "path": "carriers/open/45418.2afc175d5a2f.json",
+      "profile_id": "open.45418.2afc175d5a2f"
     },
     {
       "display_name": "Reliance",
@@ -21656,6 +22041,11 @@
       "profile_id": "open.45418.634825b7b8c9"
     },
     {
+      "display_name": "csl prepaid(3)",
+      "path": "carriers/open/45418.6984fbd25c67.json",
+      "profile_id": "open.45418.6984fbd25c67"
+    },
+    {
       "display_name": "Reliance",
       "path": "carriers/open/45418.6e06b059663a.json",
       "profile_id": "open.45418.6e06b059663a"
@@ -21676,6 +22066,11 @@
       "profile_id": "open.45418.82d9cd1c98ed"
     },
     {
+      "display_name": "csl prepaid(1)",
+      "path": "carriers/open/45418.886309de1aad.json",
+      "profile_id": "open.45418.886309de1aad"
+    },
+    {
       "display_name": "Reliance",
       "path": "carriers/open/45418.8a64297e073a.json",
       "profile_id": "open.45418.8a64297e073a"
@@ -21686,9 +22081,24 @@
       "profile_id": "open.45418.9c694e90f684"
     },
     {
+      "display_name": "1O1O",
+      "path": "carriers/open/45418.a4fabe5c0bb2.json",
+      "profile_id": "open.45418.a4fabe5c0bb2"
+    },
+    {
+      "display_name": "Global Call",
+      "path": "carriers/open/45418.ab376fdc8f9a.json",
+      "profile_id": "open.45418.ab376fdc8f9a"
+    },
+    {
       "display_name": "Reliance",
       "path": "carriers/open/45418.be479c3de53c.json",
       "profile_id": "open.45418.be479c3de53c"
+    },
+    {
+      "display_name": "csl prepaid(2)",
+      "path": "carriers/open/45418.be4bab921bd2.json",
+      "profile_id": "open.45418.be4bab921bd2"
     },
     {
       "display_name": "Reliance",
@@ -21716,14 +22126,34 @@
       "profile_id": "open.45418.eae1ee63cbdd"
     },
     {
+      "display_name": "csl.",
+      "path": "carriers/open/45418.ffbb4ba7f53f.json",
+      "profile_id": "open.45418.ffbb4ba7f53f"
+    },
+    {
       "display_name": "Carrier 45419",
       "path": "carriers/open/45419.1704c80c76c8.json",
       "profile_id": "open.45419.1704c80c76c8"
     },
     {
+      "display_name": "PCCW-HKT",
+      "path": "carriers/open/45419.7a31abf54e13.json",
+      "profile_id": "open.45419.7a31abf54e13"
+    },
+    {
       "display_name": "Carrier 45420",
       "path": "carriers/open/45420.532e480ebc46.json",
       "profile_id": "open.45420.532e480ebc46"
+    },
+    {
+      "display_name": "CSL",
+      "path": "carriers/open/45420.f6aac65de595.json",
+      "profile_id": "open.45420.f6aac65de595"
+    },
+    {
+      "display_name": "Vave",
+      "path": "carriers/open/45421.376f147d31ff.json",
+      "profile_id": "open.45421.376f147d31ff"
     },
     {
       "display_name": "Lycamobile",
@@ -21739,6 +22169,11 @@
       "display_name": "CMHK HK",
       "path": "carriers/open/45430.97b47b9361cb.json",
       "profile_id": "open.45430.97b47b9361cb"
+    },
+    {
+      "display_name": "HKIA-5G",
+      "path": "carriers/open/45430.bc54f7e3520f.json",
+      "profile_id": "open.45430.bc54f7e3520f"
     },
     {
       "display_name": "CTHK",
@@ -21771,6 +22206,16 @@
       "profile_id": "open.45435.f46d457f5067"
     },
     {
+      "display_name": "China Mobile HK",
+      "path": "carriers/open/454383.b0e083b88f7c.json",
+      "profile_id": "open.454383.b0e083b88f7c"
+    },
+    {
+      "display_name": "SmarTone MAC",
+      "path": "carriers/open/45500.246763f1a032.json",
+      "profile_id": "open.45500.246763f1a032"
+    },
+    {
       "display_name": "Carrier 45500",
       "path": "carriers/open/45500.edefbecbc869.json",
       "profile_id": "open.45500.edefbecbc869"
@@ -21796,6 +22241,16 @@
       "profile_id": "open.45501.8501af767129"
     },
     {
+      "display_name": "CTM",
+      "path": "carriers/open/45501.b08f7ba54c53.json",
+      "profile_id": "open.45501.b08f7ba54c53"
+    },
+    {
+      "display_name": "CTM Prepaid",
+      "path": "carriers/open/45501.c3b30188c472.json",
+      "profile_id": "open.45501.c3b30188c472"
+    },
+    {
       "display_name": "CTMACAO Roaming",
       "path": "carriers/open/45502.8d654af49a5c.json",
       "profile_id": "open.45502.8d654af49a5c"
@@ -21811,9 +22266,19 @@
       "profile_id": "open.45502.f11b2b2c7936"
     },
     {
+      "display_name": "3 Macau (2G)",
+      "path": "carriers/open/45503.2caa04a3ee08.json",
+      "profile_id": "open.45503.2caa04a3ee08"
+    },
+    {
       "display_name": "Carrier 45503",
       "path": "carriers/open/45503.76c3e8bf8224.json",
       "profile_id": "open.45503.76c3e8bf8224"
+    },
+    {
+      "display_name": "CTM",
+      "path": "carriers/open/45504.e09434b2ec4e.json",
+      "profile_id": "open.45504.e09434b2ec4e"
     },
     {
       "display_name": "Carrier 45504",
@@ -21824,6 +22289,11 @@
       "display_name": "Carrier 45505",
       "path": "carriers/open/45505.0f6a9d61ca4c.json",
       "profile_id": "open.45505.0f6a9d61ca4c"
+    },
+    {
+      "display_name": "3 Macau",
+      "path": "carriers/open/45505.524aedc81983.json",
+      "profile_id": "open.45505.524aedc81983"
     },
     {
       "display_name": "SmarTone",
@@ -22106,6 +22576,11 @@
       "profile_id": "open.46601.59102cf6648b"
     },
     {
+      "display_name": "Far EasTone",
+      "path": "carriers/open/46601.88ed6709d002.json",
+      "profile_id": "open.46601.88ed6709d002"
+    },
+    {
       "display_name": "Carrier 46601",
       "path": "carriers/open/46601.9fbca613688c.json",
       "profile_id": "open.46601.9fbca613688c"
@@ -22116,14 +22591,34 @@
       "profile_id": "open.46602.4d1f848ed431"
     },
     {
+      "display_name": "Far EasTone",
+      "path": "carriers/open/46602.fc60fd631ad4.json",
+      "profile_id": "open.46602.fc60fd631ad4"
+    },
+    {
       "display_name": "Fet Tw",
       "path": "carriers/open/46603.34a2bcfbbfd3.json",
       "profile_id": "open.46603.34a2bcfbbfd3"
     },
     {
+      "display_name": "Far EasTone",
+      "path": "carriers/open/46603.faa46b90b3b5.json",
+      "profile_id": "open.46603.faa46b90b3b5"
+    },
+    {
+      "display_name": "GT 4G",
+      "path": "carriers/open/46605.8dd5cca07dbd.json",
+      "profile_id": "open.46605.8dd5cca07dbd"
+    },
+    {
       "display_name": "Carrier 46605",
       "path": "carriers/open/46605.feadf826e796.json",
       "profile_id": "open.46605.feadf826e796"
+    },
+    {
+      "display_name": "Chunghwa",
+      "path": "carriers/open/46611.1254341f3c9a.json",
+      "profile_id": "open.46611.1254341f3c9a"
     },
     {
       "display_name": "\u4e2d\u83ef\u96fb\u4fe1_Chunghwa Telecom",
@@ -22136,9 +22631,19 @@
       "profile_id": "open.46688.7aa2f96fce00"
     },
     {
+      "display_name": "Far EasTone",
+      "path": "carriers/open/46688.942969088091.json",
+      "profile_id": "open.46688.942969088091"
+    },
+    {
       "display_name": "Carrier 46689",
       "path": "carriers/open/46689.81deda4af7d1.json",
       "profile_id": "open.46689.81deda4af7d1"
+    },
+    {
+      "display_name": "\u53f0\u7063\u5927\u54e5\u5927TS",
+      "path": "carriers/open/46689.9d5a49b4dc7b.json",
+      "profile_id": "open.46689.9d5a49b4dc7b"
     },
     {
       "display_name": "\u53f0\u7063\u4e4b\u661f",
@@ -22161,9 +22666,24 @@
       "profile_id": "open.46692.0eba4dd0edc7"
     },
     {
+      "display_name": "Chunghwa",
+      "path": "carriers/open/46692.3a70aee753b1.json",
+      "profile_id": "open.46692.3a70aee753b1"
+    },
+    {
       "display_name": "Carrier 46693",
       "path": "carriers/open/46693.0dd86acea199.json",
       "profile_id": "open.46693.0dd86acea199"
+    },
+    {
+      "display_name": "TW Mobile",
+      "path": "carriers/open/46693.4e5d61919c8c.json",
+      "profile_id": "open.46693.4e5d61919c8c"
+    },
+    {
+      "display_name": "TW Mobile",
+      "path": "carriers/open/46697.33d6023338de.json",
+      "profile_id": "open.46697.33d6023338de"
     },
     {
       "display_name": "\u53f0\u7063\u5927\u54e5\u5927 Taiwan Mobile Telecom",
@@ -22179,6 +22699,11 @@
       "display_name": "Carrier 46699",
       "path": "carriers/open/46699.35085296572d.json",
       "profile_id": "open.46699.35085296572d"
+    },
+    {
+      "display_name": "TW Mobile",
+      "path": "carriers/open/46699.c904caab23c4.json",
+      "profile_id": "open.46699.c904caab23c4"
     },
     {
       "display_name": "MMS",
@@ -23019,6 +23544,11 @@
       "display_name": "RedteaMobile",
       "path": "carriers/open/52505.64807a486448.json",
       "profile_id": "open.52505.64807a486448"
+    },
+    {
+      "display_name": "GT 4G Roaming",
+      "path": "carriers/open/52505.7530ff1e9061.json",
+      "profile_id": "open.52505.7530ff1e9061"
     },
     {
       "display_name": "StarHub",
@@ -24291,6 +24821,11 @@
       "profile_id": "open.63302.7692882e7825"
     },
     {
+      "display_name": "Airtel Seychelles",
+      "path": "carriers/open/63310.029d50363fdc.json",
+      "profile_id": "open.63310.029d50363fdc"
+    },
+    {
       "display_name": "Carrier 63310",
       "path": "carriers/open/63310.2dbdd79406eb.json",
       "profile_id": "open.63310.2dbdd79406eb"
@@ -24559,6 +25094,11 @@
       "display_name": "Halotel",
       "path": "carriers/open/64009.47f565a9d276.json",
       "profile_id": "open.64009.47f565a9d276"
+    },
+    {
+      "display_name": "HALOTEL",
+      "path": "carriers/open/64009.d16ec35f8c70.json",
+      "profile_id": "open.64009.d16ec35f8c70"
     },
     {
       "display_name": "Smile TZ",
@@ -24899,6 +25439,11 @@
       "display_name": "Eswatini Mobile Ltd",
       "path": "carriers/open/65302.bbb750a67aa7.json",
       "profile_id": "open.65302.bbb750a67aa7"
+    },
+    {
+      "display_name": "MTN Eswatini",
+      "path": "carriers/open/65310.17a45592e01b.json",
+      "profile_id": "open.65310.17a45592e01b"
     },
     {
       "display_name": "Carrier 65310",
@@ -26131,6 +26676,11 @@
       "profile_id": "open.90139.98a62a9d15ab"
     },
     {
+      "display_name": "Telekom.de",
+      "path": "carriers/open/90140.424f86f5edb2.json",
+      "profile_id": "open.90140.424f86f5edb2"
+    },
+    {
       "display_name": "Emnify Zz",
       "path": "carriers/open/90143.0c0374b5cce2.json",
       "profile_id": "open.90143.0c0374b5cce2"
@@ -26196,6 +26746,11 @@
       "profile_id": "open.99999.320430ef5952"
     },
     {
+      "display_name": "VZWCDMA",
+      "path": "carriers/open/99999.32de3283273b.json",
+      "profile_id": "open.99999.32de3283273b"
+    },
+    {
       "display_name": "Dish 5G",
       "path": "carriers/open/99999.3c29ec8e23f8.json",
       "profile_id": "open.99999.3c29ec8e23f8"
@@ -26221,6 +26776,11 @@
       "profile_id": "open.99999.76927e712da2"
     },
     {
+      "display_name": "NTM",
+      "path": "carriers/open/99999.93706c828dca.json",
+      "profile_id": "open.99999.93706c828dca"
+    },
+    {
       "display_name": "FKR TEST",
       "path": "carriers/open/99999.bc099aff4fd8.json",
       "profile_id": "open.99999.bc099aff4fd8"
@@ -26239,6 +26799,11 @@
       "display_name": "Dish ATT MVNO",
       "path": "carriers/open/99999.ededeb7e7283.json",
       "profile_id": "open.99999.ededeb7e7283"
+    },
+    {
+      "display_name": "VZWCDMA",
+      "path": "carriers/open/999999.259f2597d2e8.json",
+      "profile_id": "open.999999.259f2597d2e8"
     },
     {
       "display_name": "FKR TEST",

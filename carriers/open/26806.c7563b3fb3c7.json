@@ -1,5 +1,8 @@
 {
   "addons": {
+    "emergency_calling": {
+      "e911_routing_policy": "auto"
+    },
     "ims": {
       "support_ims_clir_overriding": true
     },
@@ -92,6 +95,7 @@
     "maxMessageSize": 307200,
     "rtt_supported_bool": true,
     "rtt_supported_while_roaming_bool": true,
+    "smsToMmsTextThreshold": 10,
     "wfc_spn_format_idx_int": 1
   },
   "capabilities": {

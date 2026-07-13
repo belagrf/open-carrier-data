@@ -28,10 +28,12 @@
     },
     {
       "apn": "pda.bell.ca",
-      "name": "Browser",
+      "name": "pda.bell.ca",
       "protocol": "IPV6",
+      "roaming_protocol": "IP",
       "types": [
-        "default"
+        "default",
+        "xcap"
       ]
     },
     {
@@ -39,17 +41,9 @@
       "mmsc": "http://mms.bell.ca/mms/wapenc",
       "name": "Bell-MMS",
       "protocol": "IPV6",
-      "types": [
-        "mms"
-      ]
-    },
-    {
-      "apn": "pda.bell.ca",
-      "name": "Bell XCAP",
-      "protocol": "IPV6",
       "roaming_protocol": "IP",
       "types": [
-        "xcap"
+        "mms"
       ]
     }
   ],

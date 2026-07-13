@@ -6,9 +6,6 @@
     "network_policy": {
       "display_antenna_limited": true,
       "gcf_sor": true
-    },
-    "wifi_calling": {
-      "operator_branding": "T-Mobile"
     }
   },
   "android_apns": [

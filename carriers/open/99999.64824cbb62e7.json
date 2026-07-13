@@ -13,11 +13,7 @@
         "-voltecall",
         "+attdiag"
       ],
-      "network_type_capability": "ATT-AIO-GSM-USA",
-      "voice_network_setting_style": "UsaGsmNetworkSetting,CdmaSubscriptionEnable,SupportENSNetworkSetting,NetworkSetting_AIO"
-    },
-    "operator_display": {
-      "indicator_icon_branding": "AIO_OPEN"
+      "network_type_capability": "ATT-AIO-GSM-USA"
     },
     "wifi_calling": {
       "show_vowifi_end_call": true

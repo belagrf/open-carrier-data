@@ -3042,6 +3042,7 @@
     <int name="maxMessageSize" value="307200" />
     <boolean name="rtt_supported_bool" value="true" />
     <boolean name="rtt_supported_while_roaming_bool" value="true" />
+    <int name="smsToMmsTextThreshold" value="10" />
     <int name="wfc_spn_format_idx_int" value="1" />
   </carrier_config>
   <!-- open.26889.e2e1b3fd04a6 -->
@@ -12699,6 +12700,11 @@
   <carrier_config mcc="901" mnc="12" name="Telenor Maritime">
     <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
+  <!-- open.90140.424f86f5edb2 -->
+  <carrier_config mcc="901" mnc="40" name="Telekom.de">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <int name="smsToMmsTextThreshold" value="13" />
+  </carrier_config>
   <!-- open.90154.3151c5256d7c -->
   <carrier_config mcc="901" mnc="54" name="Teleena Zz">
     <string-array name="read_only_apn_types_string_array" num="0">
@@ -12760,12 +12766,20 @@
   <carrier_config mcc="001" mnc="01" name="Tracfone - Anritsu" spn="\QTracfone - Anritsu\E">
     <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
+  <!-- open.00101.4043e64447fd -->
+  <carrier_config mcc="001" mnc="01" name="USC Test CDMA" spn="\QUSC Test CDMA\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
   <!-- open.00101.fa373d1e0e04 -->
   <carrier_config mcc="001" mnc="01" name="USC Test" spn="\QUSC Test\E">
     <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
   <!-- open.00101.7f6aa1f023d2 -->
   <carrier_config mcc="001" mnc="01" name="VZW TEST" spn="\QVZW TEST\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.00101.2c9bef2801e7 -->
+  <carrier_config mcc="001" mnc="01" name="VZWCDMA" spn="\QVZWCDMA\E">
     <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
   <!-- open.00101.c284b8bdffd6 -->
@@ -12792,6 +12806,10 @@
   </carrier_config>
   <!-- open.001010.8aeb3477a074 -->
   <carrier_config mcc="001" mnc="010" name="VZW TEST" spn="\QVZW TEST\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.001010.4ea8f445ac1f -->
+  <carrier_config mcc="001" mnc="010" name="VZWCDMA" spn="\QVZWCDMA\E">
     <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
   <!-- open.20404.7173f334c2b9 -->
@@ -12953,6 +12971,10 @@
   </carrier_config>
   <!-- open.20404.d6c86fc1d152 -->
   <carrier_config mcc="204" mnc="04" name="USC" spn="\QUSC\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.20404.e63a4258b06d -->
+  <carrier_config mcc="204" mnc="04" name="VZWCDMA" spn="\QVZWCDMA\E">
     <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
   <!-- open.20404.9333f27f8c81 -->
@@ -13882,6 +13904,10 @@
     <boolean name="rtt_supported_while_roaming_bool" value="true" />
     <int name="wfc_spn_format_idx_int" value="4" />
   </carrier_config>
+  <!-- open.21910.4d892f480fbf -->
+  <carrier_config mcc="219" mnc="10" name="A1 HR" spn="\QA1 HR\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
   <!-- open.21920.df9a98e887c1 -->
   <carrier_config mcc="219" mnc="20" name="Telekom Hr" spn="\QHT HR\E">
     <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
@@ -13973,6 +13999,11 @@
   </carrier_config>
   <!-- open.22201.50b968502adc -->
   <carrier_config mcc="222" mnc="01" name="Kena Mobile R" spn="\QKena Mobile R\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <int name="smsToMmsTextThreshold" value="10" />
+  </carrier_config>
+  <!-- open.22201.7a37504a2679 -->
+  <carrier_config mcc="222" mnc="01" name="Kena Mobile" spn="\QKena Mobile\E">
     <boolean name="carrier_volte_available_bool" value="true" />
     <int name="smsToMmsTextThreshold" value="10" />
   </carrier_config>
@@ -14730,6 +14761,10 @@
   <carrier_config mcc="246" mnc="081" name="VZW TEST" spn="\QVZW TEST\E">
     <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
+  <!-- open.246081.cbb2c336612f -->
+  <carrier_config mcc="246" mnc="081" name="VZWCDMA" spn="\QVZWCDMA\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
   <!-- open.24681.708105763167 -->
   <carrier_config mcc="246" mnc="81" name="LRA VZW Test" spn="\QLRA VZW Test\E">
     <boolean name="carrier_volte_available_bool" value="true" />
@@ -14744,6 +14779,10 @@
   </carrier_config>
   <!-- open.24681.3a89710fda08 -->
   <carrier_config mcc="246" mnc="81" name="VZW TEST" spn="\QVZW TEST\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.24681.96a7710afc25 -->
+  <carrier_config mcc="246" mnc="81" name="VZWCDMA" spn="\QVZWCDMA\E">
     <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
   <!-- open.25001.a5aa1bac4fec -->
@@ -14955,6 +14994,10 @@
     <boolean name="rtt_supported_bool" value="true" />
     <boolean name="rtt_supported_while_roaming_bool" value="true" />
   </carrier_config>
+  <!-- open.262800.c1c0acc89a82 -->
+  <carrier_config mcc="262" mnc="800" name="USC Test CDMA" spn="\QUSC Test CDMA\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
   <!-- open.262800.80956c5c5edf -->
   <carrier_config mcc="262" mnc="800" name="USC Test" spn="\QUSC Test\E">
     <boolean name="carrier_volte_available_bool" value="true" />
@@ -15135,6 +15178,10 @@
     <int name="maxImageHeight" value="1944" />
     <int name="maxImageWidth" value="2592" />
     <int name="maxMessageSize" value="512000" />
+  </carrier_config>
+  <!-- open.29341.b28c965a0cd2 -->
+  <carrier_config mcc="293" mnc="41" name="Mobitel" spn="\QMobitel\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
   <!-- open.29402.bd74b2fedb94 -->
   <carrier_config cid="1608" mcc="294" mnc="02" name="Cosmofon">
@@ -15617,6 +15664,10 @@
   <carrier_config mcc="310" mnc="004" name="Tracfone" spn="\QTracfone\E">
     <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
+  <!-- open.310004.b4989e0df9cd -->
+  <carrier_config mcc="310" mnc="004" name="VZWCDMA" spn="\QVZWCDMA\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
   <!-- open.310004.b7a9a521d8a5 -->
   <carrier_config mcc="310" mnc="004" name="VZW" spn="\QVZW\E">
     <boolean name="carrier_volte_available_bool" value="true" />
@@ -15796,12 +15847,20 @@
   <carrier_config mcc="310" mnc="028" name="Tracfone - ALU Test1" spn="\QTracfone - ALU Test1\E">
     <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
+  <!-- open.310028.3cd17b540ed9 -->
+  <carrier_config mcc="310" mnc="028" name="USC Test CDMA" spn="\QUSC Test CDMA\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
   <!-- open.310028.ca43c07b5266 -->
   <carrier_config mcc="310" mnc="028" name="USC Test" spn="\QUSC Test\E">
     <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
   <!-- open.310028.256ac5db2eef -->
   <carrier_config mcc="310" mnc="028" name="VZW TEST" spn="\QVZW TEST\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.310028.db14a7b77126 -->
+  <carrier_config mcc="310" mnc="028" name="VZWCDMA" spn="\QVZWCDMA\E">
     <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
   <!-- open.310028.d4cf5389dce9 -->
@@ -15863,6 +15922,10 @@
   </carrier_config>
   <!-- open.310080.a12433e3b8c7 -->
   <carrier_config mcc="310" mnc="080" name="Corr Wireless" spn="\QCorr Wireless\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.310090.d7b2fe98ac69 -->
+  <carrier_config mcc="310" mnc="090" name="ATT PCN" spn="\QATT PCN\E">
     <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
   <!-- open.310110.d2983f5c063f -->
@@ -16134,6 +16197,14 @@
   </carrier_config>
   <!-- open.310240.a1f94513b41f -->
   <carrier_config mcc="310" mnc="240" name="Boost TSA" spn="\QBoost TSA\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.310240.432a3daecbe5 -->
+  <carrier_config mcc="310" mnc="240" name="Charter" spn="\QCharter\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.310240.323b366b4c7a -->
+  <carrier_config mcc="310" mnc="240" name="Comcast" spn="\QComcast\E">
     <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
   <!-- open.310240.86163ce01ae0 -->
@@ -16491,6 +16562,10 @@
   <carrier_config mcc="310" mnc="280" name="ATT NSA" spn="\QATT NSA\E">
     <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
+  <!-- open.310280.ce8da948bcc5 -->
+  <carrier_config mcc="310" mnc="280" name="ATT PCN" spn="\QATT PCN\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
   <!-- open.310280.e6bef8b45754 -->
   <carrier_config mcc="310" mnc="280" name="ATT SA" spn="\QATT SA\E">
     <boolean name="carrier_volte_available_bool" value="true" />
@@ -16595,6 +16670,10 @@
   <carrier_config mcc="310" mnc="320" name="ISP" spn="\QISP\E">
     <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
+  <!-- open.310332.f4e05faa65ef -->
+  <carrier_config mcc="310" mnc="332" name="USC Test CDMA" spn="\QUSC Test CDMA\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
   <!-- open.310332.98c10815e081 -->
   <carrier_config mcc="310" mnc="332" name="USC Test" spn="\QUSC Test\E">
     <boolean name="carrier_volte_available_bool" value="true" />
@@ -16664,6 +16743,10 @@
   </carrier_config>
   <!-- open.310410.45c69d7fa13d -->
   <carrier_config mcc="310" mnc="410" name="ATT NSA" spn="\QATT NSA\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.310410.75d22012ba05 -->
+  <carrier_config mcc="310" mnc="410" name="ATT PCN" spn="\QATT PCN\E">
     <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
   <!-- open.310410.d79ade9328c8 -->
@@ -18177,6 +18260,10 @@
   <carrier_config mcc="310" mnc="950" name="ATT NSA" spn="\QATT NSA\E">
     <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
+  <!-- open.310950.568ad9e13612 -->
+  <carrier_config mcc="310" mnc="950" name="ATT PCN" spn="\QATT PCN\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
   <!-- open.310950.cb707cd5349a -->
   <carrier_config mcc="310" mnc="950" name="ATT SA" spn="\QATT SA\E">
     <boolean name="carrier_volte_available_bool" value="true" />
@@ -18211,6 +18298,10 @@
   </carrier_config>
   <!-- open.311028.30886899dd6f -->
   <carrier_config mcc="311" mnc="028" name="VZW TEST" spn="\QVZW TEST\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.311028.8e2a84e0ef5c -->
+  <carrier_config mcc="311" mnc="028" name="VZWCDMA" spn="\QVZWCDMA\E">
     <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
   <!-- open.311040.5f3a7f6532fc -->
@@ -18274,6 +18365,10 @@
   </carrier_config>
   <!-- open.311180.a7d18c9dbe65 -->
   <carrier_config mcc="311" mnc="180" name="ATT NSA" spn="\QATT NSA\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.311180.cc0591e5d82f -->
+  <carrier_config mcc="311" mnc="180" name="ATT PCN" spn="\QATT PCN\E">
     <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
   <!-- open.311180.caf457b61d5c -->
@@ -18598,6 +18693,10 @@
   </carrier_config>
   <!-- open.311270.43977274f15e -->
   <carrier_config mcc="311" mnc="270" name="Tracfone - ALU Test2" spn="\QTracfone - ALU Test2\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.311270.4363d372adc3 -->
+  <carrier_config mcc="311" mnc="270" name="VZWCDMA" spn="\QVZWCDMA\E">
     <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
   <!-- open.311270.3fff037d794f -->
@@ -19830,6 +19929,10 @@
   <carrier_config mcc="311" mnc="390" name="VZW TEST" spn="\QVZW TEST\E">
     <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
+  <!-- open.311390.9190cc58ac17 -->
+  <carrier_config mcc="311" mnc="390" name="VZWCDMA" spn="\QVZWCDMA\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
   <!-- open.311390.3a4071b0238f -->
   <carrier_config cid="1845" mcc="311" mnc="390" name="Midwest Wireless Holdings LLC">
     <boolean name="carrier_volte_available_bool" value="true" />
@@ -19948,6 +20051,10 @@
   </carrier_config>
   <!-- open.311480.715944c49da3 -->
   <carrier_config mcc="311" mnc="480" name="Tracfone" spn="\QTracfone\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.311480.59a1896af2d1 -->
+  <carrier_config mcc="311" mnc="480" name="VZWCDMA" spn="\QVZWCDMA\E">
     <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
   <!-- open.311480.7b3648594737 -->
@@ -21488,6 +21595,14 @@
     <boolean name="volte_5g_limited_alert_dialog_bool" value="true" />
     <int name="volte_replacement_rat_int" value="6" />
   </carrier_config>
+  <!-- open.312670.a7e39099b7fa -->
+  <carrier_config mcc="312" mnc="670" name="ATT FN 5GC" spn="\QATT FN 5GC\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.312670.cc358354bdc2 -->
+  <carrier_config mcc="312" mnc="670" name="ATT FN" spn="\QATT FN\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
   <!-- open.312670.4e2b008c0ffb -->
   <carrier_config cid="2119" mcc="312" mnc="670" name="FirstNet">
     <boolean name="allow_hold_call_during_emergency_bool" value="false" />
@@ -21502,8 +21617,20 @@
   <carrier_config mcc="312" mnc="770" name="Tracfone" spn="\QTracfone\E">
     <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
+  <!-- open.312770.6078c315c195 -->
+  <carrier_config mcc="312" mnc="770" name="VZWCDMA" spn="\QVZWCDMA\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
   <!-- open.312770.42f244a9ef6b -->
   <carrier_config mcc="312" mnc="770" name="VZW" spn="\QVZW\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.313100.fccddc9d69e0 -->
+  <carrier_config mcc="313" mnc="100" name="ATT FN 5GC" spn="\QATT FN 5GC\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.313100.f8879ecb407c -->
+  <carrier_config mcc="313" mnc="100" name="ATT FN" spn="\QATT FN\E">
     <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
   <!-- open.312670.4e2b008c0ffb -->
@@ -21514,6 +21641,10 @@
   </carrier_config>
   <!-- open.313110.87671bac27fe -->
   <carrier_config mcc="313" mnc="110" name="DOCOMO PACIFIC FirstNet" spn="\QDOCOMO PACIFIC FirstNet\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.313110.dd42eae17f7b -->
+  <carrier_config mcc="313" mnc="110" name="DPAC FN" spn="\QDPAC FN\E">
     <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
   <!-- open.313110.111b80ddf995 -->
@@ -21527,6 +21658,10 @@
     <boolean name="carrier_default_wfc_ims_roaming_enabled_bool" value="true" />
     <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
   </carrier_config>
+  <!-- open.313120.1015948df967 -->
+  <carrier_config mcc="313" mnc="120" name="ASTCA FN" spn="\QASTCA FN\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
   <!-- open.313110.111b80ddf995 -->
   <carrier_config cid="10013" mcc="313" mnc="120" name="FirstNet Pacific">
     <boolean name="enableGroupMms" value="false" />
@@ -21538,11 +21673,27 @@
     <boolean name="carrier_default_wfc_ims_roaming_enabled_bool" value="true" />
     <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
   </carrier_config>
+  <!-- open.313130.ee02433214ea -->
+  <carrier_config mcc="313" mnc="130" name="ATT FN 5GC" spn="\QATT FN 5GC\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.313130.fd33a7d06de9 -->
+  <carrier_config mcc="313" mnc="130" name="ATT FN" spn="\QATT FN\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
   <!-- open.312670.4e2b008c0ffb -->
   <carrier_config cid="2119" mcc="313" mnc="130" name="FirstNet">
     <boolean name="allow_hold_call_during_emergency_bool" value="false" />
     <boolean name="carrier_default_wfc_ims_roaming_enabled_bool" value="true" />
     <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
+  </carrier_config>
+  <!-- open.313140.4d757c347dbb -->
+  <carrier_config mcc="313" mnc="140" name="ATT FN 5GC" spn="\QATT FN 5GC\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.313140.407bc7054731 -->
+  <carrier_config mcc="313" mnc="140" name="ATT FN" spn="\QATT FN\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
   <!-- open.312670.4e2b008c0ffb -->
   <carrier_config cid="2119" mcc="313" mnc="140" name="FirstNet">
@@ -21576,6 +21727,14 @@
     <int name="maxMessageSize" value="1048576" />
     <int name="maxSubjectLength" value="80" />
     <int name="recipientLimit" value="10" />
+  </carrier_config>
+  <!-- open.314020.fe8595b5e392 -->
+  <carrier_config mcc="314" mnc="020" name="CHA_ESIM" spn="\QCHA_ESIM\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.314200.8e66b9d6299f -->
+  <carrier_config mcc="314" mnc="200" name="CCT_ESIM" spn="\QCCT_ESIM\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
   <!-- open.314240.73697514665b -->
   <carrier_config cid="2556" mcc="314" mnc="240" name="Xfinity Mobile 2.0">
@@ -23436,6 +23595,10 @@
   <carrier_config mcc="414" mnc="03" name="MECTEL" spn="\QMECTEL\E">
     <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
+  <!-- open.41405.d0e18d48b6d3 -->
+  <carrier_config mcc="414" mnc="05" name="Ooredoo" spn="\QOoredoo\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
   <!-- open.41405.42817e8e302d -->
   <carrier_config mcc="414" mnc="05" name="U9" spn="\QU9\E">
     <boolean name="carrier_volte_available_bool" value="true" />
@@ -23639,6 +23802,10 @@
   <carrier_config mcc="427" mnc="06" name="Ministry of Interior" spn="\QMinistry of Interior\E">
     <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
+  <!-- open.42707.a700125c496f -->
+  <carrier_config mcc="427" mnc="07" name="MOD" spn="\QMOD\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
   <!-- open.44000.3c9f5d9cb8ec -->
   <carrier_config cid="1917" mcc="440" mnc="00" name="eMobile">
     <boolean name="carrier_volte_available_bool" value="true" />
@@ -23791,6 +23958,90 @@
     <int name="maxMessageSize" value="1048576" />
     <boolean name="support_conference_call_bool" value="false" />
   </carrier_config>
+  <!-- open.45400.1e017a129dfc -->
+  <carrier_config mcc="454" mnc="00" name="1O1O" spn="\Q1O1O\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.45400.51d1e374c0b7 -->
+  <carrier_config mcc="454" mnc="00" name="Global Call" spn="\QGlobal Call\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.45400.14ec3f575e49 -->
+  <carrier_config mcc="454" mnc="00" name="SUN Mobile" spn="\QSUN Mobile\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.45400.cf7df7c55855 -->
+  <carrier_config mcc="454" mnc="00" name="Truphone HK" spn="\QTruphone HK\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.45400.77e6d5df5174 -->
+  <carrier_config mcc="454" mnc="00" name="csl prepaid(1)" spn="\Qcsl prepaid(1)\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.45400.02f30f27c81c -->
+  <carrier_config mcc="454" mnc="00" name="csl prepaid(2)" spn="\Qcsl prepaid(2)\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.45400.b796b1ca3400 -->
+  <carrier_config mcc="454" mnc="00" name="csl prepaid(3)" spn="\Qcsl prepaid(3)\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.45400.708cc3df9c6e -->
+  <carrier_config mcc="454" mnc="00" name="csl." spn="\Qcsl.\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.45401.d9f4b4713274 -->
+  <carrier_config mcc="454" mnc="01" name="CITIC Telecom" spn="\QCITIC Telecom\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.45402.121637c81617 -->
+  <carrier_config mcc="454" mnc="02" name="1O1O" spn="\Q1O1O\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.45402.bcfa687f64a6 -->
+  <carrier_config mcc="454" mnc="02" name="Global Call" spn="\QGlobal Call\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.45402.bec631eff9d4 -->
+  <carrier_config mcc="454" mnc="02" name="SUN Mobile" spn="\QSUN Mobile\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.45402.4d860aba3bb0 -->
+  <carrier_config mcc="454" mnc="02" name="csl prepaid(1)" spn="\Qcsl prepaid(1)\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.45402.f57662b7b3a9 -->
+  <carrier_config mcc="454" mnc="02" name="csl prepaid(2)" spn="\Qcsl prepaid(2)\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.45402.99750ecefce1 -->
+  <carrier_config mcc="454" mnc="02" name="csl prepaid(3)" spn="\Qcsl prepaid(3)\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.45402.83501065a010 -->
+  <carrier_config mcc="454" mnc="02" name="csl." spn="\Qcsl.\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.45403.7ce67650e9be -->
+  <carrier_config mcc="454" mnc="03" name="HKBN" spn="\QHKBN\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.45403.e9ac596ad28a -->
+  <carrier_config mcc="454" mnc="03" name="Hutchison HK" spn="\QHutchison HK\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.45403.b7453665fcb6 -->
+  <carrier_config mcc="454" mnc="03" name="Mo" spn="\QMo\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.45404.a9997b513c4f -->
+  <carrier_config mcc="454" mnc="04" name="3(3G)" spn="\Q3(3G)\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.45406.16c2a78b25f0 -->
+  <carrier_config mcc="454" mnc="06" name="SmarTone HK" spn="\QSmarTone HK\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
   <!-- open.45407.74d9f2fb1b07 -->
   <carrier_config mcc="454" mnc="07" name="CUHK IOT" spn="\QCUHK IOT\E">
     <boolean name="carrier_volte_available_bool" value="true" />
@@ -23801,6 +24052,86 @@
   </carrier_config>
   <!-- open.45407.d4e22e83b2b8 -->
   <carrier_config mcc="454" mnc="07" name="UNICOM HK" spn="\QUNICOM HK\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.45408.b0e80738f0d8 -->
+  <carrier_config mcc="454" mnc="08" name="Truphone HK" spn="\QTruphone HK\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.45410.24e65a26db3c -->
+  <carrier_config mcc="454" mnc="10" name="csl(3G)" spn="\Qcsl(3G)\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.45411.5d6f77b0501e -->
+  <carrier_config mcc="454" mnc="11" name="CHKT" spn="\QCHKT\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.45412.19353bdc56c1 -->
+  <carrier_config mcc="454" mnc="12" name="China Mobile HK" spn="\QChina Mobile HK\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.45413.ba08c652d1b3 -->
+  <carrier_config mcc="454" mnc="13" name="China Mobile HK" spn="\QChina Mobile HK\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.45414.94773dbcee8e -->
+  <carrier_config mcc="454" mnc="14" name="3(2G)" spn="\Q3(2G)\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.45415.18127f0ed08b -->
+  <carrier_config mcc="454" mnc="15" name="SmarTone HK" spn="\QSmarTone HK\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.45416.fc0f57bfd18d -->
+  <carrier_config mcc="454" mnc="16" name="PCCW-HKT" spn="\QPCCW-HKT\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.45417.f88ca411bffb -->
+  <carrier_config mcc="454" mnc="17" name="SmarTone HK" spn="\QSmarTone HK\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.45418.a4fabe5c0bb2 -->
+  <carrier_config mcc="454" mnc="18" name="1O1O" spn="\Q1O1O\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.45418.ab376fdc8f9a -->
+  <carrier_config mcc="454" mnc="18" name="Global Call" spn="\QGlobal Call\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.45418.2afc175d5a2f -->
+  <carrier_config mcc="454" mnc="18" name="SUN Mobile" spn="\QSUN Mobile\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.45418.886309de1aad -->
+  <carrier_config mcc="454" mnc="18" name="csl prepaid(1)" spn="\Qcsl prepaid(1)\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.45418.be4bab921bd2 -->
+  <carrier_config mcc="454" mnc="18" name="csl prepaid(2)" spn="\Qcsl prepaid(2)\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.45418.6984fbd25c67 -->
+  <carrier_config mcc="454" mnc="18" name="csl prepaid(3)" spn="\Qcsl prepaid(3)\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.45418.ffbb4ba7f53f -->
+  <carrier_config mcc="454" mnc="18" name="csl." spn="\Qcsl.\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.45419.7a31abf54e13 -->
+  <carrier_config mcc="454" mnc="19" name="PCCW-HKT" spn="\QPCCW-HKT\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.45420.f6aac65de595 -->
+  <carrier_config mcc="454" mnc="20" name="CSL" spn="\QCSL\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.45421.376f147d31ff -->
+  <carrier_config mcc="454" mnc="21" name="Vave" spn="\QVave\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.45430.bc54f7e3520f -->
+  <carrier_config mcc="454" mnc="30" name="HKIA-5G" spn="\QHKIA-5G\E">
     <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
   <!-- open.45431.e5b2bc3c3075 -->
@@ -23815,12 +24146,40 @@
   <carrier_config mcc="454" mnc="35" name="Webbing" spn="\QWebbing\E">
     <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
+  <!-- open.454383.b0e083b88f7c -->
+  <carrier_config mcc="454" mnc="383" name="China Mobile HK" spn="\QChina Mobile HK\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.45500.246763f1a032 -->
+  <carrier_config mcc="455" mnc="00" name="SmarTone MAC" spn="\QSmarTone MAC\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.45501.c3b30188c472 -->
+  <carrier_config mcc="455" mnc="01" name="CTM Prepaid" spn="\QCTM Prepaid\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.45501.b08f7ba54c53 -->
+  <carrier_config mcc="455" mnc="01" name="CTM" spn="\QCTM\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
   <!-- open.45502.8d654af49a5c -->
   <carrier_config mcc="455" mnc="02" name="CTMACAO Roaming" spn="\QCTMACAO Roaming\E">
     <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
   <!-- open.45502.da3e48230ce6 -->
   <carrier_config mcc="455" mnc="02" name="CTMACAO" spn="\QCTMACAO\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.45503.2caa04a3ee08 -->
+  <carrier_config mcc="455" mnc="03" name="3 Macau (2G)" spn="\Q3 Macau (2G)\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.45504.e09434b2ec4e -->
+  <carrier_config mcc="455" mnc="04" name="CTM" spn="\QCTM\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.45505.524aedc81983 -->
+  <carrier_config mcc="455" mnc="05" name="3 Macau" spn="\Q3 Macau\E">
     <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
   <!-- open.45507.49d95169d071 -->
@@ -23954,25 +24313,57 @@
   <carrier_config mcc="460" mnc="15" name="中国广电" spn="\Q中国广电\E">
     <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
+  <!-- open.46601.88ed6709d002 -->
+  <carrier_config mcc="466" mnc="01" name="Far EasTone" spn="\QFar EasTone\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
   <!-- open.46601.59102cf6648b -->
   <carrier_config cid="1881" mcc="466" mnc="01" name="遠傳電信 Far EasTone Telecom">
     <boolean name="carrier_default_wfc_ims_roaming_enabled_bool" value="true" />
     <boolean name="support_ims_conference_event_package_bool" value="false" />
+  </carrier_config>
+  <!-- open.46602.fc60fd631ad4 -->
+  <carrier_config mcc="466" mnc="02" name="Far EasTone" spn="\QFar EasTone\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
   <!-- open.46601.59102cf6648b -->
   <carrier_config cid="1881" mcc="466" mnc="02" name="遠傳電信 Far EasTone Telecom">
     <boolean name="carrier_default_wfc_ims_roaming_enabled_bool" value="true" />
     <boolean name="support_ims_conference_event_package_bool" value="false" />
   </carrier_config>
+  <!-- open.46603.faa46b90b3b5 -->
+  <carrier_config mcc="466" mnc="03" name="Far EasTone" spn="\QFar EasTone\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
   <!-- open.46601.59102cf6648b -->
   <carrier_config cid="1881" mcc="466" mnc="03" name="遠傳電信 Far EasTone Telecom">
     <boolean name="carrier_default_wfc_ims_roaming_enabled_bool" value="true" />
     <boolean name="support_ims_conference_event_package_bool" value="false" />
   </carrier_config>
+  <!-- open.46605.8dd5cca07dbd -->
+  <carrier_config mcc="466" mnc="05" name="GT 4G" spn="\QGT 4G\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.46611.1254341f3c9a -->
+  <carrier_config mcc="466" mnc="11" name="Chunghwa" spn="\QChunghwa\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
   <!-- open.46611.2f6478a20852 -->
   <carrier_config cid="1884" mcc="466" mnc="11" name="中華電信_Chunghwa Telecom">
     <boolean name="carrier_default_wfc_ims_roaming_enabled_bool" value="true" />
     <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
+  </carrier_config>
+  <!-- open.46688.942969088091 -->
+  <carrier_config mcc="466" mnc="88" name="Far EasTone" spn="\QFar EasTone\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.46689.9d5a49b4dc7b -->
+  <carrier_config mcc="466" mnc="89" name="台灣大哥大TS" spn="\Q台灣大哥大TS\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.46692.3a70aee753b1 -->
+  <carrier_config mcc="466" mnc="92" name="Chunghwa" spn="\QChunghwa\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
   <!-- open.46692.0d913528093d -->
   <carrier_config mcc="466" mnc="92" name="Circleslife Tw" spn="\Q無框行動\E">
@@ -23993,10 +24384,22 @@
     <boolean name="carrier_default_wfc_ims_roaming_enabled_bool" value="true" />
     <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
   </carrier_config>
+  <!-- open.46693.4e5d61919c8c -->
+  <carrier_config mcc="466" mnc="93" name="TW Mobile" spn="\QTW Mobile\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.46697.33d6023338de -->
+  <carrier_config mcc="466" mnc="97" name="TW Mobile" spn="\QTW Mobile\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
   <!-- open.46697.959e747552bc -->
   <carrier_config cid="1888" mcc="466" mnc="97" name="台灣大哥大 Taiwan Mobile Telecom">
     <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
     <boolean name="support_ims_conference_event_package_bool" value="false" />
+  </carrier_config>
+  <!-- open.46699.c904caab23c4 -->
+  <carrier_config mcc="466" mnc="99" name="TW Mobile" spn="\QTW Mobile\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
   <!-- open.47201.18088e5356d1 -->
   <carrier_config mcc="472" mnc="01" name="Dhiraagu" spn="\QDhiraagu\E">
@@ -24304,6 +24707,10 @@
   <carrier_config mcc="525" mnc="03" name="SGP-M1" spn="\QSGP-M1\E">
     <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
+  <!-- open.52505.7530ff1e9061 -->
+  <carrier_config mcc="525" mnc="05" name="GT 4G Roaming" spn="\QGT 4G Roaming\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
   <!-- open.52505.79ba3f2078e8 -->
   <carrier_config mcc="525" mnc="05" name="StarHub" spn="\QStarHub\E">
     <boolean name="carrier_volte_available_bool" value="true" />
@@ -24475,6 +24882,10 @@
   <carrier_config mcc="633" mnc="01" name="C&amp;W SEY" spn="\QC&amp;W SEY\E">
     <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
+  <!-- open.63310.029d50363fdc -->
+  <carrier_config mcc="633" mnc="10" name="Airtel Seychelles" spn="\QAirtel Seychelles\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
   <!-- open.63401.dd69f19c4b79 -->
   <carrier_config mcc="634" mnc="01" name="Zain Sudan" spn="\QZain Sudan\E">
     <boolean name="carrier_volte_available_bool" value="true" />
@@ -24561,6 +24972,10 @@
   </carrier_config>
   <!-- open.64005.db6cd629a854 -->
   <carrier_config mcc="640" mnc="05" name="Airtel TZ" spn="\QAirtel TZ\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.64009.d16ec35f8c70 -->
+  <carrier_config mcc="640" mnc="09" name="HALOTEL" spn="\QHALOTEL\E">
     <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
   <!-- open.64009.47f565a9d276 -->
@@ -24659,6 +25074,10 @@
   </carrier_config>
   <!-- open.65302.bbb750a67aa7 -->
   <carrier_config mcc="653" mnc="02" name="Eswatini Mobile Ltd" spn="\QEswatini Mobile Ltd\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.65310.17a45592e01b -->
+  <carrier_config mcc="653" mnc="10" name="MTN Eswatini" spn="\QMTN Eswatini\E">
     <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
   <!-- open.65501.2abdaa7970a9 -->
@@ -25003,6 +25422,10 @@
   <carrier_config mcc="999" mnc="99" name="Metro" spn="\QMetro\E">
     <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
+  <!-- open.99999.93706c828dca -->
+  <carrier_config mcc="999" mnc="99" name="NTM" spn="\QNTM\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
   <!-- open.99999.320430ef5952 -->
   <carrier_config mcc="999" mnc="99" name="T-Mobile" spn="\QT-Mobile\E">
     <boolean name="carrier_volte_available_bool" value="true" />
@@ -25019,6 +25442,10 @@
   <carrier_config mcc="999" mnc="99" name="VZW TEST" spn="\QVZW TEST\E">
     <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
+  <!-- open.99999.32de3283273b -->
+  <carrier_config mcc="999" mnc="99" name="VZWCDMA" spn="\QVZWCDMA\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
   <!-- open.999999.4b1913ade28d -->
   <carrier_config mcc="999" mnc="999" name="FKR TEST" spn="\QFKR TEST\E">
     <boolean name="carrier_volte_available_bool" value="true" />
@@ -25033,6 +25460,10 @@
   </carrier_config>
   <!-- open.999999.f3e44a8067f0 -->
   <carrier_config mcc="999" mnc="999" name="VZW TEST" spn="\QVZW TEST\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.999999.259f2597d2e8 -->
+  <carrier_config mcc="999" mnc="999" name="VZWCDMA" spn="\QVZWCDMA\E">
     <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
   <!-- open.20404.794a32576a5e -->

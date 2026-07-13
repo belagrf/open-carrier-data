@@ -7,18 +7,10 @@
     "network_policy": {
       "display_antenna_limited": true,
       "gcf_sor": true,
-      "mobile_network_setting_menu_tokens": [
-        "+dataenabled",
-        "-preferrednetworkmode",
-        "-voltecall",
-        "+attdiag",
-        "+autoSwitchNr5gMode"
-      ],
-      "network_type_capability": "ATT-ATT-GSM-USA",
-      "voice_network_setting_style": "UsaGsmNetworkSetting,CdmaSubscriptionEnable,SupportENSNetworkSetting,NetworkSetting_ATT"
+      "network_type_capability": "ATT-ATT-GSM-USA"
     },
-    "operator_display": {
-      "indicator_icon_branding": "ATT_OPEN"
+    "wifi_calling": {
+      "show_vowifi_end_call": true
     }
   },
   "android_apns": [

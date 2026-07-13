@@ -67,6 +67,19 @@
       ]
     },
     {
+      "apn": "mcpttvar1",
+      "authtype": 1,
+      "carrier_enabled": true,
+      "mvno_match_data": "F SFR",
+      "mvno_type": "spn",
+      "name": "SFR mcptt",
+      "protocol": "IPV6",
+      "roaming_protocol": "IPV6",
+      "types": [
+        "cbs"
+      ]
+    },
+    {
       "apn": "sl2sfr",
       "authtype": 1,
       "carrier_enabled": true,

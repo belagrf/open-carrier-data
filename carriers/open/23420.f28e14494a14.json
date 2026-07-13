@@ -83,6 +83,23 @@
       ]
     },
     {
+      "apn": "mobile.connect",
+      "authtype": 0,
+      "carrier_enabled": true,
+      "mmsc": "http://mms.um.three.co.uk:10021/mmsc",
+      "mmsport": 8799,
+      "mmsproxy": "mms.three.co.uk",
+      "mtu": 1440,
+      "mvno_match_data": "0310",
+      "mvno_type": "gid",
+      "name": "Superdrug MMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IP",
+      "types": [
+        "mms"
+      ]
+    },
+    {
       "apn": "superdrug.net",
       "authtype": 0,
       "carrier_enabled": true,

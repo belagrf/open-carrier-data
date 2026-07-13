@@ -41,6 +41,18 @@
         "default",
         "supl"
       ]
+    },
+    {
+      "apn": "web",
+      "authtype": 0,
+      "carrier_enabled": true,
+      "mvno_match_data": "0041",
+      "mvno_type": "gid",
+      "name": "spusu",
+      "types": [
+        "default",
+        "supl"
+      ]
     }
   ],
   "android_carrier_config": {

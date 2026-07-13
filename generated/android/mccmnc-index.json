@@ -137,6 +137,20 @@
         "specificity": 1
       },
       {
+        "display_name": "VZWCDMA",
+        "match": {
+          "mccmnc": [
+            "00101"
+          ],
+          "spn": [
+            "VZWCDMA"
+          ]
+        },
+        "path": "carriers/open/00101.2c9bef2801e7.json",
+        "profile_id": "open.00101.2c9bef2801e7",
+        "specificity": 1
+      },
+      {
         "display_name": "LRA Test",
         "match": {
           "mccmnc": [
@@ -162,6 +176,20 @@
         },
         "path": "carriers/open/00101.3ed0bf46056b.json",
         "profile_id": "open.00101.3ed0bf46056b",
+        "specificity": 1
+      },
+      {
+        "display_name": "USC Test CDMA",
+        "match": {
+          "mccmnc": [
+            "00101"
+          ],
+          "spn": [
+            "USC Test CDMA"
+          ]
+        },
+        "path": "carriers/open/00101.4043e64447fd.json",
+        "profile_id": "open.00101.4043e64447fd",
         "specificity": 1
       },
       {
@@ -287,6 +315,20 @@
         },
         "path": "carriers/open/001010.1a8265e84a4b.json",
         "profile_id": "open.001010.1a8265e84a4b",
+        "specificity": 1
+      },
+      {
+        "display_name": "VZWCDMA",
+        "match": {
+          "mccmnc": [
+            "001010"
+          ],
+          "spn": [
+            "VZWCDMA"
+          ]
+        },
+        "path": "carriers/open/001010.4ea8f445ac1f.json",
+        "profile_id": "open.001010.4ea8f445ac1f",
         "specificity": 1
       },
       {
@@ -1296,6 +1338,20 @@
         },
         "path": "carriers/open/20404.e4fb02d9a03a.json",
         "profile_id": "open.20404.e4fb02d9a03a",
+        "specificity": 1
+      },
+      {
+        "display_name": "VZWCDMA",
+        "match": {
+          "mccmnc": [
+            "20404"
+          ],
+          "spn": [
+            "VZWCDMA"
+          ]
+        },
+        "path": "carriers/open/20404.e63a4258b06d.json",
+        "profile_id": "open.20404.e63a4258b06d",
         "specificity": 1
       },
       {
@@ -7575,6 +7631,20 @@
         "path": "carriers/open/21910.cf0b7334b682.json",
         "profile_id": "open.21910.cf0b7334b682",
         "specificity": 0
+      },
+      {
+        "display_name": "A1 HR",
+        "match": {
+          "mccmnc": [
+            "21910"
+          ],
+          "spn": [
+            "A1 HR"
+          ]
+        },
+        "path": "carriers/open/21910.4d892f480fbf.json",
+        "profile_id": "open.21910.4d892f480fbf",
+        "specificity": 1
       }
     ],
     "21920": [
@@ -7727,6 +7797,20 @@
         "path": "carriers/open/22001.580b9d5bd419.json",
         "profile_id": "open.22001.580b9d5bd419",
         "specificity": 0
+      },
+      {
+        "display_name": "Yettel SRB",
+        "match": {
+          "mccmnc": [
+            "22001"
+          ],
+          "spn": [
+            "Yettel SRB"
+          ]
+        },
+        "path": "carriers/open/22001.804c98ea029b.json",
+        "profile_id": "open.22001.804c98ea029b",
+        "specificity": 1
       }
     ],
     "22002": [
@@ -7779,6 +7863,20 @@
         "path": "carriers/open/22005.4a37529fc96b.json",
         "profile_id": "open.22005.4a37529fc96b",
         "specificity": 0
+      },
+      {
+        "display_name": "A1 SRB",
+        "match": {
+          "mccmnc": [
+            "22005"
+          ],
+          "spn": [
+            "A1 SRB"
+          ]
+        },
+        "path": "carriers/open/22005.f9ed4f975038.json",
+        "profile_id": "open.22005.f9ed4f975038",
+        "specificity": 1
       }
     ],
     "22101": [
@@ -8282,6 +8380,20 @@
         },
         "path": "carriers/open/22201.681deb0f7c07.json",
         "profile_id": "open.22201.681deb0f7c07",
+        "specificity": 1
+      },
+      {
+        "display_name": "Kena Mobile",
+        "match": {
+          "mccmnc": [
+            "22201"
+          ],
+          "spn": [
+            "Kena Mobile"
+          ]
+        },
+        "path": "carriers/open/22201.7a37504a2679.json",
+        "profile_id": "open.22201.7a37504a2679",
         "specificity": 1
       },
       {
@@ -9962,6 +10074,20 @@
         "specificity": 1
       },
       {
+        "display_name": "KUFNET",
+        "match": {
+          "gid1_prefixes": [
+            "76"
+          ],
+          "mccmnc": [
+            "23203"
+          ]
+        },
+        "path": "carriers/open/23203.9b21fe423c29.json",
+        "profile_id": "open.23203.9b21fe423c29",
+        "specificity": 1
+      },
+      {
         "display_name": "TMobile AT",
         "match": {
           "gid1_prefixes": [
@@ -10477,6 +10603,20 @@
         "specificity": 0
       },
       {
+        "display_name": "spusu",
+        "match": {
+          "iccid_prefixes": [
+            "894317"
+          ],
+          "mccmnc": [
+            "23217"
+          ]
+        },
+        "path": "carriers/open/23217.75bbabc420ae.json",
+        "profile_id": "open.23217.75bbabc420ae",
+        "specificity": 1
+      },
+      {
         "display_name": "Tchibo At",
         "match": {
           "gid1_prefixes": [
@@ -10583,6 +10723,20 @@
         "path": "carriers/open/23228.ba2c8df322ad.json",
         "profile_id": "open.23228.ba2c8df322ad",
         "specificity": 0
+      },
+      {
+        "display_name": "spusu",
+        "match": {
+          "iccid_prefixes": [
+            "894317"
+          ],
+          "mccmnc": [
+            "23228"
+          ]
+        },
+        "path": "carriers/open/23228.fee058c071ff.json",
+        "profile_id": "open.23228.fee058c071ff",
+        "specificity": 1
       }
     ],
     "23400": [
@@ -14720,6 +14874,20 @@
         "path": "carriers/open/246081.c8b67a0f4027.json",
         "profile_id": "open.246081.c8b67a0f4027",
         "specificity": 1
+      },
+      {
+        "display_name": "VZWCDMA",
+        "match": {
+          "mccmnc": [
+            "246081"
+          ],
+          "spn": [
+            "VZWCDMA"
+          ]
+        },
+        "path": "carriers/open/246081.cbb2c336612f.json",
+        "profile_id": "open.246081.cbb2c336612f",
+        "specificity": 1
       }
     ],
     "24681": [
@@ -14774,6 +14942,20 @@
         },
         "path": "carriers/open/24681.916155e82573.json",
         "profile_id": "open.24681.916155e82573",
+        "specificity": 1
+      },
+      {
+        "display_name": "VZWCDMA",
+        "match": {
+          "mccmnc": [
+            "24681"
+          ],
+          "spn": [
+            "VZWCDMA"
+          ]
+        },
+        "path": "carriers/open/24681.96a7710afc25.json",
+        "profile_id": "open.24681.96a7710afc25",
         "specificity": 1
       },
       {
@@ -17080,6 +17262,20 @@
         "path": "carriers/open/262800.80956c5c5edf.json",
         "profile_id": "open.262800.80956c5c5edf",
         "specificity": 1
+      },
+      {
+        "display_name": "USC Test CDMA",
+        "match": {
+          "mccmnc": [
+            "262800"
+          ],
+          "spn": [
+            "USC Test CDMA"
+          ]
+        },
+        "path": "carriers/open/262800.c1c0acc89a82.json",
+        "profile_id": "open.262800.c1c0acc89a82",
+        "specificity": 1
       }
     ],
     "262830": [
@@ -17253,6 +17449,20 @@
         "path": "carriers/open/26806.c7563b3fb3c7.json",
         "profile_id": "open.26806.c7563b3fb3c7",
         "specificity": 0
+      },
+      {
+        "display_name": "MEO",
+        "match": {
+          "mccmnc": [
+            "26806"
+          ],
+          "spn": [
+            "MEO"
+          ]
+        },
+        "path": "carriers/open/26806.e461968bb9a2.json",
+        "profile_id": "open.26806.e461968bb9a2",
+        "specificity": 1
       }
     ],
     "26807": [
@@ -18734,6 +18944,20 @@
         },
         "path": "carriers/open/29341.a45b623fb649.json",
         "profile_id": "open.29341.a45b623fb649",
+        "specificity": 1
+      },
+      {
+        "display_name": "Mobitel",
+        "match": {
+          "mccmnc": [
+            "29341"
+          ],
+          "spn": [
+            "Mobitel"
+          ]
+        },
+        "path": "carriers/open/29341.b28c965a0cd2.json",
+        "profile_id": "open.29341.b28c965a0cd2",
         "specificity": 1
       }
     ],
@@ -21988,6 +22212,20 @@
         "specificity": 1
       },
       {
+        "display_name": "VZWCDMA",
+        "match": {
+          "mccmnc": [
+            "310004"
+          ],
+          "spn": [
+            "VZWCDMA"
+          ]
+        },
+        "path": "carriers/open/310004.b4989e0df9cd.json",
+        "profile_id": "open.310004.b4989e0df9cd",
+        "specificity": 1
+      },
+      {
         "display_name": "TFNCDMA",
         "match": {
           "mccmnc": [
@@ -22336,6 +22574,20 @@
         "specificity": 1
       },
       {
+        "display_name": "USC Test CDMA",
+        "match": {
+          "mccmnc": [
+            "310028"
+          ],
+          "spn": [
+            "USC Test CDMA"
+          ]
+        },
+        "path": "carriers/open/310028.3cd17b540ed9.json",
+        "profile_id": "open.310028.3cd17b540ed9",
+        "specificity": 1
+      },
+      {
         "display_name": "TFNCDMA",
         "match": {
           "mccmnc": [
@@ -22389,6 +22641,20 @@
         },
         "path": "carriers/open/310028.d4cf5389dce9.json",
         "profile_id": "open.310028.d4cf5389dce9",
+        "specificity": 1
+      },
+      {
+        "display_name": "VZWCDMA",
+        "match": {
+          "mccmnc": [
+            "310028"
+          ],
+          "spn": [
+            "VZWCDMA"
+          ]
+        },
+        "path": "carriers/open/310028.db14a7b77126.json",
+        "profile_id": "open.310028.db14a7b77126",
         "specificity": 1
       }
     ],
@@ -22691,6 +22957,20 @@
         "path": "carriers/open/310090.4f00a20e9474.json",
         "profile_id": "open.310090.4f00a20e9474",
         "specificity": 0
+      },
+      {
+        "display_name": "ATT PCN",
+        "match": {
+          "mccmnc": [
+            "310090"
+          ],
+          "spn": [
+            "ATT PCN"
+          ]
+        },
+        "path": "carriers/open/310090.d7b2fe98ac69.json",
+        "profile_id": "open.310090.d7b2fe98ac69",
+        "specificity": 1
       }
     ],
     "310100": [
@@ -24233,6 +24513,20 @@
         "specificity": 1
       },
       {
+        "display_name": "Comcast",
+        "match": {
+          "mccmnc": [
+            "310240"
+          ],
+          "spn": [
+            "Comcast"
+          ]
+        },
+        "path": "carriers/open/310240.323b366b4c7a.json",
+        "profile_id": "open.310240.323b366b4c7a",
+        "specificity": 1
+      },
+      {
         "display_name": "TMobile US DSH",
         "match": {
           "gid2_prefixes": [
@@ -24328,6 +24622,20 @@
         },
         "path": "carriers/open/310240.3e698779f349.json",
         "profile_id": "open.310240.3e698779f349",
+        "specificity": 1
+      },
+      {
+        "display_name": "Charter",
+        "match": {
+          "mccmnc": [
+            "310240"
+          ],
+          "spn": [
+            "Charter"
+          ]
+        },
+        "path": "carriers/open/310240.432a3daecbe5.json",
+        "profile_id": "open.310240.432a3daecbe5",
         "specificity": 1
       },
       {
@@ -28391,6 +28699,20 @@
         "specificity": 1
       },
       {
+        "display_name": "ATT PCN",
+        "match": {
+          "mccmnc": [
+            "310280"
+          ],
+          "spn": [
+            "ATT PCN"
+          ]
+        },
+        "path": "carriers/open/310280.ce8da948bcc5.json",
+        "profile_id": "open.310280.ce8da948bcc5",
+        "specificity": 1
+      },
+      {
         "display_name": "ATT US GoogleGC",
         "match": {
           "gid1_prefixes": [
@@ -28791,6 +29113,20 @@
         },
         "path": "carriers/open/310332.98c10815e081.json",
         "profile_id": "open.310332.98c10815e081",
+        "specificity": 1
+      },
+      {
+        "display_name": "USC Test CDMA",
+        "match": {
+          "mccmnc": [
+            "310332"
+          ],
+          "spn": [
+            "USC Test CDMA"
+          ]
+        },
+        "path": "carriers/open/310332.f4e05faa65ef.json",
+        "profile_id": "open.310332.f4e05faa65ef",
         "specificity": 1
       }
     ],
@@ -29373,6 +29709,20 @@
         },
         "path": "carriers/open/310410.715a74b9db72.json",
         "profile_id": "open.310410.715a74b9db72",
+        "specificity": 1
+      },
+      {
+        "display_name": "ATT PCN",
+        "match": {
+          "mccmnc": [
+            "310410"
+          ],
+          "spn": [
+            "ATT PCN"
+          ]
+        },
+        "path": "carriers/open/310410.75d22012ba05.json",
+        "profile_id": "open.310410.75d22012ba05",
         "specificity": 1
       },
       {
@@ -32825,6 +33175,20 @@
         "specificity": 1
       },
       {
+        "display_name": "ATT PCN",
+        "match": {
+          "mccmnc": [
+            "310950"
+          ],
+          "spn": [
+            "ATT PCN"
+          ]
+        },
+        "path": "carriers/open/310950.568ad9e13612.json",
+        "profile_id": "open.310950.568ad9e13612",
+        "specificity": 1
+      },
+      {
         "display_name": "Commonmvnxatt Us",
         "match": {
           "gid1_prefixes": [
@@ -33380,6 +33744,20 @@
         },
         "path": "carriers/open/311028.30886899dd6f.json",
         "profile_id": "open.311028.30886899dd6f",
+        "specificity": 1
+      },
+      {
+        "display_name": "VZWCDMA",
+        "match": {
+          "mccmnc": [
+            "311028"
+          ],
+          "spn": [
+            "VZWCDMA"
+          ]
+        },
+        "path": "carriers/open/311028.8e2a84e0ef5c.json",
+        "profile_id": "open.311028.8e2a84e0ef5c",
         "specificity": 1
       }
     ],
@@ -34261,6 +34639,20 @@
         },
         "path": "carriers/open/311180.caf457b61d5c.json",
         "profile_id": "open.311180.caf457b61d5c",
+        "specificity": 1
+      },
+      {
+        "display_name": "ATT PCN",
+        "match": {
+          "mccmnc": [
+            "311180"
+          ],
+          "spn": [
+            "ATT PCN"
+          ]
+        },
+        "path": "carriers/open/311180.cc0591e5d82f.json",
+        "profile_id": "open.311180.cc0591e5d82f",
         "specificity": 1
       },
       {
@@ -35354,6 +35746,20 @@
         "specificity": 1
       },
       {
+        "display_name": "VZWCDMA",
+        "match": {
+          "mccmnc": [
+            "311270"
+          ],
+          "spn": [
+            "VZWCDMA"
+          ]
+        },
+        "path": "carriers/open/311270.4363d372adc3.json",
+        "profile_id": "open.311270.4363d372adc3",
+        "specificity": 1
+      },
+      {
         "display_name": "Tracfone - ALU Test2",
         "match": {
           "mccmnc": [
@@ -36404,6 +36810,20 @@
         "specificity": 1
       },
       {
+        "display_name": "VZWCDMA",
+        "match": {
+          "mccmnc": [
+            "311390"
+          ],
+          "spn": [
+            "VZWCDMA"
+          ]
+        },
+        "path": "carriers/open/311390.9190cc58ac17.json",
+        "profile_id": "open.311390.9190cc58ac17",
+        "specificity": 1
+      },
+      {
         "display_name": "VZW TEST",
         "match": {
           "mccmnc": [
@@ -36864,6 +37284,20 @@
         },
         "path": "carriers/open/311480.57492eedf261.json",
         "profile_id": "open.311480.57492eedf261",
+        "specificity": 1
+      },
+      {
+        "display_name": "VZWCDMA",
+        "match": {
+          "mccmnc": [
+            "311480"
+          ],
+          "spn": [
+            "VZWCDMA"
+          ]
+        },
+        "path": "carriers/open/311480.59a1896af2d1.json",
+        "profile_id": "open.311480.59a1896af2d1",
         "specificity": 1
       },
       {
@@ -41410,6 +41844,34 @@
         "path": "carriers/open/312670.4e2b008c0ffb.json",
         "profile_id": "open.312670.4e2b008c0ffb",
         "specificity": 1
+      },
+      {
+        "display_name": "ATT FN 5GC",
+        "match": {
+          "mccmnc": [
+            "312670"
+          ],
+          "spn": [
+            "ATT FN 5GC"
+          ]
+        },
+        "path": "carriers/open/312670.a7e39099b7fa.json",
+        "profile_id": "open.312670.a7e39099b7fa",
+        "specificity": 1
+      },
+      {
+        "display_name": "ATT FN",
+        "match": {
+          "mccmnc": [
+            "312670"
+          ],
+          "spn": [
+            "ATT FN"
+          ]
+        },
+        "path": "carriers/open/312670.cc358354bdc2.json",
+        "profile_id": "open.312670.cc358354bdc2",
+        "specificity": 1
       }
     ],
     "312720": [
@@ -41452,6 +41914,20 @@
         },
         "path": "carriers/open/312770.42f244a9ef6b.json",
         "profile_id": "open.312770.42f244a9ef6b",
+        "specificity": 1
+      },
+      {
+        "display_name": "VZWCDMA",
+        "match": {
+          "mccmnc": [
+            "312770"
+          ],
+          "spn": [
+            "VZWCDMA"
+          ]
+        },
+        "path": "carriers/open/312770.6078c315c195.json",
+        "profile_id": "open.312770.6078c315c195",
         "specificity": 1
       },
       {
@@ -41581,6 +42057,34 @@
         "path": "carriers/open/312670.4e2b008c0ffb.json",
         "profile_id": "open.312670.4e2b008c0ffb",
         "specificity": 1
+      },
+      {
+        "display_name": "ATT FN",
+        "match": {
+          "mccmnc": [
+            "313100"
+          ],
+          "spn": [
+            "ATT FN"
+          ]
+        },
+        "path": "carriers/open/313100.f8879ecb407c.json",
+        "profile_id": "open.313100.f8879ecb407c",
+        "specificity": 1
+      },
+      {
+        "display_name": "ATT FN 5GC",
+        "match": {
+          "mccmnc": [
+            "313100"
+          ],
+          "spn": [
+            "ATT FN 5GC"
+          ]
+        },
+        "path": "carriers/open/313100.fccddc9d69e0.json",
+        "profile_id": "open.313100.fccddc9d69e0",
+        "specificity": 1
       }
     ],
     "313110": [
@@ -41642,6 +42146,20 @@
         "path": "carriers/open/313110.87671bac27fe.json",
         "profile_id": "open.313110.87671bac27fe",
         "specificity": 1
+      },
+      {
+        "display_name": "DPAC FN",
+        "match": {
+          "mccmnc": [
+            "313110"
+          ],
+          "spn": [
+            "DPAC FN"
+          ]
+        },
+        "path": "carriers/open/313110.dd42eae17f7b.json",
+        "profile_id": "open.313110.dd42eae17f7b",
+        "specificity": 1
       }
     ],
     "313120": [
@@ -41689,6 +42207,20 @@
         "path": "carriers/open/313110.111b80ddf995.json",
         "profile_id": "open.313110.111b80ddf995",
         "specificity": 1
+      },
+      {
+        "display_name": "ASTCA FN",
+        "match": {
+          "mccmnc": [
+            "313120"
+          ],
+          "spn": [
+            "ASTCA FN"
+          ]
+        },
+        "path": "carriers/open/313120.1015948df967.json",
+        "profile_id": "open.313120.1015948df967",
+        "specificity": 1
       }
     ],
     "313130": [
@@ -41721,6 +42253,34 @@
         "path": "carriers/open/312670.4e2b008c0ffb.json",
         "profile_id": "open.312670.4e2b008c0ffb",
         "specificity": 1
+      },
+      {
+        "display_name": "ATT FN 5GC",
+        "match": {
+          "mccmnc": [
+            "313130"
+          ],
+          "spn": [
+            "ATT FN 5GC"
+          ]
+        },
+        "path": "carriers/open/313130.ee02433214ea.json",
+        "profile_id": "open.313130.ee02433214ea",
+        "specificity": 1
+      },
+      {
+        "display_name": "ATT FN",
+        "match": {
+          "mccmnc": [
+            "313130"
+          ],
+          "spn": [
+            "ATT FN"
+          ]
+        },
+        "path": "carriers/open/313130.fd33a7d06de9.json",
+        "profile_id": "open.313130.fd33a7d06de9",
+        "specificity": 1
       }
     ],
     "313140": [
@@ -41752,6 +42312,34 @@
         },
         "path": "carriers/open/312670.4e2b008c0ffb.json",
         "profile_id": "open.312670.4e2b008c0ffb",
+        "specificity": 1
+      },
+      {
+        "display_name": "ATT FN",
+        "match": {
+          "mccmnc": [
+            "313140"
+          ],
+          "spn": [
+            "ATT FN"
+          ]
+        },
+        "path": "carriers/open/313140.407bc7054731.json",
+        "profile_id": "open.313140.407bc7054731",
+        "specificity": 1
+      },
+      {
+        "display_name": "ATT FN 5GC",
+        "match": {
+          "mccmnc": [
+            "313140"
+          ],
+          "spn": [
+            "ATT FN 5GC"
+          ]
+        },
+        "path": "carriers/open/313140.4d757c347dbb.json",
+        "profile_id": "open.313140.4d757c347dbb",
         "specificity": 1
       }
     ],
@@ -42732,6 +43320,20 @@
         "path": "carriers/open/314020.98f1f3f31fdb.json",
         "profile_id": "open.314020.98f1f3f31fdb",
         "specificity": 1
+      },
+      {
+        "display_name": "CHA_ESIM",
+        "match": {
+          "mccmnc": [
+            "314020"
+          ],
+          "spn": [
+            "CHA_ESIM"
+          ]
+        },
+        "path": "carriers/open/314020.fe8595b5e392.json",
+        "profile_id": "open.314020.fe8595b5e392",
+        "specificity": 1
       }
     ],
     "314200": [
@@ -42745,6 +43347,20 @@
         "path": "carriers/open/314200.8bdf85bbd9a4.json",
         "profile_id": "open.314200.8bdf85bbd9a4",
         "specificity": 0
+      },
+      {
+        "display_name": "CCT_ESIM",
+        "match": {
+          "mccmnc": [
+            "314200"
+          ],
+          "spn": [
+            "CCT_ESIM"
+          ]
+        },
+        "path": "carriers/open/314200.8e66b9d6299f.json",
+        "profile_id": "open.314200.8e66b9d6299f",
+        "specificity": 1
       }
     ],
     "314240": [
@@ -63673,6 +64289,20 @@
         "path": "carriers/open/41405.42817e8e302d.json",
         "profile_id": "open.41405.42817e8e302d",
         "specificity": 1
+      },
+      {
+        "display_name": "Ooredoo",
+        "match": {
+          "mccmnc": [
+            "41405"
+          ],
+          "spn": [
+            "Ooredoo"
+          ]
+        },
+        "path": "carriers/open/41405.d0e18d48b6d3.json",
+        "profile_id": "open.41405.d0e18d48b6d3",
+        "specificity": 1
       }
     ],
     "41406": [
@@ -65595,6 +66225,22 @@
         },
         "path": "carriers/open/42706.b28aac6f521f.json",
         "profile_id": "open.42706.b28aac6f521f",
+        "specificity": 1
+      }
+    ],
+    "42707": [
+      {
+        "display_name": "MOD",
+        "match": {
+          "mccmnc": [
+            "42707"
+          ],
+          "spn": [
+            "MOD"
+          ]
+        },
+        "path": "carriers/open/42707.a700125c496f.json",
+        "profile_id": "open.42707.a700125c496f",
         "specificity": 1
       }
     ],
@@ -68645,6 +69291,20 @@
         "specificity": 0
       },
       {
+        "display_name": "csl prepaid(2)",
+        "match": {
+          "mccmnc": [
+            "45400"
+          ],
+          "spn": [
+            "csl prepaid(2)"
+          ]
+        },
+        "path": "carriers/open/45400.02f30f27c81c.json",
+        "profile_id": "open.45400.02f30f27c81c",
+        "specificity": 1
+      },
+      {
         "display_name": "Reliance",
         "match": {
           "iccid_prefixes": [
@@ -68701,6 +69361,20 @@
         "specificity": 1
       },
       {
+        "display_name": "SUN Mobile",
+        "match": {
+          "mccmnc": [
+            "45400"
+          ],
+          "spn": [
+            "SUN Mobile"
+          ]
+        },
+        "path": "carriers/open/45400.14ec3f575e49.json",
+        "profile_id": "open.45400.14ec3f575e49",
+        "specificity": 1
+      },
+      {
         "display_name": "Reliance",
         "match": {
           "iccid_prefixes": [
@@ -68712,6 +69386,20 @@
         },
         "path": "carriers/open/45400.15ae31f5a476.json",
         "profile_id": "open.45400.15ae31f5a476",
+        "specificity": 1
+      },
+      {
+        "display_name": "1O1O",
+        "match": {
+          "mccmnc": [
+            "45400"
+          ],
+          "spn": [
+            "1O1O"
+          ]
+        },
+        "path": "carriers/open/45400.1e017a129dfc.json",
+        "profile_id": "open.45400.1e017a129dfc",
         "specificity": 1
       },
       {
@@ -68827,6 +69515,20 @@
         "specificity": 1
       },
       {
+        "display_name": "Global Call",
+        "match": {
+          "mccmnc": [
+            "45400"
+          ],
+          "spn": [
+            "Global Call"
+          ]
+        },
+        "path": "carriers/open/45400.51d1e374c0b7.json",
+        "profile_id": "open.45400.51d1e374c0b7",
+        "specificity": 1
+      },
+      {
         "display_name": "Truphone Zz",
         "match": {
           "gid1_prefixes": [
@@ -68880,6 +69582,34 @@
         },
         "path": "carriers/open/45400.6ee187065e29.json",
         "profile_id": "open.45400.6ee187065e29",
+        "specificity": 1
+      },
+      {
+        "display_name": "csl.",
+        "match": {
+          "mccmnc": [
+            "45400"
+          ],
+          "spn": [
+            "csl."
+          ]
+        },
+        "path": "carriers/open/45400.708cc3df9c6e.json",
+        "profile_id": "open.45400.708cc3df9c6e",
+        "specificity": 1
+      },
+      {
+        "display_name": "csl prepaid(1)",
+        "match": {
+          "mccmnc": [
+            "45400"
+          ],
+          "spn": [
+            "csl prepaid(1)"
+          ]
+        },
+        "path": "carriers/open/45400.77e6d5df5174.json",
+        "profile_id": "open.45400.77e6d5df5174",
         "specificity": 1
       },
       {
@@ -69009,6 +69739,34 @@
         "specificity": 1
       },
       {
+        "display_name": "csl prepaid(3)",
+        "match": {
+          "mccmnc": [
+            "45400"
+          ],
+          "spn": [
+            "csl prepaid(3)"
+          ]
+        },
+        "path": "carriers/open/45400.b796b1ca3400.json",
+        "profile_id": "open.45400.b796b1ca3400",
+        "specificity": 1
+      },
+      {
+        "display_name": "Truphone HK",
+        "match": {
+          "mccmnc": [
+            "45400"
+          ],
+          "spn": [
+            "Truphone HK"
+          ]
+        },
+        "path": "carriers/open/45400.cf7df7c55855.json",
+        "profile_id": "open.45400.cf7df7c55855",
+        "specificity": 1
+      },
+      {
         "display_name": "Reliance",
         "match": {
           "iccid_prefixes": [
@@ -69062,6 +69820,20 @@
         "path": "carriers/open/45401.b48fc15efce1.json",
         "profile_id": "open.45401.b48fc15efce1",
         "specificity": 0
+      },
+      {
+        "display_name": "CITIC Telecom",
+        "match": {
+          "mccmnc": [
+            "45401"
+          ],
+          "spn": [
+            "CITIC Telecom"
+          ]
+        },
+        "path": "carriers/open/45401.d9f4b4713274.json",
+        "profile_id": "open.45401.d9f4b4713274",
+        "specificity": 1
       }
     ],
     "45402": [
@@ -69130,6 +69902,20 @@
         },
         "path": "carriers/open/45402.11d8bcf4b5f1.json",
         "profile_id": "open.45402.11d8bcf4b5f1",
+        "specificity": 1
+      },
+      {
+        "display_name": "1O1O",
+        "match": {
+          "mccmnc": [
+            "45402"
+          ],
+          "spn": [
+            "1O1O"
+          ]
+        },
+        "path": "carriers/open/45402.121637c81617.json",
+        "profile_id": "open.45402.121637c81617",
         "specificity": 1
       },
       {
@@ -69203,6 +69989,20 @@
         "specificity": 1
       },
       {
+        "display_name": "csl prepaid(1)",
+        "match": {
+          "mccmnc": [
+            "45402"
+          ],
+          "spn": [
+            "csl prepaid(1)"
+          ]
+        },
+        "path": "carriers/open/45402.4d860aba3bb0.json",
+        "profile_id": "open.45402.4d860aba3bb0",
+        "specificity": 1
+      },
+      {
         "display_name": "Reliance",
         "match": {
           "iccid_prefixes": [
@@ -69273,6 +70073,20 @@
         "specificity": 1
       },
       {
+        "display_name": "csl.",
+        "match": {
+          "mccmnc": [
+            "45402"
+          ],
+          "spn": [
+            "csl."
+          ]
+        },
+        "path": "carriers/open/45402.83501065a010.json",
+        "profile_id": "open.45402.83501065a010",
+        "specificity": 1
+      },
+      {
         "display_name": "Reliance",
         "match": {
           "iccid_prefixes": [
@@ -69298,6 +70112,20 @@
         },
         "path": "carriers/open/45402.85d9f526693c.json",
         "profile_id": "open.45402.85d9f526693c",
+        "specificity": 1
+      },
+      {
+        "display_name": "csl prepaid(3)",
+        "match": {
+          "mccmnc": [
+            "45402"
+          ],
+          "spn": [
+            "csl prepaid(3)"
+          ]
+        },
+        "path": "carriers/open/45402.99750ecefce1.json",
+        "profile_id": "open.45402.99750ecefce1",
         "specificity": 1
       },
       {
@@ -69329,6 +70157,34 @@
         "specificity": 1
       },
       {
+        "display_name": "Global Call",
+        "match": {
+          "mccmnc": [
+            "45402"
+          ],
+          "spn": [
+            "Global Call"
+          ]
+        },
+        "path": "carriers/open/45402.bcfa687f64a6.json",
+        "profile_id": "open.45402.bcfa687f64a6",
+        "specificity": 1
+      },
+      {
+        "display_name": "SUN Mobile",
+        "match": {
+          "mccmnc": [
+            "45402"
+          ],
+          "spn": [
+            "SUN Mobile"
+          ]
+        },
+        "path": "carriers/open/45402.bec631eff9d4.json",
+        "profile_id": "open.45402.bec631eff9d4",
+        "specificity": 1
+      },
+      {
         "display_name": "Reliance",
         "match": {
           "iccid_prefixes": [
@@ -69354,6 +70210,20 @@
         },
         "path": "carriers/open/45402.f29c16927239.json",
         "profile_id": "open.45402.f29c16927239",
+        "specificity": 1
+      },
+      {
+        "display_name": "csl prepaid(2)",
+        "match": {
+          "mccmnc": [
+            "45402"
+          ],
+          "spn": [
+            "csl prepaid(2)"
+          ]
+        },
+        "path": "carriers/open/45402.f57662b7b3a9.json",
+        "profile_id": "open.45402.f57662b7b3a9",
         "specificity": 1
       }
     ],
@@ -69412,6 +70282,20 @@
         "specificity": 1
       },
       {
+        "display_name": "HKBN",
+        "match": {
+          "mccmnc": [
+            "45403"
+          ],
+          "spn": [
+            "HKBN"
+          ]
+        },
+        "path": "carriers/open/45403.7ce67650e9be.json",
+        "profile_id": "open.45403.7ce67650e9be",
+        "specificity": 1
+      },
+      {
         "display_name": "RedteaMobile",
         "match": {
           "iccid_prefixes": [
@@ -69423,6 +70307,20 @@
         },
         "path": "carriers/open/45403.899c149e81ec.json",
         "profile_id": "open.45403.899c149e81ec",
+        "specificity": 1
+      },
+      {
+        "display_name": "Mo",
+        "match": {
+          "mccmnc": [
+            "45403"
+          ],
+          "spn": [
+            "Mo"
+          ]
+        },
+        "path": "carriers/open/45403.b7453665fcb6.json",
+        "profile_id": "open.45403.b7453665fcb6",
         "specificity": 1
       },
       {
@@ -69451,6 +70349,20 @@
         },
         "path": "carriers/open/45403.dc382c0c8d3f.json",
         "profile_id": "open.45403.dc382c0c8d3f",
+        "specificity": 1
+      },
+      {
+        "display_name": "Hutchison HK",
+        "match": {
+          "mccmnc": [
+            "45403"
+          ],
+          "spn": [
+            "Hutchison HK"
+          ]
+        },
+        "path": "carriers/open/45403.e9ac596ad28a.json",
+        "profile_id": "open.45403.e9ac596ad28a",
         "specificity": 1
       },
       {
@@ -69501,6 +70413,20 @@
         "specificity": 0
       },
       {
+        "display_name": "3(3G)",
+        "match": {
+          "mccmnc": [
+            "45404"
+          ],
+          "spn": [
+            "3(3G)"
+          ]
+        },
+        "path": "carriers/open/45404.a9997b513c4f.json",
+        "profile_id": "open.45404.a9997b513c4f",
+        "specificity": 1
+      },
+      {
         "display_name": "MultiByte",
         "match": {
           "gid1_prefixes": [
@@ -69529,6 +70455,20 @@
         "path": "carriers/open/45406.b0c8a8bd479c.json",
         "profile_id": "open.45406.b0c8a8bd479c",
         "specificity": 0
+      },
+      {
+        "display_name": "SmarTone HK",
+        "match": {
+          "mccmnc": [
+            "45406"
+          ],
+          "spn": [
+            "SmarTone HK"
+          ]
+        },
+        "path": "carriers/open/45406.16c2a78b25f0.json",
+        "profile_id": "open.45406.16c2a78b25f0",
+        "specificity": 1
       },
       {
         "display_name": "RedteaMobile",
@@ -69686,6 +70626,20 @@
         "specificity": 1
       },
       {
+        "display_name": "Truphone HK",
+        "match": {
+          "mccmnc": [
+            "45408"
+          ],
+          "spn": [
+            "Truphone HK"
+          ]
+        },
+        "path": "carriers/open/45408.b0e80738f0d8.json",
+        "profile_id": "open.45408.b0e80738f0d8",
+        "specificity": 1
+      },
+      {
         "display_name": "Truphone",
         "match": {
           "gid1_prefixes": [
@@ -69724,6 +70678,36 @@
         "path": "carriers/open/45410.7a054e30d9e1.json",
         "profile_id": "open.45410.7a054e30d9e1",
         "specificity": 0
+      },
+      {
+        "display_name": "csl(3G)",
+        "match": {
+          "mccmnc": [
+            "45410"
+          ],
+          "spn": [
+            "csl(3G)"
+          ]
+        },
+        "path": "carriers/open/45410.24e65a26db3c.json",
+        "profile_id": "open.45410.24e65a26db3c",
+        "specificity": 1
+      }
+    ],
+    "45411": [
+      {
+        "display_name": "CHKT",
+        "match": {
+          "mccmnc": [
+            "45411"
+          ],
+          "spn": [
+            "CHKT"
+          ]
+        },
+        "path": "carriers/open/45411.5d6f77b0501e.json",
+        "profile_id": "open.45411.5d6f77b0501e",
+        "specificity": 1
       }
     ],
     "45412": [
@@ -69750,6 +70734,20 @@
         },
         "path": "carriers/open/45412.13bf3792c385.json",
         "profile_id": "open.45412.13bf3792c385",
+        "specificity": 1
+      },
+      {
+        "display_name": "China Mobile HK",
+        "match": {
+          "mccmnc": [
+            "45412"
+          ],
+          "spn": [
+            "China Mobile HK"
+          ]
+        },
+        "path": "carriers/open/45412.19353bdc56c1.json",
+        "profile_id": "open.45412.19353bdc56c1",
         "specificity": 1
       },
       {
@@ -69851,6 +70849,20 @@
         "path": "carriers/open/45413.37d80f26a028.json",
         "profile_id": "open.45413.37d80f26a028",
         "specificity": 1
+      },
+      {
+        "display_name": "China Mobile HK",
+        "match": {
+          "mccmnc": [
+            "45413"
+          ],
+          "spn": [
+            "China Mobile HK"
+          ]
+        },
+        "path": "carriers/open/45413.ba08c652d1b3.json",
+        "profile_id": "open.45413.ba08c652d1b3",
+        "specificity": 1
       }
     ],
     "45414": [
@@ -69864,6 +70876,20 @@
         "path": "carriers/open/45414.7302fbe0bc39.json",
         "profile_id": "open.45414.7302fbe0bc39",
         "specificity": 0
+      },
+      {
+        "display_name": "3(2G)",
+        "match": {
+          "mccmnc": [
+            "45414"
+          ],
+          "spn": [
+            "3(2G)"
+          ]
+        },
+        "path": "carriers/open/45414.94773dbcee8e.json",
+        "profile_id": "open.45414.94773dbcee8e",
+        "specificity": 1
       }
     ],
     "45415": [
@@ -69877,6 +70903,20 @@
         "path": "carriers/open/45415.5b317f2beaa7.json",
         "profile_id": "open.45415.5b317f2beaa7",
         "specificity": 0
+      },
+      {
+        "display_name": "SmarTone HK",
+        "match": {
+          "mccmnc": [
+            "45415"
+          ],
+          "spn": [
+            "SmarTone HK"
+          ]
+        },
+        "path": "carriers/open/45415.18127f0ed08b.json",
+        "profile_id": "open.45415.18127f0ed08b",
+        "specificity": 1
       }
     ],
     "45416": [
@@ -69890,6 +70930,20 @@
         "path": "carriers/open/45416.91ac3f4412b9.json",
         "profile_id": "open.45416.91ac3f4412b9",
         "specificity": 0
+      },
+      {
+        "display_name": "PCCW-HKT",
+        "match": {
+          "mccmnc": [
+            "45416"
+          ],
+          "spn": [
+            "PCCW-HKT"
+          ]
+        },
+        "path": "carriers/open/45416.fc0f57bfd18d.json",
+        "profile_id": "open.45416.fc0f57bfd18d",
+        "specificity": 1
       }
     ],
     "45417": [
@@ -69903,6 +70957,20 @@
         "path": "carriers/open/45417.3d47850166ca.json",
         "profile_id": "open.45417.3d47850166ca",
         "specificity": 0
+      },
+      {
+        "display_name": "SmarTone HK",
+        "match": {
+          "mccmnc": [
+            "45417"
+          ],
+          "spn": [
+            "SmarTone HK"
+          ]
+        },
+        "path": "carriers/open/45417.f88ca411bffb.json",
+        "profile_id": "open.45417.f88ca411bffb",
+        "specificity": 1
       }
     ],
     "45418": [
@@ -69971,6 +71039,20 @@
         },
         "path": "carriers/open/45418.1f91c561f230.json",
         "profile_id": "open.45418.1f91c561f230",
+        "specificity": 1
+      },
+      {
+        "display_name": "SUN Mobile",
+        "match": {
+          "mccmnc": [
+            "45418"
+          ],
+          "spn": [
+            "SUN Mobile"
+          ]
+        },
+        "path": "carriers/open/45418.2afc175d5a2f.json",
+        "profile_id": "open.45418.2afc175d5a2f",
         "specificity": 1
       },
       {
@@ -70044,6 +71126,20 @@
         "specificity": 1
       },
       {
+        "display_name": "csl prepaid(3)",
+        "match": {
+          "mccmnc": [
+            "45418"
+          ],
+          "spn": [
+            "csl prepaid(3)"
+          ]
+        },
+        "path": "carriers/open/45418.6984fbd25c67.json",
+        "profile_id": "open.45418.6984fbd25c67",
+        "specificity": 1
+      },
+      {
         "display_name": "Reliance",
         "match": {
           "iccid_prefixes": [
@@ -70100,6 +71196,20 @@
         "specificity": 1
       },
       {
+        "display_name": "csl prepaid(1)",
+        "match": {
+          "mccmnc": [
+            "45418"
+          ],
+          "spn": [
+            "csl prepaid(1)"
+          ]
+        },
+        "path": "carriers/open/45418.886309de1aad.json",
+        "profile_id": "open.45418.886309de1aad",
+        "specificity": 1
+      },
+      {
         "display_name": "Reliance",
         "match": {
           "iccid_prefixes": [
@@ -70128,6 +71238,34 @@
         "specificity": 1
       },
       {
+        "display_name": "1O1O",
+        "match": {
+          "mccmnc": [
+            "45418"
+          ],
+          "spn": [
+            "1O1O"
+          ]
+        },
+        "path": "carriers/open/45418.a4fabe5c0bb2.json",
+        "profile_id": "open.45418.a4fabe5c0bb2",
+        "specificity": 1
+      },
+      {
+        "display_name": "Global Call",
+        "match": {
+          "mccmnc": [
+            "45418"
+          ],
+          "spn": [
+            "Global Call"
+          ]
+        },
+        "path": "carriers/open/45418.ab376fdc8f9a.json",
+        "profile_id": "open.45418.ab376fdc8f9a",
+        "specificity": 1
+      },
+      {
         "display_name": "Reliance",
         "match": {
           "iccid_prefixes": [
@@ -70139,6 +71277,20 @@
         },
         "path": "carriers/open/45418.be479c3de53c.json",
         "profile_id": "open.45418.be479c3de53c",
+        "specificity": 1
+      },
+      {
+        "display_name": "csl prepaid(2)",
+        "match": {
+          "mccmnc": [
+            "45418"
+          ],
+          "spn": [
+            "csl prepaid(2)"
+          ]
+        },
+        "path": "carriers/open/45418.be4bab921bd2.json",
+        "profile_id": "open.45418.be4bab921bd2",
         "specificity": 1
       },
       {
@@ -70196,6 +71348,20 @@
         "path": "carriers/open/45418.e92f66a584a1.json",
         "profile_id": "open.45418.e92f66a584a1",
         "specificity": 1
+      },
+      {
+        "display_name": "csl.",
+        "match": {
+          "mccmnc": [
+            "45418"
+          ],
+          "spn": [
+            "csl."
+          ]
+        },
+        "path": "carriers/open/45418.ffbb4ba7f53f.json",
+        "profile_id": "open.45418.ffbb4ba7f53f",
+        "specificity": 1
       }
     ],
     "45419": [
@@ -70209,6 +71375,20 @@
         "path": "carriers/open/45419.1704c80c76c8.json",
         "profile_id": "open.45419.1704c80c76c8",
         "specificity": 0
+      },
+      {
+        "display_name": "PCCW-HKT",
+        "match": {
+          "mccmnc": [
+            "45419"
+          ],
+          "spn": [
+            "PCCW-HKT"
+          ]
+        },
+        "path": "carriers/open/45419.7a31abf54e13.json",
+        "profile_id": "open.45419.7a31abf54e13",
+        "specificity": 1
       }
     ],
     "45420": [
@@ -70222,6 +71402,36 @@
         "path": "carriers/open/45420.532e480ebc46.json",
         "profile_id": "open.45420.532e480ebc46",
         "specificity": 0
+      },
+      {
+        "display_name": "CSL",
+        "match": {
+          "mccmnc": [
+            "45420"
+          ],
+          "spn": [
+            "CSL"
+          ]
+        },
+        "path": "carriers/open/45420.f6aac65de595.json",
+        "profile_id": "open.45420.f6aac65de595",
+        "specificity": 1
+      }
+    ],
+    "45421": [
+      {
+        "display_name": "Vave",
+        "match": {
+          "mccmnc": [
+            "45421"
+          ],
+          "spn": [
+            "Vave"
+          ]
+        },
+        "path": "carriers/open/45421.376f147d31ff.json",
+        "profile_id": "open.45421.376f147d31ff",
+        "specificity": 1
       }
     ],
     "45423": [
@@ -70261,6 +71471,20 @@
         "path": "carriers/open/45430.97b47b9361cb.json",
         "profile_id": "open.45430.97b47b9361cb",
         "specificity": 0
+      },
+      {
+        "display_name": "HKIA-5G",
+        "match": {
+          "mccmnc": [
+            "45430"
+          ],
+          "spn": [
+            "HKIA-5G"
+          ]
+        },
+        "path": "carriers/open/45430.bc54f7e3520f.json",
+        "profile_id": "open.45430.bc54f7e3520f",
+        "specificity": 1
       }
     ],
     "45431": [
@@ -70345,6 +71569,22 @@
         "specificity": 1
       }
     ],
+    "454383": [
+      {
+        "display_name": "China Mobile HK",
+        "match": {
+          "mccmnc": [
+            "454383"
+          ],
+          "spn": [
+            "China Mobile HK"
+          ]
+        },
+        "path": "carriers/open/454383.b0e083b88f7c.json",
+        "profile_id": "open.454383.b0e083b88f7c",
+        "specificity": 1
+      }
+    ],
     "45500": [
       {
         "display_name": "Carrier 45500",
@@ -70356,6 +71596,20 @@
         "path": "carriers/open/45500.edefbecbc869.json",
         "profile_id": "open.45500.edefbecbc869",
         "specificity": 0
+      },
+      {
+        "display_name": "SmarTone MAC",
+        "match": {
+          "mccmnc": [
+            "45500"
+          ],
+          "spn": [
+            "SmarTone MAC"
+          ]
+        },
+        "path": "carriers/open/45500.246763f1a032.json",
+        "profile_id": "open.45500.246763f1a032",
+        "specificity": 1
       }
     ],
     "45501": [
@@ -70411,6 +71665,34 @@
         "path": "carriers/open/45501.8501af767129.json",
         "profile_id": "open.45501.8501af767129",
         "specificity": 1
+      },
+      {
+        "display_name": "CTM",
+        "match": {
+          "mccmnc": [
+            "45501"
+          ],
+          "spn": [
+            "CTM"
+          ]
+        },
+        "path": "carriers/open/45501.b08f7ba54c53.json",
+        "profile_id": "open.45501.b08f7ba54c53",
+        "specificity": 1
+      },
+      {
+        "display_name": "CTM Prepaid",
+        "match": {
+          "mccmnc": [
+            "45501"
+          ],
+          "spn": [
+            "CTM Prepaid"
+          ]
+        },
+        "path": "carriers/open/45501.c3b30188c472.json",
+        "profile_id": "open.45501.c3b30188c472",
+        "specificity": 1
       }
     ],
     "45502": [
@@ -70465,6 +71747,20 @@
         "path": "carriers/open/45503.76c3e8bf8224.json",
         "profile_id": "open.45503.76c3e8bf8224",
         "specificity": 0
+      },
+      {
+        "display_name": "3 Macau (2G)",
+        "match": {
+          "mccmnc": [
+            "45503"
+          ],
+          "spn": [
+            "3 Macau (2G)"
+          ]
+        },
+        "path": "carriers/open/45503.2caa04a3ee08.json",
+        "profile_id": "open.45503.2caa04a3ee08",
+        "specificity": 1
       }
     ],
     "45504": [
@@ -70478,6 +71774,20 @@
         "path": "carriers/open/45504.fa0ed369e7e9.json",
         "profile_id": "open.45504.fa0ed369e7e9",
         "specificity": 0
+      },
+      {
+        "display_name": "CTM",
+        "match": {
+          "mccmnc": [
+            "45504"
+          ],
+          "spn": [
+            "CTM"
+          ]
+        },
+        "path": "carriers/open/45504.e09434b2ec4e.json",
+        "profile_id": "open.45504.e09434b2ec4e",
+        "specificity": 1
       }
     ],
     "45505": [
@@ -70491,6 +71801,20 @@
         "path": "carriers/open/45505.0f6a9d61ca4c.json",
         "profile_id": "open.45505.0f6a9d61ca4c",
         "specificity": 0
+      },
+      {
+        "display_name": "3 Macau",
+        "match": {
+          "mccmnc": [
+            "45505"
+          ],
+          "spn": [
+            "3 Macau"
+          ]
+        },
+        "path": "carriers/open/45505.524aedc81983.json",
+        "profile_id": "open.45505.524aedc81983",
+        "specificity": 1
       }
     ],
     "45506": [
@@ -71353,6 +72677,20 @@
         "path": "carriers/open/46601.59102cf6648b.json",
         "profile_id": "open.46601.59102cf6648b",
         "specificity": 1
+      },
+      {
+        "display_name": "Far EasTone",
+        "match": {
+          "mccmnc": [
+            "46601"
+          ],
+          "spn": [
+            "Far EasTone"
+          ]
+        },
+        "path": "carriers/open/46601.88ed6709d002.json",
+        "profile_id": "open.46601.88ed6709d002",
+        "specificity": 1
       }
     ],
     "46602": [
@@ -71381,6 +72719,20 @@
         },
         "path": "carriers/open/46601.59102cf6648b.json",
         "profile_id": "open.46601.59102cf6648b",
+        "specificity": 1
+      },
+      {
+        "display_name": "Far EasTone",
+        "match": {
+          "mccmnc": [
+            "46602"
+          ],
+          "spn": [
+            "Far EasTone"
+          ]
+        },
+        "path": "carriers/open/46602.fc60fd631ad4.json",
+        "profile_id": "open.46602.fc60fd631ad4",
         "specificity": 1
       }
     ],
@@ -71411,6 +72763,20 @@
         "path": "carriers/open/46601.59102cf6648b.json",
         "profile_id": "open.46601.59102cf6648b",
         "specificity": 1
+      },
+      {
+        "display_name": "Far EasTone",
+        "match": {
+          "mccmnc": [
+            "46603"
+          ],
+          "spn": [
+            "Far EasTone"
+          ]
+        },
+        "path": "carriers/open/46603.faa46b90b3b5.json",
+        "profile_id": "open.46603.faa46b90b3b5",
+        "specificity": 1
       }
     ],
     "46605": [
@@ -71424,9 +72790,37 @@
         "path": "carriers/open/46605.feadf826e796.json",
         "profile_id": "open.46605.feadf826e796",
         "specificity": 0
+      },
+      {
+        "display_name": "GT 4G",
+        "match": {
+          "mccmnc": [
+            "46605"
+          ],
+          "spn": [
+            "GT 4G"
+          ]
+        },
+        "path": "carriers/open/46605.8dd5cca07dbd.json",
+        "profile_id": "open.46605.8dd5cca07dbd",
+        "specificity": 1
       }
     ],
     "46611": [
+      {
+        "display_name": "Chunghwa",
+        "match": {
+          "mccmnc": [
+            "46611"
+          ],
+          "spn": [
+            "Chunghwa"
+          ]
+        },
+        "path": "carriers/open/46611.1254341f3c9a.json",
+        "profile_id": "open.46611.1254341f3c9a",
+        "specificity": 1
+      },
       {
         "display_name": "\u4e2d\u83ef\u96fb\u4fe1_Chunghwa Telecom",
         "match": {
@@ -71454,6 +72848,20 @@
         "path": "carriers/open/46688.7aa2f96fce00.json",
         "profile_id": "open.46688.7aa2f96fce00",
         "specificity": 0
+      },
+      {
+        "display_name": "Far EasTone",
+        "match": {
+          "mccmnc": [
+            "46688"
+          ],
+          "spn": [
+            "Far EasTone"
+          ]
+        },
+        "path": "carriers/open/46688.942969088091.json",
+        "profile_id": "open.46688.942969088091",
+        "specificity": 1
       }
     ],
     "46689": [
@@ -71467,6 +72875,20 @@
         "path": "carriers/open/46689.81deda4af7d1.json",
         "profile_id": "open.46689.81deda4af7d1",
         "specificity": 0
+      },
+      {
+        "display_name": "\u53f0\u7063\u5927\u54e5\u5927TS",
+        "match": {
+          "mccmnc": [
+            "46689"
+          ],
+          "spn": [
+            "\u53f0\u7063\u5927\u54e5\u5927TS"
+          ]
+        },
+        "path": "carriers/open/46689.9d5a49b4dc7b.json",
+        "profile_id": "open.46689.9d5a49b4dc7b",
+        "specificity": 1
       }
     ],
     "466891": [
@@ -71535,6 +72957,20 @@
         "path": "carriers/open/46692.0d913528093d.json",
         "profile_id": "open.46692.0d913528093d",
         "specificity": 1
+      },
+      {
+        "display_name": "Chunghwa",
+        "match": {
+          "mccmnc": [
+            "46692"
+          ],
+          "spn": [
+            "Chunghwa"
+          ]
+        },
+        "path": "carriers/open/46692.3a70aee753b1.json",
+        "profile_id": "open.46692.3a70aee753b1",
+        "specificity": 1
       }
     ],
     "46693": [
@@ -71548,6 +72984,20 @@
         "path": "carriers/open/46693.0dd86acea199.json",
         "profile_id": "open.46693.0dd86acea199",
         "specificity": 0
+      },
+      {
+        "display_name": "TW Mobile",
+        "match": {
+          "mccmnc": [
+            "46693"
+          ],
+          "spn": [
+            "TW Mobile"
+          ]
+        },
+        "path": "carriers/open/46693.4e5d61919c8c.json",
+        "profile_id": "open.46693.4e5d61919c8c",
+        "specificity": 1
       }
     ],
     "46697": [
@@ -71561,6 +73011,20 @@
         "path": "carriers/open/46697.e5e03b19801d.json",
         "profile_id": "open.46697.e5e03b19801d",
         "specificity": 0
+      },
+      {
+        "display_name": "TW Mobile",
+        "match": {
+          "mccmnc": [
+            "46697"
+          ],
+          "spn": [
+            "TW Mobile"
+          ]
+        },
+        "path": "carriers/open/46697.33d6023338de.json",
+        "profile_id": "open.46697.33d6023338de",
+        "specificity": 1
       },
       {
         "display_name": "\u53f0\u7063\u5927\u54e5\u5927 Taiwan Mobile Telecom",
@@ -71588,6 +73052,20 @@
         "path": "carriers/open/46699.35085296572d.json",
         "profile_id": "open.46699.35085296572d",
         "specificity": 0
+      },
+      {
+        "display_name": "TW Mobile",
+        "match": {
+          "mccmnc": [
+            "46699"
+          ],
+          "spn": [
+            "TW Mobile"
+          ]
+        },
+        "path": "carriers/open/46699.c904caab23c4.json",
+        "profile_id": "open.46699.c904caab23c4",
+        "specificity": 1
       }
     ],
     "46705": [
@@ -73957,6 +75435,20 @@
         },
         "path": "carriers/open/52505.64807a486448.json",
         "profile_id": "open.52505.64807a486448",
+        "specificity": 1
+      },
+      {
+        "display_name": "GT 4G Roaming",
+        "match": {
+          "mccmnc": [
+            "52505"
+          ],
+          "spn": [
+            "GT 4G Roaming"
+          ]
+        },
+        "path": "carriers/open/52505.7530ff1e9061.json",
+        "profile_id": "open.52505.7530ff1e9061",
         "specificity": 1
       },
       {
@@ -77375,6 +78867,20 @@
         "path": "carriers/open/63310.2dbdd79406eb.json",
         "profile_id": "open.63310.2dbdd79406eb",
         "specificity": 0
+      },
+      {
+        "display_name": "Airtel Seychelles",
+        "match": {
+          "mccmnc": [
+            "63310"
+          ],
+          "spn": [
+            "Airtel Seychelles"
+          ]
+        },
+        "path": "carriers/open/63310.029d50363fdc.json",
+        "profile_id": "open.63310.029d50363fdc",
+        "specificity": 1
       }
     ],
     "63401": [
@@ -78099,6 +79605,20 @@
         },
         "path": "carriers/open/64009.47f565a9d276.json",
         "profile_id": "open.64009.47f565a9d276",
+        "specificity": 1
+      },
+      {
+        "display_name": "HALOTEL",
+        "match": {
+          "mccmnc": [
+            "64009"
+          ],
+          "spn": [
+            "HALOTEL"
+          ]
+        },
+        "path": "carriers/open/64009.d16ec35f8c70.json",
+        "profile_id": "open.64009.d16ec35f8c70",
         "specificity": 1
       }
     ],
@@ -79056,6 +80576,20 @@
         "path": "carriers/open/65310.ee5680d2836d.json",
         "profile_id": "open.65310.ee5680d2836d",
         "specificity": 0
+      },
+      {
+        "display_name": "MTN Eswatini",
+        "match": {
+          "mccmnc": [
+            "65310"
+          ],
+          "spn": [
+            "MTN Eswatini"
+          ]
+        },
+        "path": "carriers/open/65310.17a45592e01b.json",
+        "profile_id": "open.65310.17a45592e01b",
+        "specificity": 1
       }
     ],
     "65401": [
@@ -82426,6 +83960,19 @@
         "specificity": 1
       }
     ],
+    "90140": [
+      {
+        "display_name": "Telekom.de",
+        "match": {
+          "mccmnc": [
+            "90140"
+          ]
+        },
+        "path": "carriers/open/90140.424f86f5edb2.json",
+        "profile_id": "open.90140.424f86f5edb2",
+        "specificity": 0
+      }
+    ],
     "90143": [
       {
         "display_name": "Emnify Zz",
@@ -82607,6 +84154,20 @@
         "specificity": 1
       },
       {
+        "display_name": "VZWCDMA",
+        "match": {
+          "mccmnc": [
+            "99999"
+          ],
+          "spn": [
+            "VZWCDMA"
+          ]
+        },
+        "path": "carriers/open/99999.32de3283273b.json",
+        "profile_id": "open.99999.32de3283273b",
+        "specificity": 1
+      },
+      {
         "display_name": "Dish 5G",
         "match": {
           "mccmnc": [
@@ -82677,6 +84238,20 @@
         "specificity": 1
       },
       {
+        "display_name": "NTM",
+        "match": {
+          "mccmnc": [
+            "99999"
+          ],
+          "spn": [
+            "NTM"
+          ]
+        },
+        "path": "carriers/open/99999.93706c828dca.json",
+        "profile_id": "open.99999.93706c828dca",
+        "specificity": 1
+      },
+      {
         "display_name": "FKR TEST",
         "match": {
           "mccmnc": [
@@ -82734,6 +84309,20 @@
       }
     ],
     "999999": [
+      {
+        "display_name": "VZWCDMA",
+        "match": {
+          "mccmnc": [
+            "999999"
+          ],
+          "spn": [
+            "VZWCDMA"
+          ]
+        },
+        "path": "carriers/open/999999.259f2597d2e8.json",
+        "profile_id": "open.999999.259f2597d2e8",
+        "specificity": 1
+      },
       {
         "display_name": "FKR TEST",
         "match": {

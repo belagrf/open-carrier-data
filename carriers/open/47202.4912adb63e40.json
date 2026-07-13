@@ -17,6 +17,14 @@
   },
   "android_apns": [
     {
+      "apn": "IMS",
+      "name": "IMS",
+      "protocol": "IP",
+      "types": [
+        "ims"
+      ]
+    },
+    {
       "apn": "ims",
       "name": "IMS",
       "protocol": "IP",

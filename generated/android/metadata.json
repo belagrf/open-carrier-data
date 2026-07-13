@@ -201,6 +201,7 @@
       "open.22865.1b462cecd4d2",
       "open.23203.4d6276be195f",
       "open.23203.8ac2db8309a0",
+      "open.23203.9b21fe423c29",
       "open.23203.9d7e121f69ad",
       "open.23203.b14a0796ac7b",
       "open.23207.0b4bdbd569de",
@@ -219,10 +220,12 @@
       "open.23210.bf14d32543b6",
       "open.23210.ee4ef441e235",
       "open.23213.09d69dd57682",
+      "open.23217.75bbabc420ae",
       "open.23217.8d5b20901ea3",
       "open.23217.b832fe6ec11c",
       "open.23217.e246af29f545",
       "open.23217.e6b814c2e239",
+      "open.23228.fee058c071ff",
       "open.23408.7271ee3ede88",
       "open.23408.c19423667fbc",
       "open.23410.0363e50b8b1f",
@@ -1212,11 +1215,11 @@
       "open.90131.caf9d7ddb897",
       "open.90143.0c0374b5cce2"
     ],
-    "carrier_config_profiles_with_unrepresentable_match": 1187
+    "carrier_config_profiles_with_unrepresentable_match": 1190
   },
   "output": {
-    "apn_row_count": 14346,
-    "carrier_config_xml_block_count": 2710
+    "apn_row_count": 14657,
+    "carrier_config_xml_block_count": 2817
   },
   "schema_version": 1,
   "target": {
