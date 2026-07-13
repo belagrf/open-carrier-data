@@ -18,9 +18,6 @@
       "network_type_capability": "TMO-TMO-GSM-USA",
       "voice_network_setting_style": "UsaGsmNetworkSetting,AutoSelectionWhenBootup,CdmaSubscriptionEnable,SupportDataPopup,SupportInternationalRoamingNotification,NetworkSetting_TMO"
     },
-    "operator_display": {
-      "indicator_icon_branding": "TMB_OPEN"
-    },
     "wifi_calling": {
       "operator_branding": "T-Mobile"
     }

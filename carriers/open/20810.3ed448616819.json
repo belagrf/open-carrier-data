@@ -91,6 +91,17 @@
       ]
     },
     {
+      "apn": "mcpttvar1",
+      "authtype": 1,
+      "carrier_enabled": true,
+      "name": "SFR mcptt",
+      "protocol": "IPV6",
+      "roaming_protocol": "IPV6",
+      "types": [
+        "cbs"
+      ]
+    },
+    {
       "apn": "mms69",
       "authtype": 1,
       "mmsc": "http://mms69",

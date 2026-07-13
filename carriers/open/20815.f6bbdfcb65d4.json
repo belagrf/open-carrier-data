@@ -45,20 +45,6 @@
       "types": [
         "default"
       ]
-    },
-    {
-      "apn": "free.re",
-      "authtype": 0,
-      "carrier_enabled": true,
-      "mmsc": "http://mms.free.re",
-      "mvno_match_data": "F2330002",
-      "mvno_type": "gid",
-      "name": "Free Re Int MMS",
-      "protocol": "IPV4V6",
-      "roaming_protocol": "IP",
-      "types": [
-        "mms"
-      ]
     }
   ],
   "android_carrier_config": {

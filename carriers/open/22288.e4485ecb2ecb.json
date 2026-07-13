@@ -37,16 +37,6 @@
       "user_visible": false
     },
     {
-      "apn": "ims",
-      "authtype": 0,
-      "carrier_enabled": true,
-      "name": "ims",
-      "protocol": "IP",
-      "types": [
-        "ims"
-      ]
-    },
-    {
       "apn": "internet.it",
       "name": "WINDTRE",
       "types": [

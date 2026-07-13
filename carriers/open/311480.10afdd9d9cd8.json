@@ -14,6 +14,10 @@
       ],
       "network_type_capability": "VZW-CHA-GLB-USA",
       "voice_network_setting_style": "SystemSelectionAutoAB"
+    },
+    "operator_display": {
+      "five_g_icon_branding": "UseOneShapedIcon",
+      "indicator_icon_branding": "CHA"
     }
   },
   "android_apns": [

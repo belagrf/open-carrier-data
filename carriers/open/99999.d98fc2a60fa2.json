@@ -7,12 +7,6 @@
     "network_policy": {
       "display_antenna_limited": true,
       "gcf_sor": true,
-      "mobile_network_setting_menu_tokens": [
-        "-cdmasystemselect",
-        "-voltecall",
-        "-preferrednetworkmode",
-        "+vonrcall"
-      ],
       "network_type_capability": "TMO-DSH-GSM-USA",
       "voice_network_setting_style": "UsaGsmNetworkSetting,AutoSelectionWhenBootup,CdmaSubscriptionEnable,SupportDataPopup,SupportInternationalRoamingNotification,NetworkSetting_TMO"
     },

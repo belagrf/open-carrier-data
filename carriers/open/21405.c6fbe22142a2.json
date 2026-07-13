@@ -35,6 +35,8 @@
     {
       "apn": "XCAP",
       "name": "XCAP",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
       "types": [
         "xcap"
       ]
@@ -86,6 +88,7 @@
       "name": "telefonica.es",
       "password": "telefonica",
       "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
       "types": [
         "default",
         "supl"

@@ -51,6 +51,7 @@
       "mvno_type": "gid",
       "name": "Iliad Int",
       "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
       "types": [
         "default",
         "supl"
@@ -65,6 +66,7 @@
       "mvno_type": "gid",
       "name": "Iliad Int MMS",
       "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
       "types": [
         "mms"
       ]

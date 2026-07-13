@@ -18,8 +18,8 @@
       "network_type_capability": "TMO-MTR-GSM-USA",
       "voice_network_setting_style": "UsaGsmNetworkSetting,AutoSelectionWhenBootup,CdmaSubscriptionEnable,SupportDataPopup,SupportInternationalRoamingNotification,NetworkSetting_TMO"
     },
-    "operator_display": {
-      "indicator_icon_branding": "TMK_OPEN"
+    "wifi_calling": {
+      "operator_branding": "MetroPCS"
     }
   },
   "android_apns": [

@@ -17,6 +17,14 @@
   },
   "android_apns": [
     {
+      "apn": "IMS",
+      "name": "Mobitel-IMS",
+      "protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ]
+    },
+    {
       "apn": "XCAP",
       "name": "XCAP",
       "protocol": "IPV4V6",

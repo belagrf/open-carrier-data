@@ -32,20 +32,6 @@
       "types": [
         "default"
       ]
-    },
-    {
-      "apn": "free.mq",
-      "authtype": 0,
-      "carrier_enabled": true,
-      "mmsc": "http://mms.free.mq",
-      "mvno_match_data": "F008",
-      "mvno_type": "gid",
-      "name": "Free Caraibes Martinique Guyanne MMS",
-      "protocol": "IPV4V6",
-      "roaming_protocol": "IP",
-      "types": [
-        "mms"
-      ]
     }
   ],
   "android_carrier_config": {

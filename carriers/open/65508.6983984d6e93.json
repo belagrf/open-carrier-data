@@ -1,8 +1,5 @@
 {
   "addons": {
-    "emergency_calling": {
-      "e911_routing_policy": "auto"
-    },
     "ims": {
       "support_ims_clir_overriding": true
     },
@@ -26,6 +23,15 @@
       "name": "Cell C IMS",
       "types": [
         "ims"
+      ]
+    },
+    {
+      "apn": "hos",
+      "name": "hos",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IP",
+      "types": [
+        "xcap"
       ]
     },
     {

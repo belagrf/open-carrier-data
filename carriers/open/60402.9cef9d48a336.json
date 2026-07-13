@@ -15,19 +15,13 @@
   },
   "android_apns": [
     {
-      "apn": "ims",
-      "name": "IMS",
-      "protocol": "IP",
-      "types": [
-        "ims"
-      ]
-    },
-    {
       "apn": "mms.wana.ma",
       "mmsc": "http://mms.wana.ma:38090",
       "mmsport": 8080,
       "mmsproxy": "10.86.0.10",
       "name": "MMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
       "types": [
         "mms"
       ]
@@ -35,6 +29,8 @@
     {
       "apn": "www.inwi.ma",
       "name": "Internet",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
       "types": [
         "default"
       ]

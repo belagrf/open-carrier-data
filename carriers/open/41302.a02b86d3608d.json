@@ -17,6 +17,14 @@
   },
   "android_apns": [
     {
+      "apn": "IMS",
+      "name": "IMS",
+      "protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ]
+    },
+    {
       "apn": "dialogbb",
       "name": "Dialog internet",
       "protocol": "IPV4V6",

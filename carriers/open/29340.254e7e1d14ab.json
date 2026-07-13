@@ -57,6 +57,7 @@
       "carrier_enabled": true,
       "name": "internet",
       "password": "internet",
+      "protocol": "IPV4V6",
       "types": [
         "default"
       ]

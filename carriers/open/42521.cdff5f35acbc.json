@@ -20,6 +20,8 @@
     {
       "apn": "ims",
       "name": "ims",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
       "types": [
         "ims"
       ]
@@ -27,6 +29,8 @@
     {
       "apn": "internet",
       "name": "XPhone",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
       "types": [
         "default"
       ]
@@ -34,6 +38,8 @@
     {
       "apn": "xcap",
       "name": "xcap",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
       "types": [
         "xcap"
       ]

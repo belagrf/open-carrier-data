@@ -1,10 +1,10 @@
 {
   "artifact_registries": {
     "android_carrier_source_artifacts": {
-      "artifact_count": 1209,
-      "extracted_count": 43,
+      "artifact_count": 2015,
+      "extracted_count": 72,
       "failed_count": 0,
-      "indexed_count": 1166,
+      "indexed_count": 1943,
       "quarantined_count": 0
     },
     "apple_carrier_bundles": {
@@ -19,12 +19,12 @@
   "generated_from_checks_through": "2026-07-13",
   "platforms": {
     "android": {
-      "carrier_artifact_match_count": 739,
+      "carrier_artifact_match_count": 960,
       "carrier_data_coverage_counts": {
-        "exact_carrier_data_observed": 55,
-        "exact_source_indexed": 700,
+        "exact_carrier_data_observed": 57,
+        "exact_source_indexed": 918,
         "inventory_only": 38967,
-        "source_discovery_in_progress": 1222,
+        "source_discovery_in_progress": 1002,
         "source_not_queryable": 82
       },
       "carrier_data_coverage_counts_by_brand": {
@@ -8201,9 +8201,9 @@
           "inventory_only": 2
         },
         "Samsung": {
-          "exact_carrier_data_observed": 20,
-          "exact_source_indexed": 700,
-          "source_discovery_in_progress": 1222,
+          "exact_carrier_data_observed": 22,
+          "exact_source_indexed": 918,
+          "source_discovery_in_progress": 1002,
           "source_not_queryable": 82
         },
         "Samtech": {
@@ -11436,7 +11436,7 @@
           "inventory_only": 13
         }
       },
-      "carrier_observation_match_count": 55,
+      "carrier_observation_match_count": 57,
       "carrier_source_discovery_match_count": 2044,
       "device_count": 41026,
       "historical_device_count": 0,
@@ -15291,7 +15291,7 @@
     {
       "checked_at": "2026-07-13",
       "name": "samsung_firmware_update_service",
-      "revision": "ca010ee28ab123af41fb170019416b52a2a14d270e645541efd31fa5db4dd8fe",
+      "revision": "96b3612b6f825ccbc132781102a3fa15bc0b3e2b1126a1594be41d4ddec98b3a",
       "revision_date": "2026-07-13",
       "url": "https://neofussvr.sslcs.cdngc.net/NF_SmartDownloadBinaryInform.do"
     }

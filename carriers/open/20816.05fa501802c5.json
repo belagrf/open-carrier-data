@@ -24,6 +24,17 @@
   },
   "android_apns": [
     {
+      "apn": "HOS",
+      "authtype": 1,
+      "carrier_enabled": true,
+      "name": "HOS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV6",
+      "types": [
+        "xcap"
+      ]
+    },
+    {
       "apn": "free",
       "authtype": 0,
       "carrier_enabled": true,

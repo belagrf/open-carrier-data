@@ -5,21 +5,8 @@
       "emergency_dial_call_style": "BlockRecent,BlockLog,DisableMuteHold"
     },
     "network_policy": {
-      "mobile_network_setting_menu_tokens": [
-        "+roamingstate",
-        "+signalstrength",
-        "-cdmasystemselect",
-        "-voltecall_sim_mobility",
-        "-allowReasonEnable2g",
-        "+allow5gService",
-        "+autoSwitchNr5gMode",
-        "+vonrcall"
-      ],
       "network_type_capability": "VZW-VZW-GLB-USA",
       "voice_network_setting_style": "ManualSelectionWhenBootup,SystemSelectionAutoAB,SupportDataPopup"
-    },
-    "operator_display": {
-      "indicator_icon_branding": "VZW_OPEN"
     }
   },
   "android_apns": [

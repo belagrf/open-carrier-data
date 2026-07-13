@@ -35,6 +35,8 @@
     {
       "apn": "XCAP",
       "name": "XCAP",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
       "types": [
         "xcap"
       ]
@@ -71,6 +73,7 @@
       "password": "telefonica",
       "port": 8080,
       "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
       "types": [
         "default"
       ],
@@ -100,6 +103,7 @@
       "password": "telefonica",
       "port": 8080,
       "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
       "types": [
         "supl"
       ],

@@ -1,8 +1,5 @@
 {
   "addons": {
-    "emergency_calling": {
-      "e911_routing_policy": "auto"
-    },
     "ims": {
       "support_ims_clir_overriding": true
     },
@@ -47,6 +44,15 @@
       "roaming_protocol": "IPV4V6",
       "types": [
         "mms"
+      ]
+    },
+    {
+      "apn": "xcap",
+      "name": "xcap",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "xcap"
       ]
     }
   ],

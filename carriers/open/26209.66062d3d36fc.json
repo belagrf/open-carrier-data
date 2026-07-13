@@ -37,6 +37,18 @@
   "android_apns": [
     {
       "apn": "ims.testnetz-vd2.de",
+      "authtype": 0,
+      "carrier_enabled": true,
+      "mtu": 1500,
+      "name": "IMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ]
+    },
+    {
+      "apn": "ims.testnetz-vd2.de",
       "bearer_bitmask": "14|18|20",
       "name": "VF DE IMS Lab 32",
       "protocol": "IPV4V6",
@@ -75,6 +87,20 @@
       "types": [
         "default",
         "ia",
+        "xcap"
+      ]
+    },
+    {
+      "apn": "web.testnetz-vd2.de",
+      "authtype": 0,
+      "carrier_enabled": true,
+      "mtu": 1500,
+      "name": "VF DE Web",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "default",
+        "supl",
         "xcap"
       ]
     },
