@@ -25,16 +25,6 @@
         "default",
         "supl"
       ]
-    },
-    {
-      "apn": "mms",
-      "mmsc": "http://mms.tele2.kz/mms/wapenc",
-      "mmsport": 8080,
-      "mmsproxy": "10.1.26.10",
-      "name": "Tele2 MMS",
-      "types": [
-        "mms"
-      ]
     }
   ],
   "android_carrier_config": {

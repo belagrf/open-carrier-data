@@ -21,7 +21,7 @@
       "mmsc": "http://mms.singtel.com:10021/mmsc",
       "mmsport": 8080,
       "mmsproxy": "165.21.42.84",
-      "name": "Singtel (PostPaid)",
+      "name": "e-ideas",
       "protocol": "IPV4V6",
       "roaming_protocol": "IPV4V6",
       "types": [
@@ -64,7 +64,7 @@
       "mmsc": "http://mms.singtel.com:10021/mmsc",
       "mmsport": 8080,
       "mmsproxy": "165.21.42.84",
-      "name": "Singtel (PrePaid)",
+      "name": "hicard",
       "protocol": "IPV4V6",
       "roaming_protocol": "IPV4V6",
       "types": [

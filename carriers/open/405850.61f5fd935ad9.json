@@ -1,6 +1,15 @@
 {
   "android_apns": [
     {
+      "apn": "Internet",
+      "name": "XCAP",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "xcap"
+      ]
+    },
+    {
       "apn": "imis",
       "name": "imis",
       "port": 8080,

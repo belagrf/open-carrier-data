@@ -36,7 +36,18 @@
       "port": 8080,
       "proxy": "10.131.2.8",
       "types": [
-        "default"
+        "default",
+        "supl"
+      ]
+    },
+    {
+      "apn": "pccwmms",
+      "mmsc": "http://mmsc.mms.pccwmobile.com:8002/",
+      "mmsport": 8080,
+      "mmsproxy": "10.131.2.8",
+      "name": "pccwmms",
+      "types": [
+        "mms"
       ]
     }
   ],

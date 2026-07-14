@@ -16,6 +16,8 @@
       "authtype": 1,
       "name": "Movistar INTERNET",
       "password": "movistar",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
       "types": [
         "default",
         "supl"
@@ -30,6 +32,8 @@
       "mmsproxy": "10.2.20.1",
       "name": "Movistar MMS",
       "password": "movistar",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
       "types": [
         "mms"
       ],

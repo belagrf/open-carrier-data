@@ -106,6 +106,26 @@
       ]
     },
     {
+      "apn": "hos",
+      "mvno_match_data": "Call me",
+      "mvno_type": "spn",
+      "name": "Call me XCAP",
+      "protocol": "IPV4V6",
+      "types": [
+        "xcap"
+      ]
+    },
+    {
+      "apn": "ims",
+      "mvno_match_data": "Call me",
+      "mvno_type": "spn",
+      "name": "Call me IMS",
+      "protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ]
+    },
+    {
       "apn": "mmssp",
       "authtype": 2,
       "mmsc": "http://mms.telia.dk",
@@ -114,6 +134,7 @@
       "mvno_match_data": "Call me",
       "mvno_type": "spn",
       "name": "Call me MMS",
+      "protocol": "IPV4V6",
       "types": [
         "mms"
       ]
@@ -124,6 +145,183 @@
       "mvno_match_data": "Call me",
       "mvno_type": "spn",
       "name": "Call me Internet",
+      "protocol": "IPV4V6",
+      "types": [
+        "default",
+        "supl"
+      ]
+    },
+    {
+      "apn": "hos",
+      "mvno_match_data": "Ditmobilselskab",
+      "mvno_type": "spn",
+      "name": "XCAP",
+      "protocol": "IPV4V6",
+      "types": [
+        "xcap"
+      ]
+    },
+    {
+      "apn": "ims",
+      "mvno_match_data": "Ditmobilselskab",
+      "mvno_type": "spn",
+      "name": "IMS",
+      "protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ]
+    },
+    {
+      "apn": "mmssp",
+      "mmsc": "http://mms.telia.dk",
+      "mmsport": 8080,
+      "mmsproxy": "193.209.134.131",
+      "mvno_match_data": "Ditmobilselskab",
+      "mvno_type": "spn",
+      "name": "MMS",
+      "protocol": "IPV4V6",
+      "types": [
+        "mms"
+      ]
+    },
+    {
+      "apn": "websp",
+      "mvno_match_data": "Ditmobilselskab",
+      "mvno_type": "spn",
+      "name": "Internet",
+      "protocol": "IPV4V6",
+      "types": [
+        "default",
+        "supl"
+      ]
+    },
+    {
+      "apn": "hos",
+      "mvno_match_data": "Mit Tele",
+      "mvno_type": "spn",
+      "name": "Mit Tele XCAP",
+      "protocol": "IPV4V6",
+      "types": [
+        "xcap"
+      ]
+    },
+    {
+      "apn": "ims",
+      "mvno_match_data": "Mit Tele",
+      "mvno_type": "spn",
+      "name": "Mit Tele IMS",
+      "protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ]
+    },
+    {
+      "apn": "mmssp",
+      "mmsc": "http://mms.telia.dk",
+      "mmsport": 8080,
+      "mmsproxy": "193.209.134.131",
+      "mvno_match_data": "Mit Tele",
+      "mvno_type": "spn",
+      "name": "Mit Tele",
+      "protocol": "IPV4V6",
+      "types": [
+        "mms"
+      ]
+    },
+    {
+      "apn": "websp",
+      "mvno_match_data": "Mit Tele",
+      "mvno_type": "spn",
+      "name": "Mit Tele",
+      "protocol": "IPV4V6",
+      "types": [
+        "default",
+        "supl"
+      ]
+    },
+    {
+      "apn": "hos",
+      "mvno_match_data": "TELIA DK",
+      "mvno_type": "spn",
+      "name": "Telia XCAP",
+      "protocol": "IPV4V6",
+      "types": [
+        "xcap"
+      ]
+    },
+    {
+      "apn": "ims",
+      "mvno_match_data": "TELIA DK",
+      "mvno_type": "spn",
+      "name": "Telia IMS",
+      "protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ]
+    },
+    {
+      "apn": "www.internet.mtelia.dk",
+      "mvno_match_data": "TELIA DK",
+      "mvno_type": "spn",
+      "name": "Telia DK",
+      "protocol": "IPV4V6",
+      "types": [
+        "default",
+        "supl"
+      ]
+    },
+    {
+      "apn": "www.mms.mtelia.dk",
+      "mmsc": "http://mms.telia.dk",
+      "mmsport": 8080,
+      "mmsproxy": "193.209.134.131",
+      "mvno_match_data": "TELIA DK",
+      "mvno_type": "spn",
+      "name": "Telia MMS",
+      "protocol": "IPV4V6",
+      "types": [
+        "mms"
+      ]
+    },
+    {
+      "apn": "hos",
+      "mvno_match_data": "Telavox",
+      "mvno_type": "spn",
+      "name": "XCAP",
+      "protocol": "IPV4V6",
+      "types": [
+        "xcap"
+      ]
+    },
+    {
+      "apn": "ims",
+      "mvno_match_data": "Telavox",
+      "mvno_type": "spn",
+      "name": "IMS",
+      "protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ]
+    },
+    {
+      "apn": "mmssp",
+      "mmsc": "http://mms.telia.dk",
+      "mmsport": 8080,
+      "mmsproxy": "193.209.134.131",
+      "mvno_match_data": "Telavox",
+      "mvno_type": "spn",
+      "name": "MMS",
+      "protocol": "IPV4V6",
+      "types": [
+        "mms"
+      ]
+    },
+    {
+      "apn": "websp",
+      "mvno_match_data": "Telavox",
+      "mvno_type": "spn",
+      "name": "Internet",
+      "protocol": "IPV4V6",
       "types": [
         "default",
         "supl"

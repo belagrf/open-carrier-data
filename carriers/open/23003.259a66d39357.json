@@ -106,6 +106,14 @@
       "user_editable": false
     },
     {
+      "apn": "ointernet",
+      "name": "Vodafone CZ Prepaid",
+      "types": [
+        "default",
+        "supl"
+      ]
+    },
+    {
       "apn": "sos",
       "name": "VF CZ",
       "types": [

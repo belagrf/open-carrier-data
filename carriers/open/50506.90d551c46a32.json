@@ -41,11 +41,13 @@
     },
     {
       "apn": "3services",
+      "authtype": 0,
       "mmsc": "http://mmsc.three.net.au:10021/mmsc",
       "mmsport": 8799,
       "mmsproxy": "10.176.57.25",
       "name": "3services",
       "password": "a",
+      "protocol": "IP",
       "types": [
         "supl"
       ],
@@ -86,12 +88,29 @@
     },
     {
       "apn": "live.vodafone.com",
-      "name": "Vodafone AU",
+      "mmsc": "http://pxt.vodafone.net.au/pxtsend",
+      "mmsport": 8080,
+      "mmsproxy": "10.202.2.60",
+      "name": "live.vodafone.com",
+      "port": 8080,
       "protocol": "IPV4V6",
+      "proxy": "10.202.2.60",
       "roaming_protocol": "IPV4V6",
       "types": [
         "default",
         "supl"
+      ]
+    },
+    {
+      "apn": "live.vodafone.com",
+      "mmsc": "http://pxt.vodafone.net.au/pxtsend",
+      "mmsport": 8080,
+      "mmsproxy": "10.202.2.60",
+      "name": "Vodafone live!",
+      "port": 8080,
+      "proxy": "10.202.2.60",
+      "types": [
+        "mms"
       ]
     }
   ],

@@ -10,6 +10,32 @@
       ]
     },
     {
+      "apn": "inet.clearnet.com",
+      "mmsc": "http://aliasredirect.net/proxy/clearnet/mmsc",
+      "mmsport": 80,
+      "mmsproxy": "74.49.0.18",
+      "name": "Clearnet",
+      "port": 80,
+      "proxy": "74.49.0.18",
+      "types": [
+        "default",
+        "mms",
+        "supl"
+      ]
+    },
+    {
+      "apn": "isp.telus.com",
+      "mmsc": "http://aliasredirect.net/proxy/mmsc",
+      "mmsport": 80,
+      "mmsproxy": "74.49.0.18",
+      "name": "isp.telus.com",
+      "types": [
+        "default",
+        "mms",
+        "supl"
+      ]
+    },
+    {
       "apn": "isp.telus.com",
       "name": "TELUS",
       "types": [
@@ -26,6 +52,32 @@
       ]
     },
     {
+      "apn": "sp.koodo.com",
+      "mmsc": "http://aliasredirect.net/proxy/koodo/mmsc",
+      "mmsport": 80,
+      "mmsproxy": "74.49.0.18",
+      "name": "Koodo SP",
+      "port": 80,
+      "proxy": "74.49.0.18",
+      "types": [
+        "default",
+        "mms",
+        "supl"
+      ]
+    },
+    {
+      "apn": "sp.mb.com",
+      "mmsc": "http://aliasredirect.net/proxy/mb/mmsc",
+      "mmsport": 80,
+      "mmsproxy": "74.49.0.18",
+      "name": "sp.mb.com",
+      "types": [
+        "default",
+        "mms",
+        "supl"
+      ]
+    },
+    {
       "apn": "sp.telus.com",
       "mmsc": "http://aliasredirect.net/proxy/mmsc",
       "mmsport": 80,
@@ -35,6 +87,16 @@
       "roaming_protocol": "IP",
       "types": [
         "default"
+      ]
+    },
+    {
+      "apn": "sp.telus.com",
+      "mmsc": "http://aliasredirect.net/proxy/mmsc",
+      "mmsport": 80,
+      "mmsproxy": "74.49.0.18",
+      "name": "sp.telus.com",
+      "types": [
+        "supl"
       ]
     },
     {

@@ -114,6 +114,28 @@
         "dun",
         "supl"
       ]
+    },
+    {
+      "apn": "fnetcoriolis",
+      "mvno_match_data": "12",
+      "mvno_type": "gid",
+      "name": "Coriolis WAP",
+      "types": [
+        "default",
+        "supl"
+      ]
+    },
+    {
+      "apn": "mmscoriolis",
+      "mmsc": "http://mmscoriolis",
+      "mmsport": 8080,
+      "mmsproxy": "10.143.156.6",
+      "mvno_match_data": "12",
+      "mvno_type": "gid",
+      "name": "Coriolis MMS",
+      "types": [
+        "mms"
+      ]
     }
   ],
   "android_carrier_config": {

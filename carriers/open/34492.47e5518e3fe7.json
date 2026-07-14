@@ -5,6 +5,7 @@
       "name": "Lime Internet Postpaid",
       "types": [
         "default",
+        "dun",
         "supl"
       ]
     },
@@ -31,7 +32,7 @@
     "vowifi": "unknown",
     "wifi_calling_roaming": "unknown"
   },
-  "display_name": "34492",
+  "display_name": "Carrier 34492",
   "match": {
     "mccmnc": [
       "34492"

@@ -92,6 +92,14 @@
       "user_visible": false
     },
     {
+      "apn": "mms",
+      "authtype": 1,
+      "name": "AT - Yesss MMS",
+      "types": [
+        "mms"
+      ]
+    },
+    {
       "apn": "web.yesss.at",
       "name": "web.yesss.at",
       "types": [

@@ -95,6 +95,16 @@
       ]
     },
     {
+      "apn": "mms.tele2.hr",
+      "mmsc": "http://mmsc.tele2.hr",
+      "mmsport": 8080,
+      "mmsproxy": "193.12.40.66",
+      "name": "Tele2 MMS",
+      "types": [
+        "mms"
+      ]
+    },
+    {
       "apn": "telemach.hr",
       "authtype": 0,
       "carrier_enabled": true,

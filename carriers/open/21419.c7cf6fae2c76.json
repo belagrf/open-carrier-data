@@ -5,6 +5,18 @@
       "mmsc": "http://217.18.32.180:8080",
       "mmsport": 8080,
       "mmsproxy": "217.18.32.181",
+      "name": "gprs-service.com",
+      "types": [
+        "default",
+        "mms",
+        "supl"
+      ]
+    },
+    {
+      "apn": "gprs-service.com",
+      "mmsc": "http://217.18.32.180:8080",
+      "mmsport": 8080,
+      "mmsproxy": "217.18.32.181",
       "mvno_match_data": "Blau",
       "mvno_type": "spn",
       "name": "Blau ES",

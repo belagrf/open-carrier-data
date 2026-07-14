@@ -12,14 +12,6 @@
       "user_visible": false
     },
     {
-      "apn": "ims",
-      "name": "Orange Romania",
-      "protocol": "IPV6",
-      "types": [
-        "ims"
-      ]
-    },
-    {
       "apn": "mms",
       "authtype": 1,
       "mmsc": "http://wap.mms.orange.ro:8002",
@@ -38,6 +30,7 @@
       "types": [
         "default",
         "dun",
+        "ia",
         "supl"
       ]
     },

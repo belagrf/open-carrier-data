@@ -1,12 +1,28 @@
 {
   "android_apns": [
     {
-      "apn": "net",
-      "name": "net",
+      "apn": "internet",
+      "name": "umniahinternet Postpaid",
       "types": [
         "default",
-        "dun",
         "supl"
+      ]
+    },
+    {
+      "apn": "net",
+      "name": "net",
+      "port": 80,
+      "proxy": "0.0.0.0",
+      "types": [
+        "default",
+        "supl"
+      ]
+    },
+    {
+      "apn": "net",
+      "name": "Umniah",
+      "types": [
+        "dun"
       ]
     },
     {

@@ -95,7 +95,7 @@
     },
     {
       "apn": "live.pre.vodafone.com",
-      "name": "Vodafone RO live! PRE",
+      "name": "live.pre.vodafone.com",
       "password": "vodafone",
       "port": 8080,
       "proxy": "193.230.161.231",
@@ -120,7 +120,7 @@
       "mmsc": "http://multimedia/servlets/mms",
       "mmsport": 8080,
       "mmsproxy": "193.230.161.231",
-      "name": "Vodafone RO MMS PRE",
+      "name": "mms.pre.vodafone.ro",
       "password": "vodafone",
       "types": [
         "mms"

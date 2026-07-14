@@ -98,6 +98,28 @@
         "supl"
       ],
       "user": "simobil"
+    },
+    {
+      "apn": "mmssi",
+      "mmsc": "http://mms.hot.si",
+      "mmsport": 8080,
+      "mmsproxy": "80.95.224.47",
+      "mvno_match_data": "293400130xxxxxx",
+      "mvno_type": "imsi",
+      "name": "mmssi",
+      "types": [
+        "mms"
+      ]
+    },
+    {
+      "apn": "websi",
+      "authtype": 1,
+      "mvno_match_data": "293400130xxxxxx",
+      "mvno_type": "imsi",
+      "name": "websi",
+      "types": [
+        "default"
+      ]
     }
   ],
   "android_carrier_config": {

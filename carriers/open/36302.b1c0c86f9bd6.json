@@ -28,6 +28,7 @@
       "name": "INTERNET Aruba",
       "types": [
         "default",
+        "dun",
         "supl"
       ]
     }

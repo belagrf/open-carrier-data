@@ -133,6 +133,26 @@
       "types": [
         "mms"
       ]
+    },
+    {
+      "apn": "internet",
+      "mvno_match_data": "24006",
+      "mvno_type": "imsi",
+      "name": "Internet",
+      "types": [
+        "default",
+        "supl"
+      ]
+    },
+    {
+      "apn": "mms",
+      "mmsc": "http://mms.media",
+      "mvno_match_data": "24006",
+      "mvno_type": "imsi",
+      "name": "MMS",
+      "types": [
+        "mms"
+      ]
     }
   ],
   "android_carrier_config": {

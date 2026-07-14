@@ -27,7 +27,7 @@
       "mmsc": "http://mp.mobiel.kpn/mmsc",
       "mmsport": 5080,
       "mmsproxy": "10.10.100.20",
-      "name": "KPN 4G LTE",
+      "name": "KPN4G.nl",
       "types": [
         "default",
         "mms",
@@ -182,6 +182,28 @@
         "supl"
       ],
       "user": "mvno"
+    },
+    {
+      "apn": "rabo",
+      "mvno_match_data": "Rabo Mobiel",
+      "mvno_type": "spn",
+      "name": "Rabo Mobiel Int.",
+      "types": [
+        "default",
+        "supl"
+      ]
+    },
+    {
+      "apn": "rabo",
+      "mmsc": "http://mp.mobiel.kpn/mmsc",
+      "mmsport": 5080,
+      "mmsproxy": "10.10.100.10",
+      "mvno_match_data": "Rabo Mobiel",
+      "mvno_type": "spn",
+      "name": "Rabo Mobiel MMS",
+      "types": [
+        "mms"
+      ]
     }
   ],
   "android_carrier_config": {

@@ -31,6 +31,15 @@
         "supl"
       ],
       "user": "wap@wap.mtsindia.in"
+    },
+    {
+      "apn": "india",
+      "name": "India",
+      "types": [
+        "default",
+        "mms",
+        "supl"
+      ]
     }
   ],
   "android_carrier_config": {

@@ -15,7 +15,7 @@
     },
     {
       "apn": "aircelgprs.po",
-      "name": "Aircel-GPRS-Postpaid",
+      "name": "aircelgprs.po",
       "protocol": "IPV4V6",
       "types": [
         "default",
@@ -24,7 +24,7 @@
     },
     {
       "apn": "aircelgprs.pr",
-      "name": "Aircel-GPRS-Prepaid",
+      "name": "aircelgprs.pr",
       "protocol": "IPV4V6",
       "types": [
         "default",
@@ -36,7 +36,7 @@
       "mmsc": "http://mmsc/mmrelay.app",
       "mmsport": 8081,
       "mmsproxy": "192.168.35.196",
-      "name": "Aircel-MMS-Postpaid",
+      "name": "aircelmms.po",
       "protocol": "IPV4V6",
       "types": [
         "mms"
@@ -47,7 +47,7 @@
       "mmsc": "http://mmsc/mmrelay.app",
       "mmsport": 8081,
       "mmsproxy": "192.168.35.196",
-      "name": "Aircel-MMS-Prepaid",
+      "name": "aircelmms.pr",
       "protocol": "IPV4V6",
       "types": [
         "mms"
@@ -73,7 +73,7 @@
     },
     {
       "apn": "aircelwap.po",
-      "name": "Pocket Internet-Postpaid",
+      "name": "aircelwap.po",
       "port": 8081,
       "protocol": "IPV4V6",
       "proxy": "192.168.35.201",
@@ -84,7 +84,7 @@
     },
     {
       "apn": "aircelwap.pr",
-      "name": "Pocket Internet-Prepaid",
+      "name": "aircelwap.pr",
       "port": 8081,
       "protocol": "IPV4V6",
       "proxy": "192.168.35.201",

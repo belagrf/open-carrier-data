@@ -29,6 +29,17 @@
       ]
     },
     {
+      "apn": "kolbi3g",
+      "authtype": 1,
+      "mmsc": "http://mmsice",
+      "mmsport": 8080,
+      "mmsproxy": "10.184.202.24",
+      "name": "Multimedia",
+      "types": [
+        "mms"
+      ]
+    },
+    {
       "apn": "kolbimundo",
       "mmsc": "http://mmsice",
       "mmsport": 8080,

@@ -1,4 +1,108 @@
 {
+  "android_apns": [
+    {
+      "apn": "CdmaNai",
+      "bearer": 6,
+      "carrier_enabled": false,
+      "mmsc": "http://m.iot1.com/jamesvalley/mms.php",
+      "mmsport": 9201,
+      "mmsproxy": "m.iot1.com",
+      "mvno_match_data": "jamesvalley",
+      "mvno_type": "spn",
+      "name": "jamesvalley",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "mms"
+      ]
+    },
+    {
+      "apn": "IMS",
+      "bearer": 13,
+      "mvno_match_data": "jamesvalley",
+      "mvno_type": "spn",
+      "name": "Jamesvalley IMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ia",
+        "ims"
+      ]
+    },
+    {
+      "apn": "IMS",
+      "bearer": 14,
+      "mvno_match_data": "jamesvalley",
+      "mvno_type": "spn",
+      "name": "Jamesvalley IMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ia",
+        "ims"
+      ]
+    },
+    {
+      "apn": "VZWADMIN",
+      "bearer": 13,
+      "mvno_match_data": "jamesvalley",
+      "mvno_type": "spn",
+      "name": "Jamesvalley FOTA",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "fota"
+      ]
+    },
+    {
+      "apn": "VZWADMIN",
+      "bearer": 14,
+      "mvno_match_data": "jamesvalley",
+      "mvno_type": "spn",
+      "name": "Jamesvalley FOTA",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "fota"
+      ]
+    },
+    {
+      "apn": "VZWINTERNET",
+      "bearer": 13,
+      "mmsc": "http://m.iot1.com/jamesvalley/mms.php",
+      "mmsport": 9201,
+      "mmsproxy": "m.iot1.com",
+      "mvno_match_data": "jamesvalley",
+      "mvno_type": "spn",
+      "name": "Jamesvalley",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "default",
+        "dun",
+        "mms",
+        "supl"
+      ]
+    },
+    {
+      "apn": "VZWINTERNET",
+      "bearer": 14,
+      "mmsc": "http://m.iot1.com/jamesvalley/mms.php",
+      "mmsport": 9201,
+      "mmsproxy": "m.iot1.com",
+      "mvno_match_data": "jamesvalley",
+      "mvno_type": "spn",
+      "name": "Jamesvalley",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "default",
+        "dun",
+        "mms",
+        "supl"
+      ]
+    }
+  ],
   "android_carrier_config": {
     "carrier_volte_available_bool": true,
     "enableMultipartSMS": true,

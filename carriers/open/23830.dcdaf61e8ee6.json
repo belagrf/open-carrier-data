@@ -42,6 +42,13 @@
       ]
     },
     {
+      "apn": "web.orange.dk",
+      "name": "Orange DE",
+      "types": [
+        "default"
+      ]
+    },
+    {
       "apn": "websp",
       "name": "websp",
       "port": 8080,
@@ -67,6 +74,50 @@
       "name": "TELIA",
       "types": [
         "dun"
+      ]
+    },
+    {
+      "apn": "hos",
+      "mvno_match_data": "TELIA DK",
+      "mvno_type": "spn",
+      "name": "Telia XCAP",
+      "protocol": "IPV4V6",
+      "types": [
+        "xcap"
+      ]
+    },
+    {
+      "apn": "ims",
+      "mvno_match_data": "TELIA DK",
+      "mvno_type": "spn",
+      "name": "Telia IMS",
+      "protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ]
+    },
+    {
+      "apn": "www.internet.mtelia.dk",
+      "mvno_match_data": "TELIA DK",
+      "mvno_type": "spn",
+      "name": "Telia DK",
+      "protocol": "IPV4V6",
+      "types": [
+        "default",
+        "supl"
+      ]
+    },
+    {
+      "apn": "www.mms.mtelia.dk",
+      "mmsc": "http://mms.telia.dk",
+      "mmsport": 8080,
+      "mmsproxy": "193.209.134.131",
+      "mvno_match_data": "TELIA DK",
+      "mvno_type": "spn",
+      "name": "Telia MMS",
+      "protocol": "IPV4V6",
+      "types": [
+        "mms"
       ]
     }
   ],

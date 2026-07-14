@@ -39,6 +39,16 @@
   },
   "android_apns": [
     {
+      "apn": "event.vodafone.de",
+      "mmsc": "http://139.7.24.1/servlets/mms",
+      "mmsport": 80,
+      "mmsproxy": "139.7.29.17",
+      "name": "Vodafone DE-MMS",
+      "types": [
+        "mms"
+      ]
+    },
+    {
       "apn": "ims.testnetz-vd2.de",
       "authtype": 0,
       "carrier_enabled": true,
@@ -136,6 +146,14 @@
       ]
     },
     {
+      "apn": "web.vodafone.de",
+      "name": "web.vodafone.de",
+      "types": [
+        "default",
+        "supl"
+      ]
+    },
+    {
       "apn": "web31.testnetz-vd2.de",
       "bearer_bitmask": "1|2|3|9|10|11|13|14|15|20",
       "name": "VF DE Web Lab 31",
@@ -216,7 +234,7 @@
   "capabilities": {
     "esim": "unknown",
     "ims_conference": "unknown",
-    "mms": "unsupported",
+    "mms": "conditional",
     "rcs": "unknown",
     "sms_over_ims": "supported",
     "video_calling": "unsupported",

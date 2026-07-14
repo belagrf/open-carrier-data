@@ -1,6 +1,18 @@
 {
   "android_apns": [
     {
+      "apn": "gprs.amazoniacelular.com.br",
+      "authtype": 1,
+      "name": "Amaz\u00f4niaC GPRS",
+      "password": "celular",
+      "types": [
+        "default",
+        "dun",
+        "supl"
+      ],
+      "user": "celular"
+    },
+    {
       "apn": "gprs.oi.com.br",
       "authtype": 1,
       "name": "OI:INTERNET:2",
@@ -22,6 +34,19 @@
         "ia"
       ],
       "user": "oi"
+    },
+    {
+      "apn": "mmsgprs.amazoniacelular.com.br",
+      "authtype": 1,
+      "mmsc": "http://mms.amazoniacelular.com.br",
+      "mmsport": 8080,
+      "mmsproxy": "200.192.230.142",
+      "name": "Amaz\u00f4niaC MMS",
+      "password": "celular",
+      "types": [
+        "mms"
+      ],
+      "user": "celular"
     }
   ],
   "android_carrier_config": {

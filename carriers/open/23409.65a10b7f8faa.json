@@ -1,6 +1,14 @@
 {
   "android_apns": [
     {
+      "apn": "data2.gprs.cw.com",
+      "name": "Sure Smart Internet",
+      "types": [
+        "default",
+        "supl"
+      ]
+    },
+    {
       "apn": "internet",
       "name": "Sure Internet",
       "types": [

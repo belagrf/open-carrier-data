@@ -26,11 +26,25 @@
       ]
     },
     {
+      "apn": "sp.koodo.com",
+      "mmsc": "http://aliasredirect.net/proxy/koodo/mmsc",
+      "mmsport": 80,
+      "mmsproxy": "74.49.0.18",
+      "name": "Koodo SP",
+      "port": 80,
+      "proxy": "74.49.0.18",
+      "types": [
+        "default",
+        "mms",
+        "supl"
+      ]
+    },
+    {
       "apn": "sp.telus.com",
       "mmsc": "http://aliasredirect.net/proxy/mmsc",
       "mmsport": 80,
       "mmsproxy": "74.49.0.18",
-      "name": "TELUS",
+      "name": "sp.telus.com",
       "protocol": "IP",
       "roaming_protocol": "IP",
       "types": [
@@ -42,9 +56,10 @@
       "mmsc": "http://aliasredirect.net/proxy/mmsc",
       "mmsport": 80,
       "mmsproxy": "74.49.0.18",
-      "name": "TELUS",
+      "name": "sp.telus.com",
       "types": [
-        "mms"
+        "mms",
+        "supl"
       ]
     },
     {
@@ -281,6 +296,20 @@
         "supl"
       ],
       "user_editable": false
+    },
+    {
+      "apn": "sp.mb.com",
+      "mmsc": "http://aliasredirect.net/proxy/mb/mmsc",
+      "mmsport": 80,
+      "mmsproxy": "74.49.0.18",
+      "mvno_match_data": "50",
+      "mvno_type": "gid",
+      "name": "PC mobile",
+      "types": [
+        "default",
+        "mms",
+        "supl"
+      ]
     },
     {
       "apn": "isp.mb.com",

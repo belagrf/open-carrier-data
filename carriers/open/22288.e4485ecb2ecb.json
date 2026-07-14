@@ -80,6 +80,16 @@
       ]
     },
     {
+      "apn": "internet.wind.biz",
+      "name": "internet.wind.biz",
+      "password": "Wind",
+      "types": [
+        "default",
+        "supl"
+      ],
+      "user": "Wind"
+    },
+    {
       "apn": "mms.it",
       "authtype": 0,
       "carrier_enabled": true,
@@ -99,6 +109,29 @@
         "xcap"
       ],
       "user_visible": false
+    },
+    {
+      "apn": "internet.windmobile.ca",
+      "mvno_match_data": "FFFFFF00",
+      "mvno_type": "gid",
+      "name": "Internet",
+      "protocol": "IPV4V6",
+      "types": [
+        "default",
+        "supl"
+      ]
+    },
+    {
+      "apn": "mms.windmobile.ca",
+      "mmsc": "http://mms.windmobile.ca",
+      "mmsport": 8080,
+      "mmsproxy": "74.115.197.70",
+      "mvno_match_data": "FFFFFF00",
+      "mvno_type": "gid",
+      "name": "MMS",
+      "types": [
+        "mms"
+      ]
     }
   ],
   "android_carrier_config": {

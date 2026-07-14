@@ -1,6 +1,14 @@
 {
   "android_apns": [
     {
+      "apn": "agms",
+      "name": "agms",
+      "types": [
+        "default",
+        "supl"
+      ]
+    },
+    {
       "apn": "broadband",
       "name": "broadband",
       "types": [
@@ -52,7 +60,7 @@
     },
     {
       "apn": "ims",
-      "name": "ATT IMS",
+      "name": "ims",
       "protocol": "IPV4V6",
       "roaming_protocol": "IPV4V6",
       "types": [
@@ -108,11 +116,17 @@
     {
       "apn": "phone",
       "mmsc": "http://mmsc.mobile.att.net",
+      "mmsport": 80,
       "mmsproxy": "proxy.mobile.att.net",
-      "name": "AT&T",
+      "name": "phone",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
       "types": [
         "default",
-        "mms"
+        "fota",
+        "hipri",
+        "mms",
+        "supl"
       ]
     },
     {

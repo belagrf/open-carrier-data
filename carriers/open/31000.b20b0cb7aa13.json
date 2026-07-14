@@ -40,6 +40,17 @@
         "dun",
         "mms"
       ]
+    },
+    {
+      "apn": "internet",
+      "mmsc": "http://mms.vtext.com/servlets/mms",
+      "name": "Verizon",
+      "protocol": "IPV4V6",
+      "types": [
+        "default",
+        "dun",
+        "mms"
+      ]
     }
   ],
   "android_carrier_config": {

@@ -34,23 +34,15 @@
     {
       "apn": "4g.tele2.se",
       "authtype": 0,
-      "name": "Tele2 Internet",
+      "mmsc": "http://mmsc.tele2.se",
+      "mmsport": 8080,
+      "mmsproxy": "mmsproxy.tele2.se",
+      "name": "4g.tele2.se",
       "protocol": "IPV4V6",
+      "roaming_protocol": "IP",
       "types": [
         "default",
         "supl"
-      ]
-    },
-    {
-      "apn": "4g.tele2.se",
-      "authtype": 0,
-      "mmsc": "http://mmsc.tele2.se",
-      "mmsport": 8080,
-      "mmsproxy": "130.244.202.30",
-      "name": "Tele2 MMS",
-      "protocol": "IPV4V6",
-      "types": [
-        "mms"
       ]
     },
     {

@@ -75,6 +75,15 @@
         "supl"
       ],
       "user": "internet"
+    },
+    {
+      "apn": "www.mtel.me",
+      "authtype": 1,
+      "name": "ME - Mtel  Web",
+      "types": [
+        "default",
+        "supl"
+      ]
     }
   ],
   "android_carrier_config": {

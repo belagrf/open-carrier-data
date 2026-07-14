@@ -49,6 +49,9 @@
     },
     {
       "apn": "gprs.pepephone.com",
+      "mmsc": "http://www.pepephone.com",
+      "mmsport": 8080,
+      "mmsproxy": "10.138.255.43",
       "name": "Pepephone 4G Internet",
       "types": [
         "default",
@@ -61,7 +64,7 @@
       "mmsc": "http://www.pepephone.com",
       "mmsport": 8080,
       "mmsproxy": "10.138.255.43",
-      "name": "Pepephone 4G MMS",
+      "name": "gprs.pepephone.com",
       "types": [
         "mms"
       ]
@@ -139,6 +142,7 @@
     },
     {
       "apn": "tuenti.com",
+      "authtype": 1,
       "mmsc": "http://tuenti.com",
       "mmsport": 8080,
       "mmsproxy": "10.138.255.43",

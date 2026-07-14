@@ -27,7 +27,8 @@
     },
     {
       "apn": "internet.movistar.com.co",
-      "name": "movistar",
+      "authtype": 1,
+      "name": "internet.movistar.com.co",
       "password": "movistar",
       "types": [
         "dun"
@@ -46,6 +47,15 @@
       "roaming_protocol": "IPV4V6",
       "types": [
         "mms"
+      ],
+      "user": "movistar"
+    },
+    {
+      "apn": "wap.movistar.com.co",
+      "name": "Movistar WAP",
+      "password": "movistar",
+      "types": [
+        "default"
       ],
       "user": "movistar"
     }

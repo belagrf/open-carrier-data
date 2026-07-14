@@ -9,16 +9,6 @@
       ]
     },
     {
-      "apn": "mms-g.three.com.hk",
-      "mmsc": "http://10.30.15.51:10021/mmsc",
-      "mmsport": 8080,
-      "mmsproxy": "10.30.15.53",
-      "name": "mms-g.three.com.hk",
-      "types": [
-        "mms"
-      ]
-    },
-    {
       "apn": "mobile.three.com.hk",
       "mmsc": "http://mms.um.three.com.hk:10021/mmsc",
       "mmsport": 8799,
@@ -31,13 +21,30 @@
       ]
     },
     {
-      "apn": "web-g.three.com.hk",
-      "name": "web-g.three.com.hk",
-      "port": 8080,
-      "proxy": "10.30.3.151",
+      "apn": "ctnet",
+      "authtype": 3,
+      "mvno_match_data": "898603,898611,898612",
+      "mvno_type": "iccid",
+      "name": "APN_NAME_CTNET",
+      "password": "vnet.mobi",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
       "types": [
         "default",
-        "supl"
+        "hipri",
+        "ia"
+      ],
+      "user": "ctnet@mycdma.cn"
+    },
+    {
+      "apn": "ims",
+      "mvno_match_data": "898603,898611,898612",
+      "mvno_type": "iccid",
+      "name": "APN_NAME_CTIMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ims"
       ]
     }
   ],

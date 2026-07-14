@@ -42,6 +42,17 @@
         "dun"
       ],
       "user": "movistar"
+    },
+    {
+      "apn": "wap.movistar.com.ec",
+      "name": "Movistar WAP",
+      "password": "movistar",
+      "port": 9001,
+      "proxy": "10.3.5.50",
+      "types": [
+        "default"
+      ],
+      "user": "movistar"
     }
   ],
   "android_carrier_config": {

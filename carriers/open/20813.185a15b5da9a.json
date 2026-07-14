@@ -11,6 +11,17 @@
       ]
     },
     {
+      "apn": "wapsfr",
+      "name": "SFR GPRS",
+      "port": 8080,
+      "proxy": "195.115.025.129",
+      "server": "http://live.vodafone.com",
+      "types": [
+        "default",
+        "supl"
+      ]
+    },
+    {
       "apn": "websfr",
       "name": "ACCESS DATA",
       "types": [

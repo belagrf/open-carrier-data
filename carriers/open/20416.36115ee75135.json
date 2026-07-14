@@ -152,6 +152,39 @@
       "types": [
         "dun"
       ]
+    },
+    {
+      "apn": "basic.internet.ben.data",
+      "mvno_match_data": "BEN NL",
+      "mvno_type": "spn",
+      "name": "Ben Internet PrePaid",
+      "types": [
+        "default",
+        "supl"
+      ]
+    },
+    {
+      "apn": "internet.ben",
+      "mvno_match_data": "BEN NL",
+      "mvno_type": "spn",
+      "name": "Ben Internet Abonnee",
+      "types": [
+        "default",
+        "supl"
+      ]
+    },
+    {
+      "apn": "mms.ben",
+      "authtype": 1,
+      "mmsc": "http://benmms/",
+      "mmsport": 8080,
+      "mmsproxy": "10.10.10.11",
+      "mvno_match_data": "BEN NL",
+      "mvno_type": "spn",
+      "name": "Ben MMS",
+      "types": [
+        "mms"
+      ]
     }
   ],
   "android_carrier_config": {

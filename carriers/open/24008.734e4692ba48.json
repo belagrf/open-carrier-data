@@ -140,6 +140,18 @@
       ]
     },
     {
+      "apn": "mms",
+      "mmsc": "http://mms",
+      "mmsport": 8799,
+      "mmsproxy": "172.30.253.241",
+      "mvno_match_data": "24008",
+      "mvno_type": "imsi",
+      "name": "Telenor MMS",
+      "types": [
+        "mms"
+      ]
+    },
+    {
       "apn": "services.telenor.se",
       "mvno_match_data": "24008",
       "mvno_type": "imsi",

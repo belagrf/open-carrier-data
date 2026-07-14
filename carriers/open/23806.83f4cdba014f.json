@@ -143,20 +143,6 @@
     },
     {
       "apn": "services",
-      "authtype": 1,
-      "carrier_enabled": true,
-      "mmsc": "http://mms.3.dk",
-      "mmsport": 8799,
-      "mmsproxy": "mmsproxy.3.dk",
-      "name": "services",
-      "protocol": "IPV4V6",
-      "roaming_protocol": "IPV4V6",
-      "types": [
-        "mms"
-      ]
-    },
-    {
-      "apn": "services",
       "bearer_bitmask": "18",
       "mmsc": "http://mms.3.dk/",
       "mmsport": 8799,

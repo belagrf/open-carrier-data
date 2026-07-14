@@ -19,17 +19,6 @@
       ]
     },
     {
-      "apn": "hos",
-      "name": "hos",
-      "protocol": "IPV6",
-      "roaming_protocol": "IPV6",
-      "types": [
-        "xcap"
-      ],
-      "user_editable": false,
-      "user_visible": false
-    },
-    {
       "apn": "ims",
       "bearer_bitmask": "14|18|20",
       "name": "IMS",
@@ -53,9 +42,29 @@
     },
     {
       "apn": "ims",
-      "name": "Telia FI",
+      "name": "ims",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
       "types": [
         "ims"
+      ],
+      "user_visible": false
+    },
+    {
+      "apn": "internet",
+      "name": "internet",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "dun"
+      ]
+    },
+    {
+      "apn": "internet",
+      "name": "Telia Internet",
+      "protocol": "IP",
+      "roaming_protocol": "IP",
+      "types": [
+        "ia"
       ]
     },
     {
@@ -64,16 +73,31 @@
       "protocol": "IPV4V6",
       "roaming_protocol": "IPV4V6",
       "types": [
+        "supl"
+      ]
+    },
+    {
+      "apn": "internet.aina.fi",
+      "authtype": 1,
+      "mvno_match_data": "2449192",
+      "mvno_type": "imsi",
+      "name": "Aina Internet (S)",
+      "types": [
         "default",
         "supl"
       ]
     },
     {
-      "apn": "internet",
-      "name": "internet",
-      "roaming_protocol": "IPV4V6",
+      "apn": "mediapiste",
+      "authtype": 1,
+      "mmsc": "http://mms.sonera.fi:8002/",
+      "mmsport": 80,
+      "mmsproxy": "195.156.25.33",
+      "mvno_match_data": "2449192",
+      "mvno_type": "imsi",
+      "name": "Aina MMS (S)",
       "types": [
-        "dun"
+        "mms"
       ]
     }
   ],

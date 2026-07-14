@@ -100,6 +100,39 @@
       "types": [
         "ims"
       ]
+    },
+    {
+      "apn": "orange.mms",
+      "mmsc": "http://mmsc.orange.at/mms/wapenc",
+      "mmsport": 8080,
+      "mmsproxy": "194.24.128.118",
+      "name": "Orange MMS",
+      "password": "mms",
+      "types": [
+        "mms"
+      ],
+      "user": "mms"
+    },
+    {
+      "apn": "orange.smartphone",
+      "name": "Orange Smartphone",
+      "password": "web",
+      "types": [
+        "default",
+        "supl"
+      ],
+      "user": "web"
+    },
+    {
+      "apn": "orange.web",
+      "authtype": 3,
+      "name": "Orange WEB",
+      "password": "web",
+      "types": [
+        "default",
+        "supl"
+      ],
+      "user": "web"
     }
   ],
   "android_carrier_config": {

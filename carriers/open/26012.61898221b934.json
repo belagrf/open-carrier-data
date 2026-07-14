@@ -38,13 +38,11 @@
       ]
     },
     {
-      "apn": "mms.cyfrowypolsat.pl",
-      "mmsc": "http://mms.cyfrowypolsat.pl:8002",
-      "mmsport": 8080,
-      "mmsproxy": "79.171.2.33",
-      "name": "Cyfrowy Polsat MMS",
+      "apn": "internet.cyfrowypolsat.pl",
+      "name": "Cyfrowy Polsat",
       "types": [
-        "mms"
+        "default",
+        "supl"
       ]
     }
   ],

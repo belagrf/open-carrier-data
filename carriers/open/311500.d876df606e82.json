@@ -11,6 +11,158 @@
         "mms",
         "supl"
       ]
+    },
+    {
+      "apn": "wap",
+      "mmsc": "http://mmsc.ctc.csky.us:6672",
+      "mmsport": 9201,
+      "mmsproxy": "09.4.229.46",
+      "mvno_match_data": "24-7 Wireless",
+      "mvno_type": "spn",
+      "name": "24-7 WAP",
+      "types": [
+        "default"
+      ]
+    },
+    {
+      "apn": "wap",
+      "mmsc": "http://mmsc.ctc.csky.us:6672",
+      "mmsport": 9201,
+      "mmsproxy": "09.4.229.46",
+      "mvno_match_data": "24-7 Wireless RPA",
+      "mvno_type": "spn",
+      "name": "24-7 WAP AT&T",
+      "types": [
+        "default"
+      ]
+    },
+    {
+      "apn": "wap",
+      "mmsc": "http://mmsc.ctc.csky.us:6672",
+      "mmsport": 9201,
+      "mmsproxy": "09.4.229.46",
+      "mvno_match_data": "24-7 Wireless RPO",
+      "mvno_type": "spn",
+      "name": "24-7 WAP Other networks",
+      "types": [
+        "default"
+      ]
+    },
+    {
+      "apn": "wap",
+      "mmsc": "http://mmsc.ctc.csky.us:6672",
+      "mmsport": 9201,
+      "mmsproxy": "09.4.229.46",
+      "mvno_match_data": "24-7 Wireless RPT",
+      "mvno_type": "spn",
+      "name": "24-7 WAP T-Mobile",
+      "types": [
+        "default"
+      ]
+    },
+    {
+      "apn": "wap",
+      "mmsc": "http://mmsc.ctc.csky.us:6672/",
+      "mmsport": 9201,
+      "mmsproxy": "209.4.229.46",
+      "mvno_match_data": "Mosaic Mobile",
+      "mvno_type": "spn",
+      "name": "Mosaic WAP",
+      "types": [
+        "default",
+        "mms"
+      ]
+    },
+    {
+      "apn": "wap",
+      "mmsc": "http://mmsc.ctc.csky.us:6672/",
+      "mmsport": 9201,
+      "mmsproxy": "209.4.229.46",
+      "mvno_match_data": "Mosaic RPA",
+      "mvno_type": "spn",
+      "name": "Mosaic WAP AT&T",
+      "types": [
+        "default",
+        "mms"
+      ]
+    },
+    {
+      "apn": "wap",
+      "mmsc": "http://mmsc.ctc.csky.us:6672/",
+      "mmsport": 9201,
+      "mmsproxy": "209.4.229.46",
+      "mvno_match_data": "Mosaic RPO",
+      "mvno_type": "spn",
+      "name": "Mosaic WAP Other networks",
+      "types": [
+        "default",
+        "mms"
+      ]
+    },
+    {
+      "apn": "wap",
+      "mmsc": "http://mmsc.ctc.csky.us:6672/",
+      "mmsport": 9201,
+      "mmsproxy": "209.4.229.46",
+      "mvno_match_data": "Mosaic RPT",
+      "mvno_type": "spn",
+      "name": "Mosaic WAP T-Mobile",
+      "types": [
+        "default",
+        "mms"
+      ]
+    },
+    {
+      "apn": "wap",
+      "mmsc": "http://mmsc.ctc.csky.us:6672/",
+      "mmsport": 9201,
+      "mmsproxy": "209.4.229.46",
+      "mvno_match_data": "Norvado Wireless",
+      "mvno_type": "spn",
+      "name": "Norvado",
+      "types": [
+        "default",
+        "mms"
+      ]
+    },
+    {
+      "apn": "wap",
+      "mmsc": "http://mmsc.ctc.csky.us:6672/",
+      "mmsport": 9201,
+      "mmsproxy": "209.4.229.46",
+      "mvno_match_data": "Norvado Wireless RPA",
+      "mvno_type": "spn",
+      "name": "Norvado AT&T",
+      "types": [
+        "default",
+        "mms"
+      ]
+    },
+    {
+      "apn": "wap",
+      "mmsc": "http://mmsc.ctc.csky.us:6672/",
+      "mmsport": 9201,
+      "mmsproxy": "209.4.229.46",
+      "mvno_match_data": "Norvado Wireless RPO",
+      "mvno_type": "spn",
+      "name": "Norvado Other networks",
+      "types": [
+        "default",
+        "mms"
+      ]
+    },
+    {
+      "apn": "wap",
+      "mmsc": "http://mmsc.ctc.csky.us:6672/",
+      "mmsport": 9201,
+      "mmsproxy": "209.4.229.46",
+      "mvno_match_data": "Norvado Wireless RPT",
+      "mvno_type": "spn",
+      "name": "Norvado T-Mobile",
+      "types": [
+        "default",
+        "mms"
+      ]
     }
   ],
   "capabilities": {
@@ -25,7 +177,7 @@
     "vowifi": "unknown",
     "wifi_calling_roaming": "unknown"
   },
-  "display_name": "Mosiac",
+  "display_name": "Carrier 311500",
   "match": {
     "mccmnc": [
       "311500"

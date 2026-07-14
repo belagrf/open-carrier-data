@@ -32,13 +32,15 @@
       "mmsproxy": "212.31.96.161",
       "mtu": 1500,
       "name": "cytamobile",
+      "password": "pass",
       "protocol": "IPV4V6",
       "roaming_protocol": "IPV4V6",
       "types": [
         "default",
         "mms",
         "supl"
-      ]
+      ],
+      "user": "user"
     },
     {
       "apn": "cytamobile",

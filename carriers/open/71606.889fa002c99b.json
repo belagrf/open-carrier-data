@@ -53,6 +53,18 @@
         "dun"
       ],
       "user": "movistar@datos"
+    },
+    {
+      "apn": "wap.movistar.pe",
+      "authtype": 1,
+      "name": "Movistar WAP",
+      "password": "movistar",
+      "port": 8080,
+      "proxy": "200.4.196.117",
+      "types": [
+        "default"
+      ],
+      "user": "movistar@wap"
     }
   ],
   "android_carrier_config": {

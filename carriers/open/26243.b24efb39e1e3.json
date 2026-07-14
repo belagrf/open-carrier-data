@@ -2,6 +2,16 @@
   "android_apns": [
     {
       "apn": "data.lycamobile.de",
+      "name": "data.lycamobile.de",
+      "password": "plus",
+      "types": [
+        "default",
+        "supl"
+      ],
+      "user": "lmde"
+    },
+    {
+      "apn": "data.lycamobile.de",
       "mvno_match_data": "Lycamobile",
       "mvno_type": "spn",
       "name": "Lycamobile DE",

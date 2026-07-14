@@ -42,8 +42,8 @@
     },
     {
       "apn": "ims",
-      "bearer_bitmask": "14|18|20",
-      "name": "\u4e2d\u83ef\u96fb\u4fe1(Chunghwa) (IMS)",
+      "name": "ims",
+      "protocol": "IP",
       "types": [
         "ims"
       ],
@@ -51,8 +51,8 @@
     },
     {
       "apn": "ims",
+      "bearer_bitmask": "14|18|20",
       "name": "\u4e2d\u83ef\u96fb\u4fe1(Chunghwa) (IMS)",
-      "protocol": "IP",
       "types": [
         "ims"
       ],
@@ -79,6 +79,13 @@
       "name": "\u4e2d\u83ef\u96fb\u4fe1",
       "types": [
         "emergency"
+      ]
+    },
+    {
+      "apn": "xcap",
+      "name": "ChunghwaTelecom (XCAP)",
+      "types": [
+        "xcap"
       ]
     }
   ],

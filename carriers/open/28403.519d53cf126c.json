@@ -67,6 +67,18 @@
         "dun"
       ],
       "user": "VIVACOM"
+    },
+    {
+      "apn": "wap.vivacom.bg",
+      "name": "Vivacom WAP",
+      "password": "wap",
+      "port": 8080,
+      "proxy": "192.168.123.123",
+      "types": [
+        "default",
+        "supl"
+      ],
+      "user": "wap"
     }
   ],
   "android_carrier_config": {

@@ -1,6 +1,14 @@
 {
   "android_apns": [
     {
+      "apn": "CA - Bell (2) MMS",
+      "authtype": 1,
+      "name": "CA - Bell (2) MMS",
+      "types": [
+        "mms"
+      ]
+    },
+    {
       "apn": "apps.bell.ca",
       "name": "Bell",
       "protocol": "IP",
@@ -68,6 +76,15 @@
         "ims"
       ],
       "user_visible": false
+    },
+    {
+      "apn": "inet.bell.ca",
+      "authtype": 1,
+      "name": "inet.bell.ca",
+      "types": [
+        "default",
+        "supl"
+      ]
     },
     {
       "apn": "pda.bell.ca",

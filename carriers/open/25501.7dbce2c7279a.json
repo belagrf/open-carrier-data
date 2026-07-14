@@ -49,6 +49,16 @@
         "supl"
       ],
       "user": "internet"
+    },
+    {
+      "apn": "mms.jeans.ua",
+      "mmsc": "http://mmsc:8002/",
+      "mmsport": 8080,
+      "mmsproxy": "192.168.10.10",
+      "name": "Jeans MMS",
+      "types": [
+        "mms"
+      ]
     }
   ],
   "android_carrier_config": {

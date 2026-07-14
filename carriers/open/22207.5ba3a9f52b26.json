@@ -100,6 +100,27 @@
         "xcap"
       ],
       "user_visible": false
+    },
+    {
+      "apn": "mms.kenamobile.it",
+      "mmsc": "http://mms.kenamobile.it",
+      "mmsport": 80,
+      "mmsproxy": "10.248.1.12",
+      "mvno_match_data": "Kena Mobile",
+      "mvno_type": "spn",
+      "name": "Kenamobile MMS",
+      "types": [
+        "mms"
+      ]
+    },
+    {
+      "apn": "web.kenamobile.it",
+      "mvno_match_data": "Kena Mobile",
+      "mvno_type": "spn",
+      "name": "Kenamobile web",
+      "types": [
+        "default"
+      ]
     }
   ],
   "android_carrier_config": {

@@ -43,6 +43,14 @@
       "user_visible": false
     },
     {
+      "apn": "internet",
+      "name": "StarHub",
+      "types": [
+        "default",
+        "supl"
+      ]
+    },
+    {
       "apn": "shinternet",
       "name": "shinternet",
       "types": [
@@ -105,15 +113,6 @@
     },
     {
       "apn": "shwap",
-      "name": "shwap",
-      "password": "hub",
-      "types": [
-        "default"
-      ],
-      "user": "star"
-    },
-    {
-      "apn": "shwap",
       "carrier_id": 1707,
       "name": "SH Data Postpaid",
       "protocol": "IPV4V6",
@@ -133,6 +132,18 @@
         "default",
         "supl"
       ]
+    },
+    {
+      "apn": "shwap",
+      "name": "shwap",
+      "password": "hub",
+      "port": 80,
+      "proxy": "10.12.1.2",
+      "types": [
+        "default",
+        "supl"
+      ],
+      "user": "star"
     },
     {
       "apn": "shwap",
@@ -173,6 +184,36 @@
       "types": [
         "default",
         "ia",
+        "supl"
+      ]
+    },
+    {
+      "apn": "gtnet",
+      "mvno_match_data": "0affffffffffffff",
+      "mvno_type": "gid",
+      "name": "GT (Roaming)",
+      "types": [
+        "default",
+        "supl"
+      ]
+    },
+    {
+      "apn": "gtnet",
+      "mvno_match_data": "525053095x",
+      "mvno_type": "imsi",
+      "name": "GT (Roaming)",
+      "types": [
+        "default",
+        "supl"
+      ]
+    },
+    {
+      "apn": "gtnet",
+      "mvno_match_data": "525053096x",
+      "mvno_type": "imsi",
+      "name": "GT (Roaming)",
+      "types": [
+        "default",
         "supl"
       ]
     }

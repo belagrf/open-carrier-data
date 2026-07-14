@@ -27,17 +27,6 @@
   },
   "android_apns": [
     {
-      "apn": "3hotspot",
-      "authtype": 0,
-      "mtu": 1440,
-      "name": "3hotspot",
-      "protocol": "IPV4V6",
-      "types": [
-        "dun"
-      ],
-      "user_visible": false
-    },
-    {
       "apn": "3internet",
       "name": "3internet",
       "types": [
@@ -76,18 +65,6 @@
       "types": [
         "default",
         "mms"
-      ]
-    },
-    {
-      "apn": "ims",
-      "authtype": 0,
-      "carrier_enabled": true,
-      "mtu": 1440,
-      "name": "ims",
-      "protocol": "IPV6",
-      "roaming_protocol": "IPV4V6",
-      "types": [
-        "ims"
       ]
     },
     {
@@ -151,6 +128,87 @@
         "xcap"
       ],
       "user_editable": false
+    },
+    {
+      "apn": "id",
+      "mmsc": "http://mms.um.idmobile.co.uk:10021/mmsc",
+      "mmsport": 8799,
+      "mmsproxy": "mms.idmobile.co.uk",
+      "mvno_match_data": "0305",
+      "mvno_type": "gid",
+      "name": "iD Mobile",
+      "protocol": "IP",
+      "roaming_protocol": "IP",
+      "types": [
+        "default",
+        "mms",
+        "supl"
+      ]
+    },
+    {
+      "apn": "ims",
+      "mvno_match_data": "0305",
+      "mvno_type": "gid",
+      "name": "iD IMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ]
+    },
+    {
+      "apn": "ims",
+      "mvno_match_data": "0309",
+      "mvno_type": "gid",
+      "name": "SMARTY IMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ]
+    },
+    {
+      "apn": "mob.asm.net",
+      "mmsc": "http://mms.um.three.co.uk:10021/mmsc",
+      "mmsport": 8799,
+      "mmsproxy": "mms.three.co.uk",
+      "mvno_match_data": "0309",
+      "mvno_type": "gid",
+      "name": "SMARTY",
+      "protocol": "IP",
+      "roaming_protocol": "IP",
+      "types": [
+        "default",
+        "mms",
+        "supl"
+      ]
+    },
+    {
+      "apn": "ims",
+      "mvno_match_data": "0310",
+      "mvno_type": "gid",
+      "name": "Superdrug IMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ]
+    },
+    {
+      "apn": "superdrug.net",
+      "mmsc": "http://mms.um.three.co.uk:10021/mmsc",
+      "mmsport": 8799,
+      "mmsproxy": "mms.three.co.uk",
+      "mvno_match_data": "0310",
+      "mvno_type": "gid",
+      "name": "Superdrug",
+      "protocol": "IP",
+      "roaming_protocol": "IP",
+      "types": [
+        "default",
+        "mms",
+        "supl"
+      ]
     }
   ],
   "android_carrier_config": {

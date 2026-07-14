@@ -33,11 +33,24 @@
       "mmsc": "http://mmsc.myuni.com.cn",
       "mmsport": 80,
       "mmsproxy": "10.0.0.172",
-      "name": "3gwap",
+      "name": "China Unicom wap",
       "port": 80,
       "proxy": "10.0.0.172",
       "types": [
-        "default",
+        "default"
+      ]
+    },
+    {
+      "apn": "3gwap",
+      "mmsc": "http://mmsc.myuni.com.cn",
+      "mmsport": 80,
+      "mmsproxy": "10.0.0.172",
+      "name": "3gwap",
+      "port": 80,
+      "protocol": "IPV4V6",
+      "proxy": "10.0.0.172",
+      "roaming_protocol": "IPV4V6",
+      "types": [
         "mms"
       ]
     }

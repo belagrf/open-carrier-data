@@ -2,18 +2,8 @@
   "android_apns": [
     {
       "apn": "bam.clarochile.cl",
-      "authtype": 1,
+      "authtype": 3,
       "name": "bam.clarochile.cl",
-      "password": "clarochile",
-      "types": [
-        "default",
-        "supl"
-      ],
-      "user": "clarochile"
-    },
-    {
-      "apn": "bam.clarochile.cl",
-      "name": "Claro",
       "password": "clarochile",
       "types": [
         "dun"
@@ -41,6 +31,16 @@
       "password": "clarochile",
       "types": [
         "mms"
+      ],
+      "user": "clarochile"
+    },
+    {
+      "apn": "wap.clarochile.cl",
+      "authtype": 1,
+      "name": "WAP Claro",
+      "password": "clarochile",
+      "types": [
+        "default"
       ],
       "user": "clarochile"
     }

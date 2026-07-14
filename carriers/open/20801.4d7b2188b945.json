@@ -67,6 +67,15 @@
       "user_visible": false
     },
     {
+      "apn": "ims",
+      "name": "Orange World IMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ]
+    },
+    {
       "apn": "internet-entreprise",
       "name": "Internet Entreprise",
       "password": "orange",
@@ -219,6 +228,92 @@
       "user": "orange"
     },
     {
+      "apn": "ofnew.fr",
+      "authtype": 1,
+      "mvno_match_data": "33",
+      "mvno_type": "gid",
+      "name": "Carrefour WAP",
+      "password": "orange",
+      "port": 8080,
+      "proxy": "192.168.10.100",
+      "types": [
+        "default",
+        "supl"
+      ],
+      "user": "orange"
+    },
+    {
+      "apn": "orange.acte",
+      "authtype": 1,
+      "mmsc": "http://mms.orange.fr",
+      "mmsport": 8080,
+      "mmsproxy": "192.168.10.200",
+      "mvno_match_data": "33",
+      "mvno_type": "gid",
+      "name": "Carrefour MMS",
+      "password": "orange",
+      "types": [
+        "mms"
+      ],
+      "user": "orange"
+    },
+    {
+      "apn": "ofnew.fr",
+      "authtype": 1,
+      "mvno_match_data": "4E",
+      "mvno_type": "gid",
+      "name": "NRJWEB",
+      "password": "orange",
+      "types": [
+        "default",
+        "supl"
+      ],
+      "user": "orange"
+    },
+    {
+      "apn": "orange.acte",
+      "authtype": 1,
+      "mmsc": "http://mms.orange.fr",
+      "mmsport": 8080,
+      "mmsproxy": "192.168.10.200",
+      "mvno_match_data": "4E",
+      "mvno_type": "gid",
+      "name": "NRJMMS",
+      "password": "orange",
+      "types": [
+        "mms"
+      ],
+      "user": "orange"
+    },
+    {
+      "apn": "ofnew.fr",
+      "authtype": 1,
+      "mvno_match_data": "52",
+      "mvno_type": "gid",
+      "name": "VM WAP",
+      "password": "orange",
+      "types": [
+        "default",
+        "supl"
+      ],
+      "user": "orange"
+    },
+    {
+      "apn": "orange.acte",
+      "authtype": 1,
+      "mmsc": "http://mms.orange.fr",
+      "mmsport": 8080,
+      "mmsproxy": "192.168.10.200",
+      "mvno_match_data": "52",
+      "mvno_type": "gid",
+      "name": "VM MMS",
+      "password": "orange",
+      "types": [
+        "mms"
+      ],
+      "user": "orange"
+    },
+    {
       "apn": "orange",
       "mvno_match_data": "Breizh Mobile",
       "mvno_type": "spn",
@@ -270,6 +365,15 @@
         "supl"
       ],
       "user": "orange"
+    },
+    {
+      "apn": "symamobile.com",
+      "mvno_match_data": "SYMA",
+      "mvno_type": "spn",
+      "name": "SYMA Mobile",
+      "types": [
+        "default"
+      ]
     },
     {
       "apn": "symamobile.com",

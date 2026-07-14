@@ -34,7 +34,7 @@
     },
     {
       "apn": "aircelweb",
-      "name": "Aircel-GPRS-Prepaid",
+      "name": "aircelweb",
       "protocol": "IPV4V6",
       "types": [
         "default",
@@ -43,7 +43,7 @@
     },
     {
       "apn": "aircelwebpost",
-      "name": "Aircel-GPRS-Postpaid",
+      "name": "aircelwebpost",
       "protocol": "IPV4V6",
       "types": [
         "default",
@@ -52,7 +52,7 @@
     },
     {
       "apn": "myaircel",
-      "name": "Pocket Internet-Prepaid",
+      "name": "myaircel",
       "port": 8080,
       "protocol": "IPV4V6",
       "proxy": "172.17.83.69",
@@ -63,7 +63,7 @@
     },
     {
       "apn": "myaircelpost",
-      "name": "Pocket Internet-Postpaid",
+      "name": "myaircelpost",
       "port": 8080,
       "protocol": "IPV4V6",
       "proxy": "172.17.83.69",

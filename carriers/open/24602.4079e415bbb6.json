@@ -52,14 +52,31 @@
     },
     {
       "apn": "internet",
+      "mmsc": "http://mmsc/servlets/mms",
+      "mmsport": 8080,
+      "mmsproxy": "192.168.150.2",
+      "name": "Bite LT Internet",
+      "password": "mms",
+      "types": [
+        "mms"
+      ],
+      "user": "mms@mms"
+    },
+    {
+      "apn": "internet",
       "authtype": 1,
       "carrier_enabled": true,
+      "mmsc": "http://mmsc/servlets/mms",
+      "mmsport": 8080,
+      "mmsproxy": "192.168.150.2",
       "name": "internet",
+      "password": "mms",
       "protocol": "IPV4V6",
       "roaming_protocol": "IPV4V6",
       "types": [
         "supl"
-      ]
+      ],
+      "user": "mms@mms"
     },
     {
       "apn": "wap",

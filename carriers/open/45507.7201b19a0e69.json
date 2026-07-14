@@ -3,6 +3,33 @@
     {
       "apn": "ctnet",
       "authtype": 3,
+      "bearer_bitmask": "6|7|8|12",
+      "name": "APN_NAME_CTNET",
+      "password": "vnet.mobi",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "default",
+        "hipri",
+        "ia"
+      ],
+      "user": "ctnet@mycdma.cn"
+    },
+    {
+      "apn": "ctnet",
+      "bearer": 19,
+      "bearer_bitmask": "13|14",
+      "name": "APN_NAME_CTNET",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "default",
+        "ia"
+      ]
+    },
+    {
+      "apn": "ctnet",
+      "authtype": 3,
       "name": "\u4e2d\u570b\u96fb\u4fe1(China Telecom) NET",
       "protocol": "IPV4V6",
       "roaming_protocol": "IPV4V6",
@@ -12,6 +39,36 @@
         "supl",
         "xcap"
       ]
+    },
+    {
+      "apn": "ctwap",
+      "bearer": 19,
+      "bearer_bitmask": "13|14",
+      "mmsc": "http://mmsc.vnet.mobi",
+      "mmsport": 80,
+      "mmsproxy": "10.0.0.200",
+      "name": "APN_NAME_CTMMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "mms"
+      ]
+    },
+    {
+      "apn": "ctwap",
+      "authtype": 3,
+      "bearer_bitmask": "6|7|8|12",
+      "mmsc": "http://mmsc.vnet.mobi",
+      "mmsport": 80,
+      "mmsproxy": "10.0.0.200",
+      "name": "APN_NAME_CTMMS",
+      "password": "vnet.mobi",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "mms"
+      ],
+      "user": "ctwap@mycdma.cn"
     },
     {
       "apn": "ctwap",
@@ -27,6 +84,30 @@
       ]
     },
     {
+      "apn": "ctwap",
+      "bearer": 19,
+      "bearer_bitmask": "13|14",
+      "name": "APN_NAME_CTWAP",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "supl"
+      ]
+    },
+    {
+      "apn": "ctwap",
+      "authtype": 3,
+      "bearer_bitmask": "6|7|8|12",
+      "name": "APN_NAME_CTWAP",
+      "password": "vnet.mobi",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "supl"
+      ],
+      "user": "ctwap@mycdma.cn"
+    },
+    {
       "apn": "ims",
       "bearer_bitmask": "14|20",
       "name": "IMS",
@@ -40,7 +121,7 @@
     {
       "apn": "ims",
       "authtype": 0,
-      "name": "\u4e2d\u570b\u96fb\u4fe1(China Telecom) IMS",
+      "name": "ims",
       "protocol": "IPV4V6",
       "roaming_protocol": "IPV4V6",
       "types": [

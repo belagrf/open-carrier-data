@@ -22,6 +22,7 @@
       "name": "Movistar",
       "password": "telefonica",
       "port": 8080,
+      "proxy": "10.138.255.133",
       "types": [
         "default",
         "supl"
@@ -32,6 +33,7 @@
       "apn": "telefonica.es",
       "mmsc": "http://mms.movistar.com",
       "mmsport": 8080,
+      "mmsproxy": "10.138.255.5",
       "name": "Movistar MMS",
       "password": "telefonica",
       "types": [

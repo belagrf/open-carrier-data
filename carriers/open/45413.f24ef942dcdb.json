@@ -6,8 +6,22 @@
       "name": "cmhk",
       "types": [
         "default",
+        "dun",
         "mms",
         "supl"
+      ]
+    },
+    {
+      "apn": "ims",
+      "max_conns": 1023,
+      "max_conns_time": 300,
+      "modem_cognitive": true,
+      "name": "CMHK IMS",
+      "profile_id": 2,
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ims"
       ]
     },
     {

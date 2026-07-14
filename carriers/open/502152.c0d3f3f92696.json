@@ -13,7 +13,7 @@
     },
     {
       "apn": "ims",
-      "name": "IMS",
+      "name": "ims",
       "protocol": "IPV4V6",
       "roaming_protocol": "IPV4V6",
       "types": [
@@ -23,11 +23,13 @@
     },
     {
       "apn": "yesnet",
-      "name": "Yes 4G",
+      "name": "yesnet",
       "protocol": "IPV4V6",
       "roaming_protocol": "IPV4V6",
       "types": [
-        "default"
+        "default",
+        "supl",
+        "xcap"
       ]
     }
   ],

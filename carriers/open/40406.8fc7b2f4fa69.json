@@ -20,6 +20,7 @@
     },
     {
       "apn": "airtelmms.com",
+      "authtype": 1,
       "mmsc": "http://100.1.201.171:10021/mmsc",
       "mmsport": 8799,
       "mmsproxy": "100.1.201.172",

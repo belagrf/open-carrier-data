@@ -1,6 +1,14 @@
 {
   "android_apns": [
     {
+      "apn": "ba.amx",
+      "authtype": 1,
+      "name": "Micro SIM",
+      "types": [
+        "default"
+      ]
+    },
+    {
       "apn": "ims",
       "bearer_bitmask": "14|18|20",
       "name": "IMS",

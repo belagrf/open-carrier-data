@@ -19,7 +19,8 @@
     },
     {
       "apn": "isp.nawras.com.om",
-      "name": "Nawras",
+      "authtype": 1,
+      "name": "isp.nawras.com.om",
       "password": "test",
       "types": [
         "default",
@@ -29,6 +30,7 @@
     },
     {
       "apn": "mms.nawras.com.om",
+      "authtype": 1,
       "mmsc": "http://10.128.240.16/servlets/mms",
       "mmsport": 8080,
       "mmsproxy": "10.128.240.19",

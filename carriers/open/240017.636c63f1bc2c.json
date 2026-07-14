@@ -3,7 +3,7 @@
     {
       "apn": "halebop.telia.se",
       "authtype": 0,
-      "name": "Internet",
+      "name": "halebop.telia.se",
       "types": [
         "default",
         "supl"

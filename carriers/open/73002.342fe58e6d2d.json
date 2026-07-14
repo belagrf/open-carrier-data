@@ -23,9 +23,10 @@
       "authtype": 1,
       "name": "wap.tmovil.cl",
       "password": "wap",
+      "port": 8080,
+      "proxy": "172.17.8.11",
       "types": [
-        "default",
-        "supl"
+        "default"
       ],
       "user": "wap"
     },
@@ -35,6 +36,16 @@
       "password": "wap",
       "types": [
         "dun"
+      ],
+      "user": "wap"
+    },
+    {
+      "apn": "wap.tmovil.cl",
+      "authtype": 1,
+      "name": "wap.tmovil.cl",
+      "password": "wap",
+      "types": [
+        "supl"
       ],
       "user": "wap"
     },

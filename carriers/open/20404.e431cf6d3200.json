@@ -220,6 +220,69 @@
       ]
     },
     {
+      "apn": "pda.stm.sk.ca",
+      "mmsc": "http://mms.sasktel.com/",
+      "mmsport": 80,
+      "mmsproxy": "mig.sasktel.com",
+      "mvno_match_data": "5A",
+      "mvno_type": "gid",
+      "name": "SaskTel",
+      "types": [
+        "default",
+        "mms",
+        "supl"
+      ]
+    },
+    {
+      "apn": "IMS",
+      "bearer": 13,
+      "max_conns": 1023,
+      "max_conns_time": 300,
+      "modem_cognitive": true,
+      "mvno_match_data": "BAE0000000000000",
+      "mvno_type": "gid",
+      "name": "EHRPD - VZW Roaming IMS",
+      "profile_id": 2,
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ia",
+        "ims"
+      ]
+    },
+    {
+      "apn": "IMS",
+      "max_conns": 1023,
+      "max_conns_time": 300,
+      "modem_cognitive": true,
+      "mvno_match_data": "BAE0000000000000",
+      "mvno_type": "gid",
+      "name": "LTE - VZW Roaming IMS",
+      "profile_id": 2,
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ia",
+        "ims"
+      ]
+    },
+    {
+      "apn": "VZWADMIN",
+      "bearer": 13,
+      "max_conns": 1023,
+      "max_conns_time": 300,
+      "modem_cognitive": true,
+      "mvno_match_data": "BAE0000000000000",
+      "mvno_type": "gid",
+      "name": "EHRPD - VZW Roaming FOTA",
+      "profile_id": 3,
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "fota"
+      ]
+    },
+    {
       "apn": "VZWADMIN",
       "bearer_bitmask": "13",
       "max_conns": 1023,
@@ -252,10 +315,10 @@
     },
     {
       "apn": "VZWAPP",
-      "bearer_bitmask": "13",
+      "bearer": 13,
       "max_conns": 1023,
       "max_conns_time": 300,
-      "mmsc": "http://mms.vzwreseller.com/servlets/mms",
+      "mmsc": "http://mms.vtext.com/servlets/mms",
       "modem_cognitive": true,
       "mvno_match_data": "BAE0000000000000",
       "mvno_type": "gid",
@@ -270,13 +333,14 @@
     },
     {
       "apn": "VZWAPP",
+      "bearer_bitmask": "13",
       "max_conns": 1023,
       "max_conns_time": 300,
       "mmsc": "http://mms.vzwreseller.com/servlets/mms",
       "modem_cognitive": true,
       "mvno_match_data": "BAE0000000000000",
       "mvno_type": "gid",
-      "name": "LTE - VZW Roaming CBS",
+      "name": "EHRPD - VZW Roaming CBS",
       "profile_id": 4,
       "protocol": "IPV4V6",
       "roaming_protocol": "IPV4V6",
@@ -320,6 +384,23 @@
     },
     {
       "apn": "VZWINTERNET",
+      "bearer": 13,
+      "max_conns": 1023,
+      "max_conns_time": 300,
+      "modem_cognitive": true,
+      "mvno_match_data": "BAE0000000000000",
+      "mvno_type": "gid",
+      "name": "EHRPD - VZW Roaming Internet",
+      "profile_id": 0,
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "default",
+        "dun"
+      ]
+    },
+    {
+      "apn": "VZWINTERNET",
       "bearer_bitmask": "13",
       "max_conns": 1023,
       "max_conns_time": 300,
@@ -352,13 +433,58 @@
       ]
     },
     {
+      "apn": "ctnet",
+      "authtype": 3,
+      "mvno_match_data": "898603,898611,898612,8985231,8985302,8985307",
+      "mvno_type": "iccid",
+      "name": "APN_NAME_CTNET",
+      "password": "vnet.mobi",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "default",
+        "hipri",
+        "ia"
+      ],
+      "user": "ctnet@mycdma.cn"
+    },
+    {
+      "apn": "ctwap",
+      "authtype": 3,
+      "mmsc": "http://mmsc.vnet.mobi",
+      "mmsport": 80,
+      "mmsproxy": "10.0.0.200",
+      "mvno_match_data": "898603,898611,898612,8985231,8985302,8985307",
+      "mvno_type": "iccid",
+      "name": "APN_NAME_CTMMS",
+      "password": "vnet.mobi",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "mms"
+      ],
+      "user": "ctwap@mycdma.cn"
+    },
+    {
+      "apn": "ims",
+      "mvno_match_data": "898603,898611,898612,8985231,8985302,8985307",
+      "mvno_type": "iccid",
+      "name": "APN_NAME_CTIMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ]
+    },
+    {
       "apn": "truphone.com",
       "mvno_match_data": "204043914",
       "mvno_type": "imsi",
       "name": "Truphone",
       "types": [
         "default",
-        "dun"
+        "dun",
+        "supl"
       ]
     },
     {
@@ -368,7 +494,8 @@
       "name": "Truphone",
       "types": [
         "default",
-        "dun"
+        "dun",
+        "supl"
       ]
     }
   ],

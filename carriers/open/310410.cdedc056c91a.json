@@ -69,7 +69,7 @@
     {
       "apn": "ims",
       "modem_cognitive": true,
-      "name": "ATT IMS",
+      "name": "ims",
       "protocol": "IPV4V6",
       "roaming_protocol": "IPV4V6",
       "types": [
@@ -140,6 +140,18 @@
       ]
     },
     {
+      "apn": "reseller",
+      "mmsc": "http://mmsc.mobile.att.net",
+      "mmsport": 80,
+      "mmsproxy": "proxy.mobile.att.net",
+      "name": "reseller",
+      "types": [
+        "default",
+        "mms",
+        "supl"
+      ]
+    },
+    {
       "apn": "tfdata",
       "mmsc": "http://mms-tf.net",
       "mmsport": 80,
@@ -198,6 +210,22 @@
       "name": "Red Pocket",
       "types": [
         "default",
+        "mms",
+        "supl"
+      ]
+    },
+    {
+      "apn": "prodata",
+      "mmsc": "http://mmsc.mobile.att.net",
+      "mmsport": 80,
+      "mmsproxy": "proxy.mobile.att.net",
+      "mvno_match_data": "49",
+      "mvno_type": "gid",
+      "name": "H2O",
+      "types": [
+        "default",
+        "fota",
+        "hipri",
         "mms",
         "supl"
       ]
@@ -313,18 +341,68 @@
       "user_visible": false
     },
     {
+      "apn": "PRODATA",
+      "mmsc": "http://mmsc.mobile.att.net",
+      "mmsport": 80,
+      "mmsproxy": "proxy.mobile.att.net",
+      "mvno_match_data": "60FF",
+      "mvno_type": "gid",
+      "name": "Defense Mobile",
+      "protocol": "IP",
+      "types": [
+        "default",
+        "mms",
+        "supl"
+      ]
+    },
+    {
+      "apn": "tfdata",
+      "mmsc": "http://mms-tf.net",
+      "mmsport": 80,
+      "mmsproxy": "mms3.tracfone.com",
+      "mvno_match_data": "ddff",
+      "mvno_type": "gid",
+      "name": "TFDATA",
+      "protocol": "IP",
+      "roaming_protocol": "IP",
+      "types": [
+        "default",
+        "fota",
+        "hipri",
+        "mms",
+        "supl"
+      ]
+    },
+    {
       "apn": "tfdata",
       "mmsc": "http://mms-tf.net",
       "mmsport": 80,
       "mmsproxy": "mms3.tracfone.com",
       "mvno_match_data": "deff",
       "mvno_type": "gid",
-      "name": "Straight Talk",
+      "name": "tfdata",
       "port": 80,
+      "protocol": "IP",
+      "roaming_protocol": "IP",
       "types": [
         "default",
         "mms",
         "supl"
+      ]
+    },
+    {
+      "apn": "tfdata",
+      "mmsc": "http://mms-tf.net",
+      "mmsport": 80,
+      "mmsproxy": "mms3.tracfone.com",
+      "mvno_match_data": "deff",
+      "mvno_type": "gid",
+      "name": "TFDATA",
+      "protocol": "IP",
+      "roaming_protocol": "IP",
+      "types": [
+        "fota",
+        "hipri"
       ]
     }
   ],

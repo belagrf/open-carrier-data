@@ -95,11 +95,18 @@
     },
     {
       "apn": "internet",
+      "authtype": 3,
       "name": "internet",
       "types": [
         "default",
-        "dun",
         "supl"
+      ]
+    },
+    {
+      "apn": "internet",
+      "name": "Telekom HU",
+      "types": [
+        "dun"
       ]
     },
     {
@@ -171,7 +178,7 @@
       "mmsc": "http://mms.t-mobile.hu/servlets/mms",
       "mmsport": 8080,
       "mmsproxy": "212.51.126.10",
-      "name": "T-Mobile HU",
+      "name": "wnw",
       "types": [
         "default",
         "supl"

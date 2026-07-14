@@ -276,6 +276,7 @@
     },
     {
       "apn": "websfr",
+      "authtype": 0,
       "name": "websfr",
       "protocol": "IPV4V6",
       "roaming_protocol": "IP",
@@ -288,6 +289,146 @@
       "apn": "websfr",
       "name": "websfr",
       "types": [
+        "supl"
+      ]
+    },
+    {
+      "apn": "fnetcoriolis",
+      "mvno_match_data": "12",
+      "mvno_type": "gid",
+      "name": "fnetcoriolis",
+      "types": [
+        "default",
+        "supl"
+      ]
+    },
+    {
+      "apn": "mmscoriolis",
+      "mmsc": "http://mmscoriolis",
+      "mmsport": 8080,
+      "mmsproxy": "10.143.156.6",
+      "mvno_match_data": "12",
+      "mvno_type": "gid",
+      "name": "Coriolis MMS",
+      "types": [
+        "mms"
+      ]
+    },
+    {
+      "apn": "mms68",
+      "mmsc": "http://mms68",
+      "mmsport": 8080,
+      "mmsproxy": "10.143.156.11",
+      "mvno_match_data": "44",
+      "mvno_type": "gid",
+      "name": "Darty MMS",
+      "types": [
+        "mms"
+      ]
+    },
+    {
+      "apn": "wap68",
+      "mvno_match_data": "44",
+      "mvno_type": "gid",
+      "name": "Darty Surf&Mails",
+      "port": 8080,
+      "proxy": "192.168.21.11",
+      "types": [
+        "default",
+        "supl"
+      ]
+    },
+    {
+      "apn": "sl2sfr",
+      "mmsc": "http://mmsdebitel",
+      "mmsport": 8080,
+      "mmsproxy": "10.143.156.3",
+      "mvno_match_data": "4C",
+      "mvno_type": "gid",
+      "name": "WEB La Poste Mobile",
+      "types": [
+        "default",
+        "mms",
+        "supl"
+      ]
+    },
+    {
+      "apn": "fnetnrj",
+      "mvno_match_data": "4E",
+      "mvno_type": "gid",
+      "name": "NRJWEB",
+      "types": [
+        "default",
+        "supl"
+      ]
+    },
+    {
+      "apn": "internetnrj",
+      "authtype": 0,
+      "mvno_match_data": "4E",
+      "mvno_type": "gid",
+      "name": "INTERNET NRJ",
+      "types": [
+        "dun"
+      ]
+    },
+    {
+      "apn": "mmsnrj",
+      "mmsc": "http://mmsnrj",
+      "mmsport": 8080,
+      "mmsproxy": "10.143.156.5",
+      "mvno_match_data": "4E",
+      "mvno_type": "gid",
+      "name": "NRJMMS",
+      "types": [
+        "mms"
+      ]
+    },
+    {
+      "apn": "sl2sfr",
+      "authtype": 0,
+      "mmsc": "http://mms1",
+      "mmsport": 8080,
+      "mmsproxy": "10.151.0.1",
+      "mvno_match_data": "53",
+      "mvno_type": "gid",
+      "name": "Internet Joe",
+      "types": [
+        "default",
+        "fota",
+        "mms",
+        "supl"
+      ]
+    },
+    {
+      "apn": "websfr",
+      "authtype": 0,
+      "mvno_match_data": "53",
+      "mvno_type": "gid",
+      "name": "Modem Joe",
+      "types": [
+        "dun"
+      ]
+    },
+    {
+      "apn": "mms65",
+      "mmsc": "http://mms65",
+      "mmsport": 8080,
+      "mmsproxy": "10.143.156.8",
+      "mvno_match_data": "A MOBILE",
+      "mvno_type": "spn",
+      "name": "Auchan MMS",
+      "types": [
+        "mms"
+      ]
+    },
+    {
+      "apn": "wap65",
+      "mvno_match_data": "A MOBILE",
+      "mvno_type": "spn",
+      "name": "Auchan WAP",
+      "types": [
+        "default",
         "supl"
       ]
     },
@@ -370,6 +511,46 @@
       ]
     },
     {
+      "apn": "internet68",
+      "authtype": 0,
+      "mvno_match_data": "Keyyo Mobile",
+      "mvno_type": "spn",
+      "name": "Keyyo Mobile Internet",
+      "types": [
+        "default",
+        "dun",
+        "fota",
+        "supl"
+      ]
+    },
+    {
+      "apn": "mms68",
+      "authtype": 0,
+      "mmsc": "http://mms68",
+      "mmsport": 8080,
+      "mmsproxy": "10.143.156.11",
+      "mvno_match_data": "Keyyo Mobile",
+      "mvno_type": "spn",
+      "name": "Keyyo Mobile MMS",
+      "types": [
+        "mms"
+      ]
+    },
+    {
+      "apn": "wap68",
+      "authtype": 0,
+      "mvno_match_data": "Keyyo Mobile",
+      "mvno_type": "spn",
+      "name": "Keyyo Mobile Wap",
+      "port": 8080,
+      "proxy": "192.168.21.11",
+      "types": [
+        "default",
+        "fota",
+        "supl"
+      ]
+    },
+    {
       "apn": "mmsdebitel",
       "mmsc": "http://mmsdebitel",
       "mmsport": 8080,
@@ -388,6 +569,30 @@
       "name": "WEB La Poste Mobile",
       "port": 8080,
       "proxy": "192.168.21.3",
+      "types": [
+        "default",
+        "supl"
+      ]
+    },
+    {
+      "apn": "mms66",
+      "mmsc": "http://mms66",
+      "mmsport": 8080,
+      "mmsproxy": "10.143.156.9",
+      "mvno_match_data": "LeclercMobile",
+      "mvno_type": "spn",
+      "name": "MMS LeclercMobile",
+      "types": [
+        "mms"
+      ]
+    },
+    {
+      "apn": "wap66",
+      "mvno_match_data": "LeclercMobile",
+      "mvno_type": "spn",
+      "name": "WAP LeclercMobile",
+      "port": 8080,
+      "proxy": "192.168.21.9",
       "types": [
         "default",
         "supl"
@@ -415,6 +620,60 @@
       "types": [
         "default",
         "supl"
+      ]
+    },
+    {
+      "apn": "mms66",
+      "authtype": 0,
+      "mmsc": "http://mms66",
+      "mmsport": 8080,
+      "mmsproxy": "10.143.156.9",
+      "mvno_match_data": "RegloMobile",
+      "mvno_type": "spn",
+      "name": "MMS RegloMobile",
+      "types": [
+        "mms"
+      ]
+    },
+    {
+      "apn": "wap66",
+      "authtype": 0,
+      "mvno_match_data": "RegloMobile",
+      "mvno_type": "spn",
+      "name": "WAP RegloMobile",
+      "port": 8080,
+      "proxy": "192.168.21.9",
+      "types": [
+        "default",
+        "dun",
+        "fota",
+        "supl"
+      ]
+    },
+    {
+      "apn": "internet68",
+      "authtype": 0,
+      "mvno_match_data": "ZERO FORFAIT",
+      "mvno_type": "spn",
+      "name": "Zero forfait",
+      "types": [
+        "default",
+        "dun",
+        "fota",
+        "supl"
+      ]
+    },
+    {
+      "apn": "mms68",
+      "authtype": 0,
+      "mmsc": "http://mms68",
+      "mmsport": 8080,
+      "mmsproxy": "10.143.156.11",
+      "mvno_match_data": "ZERO FORFAIT",
+      "mvno_type": "spn",
+      "name": "Zero forfait MMS",
+      "types": [
+        "mms"
       ]
     }
   ],

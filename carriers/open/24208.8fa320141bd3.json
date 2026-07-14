@@ -2,10 +2,11 @@
   "android_apns": [
     {
       "apn": "Internet.no",
-      "name": "TDC",
+      "name": "Internet.no",
       "types": [
         "default",
-        "dun"
+        "dun",
+        "supl"
       ]
     },
     {
@@ -41,7 +42,7 @@
       "mmsc": "http://mmsc.tdc.dk:8002",
       "mmsport": 8080,
       "mmsproxy": "inetproxy.tdc.dk",
-      "name": "TDC MMS",
+      "name": "mms",
       "types": [
         "mms"
       ]

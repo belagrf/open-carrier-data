@@ -57,6 +57,18 @@
       "user": "mms"
     },
     {
+      "apn": "wap.pt.lu",
+      "name": "LUXGSM WAP",
+      "password": "wap",
+      "port": 8080,
+      "proxy": "194.154.192.98",
+      "types": [
+        "default",
+        "supl"
+      ],
+      "user": "wap"
+    },
+    {
       "apn": "web.pt.lu",
       "authtype": 1,
       "carrier_enabled": true,

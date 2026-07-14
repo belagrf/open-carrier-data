@@ -66,6 +66,15 @@
       ]
     },
     {
+      "apn": "modem.orange.net.il",
+      "authtype": 0,
+      "name": "3G DUN",
+      "port": 8080,
+      "types": [
+        "dun"
+      ]
+    },
+    {
       "apn": "uinternet",
       "authtype": 3,
       "mmsc": "http://192.168.220.15/servlets/mms",

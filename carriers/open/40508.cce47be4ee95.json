@@ -1,6 +1,16 @@
 {
   "android_apns": [
     {
+      "apn": "mms",
+      "mmsc": "http://10.239.221.47/mms/",
+      "mmsport": 8080,
+      "mmsproxy": "10.239.221.7",
+      "name": "Reliance RTel MMS",
+      "types": [
+        "mms"
+      ]
+    },
+    {
       "apn": "rcomnet",
       "name": "rcomnet",
       "protocol": "IPV4V6",
@@ -15,6 +25,14 @@
       "port": 8080,
       "protocol": "IPV4V6",
       "proxy": "10.239.221.5",
+      "types": [
+        "default",
+        "supl"
+      ]
+    },
+    {
+      "apn": "smartnet",
+      "name": "Reliance RTel",
       "types": [
         "default",
         "supl"

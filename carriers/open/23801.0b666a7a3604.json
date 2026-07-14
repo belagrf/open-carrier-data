@@ -191,7 +191,7 @@
       "authtype": 1,
       "mvno_match_data": "2380101xxxxxxxx",
       "mvno_type": "imsi",
-      "name": "TDC Internet",
+      "name": "internet",
       "proxy": "62.135.173.214",
       "types": [
         "default",
@@ -199,16 +199,59 @@
       ]
     },
     {
+      "apn": "Internet.no",
+      "mvno_match_data": "2380171xxxxxxxx",
+      "mvno_type": "imsi",
+      "name": "Internet",
+      "types": [
+        "default",
+        "supl"
+      ]
+    },
+    {
       "apn": "mms",
-      "authtype": 1,
       "mmsc": "http://mmsc.tdc.dk:8002",
       "mmsport": 8080,
-      "mmsproxy": "194.182.251.15",
-      "mvno_match_data": "2380101xxxxxxxx",
+      "mmsproxy": "inetproxy.tdc.dk",
+      "mvno_match_data": "2380171xxxxxxxx",
       "mvno_type": "imsi",
-      "name": "TDC MMS",
+      "name": "MMS",
       "types": [
         "mms"
+      ]
+    },
+    {
+      "apn": "internet",
+      "mvno_match_data": "TELMORE",
+      "mvno_type": "spn",
+      "name": "Telmore Internet",
+      "types": [
+        "default",
+        "supl"
+      ]
+    },
+    {
+      "apn": "mms",
+      "mmsc": "http://192.168.241.114:8002",
+      "mmsport": 8080,
+      "mmsproxy": "194.182.251.15",
+      "mvno_match_data": "TELMORE",
+      "mvno_type": "spn",
+      "name": "Telmore MMS",
+      "types": [
+        "mms"
+      ]
+    },
+    {
+      "apn": "wap",
+      "authtype": 0,
+      "mvno_match_data": "TELMORE",
+      "mvno_type": "spn",
+      "name": "TELMORE WAP",
+      "port": 8080,
+      "proxy": "194.182.251.15",
+      "types": [
+        "default"
       ]
     }
   ],

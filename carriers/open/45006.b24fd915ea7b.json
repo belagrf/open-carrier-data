@@ -11,6 +11,16 @@
       ]
     },
     {
+      "apn": "ims.lguplus.co.kr",
+      "mmsc": "http://omammsc.uplus.co.kr:9084",
+      "name": "LG uplus IMS",
+      "protocol": "IPV4V6",
+      "types": [
+        "ia",
+        "ims"
+      ]
+    },
+    {
       "apn": "internet.lguplus.co.kr",
       "mmsc": "http://omammsc.uplus.co.kr:9084",
       "name": "internet.lguplus.co.kr",
@@ -36,7 +46,7 @@
       "apn": "lte-roaming.lguplus.co.kr",
       "authtype": 0,
       "mmsc": "http://omammsc.uplus.co.kr:9084",
-      "name": "LG U+ LTE Roaming",
+      "name": "lte-roaming.lguplus.co.kr",
       "types": [
         "default"
       ]
@@ -45,7 +55,7 @@
       "apn": "wroaming.lguplus.co.kr",
       "authtype": 0,
       "mmsc": "http://omammsc.uplus.co.kr:9084",
-      "name": "LG U+ Roaming",
+      "name": "wroaming.lguplus.co.kr",
       "types": [
         "default"
       ]

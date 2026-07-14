@@ -2,6 +2,21 @@
   "android_apns": [
     {
       "apn": "CdmaNai",
+      "authtype": 3,
+      "bearer": 6,
+      "mmsc": "http://mms.sprintpcs.com",
+      "mmsport": 80,
+      "mmsproxy": "68.28.31.7",
+      "name": "Sprint CdmaNai",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "default"
+      ]
+    },
+    {
+      "apn": "CdmaNai",
+      "authtype": 3,
       "bearer": 6,
       "carrier_enabled": false,
       "mmsc": "http://mms.sprintpcs.com",
@@ -27,6 +42,126 @@
         "mms",
         "supl"
       ]
+    },
+    {
+      "apn": "cinet.spcs",
+      "bearer": 1,
+      "mmsc": "http://mms.sprintpcs.com",
+      "mmsport": 80,
+      "mmsproxy": "68.28.31.7",
+      "name": "Sprint",
+      "password": "none",
+      "server": "*",
+      "types": [
+        "default",
+        "mms"
+      ],
+      "user": "none"
+    },
+    {
+      "apn": "cinet.spcs",
+      "bearer": 10,
+      "mmsc": "http://mms.sprintpcs.com",
+      "mmsport": 80,
+      "mmsproxy": "68.28.31.7",
+      "name": "Sprint",
+      "password": "none",
+      "server": "*",
+      "types": [
+        "default",
+        "mms"
+      ],
+      "user": "none"
+    },
+    {
+      "apn": "cinet.spcs",
+      "bearer": 11,
+      "mmsc": "http://mms.sprintpcs.com",
+      "mmsport": 80,
+      "mmsproxy": "68.28.31.7",
+      "name": "Sprint",
+      "password": "none",
+      "server": "*",
+      "types": [
+        "default",
+        "mms"
+      ],
+      "user": "none"
+    },
+    {
+      "apn": "cinet.spcs",
+      "bearer": 15,
+      "mmsc": "http://mms.sprintpcs.com",
+      "mmsport": 80,
+      "mmsproxy": "68.28.31.7",
+      "name": "Sprint",
+      "password": "none",
+      "server": "*",
+      "types": [
+        "default",
+        "mms"
+      ],
+      "user": "none"
+    },
+    {
+      "apn": "cinet.spcs",
+      "bearer": 16,
+      "mmsc": "http://mms.sprintpcs.com",
+      "mmsport": 80,
+      "mmsproxy": "68.28.31.7",
+      "name": "Sprint",
+      "password": "none",
+      "server": "*",
+      "types": [
+        "default",
+        "mms"
+      ],
+      "user": "none"
+    },
+    {
+      "apn": "cinet.spcs",
+      "bearer": 2,
+      "mmsc": "http://mms.sprintpcs.com",
+      "mmsport": 80,
+      "mmsproxy": "68.28.31.7",
+      "name": "Sprint",
+      "password": "none",
+      "server": "*",
+      "types": [
+        "default",
+        "mms"
+      ],
+      "user": "none"
+    },
+    {
+      "apn": "cinet.spcs",
+      "bearer": 3,
+      "mmsc": "http://mms.sprintpcs.com",
+      "mmsport": 80,
+      "mmsproxy": "68.28.31.7",
+      "name": "Sprint",
+      "password": "none",
+      "server": "*",
+      "types": [
+        "default",
+        "mms"
+      ],
+      "user": "none"
+    },
+    {
+      "apn": "cinet.spcs",
+      "bearer": 9,
+      "mmsc": "http://mms.sprintpcs.com",
+      "mmsport": 80,
+      "mmsproxy": "68.28.31.7",
+      "name": "Sprint",
+      "password": "none",
+      "server": "*",
+      "types": [
+        "default",
+        "mms"
+      ],
+      "user": "none"
     },
     {
       "apn": "mms",

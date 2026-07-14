@@ -22,6 +22,16 @@
         "mms"
       ],
       "user": "algar"
+    },
+    {
+      "apn": "ctbc.br",
+      "authtype": 1,
+      "name": "CTBC:Modem:1",
+      "password": "1212",
+      "types": [
+        "dun"
+      ],
+      "user": "CTBC"
     }
   ],
   "capabilities": {

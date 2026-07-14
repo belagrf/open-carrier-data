@@ -95,16 +95,6 @@
       "user_visible": false
     },
     {
-      "apn": "ims",
-      "name": "Orange Espa\u00f1a",
-      "password": "orange",
-      "protocol": "IP",
-      "types": [
-        "ims"
-      ],
-      "user": "orange"
-    },
-    {
       "apn": "inet.es",
       "name": "Suop",
       "types": [

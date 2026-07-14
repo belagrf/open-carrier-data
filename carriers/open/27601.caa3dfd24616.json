@@ -47,6 +47,14 @@
       "user_visible": false
     },
     {
+      "apn": "internet.amc",
+      "name": "AMC",
+      "types": [
+        "default",
+        "supl"
+      ]
+    },
+    {
       "apn": "internet.one",
       "name": "internet",
       "protocol": "IPV4V6",

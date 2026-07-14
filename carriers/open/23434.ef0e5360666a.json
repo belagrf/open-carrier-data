@@ -38,8 +38,17 @@
       "user": "eesecure"
     },
     {
+      "apn": "ims",
+      "name": "EE IMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ]
+    },
+    {
       "apn": "orangeinternet",
-      "name": "Orange Internet",
+      "name": "orangeinternet",
       "types": [
         "default",
         "supl"

@@ -1,6 +1,16 @@
 {
   "android_apns": [
     {
+      "apn": "f3prepaid",
+      "mmsc": "http://mms",
+      "mmsport": 9201,
+      "mmsproxy": "210.241.199.199",
+      "name": "FarEasTone (MMS) (Prepaid)",
+      "types": [
+        "mms"
+      ]
+    },
+    {
       "apn": "fetnet01",
       "name": "\u9060\u50b3\u96fb\u4fe1(Far EasTone) (Fetnet01)",
       "port": 80,
@@ -38,15 +48,6 @@
       "name": "IMS",
       "protocol": "IPV4V6",
       "roaming_protocol": "IPV4V6",
-      "types": [
-        "ims"
-      ],
-      "user_visible": false
-    },
-    {
-      "apn": "ims",
-      "name": "ims",
-      "protocol": "IP",
       "types": [
         "ims"
       ],

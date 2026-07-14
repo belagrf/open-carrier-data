@@ -56,6 +56,36 @@
       "user_editable": false
     },
     {
+      "apn": "ctnet",
+      "bearer": 19,
+      "bearer_bitmask": "13|14",
+      "name": "APN_NAME_CTNET",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "default",
+        "hipri",
+        "ia",
+        "supl"
+      ]
+    },
+    {
+      "apn": "ctnet",
+      "authtype": 3,
+      "bearer_bitmask": "6|7|8|12",
+      "name": "APN_NAME_CTNET",
+      "password": "vnet.mobi",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "default",
+        "hipri",
+        "ia",
+        "supl"
+      ],
+      "user": "ctnet@mycdma.cn"
+    },
+    {
       "apn": "ctwap",
       "authtype": 0,
       "mmsc": "http://mmsc.vnet.mobi",
@@ -86,6 +116,47 @@
       ],
       "user": "ctwap@mycdma.cn",
       "user_visible": false
+    },
+    {
+      "apn": "ctwap",
+      "bearer": 19,
+      "bearer_bitmask": "13|14",
+      "mmsc": "http://mmsc.vnet.mobi",
+      "mmsport": 80,
+      "mmsproxy": "10.0.0.200",
+      "name": "APN_NAME_CTMMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "mms",
+        "supl"
+      ]
+    },
+    {
+      "apn": "ctwap",
+      "authtype": 3,
+      "bearer_bitmask": "6|7|8|12",
+      "mmsc": "http://mmsc.vnet.mobi",
+      "mmsport": 80,
+      "mmsproxy": "10.0.0.200",
+      "name": "APN_NAME_CTMMS",
+      "password": "vnet.mobi",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "mms",
+        "supl"
+      ],
+      "user": "ctwap@mycdma.cn"
+    },
+    {
+      "apn": "ims",
+      "name": "APN_NAME_CTIMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ]
     }
   ],
   "android_carrier_config": {

@@ -30,13 +30,55 @@
       "name": "web.colombiamovil.com.co",
       "types": [
         "default",
+        "dun",
         "supl"
       ]
     },
     {
-      "apn": "web.colombiamovil.com.co",
-      "name": "web.colombiamovil.com.co",
+      "apn": "moviletb.net.co",
+      "authtype": 0,
+      "mvno_match_data": "ETB MOVI",
+      "mvno_type": "spn",
+      "name": "Internet ETB",
+      "password": "etb",
       "types": [
+        "default",
+        "dun"
+      ],
+      "user": "etb"
+    },
+    {
+      "apn": "www.une.net.co",
+      "authtype": 0,
+      "mvno_match_data": "UNE",
+      "mvno_type": "spn",
+      "name": "UNE",
+      "password": "une",
+      "types": [
+        "default",
+        "dun"
+      ],
+      "user": "une"
+    },
+    {
+      "apn": "web.uffmovil.com",
+      "authtype": 1,
+      "mvno_match_data": "Uff!",
+      "mvno_type": "spn",
+      "name": "UFFMOVIL",
+      "types": [
+        "default",
+        "dun"
+      ]
+    },
+    {
+      "apn": "movilexito.net.co",
+      "authtype": 1,
+      "mvno_match_data": "movil exito",
+      "mvno_type": "spn",
+      "name": "Internet \u00c9xito",
+      "types": [
+        "default",
         "dun"
       ]
     }

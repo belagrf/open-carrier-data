@@ -32,6 +32,17 @@
         "mms"
       ],
       "user": "movistarcr"
+    },
+    {
+      "apn": "wap.movistar.cr",
+      "name": "Movistar WAP",
+      "password": "movistarcr",
+      "port": 80,
+      "proxy": "10.221.79.83",
+      "types": [
+        "default"
+      ],
+      "user": "movistarcr"
     }
   ],
   "android_carrier_config": {

@@ -2,14 +2,17 @@
   "android_apns": [
     {
       "apn": "internet",
+      "authtype": 1,
       "name": "Lime Internet Postpaid",
       "types": [
         "default",
+        "dun",
         "supl"
       ]
     },
     {
       "apn": "multimedia",
+      "authtype": 1,
       "mmsc": "http://mmsc",
       "mmsport": 8799,
       "mmsproxy": "10.20.5.34",
@@ -49,7 +52,7 @@
     "vowifi": "unknown",
     "wifi_calling_roaming": "unknown"
   },
-  "display_name": "33818",
+  "display_name": "Carrier 33818",
   "match": {
     "mccmnc": [
       "33818"
