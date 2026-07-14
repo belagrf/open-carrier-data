@@ -2,9 +2,9 @@
   "artifact_registries": {
     "android_carrier_source_artifacts": {
       "artifact_count": 8121,
-      "extracted_count": 939,
+      "extracted_count": 944,
       "failed_count": 0,
-      "indexed_count": 7182,
+      "indexed_count": 7177,
       "quarantined_count": 6
     },
     "apple_carrier_bundles": {
