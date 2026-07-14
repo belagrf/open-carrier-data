@@ -1,0 +1,34 @@
+{
+  "android_carrier_config": {
+    "carrier_default_wfc_ims_mode_int": 1,
+    "carrier_default_wfc_ims_roaming_mode_int": 1,
+    "carrier_volte_available_bool": true,
+    "carrier_wfc_ims_available_bool": true,
+    "hide_enhanced_4g_lte_bool": false,
+    "wfc_data_spn_format_idx_int": 1,
+    "wfc_spn_format_idx_int": 1
+  },
+  "capabilities": {
+    "esim": "unknown",
+    "ims_conference": "unknown",
+    "mms": "unknown",
+    "rcs": "unknown",
+    "sms_over_ims": "unknown",
+    "video_calling": "unknown",
+    "volte": "supported",
+    "vonr": "unknown",
+    "vowifi": "supported",
+    "wifi_calling_roaming": "unknown"
+  },
+  "display_name": "LineageOS 20820",
+  "match": {
+    "mccmnc": [
+      "20820"
+    ],
+    "spn": [
+      "Bouygues Telecom"
+    ]
+  },
+  "profile_id": "open.20820.61574ea94b32",
+  "schema_version": 1
+}

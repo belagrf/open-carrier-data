@@ -3,7 +3,7 @@
     {
       "apn": "internet.movil",
       "authtype": 1,
-      "name": "Servicio_WEB",
+      "name": "internet.movil",
       "password": "internet",
       "protocol": "IPV4V6",
       "roaming_protocol": "IPV4V6",

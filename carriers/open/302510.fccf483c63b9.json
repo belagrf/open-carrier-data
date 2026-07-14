@@ -61,11 +61,14 @@
     }
   ],
   "android_carrier_config": {
+    "ims_conference_size_limit_int": 5,
+    "is_ims_conference_size_enforced_bool": true,
     "maxImageHeight": 1944,
     "maxImageWidth": 2592,
     "maxMessageSize": 3072000,
     "maxSubjectLength": 80,
     "recipientLimit": 20,
+    "show_ims_registration_status_bool": true,
     "smsToMmsTextThreshold": 6
   },
   "capabilities": {

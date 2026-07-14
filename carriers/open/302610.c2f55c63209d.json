@@ -1,0 +1,28 @@
+{
+  "android_carrier_config": {
+    "show_ims_registration_status_bool": true
+  },
+  "capabilities": {
+    "esim": "unknown",
+    "ims_conference": "unknown",
+    "mms": "unknown",
+    "rcs": "unknown",
+    "sms_over_ims": "unknown",
+    "video_calling": "unknown",
+    "volte": "unknown",
+    "vonr": "unknown",
+    "vowifi": "unknown",
+    "wifi_calling_roaming": "unknown"
+  },
+  "display_name": "LineageOS 302610",
+  "match": {
+    "gid1_prefixes": [
+      "3D"
+    ],
+    "mccmnc": [
+      "302610"
+    ]
+  },
+  "profile_id": "open.302610.c2f55c63209d",
+  "schema_version": 1
+}

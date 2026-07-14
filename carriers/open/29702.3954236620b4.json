@@ -17,7 +17,12 @@
       "voice_network_setting_style": "DisplayRatInfoForManualSearch"
     },
     "operator_display": {
-      "five_g_icon_configuration": "connected_mmwave:5G,connected:5G,not_restricted_rrc_idle:5G,not_restricted_rrc_con:5G",
+      "five_g_icon_configuration": [
+        "connected_mmwave:5G",
+        "connected:5G",
+        "not_restricted_rrc_idle:5G",
+        "not_restricted_rrc_con:5G"
+      ],
       "refer_eons_without_lac": true
     }
   },
@@ -101,21 +106,48 @@
       "apn": "tmcg-wnw",
       "name": "tmcg-wnw",
       "password": "38267",
+      "port": 8080,
+      "proxy": "10.0.5.19",
       "types": [
         "default",
-        "dun",
         "supl"
+      ],
+      "user": "38267"
+    },
+    {
+      "apn": "tmcg-wnw",
+      "name": "Telekom.me",
+      "password": "38267",
+      "types": [
+        "dun"
       ],
       "user": "38267"
     }
   ],
   "android_carrier_config": {
+    "carrier_allow_transfer_ims_call_bool": true,
+    "carrier_default_wfc_ims_enabled_bool": true,
+    "carrier_default_wfc_ims_mode_int": 2,
+    "carrier_default_wfc_ims_roaming_mode_int": 1,
+    "carrier_metered_apn_types_strings": [
+      "default",
+      "dun",
+      "supl"
+    ],
+    "carrier_metered_roaming_apn_types_strings": [
+      "default",
+      "dun",
+      "supl"
+    ],
     "carrier_supports_ss_over_ut_bool": true,
     "carrier_volte_available_bool": true,
     "carrier_wfc_ims_available_bool": true,
+    "enhanced_4g_lte_on_by_default_bool": true,
     "imssms.sms_over_ims_supported_bool": true,
-    "maxMessageSize": 102400,
     "recipientLimit": 10,
+    "rtt_supported_bool": true,
+    "rtt_supported_while_roaming_bool": true,
+    "show_ims_registration_status_bool": true,
     "wfc_spn_format_idx_int": 1
   },
   "capabilities": {

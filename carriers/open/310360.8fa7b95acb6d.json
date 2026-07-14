@@ -107,10 +107,13 @@
     }
   ],
   "android_carrier_config": {
+    "enableMultipartSMS": true,
+    "enabledMMS": true,
     "httpParams": "X-MDN: ##LINE1##",
     "maxImageHeight": 2432,
     "maxImageWidth": 4320,
     "maxMessageSize": 1228800,
+    "maxMessageTextSize": -1,
     "maxSubjectLength": 80,
     "recipientLimit": 20,
     "smsToMmsTextThreshold": 1

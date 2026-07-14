@@ -1,0 +1,25 @@
+{
+  "android_carrier_config": {
+    "hide_enhanced_4g_lte_bool": true
+  },
+  "capabilities": {
+    "esim": "unknown",
+    "ims_conference": "unknown",
+    "mms": "unknown",
+    "rcs": "unknown",
+    "sms_over_ims": "unknown",
+    "video_calling": "unknown",
+    "volte": "unknown",
+    "vonr": "unknown",
+    "vowifi": "unknown",
+    "wifi_calling_roaming": "unknown"
+  },
+  "display_name": "LineageOS 24436",
+  "match": {
+    "mccmnc": [
+      "24436"
+    ]
+  },
+  "profile_id": "open.24436.51e7bcf16e27",
+  "schema_version": 1
+}

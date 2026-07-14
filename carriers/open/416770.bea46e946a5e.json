@@ -1,0 +1,66 @@
+{
+  "android_apns": [
+    {
+      "apn": "mms.orange.jo",
+      "authtype": 1,
+      "mmsc": "http://172.16.1.96/servlets/mms",
+      "mmsport": 8080,
+      "mmsproxy": "172.16.1.2",
+      "name": "Orange MMS",
+      "password": "mmc",
+      "types": [
+        "mms"
+      ],
+      "user": "mmc"
+    },
+    {
+      "apn": "net.orange.jo",
+      "authtype": 1,
+      "name": "Orange Internet",
+      "password": "net",
+      "types": [
+        "default",
+        "supl"
+      ],
+      "user": "net"
+    },
+    {
+      "apn": "wap.orange.jo",
+      "authtype": 1,
+      "name": "Orange WAP",
+      "password": "wap",
+      "port": 8080,
+      "proxy": "172.16.1.2",
+      "types": [
+        "default",
+        "supl"
+      ],
+      "user": "wap"
+    }
+  ],
+  "android_carrier_config": {
+    "read_only_apn_types_string_array": [
+      "mms"
+    ]
+  },
+  "capabilities": {
+    "esim": "unknown",
+    "ims_conference": "unknown",
+    "mms": "supported",
+    "rcs": "unknown",
+    "sms_over_ims": "unknown",
+    "video_calling": "unknown",
+    "volte": "unknown",
+    "vonr": "unknown",
+    "vowifi": "unknown",
+    "wifi_calling_roaming": "unknown"
+  },
+  "display_name": "Carrier 416770",
+  "match": {
+    "mccmnc": [
+      "416770"
+    ]
+  },
+  "profile_id": "open.416770.bea46e946a5e",
+  "schema_version": 1
+}

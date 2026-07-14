@@ -18,7 +18,12 @@
       "voice_network_setting_style": "DisplayRatInfoForManualSearch"
     },
     "operator_display": {
-      "five_g_icon_configuration": "connected_mmwave:5G,connected:5G,not_restricted_rrc_idle:5G,not_restricted_rrc_con:5G",
+      "five_g_icon_configuration": [
+        "connected_mmwave:5G",
+        "connected:5G",
+        "not_restricted_rrc_idle:5G",
+        "not_restricted_rrc_con:5G"
+      ],
       "refer_eons_without_lac": true
     }
   },
@@ -57,15 +62,29 @@
     }
   ],
   "android_carrier_config": {
+    "carrier_allow_transfer_ims_call_bool": true,
+    "carrier_metered_apn_types_strings": [
+      "default",
+      "dun",
+      "supl"
+    ],
+    "carrier_metered_roaming_apn_types_strings": [
+      "default",
+      "dun",
+      "supl"
+    ],
     "carrier_supports_ss_over_ut_bool": true,
     "carrier_volte_available_bool": true,
+    "editable_enhanced_4g_lte_bool": false,
     "enabledMMS": true,
+    "enhanced_4g_lte_on_by_default_bool": true,
     "hide_enhanced_4g_lte_bool": true,
     "maxImageHeight": 1944,
     "maxImageWidth": 2592,
-    "maxMessageSize": 102400,
     "recipientLimit": 10,
-    "smsToMmsTextThreshold": 2
+    "rtt_supported_bool": true,
+    "rtt_supported_while_roaming_bool": true,
+    "show_ims_registration_status_bool": true
   },
   "capabilities": {
     "esim": "unknown",

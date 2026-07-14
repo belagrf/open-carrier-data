@@ -21,6 +21,42 @@
       "user_visible": false
     },
     {
+      "apn": "ims",
+      "bearer_bitmask": "14|20",
+      "name": "IMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ],
+      "user_visible": false
+    },
+    {
+      "apn": "ims",
+      "name": "IMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ],
+      "user_visible": false
+    },
+    {
+      "apn": "max4g",
+      "authtype": 1,
+      "mmsc": "http://172.16.74.100:10021/mmsc",
+      "mmsport": 80,
+      "mmsproxy": "202.75.133.49",
+      "name": "Maxis Internet",
+      "password": "wap",
+      "types": [
+        "default",
+        "mms",
+        "supl"
+      ],
+      "user": "maxis"
+    },
+    {
       "apn": "maxisbb",
       "name": "maxisbb",
       "password": "wap",
@@ -86,9 +122,14 @@
   ],
   "android_carrier_config": {
     "allow_hold_call_during_emergency_bool": false,
+    "call_barring_supports_deactivate_all_bool": false,
     "carrier_default_wfc_ims_enabled_bool": true,
+    "carrier_metered_apn_types_strings": [
+      "default",
+      "dun",
+      "supl"
+    ],
     "carrier_supports_ss_over_ut_bool": true,
-    "carrier_volte_available_bool": true,
     "carrier_vt_available_bool": true,
     "carrier_wfc_ims_available_bool": true,
     "enabledMMS": true,
@@ -104,7 +145,7 @@
     "rcs": "unknown",
     "sms_over_ims": "supported",
     "video_calling": "supported",
-    "volte": "supported",
+    "volte": "conditional",
     "vonr": "unknown",
     "vowifi": "supported",
     "wifi_calling_roaming": "unknown"

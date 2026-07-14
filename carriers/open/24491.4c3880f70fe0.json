@@ -42,6 +42,17 @@
     },
     {
       "apn": "ims",
+      "bearer_bitmask": "14|20",
+      "name": "IMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ],
+      "user_visible": false
+    },
+    {
+      "apn": "ims",
       "name": "Telia FI",
       "types": [
         "ims"
@@ -64,16 +75,6 @@
       "types": [
         "dun"
       ]
-    },
-    {
-      "apn": "wap.sonera.net",
-      "mmsc": "http://mms.sonera.fi:8002",
-      "mmsport": 80,
-      "mmsproxy": "195.156.25.33",
-      "name": "wap.sonera.net",
-      "types": [
-        "mms"
-      ]
     }
   ],
   "android_carrier_config": {
@@ -81,16 +82,19 @@
     "carrier_default_wfc_ims_mode_int": 1,
     "carrier_default_wfc_ims_roaming_enabled_bool": true,
     "carrier_default_wfc_ims_roaming_mode_int": 1,
+    "carrier_metered_apn_types_strings": [
+      "default",
+      "dun",
+      "supl"
+    ],
     "carrier_supports_ss_over_ut_bool": true,
     "carrier_volte_available_bool": true,
     "carrier_wfc_ims_available_bool": true,
+    "editable_wfc_mode_bool": true,
     "editable_wfc_roaming_mode_bool": true,
     "enabledMMS": true,
     "hide_enhanced_4g_lte_bool": true,
-    "ims_reasoninfo_mapping_string_array": [
-      "338|busy everywhere|1017",
-      "510|Call completed elsewhere|1014"
-    ],
+    "hide_ims_apn_bool": true,
     "imsvoice.conference_subscribe_type_int": 0,
     "maxMessageSize": 2097152,
     "rtt_supported_bool": true,

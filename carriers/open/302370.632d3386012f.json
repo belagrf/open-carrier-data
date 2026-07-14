@@ -29,7 +29,6 @@
     "maxImageWidth": 2592,
     "maxMessageSize": 1048576,
     "maxSubjectLength": 80,
-    "read_only_apn_types_string_array": [],
     "recipientLimit": 20,
     "smsToMmsTextThreshold": 6
   },

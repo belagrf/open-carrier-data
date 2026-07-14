@@ -1,0 +1,28 @@
+{
+  "android_carrier_config": {
+    "maxMessageSize": 614400
+  },
+  "capabilities": {
+    "esim": "unknown",
+    "ims_conference": "unknown",
+    "mms": "unknown",
+    "rcs": "unknown",
+    "sms_over_ims": "unknown",
+    "video_calling": "unknown",
+    "volte": "unknown",
+    "vonr": "unknown",
+    "vowifi": "unknown",
+    "wifi_calling_roaming": "unknown"
+  },
+  "display_name": "LineageOS 20820",
+  "match": {
+    "gid1_prefixes": [
+      "4E524A31"
+    ],
+    "mccmnc": [
+      "20820"
+    ]
+  },
+  "profile_id": "open.20820.20c8a299e569",
+  "schema_version": 1
+}

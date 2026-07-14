@@ -1,19 +1,24 @@
 {
   "addons": {
-    "emergency_calling": {
-      "e911_routing_policy": "auto",
-      "emergency_dial_call_style": "EndPreviousCall"
-    },
     "ims": {
       "support_ims_clir_overriding": true
     },
     "network_policy": {
       "display_antenna_limited": true,
       "gcf_sor": true,
-      "network_type_capability": "EUR-EUR-GSM-EUR"
+      "mobile_network_setting_menu_tokens": [
+        "-voltecall"
+      ],
+      "voice_network_setting_style": "DisplayRatInfoForManualSearch"
     },
     "operator_display": {
-      "five_g_icon_configuration": "connected_mmwave:5G,connected:5G,not_restricted_rrc_idle:5G,not_restricted_rrc_con:5G",
+      "five_g_icon_branding": "5GAvailable",
+      "five_g_icon_configuration": [
+        "connected_mmwave:5G",
+        "connected:5G",
+        "not_restricted_rrc_idle:5G",
+        "not_restricted_rrc_con:5G"
+      ],
       "refer_eons_without_lac": true
     },
     "wifi_calling": {
@@ -22,16 +27,20 @@
   },
   "android_apns": [
     {
-      "apn": "ims",
-      "name": "IMS",
+      "apn": "mobile.connect",
+      "name": "Superdrug Internet",
       "protocol": "IPV4V6",
+      "roaming_protocol": "IP",
       "types": [
-        "ims"
+        "default",
+        "xcap"
       ]
     },
     {
       "apn": "superdrug.net",
       "name": "Superdrug Internet",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IP",
       "types": [
         "default",
         "xcap"
@@ -43,6 +52,8 @@
       "mmsport": 8799,
       "mmsproxy": "mms.three.co.uk",
       "name": "Superdrug MMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IP",
       "types": [
         "mms"
       ]

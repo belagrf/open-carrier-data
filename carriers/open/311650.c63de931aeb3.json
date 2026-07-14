@@ -1,8 +1,14 @@
 {
   "android_carrier_config": {
+    "carrier_default_wfc_ims_mode_int": 1,
+    "cdma_3waycall_flash_delay_int": 200,
     "enabledMMS": true,
+    "enhanced_4g_lte_on_by_default_bool": false,
+    "httpParams": "X-MDN: ##LINE1##",
     "maxMessageSize": 1048576,
-    "recipientLimit": 10
+    "maxSubjectLength": 80,
+    "show_apn_setting_cdma_bool": true,
+    "smsToMmsTextThreshold": 1
   },
   "capabilities": {
     "esim": "unknown",

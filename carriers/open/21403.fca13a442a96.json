@@ -18,8 +18,12 @@
       "network_type_capability": "EUR-EUR-GSM-EUR"
     },
     "operator_display": {
-      "five_g_icon_branding": "UseOneShapedIcon",
-      "five_g_icon_configuration": "connected_mmwave:5G,connected:5G,not_restricted_rrc_idle:5G,not_restricted_rrc_con:5G",
+      "five_g_icon_configuration": [
+        "connected_mmwave:5G",
+        "connected:5G",
+        "not_restricted_rrc_idle:5G",
+        "not_restricted_rrc_con:5G"
+      ],
       "indicator_icon_branding": "ORANGE",
       "refer_eons_without_lac": true
     },
@@ -33,6 +37,39 @@
     }
   },
   "android_apns": [
+    {
+      "apn": "IMS",
+      "name": "Orange IMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ]
+    },
+    {
+      "apn": "internet",
+      "name": "Orange Internet PC",
+      "types": [
+        "default"
+      ]
+    },
+    {
+      "apn": "orangemms",
+      "mmsc": "http://mms.orange.es",
+      "mmsport": 8080,
+      "mmsproxy": "172.22.188.25",
+      "name": "Orange MMS",
+      "types": [
+        "mms"
+      ]
+    },
+    {
+      "apn": "orangeworld",
+      "name": "Orange Internet M\u00f3vil",
+      "types": [
+        "default"
+      ]
+    },
     {
       "apn": "IMS",
       "authtype": 1,
@@ -94,7 +131,15 @@
     }
   ],
   "android_carrier_config": {
+    "carrier_metered_roaming_apn_types_strings": [
+      "default",
+      "dun",
+      "supl"
+    ],
     "carrier_volte_available_bool": true,
+    "carrier_wfc_ims_available_bool": true,
+    "hide_enhanced_4g_lte_bool": true,
+    "maxMessageSize": 1048576,
     "smsToMmsTextThreshold": 10
   },
   "capabilities": {
@@ -106,7 +151,7 @@
     "video_calling": "unknown",
     "volte": "supported",
     "vonr": "unknown",
-    "vowifi": "unknown",
+    "vowifi": "supported",
     "wifi_calling_roaming": "unknown"
   },
   "display_name": "Orange",

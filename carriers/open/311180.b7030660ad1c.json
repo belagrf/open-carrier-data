@@ -1,6 +1,18 @@
 {
   "android_apns": [
     {
+      "apn": "RESELLER",
+      "mmsc": "http://mmsc.mobile.att.net",
+      "mmsport": 80,
+      "mmsproxy": "proxy.mobile.att.net",
+      "name": "Red Pocket Mobile",
+      "types": [
+        "default",
+        "mms",
+        "supl"
+      ]
+    },
+    {
       "apn": "ereseller",
       "mmsc": "http://mmsc.mobile.att.net",
       "mmsport": 80,
@@ -20,6 +32,16 @@
     {
       "apn": "ims",
       "bearer_bitmask": "3|9|10|11|14|15|18|20",
+      "name": "ims",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ],
+      "user_visible": false
+    },
+    {
+      "apn": "ims",
       "name": "ims",
       "protocol": "IPV4V6",
       "roaming_protocol": "IPV4V6",

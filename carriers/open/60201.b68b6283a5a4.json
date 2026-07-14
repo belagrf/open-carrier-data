@@ -28,7 +28,15 @@
     }
   ],
   "android_carrier_config": {
+    "carrier_default_wfc_ims_enabled_bool": true,
+    "carrier_metered_apn_types_strings": [
+      "default",
+      "dun",
+      "supl"
+    ],
     "carrier_volte_available_bool": true,
+    "carrier_vt_available_bool": true,
+    "carrier_wfc_ims_available_bool": true,
     "enabledMMS": true,
     "maxMessageSize": 512000
   },
@@ -38,10 +46,10 @@
     "mms": "supported",
     "rcs": "unknown",
     "sms_over_ims": "unknown",
-    "video_calling": "unknown",
+    "video_calling": "supported",
     "volte": "supported",
     "vonr": "unknown",
-    "vowifi": "unknown",
+    "vowifi": "supported",
     "wifi_calling_roaming": "unknown"
   },
   "display_name": "Carrier 60201",

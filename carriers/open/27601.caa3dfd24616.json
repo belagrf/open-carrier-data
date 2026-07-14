@@ -14,7 +14,12 @@
       "voice_network_setting_style": "DisplayRatInfoForManualSearch"
     },
     "operator_display": {
-      "five_g_icon_configuration": "connected_mmwave:5G,connected:5G,not_restricted_rrc_idle:5G,not_restricted_rrc_con:5G",
+      "five_g_icon_configuration": [
+        "connected_mmwave:5G",
+        "connected:5G",
+        "not_restricted_rrc_idle:5G",
+        "not_restricted_rrc_con:5G"
+      ],
       "refer_eons_without_lac": true
     }
   },
@@ -64,9 +69,17 @@
     },
     {
       "apn": "internet.t",
+      "name": "internet.t",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "default"
+      ]
+    },
+    {
+      "apn": "internet.t",
       "name": "Telekom.al",
       "types": [
-        "default",
         "dun"
       ]
     },
@@ -82,10 +95,16 @@
     }
   ],
   "android_carrier_config": {
+    "carrier_metered_apn_types_strings": [
+      "default",
+      "dun",
+      "supl"
+    ],
     "carrier_volte_available_bool": true,
     "enabledMMS": true,
     "maxMessageSize": 307200,
-    "recipientLimit": 10
+    "recipientLimit": 10,
+    "smsToMmsTextThreshold": 5
   },
   "capabilities": {
     "esim": "unknown",

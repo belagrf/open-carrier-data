@@ -1,6 +1,10 @@
 {
   "addons": {
+    "emergency_calling": {
+      "emergency_dial_call_style": "EndPreviousCall,UseMobileVoiceRegState"
+    },
     "ims": {
+      "contacts_operator_style": "BTU",
       "support_ims_clir_overriding": true
     },
     "network_policy": {
@@ -11,11 +15,25 @@
       "voice_network_setting_style": "DisplayRatInfoForManualSearch"
     },
     "operator_display": {
-      "five_g_icon_configuration": "connected_mmwave:5G,connected:5G,not_restricted_rrc_idle:5G,not_restricted_rrc_con:5G",
+      "five_g_icon_configuration": [
+        "connected_mmwave:5G",
+        "connected:5G",
+        "not_restricted_rrc_idle:5G",
+        "not_restricted_rrc_con:5G"
+      ],
       "refer_eons_without_lac": true
     }
   },
   "android_apns": [
+    {
+      "apn": "Open.internet",
+      "authtype": 0,
+      "name": "Open.internet",
+      "types": [
+        "dun"
+      ],
+      "user_editable": false
+    },
     {
       "apn": "hos",
       "authtype": 0,
@@ -56,21 +74,6 @@
       "roaming_protocol": "IPV4V6",
       "types": [
         "ims"
-      ]
-    },
-    {
-      "apn": "internet",
-      "authtype": 0,
-      "carrier_enabled": true,
-      "mmsc": "http://mmsc.mms.o2.ie:8002",
-      "mmsport": 8080,
-      "mmsproxy": "62.40.32.40",
-      "mtu": 1440,
-      "name": "internet",
-      "port": 8080,
-      "proxy": "62.40.32.40",
-      "types": [
-        "supl"
       ]
     },
     {
@@ -116,11 +119,13 @@
     }
   ],
   "android_carrier_config": {
-    "carrier_default_wfc_ims_enabled_bool": true,
     "carrier_default_wfc_ims_mode_int": 1,
-    "carrier_supports_ss_over_ut_bool": true,
-    "carrier_volte_available_bool": true,
-    "carrier_wfc_ims_available_bool": true,
+    "carrier_metered_apn_types_strings": [
+      "default",
+      "dun",
+      "supl"
+    ],
+    "carrier_vt_available_bool": true,
     "enabledMMS": true,
     "imssms.sms_over_ims_supported_bool": true,
     "iwlan.epdg_static_address_string": "epdg.three.ie",
@@ -136,10 +141,10 @@
     "mms": "supported",
     "rcs": "unknown",
     "sms_over_ims": "supported",
-    "video_calling": "unknown",
-    "volte": "supported",
+    "video_calling": "supported",
+    "volte": "conditional",
     "vonr": "unknown",
-    "vowifi": "supported",
+    "vowifi": "conditional",
     "wifi_calling_roaming": "unknown"
   },
   "display_name": "Carrier 27202",

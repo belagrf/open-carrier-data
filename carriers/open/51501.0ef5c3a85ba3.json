@@ -1,0 +1,29 @@
+{
+  "android_carrier_config": {
+    "carrier_metered_apn_types_strings": [
+      "default",
+      "dun",
+      "supl"
+    ]
+  },
+  "capabilities": {
+    "esim": "unknown",
+    "ims_conference": "unknown",
+    "mms": "unknown",
+    "rcs": "unknown",
+    "sms_over_ims": "unknown",
+    "video_calling": "unknown",
+    "volte": "unknown",
+    "vonr": "unknown",
+    "vowifi": "unknown",
+    "wifi_calling_roaming": "unknown"
+  },
+  "display_name": "LineageOS 51501",
+  "match": {
+    "mccmnc": [
+      "51501"
+    ]
+  },
+  "profile_id": "open.51501.0ef5c3a85ba3",
+  "schema_version": 1
+}

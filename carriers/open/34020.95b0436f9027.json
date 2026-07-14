@@ -39,11 +39,21 @@
     },
     {
       "apn": "web.digicelfr.com",
+      "mmsc": "http://mmc.digiceltt.com/servlets/mms",
+      "mmsport": 8080,
+      "mmsproxy": "172.20.6.12",
       "name": "web.digicelfr.com",
       "types": [
         "default",
-        "dun",
+        "mms",
         "supl"
+      ]
+    },
+    {
+      "apn": "web.digicelfr.com",
+      "name": "Digicel",
+      "types": [
+        "dun"
       ]
     }
   ],

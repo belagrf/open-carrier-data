@@ -1,0 +1,28 @@
+{
+  "android_carrier_config": {
+    "carrier_default_wfc_ims_enabled_bool": true,
+    "carrier_default_wfc_ims_mode_int": 1,
+    "carrier_volte_available_bool": true,
+    "carrier_vt_available_bool": true
+  },
+  "capabilities": {
+    "esim": "unknown",
+    "ims_conference": "unknown",
+    "mms": "unknown",
+    "rcs": "unknown",
+    "sms_over_ims": "unknown",
+    "video_calling": "supported",
+    "volte": "supported",
+    "vonr": "unknown",
+    "vowifi": "unknown",
+    "wifi_calling_roaming": "unknown"
+  },
+  "display_name": "LineageOS 73840",
+  "match": {
+    "mccmnc": [
+      "73840"
+    ]
+  },
+  "profile_id": "open.73840.bcd57a5c902b",
+  "schema_version": 1
+}

@@ -3,6 +3,7 @@
     {
       "apn": "internet.syringawireless.com",
       "mmsc": "http://mms.rinawireless.com",
+      "mmsport": 80,
       "name": "Syringa Wireless",
       "protocol": "IPV4V6",
       "server": "*",

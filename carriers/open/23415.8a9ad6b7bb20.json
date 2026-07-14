@@ -19,6 +19,24 @@
       "user_editable": false
     },
     {
+      "apn": "asdamobiles.co.uk",
+      "authtype": 1,
+      "mmsc": "http://mms.asdamobiles.co.uk/servlets/mms",
+      "mmsport": 8799,
+      "mmsproxy": "212.183.137.12",
+      "name": "ASDA WAP",
+      "password": "wap",
+      "port": 8799,
+      "proxy": "212.183.137.12",
+      "types": [
+        "default",
+        "mms",
+        "supl"
+      ],
+      "user": "wap",
+      "user_editable": false
+    },
+    {
       "apn": "ims",
       "bearer_bitmask": "14|18|20",
       "name": "IMS",
@@ -28,6 +46,34 @@
         "ims"
       ],
       "user_visible": false
+    },
+    {
+      "apn": "ims",
+      "bearer_bitmask": "14|20",
+      "name": "IMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ],
+      "user_visible": false
+    },
+    {
+      "apn": "my.internet",
+      "authtype": 1,
+      "mmsc": "http://mms.ad.vodafone.co.uk/servlets/mms",
+      "mmsport": 8799,
+      "mmsproxy": "212.183.137.12",
+      "name": "ASDA internet",
+      "password": "wap",
+      "port": 8799,
+      "proxy": "212.183.137.12",
+      "types": [
+        "default",
+        "mms",
+        "supl"
+      ],
+      "user": "wap"
     },
     {
       "apn": "xcap",
@@ -42,12 +88,16 @@
     }
   ],
   "android_carrier_config": {
+    "carrier_default_wfc_ims_enabled_bool": true,
     "carrier_default_wfc_ims_mode_int": 1,
     "carrier_supports_ss_over_ut_bool": true,
     "carrier_volte_available_bool": true,
     "carrier_wfc_ims_available_bool": true,
     "hide_enhanced_4g_lte_bool": true,
     "imsvoice.conference_subscribe_type_int": 0,
+    "read_only_apn_types_string_array": [
+      "*"
+    ],
     "smsToMmsTextThreshold": 10,
     "wfc_spn_format_idx_int": 1
   },

@@ -1,10 +1,10 @@
 {
   "artifact_registries": {
     "android_carrier_source_artifacts": {
-      "artifact_count": 2015,
-      "extracted_count": 72,
+      "artifact_count": 6691,
+      "extracted_count": 592,
       "failed_count": 0,
-      "indexed_count": 1943,
+      "indexed_count": 6099,
       "quarantined_count": 0
     },
     "apple_carrier_bundles": {
@@ -16,16 +16,18 @@
     }
   },
   "description": "Device discovery and carrier-artifact coverage. Listing a device or matching an artifact scope does not claim that every carrier feature works on it.",
-  "generated_from_checks_through": "2026-07-13",
+  "generated_from_checks_through": "2026-07-14",
   "platforms": {
     "android": {
-      "carrier_artifact_match_count": 960,
+      "carrier_artifact_match_count": 1968,
       "carrier_data_coverage_counts": {
-        "exact_carrier_data_observed": 57,
-        "exact_source_indexed": 918,
-        "inventory_only": 38967,
-        "source_discovery_in_progress": 1002,
-        "source_not_queryable": 82
+        "exact_carrier_data_observed": 586,
+        "exact_source_extracted": 84,
+        "exact_source_indexed": 1465,
+        "inventory_only": 38262,
+        "source_checked_no_artifact": 1244,
+        "source_discovery_in_progress": 1,
+        "source_not_queryable": 72
       },
       "carrier_data_coverage_counts_by_brand": {
         "(not provided by source)": {
@@ -35,7 +37,11 @@
           "inventory_only": 4
         },
         "10.or": {
-          "inventory_only": 5
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 4
+        },
+        "10or": {
+          "exact_carrier_data_observed": 1
         },
         "1XBET": {
           "inventory_only": 1
@@ -203,7 +209,8 @@
           "inventory_only": 2
         },
         "ALT.mive": {
-          "inventory_only": 4
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 3
         },
         "ALTOP": {
           "inventory_only": 1
@@ -596,7 +603,8 @@
           "inventory_only": 4
         },
         "Aiwa": {
-          "inventory_only": 66
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 65
         },
         "Akai": {
           "inventory_only": 12
@@ -725,7 +733,8 @@
           "inventory_only": 1
         },
         "Anydata": {
-          "inventory_only": 60
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 59
         },
         "Anyreal": {
           "inventory_only": 9
@@ -845,7 +854,9 @@
           "inventory_only": 1
         },
         "Asus": {
-          "inventory_only": 293
+          "exact_carrier_data_observed": 10,
+          "inventory_only": 283,
+          "source_checked_no_artifact": 20
         },
         "AtGames-zooti": {
           "inventory_only": 1
@@ -1052,7 +1063,8 @@
           "inventory_only": 13
         },
         "BMobile": {
-          "inventory_only": 193
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 192
         },
         "BNCF": {
           "inventory_only": 9
@@ -1286,7 +1298,8 @@
           "inventory_only": 23
         },
         "Blackshark": {
-          "inventory_only": 17
+          "exact_carrier_data_observed": 2,
+          "inventory_only": 15
         },
         "Blacksonic": {
           "inventory_only": 5
@@ -1295,7 +1308,8 @@
           "inventory_only": 274
         },
         "Blaupunkt": {
-          "inventory_only": 70
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 69
         },
         "Blincast": {
           "inventory_only": 1
@@ -1304,7 +1318,8 @@
           "inventory_only": 419
         },
         "Bluboo": {
-          "inventory_only": 16
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 15
         },
         "BlueTech": {
           "inventory_only": 1
@@ -1730,7 +1745,8 @@
           "inventory_only": 12
         },
         "Casper": {
-          "inventory_only": 71
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 70
         },
         "Cat": {
           "inventory_only": 18
@@ -1769,7 +1785,8 @@
           "inventory_only": 2
         },
         "Cellecor": {
-          "inventory_only": 4
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 3
         },
         "Cello": {
           "inventory_only": 5
@@ -1796,7 +1813,8 @@
           "inventory_only": 1
         },
         "Challenger": {
-          "inventory_only": 15
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 14
         },
         "Chameleon": {
           "inventory_only": 1
@@ -2003,7 +2021,8 @@
           "inventory_only": 34
         },
         "Coolpad": {
-          "inventory_only": 252
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 251
         },
         "Coppel": {
           "inventory_only": 1
@@ -2258,7 +2277,8 @@
           "inventory_only": 1
         },
         "Daewoo": {
-          "inventory_only": 18
+          "exact_carrier_data_observed": 2,
+          "inventory_only": 16
         },
         "Dafeng Media Group": {
           "inventory_only": 1
@@ -2336,7 +2356,8 @@
           "inventory_only": 1
         },
         "Dell": {
-          "inventory_only": 21
+          "inventory_only": 20,
+          "source_checked_no_artifact": 1
         },
         "Delm": {
           "inventory_only": 2
@@ -2586,7 +2607,8 @@
           "inventory_only": 3
         },
         "E-Tel": {
-          "inventory_only": 10
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 9
         },
         "E-Wealth Mobile": {
           "inventory_only": 2
@@ -2649,7 +2671,8 @@
           "inventory_only": 6
         },
         "EKO": {
-          "inventory_only": 33
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 32
         },
         "EL (Africa)": {
           "inventory_only": 9
@@ -2904,7 +2927,8 @@
           "inventory_only": 1
         },
         "Engel": {
-          "inventory_only": 4
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 3
         },
         "Englaon": {
           "inventory_only": 3
@@ -2940,7 +2964,8 @@
           "inventory_only": 2
         },
         "Essential Products": {
-          "inventory_only": 2
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 1
         },
         "EssentielB": {
           "inventory_only": 11
@@ -3030,7 +3055,8 @@
           "inventory_only": 2
         },
         "Explay": {
-          "inventory_only": 32
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 31
         },
         "Express Gifts Limited": {
           "inventory_only": 6
@@ -3138,7 +3164,8 @@
           "inventory_only": 2
         },
         "FOSSiBOT": {
-          "inventory_only": 32
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 31
         },
         "FOXX": {
           "inventory_only": 8
@@ -3147,7 +3174,8 @@
           "inventory_only": 40
         },
         "FPD": {
-          "inventory_only": 10
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 9
         },
         "FPT Telecom": {
           "inventory_only": 4
@@ -3183,7 +3211,8 @@
           "inventory_only": 1
         },
         "Fairphone": {
-          "inventory_only": 5
+          "exact_carrier_data_observed": 3,
+          "source_checked_no_artifact": 2
         },
         "Famous Fones": {
           "inventory_only": 6
@@ -3516,7 +3545,8 @@
           "inventory_only": 1
         },
         "Garmin": {
-          "inventory_only": 4
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 3
         },
         "Gasei S.A.": {
           "inventory_only": 5
@@ -3609,7 +3639,8 @@
           "inventory_only": 71
         },
         "Gigabyte": {
-          "inventory_only": 30
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 29
         },
         "Gigaset": {
           "inventory_only": 39
@@ -3651,7 +3682,8 @@
           "inventory_only": 2
         },
         "Go Mobile": {
-          "inventory_only": 14
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 13
         },
         "Go3 Baltics": {
           "inventory_only": 1
@@ -3696,8 +3728,9 @@
           "inventory_only": 1
         },
         "Google": {
-          "exact_carrier_data_observed": 20,
-          "inventory_only": 85
+          "exact_carrier_data_observed": 37,
+          "inventory_only": 64,
+          "source_checked_no_artifact": 47
         },
         "Gowin": {
           "inventory_only": 1
@@ -3712,7 +3745,8 @@
           "inventory_only": 3
         },
         "Graetz": {
-          "inventory_only": 4
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 3
         },
         "Grandstream": {
           "inventory_only": 1
@@ -3721,13 +3755,15 @@
           "inventory_only": 7
         },
         "Green House": {
-          "inventory_only": 5
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 4
         },
         "GreenLion": {
           "inventory_only": 5
         },
         "Greentel": {
-          "inventory_only": 17
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 16
         },
         "Grolier": {
           "inventory_only": 2
@@ -3874,7 +3910,8 @@
           "inventory_only": 1
         },
         "HKC Elec": {
-          "inventory_only": 11
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 10
         },
         "HKT": {
           "inventory_only": 1
@@ -3916,7 +3953,8 @@
           "inventory_only": 1
         },
         "HP": {
-          "inventory_only": 53
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 52
         },
         "HQ_bel": {
           "inventory_only": 1
@@ -3925,7 +3963,9 @@
           "inventory_only": 1
         },
         "HTC": {
-          "inventory_only": 352
+          "exact_source_extracted": 6,
+          "inventory_only": 305,
+          "source_checked_no_artifact": 70
         },
         "HTOWAV": {
           "inventory_only": 1
@@ -4036,7 +4076,8 @@
           "inventory_only": 2
         },
         "Helio": {
-          "inventory_only": 12
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 11
         },
         "HelloPro": {
           "inventory_only": 1
@@ -4165,7 +4206,8 @@
           "inventory_only": 4
         },
         "Hotwav": {
-          "inventory_only": 90
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 89
         },
         "How": {
           "inventory_only": 14
@@ -4174,8 +4216,9 @@
           "inventory_only": 1
         },
         "Huawei": {
-          "exact_carrier_data_observed": 1,
-          "inventory_only": 563
+          "exact_carrier_data_observed": 4,
+          "inventory_only": 561,
+          "source_checked_no_artifact": 11
         },
         "Hublot": {
           "inventory_only": 2
@@ -4196,8 +4239,8 @@
           "inventory_only": 5
         },
         "Hurricane": {
-          "exact_carrier_data_observed": 2,
-          "inventory_only": 59
+          "exact_carrier_data_observed": 3,
+          "inventory_only": 58
         },
         "Huskee": {
           "inventory_only": 5
@@ -4221,7 +4264,8 @@
           "inventory_only": 10
         },
         "Hyundai": {
-          "inventory_only": 192
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 191
         },
         "Hyve": {
           "inventory_only": 3
@@ -4278,7 +4322,8 @@
           "inventory_only": 4
         },
         "IMO(In My Opinion)": {
-          "inventory_only": 7
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 6
         },
         "IMOTOR": {
           "inventory_only": 1
@@ -4428,7 +4473,8 @@
           "inventory_only": 13
         },
         "IkuMobile": {
-          "inventory_only": 45
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 44
         },
         "Ilike": {
           "inventory_only": 3
@@ -4458,7 +4504,8 @@
           "inventory_only": 3
         },
         "Indurama": {
-          "inventory_only": 12
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 11
         },
         "Inet-Tablet": {
           "inventory_only": 2
@@ -4653,7 +4700,8 @@
           "inventory_only": 15
         },
         "JVC": {
-          "inventory_only": 50
+          "exact_carrier_data_observed": 2,
+          "inventory_only": 48
         },
         "JVL (Australia)": {
           "inventory_only": 2
@@ -4851,7 +4899,7 @@
           "inventory_only": 2
         },
         "KOOLMAAX": {
-          "inventory_only": 1
+          "exact_carrier_data_observed": 1
         },
         "KOOLNEE": {
           "inventory_only": 4
@@ -4878,13 +4926,15 @@
           "inventory_only": 8
         },
         "KTC": {
-          "inventory_only": 11
+          "exact_carrier_data_observed": 2,
+          "inventory_only": 9
         },
         "KTC (PD)": {
           "inventory_only": 2
         },
         "KTCtv": {
-          "inventory_only": 14
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 13
         },
         "KTS (JP)": {
           "inventory_only": 1
@@ -4983,7 +5033,8 @@
           "inventory_only": 1
         },
         "Kenwood": {
-          "inventory_only": 5
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 4
         },
         "Kenxinda": {
           "inventory_only": 36
@@ -5022,7 +5073,8 @@
           "inventory_only": 5
         },
         "Kiowa": {
-          "inventory_only": 10
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 9
         },
         "Kivi": {
           "inventory_only": 7
@@ -5031,7 +5083,8 @@
           "inventory_only": 72
         },
         "Kobo": {
-          "inventory_only": 5
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 4
         },
         "Kodak": {
           "inventory_only": 39
@@ -5097,7 +5150,8 @@
           "inventory_only": 8
         },
         "Kyocera": {
-          "inventory_only": 143
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 142
         },
         "Kyowon": {
           "inventory_only": 1
@@ -5157,7 +5211,10 @@
           "inventory_only": 3
         },
         "LGE": {
-          "inventory_only": 634
+          "exact_carrier_data_observed": 34,
+          "exact_source_extracted": 2,
+          "inventory_only": 599,
+          "source_checked_no_artifact": 72
         },
         "LGU+": {
           "inventory_only": 12
@@ -5301,7 +5358,8 @@
           "inventory_only": 1
         },
         "Lanix": {
-          "inventory_only": 131
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 130
         },
         "Laptok": {
           "inventory_only": 4
@@ -5361,7 +5419,9 @@
           "inventory_only": 2
         },
         "Lenovo": {
-          "inventory_only": 692
+          "exact_carrier_data_observed": 5,
+          "inventory_only": 686,
+          "source_checked_no_artifact": 9
         },
         "Leotec": {
           "inventory_only": 5
@@ -5373,7 +5433,8 @@
           "inventory_only": 17
         },
         "Lexia Mobile": {
-          "inventory_only": 3
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 2
         },
         "Lexibook": {
           "inventory_only": 26
@@ -5497,7 +5558,8 @@
           "inventory_only": 19
         },
         "MAG": {
-          "inventory_only": 6
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 5
         },
         "MAGCH": {
           "inventory_only": 14
@@ -5518,10 +5580,12 @@
           "inventory_only": 10
         },
         "MASTERTECH": {
-          "inventory_only": 10
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 9
         },
         "MAXHUB": {
-          "inventory_only": 5
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 4
         },
         "MAXLEGEN": {
           "inventory_only": 4
@@ -5780,7 +5844,8 @@
           "inventory_only": 12
         },
         "Marcel": {
-          "inventory_only": 11
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 10
         },
         "MarkaTab": {
           "inventory_only": 2
@@ -5801,7 +5866,8 @@
           "inventory_only": 47
         },
         "Master-G": {
-          "inventory_only": 17
+          "exact_carrier_data_observed": 2,
+          "inventory_only": 15
         },
         "MauritiusTelcom": {
           "inventory_only": 2
@@ -5882,7 +5948,8 @@
           "inventory_only": 2
         },
         "Meitu": {
-          "inventory_only": 12
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 11
         },
         "Meizu": {
           "inventory_only": 61
@@ -5987,7 +6054,8 @@
           "inventory_only": 2
         },
         "Mira": {
-          "inventory_only": 4
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 3
         },
         "Mirage": {
           "inventory_only": 6
@@ -5996,13 +6064,15 @@
           "inventory_only": 5
         },
         "Mito": {
-          "inventory_only": 21
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 20
         },
         "MoT(Mobility Technologies)": {
           "inventory_only": 1
         },
         "Mobell": {
-          "inventory_only": 11
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 10
         },
         "MobiIoT": {
           "inventory_only": 13
@@ -6017,7 +6087,8 @@
           "inventory_only": 25
         },
         "Mobicell": {
-          "inventory_only": 147
+          "exact_carrier_data_observed": 2,
+          "inventory_only": 145
         },
         "MobiiStar": {
           "inventory_only": 28
@@ -6110,7 +6181,9 @@
           "inventory_only": 1
         },
         "Motorola": {
-          "inventory_only": 413
+          "exact_carrier_data_observed": 37,
+          "inventory_only": 329,
+          "source_checked_no_artifact": 78
         },
         "Motorola Solutions": {
           "inventory_only": 8
@@ -6173,13 +6246,15 @@
           "inventory_only": 1
         },
         "Mtek": {
-          "inventory_only": 6
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 5
         },
         "Mtel": {
           "inventory_only": 1
         },
         "Multilaser": {
-          "inventory_only": 191
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 190
         },
         "Mundo": {
           "inventory_only": 1
@@ -6197,7 +6272,8 @@
           "inventory_only": 1
         },
         "MyFon": {
-          "inventory_only": 4
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 3
         },
         "MyPhone (PL)": {
           "inventory_only": 37
@@ -6329,7 +6405,8 @@
           "inventory_only": 4
         },
         "NIO": {
-          "inventory_only": 2
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 1
         },
         "NIS(NWTF)": {
           "inventory_only": 1
@@ -6374,13 +6451,15 @@
           "inventory_only": 1
         },
         "NVIDIA": {
-          "inventory_only": 9
+          "inventory_only": 4,
+          "source_checked_no_artifact": 5
         },
         "NW(NORWIN)": {
           "inventory_only": 1
         },
         "NYX Mobile": {
-          "inventory_only": 25
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 24
         },
         "Nabi": {
           "inventory_only": 8
@@ -6506,7 +6585,7 @@
           "inventory_only": 1
         },
         "Nextbit": {
-          "inventory_only": 1
+          "source_checked_no_artifact": 1
         },
         "Nextbook": {
           "inventory_only": 15
@@ -6563,7 +6642,8 @@
           "inventory_only": 1
         },
         "Nokia": {
-          "inventory_only": 144
+          "exact_carrier_data_observed": 6,
+          "inventory_only": 139
         },
         "Nomi": {
           "inventory_only": 32
@@ -6587,7 +6667,8 @@
           "inventory_only": 2
         },
         "Nothing": {
-          "inventory_only": 10
+          "exact_carrier_data_observed": 2,
+          "inventory_only": 8
         },
         "Nous": {
           "inventory_only": 4
@@ -6647,7 +6728,8 @@
           "inventory_only": 4
         },
         "OK (Mediamark)": {
-          "inventory_only": 14
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 13
         },
         "OKAPI": {
           "inventory_only": 12
@@ -6696,6 +6778,9 @@
         },
         "OPEN": {
           "inventory_only": 1
+        },
+        "OPPO": {
+          "source_checked_no_artifact": 2
         },
         "ORBYS": {
           "inventory_only": 2
@@ -6818,7 +6903,9 @@
           "inventory_only": 2
         },
         "OnePlus": {
-          "inventory_only": 123
+          "exact_carrier_data_observed": 39,
+          "inventory_only": 121,
+          "source_checked_no_artifact": 3
         },
         "OneScreen": {
           "inventory_only": 5
@@ -6848,7 +6935,9 @@
           "inventory_only": 3
         },
         "Oppo": {
-          "inventory_only": 516
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 505,
+          "source_checked_no_artifact": 10
         },
         "Optage": {
           "inventory_only": 1
@@ -6965,7 +7054,8 @@
           "inventory_only": 38
         },
         "PEL (PAK)": {
-          "inventory_only": 3
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 2
         },
         "PENSONIC": {
           "inventory_only": 2
@@ -7025,7 +7115,10 @@
           "inventory_only": 10
         },
         "POCO": {
-          "inventory_only": 70
+          "exact_carrier_data_observed": 14,
+          "exact_source_indexed": 21,
+          "inventory_only": 41,
+          "source_checked_no_artifact": 2
         },
         "POLSAT": {
           "inventory_only": 1
@@ -7109,7 +7202,9 @@
           "inventory_only": 1
         },
         "Pantech": {
-          "inventory_only": 64
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 62,
+          "source_checked_no_artifact": 1
         },
         "Parrot Mobile": {
           "inventory_only": 2
@@ -7157,7 +7252,8 @@
           "inventory_only": 36
         },
         "Philips": {
-          "inventory_only": 149
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 148
         },
         "Phoenix": {
           "inventory_only": 1
@@ -7196,7 +7292,8 @@
           "inventory_only": 19
         },
         "Plaisio": {
-          "inventory_only": 31
+          "exact_carrier_data_observed": 2,
+          "inventory_only": 29
         },
         "Planet Computers": {
           "inventory_only": 3
@@ -7250,7 +7347,8 @@
           "inventory_only": 5
         },
         "Polytron": {
-          "inventory_only": 20
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 19
         },
         "Porodo": {
           "inventory_only": 1
@@ -7385,7 +7483,8 @@
           "inventory_only": 2
         },
         "QBell": {
-          "inventory_only": 17
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 16
         },
         "QCELL": {
           "inventory_only": 2
@@ -7424,7 +7523,8 @@
           "inventory_only": 3
         },
         "QUBO": {
-          "inventory_only": 18
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 17
         },
         "QUEST": {
           "inventory_only": 5
@@ -7511,7 +7611,8 @@
           "inventory_only": 4
         },
         "RCA": {
-          "inventory_only": 136
+          "exact_carrier_data_observed": 2,
+          "inventory_only": 134
         },
         "RCT": {
           "inventory_only": 2
@@ -7616,7 +7717,8 @@
           "inventory_only": 4
         },
         "Rangs": {
-          "inventory_only": 4
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 3
         },
         "Ratel": {
           "inventory_only": 1
@@ -7628,7 +7730,8 @@
           "inventory_only": 8
         },
         "Razer": {
-          "inventory_only": 8
+          "exact_carrier_data_observed": 2,
+          "inventory_only": 6
         },
         "ReSYS": {
           "inventory_only": 1
@@ -7640,7 +7743,8 @@
           "inventory_only": 4
         },
         "Realme": {
-          "inventory_only": 85
+          "exact_carrier_data_observed": 2,
+          "inventory_only": 83
         },
         "Realme Techlife": {
           "inventory_only": 3
@@ -7667,8 +7771,10 @@
           "inventory_only": 6
         },
         "Redmi": {
-          "exact_carrier_data_observed": 1,
-          "inventory_only": 176
+          "exact_carrier_data_observed": 37,
+          "exact_source_indexed": 159,
+          "inventory_only": 37,
+          "source_checked_no_artifact": 1
         },
         "Redway": {
           "inventory_only": 4
@@ -7824,7 +7930,8 @@
           "inventory_only": 2
         },
         "S Vision": {
-          "inventory_only": 8
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 7
         },
         "S&T Global": {
           "inventory_only": 2
@@ -7899,7 +8006,8 @@
           "inventory_only": 1
         },
         "SEGO": {
-          "inventory_only": 21
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 20
         },
         "SELECLINE": {
           "inventory_only": 2
@@ -7941,7 +8049,8 @@
           "inventory_only": 3
         },
         "SHIFT": {
-          "inventory_only": 3
+          "exact_carrier_data_observed": 2,
+          "inventory_only": 1
         },
         "SHINON": {
           "inventory_only": 7
@@ -8053,7 +8162,8 @@
           "inventory_only": 3
         },
         "SPC": {
-          "inventory_only": 46
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 45
         },
         "SPC Mobile": {
           "inventory_only": 32
@@ -8108,7 +8218,8 @@
           "inventory_only": 1
         },
         "STF Mobile": {
-          "inventory_only": 22
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 21
         },
         "STG Telecom": {
           "inventory_only": 17
@@ -8201,10 +8312,12 @@
           "inventory_only": 2
         },
         "Samsung": {
-          "exact_carrier_data_observed": 22,
-          "exact_source_indexed": 918,
-          "source_discovery_in_progress": 1002,
-          "source_not_queryable": 82
+          "exact_carrier_data_observed": 75,
+          "exact_source_extracted": 75,
+          "exact_source_indexed": 1198,
+          "source_checked_no_artifact": 720,
+          "source_discovery_in_progress": 1,
+          "source_not_queryable": 72
         },
         "Samtech": {
           "inventory_only": 7
@@ -8291,7 +8404,8 @@
           "inventory_only": 4
         },
         "Selvas": {
-          "inventory_only": 4
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 3
         },
         "Semeakoko": {
           "inventory_only": 11
@@ -8321,7 +8435,8 @@
           "inventory_only": 1
         },
         "Sharp": {
-          "inventory_only": 454
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 453
         },
         "Shelby": {
           "inventory_only": 1
@@ -8396,7 +8511,8 @@
           "inventory_only": 1
         },
         "Siragon": {
-          "inventory_only": 30
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 29
         },
         "Sirin": {
           "inventory_only": 2
@@ -8408,7 +8524,8 @@
           "inventory_only": 13
         },
         "Sky Devices": {
-          "inventory_only": 242
+          "exact_carrier_data_observed": 2,
+          "inventory_only": 240
         },
         "Sky NZ": {
           "inventory_only": 2
@@ -8499,7 +8616,8 @@
           "inventory_only": 1
         },
         "Smooth": {
-          "inventory_only": 5
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 4
         },
         "Snopow": {
           "inventory_only": 2
@@ -8532,19 +8650,25 @@
           "inventory_only": 1
         },
         "Soneview": {
-          "inventory_only": 8
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 7
         },
         "Sonimtech": {
           "inventory_only": 14
         },
         "Soniq": {
-          "inventory_only": 6
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 5
         },
         "Sony": {
-          "inventory_only": 489
+          "exact_carrier_data_observed": 23,
+          "inventory_only": 487,
+          "source_checked_no_artifact": 61
         },
         "Sony Ericsson": {
-          "inventory_only": 85
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 83,
+          "source_checked_no_artifact": 1
         },
         "SonyAudio": {
           "inventory_only": 2
@@ -8631,7 +8755,8 @@
           "inventory_only": 1
         },
         "Starlight": {
-          "inventory_only": 38
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 37
         },
         "Steren": {
           "inventory_only": 3
@@ -8646,7 +8771,8 @@
           "inventory_only": 2
         },
         "Stream": {
-          "inventory_only": 21
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 20
         },
         "Stream System": {
           "inventory_only": 7
@@ -8661,8 +8787,8 @@
           "inventory_only": 3
         },
         "Stylo": {
-          "exact_carrier_data_observed": 1,
-          "inventory_only": 97
+          "exact_carrier_data_observed": 3,
+          "inventory_only": 95
         },
         "Stylos": {
           "inventory_only": 9
@@ -8773,10 +8899,12 @@
           "inventory_only": 137
         },
         "Synetech": {
-          "inventory_only": 5
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 4
         },
         "T-Mobile": {
-          "inventory_only": 22
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 21
         },
         "T-Mobile-CZ-Telekom-SK": {
           "inventory_only": 1
@@ -8824,13 +8952,15 @@
           "inventory_only": 4
         },
         "TCL": {
-          "inventory_only": 214
+          "exact_carrier_data_observed": 2,
+          "inventory_only": 212
         },
         "TCST": {
           "inventory_only": 1
         },
         "TCT (Alcatel)": {
-          "inventory_only": 484
+          "exact_carrier_data_observed": 2,
+          "inventory_only": 482
         },
         "TD SYSTEMS": {
           "inventory_only": 8
@@ -9151,7 +9281,8 @@
           "inventory_only": 1
         },
         "Tech 4u": {
-          "inventory_only": 10
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 9
         },
         "Technicolor": {
           "inventory_only": 9
@@ -9190,7 +9321,8 @@
           "inventory_only": 3
         },
         "Teesso": {
-          "inventory_only": 2
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 1
         },
         "TekSavvy": {
           "inventory_only": 1
@@ -9854,10 +9986,12 @@
           "inventory_only": 1
         },
         "VORCOM": {
-          "inventory_only": 13
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 12
         },
         "VOXelectronics": {
-          "inventory_only": 4
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 3
         },
         "VS Visu": {
           "inventory_only": 2
@@ -9896,7 +10030,8 @@
           "inventory_only": 18
         },
         "Vava": {
-          "inventory_only": 5
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 4
         },
         "Vaxcare": {
           "inventory_only": 2
@@ -9944,7 +10079,8 @@
           "inventory_only": 10
         },
         "Vernee": {
-          "inventory_only": 19
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 18
         },
         "Verssed": {
           "inventory_only": 1
@@ -10043,7 +10179,8 @@
           "inventory_only": 506
         },
         "Viwa": {
-          "inventory_only": 8
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 7
         },
         "Vizio": {
           "inventory_only": 4
@@ -10097,7 +10234,8 @@
           "inventory_only": 6
         },
         "Vsmart": {
-          "inventory_only": 26
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 25
         },
         "Vsun": {
           "inventory_only": 5
@@ -10205,7 +10343,8 @@
           "inventory_only": 4
         },
         "Walton": {
-          "inventory_only": 157
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 156
         },
         "Wansa": {
           "inventory_only": 8
@@ -10289,7 +10428,8 @@
           "inventory_only": 168
         },
         "Wileyfox": {
-          "inventory_only": 5
+          "inventory_only": 1,
+          "source_checked_no_artifact": 4
         },
         "Win (VE)": {
           "inventory_only": 7
@@ -10391,7 +10531,7 @@
           "inventory_only": 2
         },
         "X-TEK": {
-          "inventory_only": 1
+          "exact_carrier_data_observed": 1
         },
         "X-TIGI": {
           "inventory_only": 62
@@ -10466,8 +10606,10 @@
           "inventory_only": 34
         },
         "Xiaomi": {
-          "exact_carrier_data_observed": 1,
-          "inventory_only": 232
+          "exact_carrier_data_observed": 71,
+          "exact_source_indexed": 87,
+          "inventory_only": 94,
+          "source_checked_no_artifact": 9
         },
         "Xinlian": {
           "inventory_only": 1
@@ -10494,7 +10636,8 @@
           "inventory_only": 6
         },
         "Xstar": {
-          "inventory_only": 2
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 1
         },
         "Xtratech": {
           "inventory_only": 10
@@ -10506,7 +10649,7 @@
           "inventory_only": 1
         },
         "YASHI": {
-          "inventory_only": 1
+          "exact_carrier_data_observed": 1
         },
         "YAYGO": {
           "inventory_only": 1
@@ -10584,7 +10727,7 @@
           "inventory_only": 4
         },
         "Yandex": {
-          "inventory_only": 1
+          "source_checked_no_artifact": 1
         },
         "Yasin": {
           "inventory_only": 7
@@ -10701,7 +10844,9 @@
           "inventory_only": 4
         },
         "ZTE": {
-          "inventory_only": 956
+          "exact_carrier_data_observed": 18,
+          "inventory_only": 931,
+          "source_checked_no_artifact": 9
         },
         "ZTLEKE": {
           "inventory_only": 7
@@ -10791,7 +10936,8 @@
           "inventory_only": 1
         },
         "Zopo": {
-          "inventory_only": 5
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 4
         },
         "Zpad": {
           "inventory_only": 3
@@ -10800,7 +10946,8 @@
           "inventory_only": 1
         },
         "Zuk": {
-          "inventory_only": 7
+          "exact_carrier_data_observed": 2,
+          "inventory_only": 5
         },
         "Zuum": {
           "inventory_only": 79
@@ -10810,6 +10957,12 @@
         },
         "abxylute": {
           "inventory_only": 1
+        },
+        "acer": {
+          "source_checked_no_artifact": 4
+        },
+        "advent": {
+          "source_checked_no_artifact": 1
         },
         "afriphone": {
           "inventory_only": 1
@@ -10826,8 +10979,15 @@
         "ajib": {
           "inventory_only": 5
         },
+        "alcatel": {
+          "source_checked_no_artifact": 1
+        },
         "alter": {
           "inventory_only": 1
+        },
+        "amazon": {
+          "exact_carrier_data_observed": 2,
+          "source_checked_no_artifact": 5
         },
         "amulet7": {
           "inventory_only": 2
@@ -10841,11 +11001,26 @@
         "aoson": {
           "inventory_only": 3
         },
+        "apple": {
+          "source_checked_no_artifact": 1
+        },
+        "ark": {
+          "source_checked_no_artifact": 1
+        },
         "ascon": {
           "inventory_only": 1
         },
+        "askey": {
+          "source_checked_no_artifact": 3
+        },
         "axs+": {
           "inventory_only": 1
+        },
+        "ayn": {
+          "source_checked_no_artifact": 8
+        },
+        "bananapi": {
+          "source_checked_no_artifact": 2
         },
         "bbox": {
           "inventory_only": 2
@@ -10859,6 +11034,9 @@
         "biolux": {
           "inventory_only": 3
         },
+        "bn": {
+          "source_checked_no_artifact": 4
+        },
         "bontel": {
           "inventory_only": 2
         },
@@ -10866,7 +11044,9 @@
           "inventory_only": 1
         },
         "bq": {
-          "inventory_only": 38
+          "exact_carrier_data_observed": 2,
+          "inventory_only": 35,
+          "source_checked_no_artifact": 8
         },
         "care.ai": {
           "inventory_only": 3
@@ -10883,8 +11063,14 @@
         "chocoZAP": {
           "inventory_only": 1
         },
+        "commtiva": {
+          "source_checked_no_artifact": 1
+        },
         "cosmos": {
           "inventory_only": 4
+        },
+        "cyanogen": {
+          "source_checked_no_artifact": 1
         },
         "cypher": {
           "inventory_only": 4
@@ -10923,7 +11109,8 @@
           "inventory_only": 1
         },
         "eSTREAM 4K": {
-          "inventory_only": 16
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 15
         },
         "eTalk": {
           "inventory_only": 1
@@ -10946,11 +11133,17 @@
         "elevn": {
           "inventory_only": 1
         },
+        "elocity": {
+          "source_checked_no_artifact": 1
+        },
         "enGo": {
           "inventory_only": 1
         },
         "eroc": {
           "inventory_only": 1
+        },
+        "essential": {
+          "exact_carrier_data_observed": 1
         },
         "faytech": {
           "inventory_only": 1
@@ -10970,6 +11163,12 @@
         "fplus": {
           "inventory_only": 5
         },
+        "freebox": {
+          "source_checked_no_artifact": 1
+        },
+        "fxtec": {
+          "exact_carrier_data_observed": 2
+        },
         "g-mee": {
           "inventory_only": 7
         },
@@ -10979,6 +11178,9 @@
         "geaneePro": {
           "inventory_only": 6
         },
+        "geeksphone": {
+          "source_checked_no_artifact": 2
+        },
         "generaltouch": {
           "inventory_only": 1
         },
@@ -10987,6 +11189,9 @@
         },
         "hanofer": {
           "inventory_only": 2
+        },
+        "hardkernel": {
+          "source_checked_no_artifact": 4
         },
         "heinekingmedia": {
           "inventory_only": 1
@@ -10999,6 +11204,9 @@
         },
         "homez": {
           "inventory_only": 1
+        },
+        "hp": {
+          "source_checked_no_artifact": 1
         },
         "i-Buddie": {
           "inventory_only": 20
@@ -11082,7 +11290,8 @@
           "inventory_only": 23
         },
         "iMuz": {
-          "inventory_only": 26
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 25
         },
         "iNFONE": {
           "inventory_only": 3
@@ -11154,7 +11363,8 @@
           "inventory_only": 4
         },
         "imiia": {
-          "inventory_only": 6
+          "exact_carrier_data_observed": 1,
+          "inventory_only": 5
         },
         "imose": {
           "inventory_only": 6
@@ -11177,6 +11387,9 @@
         "innos": {
           "inventory_only": 6
         },
+        "intel": {
+          "source_checked_no_artifact": 1
+        },
         "intelkom": {
           "inventory_only": 3
         },
@@ -11198,6 +11411,9 @@
         "joyar": {
           "inventory_only": 1
         },
+        "khadas": {
+          "source_checked_no_artifact": 2
+        },
         "kiddoboo": {
           "inventory_only": 5
         },
@@ -11210,11 +11426,26 @@
         "leaderhub": {
           "inventory_only": 5
         },
+        "leeco": {
+          "exact_carrier_data_observed": 3
+        },
+        "letv": {
+          "source_checked_no_artifact": 1
+        },
+        "lineage": {
+          "source_checked_no_artifact": 3
+        },
         "loopDL": {
           "inventory_only": 1
         },
         "mMax": {
           "inventory_only": 1
+        },
+        "malata": {
+          "source_checked_no_artifact": 4
+        },
+        "mediatek": {
+          "source_checked_no_artifact": 2
         },
         "memetech": {
           "inventory_only": 1
@@ -11234,6 +11465,10 @@
         "moderness.online": {
           "inventory_only": 1
         },
+        "moto": {
+          "exact_source_extracted": 1,
+          "source_checked_no_artifact": 3
+        },
         "myAvro": {
           "inventory_only": 1
         },
@@ -11252,11 +11487,21 @@
         "newsan": {
           "inventory_only": 1
         },
+        "nintendo": {
+          "source_checked_no_artifact": 3
+        },
         "noDROPOUT": {
           "inventory_only": 1
         },
         "novo": {
           "inventory_only": 2
+        },
+        "nubia": {
+          "exact_carrier_data_observed": 11,
+          "source_checked_no_artifact": 1
+        },
+        "nvidia": {
+          "source_checked_no_artifact": 16
         },
         "oboni": {
           "inventory_only": 4
@@ -11273,6 +11518,12 @@
         "onn.": {
           "inventory_only": 46
         },
+        "osom": {
+          "exact_carrier_data_observed": 2
+        },
+        "pc": {
+          "source_checked_no_artifact": 1
+        },
         "pendo": {
           "inventory_only": 2
         },
@@ -11288,13 +11539,20 @@
         "qunyiCO": {
           "inventory_only": 8
         },
+        "radxa": {
+          "source_checked_no_artifact": 7
+        },
         "raemond": {
           "inventory_only": 26
         },
         "rainx": {
           "inventory_only": 2
         },
+        "razer": {
+          "exact_carrier_data_observed": 1
+        },
         "realme": {
+          "exact_carrier_data_observed": 5,
           "inventory_only": 195
         },
         "redbeat": {
@@ -11305,6 +11563,9 @@
         },
         "rephone": {
           "inventory_only": 2
+        },
+        "retroidpocket": {
+          "source_checked_no_artifact": 2
         },
         "robi": {
           "inventory_only": 1
@@ -11332,6 +11593,12 @@
         },
         "skywooo": {
           "inventory_only": 1
+        },
+        "smartfren": {
+          "source_checked_no_artifact": 1
+        },
+        "smartisan": {
+          "exact_carrier_data_observed": 1
         },
         "snowa": {
           "inventory_only": 3
@@ -11363,8 +11630,14 @@
         "thehaam": {
           "inventory_only": 4
         },
+        "ti": {
+          "source_checked_no_artifact": 1
+        },
         "tonwelt": {
           "inventory_only": 1
+        },
+        "toshiba": {
+          "source_checked_no_artifact": 1
         },
         "trueslim": {
           "inventory_only": 1
@@ -11420,11 +11693,23 @@
         "weelikeit": {
           "inventory_only": 34
         },
+        "wingtech": {
+          "source_checked_no_artifact": 1
+        },
         "xTouch": {
           "inventory_only": 16
         },
+        "xelex": {
+          "exact_carrier_data_observed": 1
+        },
         "yikomi": {
           "inventory_only": 2
+        },
+        "yu": {
+          "source_checked_no_artifact": 4
+        },
+        "yuhua": {
+          "exact_carrier_data_observed": 1
         },
         "yyswie": {
           "inventory_only": 4
@@ -11432,19 +11717,23 @@
         "zcobro": {
           "inventory_only": 2
         },
+        "zuk": {
+          "source_checked_no_artifact": 1
+        },
         "zyrex": {
           "inventory_only": 13
         }
       },
-      "carrier_observation_match_count": 57,
-      "carrier_source_discovery_match_count": 2044,
-      "device_count": 41026,
+      "carrier_observation_match_count": 586,
+      "carrier_source_discovery_match_count": 3291,
+      "device_count": 41714,
       "historical_device_count": 0,
-      "present_device_count": 41026,
+      "present_device_count": 41714,
       "present_device_count_by_brand": {
         "(not provided by source)": 3,
         "1&1": 4,
         "10.or": 5,
+        "10or": 1,
         "1XBET": 1,
         "2E (ERC)": 2,
         "3222222 Satelital": 1,
@@ -11714,7 +12003,7 @@
         "AstroQueo": 1,
         "Astro_Tab": 4,
         "Astrom": 1,
-        "Asus": 293,
+        "Asus": 313,
         "AtGames-zooti": 1,
         "AthenaStellar": 1,
         "Athesi": 18,
@@ -12664,7 +12953,7 @@
         "Gonna": 1,
         "Goo": 1,
         "Good_Planning": 1,
-        "Google": 105,
+        "Google": 148,
         "Gowin": 1,
         "Gplus": 18,
         "GraceCompany": 1,
@@ -12740,7 +13029,7 @@
         "HP": 53,
         "HQ_bel": 1,
         "HRSolutions": 1,
-        "HTC": 352,
+        "HTC": 381,
         "HTOWAV": 1,
         "HTStyle": 1,
         "HUAVI": 3,
@@ -12823,7 +13112,7 @@
         "Hotwav": 90,
         "How": 14,
         "Huangmi": 1,
-        "Huawei": 564,
+        "Huawei": 576,
         "Hublot": 2,
         "Huion": 4,
         "HumanWare": 2,
@@ -13150,7 +13439,7 @@
         "LEXA": 1,
         "LEYO": 1,
         "LG HelloVision": 3,
-        "LGE": 634,
+        "LGE": 707,
         "LGU+": 12,
         "LG_Electronics": 4,
         "LIAONING YIYATONG": 2,
@@ -13218,7 +13507,7 @@
         "LeiaInc": 1,
         "Leica": 2,
         "Lenco": 2,
-        "Lenovo": 692,
+        "Lenovo": 700,
         "Leotec": 5,
         "Lephone": 20,
         "Lesia": 17,
@@ -13467,7 +13756,7 @@
         "Mosambee": 3,
         "MoshiMore": 1,
         "Most Computers": 1,
-        "Motorola": 413,
+        "Motorola": 444,
         "Motorola Solutions": 8,
         "Motumation": 1,
         "Movado": 3,
@@ -13618,7 +13907,7 @@
         "Nobrand": 1,
         "Nodizz": 1,
         "Noel": 1,
-        "Nokia": 144,
+        "Nokia": 145,
         "Nomi": 32,
         "Nomu": 17,
         "NoonEast": 1,
@@ -13663,6 +13952,7 @@
         "ONVO": 2,
         "ONYX": 5,
         "OPEN": 1,
+        "OPPO": 2,
         "ORBYS": 2,
         "ORCA": 6,
         "ORCATAB": 1,
@@ -13703,7 +13993,7 @@
         "Omniphone": 1,
         "OneClick": 2,
         "OneLern": 2,
-        "OnePlus": 123,
+        "OnePlus": 163,
         "OneScreen": 5,
         "Onix": 1,
         "Onkyo": 4,
@@ -13772,7 +14062,7 @@
         "PN_RAVEC": 1,
         "POC": 1,
         "POCKAM": 10,
-        "POCO": 70,
+        "POCO": 78,
         "POLSAT": 1,
         "POOLS": 1,
         "POP TV": 1,
@@ -13986,7 +14276,7 @@
         "Rectron": 2,
         "Red Mobile": 2,
         "Red-X": 6,
-        "Redmi": 177,
+        "Redmi": 234,
         "Redway": 4,
         "Reeder": 68,
         "Reekoo": 2,
@@ -14163,7 +14453,7 @@
         "Sagemcom": 1,
         "Saltillo": 1,
         "Samsonix": 2,
-        "Samsung": 2024,
+        "Samsung": 2141,
         "Samtech": 7,
         "Samview": 1,
         "Sanaeko": 1,
@@ -14275,7 +14565,7 @@
         "Soneview": 8,
         "Sonimtech": 14,
         "Soniq": 6,
-        "Sony": 489,
+        "Sony": 571,
         "Sony Ericsson": 85,
         "SonyAudio": 2,
         "Sophix_Digix": 1,
@@ -14916,7 +15206,7 @@
         "Xcell": 3,
         "Xelex": 1,
         "Xgody": 34,
-        "Xiaomi": 233,
+        "Xiaomi": 261,
         "Xinlian": 1,
         "Xitrix": 4,
         "Xming": 1,
@@ -14994,7 +15284,7 @@
         "ZONMAI": 2,
         "ZOOMME": 5,
         "ZOOMSMART": 4,
-        "ZTE": 956,
+        "ZTE": 958,
         "ZTLEKE": 7,
         "ZUKU": 2,
         "ZULEISY": 3,
@@ -15031,31 +15321,43 @@
         "Zuum": 79,
         "Zynex": 7,
         "abxylute": 1,
+        "acer": 4,
+        "advent": 1,
         "afriphone": 1,
         "ahlo": 1,
         "aigo": 4,
         "aipan": 1,
         "ajib": 5,
+        "alcatel": 1,
         "alter": 1,
+        "amazon": 7,
         "amulet7": 2,
         "angel care": 1,
         "anyway-go": 2,
         "aoson": 3,
+        "apple": 1,
+        "ark": 1,
         "ascon": 1,
+        "askey": 3,
         "axs+": 1,
+        "ayn": 8,
+        "bananapi": 2,
         "bbox": 2,
         "beafon": 11,
         "benco": 35,
         "biolux": 3,
+        "bn": 4,
         "bontel": 2,
         "boxchip": 1,
-        "bq": 38,
+        "bq": 45,
         "care.ai": 3,
         "carp(IN)": 2,
         "carrozzeria": 1,
         "changing": 1,
         "chocoZAP": 1,
+        "commtiva": 1,
         "cosmos": 4,
+        "cyanogen": 1,
         "cypher": 4,
         "d.light": 3,
         "dazen": 3,
@@ -15076,24 +15378,31 @@
         "efioo": 1,
         "elactron": 2,
         "elevn": 1,
+        "elocity": 1,
         "enGo": 1,
         "eroc": 1,
+        "essential": 1,
         "faytech": 1,
         "fezawio": 9,
         "fibwi": 1,
         "firstIT": 2,
         "fiscat": 1,
         "fplus": 5,
+        "freebox": 1,
+        "fxtec": 2,
         "g-mee": 7,
         "galneoscreen": 1,
         "geaneePro": 6,
+        "geeksphone": 2,
         "generaltouch": 1,
         "halotel": 1,
         "hanofer": 2,
+        "hardkernel": 4,
         "heinekingmedia": 1,
         "hitabt": 3,
         "hoco": 8,
         "homez": 1,
+        "hp": 1,
         "i-Buddie": 20,
         "i-Mobile": 10,
         "i-PLUS": 2,
@@ -15153,6 +15462,7 @@
         "inefi": 3,
         "innex": 2,
         "innos": 6,
+        "intel": 1,
         "intelkom": 3,
         "iotapk": 2,
         "ioutdoor": 2,
@@ -15160,42 +15470,57 @@
         "jHon": 1,
         "jetfon": 1,
         "joyar": 1,
+        "khadas": 2,
         "kiddoboo": 5,
         "koobee": 10,
         "kozen": 4,
         "leaderhub": 5,
+        "leeco": 3,
+        "letv": 1,
+        "lineage": 3,
         "loopDL": 1,
         "mMax": 1,
+        "malata": 4,
+        "mediatek": 2,
         "memetech": 1,
         "menfop": 2,
         "mipo": 8,
         "miracle_tap": 1,
         "mirarel": 1,
         "moderness.online": 1,
+        "moto": 4,
         "myAvro": 1,
         "mytel": 6,
         "naomicase": 2,
         "neocore": 4,
         "neutab": 2,
         "newsan": 1,
+        "nintendo": 3,
         "noDROPOUT": 1,
         "novo": 2,
+        "nubia": 12,
+        "nvidia": 16,
         "oboni": 4,
         "okayseamedia": 3,
         "okulaku": 3,
         "oneview": 1,
         "onn.": 46,
+        "osom": 2,
+        "pc": 1,
         "pendo": 2,
         "predia": 1,
         "preo": 2,
         "prowise": 3,
         "qunyiCO": 8,
+        "radxa": 7,
         "raemond": 26,
         "rainx": 2,
-        "realme": 195,
+        "razer": 1,
+        "realme": 200,
         "redbeat": 8,
         "redfox": 5,
         "rephone": 2,
+        "retroidpocket": 2,
         "robi": 1,
         "sencor": 6,
         "sf-express": 4,
@@ -15205,6 +15530,8 @@
         "sincoole": 2,
         "sky HCN": 3,
         "skywooo": 1,
+        "smartfren": 1,
+        "smartisan": 1,
         "snowa": 3,
         "solanamobile": 1,
         "spectramobile": 5,
@@ -15215,7 +15542,9 @@
         "techBITE": 4,
         "tecmobile": 1,
         "thehaam": 4,
+        "ti": 1,
         "tonwelt": 1,
+        "toshiba": 1,
         "trueslim": 1,
         "truevisions": 6,
         "truvii": 4,
@@ -15234,10 +15563,15 @@
         "wanbo": 1,
         "wancheng": 1,
         "weelikeit": 34,
+        "wingtech": 1,
         "xTouch": 16,
+        "xelex": 1,
         "yikomi": 2,
+        "yu": 4,
+        "yuhua": 1,
         "yyswie": 4,
         "zcobro": 2,
+        "zuk": 1,
         "zyrex": 13
       }
     },
@@ -15275,6 +15609,13 @@
       "url": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/com.apple.jingle.appserver.client.MZITunesClientCheck/version"
     },
     {
+      "checked_at": "2026-07-14",
+      "name": "google_pixel_vendor_carriersettings",
+      "revision": "c8fd77039282684e55950805cac5ed38a9c2a37bf4fb52819a01aad48857bf30",
+      "revision_date": "2026-03-28",
+      "url": "https://github.com/TheMuppets"
+    },
+    {
       "checked_at": "2026-07-13",
       "name": "google_play_supported_devices",
       "revision": "750653d57d90c290e6d689614b4bc2e0070e70586a099400c60a7e3e851e98dc",
@@ -15289,11 +15630,25 @@
       "url": "https://github.com/GrapheneOS/adevtool"
     },
     {
-      "checked_at": "2026-07-13",
+      "checked_at": "2026-07-14",
+      "name": "lineageos_device_carrier_overlays",
+      "revision": "e95be79beba8c55f50f137bb573d01f39b94789d2d83f13fdeb3f2f51a0b89b0",
+      "revision_date": "2026-07-07",
+      "url": "https://github.com/LineageOS"
+    },
+    {
+      "checked_at": "2026-07-14",
       "name": "samsung_firmware_update_service",
-      "revision": "96b3612b6f825ccbc132781102a3fa15bc0b3e2b1126a1594be41d4ddec98b3a",
-      "revision_date": "2026-07-13",
+      "revision": "d2a0cf9b71e527e515a5ee06c01bd95546e7525a12ffaa4586f0f3166d878021",
+      "revision_date": "2026-07-14",
       "url": "https://neofussvr.sslcs.cdngc.net/NF_SmartDownloadBinaryInform.do"
+    },
+    {
+      "checked_at": "2026-07-14",
+      "name": "xiaomi_firmware_update_index",
+      "revision": "8c31045bfbfce6267e890b8c463f6c3fb7f2a7ef83b609e7ffa9f16f2b80dbd4",
+      "revision_date": "2026-07-14",
+      "url": "https://github.com/XiaomiFirmwareUpdater/miui-updates-tracker"
     }
   ]
 }

@@ -21,6 +21,14 @@
       ]
     }
   ],
+  "android_carrier_config": {
+    "carrier_metered_apn_types_strings": [
+      "default",
+      "dun",
+      "mms",
+      "supl"
+    ]
+  },
   "capabilities": {
     "esim": "unknown",
     "ims_conference": "unknown",
@@ -33,7 +41,7 @@
     "vowifi": "unknown",
     "wifi_calling_roaming": "unknown"
   },
-  "display_name": "Mobiler Es",
+  "display_name": "LineageOS 21403",
   "match": {
     "imsi_prefix_patterns": [
       "21403509"

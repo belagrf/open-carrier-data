@@ -1,0 +1,40 @@
+{
+  "android_carrier_config": {
+    "carrier_default_wfc_ims_mode_int": 1,
+    "carrier_metered_apn_types_strings": [
+      "default",
+      "dun",
+      "supl"
+    ],
+    "carrier_volte_available_bool": true,
+    "carrier_wfc_ims_available_bool": true,
+    "editable_wfc_mode_bool": false,
+    "enableGroupMms": false,
+    "hide_enhanced_4g_lte_bool": true,
+    "wfc_data_spn_format_idx_int": 1,
+    "wfc_spn_format_idx_int": 1
+  },
+  "capabilities": {
+    "esim": "unknown",
+    "ims_conference": "unknown",
+    "mms": "unknown",
+    "rcs": "unknown",
+    "sms_over_ims": "unknown",
+    "video_calling": "unknown",
+    "volte": "supported",
+    "vonr": "unknown",
+    "vowifi": "supported",
+    "wifi_calling_roaming": "unknown"
+  },
+  "display_name": "LineageOS 23420",
+  "match": {
+    "gid1_prefixes": [
+      "0303"
+    ],
+    "mccmnc": [
+      "23420"
+    ]
+  },
+  "profile_id": "open.23420.910de5700853",
+  "schema_version": 1
+}

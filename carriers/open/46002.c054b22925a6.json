@@ -34,6 +34,17 @@
     },
     {
       "apn": "cmwap",
+      "name": "cmwap",
+      "password": "guest",
+      "port": 80,
+      "proxy": "10.0.0.172",
+      "types": [
+        "default"
+      ],
+      "user": "guest"
+    },
+    {
+      "apn": "cmwap",
       "mmsc": "http://mmsc.monternet.com",
       "mmsport": 80,
       "mmsproxy": "10.0.0.172",
@@ -62,6 +73,15 @@
       ]
     },
     {
+      "apn": "cmwap",
+      "name": "\u4e2d\u56fd\u79fb\u52a8 (China Mobile) WAP",
+      "port": 80,
+      "proxy": "10.0.0.172",
+      "types": [
+        "supl"
+      ]
+    },
+    {
       "apn": "ims",
       "carrier_id": 1435,
       "name": "\u4e2d\u56fd\u79fb\u52a8 (China Mobile) IMS",
@@ -83,23 +103,37 @@
     }
   ],
   "android_carrier_config": {
-    "allow_add_call_during_video_call": false,
-    "allow_hold_video_call_bool": false,
+    "allow_hold_call_during_emergency_bool": false,
+    "carrier_allow_transfer_ims_call_bool": false,
+    "carrier_default_wfc_ims_mode_int": 1,
+    "carrier_metered_apn_types_strings": [
+      "default",
+      "dun",
+      "supl",
+      "fota"
+    ],
+    "carrier_volte_available_bool": true,
+    "carrier_wfc_ims_available_bool": true,
+    "editable_wfc_mode_bool": false,
+    "enableGroupMms": false,
     "enabledMMS": true,
+    "ignore_data_enabled_changed_for_video_calls": true,
     "maxMessageSize": 307200,
     "recipientLimit": 50,
+    "smsToMmsTextThreshold": 10,
+    "support_ims_conference_call_bool": true,
     "support_video_conference_call_bool": false
   },
   "capabilities": {
     "esim": "unknown",
-    "ims_conference": "unknown",
+    "ims_conference": "supported",
     "mms": "supported",
     "rcs": "unknown",
     "sms_over_ims": "unknown",
-    "video_calling": "unknown",
-    "volte": "unknown",
+    "video_calling": "conditional",
+    "volte": "supported",
     "vonr": "unknown",
-    "vowifi": "unknown",
+    "vowifi": "supported",
     "wifi_calling_roaming": "unknown"
   },
   "display_name": "Carrier 46002",

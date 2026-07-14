@@ -12,6 +12,17 @@
       "user_visible": false
     },
     {
+      "apn": "ims",
+      "bearer_bitmask": "14|20",
+      "name": "IMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ],
+      "user_visible": false
+    },
+    {
       "apn": "mms2",
       "mmsc": "http://10.3.3.133:9090/was",
       "mmsport": 8080,
@@ -68,12 +79,22 @@
     }
   ],
   "android_carrier_config": {
+    "carrier_default_wfc_ims_enabled_bool": true,
+    "carrier_default_wfc_ims_mode_int": 2,
+    "carrier_metered_apn_types_strings": [
+      "default",
+      "dun",
+      "supl"
+    ],
     "carrier_volte_available_bool": true,
     "carrier_vt_available_bool": true,
     "carrier_wfc_ims_available_bool": true,
     "enabledMMS": true,
+    "enhanced_4g_lte_on_by_default_bool": true,
+    "hide_enhanced_4g_lte_bool": true,
     "iwlan.epdg_static_address_string": "epdg.mobily.com.sa",
     "maxMessageSize": 409600,
+    "show_ims_registration_status_bool": true,
     "wfc_spn_format_idx_int": 1
   },
   "capabilities": {

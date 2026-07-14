@@ -15,7 +15,12 @@
       "voice_network_setting_style": "StopNetworkSearchingOnPause,DisplayRatInfoForManualSearch"
     },
     "operator_display": {
-      "five_g_icon_configuration": "connected_mmwave:5G,connected:5G,not_restricted_rrc_idle:5G,not_restricted_rrc_con:5G",
+      "five_g_icon_configuration": [
+        "connected_mmwave:5G",
+        "connected:5G",
+        "not_restricted_rrc_idle:5G",
+        "not_restricted_rrc_con:5G"
+      ],
       "refer_eons_without_lac": true
     }
   },
@@ -33,19 +38,8 @@
     },
     {
       "apn": "ims",
-      "authtype": 1,
-      "carrier_enabled": true,
-      "name": "ims",
-      "protocol": "IPV4V6",
-      "roaming_protocol": "IPV4V6",
-      "types": [
-        "ims"
-      ]
-    },
-    {
-      "apn": "ims",
       "bearer_bitmask": "14|18|20",
-      "name": "o2 DE IMS",
+      "name": "ims",
       "protocol": "IPV4V6",
       "roaming_protocol": "IPV4V6",
       "types": [
@@ -68,22 +62,6 @@
     },
     {
       "apn": "internet",
-      "authtype": 1,
-      "carrier_enabled": true,
-      "mmsc": "http://10.81.0.7:8002",
-      "mmsport": 8080,
-      "mmsproxy": "82.113.100.5",
-      "name": "internet",
-      "protocol": "IPV4V6",
-      "roaming_protocol": "IPV4V6",
-      "types": [
-        "default",
-        "mms",
-        "xcap"
-      ]
-    },
-    {
-      "apn": "internet",
       "mmsc": "http://10.81.0.7:8002",
       "mmsport": 8080,
       "mmsproxy": "82.113.100.5",
@@ -98,11 +76,14 @@
       "apn": "internet",
       "authtype": 1,
       "carrier_enabled": true,
+      "mmsc": "http://10.81.0.7:8002",
+      "mmsport": 8080,
+      "mmsproxy": "82.113.100.5",
       "name": "o2 Internet",
       "protocol": "IPV4V6",
       "roaming_protocol": "IPV4V6",
       "types": [
-        "supl"
+        "xcap"
       ]
     },
     {
@@ -120,34 +101,46 @@
     }
   ],
   "android_carrier_config": {
+    "allow_emergency_video_calls_bool": true,
     "carrier_default_wfc_ims_roaming_enabled_bool": true,
-    "carrier_supports_ss_over_ut_bool": true,
-    "carrier_volte_available_bool": true,
-    "carrier_wfc_ims_available_bool": true,
-    "enabledMMS": true,
-    "hide_ims_apn_bool": true,
-    "ims_reasoninfo_mapping_string_array": [
-      "510|Call completed elsewhere|1014",
-      "*|Call is dropped due to Wi-Fi signal is degraded|1407"
+    "carrier_metered_apn_types_strings": [
+      "default",
+      "dun",
+      "supl"
     ],
+    "carrier_promote_wfc_on_call_fail_bool": true,
+    "carrier_use_ims_first_for_emergency_bool": true,
+    "carrier_wfc_supports_wifi_only_bool": true,
+    "editable_enhanced_4g_lte_bool": true,
+    "editable_wfc_mode_bool": true,
+    "editable_wfc_roaming_mode_bool": true,
+    "enabledMMS": true,
+    "enhanced_4g_lte_on_by_default_bool": true,
+    "hide_enhanced_4g_lte_bool": false,
+    "hide_ims_apn_bool": true,
+    "ignore_data_enabled_changed_for_video_calls": true,
     "imsvoice.conference_factory_uri_string": "teleconferenceuri-factory@telefonica.de",
     "maxImageHeight": 1944,
     "maxImageWidth": 2592,
     "rtt_supported_bool": true,
     "rtt_supported_while_roaming_bool": true,
-    "smsToMmsTextThreshold": 5,
+    "show_ims_registration_status_bool": true,
+    "show_wifi_calling_icon_in_status_bar_bool": true,
+    "support_conference_call_bool": true,
+    "support_ims_conference_call_bool": true,
+    "wfc_data_spn_format_idx_int": 1,
     "wfc_spn_format_idx_int": 1
   },
   "capabilities": {
     "esim": "unknown",
-    "ims_conference": "unknown",
+    "ims_conference": "supported",
     "mms": "supported",
     "rcs": "unknown",
     "sms_over_ims": "unknown",
-    "video_calling": "unknown",
-    "volte": "supported",
+    "video_calling": "conditional",
+    "volte": "conditional",
     "vonr": "unknown",
-    "vowifi": "supported",
+    "vowifi": "conditional",
     "wifi_calling_roaming": "supported"
   },
   "display_name": "Carrier 26203",

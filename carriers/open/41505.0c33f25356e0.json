@@ -1,0 +1,29 @@
+{
+  "android_carrier_config": {
+    "carrier_metered_apn_types_strings": [
+      "default",
+      "dun",
+      "supl"
+    ]
+  },
+  "capabilities": {
+    "esim": "unknown",
+    "ims_conference": "unknown",
+    "mms": "unknown",
+    "rcs": "unknown",
+    "sms_over_ims": "unknown",
+    "video_calling": "unknown",
+    "volte": "unknown",
+    "vonr": "unknown",
+    "vowifi": "unknown",
+    "wifi_calling_roaming": "unknown"
+  },
+  "display_name": "LineageOS 41505",
+  "match": {
+    "mccmnc": [
+      "41505"
+    ]
+  },
+  "profile_id": "open.41505.0c33f25356e0",
+  "schema_version": 1
+}

@@ -1,17 +1,10 @@
 {
   "addons": {
     "emergency_calling": {
+      "e911_routing_policy": "auto",
       "emergency_dial_call_style": "BlockLog,DisableMuteHold"
     },
     "network_policy": {
-      "mobile_network_setting_menu_tokens": [
-        "-gsmumtsapn",
-        "+cdmaapn",
-        "-voltecall_sim_mobility",
-        "-preferrednetworkmode",
-        "-allowReasonEnable2g",
-        "+allow5gService"
-      ],
       "network_selection_menu_style": "GLOBALLTECDMA",
       "network_type_capability": "USC-ACG-GLB-USA"
     },
@@ -46,6 +39,9 @@
       ]
     }
   ],
+  "android_carrier_config": {
+    "carrier_volte_available_bool": true
+  },
   "capabilities": {
     "esim": "unknown",
     "ims_conference": "unknown",
@@ -53,7 +49,7 @@
     "rcs": "unknown",
     "sms_over_ims": "unknown",
     "video_calling": "unknown",
-    "volte": "unknown",
+    "volte": "supported",
     "vonr": "unknown",
     "vowifi": "unknown",
     "wifi_calling_roaming": "unknown"

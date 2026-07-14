@@ -12,6 +12,17 @@
     },
     {
       "apn": "IMS",
+      "bearer_bitmask": "13",
+      "name": "Itewire IMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ia",
+        "ims"
+      ]
+    },
+    {
+      "apn": "IMS",
       "bearer_bitmask": "13|14",
       "name": "Itewire IMS",
       "protocol": "IPV4V6",
@@ -19,6 +30,27 @@
       "types": [
         "ia",
         "ims"
+      ]
+    },
+    {
+      "apn": "IMS",
+      "bearer_bitmask": "14",
+      "name": "Itewire IMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ia",
+        "ims"
+      ]
+    },
+    {
+      "apn": "VZWADMIN",
+      "bearer_bitmask": "13",
+      "name": "Itewire FOTA",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "fota"
       ]
     },
     {
@@ -32,6 +64,27 @@
       ]
     },
     {
+      "apn": "VZWADMIN",
+      "bearer_bitmask": "14",
+      "name": "Itewire FOTA",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "fota"
+      ]
+    },
+    {
+      "apn": "VZWIMS",
+      "bearer_bitmask": "13",
+      "name": "Itewire IMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ia",
+        "ims"
+      ]
+    },
+    {
       "apn": "VZWIMS",
       "bearer_bitmask": "13|14",
       "name": "Itewire IMS",
@@ -40,6 +93,30 @@
       "types": [
         "ia",
         "ims"
+      ]
+    },
+    {
+      "apn": "VZWIMS",
+      "bearer_bitmask": "14",
+      "name": "Itewire IMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ia",
+        "ims"
+      ]
+    },
+    {
+      "apn": "VZWINTERNET",
+      "bearer_bitmask": "13",
+      "name": "Itewire",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "default",
+        "dun",
+        "mms",
+        "supl"
       ]
     },
     {
@@ -55,6 +132,19 @@
         "supl"
       ],
       "user_editable": false
+    },
+    {
+      "apn": "VZWINTERNET",
+      "bearer_bitmask": "14",
+      "name": "Itewire",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "default",
+        "dun",
+        "mms",
+        "supl"
+      ]
     }
   ],
   "capabilities": {

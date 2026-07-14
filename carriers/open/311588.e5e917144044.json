@@ -28,6 +28,16 @@
       "user_visible": false
     },
     {
+      "apn": "ims",
+      "name": "U.S. Cellular IMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ],
+      "user_visible": false
+    },
+    {
       "apn": "usccinternet",
       "bearer": 13,
       "carrier_enabled": true,
@@ -61,6 +71,22 @@
     },
     {
       "apn": "usccinternet",
+      "bearer_bitmask": "1|2|3|9|10|11|13|14|15",
+      "mmsc": "http://mmsc1.uscc.net/mmsc/MMS",
+      "mtu": 1422,
+      "name": "U.S. Cellular",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "default",
+        "dun",
+        "fota",
+        "hipri",
+        "mms"
+      ]
+    },
+    {
+      "apn": "usccinternet",
       "bearer_bitmask": "1|2|3|9|10|11|13|14|15|18|20",
       "mmsc": "http://mmsc1.uscc.net/mmsc/MMS",
       "mtu": 1422,
@@ -81,13 +107,11 @@
     "carrier_default_wfc_ims_mode_int": 1,
     "carrier_default_wfc_ims_roaming_enabled_bool": true,
     "carrier_default_wfc_ims_roaming_mode_int": 1,
-    "carrier_volte_available_bool": true,
-    "carrier_wfc_ims_available_bool": true,
-    "cdma_3waycall_flash_delay_int": 0,
+    "carrier_volte_provisioning_required_bool": true,
+    "enableMMSReadReports": false,
     "enableMultipartSMS": false,
     "enabledNotifyWapMMSC": true,
     "enabledTransID": true,
-    "hide_enhanced_4g_lte_bool": true,
     "httpParams": "x-vzw-mdn: 1##LINE1NOCOUNTRYCODE##",
     "ims.sip_over_ipsec_enabled_bool": false,
     "imsvoice.conference_factory_uri_string": "usccconf@usccims.com",
@@ -97,10 +121,8 @@
     "maxMessageSize": 1048576,
     "maxSubjectLength": 80,
     "recipientLimit": 20,
-    "rtt_supported_bool": true,
-    "show_apn_setting_cdma_bool": false,
     "support_ims_conference_event_package_bool": false,
-    "support_swap_after_merge_bool": true,
+    "support_wps_over_ims_bool": false,
     "volte_5g_limited_alert_dialog_bool": true,
     "volte_replacement_rat_int": 6,
     "wfc_spn_format_idx_int": 1
@@ -112,9 +134,9 @@
     "rcs": "unknown",
     "sms_over_ims": "unknown",
     "video_calling": "unknown",
-    "volte": "supported",
+    "volte": "conditional",
     "vonr": "unknown",
-    "vowifi": "supported",
+    "vowifi": "conditional",
     "wifi_calling_roaming": "supported"
   },
   "display_name": "Carrier 311588",

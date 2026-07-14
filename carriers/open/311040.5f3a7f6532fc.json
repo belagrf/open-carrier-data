@@ -1,19 +1,12 @@
 {
   "addons": {
     "emergency_calling": {
-      "e911_routing_policy": "auto",
-      "emergency_dial_call_style": "DisableMuteHold,BlockAddCall,CSRetry"
+      "e911_routing_policy": "auto"
     },
     "network_policy": {
       "display_antenna_limited": true,
       "gcf_sor": true,
-      "mobile_network_setting_menu_tokens": [
-        "-voltecall"
-      ],
-      "network_type_capability": "XAA-XAA-GLB-USA"
-    },
-    "operator_display": {
-      "indicator_icon_branding": "XAA_OPEN"
+      "network_selection_menu_style": "GLOBALLTECDMA"
     }
   },
   "android_apns": [
@@ -24,15 +17,6 @@
       "roaming_protocol": "IP",
       "types": [
         "ims"
-      ]
-    },
-    {
-      "apn": "adm.mychoicewireless.net",
-      "name": "Choice FOTA",
-      "protocol": "IP",
-      "roaming_protocol": "IP",
-      "types": [
-        "default"
       ]
     },
     {
@@ -47,31 +31,9 @@
     {
       "apn": "phone.mychoicewireless.net",
       "name": "Choice",
-      "protocol": "IP",
-      "roaming_protocol": "IP",
+      "protocol": "IPV4V6",
       "types": [
-        "default"
-      ]
-    },
-    {
-      "apn": "phone.mychoicewireless.net",
-      "mmsc": "http://mmsc.cccomm.csky.us",
-      "mmsport": 9201,
-      "mmsproxy": "mmsc-wap.choice-wireless.com",
-      "name": "Choice MMS",
-      "protocol": "IP",
-      "roaming_protocol": "IP",
-      "types": [
-        "mms"
-      ]
-    },
-    {
-      "apn": "sp.mychoicewireless.net",
-      "name": "Choice Tethering",
-      "protocol": "IP",
-      "roaming_protocol": "IP",
-      "types": [
-        "default"
+        "ims"
       ]
     }
   ],

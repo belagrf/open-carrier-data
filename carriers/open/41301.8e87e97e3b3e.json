@@ -3,7 +3,7 @@
     {
       "apn": "default",
       "authtype": 1,
-      "name": "Mobiltel",
+      "name": "default",
       "types": [
         "default",
         "supl"

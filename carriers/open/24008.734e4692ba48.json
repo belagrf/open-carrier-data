@@ -17,7 +17,12 @@
       "network_type_capability": "EUR-EUR-GSM-EUR"
     },
     "operator_display": {
-      "five_g_icon_configuration": "connected_mmwave:5G,connected:5G,not_restricted_rrc_idle:5G,not_restricted_rrc_con:5G",
+      "five_g_icon_configuration": [
+        "connected_mmwave:5G",
+        "connected:5G",
+        "not_restricted_rrc_idle:5G",
+        "not_restricted_rrc_con:5G"
+      ],
       "refer_eons_without_lac": true
     },
     "wifi_calling": {
@@ -49,10 +54,13 @@
     },
     {
       "apn": "ims",
-      "name": "Telenor",
+      "name": "ims",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
       "types": [
         "ims"
-      ]
+      ],
+      "user_visible": false
     },
     {
       "apn": "internet.glocalnet.se",
@@ -142,12 +150,22 @@
     }
   ],
   "android_carrier_config": {
+    "carrier_default_wfc_ims_enabled_bool": false,
+    "carrier_default_wfc_ims_mode_int": 2,
+    "carrier_default_wfc_ims_roaming_mode_int": 2,
+    "carrier_metered_apn_types_strings": [
+      "default",
+      "dun",
+      "supl"
+    ],
     "carrier_supports_ss_over_ut_bool": true,
-    "carrier_volte_available_bool": true,
-    "carrier_wfc_ims_available_bool": true,
+    "carrier_use_ims_first_for_emergency_bool": true,
+    "carrier_vt_available_bool": false,
+    "editable_enhanced_4g_lte_bool": true,
+    "editable_wfc_mode_bool": true,
     "editable_wfc_roaming_mode_bool": true,
     "enabledMMS": true,
-    "hide_enhanced_4g_lte_bool": true,
+    "enhanced_4g_lte_on_by_default_bool": true,
     "imsvoice.conference_subscribe_type_int": 0,
     "is_ims_conference_size_enforced_bool": true,
     "iwlan.epdg_static_address_string": "epdg.epc.mnc008.mcc240.pub.3gppnetwork.org",
@@ -155,6 +173,7 @@
     "maxImageWidth": 2592,
     "rtt_supported_bool": true,
     "rtt_supported_while_roaming_bool": true,
+    "show_wifi_calling_icon_in_status_bar_bool": true,
     "wfc_spn_format_idx_int": 9
   },
   "capabilities": {
@@ -163,11 +182,11 @@
     "mms": "supported",
     "rcs": "unknown",
     "sms_over_ims": "unknown",
-    "video_calling": "unknown",
-    "volte": "supported",
+    "video_calling": "unsupported",
+    "volte": "conditional",
     "vonr": "unknown",
-    "vowifi": "supported",
-    "wifi_calling_roaming": "unknown"
+    "vowifi": "conditional",
+    "wifi_calling_roaming": "supported"
   },
   "display_name": "Carrier 24008",
   "match": {

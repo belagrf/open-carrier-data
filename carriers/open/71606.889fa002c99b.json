@@ -56,11 +56,20 @@
     }
   ],
   "android_carrier_config": {
+    "carrier_default_wfc_ims_enabled_bool": true,
     "carrier_volte_available_bool": true,
     "carrier_vt_available_bool": true,
     "carrier_wfc_ims_available_bool": true,
     "enableGroupMms": false,
+    "enableMultipartSMS": true,
+    "ignore_data_enabled_changed_for_video_calls": true,
     "maxMessageSize": 307200,
+    "read_only_apn_types_string_array": [
+      "default",
+      "supl",
+      "ims",
+      "ut"
+    ],
     "recipientLimit": 10
   },
   "capabilities": {

@@ -4,7 +4,6 @@
     "carrier_default_wfc_ims_enabled_bool": true,
     "carrier_default_wfc_ims_mode_int": 1,
     "carrier_default_wfc_ims_roaming_enabled_bool": true,
-    "carrier_default_wfc_ims_roaming_mode_int": 1,
     "carrier_metered_apn_types_strings": [
       "default",
       "dun",
@@ -23,12 +22,16 @@
     "cdma_3waycall_flash_delay_int": 0,
     "enableSMSDeliveryReports": false,
     "hide_enhanced_4g_lte_bool": true,
+    "ims_reasoninfo_mapping_string_array": [
+      "510|Call completed elsewhere|1014",
+      "*|Call is dropped due to Wi-Fi signal is degraded|1407"
+    ],
     "imsvoice.conference_subscribe_type_int": 0,
+    "iwlan.epdg_static_address_string": "epdg.epc.mnc260.mcc310.pub.3gppnetwork.org",
     "maxImageHeight": 1994,
     "maxImageWidth": 2592,
     "maxMessageSize": 1048576,
     "recipientLimit": 20,
-    "rtt_supported_bool": false,
     "rtt_supported_while_roaming_bool": false,
     "volte_replacement_rat_int": 3
   },

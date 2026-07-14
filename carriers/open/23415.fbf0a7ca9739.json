@@ -17,7 +17,12 @@
       "network_type_capability": "EUR-EUR-GSM-EUR"
     },
     "operator_display": {
-      "five_g_icon_configuration": "connected_mmwave:5G,connected:5G,not_restricted_rrc_idle:5G,not_restricted_rrc_con:5G",
+      "five_g_icon_configuration": [
+        "connected_mmwave:5G",
+        "connected:5G",
+        "not_restricted_rrc_idle:5G",
+        "not_restricted_rrc_con:5G"
+      ],
       "refer_eons_without_lac": true
     },
     "wifi_calling": {
@@ -37,6 +42,45 @@
       "user_visible": false
     },
     {
+      "apn": "ims",
+      "bearer_bitmask": "14|20",
+      "name": "IMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ],
+      "user_visible": false
+    },
+    {
+      "apn": "ims",
+      "name": "IMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ],
+      "user_visible": false
+    },
+    {
+      "apn": "payg.talkmobile.co.uk",
+      "authtype": 1,
+      "mmsc": "http://mms.talkmobile.co.uk/servlets/mms",
+      "mmsport": 8799,
+      "mmsproxy": "212.183.137.12",
+      "name": "Talkmob PAYG WAP",
+      "password": "wap",
+      "port": 8799,
+      "proxy": "212.183.137.12",
+      "types": [
+        "default",
+        "mms",
+        "supl"
+      ],
+      "user": "wap",
+      "user_editable": false
+    },
+    {
       "apn": "talkmobile.co.uk",
       "mmsc": "http://mms.talkmobile.co.uk/servlets/mms",
       "mmsport": 8799,
@@ -52,9 +96,11 @@
       "mmsc": "http://mms.talkmobile.co.uk/servlets/mms",
       "mmsport": 8799,
       "mmsproxy": "212.183.137.12",
-      "name": "Talkmobile Data",
+      "name": "talkmobile.co.uk",
       "password": "wap",
+      "port": 8799,
       "protocol": "IPV4V6",
+      "proxy": "212.183.137.12",
       "roaming_protocol": "IPV4V6",
       "types": [
         "supl"
@@ -73,25 +119,12 @@
       "user_visible": false
     },
     {
-      "apn": "ims",
-      "authtype": 0,
-      "carrier_enabled": true,
-      "mvno_match_data": "C1",
-      "mvno_type": "gid",
-      "name": "IMS",
-      "protocol": "IPV4V6",
-      "roaming_protocol": "IPV4V6",
-      "types": [
-        "ims"
-      ]
-    },
-    {
       "apn": "talkmobile.co.uk",
       "authtype": 1,
       "carrier_enabled": true,
       "mvno_match_data": "C1",
       "mvno_type": "gid",
-      "name": "Talkmobile Data",
+      "name": "talkmobile.co.uk",
       "password": "wap",
       "protocol": "IPV4V6",
       "roaming_protocol": "IPV4V6",
@@ -110,7 +143,7 @@
       "mmsproxy": "212.183.137.12",
       "mvno_match_data": "C1",
       "mvno_type": "gid",
-      "name": "Talkmobile MMS",
+      "name": "talkmobile.co.uk",
       "password": "wap",
       "protocol": "IPV4V6",
       "roaming_protocol": "IPV4V6",
@@ -136,17 +169,19 @@
   "android_carrier_config": {
     "carrier_default_wfc_ims_mode_int": 1,
     "carrier_supports_ss_over_ut_bool": true,
-    "carrier_volte_available_bool": true,
     "carrier_wfc_ims_available_bool": true,
     "editable_enhanced_4g_lte_bool": false,
+    "editable_wfc_mode_bool": false,
     "enabledMMS": true,
     "hide_enhanced_4g_lte_bool": true,
     "imssms.sms_over_ims_supported_bool": true,
     "imsvoice.conference_subscribe_type_int": 0,
     "maxMessageSize": 307200,
+    "read_only_apn_types_string_array": [
+      "*"
+    ],
     "recipientLimit": 10,
-    "smsToMmsTextThreshold": 10,
-    "wfc_spn_format_idx_int": 12
+    "smsToMmsTextThreshold": 10
   },
   "capabilities": {
     "esim": "unknown",
@@ -155,7 +190,7 @@
     "rcs": "unknown",
     "sms_over_ims": "supported",
     "video_calling": "unknown",
-    "volte": "supported",
+    "volte": "conditional",
     "vonr": "supported",
     "vowifi": "supported",
     "wifi_calling_roaming": "unknown"

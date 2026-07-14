@@ -14,11 +14,20 @@
     {
       "apn": "internet.mvno.mobi",
       "authtype": 1,
-      "name": "Enreach DE",
+      "name": "internet.mvno.mobi",
+      "password": "mvno",
       "types": [
         "default",
-        "dun",
         "supl"
+      ],
+      "user": "mvno"
+    },
+    {
+      "apn": "internet.mvno.mobi",
+      "authtype": 1,
+      "name": "Enreach DE",
+      "types": [
+        "dun"
       ]
     }
   ],
@@ -37,7 +46,7 @@
     "vowifi": "unknown",
     "wifi_calling_roaming": "unknown"
   },
-  "display_name": "Enreach De",
+  "display_name": "Carrier 26220",
   "match": {
     "mccmnc": [
       "26220"

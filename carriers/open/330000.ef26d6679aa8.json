@@ -1,0 +1,30 @@
+{
+  "android_carrier_config": {
+    "cdma_3waycall_flash_delay_int": 200,
+    "httpParams": "X-MDN: ##LINE1##",
+    "maxMessageSize": 1048576,
+    "maxSubjectLength": 80,
+    "recipientLimit": 20,
+    "smsToMmsTextThreshold": 1
+  },
+  "capabilities": {
+    "esim": "unknown",
+    "ims_conference": "unknown",
+    "mms": "unknown",
+    "rcs": "unknown",
+    "sms_over_ims": "unknown",
+    "video_calling": "unknown",
+    "volte": "unknown",
+    "vonr": "unknown",
+    "vowifi": "unknown",
+    "wifi_calling_roaming": "unknown"
+  },
+  "display_name": "LineageOS 330000",
+  "match": {
+    "mccmnc": [
+      "330000"
+    ]
+  },
+  "profile_id": "open.330000.ef26d6679aa8",
+  "schema_version": 1
+}

@@ -13,6 +13,17 @@
     },
     {
       "apn": "ims",
+      "bearer_bitmask": "14|20",
+      "name": "IMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ],
+      "user_visible": false
+    },
+    {
+      "apn": "ims",
       "name": "Orange Slovensko",
       "protocol": "IPV4V6",
       "types": [
@@ -33,19 +44,6 @@
       "types": [
         "supl"
       ]
-    },
-    {
-      "apn": "orangewap",
-      "authtype": 3,
-      "name": "Orange World",
-      "password": "wap",
-      "port": 8799,
-      "proxy": "213.151.208.156",
-      "types": [
-        "default",
-        "supl"
-      ],
-      "user": "wap"
     },
     {
       "apn": "sos",
@@ -69,16 +67,33 @@
   ],
   "android_carrier_config": {
     "always_play_remote_hold_tone_bool": true,
+    "auto_retry_failed_wifi_emergency_call": true,
     "carrier_allow_transfer_ims_call_bool": true,
     "carrier_default_wfc_ims_roaming_enabled_bool": true,
+    "carrier_metered_apn_types_strings": [
+      "default",
+      "dun",
+      "supl"
+    ],
+    "carrier_metered_roaming_apn_types_strings": [
+      "default",
+      "dun",
+      "supl"
+    ],
     "carrier_supports_ss_over_ut_bool": true,
-    "carrier_volte_available_bool": true,
     "carrier_wfc_ims_available_bool": true,
+    "editable_wfc_roaming_mode_bool": true,
     "enabledMMS": true,
+    "hide_enhanced_4g_lte_bool": false,
     "maxMessageSize": 614400,
+    "read_only_apn_types_string_array": [
+      "mms"
+    ],
     "rtt_supported_bool": true,
     "rtt_supported_while_roaming_bool": true,
-    "wfc_spn_format_idx_int": 1
+    "video_calls_can_be_hd_audio": true,
+    "wfc_spn_format_idx_int": 1,
+    "wifi_calls_can_be_hd_audio": true
   },
   "capabilities": {
     "esim": "unknown",
@@ -87,7 +102,7 @@
     "rcs": "unknown",
     "sms_over_ims": "unknown",
     "video_calling": "unknown",
-    "volte": "supported",
+    "volte": "conditional",
     "vonr": "unknown",
     "vowifi": "supported",
     "wifi_calling_roaming": "supported"

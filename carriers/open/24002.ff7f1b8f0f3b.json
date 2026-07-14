@@ -1,7 +1,8 @@
 {
   "addons": {
     "emergency_calling": {
-      "e911_routing_policy": "auto"
+      "e911_routing_policy": "auto",
+      "emergency_dial_call_style": "EndPreviousCall"
     },
     "ims": {
       "support_ims_clir_overriding": true
@@ -18,8 +19,16 @@
       "voice_network_setting_style": "DisplayRatInfoForManualSearch"
     },
     "operator_display": {
-      "five_g_icon_configuration": "connected_mmwave:5G,connected:5G,not_restricted_rrc_idle:5G,not_restricted_rrc_con:5G",
+      "five_g_icon_configuration": [
+        "connected_mmwave:5G",
+        "connected:5G",
+        "not_restricted_rrc_idle:5G",
+        "not_restricted_rrc_con:5G"
+      ],
       "refer_eons_without_lac": true
+    },
+    "wifi_calling": {
+      "show_vowifi_end_call": true
     }
   },
   "android_apns": [
@@ -45,13 +54,13 @@
     {
       "apn": "data.tre.se",
       "authtype": 0,
-      "bearer_bitmask": "1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|17|20",
+      "bearer_bitmask": "1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17",
       "mmsc": "http://mms.tre.se",
       "mmsport": 8799,
       "mmsproxy": "mmsproxy.tre.se",
       "name": "3",
       "protocol": "IPV4V6",
-      "roaming_protocol": "IPV4V6",
+      "roaming_protocol": "IP",
       "types": [
         "default",
         "mms",
@@ -60,13 +69,12 @@
     },
     {
       "apn": "data.tre.se",
-      "authtype": 1,
-      "carrier_enabled": true,
+      "authtype": 0,
+      "bearer_bitmask": "1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|17|20",
       "mmsc": "http://mms.tre.se",
       "mmsport": 8799,
       "mmsproxy": "mmsproxy.tre.se",
-      "mtu": 1280,
-      "name": "data.tre.se",
+      "name": "3",
       "protocol": "IPV4V6",
       "roaming_protocol": "IPV4V6",
       "types": [
@@ -107,7 +115,9 @@
       "protocol": "IPV4V6",
       "roaming_protocol": "IPV4V6",
       "types": [
+        "default",
         "mms",
+        "supl",
         "xcap"
       ],
       "user_visible": false
@@ -149,15 +159,15 @@
     }
   ],
   "android_carrier_config": {
-    "carrier_default_wfc_ims_enabled_bool": true,
     "carrier_default_wfc_ims_mode_int": 1,
     "carrier_default_wfc_ims_roaming_enabled_bool": true,
-    "carrier_default_wfc_ims_roaming_mode_int": 1,
-    "carrier_supports_ss_over_ut_bool": true,
-    "carrier_volte_available_bool": true,
-    "carrier_wfc_ims_available_bool": true,
-    "editable_wfc_mode_bool": false,
-    "editable_wfc_roaming_mode_bool": false,
+    "carrier_metered_apn_types_strings": [
+      "default",
+      "dun",
+      "supl"
+    ],
+    "carrier_wfc_supports_wifi_only_bool": false,
+    "editable_enhanced_4g_lte_bool": false,
     "enabledMMS": true,
     "hide_enhanced_4g_lte_bool": true,
     "imssms.sms_over_ims_supported_bool": true,
@@ -165,7 +175,7 @@
     "maxMessageSize": 2097152,
     "rtt_supported_bool": true,
     "rtt_supported_while_roaming_bool": true,
-    "smsToMmsTextThreshold": 10,
+    "wfc_data_spn_format_idx_int": 1,
     "wfc_spn_format_idx_int": 1
   },
   "capabilities": {
@@ -175,9 +185,9 @@
     "rcs": "unknown",
     "sms_over_ims": "supported",
     "video_calling": "unknown",
-    "volte": "supported",
+    "volte": "conditional",
     "vonr": "unknown",
-    "vowifi": "supported",
+    "vowifi": "conditional",
     "wifi_calling_roaming": "supported"
   },
   "display_name": "Carrier 24002",

@@ -1,20 +1,10 @@
 {
   "addons": {
     "emergency_calling": {
-      "e911_routing_policy": "auto",
-      "emergency_dial_call_style": "BlockRecent,BlockLog,DisableMuteHold,OFFWIFI"
+      "e911_routing_policy": "auto"
     },
     "network_policy": {
-      "mobile_network_setting_menu_tokens": [
-        "-allowReasonEnable2g",
-        "-preferrednetworkmode",
-        "-voltecall"
-      ],
-      "network_type_capability": "VZW-TFN-GLB-USA",
       "voice_network_setting_style": "SystemSelectionAutoAB,SupportDataPopup"
-    },
-    "operator_display": {
-      "indicator_icon_branding": "VZW_OPEN"
     }
   },
   "android_apns": [
@@ -25,6 +15,33 @@
       "roaming_protocol": "IPV6",
       "types": [
         "ims"
+      ]
+    },
+    {
+      "apn": "TRACFONE.VZWENTP",
+      "name": "TRACFONE.VZWENTP",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IP",
+      "types": [
+        "default"
+      ]
+    },
+    {
+      "apn": "VZWADMIN",
+      "name": "Trafone - Test 99999 FOTA",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IP",
+      "types": [
+        "default"
+      ]
+    },
+    {
+      "apn": "VZWAPP",
+      "name": "Trafone - Test 99999 CBS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IP",
+      "types": [
+        "default"
       ]
     },
     {

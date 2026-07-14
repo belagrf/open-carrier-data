@@ -1,13 +1,12 @@
 {
   "android_apns": [
     {
-      "apn": "mms.telia.se",
-      "mmsc": "http://mmss",
-      "mmsport": 80,
-      "mmsproxy": "193.209.134.132",
-      "name": "Halebop MMS",
+      "apn": "halebop.telia.se",
+      "authtype": 0,
+      "name": "Internet",
       "types": [
-        "mms"
+        "default",
+        "supl"
       ]
     }
   ],
@@ -23,7 +22,7 @@
     "vowifi": "unknown",
     "wifi_calling_roaming": "unknown"
   },
-  "display_name": "Halebop",
+  "display_name": "Carrier 240017",
   "match": {
     "mccmnc": [
       "240017"

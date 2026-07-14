@@ -15,6 +15,15 @@
   },
   "android_apns": [
     {
+      "apn": "COMCAST.RSLR.VZWENTP",
+      "name": "COMCAST.RSLR.VZWENTP",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IP",
+      "types": [
+        "default"
+      ]
+    },
+    {
       "apn": "IMS",
       "name": "Xfinity Mobile Roaming IMS",
       "protocol": "IPV4V6",
@@ -24,9 +33,27 @@
       ]
     },
     {
+      "apn": "VZWADMIN",
+      "name": "Xfinity Mobile Roaming FOTA",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IP",
+      "types": [
+        "default"
+      ]
+    },
+    {
+      "apn": "VZWAPP",
+      "name": "Xfinity Mobile Roaming CBS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IP",
+      "types": [
+        "default"
+      ]
+    },
+    {
       "apn": "VZWAPP",
       "mmsc": "http://mms.vzwreseller.com/servlets/mms",
-      "name": "Xfinity Mobile MMS Roaming",
+      "name": "VZWAPP",
       "protocol": "IPV4V6",
       "roaming_protocol": "IP",
       "types": [

@@ -1,0 +1,22 @@
+{
+  "capabilities": {
+    "esim": "unknown",
+    "ims_conference": "unknown",
+    "mms": "unknown",
+    "rcs": "unknown",
+    "sms_over_ims": "unknown",
+    "video_calling": "unknown",
+    "volte": "conditional",
+    "vonr": "unknown",
+    "vowifi": "unknown",
+    "wifi_calling_roaming": "unknown"
+  },
+  "display_name": "LineageOS 312190",
+  "match": {
+    "mccmnc": [
+      "312190"
+    ]
+  },
+  "profile_id": "open.312190.b8c4c2102227",
+  "schema_version": 1
+}

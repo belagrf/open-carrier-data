@@ -12,7 +12,10 @@
     {
       "apn": "vox.wap",
       "authtype": 1,
+      "mmsc": "http://www.vox.com.py/",
+      "mmsproxy": "172.24.97.29",
       "name": "Paraguay:Voxx:Modem",
+      "port": 8080,
       "types": [
         "dun"
       ],

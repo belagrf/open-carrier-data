@@ -39,12 +39,31 @@
       ]
     },
     {
+      "apn": "internet",
+      "name": "T2 Internet",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "default"
+      ]
+    },
+    {
       "apn": "internet.tele2.ru",
       "name": "T2 Internet",
       "protocol": "IPV4V6",
       "roaming_protocol": "IPV4V6",
       "types": [
         "default"
+      ]
+    },
+    {
+      "apn": "mms",
+      "mmsc": "http://mms",
+      "mmsport": 8080,
+      "mmsproxy": "193.12.40.65",
+      "name": "T2 MMS",
+      "types": [
+        "mms"
       ]
     },
     {

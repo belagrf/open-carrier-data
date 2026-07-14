@@ -13,6 +13,9 @@
       ]
     }
   ],
+  "android_carrier_config": {
+    "carrier_default_wfc_ims_mode_int": 2
+  },
   "capabilities": {
     "esim": "unknown",
     "ims_conference": "unknown",
@@ -25,7 +28,7 @@
     "vowifi": "unknown",
     "wifi_calling_roaming": "unknown"
   },
-  "display_name": "Unifique",
+  "display_name": "Carrier 72429",
   "match": {
     "mccmnc": [
       "72429"

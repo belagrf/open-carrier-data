@@ -62,6 +62,19 @@
       "user_editable": false
     },
     {
+      "apn": "wireless.dish.com",
+      "mmsc": "http://wholesale.mmsmvno.com/mms/wapenc",
+      "name": "Internet",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "default",
+        "mms",
+        "supl"
+      ],
+      "user_editable": false
+    },
+    {
       "apn": "xcap",
       "name": "xcap",
       "protocol": "IPV6",
@@ -73,7 +86,6 @@
     }
   ],
   "android_carrier_config": {
-    "carrier_default_wfc_ims_enabled_bool": false,
     "carrier_default_wfc_ims_mode_int": 1,
     "carrier_default_wfc_ims_roaming_enabled_bool": true,
     "carrier_default_wfc_ims_roaming_mode_int": 2,

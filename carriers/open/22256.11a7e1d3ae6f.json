@@ -19,7 +19,12 @@
     },
     "operator_display": {
       "five_g_icon_branding": "UseOneShapedIcon",
-      "five_g_icon_configuration": "connected_mmwave:5G,connected:5G,not_restricted_rrc_idle:5G,not_restricted_rrc_con:5G",
+      "five_g_icon_configuration": [
+        "connected_mmwave:5G",
+        "connected:5G",
+        "not_restricted_rrc_idle:5G",
+        "not_restricted_rrc_con:5G"
+      ],
       "refer_eons_without_lac": true
     }
   },
@@ -49,6 +54,27 @@
     },
     {
       "apn": "web",
+      "name": "spusu",
+      "types": [
+        "bip",
+        "cbs",
+        "dun",
+        "emergency",
+        "enterprise",
+        "fota",
+        "hipri",
+        "ia",
+        "ims",
+        "mcx",
+        "mms",
+        "rcs",
+        "vsim",
+        "xcap"
+      ],
+      "user_editable": false
+    },
+    {
+      "apn": "web",
       "authtype": 0,
       "carrier_enabled": true,
       "mtu": 1500,
@@ -57,7 +83,8 @@
       "roaming_protocol": "IPV4V6",
       "types": [
         "default"
-      ]
+      ],
+      "user_editable": false
     },
     {
       "apn": "web",
@@ -66,14 +93,17 @@
       "roaming_protocol": "IPV4V6",
       "types": [
         "supl"
-      ]
+      ],
+      "user_editable": false
     }
   ],
   "android_carrier_config": {
     "carrier_default_wfc_ims_enabled_bool": true,
     "carrier_default_wfc_ims_mode_int": 1,
+    "carrier_default_wfc_ims_roaming_mode_int": 1,
     "carrier_volte_available_bool": true,
     "carrier_wfc_ims_available_bool": true,
+    "editable_wfc_roaming_mode_bool": true,
     "ims.sip_over_ipsec_enabled_bool": false,
     "iwlan.epdg_static_address_string": "epdg.epc.mnc056.mcc222.pub.3gppnetwork.org",
     "rtt_supported_bool": true,
@@ -93,7 +123,7 @@
     "vowifi": "supported",
     "wifi_calling_roaming": "unknown"
   },
-  "display_name": "Spusu It",
+  "display_name": "Carrier 22256",
   "match": {
     "mccmnc": [
       "22256"

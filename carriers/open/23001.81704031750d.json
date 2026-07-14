@@ -1,0 +1,78 @@
+{
+  "addons": {
+    "emergency_calling": {
+      "e911_routing_policy": "auto",
+      "emergency_dial_call_style": "EndPreviousCall"
+    },
+    "ims": {
+      "support_ims_clir_overriding": true
+    },
+    "network_policy": {
+      "display_antenna_limited": true,
+      "gcf_sor": true,
+      "mobile_network_setting_menu_tokens": [
+        "-voltecall"
+      ],
+      "network_type_capability": "EUR-EUR-GSM-EUR"
+    },
+    "operator_display": {
+      "refer_eons_without_lac": true
+    },
+    "wifi_calling": {
+      "operator_branding": "Wi-Fi vol\u00e1n\u00ed",
+      "operator_style_tokens": [
+        "WFC_TITLE_FROM_CSC",
+        "WFC_DT"
+      ]
+    }
+  },
+  "android_apns": [
+    {
+      "apn": "IMS",
+      "name": "IMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ]
+    },
+    {
+      "apn": "mms.t-mobile.cz",
+      "mmsc": "http://mms",
+      "mmsport": 80,
+      "mmsproxy": "010.000.000.010",
+      "name": "MMS",
+      "protocol": "IP",
+      "roaming_protocol": "IP",
+      "types": [
+        "mms"
+      ]
+    }
+  ],
+  "android_carrier_config": {
+    "carrier_volte_available_bool": true
+  },
+  "capabilities": {
+    "esim": "unknown",
+    "ims_conference": "unknown",
+    "mms": "supported",
+    "rcs": "unknown",
+    "sms_over_ims": "unknown",
+    "video_calling": "unknown",
+    "volte": "supported",
+    "vonr": "unknown",
+    "vowifi": "unknown",
+    "wifi_calling_roaming": "unknown"
+  },
+  "display_name": "T-Mobile CZ",
+  "match": {
+    "mccmnc": [
+      "23001"
+    ],
+    "spn": [
+      "T-Mobile CZ"
+    ]
+  },
+  "profile_id": "open.23001.81704031750d",
+  "schema_version": 1
+}

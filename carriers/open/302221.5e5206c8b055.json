@@ -2,15 +2,6 @@
   "android_apns": [
     {
       "apn": "ims",
-      "name": "Koodo",
-      "protocol": "IPV4V6",
-      "roaming_protocol": "IPV4V6",
-      "types": [
-        "ims"
-      ]
-    },
-    {
-      "apn": "ims",
       "bearer_bitmask": "3|9|10|11|14|15|18|20",
       "name": "Koodo IMS",
       "protocol": "IPV6",
@@ -48,6 +39,23 @@
     },
     {
       "apn": "sp.koodo.com",
+      "bearer_bitmask": "1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17",
+      "mmsc": "http://aliasredirect.net/proxy/koodo/mmsc",
+      "mmsport": 8799,
+      "mmsproxy": "mmscproxy.mobility.ca",
+      "name": "Koodo SP",
+      "protocol": "IP",
+      "roaming_protocol": "IP",
+      "types": [
+        "default",
+        "dun",
+        "ia",
+        "mms"
+      ],
+      "user_editable": false
+    },
+    {
+      "apn": "sp.koodo.com",
       "bearer_bitmask": "1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|17|20",
       "mmsc": "http://aliasredirect.net/proxy/koodo/mmsc",
       "mmsport": 8799,
@@ -80,12 +88,11 @@
     "always_play_remote_hold_tone_bool": true,
     "carrier_default_wfc_ims_mode_int": 1,
     "carrier_default_wfc_ims_roaming_mode_int": 1,
-    "carrier_supports_ss_over_ut_bool": true,
     "carrier_volte_available_bool": true,
+    "carrier_volte_tty_supported_bool": false,
     "carrier_wfc_ims_available_bool": true,
     "editable_wfc_mode_bool": false,
     "enabledMMS": true,
-    "hide_enhanced_4g_lte_bool": true,
     "ims_conference_size_limit_int": 2,
     "imsvoice.conference_factory_uri_string": "factory@conference.ims.mnc220.mcc302.3gppnetwork.org",
     "imsvoice.conference_subscribe_type_int": 0,

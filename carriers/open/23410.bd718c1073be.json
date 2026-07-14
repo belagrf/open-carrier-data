@@ -2,17 +2,15 @@
   "android_apns": [
     {
       "apn": "giffgaff.com",
-      "authtype": 1,
       "mmsc": "http://mmsc.mediamessaging.co.uk:8002",
       "name": "giffgaff",
-      "password": "p",
-      "protocol": "IPV4V6",
-      "roaming_protocol": "IPV4V6",
+      "password": "password",
       "types": [
-        "default",
-        "mms"
+        "dun",
+        "hipri",
+        "supl"
       ],
-      "user": "gg"
+      "user": "giffgaff"
     },
     {
       "apn": "ims",
@@ -34,8 +32,7 @@
     "carrier_wfc_ims_available_bool": true,
     "read_only_apn_types_string_array": [],
     "show_wifi_calling_icon_in_status_bar_bool": true,
-    "smsToMmsTextThreshold": 10,
-    "wfc_spn_format_idx_int": 1
+    "smsToMmsTextThreshold": 10
   },
   "capabilities": {
     "esim": "unknown",

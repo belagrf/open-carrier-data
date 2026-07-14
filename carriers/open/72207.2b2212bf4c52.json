@@ -39,6 +39,16 @@
       "user": "internet"
     },
     {
+      "apn": "internet.gprs.unifon.com.ar",
+      "authtype": 1,
+      "name": "Argentina:Movistar:INTERNET",
+      "password": "internet",
+      "types": [
+        "dun"
+      ],
+      "user": "internet"
+    },
+    {
       "apn": "mms.gprs.unifon.com.ar",
       "authtype": 1,
       "carrier_id": 1337,
@@ -121,9 +131,17 @@
     }
   ],
   "android_carrier_config": {
+    "carrier_default_wfc_ims_enabled_bool": true,
     "carrier_volte_available_bool": true,
     "carrier_vt_available_bool": true,
-    "carrier_wfc_ims_available_bool": true
+    "carrier_wfc_ims_available_bool": true,
+    "maxMessageSize": 307200,
+    "read_only_apn_types_string_array": [
+      "default",
+      "supl",
+      "mms",
+      "ims"
+    ]
   },
   "capabilities": {
     "esim": "unknown",

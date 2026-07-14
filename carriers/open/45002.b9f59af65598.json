@@ -22,6 +22,7 @@
       "apn": "lte.ktfwing.com",
       "mmsc": "http://mmsc.ktfwing.com:9082",
       "name": "KT",
+      "port": 80,
       "server": "*",
       "types": [
         "cbs",
@@ -33,11 +34,16 @@
     }
   ],
   "android_carrier_config": {
-    "enableSMSDeliveryReports": false,
+    "allow_hold_call_during_emergency_bool": false,
+    "carrier_allow_turnoff_ims_bool": false,
+    "carrier_vt_available_bool": true,
+    "enableMMSDeliveryReports": false,
+    "enableMMSReadReports": false,
     "enabledMMS": true,
     "maxImageHeight": 1944,
     "maxImageWidth": 2592,
     "maxMessageSize": 1048576,
+    "maxSubjectLength": 80,
     "recipientLimit": 20,
     "support_conference_call_bool": false
   },
@@ -47,8 +53,8 @@
     "mms": "supported",
     "rcs": "unknown",
     "sms_over_ims": "unknown",
-    "video_calling": "unknown",
-    "volte": "unknown",
+    "video_calling": "supported",
+    "volte": "conditional",
     "vonr": "unknown",
     "vowifi": "unknown",
     "wifi_calling_roaming": "unknown"

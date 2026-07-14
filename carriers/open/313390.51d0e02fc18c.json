@@ -24,6 +24,17 @@
       "user_visible": false
     },
     {
+      "apn": "ims",
+      "bearer_bitmask": "14|20",
+      "name": "IMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ],
+      "user_visible": false
+    },
+    {
       "apn": "mms",
       "mmsc": "http://mms.altice.com/mmsc/MMS",
       "name": "Optimum MMS",
@@ -43,11 +54,18 @@
     }
   ],
   "android_carrier_config": {
+    "carrier_default_wfc_ims_enabled_bool": true,
+    "carrier_default_wfc_ims_roaming_enabled_bool": true,
     "carrier_supports_ss_over_ut_bool": true,
     "carrier_volte_available_bool": true,
+    "carrier_volte_tty_supported_bool": false,
     "carrier_wfc_ims_available_bool": true,
+    "editable_enhanced_4g_lte_bool": false,
+    "editable_wfc_roaming_mode_bool": true,
     "enabledMMS": true,
+    "enhanced_4g_lte_on_by_default_bool": true,
     "hide_enhanced_4g_lte_bool": true,
+    "hide_ims_apn_bool": true,
     "iwlan.epdg_static_address_string": "EPDG.EPC.mnc390.mcc313.pub.3gppnetwork.org",
     "maxMessageSize": 1048576,
     "recipientLimit": 20,
@@ -64,7 +82,7 @@
     "volte": "supported",
     "vonr": "unknown",
     "vowifi": "supported",
-    "wifi_calling_roaming": "unknown"
+    "wifi_calling_roaming": "supported"
   },
   "display_name": "Carrier 313390",
   "match": {

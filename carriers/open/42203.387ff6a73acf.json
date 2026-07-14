@@ -65,6 +65,11 @@
     }
   ],
   "android_carrier_config": {
+    "carrier_metered_apn_types_strings": [
+      "default",
+      "dun",
+      "supl"
+    ],
     "carrier_volte_available_bool": true,
     "enabledMMS": true,
     "imssms.sms_over_ims_supported_bool": true,

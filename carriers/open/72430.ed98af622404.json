@@ -24,6 +24,9 @@
       "user": "oimms"
     }
   ],
+  "android_carrier_config": {
+    "hide_ims_apn_bool": false
+  },
   "capabilities": {
     "esim": "unknown",
     "ims_conference": "unknown",
@@ -36,7 +39,7 @@
     "vowifi": "unknown",
     "wifi_calling_roaming": "unknown"
   },
-  "display_name": "Oi Br",
+  "display_name": "Carrier 72430",
   "match": {
     "mccmnc": [
       "72430"

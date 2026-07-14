@@ -9,6 +9,14 @@
         "default",
         "supl"
       ]
+    },
+    {
+      "apn": "internet.ziggo.nl",
+      "name": "Ziggo mobiel internet",
+      "types": [
+        "default",
+        "supl"
+      ]
     }
   ],
   "capabilities": {
@@ -23,7 +31,7 @@
     "vowifi": "unknown",
     "wifi_calling_roaming": "unknown"
   },
-  "display_name": "Telfort Nl",
+  "display_name": "Carrier 20418",
   "match": {
     "mccmnc": [
       "20418"

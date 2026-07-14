@@ -25,6 +25,14 @@
       ]
     },
     {
+      "apn": "Yu internet",
+      "name": "Yu WAP",
+      "types": [
+        "default",
+        "supl"
+      ]
+    },
+    {
       "apn": "internet",
       "name": "yu",
       "port": 8080,

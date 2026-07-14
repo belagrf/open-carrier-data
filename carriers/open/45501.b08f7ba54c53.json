@@ -12,8 +12,7 @@
         "+datapreferduringcalling",
         "-voltecall"
       ],
-      "network_selection_menu_style": "NUMERIC",
-      "network_type_capability": "TGY-TGY-GSM-HKG"
+      "network_selection_menu_style": "NUMERIC"
     },
     "operator_display": {
       "five_g_icon_branding": "UseOneShapedIcon",
@@ -34,6 +33,13 @@
       "name": "CTM Data",
       "protocol": "IPV4V6",
       "roaming_protocol": "IPV4V6",
+      "types": [
+        "default"
+      ]
+    },
+    {
+      "apn": "ctm-mobile.t",
+      "name": "CTM Time-Based",
       "types": [
         "default"
       ]

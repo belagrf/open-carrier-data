@@ -30,6 +30,7 @@
     {
       "apn": "ims",
       "name": "Alfa IMS",
+      "protocol": "IP",
       "types": [
         "ims"
       ]

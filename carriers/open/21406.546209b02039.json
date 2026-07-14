@@ -1,0 +1,51 @@
+{
+  "android_apns": [
+    {
+      "apn": "gprs.eroskimovil.es",
+      "authtype": 1,
+      "name": "Eroski Movil GPRS",
+      "password": "wap125",
+      "types": [
+        "default",
+        "supl"
+      ],
+      "user": "wap@wap"
+    },
+    {
+      "apn": "mms.eroskimovil.es",
+      "authtype": 1,
+      "mmsc": "http://mms.eroskimovil.es/servlets/mms",
+      "mmsport": 80,
+      "mmsproxy": "212.73.32.10",
+      "name": "Eroski Movil MMS",
+      "password": "wap125",
+      "types": [
+        "mms"
+      ],
+      "user": "wap@wap"
+    }
+  ],
+  "capabilities": {
+    "esim": "unknown",
+    "ims_conference": "unknown",
+    "mms": "supported",
+    "rcs": "unknown",
+    "sms_over_ims": "unknown",
+    "video_calling": "unknown",
+    "volte": "unknown",
+    "vonr": "unknown",
+    "vowifi": "unknown",
+    "wifi_calling_roaming": "unknown"
+  },
+  "display_name": "21406Imsi=2140606",
+  "match": {
+    "imsi_prefix_patterns": [
+      "2140606"
+    ],
+    "mccmnc": [
+      "21406"
+    ]
+  },
+  "profile_id": "open.21406.546209b02039",
+  "schema_version": 1
+}

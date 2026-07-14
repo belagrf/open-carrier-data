@@ -15,6 +15,7 @@
       "apn": "rcomnet",
       "name": "rcomnet",
       "protocol": "IPV4V6",
+      "roaming_protocol": "IP",
       "types": [
         "default",
         "dun",

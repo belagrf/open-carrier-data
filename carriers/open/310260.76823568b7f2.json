@@ -26,6 +26,17 @@
       "user_visible": false
     },
     {
+      "apn": "ims",
+      "bearer_bitmask": "1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17",
+      "mtu": 1440,
+      "name": "IMS",
+      "protocol": "IPV6",
+      "types": [
+        "ims"
+      ],
+      "user_visible": false
+    },
+    {
       "apn": "wholesale",
       "mmsc": "http://wholesale.mmsmvno.com/mms/wapenc",
       "name": "Red Pocket Mobile",
@@ -39,6 +50,7 @@
   "android_carrier_config": {
     "carrier_ims_gba_required_bool": true,
     "carrier_volte_available_bool": true,
+    "carrier_volte_tty_supported_bool": false,
     "carrier_wfc_ims_available_bool": true,
     "imsvoice.conference_factory_uri_string": "8881112663@msg.pc.t-mobile.com",
     "maxImageHeight": 1944,

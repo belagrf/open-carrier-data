@@ -3,26 +3,6 @@
     {
       "apn": "ims",
       "bearer_bitmask": "1|2|3|9|10|11|13|14|15|18|20",
-      "name": "IMS",
-      "protocol": "IPV6",
-      "roaming_protocol": "IPV4V6",
-      "types": [
-        "ims"
-      ],
-      "user_visible": false
-    },
-    {
-      "apn": "ims",
-      "name": "Rogers",
-      "protocol": "IPV6",
-      "roaming_protocol": "IPV6",
-      "types": [
-        "ims"
-      ]
-    },
-    {
-      "apn": "ims",
-      "bearer_bitmask": "1|2|3|9|10|11|13|14|15|18|20",
       "carrier_id": 1403,
       "name": "Rogers IMS",
       "protocol": "IPV6",
@@ -51,24 +31,13 @@
       "user_editable": false
     },
     {
-      "apn": "ltedata.apn",
-      "name": "Rogers Tethering",
-      "protocol": "IPV6",
-      "roaming_protocol": "IPV4V6",
-      "types": [
-        "dun"
-      ],
-      "user_editable": false
-    },
-    {
       "apn": "ltemobile.apn",
-      "bearer_bitmask": "1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|17|20",
-      "carrier_id": 1403,
+      "bearer_bitmask": "1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17",
       "mmsc": "http://mms.gprs.rogers.com",
       "mmsport": 80,
       "mmsproxy": "mmsproxy.rogers.com",
       "name": "Rogers Internet",
-      "protocol": "IPV6",
+      "protocol": "IPV4V6",
       "roaming_protocol": "IPV4V6",
       "types": [
         "default",
@@ -82,6 +51,7 @@
     {
       "apn": "ltemobile.apn",
       "bearer_bitmask": "1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|17|20",
+      "carrier_id": 1403,
       "mmsc": "http://mms.gprs.rogers.com",
       "mmsport": 80,
       "mmsproxy": "mmsproxy.rogers.com",
@@ -810,6 +780,7 @@
     "carrier_default_wfc_ims_roaming_enabled_bool": true,
     "carrier_supports_ss_over_ut_bool": true,
     "carrier_volte_available_bool": true,
+    "carrier_volte_tty_supported_bool": false,
     "carrier_wfc_ims_available_bool": true,
     "enabledMMS": true,
     "hide_enhanced_4g_lte_bool": true,
@@ -820,9 +791,8 @@
     "maxImageWidth": 2592,
     "maxMessageSize": 1048576,
     "maxSubjectLength": 80,
-    "read_only_apn_types_string_array": [],
     "recipientLimit": 20,
-    "smsToMmsTextThreshold": 6,
+    "support_video_conference_call_bool": true,
     "wfc_spn_format_idx_int": 1
   },
   "capabilities": {

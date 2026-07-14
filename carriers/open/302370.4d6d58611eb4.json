@@ -1,5 +1,8 @@
 {
   "addons": {
+    "emergency_calling": {
+      "e911_routing_policy": "auto"
+    },
     "network_policy": {
       "display_antenna_limited": true,
       "gcf_sor": true
@@ -16,45 +19,6 @@
     }
   },
   "android_apns": [
-    {
-      "apn": "ims",
-      "name": "IMS",
-      "protocol": "IPV6",
-      "roaming_protocol": "IPV4V6",
-      "types": [
-        "ims"
-      ]
-    },
-    {
-      "apn": "ltedata.apn",
-      "name": "Fido Tethering",
-      "protocol": "IPV6",
-      "roaming_protocol": "IPV4V6",
-      "types": [
-        "default"
-      ]
-    },
-    {
-      "apn": "ltemobile.apn",
-      "name": "Fido Internet",
-      "protocol": "IPV6",
-      "roaming_protocol": "IPV4V6",
-      "types": [
-        "default"
-      ]
-    },
-    {
-      "apn": "ltemobile.apn",
-      "mmsc": "http://mms.fido.ca",
-      "mmsport": 80,
-      "mmsproxy": "mmsproxy.fido.ca",
-      "name": "Fido MMS",
-      "protocol": "IPV6",
-      "roaming_protocol": "IPV4V6",
-      "types": [
-        "mms"
-      ]
-    },
     {
       "apn": "netsvcs",
       "mmsc": "http://mms.fido.ca",

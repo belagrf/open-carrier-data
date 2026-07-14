@@ -2,6 +2,20 @@
   "android_apns": [
     {
       "apn": "home.cww.com",
+      "bearer_bitmask": "4|5|6|7|8|12",
+      "mmsc": "http://mms.cwwmms.com/cww/mms.php",
+      "mmsport": 80,
+      "name": "Carolina West Internet",
+      "types": [
+        "cbs",
+        "default",
+        "ims",
+        "mms",
+        "supl"
+      ]
+    },
+    {
+      "apn": "home.cww.com",
       "name": "Carolina West Wireless",
       "protocol": "IPV4V6",
       "roaming_protocol": "IPV4V6",
@@ -32,6 +46,17 @@
     {
       "apn": "ims",
       "bearer_bitmask": "14|18|20",
+      "name": "IMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ],
+      "user_visible": false
+    },
+    {
+      "apn": "ims",
+      "bearer_bitmask": "14|20",
       "name": "IMS",
       "protocol": "IPV4V6",
       "roaming_protocol": "IPV4V6",
@@ -73,6 +98,15 @@
     },
     {
       "apn": "tethering.cww.com",
+      "bearer_bitmask": "4|5|6|7|8|12",
+      "name": "Carolina West Tethering",
+      "types": [
+        "dun"
+      ],
+      "user_editable": false
+    },
+    {
+      "apn": "tethering.cww.com",
       "name": "Carolina West Tethering",
       "protocol": "IPV4V6",
       "roaming_protocol": "IPV4V6",
@@ -87,12 +121,14 @@
     "carrier_supports_ss_over_ut_bool": true,
     "carrier_volte_available_bool": true,
     "carrier_wfc_ims_available_bool": true,
+    "enableMultipartSMS": true,
     "enabledMMS": true,
     "httpParams": "X-MDN: ##LINE1##",
     "imssms.sms_over_ims_supported_bool": true,
     "maxImageHeight": 2432,
     "maxImageWidth": 4320,
     "maxMessageSize": 1048576,
+    "maxMessageTextSize": -1,
     "maxSubjectLength": 80,
     "smsToMmsTextThreshold": 1,
     "wfc_spn_format_idx_int": 1

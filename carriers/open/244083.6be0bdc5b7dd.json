@@ -1,0 +1,26 @@
+{
+  "android_carrier_config": {
+    "carrier_volte_available_bool": true,
+    "carrier_vt_available_bool": true
+  },
+  "capabilities": {
+    "esim": "unknown",
+    "ims_conference": "unknown",
+    "mms": "unknown",
+    "rcs": "unknown",
+    "sms_over_ims": "unknown",
+    "video_calling": "supported",
+    "volte": "supported",
+    "vonr": "unknown",
+    "vowifi": "unknown",
+    "wifi_calling_roaming": "unknown"
+  },
+  "display_name": "LineageOS 244083",
+  "match": {
+    "mccmnc": [
+      "244083"
+    ]
+  },
+  "profile_id": "open.244083.6be0bdc5b7dd",
+  "schema_version": 1
+}

@@ -13,6 +13,15 @@
       ]
     }
   ],
+  "android_carrier_config": {
+    "carrier_default_wfc_ims_mode_int": 1,
+    "carrier_default_wfc_ims_roaming_mode_int": 1,
+    "carrier_volte_available_bool": true,
+    "carrier_wfc_ims_available_bool": true,
+    "enhanced_4g_lte_on_by_default_bool": true,
+    "show_wifi_calling_icon_in_status_bar_bool": true,
+    "smsToMmsTextThreshold": 5
+  },
   "capabilities": {
     "esim": "unknown",
     "ims_conference": "unknown",
@@ -20,12 +29,12 @@
     "rcs": "unknown",
     "sms_over_ims": "unknown",
     "video_calling": "unknown",
-    "volte": "unknown",
+    "volte": "supported",
     "vonr": "unknown",
-    "vowifi": "unknown",
+    "vowifi": "supported",
     "wifi_calling_roaming": "unknown"
   },
-  "display_name": "Tesco",
+  "display_name": "Carrier 27210",
   "match": {
     "mccmnc": [
       "27210"

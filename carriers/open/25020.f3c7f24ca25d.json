@@ -22,7 +22,7 @@
   "android_apns": [
     {
       "apn": "hos",
-      "name": "Rostelecom XCAP",
+      "name": "hos",
       "protocol": "IPV4V6",
       "roaming_protocol": "IPV4V6",
       "types": [
@@ -31,7 +31,7 @@
     },
     {
       "apn": "ims",
-      "name": "Rostelecom IMS",
+      "name": "ims",
       "protocol": "IPV4V6",
       "roaming_protocol": "IPV4V6",
       "types": [

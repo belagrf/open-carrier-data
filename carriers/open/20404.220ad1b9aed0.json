@@ -5,13 +5,6 @@
       "emergency_dial_call_style": "BlockRecent,BlockLog,DisableMuteHold"
     },
     "network_policy": {
-      "mobile_network_setting_menu_tokens": [
-        "-cdmasystemselect",
-        "-voltecall",
-        "-preferrednetworkmode",
-        "+allow5gService",
-        "+autoSwitchNr5gMode"
-      ],
       "network_type_capability": "VZW-CHA-GLB-USA",
       "voice_network_setting_style": "SystemSelectionAutoAB"
     },
@@ -22,12 +15,39 @@
   },
   "android_apns": [
     {
+      "apn": "CHARTER.RSLR.VZWENTP",
+      "name": "CHARTER.RSLR.VZWENTP",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IP",
+      "types": [
+        "default"
+      ]
+    },
+    {
       "apn": "IMS",
       "name": "Charter IMS",
       "protocol": "IPV4V6",
       "roaming_protocol": "IPV6",
       "types": [
         "ims"
+      ]
+    },
+    {
+      "apn": "VZWADMIN",
+      "name": "Charter FOTA",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IP",
+      "types": [
+        "default"
+      ]
+    },
+    {
+      "apn": "VZWAPP",
+      "name": "Charter CBS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IP",
+      "types": [
+        "default"
       ]
     },
     {

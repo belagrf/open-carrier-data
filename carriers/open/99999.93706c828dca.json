@@ -1,19 +1,17 @@
 {
   "addons": {
     "emergency_calling": {
-      "e911_routing_policy": "auto"
+      "e911_routing_policy": "auto",
+      "emergency_dial_call_style": "DisableMuteHold,BlockAddCall,EndPreviousCall,E911Wificall,NoWaitInSvcE911"
     },
     "network_policy": {
       "display_antenna_limited": true,
-      "mobile_network_setting_menu_tokens": [
-        "-cdmasystemselect",
-        "-voltecall",
-        "-preferrednetworkmode",
-        "+allow2gService",
-        "+allow5gService",
-        "+vonrcall"
-      ],
-      "network_type_capability": "TMO-TMO-GSM-USA"
+      "gcf_sor": true,
+      "network_type_capability": "TMO-TMO-GSM-USA",
+      "voice_network_setting_style": "UsaGsmNetworkSetting,AutoSelectionWhenBootup,CdmaSubscriptionEnable,SupportDataPopup,SupportInternationalRoamingNotification,NetworkSetting_TMO"
+    },
+    "operator_display": {
+      "indicator_icon_branding": "TMB"
     }
   },
   "android_apns": [

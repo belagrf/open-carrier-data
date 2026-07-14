@@ -11,6 +11,9 @@
       ]
     }
   ],
+  "android_carrier_config": {
+    "smsToMmsTextThreshold": 10
+  },
   "capabilities": {
     "esim": "unknown",
     "ims_conference": "unknown",
@@ -23,7 +26,7 @@
     "vowifi": "unknown",
     "wifi_calling_roaming": "unknown"
   },
-  "display_name": "NCC",
+  "display_name": "Carrier 25003",
   "match": {
     "mccmnc": [
       "25003"

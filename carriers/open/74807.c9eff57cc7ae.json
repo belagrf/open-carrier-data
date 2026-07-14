@@ -27,8 +27,7 @@
     "carrier_volte_available_bool": true,
     "carrier_vt_available_bool": true,
     "carrier_wfc_ims_available_bool": true,
-    "enabledMMS": true,
-    "maxMessageSize": 307200
+    "enabledMMS": true
   },
   "capabilities": {
     "esim": "unknown",

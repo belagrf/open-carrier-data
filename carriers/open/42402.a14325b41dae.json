@@ -2,7 +2,8 @@
   "android_apns": [
     {
       "apn": "etisalat",
-      "name": "Etisalat WAP",
+      "authtype": 1,
+      "name": "etisalat",
       "port": 8080,
       "proxy": "10.12.0.32",
       "types": [
@@ -78,6 +79,11 @@
   "android_carrier_config": {
     "carrier_default_wfc_ims_enabled_bool": true,
     "carrier_default_wfc_ims_mode_int": 1,
+    "carrier_metered_apn_types_strings": [
+      "default",
+      "dun",
+      "supl"
+    ],
     "carrier_supports_ss_over_ut_bool": true,
     "carrier_volte_available_bool": true,
     "carrier_wfc_ims_available_bool": true,

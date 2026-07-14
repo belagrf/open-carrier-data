@@ -20,7 +20,12 @@
     },
     "operator_display": {
       "five_g_icon_branding": "UseOneShapedIcon",
-      "five_g_icon_configuration": "connected_mmwave:5G,connected:5G,not_restricted_rrc_idle:5G,not_restricted_rrc_con:5G",
+      "five_g_icon_configuration": [
+        "connected_mmwave:5G",
+        "connected:5G",
+        "not_restricted_rrc_idle:5G",
+        "not_restricted_rrc_con:5G"
+      ],
       "refer_eons_without_lac": true
     }
   },
@@ -74,23 +79,6 @@
       "mmsc": "http://mms.vodafone.pt/servlets/mms",
       "mmsport": 80,
       "mmsproxy": "iproxy.vodafone.pt",
-      "name": "net2.vodafone.pt",
-      "password": "vodafone",
-      "port": 80,
-      "protocol": "IPV4V6",
-      "proxy": "iproxy.vodafone.pt",
-      "types": [
-        "supl"
-      ],
-      "user": "vodafone"
-    },
-    {
-      "apn": "net2.vodafone.pt",
-      "authtype": 0,
-      "carrier_enabled": true,
-      "mmsc": "http://mms.vodafone.pt/servlets/mms",
-      "mmsport": 80,
-      "mmsproxy": "iproxy.vodafone.pt",
       "name": "Vodafone Net2",
       "protocol": "IPV4V6",
       "types": [
@@ -123,15 +111,30 @@
     }
   ],
   "android_carrier_config": {
+    "carrier_allow_transfer_ims_call_bool": true,
+    "carrier_metered_apn_types_strings": [
+      "default",
+      "dun",
+      "supl"
+    ],
+    "carrier_metered_roaming_apn_types_strings": [
+      "default",
+      "dun",
+      "supl"
+    ],
     "carrier_supports_ss_over_ut_bool": true,
-    "carrier_volte_available_bool": true,
+    "editable_enhanced_4g_lte_bool": false,
     "enabledMMS": true,
+    "enhanced_4g_lte_on_by_default_bool": true,
     "hide_enhanced_4g_lte_bool": true,
     "ims_reasoninfo_mapping_string_array": [
       "338|busy everywhere|1017",
       "510|Call completed elsewhere|1014"
     ],
     "maxMessageSize": 614400,
+    "read_only_apn_types_string_array": [
+      "*"
+    ],
     "recipientLimit": 10,
     "rtt_supported_bool": true,
     "rtt_supported_while_roaming_bool": true,
@@ -145,7 +148,7 @@
     "rcs": "unknown",
     "sms_over_ims": "unknown",
     "video_calling": "unknown",
-    "volte": "supported",
+    "volte": "conditional",
     "vonr": "unknown",
     "vowifi": "unknown",
     "wifi_calling_roaming": "unknown"

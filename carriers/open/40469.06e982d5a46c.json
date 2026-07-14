@@ -50,6 +50,7 @@
       "port": 9401,
       "protocol": "IPV4V6",
       "proxy": "10.10.10.10",
+      "roaming_protocol": "IP",
       "types": [
         "default",
         "supl"
@@ -66,6 +67,7 @@
       "name": "mtnl.net",
       "password": "mtnl123",
       "protocol": "IPV4V6",
+      "roaming_protocol": "IP",
       "types": [
         "dun",
         "fota",

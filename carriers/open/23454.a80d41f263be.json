@@ -1,4 +1,12 @@
 {
+  "android_carrier_config": {
+    "read_only_apn_types_string_array": [
+      "ims"
+    ],
+    "rtt_supported_bool": true,
+    "show_ims_registration_status_bool": true,
+    "support_video_conference_call_bool": true
+  },
   "capabilities": {
     "esim": "unknown",
     "ims_conference": "unknown",
@@ -11,7 +19,7 @@
     "vowifi": "unknown",
     "wifi_calling_roaming": "unknown"
   },
-  "display_name": "iD Mobile",
+  "display_name": "Carrier 23454",
   "match": {
     "mccmnc": [
       "23454"

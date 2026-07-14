@@ -1,0 +1,25 @@
+{
+  "android_carrier_config": {
+    "carrier_volte_available_bool": true
+  },
+  "capabilities": {
+    "esim": "unknown",
+    "ims_conference": "unknown",
+    "mms": "unknown",
+    "rcs": "unknown",
+    "sms_over_ims": "unknown",
+    "video_calling": "unknown",
+    "volte": "supported",
+    "vonr": "unknown",
+    "vowifi": "unknown",
+    "wifi_calling_roaming": "unknown"
+  },
+  "display_name": "LineageOS 42707",
+  "match": {
+    "mccmnc": [
+      "42707"
+    ]
+  },
+  "profile_id": "open.42707.56008ec92885",
+  "schema_version": 1
+}

@@ -33,6 +33,12 @@
       "user": "wap@wap.mtsindia.in"
     }
   ],
+  "android_carrier_config": {
+    "carrier_default_wfc_ims_enabled_bool": true,
+    "carrier_default_wfc_ims_mode_int": 1,
+    "carrier_default_wfc_ims_roaming_mode_int": 1,
+    "support_video_conference_call_bool": true
+  },
   "capabilities": {
     "esim": "unknown",
     "ims_conference": "unknown",

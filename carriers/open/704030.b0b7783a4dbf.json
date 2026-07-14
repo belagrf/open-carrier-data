@@ -25,6 +25,13 @@
       "user": "movistargt"
     }
   ],
+  "android_carrier_config": {
+    "read_only_apn_types_string_array": [
+      "default",
+      "supl",
+      "ims"
+    ]
+  },
   "capabilities": {
     "esim": "unknown",
     "ims_conference": "unknown",

@@ -12,7 +12,12 @@
       "network_type_capability": "EUR-EUR-GSM-EUR"
     },
     "operator_display": {
-      "five_g_icon_configuration": "connected_mmwave:5G,connected:5G,not_restricted_rrc_idle:5G,not_restricted_rrc_con:5G",
+      "five_g_icon_configuration": [
+        "connected_mmwave:5G",
+        "connected:5G",
+        "not_restricted_rrc_idle:5G",
+        "not_restricted_rrc_con:5G"
+      ],
       "refer_eons_without_lac": true
     }
   },
@@ -55,6 +60,17 @@
     {
       "apn": "ims",
       "bearer_bitmask": "14|18|20",
+      "name": "IMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ],
+      "user_visible": false
+    },
+    {
+      "apn": "ims",
+      "bearer_bitmask": "14|20",
       "name": "IMS",
       "protocol": "IPV4V6",
       "roaming_protocol": "IPV4V6",
@@ -117,6 +133,7 @@
       "apn": "internet.lmt.lv",
       "authtype": 1,
       "carrier_enabled": true,
+      "mmsc": "http://mmsc.lmt.lv/mmsc",
       "name": "internet.lmt.lv",
       "protocol": "IPV4V6",
       "roaming_protocol": "IPV4V6",
@@ -132,11 +149,6 @@
     "carrier_vt_available_bool": true,
     "carrier_wfc_ims_available_bool": true,
     "enabledMMS": true,
-    "hide_enhanced_4g_lte_bool": true,
-    "ims_reasoninfo_mapping_string_array": [
-      "338|busy everywhere|1017",
-      "510|Call completed elsewhere|1014"
-    ],
     "maxMessageSize": 307200,
     "rtt_supported_bool": true,
     "rtt_supported_while_roaming_bool": true,

@@ -6,6 +6,7 @@
       "mmsport": 80,
       "mmsproxy": "proxy.mobile.att.net",
       "name": "Defense Mobile",
+      "protocol": "IP",
       "types": [
         "default",
         "mms",

@@ -19,12 +19,30 @@
       ]
     },
     {
+      "apn": "ims",
+      "name": "ims",
+      "profile_id": 1,
+      "protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ]
+    },
+    {
       "apn": "ims.alkaa",
       "name": "ims.alkaa",
       "profile_id": 1,
       "protocol": "IPV4V6",
       "types": [
         "ims"
+      ]
+    },
+    {
+      "apn": "internet",
+      "name": "internet",
+      "profile_id": 0,
+      "protocol": "IPV4V6",
+      "types": [
+        "default"
       ]
     },
     {
@@ -56,7 +74,7 @@
     "vowifi": "supported",
     "wifi_calling_roaming": "unknown"
   },
-  "display_name": "Google5Glab Us",
+  "display_name": "Carrier 262830",
   "match": {
     "mccmnc": [
       "262830"

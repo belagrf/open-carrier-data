@@ -1,9 +1,9 @@
 {
   "android_carrier_config": {
-    "carrier_volte_available_bool": true,
     "maxImageHeight": 1944,
     "maxImageWidth": 2592,
-    "maxMessageSize": 1048576
+    "maxMessageSize": 1048576,
+    "maxSubjectLength": 80
   },
   "capabilities": {
     "esim": "unknown",
@@ -12,12 +12,12 @@
     "rcs": "unknown",
     "sms_over_ims": "unknown",
     "video_calling": "unknown",
-    "volte": "supported",
+    "volte": "conditional",
     "vonr": "unknown",
     "vowifi": "unknown",
     "wifi_calling_roaming": "unknown"
   },
-  "display_name": "45000",
+  "display_name": "Carrier 45000",
   "match": {
     "mccmnc": [
       "45000"

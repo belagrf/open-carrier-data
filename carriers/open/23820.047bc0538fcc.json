@@ -1,0 +1,68 @@
+{
+  "android_apns": [
+    {
+      "apn": "ims",
+      "bearer_bitmask": "14|18|20",
+      "name": "ims",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ],
+      "user_visible": false
+    },
+    {
+      "apn": "www.internet.mtelia.dk",
+      "authtype": 0,
+      "name": "Telia SurfPort",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "default",
+        "supl"
+      ]
+    },
+    {
+      "apn": "www.mms.mtelia.dk",
+      "authtype": 0,
+      "mmsc": "http://mms.telia.dk",
+      "mmsport": 8080,
+      "mmsproxy": "193.209.134.131",
+      "name": "Telia MMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "mms"
+      ]
+    }
+  ],
+  "android_carrier_config": {
+    "carrier_default_wfc_ims_mode_int": 1,
+    "carrier_volte_available_bool": false,
+    "is_ims_conference_size_enforced_bool": true,
+    "maxMessageSize": 1048576
+  },
+  "capabilities": {
+    "esim": "unknown",
+    "ims_conference": "unknown",
+    "mms": "supported",
+    "rcs": "unknown",
+    "sms_over_ims": "unknown",
+    "video_calling": "unknown",
+    "volte": "unsupported",
+    "vonr": "unknown",
+    "vowifi": "unknown",
+    "wifi_calling_roaming": "unknown"
+  },
+  "display_name": "Telia Dk",
+  "match": {
+    "imsi_prefix_patterns": [
+      "2382030"
+    ],
+    "mccmnc": [
+      "23820"
+    ]
+  },
+  "profile_id": "open.23820.047bc0538fcc",
+  "schema_version": 1
+}

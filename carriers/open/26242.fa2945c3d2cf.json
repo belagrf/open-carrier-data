@@ -2,11 +2,15 @@
   "android_apns": [
     {
       "apn": "truphone.com",
+      "mmsc": "http://mmsc.truphone.com:1981/mm1",
       "name": "Truphone",
       "types": [
         "default",
-        "dun"
-      ]
+        "dun",
+        "mms",
+        "supl"
+      ],
+      "user_editable": false
     }
   ],
   "android_carrier_config": {
@@ -17,7 +21,7 @@
   "capabilities": {
     "esim": "unknown",
     "ims_conference": "unknown",
-    "mms": "unknown",
+    "mms": "supported",
     "rcs": "unknown",
     "sms_over_ims": "supported",
     "video_calling": "unknown",

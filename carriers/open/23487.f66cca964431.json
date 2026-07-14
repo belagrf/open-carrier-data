@@ -29,7 +29,6 @@
     }
   ],
   "android_carrier_config": {
-    "carrier_default_wfc_ims_mode_int": 1,
     "carrier_volte_available_bool": true,
     "carrier_wfc_ims_available_bool": true,
     "hide_enhanced_4g_lte_bool": true,
@@ -52,7 +51,7 @@
     "vowifi": "supported",
     "wifi_calling_roaming": "unknown"
   },
-  "display_name": "Lebara Gb",
+  "display_name": "Carrier 23487",
   "match": {
     "mccmnc": [
       "23487"

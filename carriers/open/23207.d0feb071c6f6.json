@@ -16,7 +16,12 @@
       "network_type_capability": "EUR-EUR-GSM-EUR"
     },
     "operator_display": {
-      "five_g_icon_configuration": "connected_mmwave:5G,connected:5G,not_restricted_rrc_idle:5G,not_restricted_rrc_con:5G",
+      "five_g_icon_configuration": [
+        "connected_mmwave:5G",
+        "connected:5G",
+        "not_restricted_rrc_idle:5G",
+        "not_restricted_rrc_con:5G"
+      ],
       "refer_eons_without_lac": true
     },
     "wifi_calling": {
@@ -54,19 +59,38 @@
       "user_visible": false
     },
     {
-      "apn": "internet.t-mobile.at",
-      "authtype": 1,
-      "carrier_enabled": true,
+      "apn": "ims",
+      "bearer_bitmask": "14|20",
+      "lingering_network_type_bitmask": "1|2|3|8|9|10|13|14|15|20",
       "mtu": 1500,
-      "name": "Internet",
-      "password": "tm",
+      "name": "T-Mobile IMS",
       "protocol": "IPV4V6",
-      "roaming_protocol": "IP",
       "types": [
-        "default",
-        "supl"
+        "ims"
       ],
-      "user": "T"
+      "user_visible": false
+    },
+    {
+      "apn": "ims",
+      "bearer_bitmask": "14|20",
+      "mtu": 1500,
+      "name": "T-Mobile IMS",
+      "protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ],
+      "user_visible": false
+    },
+    {
+      "apn": "ims",
+      "bearer_bitmask": "1|2|3|9|10|11|13|14|15|20",
+      "mtu": 1500,
+      "name": "T-Mobile IMS",
+      "protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ],
+      "user_visible": false
     },
     {
       "apn": "mmsaut",
@@ -77,6 +101,18 @@
       "types": [
         "mms"
       ]
+    },
+    {
+      "apn": "web",
+      "authtype": 1,
+      "name": "web",
+      "password": "web",
+      "protocol": "IPV4V6",
+      "types": [
+        "default",
+        "supl"
+      ],
+      "user": "web@telering.at"
     },
     {
       "apn": "webaut",
@@ -93,16 +129,34 @@
     "carrier_default_wfc_ims_mode_int": 1,
     "carrier_default_wfc_ims_roaming_enabled_bool": true,
     "carrier_default_wfc_ims_roaming_mode_int": 1,
-    "carrier_supports_ss_over_ut_bool": true,
-    "carrier_volte_available_bool": true,
+    "carrier_metered_apn_types_strings": [
+      "default",
+      "dun",
+      "supl"
+    ],
+    "carrier_metered_roaming_apn_types_strings": [
+      "default",
+      "dun",
+      "supl"
+    ],
+    "carrier_use_ims_first_for_emergency_bool": true,
     "carrier_wfc_ims_available_bool": true,
+    "editable_enhanced_4g_lte_bool": false,
+    "editable_wfc_mode_bool": true,
     "editable_wfc_roaming_mode_bool": true,
-    "hide_enhanced_4g_lte_bool": true,
+    "enhanced_4g_lte_on_by_default_bool": true,
+    "ims_conference_size_limit_int": 6,
+    "is_ims_conference_size_enforced_bool": true,
     "iwlan.epdg_static_address_string": "epdg.epc.mnc003.mcc232.pub.3gppnetwork.org",
+    "maxMessageSize": 307200,
+    "read_only_apn_types_string_array": [
+      "ut"
+    ],
     "rtt_supported_bool": true,
     "rtt_supported_while_roaming_bool": true,
-    "smsToMmsTextThreshold": 5,
-    "wfc_spn_format_idx_int": 2
+    "show_ims_registration_status_bool": true,
+    "show_wifi_calling_icon_in_status_bar_bool": true,
+    "wfc_data_spn_format_idx_int": 2
   },
   "capabilities": {
     "esim": "unknown",
@@ -111,7 +165,7 @@
     "rcs": "unknown",
     "sms_over_ims": "unknown",
     "video_calling": "unknown",
-    "volte": "supported",
+    "volte": "conditional",
     "vonr": "unknown",
     "vowifi": "supported",
     "wifi_calling_roaming": "supported"

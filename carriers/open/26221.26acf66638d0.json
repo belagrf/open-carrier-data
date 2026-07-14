@@ -25,6 +25,7 @@
   "android_carrier_config": {
     "carrier_default_wfc_ims_enabled_bool": true,
     "carrier_default_wfc_ims_mode_int": 1,
+    "carrier_default_wfc_ims_roaming_mode_int": 1,
     "carrier_volte_available_bool": true,
     "carrier_wfc_ims_available_bool": true,
     "ims.sip_over_ipsec_enabled_bool": false,
@@ -45,7 +46,7 @@
     "vowifi": "supported",
     "wifi_calling_roaming": "unknown"
   },
-  "display_name": "Spusu De",
+  "display_name": "Carrier 26221",
   "match": {
     "mccmnc": [
       "26221"

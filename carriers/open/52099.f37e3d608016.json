@@ -25,6 +25,14 @@
       "user": "true"
     }
   ],
+  "android_carrier_config": {
+    "carrier_metered_apn_types_strings": [
+      "default",
+      "dun",
+      "supl"
+    ],
+    "ignore_data_enabled_changed_for_video_calls": true
+  },
   "capabilities": {
     "esim": "unknown",
     "ims_conference": "unknown",

@@ -34,6 +34,16 @@
       ]
     },
     {
+      "apn": "gmobilewap",
+      "mmsc": "http://mms",
+      "mmsport": 8080,
+      "mmsproxy": "http://10.40.4.156",
+      "name": "G-Mobile MMS",
+      "types": [
+        "mms"
+      ]
+    },
+    {
       "apn": "internet",
       "name": "G-Mobile Internet",
       "types": [
@@ -44,7 +54,7 @@
   "capabilities": {
     "esim": "unknown",
     "ims_conference": "unknown",
-    "mms": "unknown",
+    "mms": "supported",
     "rcs": "unknown",
     "sms_over_ims": "unknown",
     "video_calling": "unknown",

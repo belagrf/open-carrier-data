@@ -1,6 +1,14 @@
 {
   "android_apns": [
     {
+      "apn": "default",
+      "name": "MPT",
+      "types": [
+        "default",
+        "supl"
+      ]
+    },
+    {
       "apn": "mptnet",
       "name": "mptnet",
       "password": "mptnet",
@@ -11,6 +19,13 @@
       "user": "mptnet"
     }
   ],
+  "android_carrier_config": {
+    "carrier_metered_apn_types_strings": [
+      "default",
+      "dun",
+      "supl"
+    ]
+  },
   "capabilities": {
     "esim": "unknown",
     "ims_conference": "unknown",

@@ -46,6 +46,17 @@
     },
     {
       "apn": "services",
+      "bearer_bitmask": "14|20",
+      "name": "Eastlink XCAP",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "xcap"
+      ],
+      "user_visible": false
+    },
+    {
+      "apn": "services",
       "carrier_id": 2252,
       "mtu": 1500,
       "name": "Eastlink XCAP",
@@ -68,14 +79,6 @@
     },
     {
       "apn": "wisp.mobi.eastlink.ca",
-      "name": "wisp.mobi.eastlink.ca",
-      "types": [
-        "default"
-      ],
-      "user_editable": false
-    },
-    {
-      "apn": "wisp.mobi.eastlink.ca",
       "carrier_id": 2252,
       "mtu": 1500,
       "name": "Eastlink",
@@ -91,10 +94,14 @@
     },
     {
       "apn": "wisp.mobi.eastlink.ca",
-      "name": "Eastlink",
+      "name": "wisp.mobi.eastlink.ca",
       "types": [
-        "dun"
-      ]
+        "default",
+        "dun",
+        "hipri",
+        "supl"
+      ],
+      "user_editable": false
     }
   ],
   "android_carrier_config": {

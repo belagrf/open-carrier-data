@@ -4,6 +4,8 @@
       "apn": "bitel",
       "authtype": 1,
       "name": "Bitel - Internet",
+      "protocol": "IP",
+      "roaming_protocol": "IP",
       "types": [
         "default",
         "supl"
@@ -16,6 +18,8 @@
       "mmsport": 8000,
       "mmsproxy": "10.121.144.3",
       "name": "Bitel - MMS",
+      "protocol": "IP",
+      "roaming_protocol": "IP",
       "types": [
         "mms"
       ]

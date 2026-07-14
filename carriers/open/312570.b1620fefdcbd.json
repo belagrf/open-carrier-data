@@ -1,0 +1,40 @@
+{
+  "android_apns": [
+    {
+      "apn": "Blue Hotspot",
+      "mmsc": "http://mms.blueunlimited.com",
+      "mmsport": 8514,
+      "name": "Blue Wireless",
+      "password": "wirelessblue",
+      "protocol": "IPV4V6",
+      "server": "*",
+      "types": [
+        "default",
+        "dun",
+        "mms"
+      ],
+      "user": "%M@dun.bluehandset.com",
+      "user_editable": false
+    }
+  ],
+  "capabilities": {
+    "esim": "unknown",
+    "ims_conference": "unknown",
+    "mms": "supported",
+    "rcs": "unknown",
+    "sms_over_ims": "unknown",
+    "video_calling": "unknown",
+    "volte": "unknown",
+    "vonr": "unknown",
+    "vowifi": "unknown",
+    "wifi_calling_roaming": "unknown"
+  },
+  "display_name": "312570",
+  "match": {
+    "mccmnc": [
+      "312570"
+    ]
+  },
+  "profile_id": "open.312570.b1620fefdcbd",
+  "schema_version": 1
+}

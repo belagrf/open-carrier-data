@@ -17,12 +17,27 @@
   },
   "android_apns": [
     {
+      "apn": "IMS",
+      "name": "IMS",
+      "protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ]
+    },
+    {
       "apn": "XCAP",
       "name": "XCAP",
       "protocol": "IPV4V6",
       "roaming_protocol": "IPV4V6",
       "types": [
         "xcap"
+      ]
+    },
+    {
+      "apn": "htwap",
+      "name": "Hutch Internet",
+      "types": [
+        "default"
       ]
     },
     {

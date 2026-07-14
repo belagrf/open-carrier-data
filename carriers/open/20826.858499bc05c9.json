@@ -1,12 +1,30 @@
 {
   "android_apns": [
     {
+      "apn": "fnetnrj",
+      "name": "NRJ WEB",
+      "types": [
+        "default",
+        "supl"
+      ]
+    },
+    {
       "apn": "mms26",
       "authtype": 1,
       "mmsc": "http://mms26",
       "mmsport": 8080,
       "mmsproxy": "10.143.156.5",
       "name": "MMS26",
+      "types": [
+        "mms"
+      ]
+    },
+    {
+      "apn": "mmsnrj",
+      "mmsc": "http://mmsnrj",
+      "mmsport": 8080,
+      "mmsproxy": "10.143.156.5",
+      "name": "NRJ MMS",
       "types": [
         "mms"
       ]

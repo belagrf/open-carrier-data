@@ -10,6 +10,30 @@
       ]
     },
     {
+      "apn": "3g.alkaa",
+      "name": "3g.alkaa",
+      "types": [
+        "default"
+      ]
+    },
+    {
+      "apn": "5g.alkaa",
+      "name": "5g.alkaa",
+      "profile_id": 0,
+      "protocol": "IPV4V6",
+      "types": [
+        "default"
+      ]
+    },
+    {
+      "apn": "5g.alkaa",
+      "name": "5g.alkaa",
+      "protocol": "IPV4V6",
+      "types": [
+        "default"
+      ]
+    },
+    {
       "apn": "em.alkaa",
       "name": "em.alkaa",
       "profile_id": 2,
@@ -35,6 +59,40 @@
       "protocol": "IPV4V6",
       "types": [
         "default"
+      ]
+    },
+    {
+      "apn": "lte.alkaa",
+      "name": "lte.alkaa",
+      "profile_id": 1,
+      "protocol": "IPV4V6",
+      "types": [
+        "default"
+      ]
+    },
+    {
+      "apn": "lte.alkaa",
+      "name": "lte.alkaa",
+      "protocol": "IPV4V6",
+      "types": [
+        "default"
+      ]
+    },
+    {
+      "apn": "volte.alkaa",
+      "name": "volte.alkaa",
+      "profile_id": 2,
+      "protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ]
+    },
+    {
+      "apn": "volte.alkaa",
+      "name": "volte.alkaa",
+      "protocol": "IPV4V6",
+      "types": [
+        "ims"
       ]
     }
   ],

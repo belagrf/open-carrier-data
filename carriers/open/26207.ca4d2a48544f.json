@@ -1,0 +1,45 @@
+{
+  "android_apns": [
+    {
+      "apn": "pinternet.interkom.de",
+      "mmsc": "http://10.81.0.7:8002",
+      "mmsport": 8080,
+      "mmsproxy": "82.113.100.6",
+      "name": "Fonic Prepaid",
+      "types": [
+        "default",
+        "mms",
+        "supl"
+      ]
+    }
+  ],
+  "android_carrier_config": {
+    "hide_ims_apn_bool": true,
+    "maxImageHeight": 1944,
+    "maxImageWidth": 2592,
+    "maxMessageSize": 614400
+  },
+  "capabilities": {
+    "esim": "unknown",
+    "ims_conference": "unknown",
+    "mms": "supported",
+    "rcs": "unknown",
+    "sms_over_ims": "unknown",
+    "video_calling": "unknown",
+    "volte": "unknown",
+    "vonr": "unknown",
+    "vowifi": "unknown",
+    "wifi_calling_roaming": "unknown"
+  },
+  "display_name": "26207Imsi=26207515",
+  "match": {
+    "imsi_prefix_patterns": [
+      "26207515"
+    ],
+    "mccmnc": [
+      "26207"
+    ]
+  },
+  "profile_id": "open.26207.ca4d2a48544f",
+  "schema_version": 1
+}

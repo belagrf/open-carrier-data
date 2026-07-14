@@ -1,0 +1,54 @@
+{
+  "android_apns": [
+    {
+      "apn": "celcom4g",
+      "mmsc": "http://mms.celcom.net.my",
+      "mmsport": 8080,
+      "mmsproxy": "10.128.1.242",
+      "name": "Celcom Internet",
+      "types": [
+        "default",
+        "mms",
+        "supl"
+      ]
+    },
+    {
+      "apn": "ims",
+      "name": "IMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ],
+      "user_visible": false
+    }
+  ],
+  "android_carrier_config": {
+    "carrier_metered_apn_types_strings": [
+      "default",
+      "dun",
+      "supl"
+    ],
+    "carrier_volte_available_bool": false
+  },
+  "capabilities": {
+    "esim": "unknown",
+    "ims_conference": "unknown",
+    "mms": "supported",
+    "rcs": "unknown",
+    "sms_over_ims": "unknown",
+    "video_calling": "unknown",
+    "volte": "unsupported",
+    "vonr": "unknown",
+    "vowifi": "unknown",
+    "wifi_calling_roaming": "unknown"
+  },
+  "display_name": "Carrier 502145",
+  "match": {
+    "mccmnc": [
+      "502145"
+    ]
+  },
+  "profile_id": "open.502145.a6bd8c8b46a5",
+  "schema_version": 1
+}

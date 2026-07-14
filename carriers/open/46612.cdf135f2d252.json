@@ -1,0 +1,26 @@
+{
+  "android_carrier_config": {
+    "carrier_volte_available_bool": true,
+    "carrier_wfc_ims_available_bool": true
+  },
+  "capabilities": {
+    "esim": "unknown",
+    "ims_conference": "unknown",
+    "mms": "unknown",
+    "rcs": "unknown",
+    "sms_over_ims": "unknown",
+    "video_calling": "unknown",
+    "volte": "supported",
+    "vonr": "unknown",
+    "vowifi": "supported",
+    "wifi_calling_roaming": "unknown"
+  },
+  "display_name": "LineageOS 46612",
+  "match": {
+    "mccmnc": [
+      "46612"
+    ]
+  },
+  "profile_id": "open.46612.cdf135f2d252",
+  "schema_version": 1
+}

@@ -4,6 +4,7 @@
       "apn": "entel.pe",
       "authtype": 0,
       "name": "entel.pe",
+      "protocol": "IP",
       "types": [
         "default",
         "dun"
@@ -41,6 +42,8 @@
       "apn": "location.entel.pe",
       "authtype": 0,
       "name": "Entel Location",
+      "port": 7275,
+      "protocol": "IP",
       "server": "http://location.entel.pe",
       "types": [
         "supl"
@@ -48,11 +51,26 @@
     }
   ],
   "android_carrier_config": {
+    "carrier_default_wfc_ims_enabled_bool": true,
+    "carrier_default_wfc_ims_mode_int": 2,
+    "carrier_supports_ss_over_ut_bool": true,
     "carrier_volte_available_bool": true,
+    "carrier_volte_tty_supported_bool": false,
     "carrier_vt_available_bool": true,
     "carrier_wfc_ims_available_bool": true,
+    "carrier_wfc_supports_wifi_only_bool": false,
     "ims.sip_over_ipsec_enabled_bool": false,
-    "imssms.sms_over_ims_supported_bool": true
+    "imssms.sms_over_ims_supported_bool": true,
+    "maxMessageSize": 614400,
+    "maxMessageTextSize": 2240,
+    "maxSubjectLength": 80,
+    "read_only_apn_types_string_array": [
+      "default",
+      "supl",
+      "ims",
+      "ut"
+    ],
+    "recipientLimit": 20
   },
   "capabilities": {
     "esim": "unknown",

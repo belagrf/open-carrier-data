@@ -1,0 +1,25 @@
+{
+  "android_carrier_config": {
+    "maxMessageSize": 1048576
+  },
+  "capabilities": {
+    "esim": "unknown",
+    "ims_conference": "unknown",
+    "mms": "unknown",
+    "rcs": "unknown",
+    "sms_over_ims": "unknown",
+    "video_calling": "unknown",
+    "volte": "unknown",
+    "vonr": "unknown",
+    "vowifi": "unknown",
+    "wifi_calling_roaming": "unknown"
+  },
+  "display_name": "LineageOS 334002",
+  "match": {
+    "mccmnc": [
+      "334002"
+    ]
+  },
+  "profile_id": "open.334002.fb799ea64ad6",
+  "schema_version": 1
+}

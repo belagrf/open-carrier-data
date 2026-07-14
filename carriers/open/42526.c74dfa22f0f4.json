@@ -9,6 +9,14 @@
       ]
     },
     {
+      "apn": "annatel",
+      "name": "annatel",
+      "types": [
+        "default",
+        "supl"
+      ]
+    },
+    {
       "apn": "hos",
       "name": "hos",
       "types": [

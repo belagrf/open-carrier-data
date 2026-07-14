@@ -1,0 +1,30 @@
+{
+  "android_carrier_config": {
+    "carrier_default_wfc_ims_mode_int": 1,
+    "carrier_volte_available_bool": true,
+    "carrier_wfc_ims_available_bool": true
+  },
+  "capabilities": {
+    "esim": "unknown",
+    "ims_conference": "unknown",
+    "mms": "unknown",
+    "rcs": "unknown",
+    "sms_over_ims": "unknown",
+    "video_calling": "unknown",
+    "volte": "supported",
+    "vonr": "unknown",
+    "vowifi": "supported",
+    "wifi_calling_roaming": "unknown"
+  },
+  "display_name": "LineageOS 23410",
+  "match": {
+    "gid1_prefixes": [
+      "508FFFFFFFF"
+    ],
+    "mccmnc": [
+      "23410"
+    ]
+  },
+  "profile_id": "open.23410.d455201b7d2e",
+  "schema_version": 1
+}

@@ -1,0 +1,45 @@
+{
+  "android_apns": [
+    {
+      "apn": "mmsSP",
+      "mmsc": "http://mms.telia.dk",
+      "mmsport": 8080,
+      "mmsproxy": "193.209.134.131",
+      "name": "DLG Tele MMS",
+      "types": [
+        "mms"
+      ]
+    },
+    {
+      "apn": "webSP",
+      "name": "DLG Tele GPRS",
+      "types": [
+        "default",
+        "supl"
+      ]
+    }
+  ],
+  "capabilities": {
+    "esim": "unknown",
+    "ims_conference": "unknown",
+    "mms": "supported",
+    "rcs": "unknown",
+    "sms_over_ims": "unknown",
+    "video_calling": "unknown",
+    "volte": "unknown",
+    "vonr": "unknown",
+    "vowifi": "unknown",
+    "wifi_calling_roaming": "unknown"
+  },
+  "display_name": "23820Spn=Dlg Tele",
+  "match": {
+    "mccmnc": [
+      "23820"
+    ],
+    "spn": [
+      "DLG TELE"
+    ]
+  },
+  "profile_id": "open.23820.d72a56215d16",
+  "schema_version": 1
+}

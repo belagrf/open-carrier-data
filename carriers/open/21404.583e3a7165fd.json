@@ -13,11 +13,17 @@
         "-voltecall"
       ],
       "network_selection_menu_style": "NUMERIC",
-      "network_type_capability": "EUR-EUR-GSM-EUR"
+      "network_type_capability": "EUR-EUR-GSM-EUR",
+      "voice_network_setting_style": "SupportDualDataRoam"
     },
     "operator_display": {
       "five_g_icon_branding": "UseOneShapedIcon",
-      "five_g_icon_configuration": "connected_mmwave:5G,connected:5G,not_restricted_rrc_idle:5G,not_restricted_rrc_con:5G",
+      "five_g_icon_configuration": [
+        "connected_mmwave:5G",
+        "connected:5G",
+        "not_restricted_rrc_idle:5G",
+        "not_restricted_rrc_con:5G"
+      ],
       "refer_eons_without_lac": true
     }
   },
@@ -32,11 +38,25 @@
     },
     {
       "apn": "ims",
-      "carrier_enabled": true,
-      "name": "ims",
+      "bearer_bitmask": "14|20",
+      "name": "IMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
       "types": [
         "ims"
-      ]
+      ],
+      "user_visible": false
+    },
+    {
+      "apn": "ims",
+      "carrier_enabled": true,
+      "name": "ims",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ],
+      "user_visible": false
     },
     {
       "apn": "internet",
@@ -68,8 +88,16 @@
     }
   ],
   "android_carrier_config": {
-    "carrier_volte_available_bool": true,
-    "enabledMMS": false
+    "carrier_metered_apn_types_strings": [
+      "default",
+      "dun",
+      "supl"
+    ],
+    "editable_enhanced_4g_lte_bool": false,
+    "enabledMMS": false,
+    "rtt_supported_bool": true,
+    "rtt_supported_while_roaming_bool": true,
+    "smsToMmsTextThreshold": -1
   },
   "capabilities": {
     "esim": "unknown",
@@ -78,7 +106,7 @@
     "rcs": "unknown",
     "sms_over_ims": "unknown",
     "video_calling": "unknown",
-    "volte": "supported",
+    "volte": "conditional",
     "vonr": "unknown",
     "vowifi": "unknown",
     "wifi_calling_roaming": "unknown"

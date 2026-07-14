@@ -29,6 +29,16 @@
       "user_visible": false
     },
     {
+      "apn": "ims",
+      "name": "IMS",
+      "protocol": "IPV6",
+      "roaming_protocol": "IPV6",
+      "types": [
+        "ims"
+      ],
+      "user_visible": false
+    },
+    {
       "apn": "resellermht",
       "name": "resellermht",
       "protocol": "IPV4V6",
@@ -106,7 +116,7 @@
     "vowifi": "supported",
     "wifi_calling_roaming": "supported"
   },
-  "display_name": "Boostmobile Us",
+  "display_name": "Dishatt Us",
   "match": {
     "gid1_prefixes": [
       "3434"

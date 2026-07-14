@@ -1,20 +1,24 @@
 {
   "addons": {
+    "emergency_calling": {
+      "emergency_dial_call_style": "EndPreviousCall,UseMobileVoiceRegState"
+    },
     "ims": {
-      "contacts_operator_style": "EVR",
       "support_ims_clir_overriding": true
     },
     "network_policy": {
       "display_antenna_limited": true,
       "gcf_sor": true,
-      "mobile_network_setting_menu_tokens": [
-        "-voltecall"
-      ],
       "network_selection_menu_style": "NUMERIC",
       "network_type_capability": "EUR-EUR-GSM-EUR"
     },
     "operator_display": {
-      "five_g_icon_configuration": "connected_mmwave:5G,connected:5G,not_restricted_rrc_idle:5G,not_restricted_rrc_con:5G",
+      "five_g_icon_configuration": [
+        "connected_mmwave:5G",
+        "connected:5G",
+        "not_restricted_rrc_idle:5G",
+        "not_restricted_rrc_con:5G"
+      ],
       "refer_eons_without_lac": true
     },
     "wifi_calling": {
@@ -48,24 +52,6 @@
     },
     {
       "apn": "everywhere",
-      "authtype": 1,
-      "carrier_enabled": true,
-      "mmsc": "http://mms/",
-      "mmsport": 8080,
-      "mmsproxy": "149.254.201.135",
-      "name": "everywhere",
-      "password": "secure",
-      "protocol": "IPV4V6",
-      "roaming_protocol": "IPV4V6",
-      "types": [
-        "default",
-        "supl"
-      ],
-      "user": "eesecure",
-      "user_editable": false
-    },
-    {
-      "apn": "everywhere",
       "name": "EE",
       "protocol": "IPV4V6",
       "types": [
@@ -84,41 +70,6 @@
         "mms"
       ],
       "user": "eesecure"
-    },
-    {
-      "apn": "ims",
-      "authtype": 1,
-      "bearer_bitmask": "14|18|20",
-      "name": "IMS",
-      "password": "secure",
-      "protocol": "IPV4V6",
-      "roaming_protocol": "IPV4V6",
-      "types": [
-        "ims"
-      ],
-      "user": "eesecure",
-      "user_visible": false
-    },
-    {
-      "apn": "ims",
-      "name": "ims",
-      "protocol": "IPV4V6",
-      "roaming_protocol": "IPV4V6",
-      "types": [
-        "ims"
-      ]
-    },
-    {
-      "apn": "sos",
-      "authtype": 0,
-      "carrier_enabled": true,
-      "name": "EE Emergency",
-      "protocol": "IPV4V6",
-      "roaming_protocol": "IPV4V6",
-      "types": [
-        "emergency"
-      ],
-      "user_visible": false
     },
     {
       "apn": "eezone",
@@ -257,17 +208,32 @@
     }
   ],
   "android_carrier_config": {
+    "call_barring_default_service_class_int": 0,
+    "carrier_default_wfc_ims_enabled_bool": false,
+    "carrier_default_wfc_ims_mode_int": 2,
+    "carrier_default_wfc_ims_roaming_mode_int": 1,
+    "carrier_metered_apn_types_strings": [
+      "default",
+      "dun",
+      "supl"
+    ],
     "carrier_supports_ss_over_ut_bool": true,
     "carrier_volte_available_bool": true,
     "carrier_wfc_ims_available_bool": true,
     "editable_enhanced_4g_lte_bool": false,
-    "editable_wfc_mode_bool": false,
+    "editable_wfc_roaming_mode_bool": true,
     "enabledMMS": true,
-    "hide_enhanced_4g_lte_bool": true,
+    "enhanced_4g_lte_on_by_default_bool": true,
     "hide_ims_apn_bool": true,
     "imsvoice.conference_subscribe_type_int": 0,
     "maxMessageSize": 307200,
-    "smsToMmsTextThreshold": 13,
+    "read_only_apn_types_string_array": [
+      "default",
+      "ims",
+      "mms"
+    ],
+    "show_wifi_calling_icon_in_status_bar_bool": false,
+    "wfc_data_spn_format_idx_int": 1,
     "wfc_operator_error_codes_string_array": [
       "REG09|0"
     ],

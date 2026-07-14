@@ -1,0 +1,25 @@
+{
+  "android_carrier_config": {
+    "carrier_volte_available_bool": true
+  },
+  "capabilities": {
+    "esim": "unknown",
+    "ims_conference": "unknown",
+    "mms": "unknown",
+    "rcs": "unknown",
+    "sms_over_ims": "unknown",
+    "video_calling": "unknown",
+    "volte": "supported",
+    "vonr": "unknown",
+    "vowifi": "unknown",
+    "wifi_calling_roaming": "unknown"
+  },
+  "display_name": "LineageOS 466410",
+  "match": {
+    "mccmnc": [
+      "466410"
+    ]
+  },
+  "profile_id": "open.466410.9de6c04a862e",
+  "schema_version": 1
+}

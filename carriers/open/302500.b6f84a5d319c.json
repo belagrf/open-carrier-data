@@ -14,6 +14,21 @@
     },
     {
       "apn": "media.ng",
+      "bearer_bitmask": "1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17",
+      "mmsc": "http://media.videotron.com",
+      "name": "Media",
+      "protocol": "IP",
+      "roaming_protocol": "IP",
+      "types": [
+        "default",
+        "mms",
+        "supl"
+      ],
+      "user_editable": false,
+      "user_visible": true
+    },
+    {
+      "apn": "media.ng",
       "bearer_bitmask": "1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|17|20",
       "mmsc": "http://media.videotron.com",
       "name": "Media",
@@ -23,6 +38,20 @@
         "supl"
       ],
       "user_editable": false
+    },
+    {
+      "apn": "media.ng",
+      "mmsc": "http://media.videotron.com",
+      "name": "Media",
+      "protocol": "IP",
+      "roaming_protocol": "IP",
+      "types": [
+        "default",
+        "mms",
+        "supl"
+      ],
+      "user_editable": false,
+      "user_visible": true
     },
     {
       "apn": "sos",
@@ -38,11 +67,13 @@
       "apn": "xcap",
       "bearer_bitmask": "18",
       "mmsc": "http://media.videotron.com",
-      "name": "MMS and XCAP over iWLAN",
+      "name": "xcap",
+      "protocol": "IP",
+      "roaming_protocol": "IP",
       "types": [
-        "mms",
-        "xcap"
+        "mms"
       ],
+      "user_editable": false,
       "user_visible": false
     },
     {
@@ -53,19 +84,23 @@
         "xcap"
       ],
       "user_visible": false
+    },
+    {
+      "apn": "xcap",
+      "bearer_bitmask": "18",
+      "mmsc": "http://media.videotron.com",
+      "name": "MMS and XCAP over iWLAN",
+      "types": [
+        "xcap"
+      ],
+      "user_visible": false
     }
   ],
   "android_carrier_config": {
     "carrier_default_wfc_ims_mode_int": 1,
     "carrier_default_wfc_ims_roaming_enabled_bool": true,
-    "carrier_supports_ss_over_ut_bool": true,
     "carrier_volte_available_bool": true,
     "carrier_wfc_ims_available_bool": true,
-    "editable_enhanced_4g_lte_bool": false,
-    "ims_reasoninfo_mapping_string_array": [
-      "510|Call completed elsewhere|1014",
-      "*|Call is dropped due to Wi-Fi signal is degraded|1407"
-    ],
     "imsvoice.conference_factory_uri_string": "conference@factory.ims.mnc500.mcc302.3gppnetwork.org",
     "is_ims_conference_size_enforced_bool": true,
     "maxImageHeight": 1944,

@@ -1,0 +1,25 @@
+{
+  "android_carrier_config": {
+    "carrier_volte_available_bool": true
+  },
+  "capabilities": {
+    "esim": "unknown",
+    "ims_conference": "unknown",
+    "mms": "unknown",
+    "rcs": "unknown",
+    "sms_over_ims": "unknown",
+    "video_calling": "unknown",
+    "volte": "supported",
+    "vonr": "unknown",
+    "vowifi": "unknown",
+    "wifi_calling_roaming": "unknown"
+  },
+  "display_name": "LineageOS 46060",
+  "match": {
+    "mccmnc": [
+      "46060"
+    ]
+  },
+  "profile_id": "open.46060.cc7d28cf9a4f",
+  "schema_version": 1
+}

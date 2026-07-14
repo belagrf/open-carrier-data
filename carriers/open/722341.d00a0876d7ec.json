@@ -48,17 +48,6 @@
         "default"
       ],
       "user": "internet"
-    },
-    {
-      "apn": "internet.personal.com",
-      "authtype": 1,
-      "name": "internet.personal.com",
-      "password": "internet",
-      "types": [
-        "dun"
-      ],
-      "user": "internet",
-      "user_visible": false
     }
   ],
   "android_carrier_config": {

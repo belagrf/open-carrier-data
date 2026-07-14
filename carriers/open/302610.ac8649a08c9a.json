@@ -32,14 +32,15 @@
     {
       "apn": "connect",
       "mmsc": "http://mms.luckymobile.ca/mms/wapenc",
-      "name": "Lucky",
-      "protocol": "IP",
-      "roaming_protocol": "IP",
+      "name": "Lucky Mobile",
+      "protocol": "IPV4V6",
       "types": [
-        "default",
-        "dun",
-        "mms"
-      ]
+        "hipri",
+        "ia",
+        "supl"
+      ],
+      "user_editable": false,
+      "user_visible": true
     },
     {
       "apn": "ims",
@@ -66,6 +67,7 @@
   "android_carrier_config": {
     "carrier_supports_ss_over_ut_bool": true,
     "carrier_volte_available_bool": true,
+    "carrier_volte_tty_supported_bool": false,
     "enabledMMS": true,
     "hide_enhanced_4g_lte_bool": true,
     "ims.sip_over_ipsec_enabled_bool": false,

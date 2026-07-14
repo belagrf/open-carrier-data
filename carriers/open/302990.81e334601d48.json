@@ -6,10 +6,6 @@
     "network_policy": {
       "display_antenna_limited": true,
       "gcf_sor": true,
-      "mobile_network_setting_menu_tokens": [
-        "-voltecall_sim_mobility"
-      ],
-      "network_selection_menu_style": "CHARACTER",
       "network_type_capability": "BMC-BWA-GSM-CAN"
     },
     "operator_display": {

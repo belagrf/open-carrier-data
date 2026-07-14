@@ -3,6 +3,7 @@
     {
       "apn": "MCI-GPRS",
       "mmsc": "http://192.168.193.134",
+      "mmsport": 38090,
       "name": "MCCI MMS",
       "types": [
         "mms"

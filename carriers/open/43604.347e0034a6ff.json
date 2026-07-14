@@ -9,6 +9,14 @@
       ]
     },
     {
+      "apn": "default",
+      "name": "Babilon-M",
+      "types": [
+        "default",
+        "supl"
+      ]
+    },
+    {
       "apn": "ims",
       "bearer_bitmask": "14|20",
       "name": "Babilon IMS",
@@ -30,7 +38,7 @@
     "vowifi": "unknown",
     "wifi_calling_roaming": "unknown"
   },
-  "display_name": "Cjsc Tj",
+  "display_name": "Carrier 43604",
   "match": {
     "mccmnc": [
       "43604"

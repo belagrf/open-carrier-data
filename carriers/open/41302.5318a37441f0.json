@@ -12,6 +12,14 @@
       ]
     },
     {
+      "apn": "default",
+      "name": "Dialog",
+      "types": [
+        "default",
+        "supl"
+      ]
+    },
+    {
       "apn": "dialogbb",
       "mmsc": "http://mms.dialog.lk:3130/mmsc",
       "mmsport": 8080,

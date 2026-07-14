@@ -8,7 +8,11 @@
       "name": "SKT LTE Roaming",
       "server": "*",
       "types": [
-        "default"
+        "cbs",
+        "default",
+        "fota",
+        "mms",
+        "supl"
       ]
     },
     {
@@ -34,7 +38,11 @@
       "name": "SKT 3G Roaming",
       "server": "*",
       "types": [
-        "default"
+        "cbs",
+        "default",
+        "fota",
+        "mms",
+        "supl"
       ]
     },
     {
@@ -53,6 +61,13 @@
       ]
     }
   ],
+  "android_carrier_config": {
+    "carrier_metered_apn_types_strings": [
+      "default",
+      "dun",
+      "supl"
+    ]
+  },
   "capabilities": {
     "esim": "unknown",
     "ims_conference": "unknown",

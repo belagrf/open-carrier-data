@@ -28,6 +28,25 @@
       ]
     },
     {
+      "apn": "ims",
+      "bearer_bitmask": "14|20",
+      "name": "Truphone IMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ]
+    },
+    {
+      "apn": "ims",
+      "name": "Truphone IMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ]
+    },
+    {
       "apn": "truphone.com",
       "mmsc": "http://mmsc.truphone.com:1981/mm1",
       "name": "truphone.com",

@@ -12,6 +12,17 @@
       "user_visible": false
     },
     {
+      "apn": "ims",
+      "bearer_bitmask": "14|20",
+      "name": "IMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ],
+      "user_visible": false
+    },
+    {
       "apn": "unifi",
       "name": "Internet",
       "protocol": "IPV4V6",
@@ -23,7 +34,6 @@
   ],
   "android_carrier_config": {
     "carrier_default_wfc_ims_mode_int": 1,
-    "carrier_volte_available_bool": true,
     "carrier_wfc_ims_available_bool": true,
     "wfc_spn_format_idx_int": 1
   },
@@ -34,7 +44,7 @@
     "rcs": "unknown",
     "sms_over_ims": "unknown",
     "video_calling": "unknown",
-    "volte": "supported",
+    "volte": "conditional",
     "vonr": "unknown",
     "vowifi": "supported",
     "wifi_calling_roaming": "unknown"

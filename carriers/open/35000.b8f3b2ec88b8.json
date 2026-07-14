@@ -1,4 +1,7 @@
 {
+  "android_carrier_config": {
+    "carrier_default_wfc_ims_mode_int": 1
+  },
   "capabilities": {
     "esim": "unknown",
     "ims_conference": "unknown",
@@ -11,7 +14,7 @@
     "vowifi": "unknown",
     "wifi_calling_roaming": "unknown"
   },
-  "display_name": "CellOne",
+  "display_name": "Carrier 35000",
   "match": {
     "mccmnc": [
       "35000"

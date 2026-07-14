@@ -131,8 +131,19 @@
   ],
   "android_carrier_config": {
     "enabledMMS": true,
+    "ims_conference_size_limit_int": 5,
+    "is_ims_conference_size_enforced_bool": true,
     "maxMessageSize": 307200,
-    "recipientLimit": 10
+    "read_only_apn_types_string_array": [
+      "default",
+      "mms",
+      "supl",
+      "ims",
+      "ut"
+    ],
+    "recipientLimit": 10,
+    "show_ims_registration_status_bool": true,
+    "smsToMmsTextThreshold": 6
   },
   "capabilities": {
     "esim": "unknown",

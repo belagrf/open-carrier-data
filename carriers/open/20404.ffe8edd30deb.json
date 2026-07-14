@@ -4,6 +4,7 @@
       "apn": "ctnet",
       "authtype": 0,
       "name": "CTNET",
+      "protocol": "IP",
       "server": "*",
       "types": [
         "cbs",
