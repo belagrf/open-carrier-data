@@ -35,6 +35,11 @@ For Android, `indexed` means an exact vendor query confirmed a current artifact.
 integrity-checked. Discovery states distinguish work in progress, a completed
 check with no artifact, and identities that lack a usable vendor query key.
 
+`carrier_data_not_applicable` is reserved for explicitly classified
+non-cellular Apple product families. It is a terminal result, not a successful
+carrier extraction. Unrecognized present or future families remain
+`inventory_only` until evidence classifies them.
+
 One device can be listed by more than one maintained inventory. Such records
 merge only when their canonical device ID is identical, and
 `inventory_sources` keeps each source's current or historical state visible.

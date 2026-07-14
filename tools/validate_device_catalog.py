@@ -35,6 +35,7 @@ BASE_DEVICE_FIELDS = {
     "carrier_data_coverage",
 }
 DATA_COVERAGE_STATUSES = {
+    "carrier_data_not_applicable",
     "exact_carrier_data_observed",
     "exact_source_extracted",
     "exact_source_verified",
@@ -46,6 +47,7 @@ DATA_COVERAGE_STATUSES = {
     "source_not_queryable",
     "inventory_only",
 }
+APPLE_NON_CELLULAR_FAMILIES = {"AppleTV", "AudioAccessory", "iPod"}
 
 
 class ValidationError(Exception):
@@ -184,10 +186,18 @@ def validate_data_coverage(path: Path, device_id: str, record: dict[str, Any]) -
     if status not in DATA_COVERAGE_STATUSES:
         raise ValidationError(f"{path}: invalid carrier data coverage for {device_id}")
     sources = validate_string_array(path, "coverage sources", value["sources"])
-    if status == "inventory_only" and sources:
-        raise ValidationError(f"{path}: inventory-only device has carrier sources")
-    if status != "inventory_only" and not sources:
+    empty_source_statuses = {"carrier_data_not_applicable", "inventory_only"}
+    if status in empty_source_statuses and sources:
+        raise ValidationError(f"{path}: uncovered device has carrier sources")
+    if status not in empty_source_statuses and not sources:
         raise ValidationError(f"{path}: covered device has no carrier sources")
+    if status == "carrier_data_not_applicable" and (
+        record.get("platform") != "apple"
+        or record.get("family") not in APPLE_NON_CELLULAR_FAMILIES
+    ):
+        raise ValidationError(
+            f"{path}: not-applicable coverage is not an approved non-cellular Apple family"
+        )
     if status == "exact_carrier_data_observed" and "carrier_observations" not in record:
         raise ValidationError(f"{path}: observed coverage has no observations")
     if status == "exact_source_extracted" and not any(
