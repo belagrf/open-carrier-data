@@ -16,10 +16,11 @@
     {
       "apn": "sercomtel.com.br",
       "authtype": 1,
-      "name": "Sercomtel:Dados",
+      "name": "sercomtel.com.br",
       "password": "sercomtel",
       "types": [
         "default",
+        "dun",
         "ia",
         "supl"
       ],

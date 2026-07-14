@@ -2,14 +2,17 @@
   "android_apns": [
     {
       "apn": "internet",
+      "authtype": 1,
       "name": "Internet",
       "types": [
         "default",
+        "dun",
         "supl"
       ]
     },
     {
       "apn": "mms",
+      "authtype": 1,
       "mmsc": "http://mms.cubacel.cu",
       "mmsport": 8080,
       "mmsproxy": "200.13.145.52",
@@ -31,7 +34,7 @@
     "vowifi": "unknown",
     "wifi_calling_roaming": "unknown"
   },
-  "display_name": "36801",
+  "display_name": "Carrier 36801",
   "match": {
     "mccmnc": [
       "36801"

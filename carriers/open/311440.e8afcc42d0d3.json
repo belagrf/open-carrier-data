@@ -77,6 +77,102 @@
         "supl"
       ],
       "user_visible": false
+    },
+    {
+      "apn": "CdmaNai",
+      "bearer": 6,
+      "carrier_enabled": false,
+      "mmsc": "http://mms.iot1.com/bluegrass/mms.php",
+      "mvno_match_data": "bluegrass",
+      "mvno_type": "spn",
+      "name": "bluegrass",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "mms"
+      ]
+    },
+    {
+      "apn": "IMS",
+      "bearer": 13,
+      "mvno_match_data": "bluegrass",
+      "mvno_type": "spn",
+      "name": "Bluegrass IMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ia",
+        "ims"
+      ]
+    },
+    {
+      "apn": "IMS",
+      "bearer": 14,
+      "mvno_match_data": "bluegrass",
+      "mvno_type": "spn",
+      "name": "Bluegrass IMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ia",
+        "ims"
+      ]
+    },
+    {
+      "apn": "VZWADMIN",
+      "bearer": 13,
+      "mvno_match_data": "bluegrass",
+      "mvno_type": "spn",
+      "name": "Bluegrass FOTA",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "fota"
+      ]
+    },
+    {
+      "apn": "VZWADMIN",
+      "bearer": 14,
+      "mvno_match_data": "bluegrass",
+      "mvno_type": "spn",
+      "name": "Bluegrass FOTA",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "fota"
+      ]
+    },
+    {
+      "apn": "VZWINTERNET",
+      "bearer": 13,
+      "mmsc": "http://mms.iot1.com/bluegrass/mms.php",
+      "mvno_match_data": "bluegrass",
+      "mvno_type": "spn",
+      "name": "Bluegrass",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "default",
+        "dun",
+        "mms",
+        "supl"
+      ]
+    },
+    {
+      "apn": "VZWINTERNET",
+      "bearer": 14,
+      "mmsc": "http://mms.iot1.com/bluegrass/mms.php",
+      "mvno_match_data": "bluegrass",
+      "mvno_type": "spn",
+      "name": "Bluegrass",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "default",
+        "dun",
+        "mms",
+        "supl"
+      ]
     }
   ],
   "android_carrier_config": {

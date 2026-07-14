@@ -130,6 +130,16 @@
       ]
     },
     {
+      "apn": "mms.tele2.hr",
+      "mmsc": "http://mmsc.tele2.hr",
+      "mmsport": 8080,
+      "mmsproxy": "193.012.040.066",
+      "name": "Tele2 MMS",
+      "types": [
+        "mms"
+      ]
+    },
+    {
       "apn": "mms.vipnet.hr",
       "authtype": 1,
       "mmsc": "http://mms.vipnet.hr/servlets/mms",

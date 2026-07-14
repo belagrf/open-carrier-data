@@ -25,7 +25,7 @@
     },
     {
       "apn": "virgin-mobile.fr",
-      "name": "VM WAP",
+      "name": "virgin-mobile.fr",
       "port": 8080,
       "proxy": "10.6.10.1",
       "types": [

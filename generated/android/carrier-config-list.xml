@@ -2980,7 +2980,7 @@
     <boolean name="hide_enhanced_4g_lte_bool" value="false" />
   </carrier_config>
   <!-- open.23591.dbd841d81f6b -->
-  <carrier_config mcc="235" mnc="91" name="LineageOS 23591">
+  <carrier_config mcc="235" mnc="91" name="Carrier 23591">
     <boolean name="carrier_default_wfc_ims_enabled_bool" value="false" />
     <int name="carrier_default_wfc_ims_mode_int" value="1" />
     <boolean name="carrier_volte_available_bool" value="true" />
@@ -5128,7 +5128,7 @@
     <int name="wfc_spn_format_idx_int" value="1" />
   </carrier_config>
   <!-- open.27603.0f64a5d4e349 -->
-  <carrier_config mcc="276" mnc="03" name="One Al">
+  <carrier_config mcc="276" mnc="03" name="Carrier 27603">
     <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
   <!-- open.27801.a53dec37c871 -->
@@ -5949,7 +5949,7 @@
     <boolean name="rtt_supported_bool" value="true" />
   </carrier_config>
   <!-- open.310000.a08d6eb841ab -->
-  <carrier_config mcc="310" mnc="000" name="LineageOS 310000">
+  <carrier_config mcc="310" mnc="000" name="Carrier 310000">
     <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
     <int name="cdma_3waycall_flash_delay_int" value="200" />
     <string name="httpParams">X-MDN: ##LINE1##|Proxy-Authorization: Basic ##NAI##</string>
@@ -6139,7 +6139,7 @@
     <int name="wfc_spn_format_idx_int" value="1" />
   </carrier_config>
   <!-- open.310028.a70c3fdc289a -->
-  <carrier_config mcc="310" mnc="028" name="310028">
+  <carrier_config mcc="310" mnc="028" name="Carrier 310028">
     <boolean name="carrier_volte_available_bool" value="true" />
     <int name="volte_replacement_rat_int" value="6" />
   </carrier_config>
@@ -6175,7 +6175,7 @@
     <int name="wfc_spn_format_idx_int" value="1" />
   </carrier_config>
   <!-- open.310032.d2634dbe9070 -->
-  <carrier_config mcc="310" mnc="032" name="LineageOS 310032">
+  <carrier_config mcc="310" mnc="032" name="Carrier 310032">
     <int name="cdma_3waycall_flash_delay_int" value="70" />
     <string name="httpParams">X-MDN: ##LINE1##</string>
     <int name="maxMessageSize" value="1048576" />
@@ -6184,7 +6184,7 @@
     <int name="smsToMmsTextThreshold" value="1" />
   </carrier_config>
   <!-- open.310035.bfc44d3169bd -->
-  <carrier_config mcc="310" mnc="035" name="LineageOS 310035">
+  <carrier_config mcc="310" mnc="035" name="Carrier 310035">
     <int name="cdma_3waycall_flash_delay_int" value="200" />
     <string name="httpParams">X-MDN: ##LINE1##</string>
     <int name="maxMessageSize" value="1048576" />
@@ -6200,7 +6200,7 @@
     <boolean name="editable_wfc_roaming_mode_bool" value="true" />
   </carrier_config>
   <!-- open.310040.bf56107780b9 -->
-  <carrier_config mcc="310" mnc="040" name="310040">
+  <carrier_config mcc="310" mnc="040" name="Carrier 310040">
     <boolean name="enableMultipartSMS" value="true" />
     <boolean name="enabledMMS" value="true" />
     <string name="httpParams">X-MDN: ##LINE1##</string>
@@ -6718,7 +6718,7 @@
     <int name="wfc_spn_format_idx_int" value="1" />
   </carrier_config>
   <!-- open.31026.55e51d983b39 -->
-  <carrier_config mcc="310" mnc="26" name="LineageOS 31026">
+  <carrier_config mcc="310" mnc="26" name="Carrier 31026">
     <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
     <boolean name="carrier_default_wfc_ims_roaming_enabled_bool" value="true" />
     <boolean name="carrier_volte_available_bool" value="true" />
@@ -6895,7 +6895,7 @@
     <int name="wfc_spn_format_idx_int" value="1" />
   </carrier_config>
   <!-- open.31031.ebe7121e740a -->
-  <carrier_config mcc="310" mnc="31" name="LineageOS 31031">
+  <carrier_config mcc="310" mnc="31" name="Carrier 31031">
     <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
     <boolean name="carrier_default_wfc_ims_roaming_enabled_bool" value="true" />
     <boolean name="carrier_volte_available_bool" value="true" />
@@ -6959,7 +6959,7 @@
     <boolean name="imssms.sms_over_ims_supported_bool" value="true" />
   </carrier_config>
   <!-- open.310360.ae20d1a43c83 -->
-  <carrier_config mcc="310" mnc="360" name="310360">
+  <carrier_config mcc="310" mnc="360" name="Carrier 310360">
     <boolean name="enableMultipartSMS" value="true" />
     <boolean name="enabledMMS" value="true" />
     <string name="httpParams">X-MDN: ##LINE1##</string>
@@ -7598,7 +7598,7 @@
     <boolean name="rtt_supported_bool" value="true" />
   </carrier_config>
   <!-- open.310750.9939ef837034 -->
-  <carrier_config mcc="310" mnc="750" name="310750">
+  <carrier_config mcc="310" mnc="750" name="Carrier 310750">
     <boolean name="enableMultipartSMS" value="true" />
     <boolean name="enabledMMS" value="true" />
     <string name="httpParams">X-MDN: ##LINE1##</string>
@@ -8416,13 +8416,13 @@
     <boolean name="rtt_supported_bool" value="true" />
   </carrier_config>
   <!-- open.311390.c75f84f96b05 -->
-  <carrier_config mcc="311" mnc="390" name="311390">
+  <carrier_config mcc="311" mnc="390" name="Carrier 311390">
     <boolean name="carrier_volte_available_bool" value="true" />
     <boolean name="mmsCloseConnection" value="true" />
     <int name="volte_replacement_rat_int" value="6" />
   </carrier_config>
   <!-- open.311410.819e261f37f4 -->
-  <carrier_config mcc="311" mnc="410" name="311410">
+  <carrier_config mcc="311" mnc="410" name="Carrier 311410">
     <boolean name="enableMultipartSMS" value="true" />
     <boolean name="enabledMMS" value="true" />
     <string name="httpParams">X-MDN: ##LINE1##</string>
@@ -8435,7 +8435,7 @@
     <int name="smsToMmsTextThreshold" value="1" />
   </carrier_config>
   <!-- open.311430.b17e63fd71c3 -->
-  <carrier_config mcc="311" mnc="430" name="311430">
+  <carrier_config mcc="311" mnc="430" name="Carrier 311430">
     <boolean name="enableMultipartSMS" value="true" />
     <boolean name="enabledMMS" value="true" />
     <string name="httpParams">X-MDN: ##LINE1##</string>
@@ -8943,7 +8943,7 @@
     <int name="smsToMmsTextThreshold" value="1" />
   </carrier_config>
   <!-- open.311610.d835ea577908 -->
-  <carrier_config mcc="311" mnc="610" name="LineageOS 311610">
+  <carrier_config mcc="311" mnc="610" name="Carrier 311610">
     <int name="cdma_3waycall_flash_delay_int" value="200" />
     <string name="httpParams">X-MDN: ##LINE1##</string>
     <int name="maxMessageSize" value="1048576" />
@@ -9195,7 +9195,7 @@
     <int name="recipientLimit" value="10" />
   </carrier_config>
   <!-- open.311920.b7b268a39eac -->
-  <carrier_config mcc="311" mnc="920" name="LineageOS 311920">
+  <carrier_config mcc="311" mnc="920" name="Carrier 311920">
     <int name="cdma_3waycall_flash_delay_int" value="200" />
     <string name="httpParams">X-MDN: ##LINE1##</string>
     <int name="maxMessageSize" value="1048576" />
@@ -9224,7 +9224,7 @@
     <int name="smsToMmsTextThreshold" value="1" />
   </carrier_config>
   <!-- open.312040.f0b1c6ec975e -->
-  <carrier_config mcc="312" mnc="040" name="LineageOS 312040">
+  <carrier_config mcc="312" mnc="040" name="Carrier 312040">
     <int name="cdma_3waycall_flash_delay_int" value="200" />
     <string name="httpParams">X-MDN:10 ##LINE1##</string>
     <int name="maxMessageSize" value="1048576" />
@@ -9252,7 +9252,7 @@
     <int name="wfc_spn_format_idx_int" value="1" />
   </carrier_config>
   <!-- open.312160.469db8fc9b08 -->
-  <carrier_config mcc="312" mnc="160" name="312160">
+  <carrier_config mcc="312" mnc="160" name="Carrier 312160">
     <boolean name="enableMultipartSMS" value="true" />
     <boolean name="enabledMMS" value="true" />
     <string name="httpParams">X-MDN: ##LINE1##</string>
@@ -9863,7 +9863,7 @@
     </string-array>
   </carrier_config>
   <!-- open.330000.ef26d6679aa8 -->
-  <carrier_config mcc="330" mnc="000" name="LineageOS 330000">
+  <carrier_config mcc="330" mnc="000" name="Carrier 330000">
     <int name="cdma_3waycall_flash_delay_int" value="200" />
     <string name="httpParams">X-MDN: ##LINE1##</string>
     <int name="maxMessageSize" value="1048576" />
@@ -14578,7 +14578,7 @@
     <int name="wfc_spn_format_idx_int" value="1" />
   </carrier_config>
   <!-- open.46611.bfabafc6f55b -->
-  <carrier_config mcc="466" mnc="11" name="LineageOS 46611">
+  <carrier_config mcc="466" mnc="11" name="Carrier 46611">
     <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
     <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
@@ -16046,7 +16046,7 @@
     <int name="maxMessageSize" value="102400" />
   </carrier_config>
   <!-- open.64003.7acf7ca88465 -->
-  <carrier_config mcc="640" mnc="03" name="ZANTEL">
+  <carrier_config mcc="640" mnc="03" name="Carrier 64003">
     <boolean name="enabledMMS" value="true" />
     <int name="maxMessageSize" value="307200" />
   </carrier_config>
@@ -16646,7 +16646,7 @@
     <boolean name="carrier_wfc_ims_available_bool" value="true" />
   </carrier_config>
   <!-- open.72210.dce1bc2eb631 -->
-  <carrier_config mcc="722" mnc="10" name="LineageOS 72210">
+  <carrier_config mcc="722" mnc="10" name="Carrier 72210">
     <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
     <boolean name="carrier_volte_available_bool" value="true" />
     <boolean name="carrier_wfc_ims_available_bool" value="true" />

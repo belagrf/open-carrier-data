@@ -2,7 +2,7 @@
   "android_apns": [
     {
       "apn": "hos",
-      "name": "xcap",
+      "name": "hos",
       "protocol": "IPV4V6",
       "roaming_protocol": "IPV4V6",
       "types": [
@@ -65,6 +65,31 @@
       "types": [
         "dun"
       ]
+    },
+    {
+      "apn": "netcom",
+      "mvno_match_data": "2420256xxxxxxxx",
+      "mvno_type": "imsi",
+      "name": "Chess Internett",
+      "types": [
+        "default",
+        "supl"
+      ]
+    },
+    {
+      "apn": "netcom",
+      "authtype": 1,
+      "mmsc": "http://mm/",
+      "mmsport": 8080,
+      "mmsproxy": "212.169.66.4",
+      "mvno_match_data": "2420256xxxxxxxx",
+      "mvno_type": "imsi",
+      "name": "Chess MMS",
+      "password": "netcom",
+      "types": [
+        "mms"
+      ],
+      "user": "mms"
     }
   ],
   "android_carrier_config": {

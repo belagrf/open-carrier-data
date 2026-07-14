@@ -16,6 +16,17 @@
     },
     {
       "apn": "internet",
+      "name": "USCC",
+      "password": "yourMSID",
+      "proxy": "wap.voicestream.com",
+      "types": [
+        "default",
+        "supl"
+      ],
+      "user": "yourMSID@uscc.net"
+    },
+    {
+      "apn": "internet",
       "authtype": 3,
       "mmsc": "http://mmsc1.uscc.net/mmsc/MMS",
       "mmsport": 80,
@@ -78,6 +89,20 @@
     },
     {
       "apn": "n.ispsn",
+      "mmsc": "http://mms.sprintpcs.com/servlets/mms",
+      "mmsport": 80,
+      "mmsproxy": "68.28.31.7",
+      "name": "Sprint",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "default",
+        "dun",
+        "ia"
+      ]
+    },
+    {
+      "apn": "n.ispsn",
       "bearer": 13,
       "mmsc": "http://mms.sprintpcs.com",
       "mmsport": 80,
@@ -87,20 +112,6 @@
       "roaming_protocol": "IPV4V6",
       "types": [
         "default",
-        "hipri",
-        "mms",
-        "supl"
-      ]
-    },
-    {
-      "apn": "n.ispsn",
-      "mmsc": "http://mms.sprintpcs.com",
-      "mmsport": 80,
-      "mmsproxy": "68.28.31.7",
-      "name": "Sprint internet",
-      "protocol": "IPV4V6",
-      "roaming_protocol": "IPV4V6",
-      "types": [
         "hipri",
         "mms",
         "supl"
@@ -180,6 +191,14 @@
         "ia"
       ],
       "user": "null"
+    },
+    {
+      "apn": "vowifi",
+      "name": "Sprint",
+      "protocol": "IP",
+      "types": [
+        "ims"
+      ]
     }
   ],
   "android_carrier_config": {

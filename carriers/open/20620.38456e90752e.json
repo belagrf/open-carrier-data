@@ -66,7 +66,9 @@
       "authtype": 1,
       "name": "gprs.base.be",
       "password": "base",
+      "port": 5080,
       "protocol": "IPV4V6",
+      "proxy": "172.31.198.37",
       "types": [
         "default",
         "supl"

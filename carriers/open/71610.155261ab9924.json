@@ -28,7 +28,7 @@
     {
       "apn": "claro.pe",
       "authtype": 1,
-      "name": "CLARO DATOS",
+      "name": "claro.pe",
       "password": "claro",
       "protocol": "IPV4V6",
       "roaming_protocol": "IPV4V6",

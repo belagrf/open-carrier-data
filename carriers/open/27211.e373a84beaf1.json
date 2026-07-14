@@ -47,6 +47,20 @@
         "default",
         "supl"
       ]
+    },
+    {
+      "apn": "tescomobile.liffeytelecom.com",
+      "mmsc": "http://mmc1/servlets/mms",
+      "mmsport": 8080,
+      "mmsproxy": "10.1.11.19",
+      "mvno_match_data": "0A",
+      "mvno_type": "gid",
+      "name": "Tesco",
+      "types": [
+        "default",
+        "mms",
+        "supl"
+      ]
     }
   ],
   "android_carrier_config": {

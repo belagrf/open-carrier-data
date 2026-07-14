@@ -30,10 +30,12 @@
       "mmsc": "http://mmc.digicelfr.com/servlets/mms",
       "mmsport": 8080,
       "mmsproxy": "172.20.6.12",
-      "name": "Digicel",
+      "name": "wap.digicelfr.com",
       "password": "wap",
       "types": [
-        "mms"
+        "default",
+        "mms",
+        "supl"
       ],
       "user": "wap"
     },

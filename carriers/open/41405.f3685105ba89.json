@@ -1,6 +1,14 @@
 {
   "android_apns": [
     {
+      "apn": "Internet",
+      "name": "Ooredoo",
+      "types": [
+        "default",
+        "hipri"
+      ]
+    },
+    {
       "apn": "internet",
       "name": "Ooredoo",
       "password": "internet",

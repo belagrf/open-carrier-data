@@ -81,6 +81,17 @@
         "dun",
         "mms"
       ]
+    },
+    {
+      "apn": "vox.lu",
+      "mmsc": "http://mms.vox.lu",
+      "mmsport": 8080,
+      "mmsproxy": "212.88.139.44",
+      "name": "vox.lu",
+      "types": [
+        "default",
+        "supl"
+      ]
     }
   ],
   "android_carrier_config": {

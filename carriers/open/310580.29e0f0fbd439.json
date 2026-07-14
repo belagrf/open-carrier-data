@@ -62,6 +62,8 @@
       "authtype": 3,
       "mmsc": "http://mms.inland3g.com/inland/mms.php",
       "name": "internet.inland.com",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IP",
       "types": [
         "default",
         "mms"
@@ -96,7 +98,10 @@
       "apn": "internet.inland.com",
       "mmsc": "http://mms.inland3g.com/inland/mms.php",
       "name": "Inland",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IP",
       "types": [
+        "ims",
         "supl"
       ]
     },
@@ -112,16 +117,6 @@
       ]
     },
     {
-      "apn": "modem.inland.com",
-      "name": "Inland Hotspot",
-      "protocol": "IPV4V6",
-      "roaming_protocol": "IPV4V6",
-      "types": [
-        "dun"
-      ],
-      "user_visible": false
-    },
-    {
       "apn": "ota.inland.com",
       "bearer": 14,
       "name": "Inland Cellular FOTA",
@@ -133,11 +128,123 @@
     },
     {
       "apn": "ota.inland.com",
-      "name": "Inland OTA",
+      "name": "ota.inland.com",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IP",
       "types": [
         "fota"
       ],
       "user_visible": false
+    },
+    {
+      "apn": "fast.metropcs.com",
+      "mmsc": "http://metropcs.mmsmvno.com/mms/wapenc",
+      "mvno_match_data": "6D",
+      "mvno_type": "gid",
+      "name": "MetroPCS 580",
+      "protocol": "IPV6",
+      "roaming_protocol": "IP",
+      "types": [
+        "default",
+        "mms",
+        "supl"
+      ]
+    },
+    {
+      "apn": "CdmaNai",
+      "bearer": 6,
+      "carrier_enabled": false,
+      "mmsc": "http://mms.inland3g.com/inland/mms.php",
+      "mvno_match_data": "inland",
+      "mvno_type": "spn",
+      "name": "inland",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "mms"
+      ]
+    },
+    {
+      "apn": "IMS",
+      "bearer": 13,
+      "mvno_match_data": "inland",
+      "mvno_type": "spn",
+      "name": "Inland IMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ia",
+        "ims"
+      ]
+    },
+    {
+      "apn": "IMS",
+      "bearer": 14,
+      "mvno_match_data": "inland",
+      "mvno_type": "spn",
+      "name": "Inland IMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ia",
+        "ims"
+      ]
+    },
+    {
+      "apn": "VZWADMIN",
+      "bearer": 13,
+      "mvno_match_data": "inland",
+      "mvno_type": "spn",
+      "name": "Inland FOTA",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "fota"
+      ]
+    },
+    {
+      "apn": "VZWADMIN",
+      "bearer": 14,
+      "mvno_match_data": "inland",
+      "mvno_type": "spn",
+      "name": "Inland FOTA",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "fota"
+      ]
+    },
+    {
+      "apn": "VZWINTERNET",
+      "bearer": 13,
+      "mmsc": "http://mms.inland3g.com/inland/mms.php",
+      "mvno_match_data": "inland",
+      "mvno_type": "spn",
+      "name": "Inland",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "default",
+        "dun",
+        "mms",
+        "supl"
+      ]
+    },
+    {
+      "apn": "VZWINTERNET",
+      "bearer": 14,
+      "mmsc": "http://mms.inland3g.com/inland/mms.php",
+      "mvno_match_data": "inland",
+      "mvno_type": "spn",
+      "name": "Inland",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "default",
+        "dun",
+        "mms",
+        "supl"
+      ]
     }
   ],
   "android_carrier_config": {

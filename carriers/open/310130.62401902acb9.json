@@ -114,6 +114,108 @@
         "dun"
       ],
       "user_editable": false
+    },
+    {
+      "apn": "CdmaNai",
+      "bearer": 6,
+      "carrier_enabled": false,
+      "mmsc": "http://mms.cwwmms.com/cww/mms.php",
+      "mmsport": 80,
+      "mmsproxy": "204.117.091.161",
+      "mvno_match_data": "carolinawest",
+      "mvno_type": "spn",
+      "name": "carolinawest",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "mms"
+      ]
+    },
+    {
+      "apn": "IMS",
+      "bearer": 13,
+      "mvno_match_data": "carolinawest",
+      "mvno_type": "spn",
+      "name": "Carolina IMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ia",
+        "ims"
+      ]
+    },
+    {
+      "apn": "IMS",
+      "bearer": 14,
+      "mvno_match_data": "carolinawest",
+      "mvno_type": "spn",
+      "name": "Carolina IMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ia",
+        "ims"
+      ]
+    },
+    {
+      "apn": "VZWADMIN",
+      "bearer": 13,
+      "mvno_match_data": "carolinawest",
+      "mvno_type": "spn",
+      "name": "Carolina FOTA",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "fota"
+      ]
+    },
+    {
+      "apn": "VZWADMIN",
+      "bearer": 14,
+      "mvno_match_data": "carolinawest",
+      "mvno_type": "spn",
+      "name": "Carolina FOTA",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "fota"
+      ]
+    },
+    {
+      "apn": "VZWINTERNET",
+      "bearer": 13,
+      "mmsc": "http://mms.cwwmms.com/cww/mms.php",
+      "mmsport": 80,
+      "mmsproxy": "204.117.091.161",
+      "mvno_match_data": "carolinawest",
+      "mvno_type": "spn",
+      "name": "Carolina west",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "default",
+        "dun",
+        "mms",
+        "supl"
+      ]
+    },
+    {
+      "apn": "VZWINTERNET",
+      "bearer": 14,
+      "mmsc": "http://mms.cwwmms.com/cww/mms.php",
+      "mmsport": 80,
+      "mmsproxy": "204.117.091.161",
+      "mvno_match_data": "carolinawest",
+      "mvno_type": "spn",
+      "name": "Carolina west",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "default",
+        "dun",
+        "mms",
+        "supl"
+      ]
     }
   ],
   "android_carrier_config": {

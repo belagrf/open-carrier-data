@@ -1,4 +1,102 @@
 {
+  "android_apns": [
+    {
+      "apn": "CdmaNai",
+      "bearer": 6,
+      "carrier_enabled": false,
+      "mmsc": "http://mmsc1.gscdata.com",
+      "mvno_match_data": "gsc",
+      "mvno_type": "spn",
+      "name": "gsc",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "mms"
+      ]
+    },
+    {
+      "apn": "IMS",
+      "bearer": 13,
+      "mvno_match_data": "gsc",
+      "mvno_type": "spn",
+      "name": "Gsc IMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ia",
+        "ims"
+      ]
+    },
+    {
+      "apn": "IMS",
+      "bearer": 14,
+      "mvno_match_data": "gsc",
+      "mvno_type": "spn",
+      "name": "Gsc IMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ia",
+        "ims"
+      ]
+    },
+    {
+      "apn": "VZWADMIN",
+      "bearer": 13,
+      "mvno_match_data": "gsc",
+      "mvno_type": "spn",
+      "name": "Gsc FOTA",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "fota"
+      ]
+    },
+    {
+      "apn": "VZWADMIN",
+      "bearer": 14,
+      "mvno_match_data": "gsc",
+      "mvno_type": "spn",
+      "name": "Gsc FOTA",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "fota"
+      ]
+    },
+    {
+      "apn": "VZWINTERNET",
+      "bearer": 13,
+      "mmsc": "http://mmsc1.gscdata.com",
+      "mvno_match_data": "gsc",
+      "mvno_type": "spn",
+      "name": "Gsc",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "default",
+        "dun",
+        "mms",
+        "supl"
+      ]
+    },
+    {
+      "apn": "VZWINTERNET",
+      "bearer": 14,
+      "mmsc": "http://mmsc1.gscdata.com",
+      "mvno_match_data": "gsc",
+      "mvno_type": "spn",
+      "name": "Gsc",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "default",
+        "dun",
+        "mms",
+        "supl"
+      ]
+    }
+  ],
   "android_carrier_config": {
     "cdma_3waycall_flash_delay_int": 200,
     "enableMultipartSMS": true,

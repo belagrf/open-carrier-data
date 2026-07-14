@@ -94,16 +94,6 @@
       "user_visible": false
     },
     {
-      "apn": "mmsaut",
-      "mmsc": "http://mmsaut.at/send",
-      "mmsport": 80,
-      "mmsproxy": "212.95.31.50",
-      "name": "HoT MMS",
-      "types": [
-        "mms"
-      ]
-    },
-    {
       "apn": "web",
       "authtype": 1,
       "name": "web",

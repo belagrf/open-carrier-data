@@ -11,6 +11,16 @@
       ]
     },
     {
+      "apn": "connect.mobilinkworld.com",
+      "name": "Zain Internet",
+      "password": "Mobilink",
+      "types": [
+        "default",
+        "supl"
+      ],
+      "user": "Mobilink"
+    },
+    {
       "apn": "hos",
       "name": "HOS",
       "types": [

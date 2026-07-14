@@ -12,6 +12,7 @@
     {
       "apn": "3gnet",
       "name": "3gnet",
+      "port": 80,
       "protocol": "IPV4V6",
       "roaming_protocol": "IPV4V6",
       "types": [
@@ -45,7 +46,9 @@
       "mmsproxy": "10.0.0.172",
       "name": "3gwap",
       "port": 80,
+      "protocol": "IPV4V6",
       "proxy": "10.0.0.172",
+      "roaming_protocol": "IPV4V6",
       "types": [
         "mms"
       ]

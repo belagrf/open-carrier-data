@@ -1,0 +1,35 @@
+{
+  "android_apns": [
+    {
+      "apn": "wnw",
+      "authtype": 1,
+      "name": "RO - Cosmote (WnW) Web",
+      "password": "wnw",
+      "types": [
+        "default",
+        "supl"
+      ],
+      "user": "wnw"
+    }
+  ],
+  "capabilities": {
+    "esim": "unknown",
+    "ims_conference": "unknown",
+    "mms": "unknown",
+    "rcs": "unknown",
+    "sms_over_ims": "unknown",
+    "video_calling": "unknown",
+    "volte": "unknown",
+    "vonr": "unknown",
+    "vowifi": "unknown",
+    "wifi_calling_roaming": "unknown"
+  },
+  "display_name": "RO - Cosmote (WnW)",
+  "match": {
+    "mccmnc": [
+      "22604"
+    ]
+  },
+  "profile_id": "open.22604.f2f1b025e255",
+  "schema_version": 1
+}

@@ -1,4 +1,78 @@
 {
+  "android_apns": [
+    {
+      "apn": "halebop.telia.se",
+      "mvno_match_data": "Halebop",
+      "mvno_type": "spn",
+      "name": "Halebop Internet",
+      "types": [
+        "default",
+        "supl"
+      ]
+    },
+    {
+      "apn": "mms.telia.se",
+      "mmsc": "http://mmss",
+      "mmsport": 80,
+      "mmsproxy": "193.209.134.132",
+      "mvno_match_data": "Halebop",
+      "mvno_type": "spn",
+      "name": "Halebop MMS",
+      "types": [
+        "mms"
+      ]
+    },
+    {
+      "apn": "4g.tele2.se",
+      "mmsc": "http://mmsc.tele2.se",
+      "mmsport": 8080,
+      "mmsproxy": "130.244.202.30",
+      "mvno_match_data": "Tele2",
+      "mvno_type": "spn",
+      "name": "Tele2 4G",
+      "types": [
+        "default",
+        "mms",
+        "supl"
+      ]
+    },
+    {
+      "apn": "internet.tele2.se",
+      "mmsc": "http://mmsc.tele2.se",
+      "mmsport": 8080,
+      "mmsproxy": "130.244.202.30",
+      "mvno_match_data": "Tele2",
+      "mvno_type": "spn",
+      "name": "Tele2 3G",
+      "types": [
+        "default",
+        "mms",
+        "supl"
+      ]
+    },
+    {
+      "apn": "mms.telia.se",
+      "mmsc": "http://mmss",
+      "mmsport": 80,
+      "mmsproxy": "193.209.134.132",
+      "mvno_match_data": "Telia",
+      "mvno_type": "spn",
+      "name": "Telia MMS",
+      "types": [
+        "mms"
+      ]
+    },
+    {
+      "apn": "online.telia.se",
+      "mvno_match_data": "Telia",
+      "mvno_type": "spn",
+      "name": "Telia",
+      "types": [
+        "default",
+        "supl"
+      ]
+    }
+  ],
   "capabilities": {
     "esim": "unknown",
     "ims_conference": "unknown",

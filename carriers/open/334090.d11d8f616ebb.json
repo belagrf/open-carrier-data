@@ -1,15 +1,6 @@
 {
   "android_apns": [
     {
-      "apn": "location.nexteldata.com.mx",
-      "name": "Nextel Localizaci\u00f3n",
-      "port": 7275,
-      "server": "supl.nexteldata.com.mx",
-      "types": [
-        "supl"
-      ]
-    },
-    {
       "apn": "mms.attmex.mx",
       "mmsc": "http://mms.att.com.mx",
       "mmsport": 8080,
@@ -43,6 +34,7 @@
     },
     {
       "apn": "modem.nexteldata.com.mx",
+      "authtype": 0,
       "name": "modem.nexteldata.com.mx",
       "types": [
         "dun"

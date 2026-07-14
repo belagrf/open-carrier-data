@@ -3,13 +3,12 @@
     {
       "apn": "datos.personal.com",
       "authtype": 1,
-      "name": "datos.personal.com",
-      "password": "datos",
+      "name": "Personal Datos",
+      "password": "adgj",
       "types": [
-        "default",
-        "supl"
+        "dun"
       ],
-      "user": "datos"
+      "user": "gprs"
     },
     {
       "apn": "gprs.personal.com",

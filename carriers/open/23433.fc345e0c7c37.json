@@ -38,6 +38,16 @@
       ]
     },
     {
+      "apn": "SOS",
+      "authtype": 1,
+      "name": "EE Emergency",
+      "protocol": "IPV6",
+      "types": [
+        "emergency"
+      ],
+      "user_visible": false
+    },
+    {
       "apn": "consumerbroadband",
       "name": "Orange Broadband",
       "types": [
@@ -112,6 +122,22 @@
       ]
     },
     {
+      "apn": "goto.virginmobile.uk",
+      "authtype": 1,
+      "mmsc": "http://mms.virginmobile.co.uk:8002",
+      "mmsport": 8080,
+      "mmsproxy": "193.30.166.2",
+      "mvno_match_data": "28",
+      "mvno_type": "gid",
+      "name": "Virgin Media Mobile Internet",
+      "types": [
+        "default",
+        "mms",
+        "supl"
+      ],
+      "user": "user"
+    },
+    {
       "apn": "eezone",
       "authtype": 1,
       "mmsc": "http://mms/",
@@ -140,21 +166,6 @@
         "supl"
       ],
       "user": "eesecure"
-    },
-    {
-      "apn": "tslmms",
-      "authtype": 1,
-      "mmsc": "http://mms",
-      "mmsport": 8080,
-      "mmsproxy": "193.35.133.194",
-      "mvno_match_data": "LIFE",
-      "mvno_type": "spn",
-      "name": "LIFE MMS",
-      "password": "wap",
-      "types": [
-        "mms"
-      ],
-      "user": "wap"
     },
     {
       "apn": "tslpaygnet",

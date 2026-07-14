@@ -10,9 +10,11 @@
     },
     {
       "apn": "internet.porta.com.ec",
-      "name": "Porta EC",
+      "authtype": 1,
+      "name": "internet.porta.com.ec",
       "types": [
         "default",
+        "dun",
         "supl"
       ]
     },

@@ -29,6 +29,7 @@
       "mmsport": 8080,
       "mmsproxy": "10.210.10.11",
       "name": "bsnlmms",
+      "password": "mmsc",
       "port": 8080,
       "protocol": "IPV4V6",
       "proxy": "10.210.10.11",

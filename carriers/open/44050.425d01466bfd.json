@@ -70,6 +70,21 @@
     },
     {
       "apn": "au.au-net.ne.jp",
+      "authtype": 2,
+      "name": "LTE NET for DATA",
+      "password": "au",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IP",
+      "types": [
+        "default",
+        "hipri",
+        "mms",
+        "supl"
+      ],
+      "user": "user@au.au-net.ne.jp"
+    },
+    {
+      "apn": "au.au-net.ne.jp",
       "apn_set_id": 1,
       "authtype": 2,
       "name": "LTE NET for DATA",
@@ -173,6 +188,18 @@
       "user_visible": false
     },
     {
+      "apn": "mineo.jp",
+      "authtype": 2,
+      "name": "mineo",
+      "password": "mineo",
+      "types": [
+        "default",
+        "hipri",
+        "supl"
+      ],
+      "user": "mineo@k-opti.com"
+    },
+    {
       "apn": "sos",
       "apn_set_id": -1,
       "name": "KDDI JP Emergency",
@@ -271,6 +298,21 @@
       "user_visible": false
     },
     {
+      "apn": "uno.au-net.ne.jp",
+      "authtype": 2,
+      "name": "LTE NET",
+      "password": "KpyrR6BP",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IP",
+      "types": [
+        "default",
+        "hipri",
+        "mms",
+        "supl"
+      ],
+      "user": "685840734641020@uno.au-net.ne.jp"
+    },
+    {
       "apn": "unod.au-net.ne.jp",
       "apn_set_id": 0,
       "authtype": 2,
@@ -300,6 +342,21 @@
       ],
       "user": "685840734641020@uno.au-net.ne.jp",
       "user_editable": false
+    },
+    {
+      "apn": "uqmobile.jp",
+      "authtype": 2,
+      "mmsc": "http://mms.ezweb.ne.jp/MMS",
+      "mmsport": 80,
+      "name": "UQ mobile",
+      "password": "uq",
+      "types": [
+        "default",
+        "dun",
+        "hipri",
+        "supl"
+      ],
+      "user": "uq@uqmobile.jp"
     },
     {
       "apn": "xcap",

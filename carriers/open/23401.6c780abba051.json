@@ -5,6 +5,7 @@
       "name": "UBIQUISYS",
       "types": [
         "default",
+        "mms",
         "supl"
       ]
     },

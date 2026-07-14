@@ -99,7 +99,7 @@
     },
     {
       "apn": "wap-gprs.mtel.bg",
-      "name": "Mtel Internet",
+      "name": "wap-gprs.mtel.bg",
       "types": [
         "default",
         "supl"

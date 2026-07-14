@@ -59,6 +59,18 @@
       "user_visible": false
     },
     {
+      "apn": "movistar.es",
+      "authtype": 1,
+      "name": "movistar.es",
+      "password": "movistar",
+      "port": 8080,
+      "proxy": "10.138.255.133",
+      "types": [
+        "default"
+      ],
+      "user": "movistar"
+    },
+    {
       "apn": "telefonica.es",
       "authtype": 1,
       "carrier_enabled": true,
@@ -95,10 +107,52 @@
       "user": "telefonica"
     },
     {
+      "apn": "internet.t-2.net",
+      "mmsc": "http://www.mms.t-2.net:8002",
+      "mmsport": 8080,
+      "mmsproxy": "172.20.18.137",
+      "mvno_match_data": "2140759577xxxxx",
+      "mvno_type": "imsi",
+      "name": "T-2",
+      "types": [
+        "default",
+        "mms",
+        "supl"
+      ]
+    },
+    {
+      "apn": "internet.t-2.net",
+      "mmsc": "http://www.mms.t-2.net:8002",
+      "mmsport": 8080,
+      "mmsproxy": "172.20.18.137",
+      "mvno_match_data": "2140759917xxxxx",
+      "mvno_type": "imsi",
+      "name": "T-2",
+      "types": [
+        "default",
+        "mms",
+        "supl"
+      ]
+    },
+    {
+      "apn": "internet.t-2.net",
+      "mmsc": "http://www.mms.t-2.net:8002",
+      "mmsport": 8080,
+      "mmsproxy": "172.20.18.137",
+      "mvno_match_data": "2140796692xxxxx",
+      "mvno_type": "imsi",
+      "name": "T-2",
+      "types": [
+        "default",
+        "mms",
+        "supl"
+      ]
+    },
+    {
       "apn": "jazzinternet",
       "mvno_match_data": "JAZZTEL",
       "mvno_type": "spn",
-      "name": "Jazztel",
+      "name": "jazzinternet",
       "types": [
         "default",
         "supl"
@@ -106,6 +160,7 @@
     },
     {
       "apn": "jazzmms",
+      "authtype": 1,
       "mmsc": "http://jazztelmms.com/servlets/mms",
       "mmsport": 8080,
       "mmsproxy": "37.132.0.10",

@@ -48,6 +48,7 @@
     },
     {
       "apn": "pc.hotm",
+      "authtype": 0,
       "name": "pc.hotm",
       "types": [
         "dun"

@@ -79,6 +79,7 @@
     },
     {
       "apn": "internet.tusmobil.si",
+      "authtype": 1,
       "name": "Tusmobil Internet",
       "password": "internet",
       "types": [
@@ -89,6 +90,7 @@
     },
     {
       "apn": "mms.tusmobil.si",
+      "authtype": 1,
       "mmsc": "http://mms.tusmobil.si:8002",
       "mmsport": 8080,
       "mmsproxy": "91.185.221.85",

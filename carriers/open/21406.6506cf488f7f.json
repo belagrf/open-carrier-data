@@ -79,10 +79,40 @@
       ]
     },
     {
+      "apn": "internet.euskaltel.mobi",
+      "name": "Euskaltel Internet",
+      "password": "EUSKALTEL",
+      "types": [
+        "default",
+        "supl"
+      ],
+      "user": "CLIENTE"
+    },
+    {
+      "apn": "internet.mundo-r.com",
+      "name": "Internet R",
+      "types": [
+        "default",
+        "supl"
+      ]
+    },
+    {
+      "apn": "internet.telecable.es",
+      "name": "TeleCable Internet",
+      "password": "telecable",
+      "types": [
+        "default",
+        "supl"
+      ],
+      "user": "telecable"
+    },
+    {
       "apn": "lowi.private.omv.es",
+      "mmsproxy": "mms.lowi.omv.es",
       "name": "Lowi",
       "types": [
         "default",
+        "mms",
         "supl"
       ]
     },
@@ -99,6 +129,18 @@
       "user": "wap@wap"
     },
     {
+      "apn": "mms.telecable.es",
+      "mmsc": "http://mms.telecable.es/mms/",
+      "mmsport": 8080,
+      "mmsproxy": "212.89.0.84",
+      "name": "TeleCable MMS",
+      "password": "telecable",
+      "types": [
+        "mms"
+      ],
+      "user": "telecable"
+    },
+    {
       "apn": "mms.vodafone.net",
       "mmsc": "http://mmsc.vodafone.es/servlets/mms",
       "mmsport": 80,
@@ -109,6 +151,47 @@
         "mms"
       ],
       "user": "wap@wap"
+    },
+    {
+      "apn": "gprs.eroskimovil.es",
+      "authtype": 1,
+      "mvno_match_data": "2140606",
+      "mvno_type": "imsi",
+      "name": "Eroski Movil GPRS",
+      "password": "wap125",
+      "types": [
+        "default",
+        "supl"
+      ],
+      "user": "wap@wap"
+    },
+    {
+      "apn": "mms.eroskimovil.es",
+      "authtype": 1,
+      "mmsc": "http://mms.eroskimovil.es/servlets/mms",
+      "mmsport": 80,
+      "mmsproxy": "212.73.32.10",
+      "mvno_match_data": "2140606",
+      "mvno_type": "imsi",
+      "name": "Eroski Movil MMS",
+      "password": "wap125",
+      "types": [
+        "mms"
+      ],
+      "user": "wap@wap"
+    },
+    {
+      "apn": "mms.mundo-r.com",
+      "authtype": 1,
+      "mmsc": "http://mms.mundo-r.com",
+      "mmsport": 8080,
+      "mmsproxy": "10.0.157.169",
+      "mvno_match_data": "2140612",
+      "mvno_type": "imsi",
+      "name": "MMS R",
+      "types": [
+        "mms"
+      ]
     },
     {
       "apn": "mms.eroskimovil.es",
@@ -242,6 +325,33 @@
       "mvno_match_data": "finetwork",
       "mvno_type": "spn",
       "name": "finetwork MMS",
+      "password": "wap125",
+      "types": [
+        "mms"
+      ],
+      "user": "wap@wap"
+    },
+    {
+      "apn": "gprs.pepephone.com",
+      "authtype": 0,
+      "mvno_match_data": "pepephone",
+      "mvno_type": "spn",
+      "name": "DUN",
+      "types": [
+        "default",
+        "dun",
+        "supl"
+      ]
+    },
+    {
+      "apn": "mms.pepephone.com",
+      "authtype": 0,
+      "mmsc": "http://mms.pepephone.com/servlets/mms",
+      "mmsport": 80,
+      "mmsproxy": "212.73.32.10",
+      "mvno_match_data": "pepephone",
+      "mvno_type": "spn",
+      "name": "MMS",
       "password": "wap125",
       "types": [
         "mms"

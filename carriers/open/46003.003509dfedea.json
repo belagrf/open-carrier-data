@@ -17,11 +17,12 @@
     {
       "apn": "ctnet",
       "authtype": 3,
-      "name": "\u4e2d\u56fd\u7535\u4fe1 (China Telecom) GPRS",
+      "name": "ctnet",
       "password": "vnet.mobi",
       "protocol": "IPV4V6",
       "roaming_protocol": "IPV4V6",
       "types": [
+        "ia",
         "supl"
       ],
       "user": "ctnet@mycdma.cn"
@@ -32,25 +33,23 @@
       "mmsc": "http://mmsc.vnet.mobi",
       "mmsport": 80,
       "mmsproxy": "10.0.0.200",
-      "name": "ctwap",
+      "name": "CTWAP",
       "password": "vnet.mobi",
       "port": 80,
       "protocol": "IP",
       "server": "*",
       "types": [
         "cbs",
-        "default",
         "fota",
-        "hipri",
-        "mms",
-        "supl"
+        "hipri"
       ],
       "user": "ctwap@mycdma.cn"
     },
     {
       "apn": "ims",
-      "name": "IMS",
+      "name": "ims",
       "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
       "types": [
         "ims"
       ]

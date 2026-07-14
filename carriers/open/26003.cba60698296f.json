@@ -55,19 +55,12 @@
       "user_visible": false
     },
     {
-      "apn": "ims",
-      "name": "Orange",
-      "protocol": "IP",
-      "types": [
-        "ims"
-      ]
-    },
-    {
       "apn": "internet",
       "authtype": 3,
       "name": "internet",
       "password": "internet",
       "types": [
+        "fota",
         "supl"
       ],
       "user": "internet"
@@ -93,6 +86,20 @@
         "mms"
       ],
       "user": "mni.mms"
+    },
+    {
+      "apn": "wap",
+      "name": "Orange WAP",
+      "password": "wap",
+      "port": 8080,
+      "proxy": "192.168.006.102",
+      "types": [
+        "default",
+        "dun",
+        "fota",
+        "supl"
+      ],
+      "user": "wap"
     }
   ],
   "android_carrier_config": {

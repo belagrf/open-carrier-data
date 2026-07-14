@@ -58,17 +58,6 @@
       ]
     },
     {
-      "apn": "mms",
-      "authtype": 1,
-      "mmsc": "http://mmsc:10021/mmsc",
-      "mmsport": 8799,
-      "mmsproxy": "62.169.66.5",
-      "name": "NOS MMS",
-      "types": [
-        "mms"
-      ]
-    },
-    {
       "apn": "modem",
       "name": "Optimus HotSpot",
       "types": [

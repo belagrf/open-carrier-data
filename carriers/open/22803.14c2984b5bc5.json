@@ -32,7 +32,7 @@
   "android_apns": [
     {
       "apn": "click",
-      "name": "Salt Prepay",
+      "name": "click",
       "types": [
         "default",
         "supl"
@@ -107,7 +107,7 @@
       "mmsc": "http://192.168.151.3:8002",
       "mmsport": 8080,
       "mmsproxy": "192.168.151.2",
-      "name": "Salt MMS",
+      "name": "mms",
       "types": [
         "mms"
       ]

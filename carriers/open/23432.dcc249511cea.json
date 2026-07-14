@@ -38,6 +38,20 @@
       "user": "eesecure"
     },
     {
+      "apn": "general.t-mobile.uk",
+      "mmsc": "http://mmsc.t-mobile.co.uk:8002",
+      "mmsport": 8080,
+      "mmsproxy": "149.254.201.135",
+      "name": "general.t-mobile.uk",
+      "password": "tm",
+      "types": [
+        "default",
+        "mms",
+        "supl"
+      ],
+      "user": "t-mobile"
+    },
+    {
       "apn": "goto.virginmobile.uk",
       "name": "goto.virginmobile.uk",
       "types": [
@@ -55,6 +69,16 @@
       "types": [
         "mms"
       ]
+    },
+    {
+      "apn": "ims",
+      "name": "EE IMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ],
+      "user_visible": false
     }
   ],
   "android_carrier_config": {

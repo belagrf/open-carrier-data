@@ -10,6 +10,16 @@
     },
     {
       "apn": "tuenti.com",
+      "name": "Tuenti",
+      "password": "tuenti",
+      "types": [
+        "default",
+        "supl"
+      ],
+      "user": "tuenti"
+    },
+    {
+      "apn": "tuenti.com",
       "mvno_match_data": "Tuenti",
       "mvno_type": "spn",
       "name": "Tuenti",

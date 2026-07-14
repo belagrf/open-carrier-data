@@ -12,6 +12,17 @@
       "user": "movistar"
     },
     {
+      "apn": "apnwap.movistar.com.uy",
+      "name": "Movistar WAP",
+      "password": "wapuy",
+      "port": 8080,
+      "proxy": "200.5.68.10",
+      "types": [
+        "default"
+      ],
+      "user": "wapuy"
+    },
+    {
       "apn": "webapn.movistar.com.uy",
       "authtype": 1,
       "name": "webapn.movistar.com.uy",

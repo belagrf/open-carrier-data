@@ -32,6 +32,14 @@
       "user_visible": false
     },
     {
+      "apn": "inet.stm.sk.ca",
+      "name": "inet.stm.sk.ca",
+      "types": [
+        "default",
+        "supl"
+      ]
+    },
+    {
       "apn": "pda.stm.sk.ca",
       "mmsc": "http://mms.sasktel.com/",
       "mmsport": 80,
@@ -77,6 +85,17 @@
       "name": "SaskTel",
       "types": [
         "dun"
+      ]
+    },
+    {
+      "apn": "proxy.stm.sk.ca",
+      "mmsc": "http://mms.sasktel.com",
+      "mmsport": 80,
+      "mmsproxy": "mig.sasktel.com",
+      "name": "Sasktel MMS",
+      "port": 80,
+      "types": [
+        "mms"
       ]
     },
     {

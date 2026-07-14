@@ -28,7 +28,7 @@
   "android_apns": [
     {
       "apn": "globul",
-      "name": "GLOBUL Internet",
+      "name": "globul",
       "port": 8004,
       "proxy": "192.168.88.11",
       "types": [

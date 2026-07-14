@@ -108,14 +108,22 @@
     },
     {
       "apn": "web.omnitel.it",
+      "authtype": 3,
+      "mmsport": 80,
+      "name": "web.omnitel.it",
+      "types": [
+        "supl"
+      ]
+    },
+    {
+      "apn": "web.omnitel.it",
       "authtype": 0,
       "carrier_enabled": true,
       "mtu": 1350,
-      "name": "web.omnitel.it",
+      "name": "Internet",
       "protocol": "IPV4V6",
       "roaming_protocol": "IPV4V6",
       "types": [
-        "default",
         "xcap"
       ]
     },
@@ -168,7 +176,18 @@
       ]
     },
     {
+      "apn": "internet.postemobile.it",
+      "authtype": 0,
+      "mvno_match_data": "PosteMobile",
+      "mvno_type": "spn",
+      "name": "PosteMobile (DUN)",
+      "types": [
+        "dun"
+      ]
+    },
+    {
       "apn": "mms.postemobile.it",
+      "authtype": 0,
       "mmsc": "http://mms.postemobile.it/servlets/mms",
       "mmsport": 80,
       "mmsproxy": "10.128.224.10",

@@ -53,10 +53,13 @@
     },
     {
       "apn": "hs.vodafone.ie",
-      "name": "vodafone IE",
+      "authtype": 0,
+      "name": "hs.vodafone.ie",
+      "password": "vodafone",
       "types": [
         "dun"
-      ]
+      ],
+      "user": "vodafone"
     },
     {
       "apn": "hs.vodafone.ie",

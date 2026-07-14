@@ -1,6 +1,13 @@
 {
   "android_apns": [
     {
+      "apn": "0120.mopera.net",
+      "name": "mopera U\u8a2d\u5b9a",
+      "types": [
+        "default"
+      ]
+    },
+    {
       "apn": "3g-d-2.ocn.ne.jp",
       "authtype": 2,
       "name": "OCN \u30e2\u30d0\u30a4\u30eb ONE (3G)",
@@ -37,17 +44,6 @@
         "supl"
       ],
       "user": "user"
-    },
-    {
-      "apn": "bmobile.ne.jp",
-      "authtype": 3,
-      "name": "bmobile.ne.jp",
-      "password": "bmobile",
-      "types": [
-        "default",
-        "supl"
-      ],
-      "user": "bmobile@4g"
     },
     {
       "apn": "dmm.com",
@@ -296,6 +292,13 @@
         "ia",
         "mms",
         "supl"
+      ]
+    },
+    {
+      "apn": "mpr2.bizho.net",
+      "name": "mopera U\uff08\u30b9\u30de\u30fc\u30c8\u30d5\u30a9\u30f3\u5b9a\u984d\uff09",
+      "types": [
+        "default"
       ]
     },
     {

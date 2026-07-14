@@ -62,9 +62,10 @@
       "authtype": 0,
       "carrier_enabled": true,
       "name": "internet",
+      "port": 8080,
+      "proxy": "010.008.000.036",
       "types": [
         "default",
-        "ia",
         "supl"
       ]
     },
@@ -73,6 +74,15 @@
       "name": "Yoigo",
       "types": [
         "dun"
+      ]
+    },
+    {
+      "apn": "internet",
+      "authtype": 0,
+      "carrier_enabled": true,
+      "name": "Internet",
+      "types": [
+        "ia"
       ]
     },
     {

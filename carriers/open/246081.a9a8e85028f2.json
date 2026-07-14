@@ -1,6 +1,15 @@
 {
   "android_apns": [
     {
+      "apn": "IMS",
+      "name": "VZW Test IMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ]
+    },
+    {
       "apn": "VZWADMIN",
       "name": "VZW Test FOTA",
       "protocol": "IPV4V6",

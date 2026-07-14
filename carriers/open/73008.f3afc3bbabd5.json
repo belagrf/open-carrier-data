@@ -1,6 +1,18 @@
 {
   "android_apns": [
     {
+      "apn": "bam.vtr.com",
+      "authtype": 2,
+      "name": "Bam",
+      "password": "vtr",
+      "types": [
+        "default",
+        "dun",
+        "supl"
+      ],
+      "user": "vtr"
+    },
+    {
       "apn": "mms.vtr.com",
       "authtype": 0,
       "mmsc": "http://192.168.94.162:19090/was",
@@ -31,6 +43,18 @@
         "dun"
       ],
       "user": "vtrmovil"
+    },
+    {
+      "apn": "wap.vtr.com",
+      "authtype": 0,
+      "name": "Wap",
+      "port": 9028,
+      "proxy": "192.168.94.210",
+      "types": [
+        "default",
+        "dun",
+        "supl"
+      ]
     }
   ],
   "android_carrier_config": {

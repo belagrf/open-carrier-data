@@ -12,7 +12,9 @@
     },
     {
       "apn": "internet",
-      "name": "FLOW",
+      "authtype": 1,
+      "mmsc": "http://www.time4lime.com/",
+      "name": "internet",
       "types": [
         "dun"
       ]

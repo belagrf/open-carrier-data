@@ -79,6 +79,17 @@
       ]
     },
     {
+      "apn": "ims.metropcs",
+      "authtype": 0,
+      "mmsc": "http://mms.metropcs.net:3128/mmsc",
+      "name": "MetroPCS IMS",
+      "protocol": "IP",
+      "roaming_protocol": "IP",
+      "types": [
+        "ims"
+      ]
+    },
+    {
       "apn": "internet.metropcs",
       "authtype": 0,
       "bearer": 14,

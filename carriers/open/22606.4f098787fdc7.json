@@ -72,9 +72,19 @@
       ]
     },
     {
+      "apn": "internet",
+      "authtype": 3,
+      "name": "Cosmote Internet",
+      "types": [
+        "default"
+      ]
+    },
+    {
       "apn": "wnw",
       "name": "web'n'walk",
       "password": "wnw",
+      "port": 8080,
+      "proxy": "10.252.1.62",
       "types": [
         "default",
         "supl"

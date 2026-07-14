@@ -73,6 +73,41 @@
       "types": [
         "dun"
       ]
+    },
+    {
+      "apn": "mms",
+      "authtype": 0,
+      "mmsc": "http://mmsc.pgsm.hu/",
+      "mmsport": 8080,
+      "mmsproxy": "84.225.255.1",
+      "mvno_match_data": "Djuice",
+      "mvno_type": "spn",
+      "name": "Djuice MMS",
+      "types": [
+        "mms"
+      ]
+    },
+    {
+      "apn": "net",
+      "authtype": 0,
+      "mvno_match_data": "Djuice",
+      "mvno_type": "spn",
+      "name": "Djuice NET",
+      "types": [
+        "default"
+      ]
+    },
+    {
+      "apn": "wap",
+      "authtype": 0,
+      "mvno_match_data": "Djuice",
+      "mvno_type": "spn",
+      "name": "Djuice WAP",
+      "port": 8080,
+      "proxy": "84.225.255.1",
+      "types": [
+        "default"
+      ]
     }
   ],
   "android_carrier_config": {

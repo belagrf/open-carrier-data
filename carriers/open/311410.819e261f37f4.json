@@ -1,4 +1,105 @@
 {
+  "android_apns": [
+    {
+      "apn": "CdmaNai",
+      "bearer": 6,
+      "carrier_enabled": false,
+      "mmsc": "http://mmsc.hawkeyeswitch.net/mms/",
+      "mmsport": 80,
+      "mvno_match_data": "chatmobrsa2",
+      "mvno_type": "spn",
+      "name": "chatmobrsa2",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "mms"
+      ]
+    },
+    {
+      "apn": "IMS",
+      "bearer": 13,
+      "mvno_match_data": "chatmobrsa2",
+      "mvno_type": "spn",
+      "name": "Chatmobrsa2 IMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ia",
+        "ims"
+      ]
+    },
+    {
+      "apn": "IMS",
+      "bearer": 14,
+      "mvno_match_data": "chatmobrsa2",
+      "mvno_type": "spn",
+      "name": "Chatmobrsa2 IMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ia",
+        "ims"
+      ]
+    },
+    {
+      "apn": "VZWADMIN",
+      "bearer": 13,
+      "mvno_match_data": "chatmobrsa2",
+      "mvno_type": "spn",
+      "name": "Chatmobrsa2 FOTA",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "fota"
+      ]
+    },
+    {
+      "apn": "VZWADMIN",
+      "bearer": 14,
+      "mvno_match_data": "chatmobrsa2",
+      "mvno_type": "spn",
+      "name": "Chatmobrsa2 FOTA",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "fota"
+      ]
+    },
+    {
+      "apn": "VZWINTERNET",
+      "bearer": 13,
+      "mmsc": "http://mmsc.hawkeyeswitch.net/mms/",
+      "mmsport": 80,
+      "mvno_match_data": "chatmobrsa2",
+      "mvno_type": "spn",
+      "name": "Chatmobrsa2",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "default",
+        "dun",
+        "mms",
+        "supl"
+      ]
+    },
+    {
+      "apn": "VZWINTERNET",
+      "bearer": 14,
+      "mmsc": "http://mmsc.hawkeyeswitch.net/mms/",
+      "mmsport": 80,
+      "mvno_match_data": "chatmobrsa2",
+      "mvno_type": "spn",
+      "name": "Chatmobrsa2",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "default",
+        "dun",
+        "mms",
+        "supl"
+      ]
+    }
+  ],
   "android_carrier_config": {
     "enableMultipartSMS": true,
     "enabledMMS": true,
@@ -23,7 +124,7 @@
     "vowifi": "unknown",
     "wifi_calling_roaming": "unknown"
   },
-  "display_name": "311410",
+  "display_name": "Carrier 311410",
   "match": {
     "mccmnc": [
       "311410"

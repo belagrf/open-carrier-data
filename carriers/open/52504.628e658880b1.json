@@ -3,6 +3,19 @@
     {
       "apn": "miworld",
       "authtype": 1,
+      "name": "M1 WAP",
+      "password": "user123",
+      "port": 8081,
+      "proxy": "172.16.1.23",
+      "types": [
+        "default",
+        "supl"
+      ],
+      "user": "65"
+    },
+    {
+      "apn": "miworld",
+      "authtype": 1,
       "mmsc": "http://mmsgw:8002",
       "mmsport": 8080,
       "mmsproxy": "172.16.14.10",
@@ -34,7 +47,7 @@
     "vowifi": "unknown",
     "wifi_calling_roaming": "unknown"
   },
-  "display_name": "52504",
+  "display_name": "Carrier 52504",
   "match": {
     "mccmnc": [
       "52504"

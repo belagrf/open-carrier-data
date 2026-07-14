@@ -18,11 +18,34 @@
       "user": "internet"
     },
     {
+      "apn": "mms.gprs.unifon.com.ar",
+      "authtype": 1,
+      "mmsc": "http://mms.movistar.com.ar",
+      "mmsport": 8080,
+      "mmsproxy": "200.68.32.239",
+      "name": "Movistar MMS",
+      "password": "mms",
+      "types": [
+        "mms"
+      ],
+      "user": "mms"
+    },
+    {
+      "apn": "wap.gprs.unifon.com.ar",
+      "authtype": 1,
+      "name": "wap.gprs.unifon.com.ar",
+      "password": "wap",
+      "types": [
+        "default",
+        "supl"
+      ],
+      "user": "wap"
+    },
+    {
       "apn": "wap.gprs.unifon.com.ar",
       "name": "Movistar",
       "password": "wap",
       "types": [
-        "default",
         "dun"
       ],
       "user": "wap"
@@ -36,7 +59,7 @@
   "capabilities": {
     "esim": "unknown",
     "ims_conference": "unknown",
-    "mms": "unknown",
+    "mms": "supported",
     "rcs": "unknown",
     "sms_over_ims": "unknown",
     "video_calling": "supported",

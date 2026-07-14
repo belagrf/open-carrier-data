@@ -47,6 +47,19 @@
       ]
     },
     {
+      "apn": "gprsinternet",
+      "mmsc": "http://mmsc.t-mobile.at/servlets/mms",
+      "mmsport": 80,
+      "mmsproxy": "010.012.000.020",
+      "name": "gprsinternet",
+      "password": "tm",
+      "types": [
+        "default",
+        "supl"
+      ],
+      "user": "t-mobile"
+    },
+    {
       "apn": "gprsmms",
       "authtype": 1,
       "mmsc": "http://mmsc.t-mobile.at/servlets/mms",

@@ -9,7 +9,7 @@
     },
     {
       "apn": "gtnet",
-      "name": "GT Internet",
+      "name": "gtnet",
       "protocol": "IPV4V6",
       "roaming_protocol": "IPV4V6",
       "types": [

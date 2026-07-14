@@ -99,6 +99,34 @@
         "default",
         "supl"
       ]
+    },
+    {
+      "apn": "send.ee",
+      "mmsc": "http://mms.emt.ee/servlets/mms",
+      "mmsport": 8080,
+      "mmsproxy": "217.71.32.82",
+      "mvno_match_data": "248010x2",
+      "mvno_type": "imsi",
+      "name": "Send",
+      "types": [
+        "default",
+        "mms",
+        "supl"
+      ]
+    },
+    {
+      "apn": "send.ee",
+      "mmsc": "http://mms.emt.ee/servlets/mms",
+      "mmsport": 8080,
+      "mmsproxy": "217.71.32.82",
+      "mvno_match_data": "248010x3",
+      "mvno_type": "imsi",
+      "name": "Send",
+      "types": [
+        "default",
+        "mms",
+        "supl"
+      ]
     }
   ],
   "android_carrier_config": {

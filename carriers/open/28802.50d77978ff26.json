@@ -29,6 +29,15 @@
         "ims"
       ],
       "user_visible": false
+    },
+    {
+      "apn": "vmc.vodafone.fo",
+      "authtype": 1,
+      "name": "vmc.vodafone.fo",
+      "types": [
+        "default",
+        "supl"
+      ]
     }
   ],
   "android_carrier_config": {

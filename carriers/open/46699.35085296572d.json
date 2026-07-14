@@ -1,6 +1,23 @@
 {
   "android_apns": [
     {
+      "apn": "Internet",
+      "name": "TaiwanMobile (Internet)",
+      "types": [
+        "default",
+        "supl"
+      ]
+    },
+    {
+      "apn": "ims",
+      "name": "TaiwanMobile (IMS)",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ]
+    },
+    {
       "apn": "internet",
       "name": "internet",
       "types": [

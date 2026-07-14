@@ -172,6 +172,51 @@
       "user_visible": false
     },
     {
+      "apn": "internet.windmobile.ca",
+      "mvno_match_data": "FFFFFF00",
+      "mvno_type": "gid",
+      "name": "Internet",
+      "protocol": "IPV4V6",
+      "types": [
+        "default",
+        "supl"
+      ]
+    },
+    {
+      "apn": "mms.windmobile.ca",
+      "mmsc": "http://mms.windmobile.ca",
+      "mmsport": 8080,
+      "mmsproxy": "74.115.197.70",
+      "mvno_match_data": "FFFFFF00",
+      "mvno_type": "gid",
+      "name": "MMS",
+      "types": [
+        "mms"
+      ]
+    },
+    {
+      "apn": "ims",
+      "mvno_match_data": "8991840,8991854,8991855,8991856,8991857,8991858,8991859,899186,                        8991870,8991871,8991872,8991873,8",
+      "mvno_type": "iccid",
+      "name": "IMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ]
+    },
+    {
+      "apn": "jionet",
+      "mvno_match_data": "8991840,8991854,8991855,8991856,8991857,8991858,8991859,899186,                        8991870,8991871,8991872,8991873,8",
+      "mvno_type": "iccid",
+      "name": "Jio 4G",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "default"
+      ]
+    },
+    {
       "apn": "mms.coopvoce.it",
       "authtype": 1,
       "mmsc": "http://mms.coop.it/servlets/mms",
@@ -196,10 +241,11 @@
     },
     {
       "apn": "mms.iusacellgsm.mx",
+      "authtype": 0,
       "mmsc": "http://mms.iusacell3g.com/",
       "mvno_match_data": "IUSACELL",
       "mvno_type": "spn",
-      "name": "Iusacell MMS",
+      "name": "mms.iusacellgsm.mx",
       "password": "mmsiusacellgsm",
       "types": [
         "mms"
@@ -208,9 +254,10 @@
     },
     {
       "apn": "modem.iusacellgsm.mx",
+      "authtype": 0,
       "mvno_match_data": "IUSACELL",
       "mvno_type": "spn",
-      "name": "Internet Modem",
+      "name": "modem.iusacellgsm.mx",
       "password": "iusacellgsm",
       "types": [
         "dun"
@@ -222,7 +269,7 @@
       "authtype": 0,
       "mvno_match_data": "IUSACELL",
       "mvno_type": "spn",
-      "name": "Iusacell Internet",
+      "name": "web.iusacellgsm.mx",
       "password": "iusacellgsm",
       "types": [
         "default",
@@ -231,11 +278,46 @@
       "user": "iusacellgsm"
     },
     {
+      "apn": "mms.kenamobile.it",
+      "mmsc": "http://mms.kenamobile.it",
+      "mmsport": 80,
+      "mmsproxy": "10.248.1.12",
+      "mvno_match_data": "Kena Mobile R",
+      "mvno_type": "spn",
+      "name": "Kenamobile MMS",
+      "types": [
+        "mms"
+      ]
+    },
+    {
+      "apn": "web.kenamobile.it",
+      "mvno_match_data": "Kena Mobile R",
+      "mvno_type": "spn",
+      "name": "Kenamobile web",
+      "types": [
+        "default"
+      ]
+    },
+    {
+      "apn": "mms.noverca.it",
+      "authtype": 0,
+      "mmsc": "http://mms.noverca.it/",
+      "mmsport": 80,
+      "mmsproxy": "213.230.130.89",
+      "mvno_match_data": "Noverca",
+      "mvno_type": "spn",
+      "name": "NOVERCA MMS",
+      "types": [
+        "mms"
+      ]
+    },
+    {
       "apn": "mms.iusacellgsm.mx",
+      "authtype": 0,
       "mmsc": "http://mms.iusacell3g.com/",
       "mvno_match_data": "UNEFON",
       "mvno_type": "spn",
-      "name": "Unefon MMS",
+      "name": "mms.iusacellgsm.mx",
       "password": "mmsiusacellgsm",
       "types": [
         "mms"
@@ -244,9 +326,10 @@
     },
     {
       "apn": "modem.iusacellgsm.mx",
+      "authtype": 0,
       "mvno_match_data": "UNEFON",
       "mvno_type": "spn",
-      "name": "Unefon Modem",
+      "name": "modem.iusacellgsm.mx",
       "password": "iusacellgsm",
       "types": [
         "dun"
@@ -258,7 +341,7 @@
       "authtype": 0,
       "mvno_match_data": "UNEFON",
       "mvno_type": "spn",
-      "name": "Unefon Internet",
+      "name": "web.iusacellgsm.mx",
       "password": "iusacellgsm",
       "types": [
         "default",

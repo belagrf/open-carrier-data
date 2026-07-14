@@ -1,8 +1,19 @@
 {
   "android_apns": [
     {
+      "apn": "Zain",
+      "authtype": 1,
+      "name": "Zain JO Streaming",
+      "password": "zain",
+      "types": [
+        "default",
+        "supl"
+      ],
+      "user": "zain"
+    },
+    {
       "apn": "internet",
-      "name": "Zain JO Postpaid",
+      "name": "internet",
       "types": [
         "default",
         "supl"
@@ -10,7 +21,7 @@
     },
     {
       "apn": "internetpre",
-      "name": "Zain JO Prepaid",
+      "name": "internetpre",
       "password": "zain",
       "types": [
         "default",

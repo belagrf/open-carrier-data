@@ -1,16 +1,6 @@
 {
   "android_apns": [
     {
-      "apn": "3hotspot",
-      "authtype": 0,
-      "name": "3hotspot",
-      "protocol": "IPV4V6",
-      "types": [
-        "dun"
-      ],
-      "user_visible": false
-    },
-    {
       "apn": "IMS",
       "bearer_bitmask": "14|18|20",
       "mtu": 1500,
@@ -31,6 +21,26 @@
         "ims"
       ],
       "user_visible": false
+    },
+    {
+      "apn": "PPBUNDLE.INTERNET",
+      "authtype": 1,
+      "name": "UK - Vodafone (Pay Go) Web",
+      "password": "web",
+      "types": [
+        "default",
+        "supl"
+      ],
+      "user": "web"
+    },
+    {
+      "apn": "ims",
+      "name": "3 IMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ]
     },
     {
       "apn": "three.co.uk",

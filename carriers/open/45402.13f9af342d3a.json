@@ -1,12 +1,37 @@
 {
   "android_apns": [
     {
+      "apn": "NWMOBILE",
+      "authtype": 3,
+      "mmsc": "http://192.168.58.171:8002",
+      "mmsport": 8080,
+      "mmsproxy": "192.168.59.61",
+      "name": "NWMOBILE",
+      "types": [
+        "default",
+        "mms",
+        "supl"
+      ]
+    },
+    {
       "apn": "SUNMobile",
       "authtype": 3,
       "mmsc": "http://192.168.58.171:8002",
       "mmsport": 8080,
       "mmsproxy": "192.168.59.61",
       "name": "SUN Mobile",
+      "types": [
+        "default",
+        "mms",
+        "supl"
+      ]
+    },
+    {
+      "apn": "hkcsl",
+      "mmsc": "http://192.168.58.171:8002",
+      "mmsport": 8080,
+      "mmsproxy": "192.168.59.51",
+      "name": "hkcsl",
       "types": [
         "default",
         "mms",

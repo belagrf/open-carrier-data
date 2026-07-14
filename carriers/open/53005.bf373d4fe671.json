@@ -66,19 +66,11 @@
     {
       "apn": "wap.telecom.co.nz",
       "name": "wap.telecom.co.nz",
+      "port": 80,
+      "proxy": "210.55.11.73",
       "types": [
         "default",
         "supl"
-      ]
-    },
-    {
-      "apn": "wap.telecom.co.nz",
-      "mmsc": "http://lsmmsc.xtra.co.nz",
-      "mmsport": 8080,
-      "mmsproxy": "210.55.11.73",
-      "name": "wap.telecom.co.nz",
-      "types": [
-        "mms"
       ]
     },
     {

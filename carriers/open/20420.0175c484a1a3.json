@@ -43,20 +43,6 @@
       "user_visible": false
     },
     {
-      "apn": "internet",
-      "authtype": 3,
-      "mmsc": "http://mms.orange.nl:8002",
-      "mmsport": 5080,
-      "mmsproxy": "10.250.255.183",
-      "name": "internet",
-      "password": "orange",
-      "types": [
-        "default",
-        "supl"
-      ],
-      "user": "orange"
-    },
-    {
       "apn": "internet.mobiel",
       "authtype": 1,
       "name": "Internet",

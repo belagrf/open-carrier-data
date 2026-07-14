@@ -1,0 +1,34 @@
+{
+  "android_apns": [
+    {
+      "apn": "live.vodafone.com",
+      "mmsc": "http://pxt.vodafone.net.au/pxtsend",
+      "mmsport": 8080,
+      "mmsproxy": "10.202.2.60",
+      "name": "Vodafone Live!",
+      "types": [
+        "default"
+      ]
+    }
+  ],
+  "capabilities": {
+    "esim": "unknown",
+    "ims_conference": "unknown",
+    "mms": "unknown",
+    "rcs": "unknown",
+    "sms_over_ims": "unknown",
+    "video_calling": "unknown",
+    "volte": "unknown",
+    "vonr": "unknown",
+    "vowifi": "unknown",
+    "wifi_calling_roaming": "unknown"
+  },
+  "display_name": "Vodafone Live!",
+  "match": {
+    "mccmnc": [
+      "50599"
+    ]
+  },
+  "profile_id": "open.50599.a005eff0d341",
+  "schema_version": 1
+}

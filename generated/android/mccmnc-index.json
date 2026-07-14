@@ -2709,7 +2709,7 @@
     ],
     "20465": [
       {
-        "display_name": "20465",
+        "display_name": "Carrier 20465",
         "match": {
           "mccmnc": [
             "20465"
@@ -6569,6 +6569,19 @@
         "specificity": 0
       }
     ],
+    "20901": [
+      {
+        "display_name": "NRJ",
+        "match": {
+          "mccmnc": [
+            "20901"
+          ]
+        },
+        "path": "carriers/open/20901.5a9ba0fbaee5.json",
+        "profile_id": "open.20901.5a9ba0fbaee5",
+        "specificity": 0
+      }
+    ],
     "21210": [
       {
         "display_name": "Carrier 21210",
@@ -9039,7 +9052,7 @@
     ],
     "21425": [
       {
-        "display_name": "Lycamobile",
+        "display_name": "Carrier 21425",
         "match": {
           "mccmnc": [
             "21425"
@@ -12341,6 +12354,19 @@
         "path": "carriers/open/22603.d43528eae743.json",
         "profile_id": "open.22603.d43528eae743",
         "specificity": 1
+      }
+    ],
+    "22604": [
+      {
+        "display_name": "RO - Cosmote (WnW)",
+        "match": {
+          "mccmnc": [
+            "22604"
+          ]
+        },
+        "path": "carriers/open/22604.f2f1b025e255.json",
+        "profile_id": "open.22604.f2f1b025e255",
+        "specificity": 0
       }
     ],
     "22605": [
@@ -17150,7 +17176,7 @@
     ],
     "23591": [
       {
-        "display_name": "LineageOS 23591",
+        "display_name": "Carrier 23591",
         "match": {
           "mccmnc": [
             "23591"
@@ -19272,6 +19298,19 @@
         "path": "carriers/open/24202.fe6e174cf4cc.json",
         "profile_id": "open.24202.fe6e174cf4cc",
         "specificity": 1
+      }
+    ],
+    "24203": [
+      {
+        "display_name": "Carrier 24203",
+        "match": {
+          "mccmnc": [
+            "24203"
+          ]
+        },
+        "path": "carriers/open/24203.8881c14a1c64.json",
+        "profile_id": "open.24203.8881c14a1c64",
+        "specificity": 0
       }
     ],
     "24204": [
@@ -21601,6 +21640,19 @@
         "specificity": 1
       }
     ],
+    "25851": [
+      {
+        "display_name": "nodeB",
+        "match": {
+          "mccmnc": [
+            "25851"
+          ]
+        },
+        "path": "carriers/open/25851.e483e7fb840d.json",
+        "profile_id": "open.25851.e483e7fb840d",
+        "specificity": 0
+      }
+    ],
     "25901": [
       {
         "display_name": "Carrier 25901",
@@ -21653,6 +21705,19 @@
         "path": "carriers/open/25902.200e7c747a73.json",
         "profile_id": "open.25902.200e7c747a73",
         "specificity": 1
+      }
+    ],
+    "25903": [
+      {
+        "display_name": "MD - Unite",
+        "match": {
+          "mccmnc": [
+            "25903"
+          ]
+        },
+        "path": "carriers/open/25903.17f479459059.json",
+        "profile_id": "open.25903.17f479459059",
+        "specificity": 0
       }
     ],
     "25905": [
@@ -25018,7 +25083,7 @@
     ],
     "27603": [
       {
-        "display_name": "One Al",
+        "display_name": "Carrier 27603",
         "match": {
           "mccmnc": [
             "27603"
@@ -25026,6 +25091,19 @@
         },
         "path": "carriers/open/27603.0f64a5d4e349.json",
         "profile_id": "open.27603.0f64a5d4e349",
+        "specificity": 0
+      }
+    ],
+    "27604": [
+      {
+        "display_name": "Plus",
+        "match": {
+          "mccmnc": [
+            "27604"
+          ]
+        },
+        "path": "carriers/open/27604.55f987452122.json",
+        "profile_id": "open.27604.55f987452122",
         "specificity": 0
       }
     ],
@@ -25629,7 +25707,7 @@
     ],
     "28413": [
       {
-        "display_name": "28413",
+        "display_name": "Carrier 28413",
         "match": {
           "mccmnc": [
             "28413"
@@ -26506,6 +26584,19 @@
         "path": "carriers/open/29703.5cd9f4e17483.json",
         "profile_id": "open.29703.5cd9f4e17483",
         "specificity": 1
+      }
+    ],
+    "29704": [
+      {
+        "display_name": "Carrier 29704",
+        "match": {
+          "mccmnc": [
+            "29704"
+          ]
+        },
+        "path": "carriers/open/29704.ab6f75c2c02f.json",
+        "profile_id": "open.29704.ab6f75c2c02f",
+        "specificity": 0
       }
     ],
     "302130": [
@@ -29542,7 +29633,7 @@
     ],
     "310000": [
       {
-        "display_name": "LineageOS 310000",
+        "display_name": "Carrier 310000",
         "match": {
           "mccmnc": [
             "310000"
@@ -31733,7 +31824,7 @@
     ],
     "310028": [
       {
-        "display_name": "310028",
+        "display_name": "Carrier 310028",
         "match": {
           "mccmnc": [
             "310028"
@@ -32130,7 +32221,7 @@
     ],
     "310032": [
       {
-        "display_name": "LineageOS 310032",
+        "display_name": "Carrier 310032",
         "match": {
           "mccmnc": [
             "310032"
@@ -32157,7 +32248,7 @@
     ],
     "310035": [
       {
-        "display_name": "LineageOS 310035",
+        "display_name": "Carrier 310035",
         "match": {
           "mccmnc": [
             "310035"
@@ -32210,7 +32301,7 @@
     ],
     "310040": [
       {
-        "display_name": "310040",
+        "display_name": "Carrier 310040",
         "match": {
           "mccmnc": [
             "310040"
@@ -32278,6 +32369,17 @@
     ],
     "310050": [
       {
+        "display_name": "Carrier 310050",
+        "match": {
+          "mccmnc": [
+            "310050"
+          ]
+        },
+        "path": "carriers/open/310050.4bd3a6b8e23c.json",
+        "profile_id": "open.310050.4bd3a6b8e23c",
+        "specificity": 0
+      },
+      {
         "display_name": "ACS",
         "match": {
           "iccid_prefixes": [
@@ -32316,6 +32418,19 @@
         },
         "path": "carriers/open/31006.5fe3fba138aa.json",
         "profile_id": "open.31006.5fe3fba138aa",
+        "specificity": 0
+      }
+    ],
+    "310066": [
+      {
+        "display_name": "U.S.Cellular",
+        "match": {
+          "mccmnc": [
+            "310066"
+          ]
+        },
+        "path": "carriers/open/310066.775fa174d0b0.json",
+        "profile_id": "open.310066.775fa174d0b0",
         "specificity": 0
       }
     ],
@@ -35954,7 +36069,7 @@
     ],
     "31026": [
       {
-        "display_name": "LineageOS 31026",
+        "display_name": "Carrier 31026",
         "match": {
           "mccmnc": [
             "31026"
@@ -39148,7 +39263,7 @@
     ],
     "31031": [
       {
-        "display_name": "LineageOS 31031",
+        "display_name": "Carrier 31031",
         "match": {
           "mccmnc": [
             "31031"
@@ -39332,6 +39447,17 @@
     ],
     "310330": [
       {
+        "display_name": "Carrier 310330",
+        "match": {
+          "mccmnc": [
+            "310330"
+          ]
+        },
+        "path": "carriers/open/310330.5e4ee3bf1a80.json",
+        "profile_id": "open.310330.5e4ee3bf1a80",
+        "specificity": 0
+      },
+      {
         "display_name": "310330Spn=Alltel2",
         "match": {
           "mccmnc": [
@@ -39503,7 +39629,7 @@
     ],
     "310360": [
       {
-        "display_name": "310360",
+        "display_name": "Carrier 310360",
         "match": {
           "mccmnc": [
             "310360"
@@ -40617,6 +40743,17 @@
     ],
     "310430": [
       {
+        "display_name": "Carrier 310430",
+        "match": {
+          "mccmnc": [
+            "310430"
+          ]
+        },
+        "path": "carriers/open/310430.7f0bf90f1ec6.json",
+        "profile_id": "open.310430.7f0bf90f1ec6",
+        "specificity": 0
+      },
+      {
         "display_name": "310430Spn=Gci",
         "match": {
           "mccmnc": [
@@ -40976,6 +41113,19 @@
         "path": "carriers/open/310490.f7ce315d2c54.json",
         "profile_id": "open.310490.f7ce315d2c54",
         "specificity": 1
+      }
+    ],
+    "310491": [
+      {
+        "display_name": "Carrier 310491",
+        "match": {
+          "mccmnc": [
+            "310491"
+          ]
+        },
+        "path": "carriers/open/310491.46f3c5c9b7b7.json",
+        "profile_id": "open.310491.46f3c5c9b7b7",
+        "specificity": 0
       }
     ],
     "310530": [
@@ -43070,9 +43220,22 @@
         "specificity": 0
       }
     ],
+    "310720": [
+      {
+        "display_name": "Carrier 310720",
+        "match": {
+          "mccmnc": [
+            "310720"
+          ]
+        },
+        "path": "carriers/open/310720.7a05cfa34ad5.json",
+        "profile_id": "open.310720.7a05cfa34ad5",
+        "specificity": 0
+      }
+    ],
     "310750": [
       {
-        "display_name": "310750",
+        "display_name": "Carrier 310750",
         "match": {
           "mccmnc": [
             "310750"
@@ -43312,6 +43475,17 @@
       }
     ],
     "310820": [
+      {
+        "display_name": "Carrier 310820",
+        "match": {
+          "mccmnc": [
+            "310820"
+          ]
+        },
+        "path": "carriers/open/310820.9a31d3491422.json",
+        "profile_id": "open.310820.9a31d3491422",
+        "specificity": 0
+      },
       {
         "display_name": "310820Spn=Nepa",
         "match": {
@@ -43581,6 +43755,17 @@
     ],
     "310900": [
       {
+        "display_name": "Carrier 310900",
+        "match": {
+          "mccmnc": [
+            "310900"
+          ]
+        },
+        "path": "carriers/open/310900.7c0c4b5f8052.json",
+        "profile_id": "open.310900.7c0c4b5f8052",
+        "specificity": 0
+      },
+      {
         "display_name": "310900Spn=Midrivers",
         "match": {
           "mccmnc": [
@@ -43692,6 +43877,17 @@
       }
     ],
     "310930": [
+      {
+        "display_name": "Carrier 310930",
+        "match": {
+          "mccmnc": [
+            "310930"
+          ]
+        },
+        "path": "carriers/open/310930.09d3a72918c5.json",
+        "profile_id": "open.310930.09d3a72918c5",
+        "specificity": 0
+      },
       {
         "display_name": "310930Spn=Coppervalley",
         "match": {
@@ -44359,6 +44555,17 @@
     ],
     "310960": [
       {
+        "display_name": "Carrier 310960",
+        "match": {
+          "mccmnc": [
+            "310960"
+          ]
+        },
+        "path": "carriers/open/310960.be7b0bd0c7d2.json",
+        "profile_id": "open.310960.be7b0bd0c7d2",
+        "specificity": 0
+      },
+      {
         "display_name": "310960Spn=Snakeriver",
         "match": {
           "mccmnc": [
@@ -44647,6 +44854,17 @@
     ],
     "311050": [
       {
+        "display_name": "Carrier 311050",
+        "match": {
+          "mccmnc": [
+            "311050"
+          ]
+        },
+        "path": "carriers/open/311050.0eb09759f047.json",
+        "profile_id": "open.311050.0eb09759f047",
+        "specificity": 0
+      },
+      {
         "display_name": "311050Spn=Thumbcellular",
         "match": {
           "mccmnc": [
@@ -44795,6 +45013,17 @@
       }
     ],
     "311140": [
+      {
+        "display_name": "Carrier 311140",
+        "match": {
+          "mccmnc": [
+            "311140"
+          ]
+        },
+        "path": "carriers/open/311140.67e513115306.json",
+        "profile_id": "open.311140.67e513115306",
+        "specificity": 0
+      },
       {
         "display_name": "311140Spn=Sprocket",
         "match": {
@@ -47391,6 +47620,17 @@
     ],
     "311310": [
       {
+        "display_name": "Carrier 311310",
+        "match": {
+          "mccmnc": [
+            "311310"
+          ]
+        },
+        "path": "carriers/open/311310.78bfb69f6697.json",
+        "profile_id": "open.311310.78bfb69f6697",
+        "specificity": 0
+      },
+      {
         "display_name": "311310Spn=Leaco",
         "match": {
           "mccmnc": [
@@ -47644,6 +47884,17 @@
     ],
     "311350": [
       {
+        "display_name": "Carrier 311350",
+        "match": {
+          "mccmnc": [
+            "311350"
+          ]
+        },
+        "path": "carriers/open/311350.9f458f67c0c9.json",
+        "profile_id": "open.311350.9f458f67c0c9",
+        "specificity": 0
+      },
+      {
         "display_name": "311350Spn=Nemont",
         "match": {
           "mccmnc": [
@@ -47784,7 +48035,7 @@
     ],
     "311390": [
       {
-        "display_name": "311390",
+        "display_name": "Carrier 311390",
         "match": {
           "mccmnc": [
             "311390"
@@ -48034,7 +48285,7 @@
     ],
     "311410": [
       {
-        "display_name": "311410",
+        "display_name": "Carrier 311410",
         "match": {
           "mccmnc": [
             "311410"
@@ -48075,6 +48326,17 @@
     ],
     "311420": [
       {
+        "display_name": "Carrier 311420",
+        "match": {
+          "mccmnc": [
+            "311420"
+          ]
+        },
+        "path": "carriers/open/311420.64406a6fa8e1.json",
+        "profile_id": "open.311420.64406a6fa8e1",
+        "specificity": 0
+      },
+      {
         "display_name": "311420Spn=Northwestcell",
         "match": {
           "mccmnc": [
@@ -48091,7 +48353,7 @@
     ],
     "311430": [
       {
-        "display_name": "311430",
+        "display_name": "Carrier 311430",
         "match": {
           "mccmnc": [
             "311430"
@@ -50942,7 +51204,7 @@
     ],
     "311500": [
       {
-        "display_name": "Mosiac",
+        "display_name": "Carrier 311500",
         "match": {
           "mccmnc": [
             "311500"
@@ -52155,7 +52417,7 @@
     ],
     "311600": [
       {
-        "display_name": "Limitless Us",
+        "display_name": "Carrier 311600",
         "match": {
           "mccmnc": [
             "311600"
@@ -52182,7 +52444,7 @@
     ],
     "311610": [
       {
-        "display_name": "LineageOS 311610",
+        "display_name": "Carrier 311610",
         "match": {
           "mccmnc": [
             "311610"
@@ -52567,7 +52829,7 @@
     ],
     "311740": [
       {
-        "display_name": "311740",
+        "display_name": "Carrier 311740",
         "match": {
           "mccmnc": [
             "311740"
@@ -52990,7 +53252,7 @@
     ],
     "311920": [
       {
-        "display_name": "LineageOS 311920",
+        "display_name": "Carrier 311920",
         "match": {
           "mccmnc": [
             "311920"
@@ -53151,7 +53413,7 @@
     ],
     "312040": [
       {
-        "display_name": "LineageOS 312040",
+        "display_name": "Carrier 312040",
         "match": {
           "mccmnc": [
             "312040"
@@ -53261,7 +53523,7 @@
     ],
     "312160": [
       {
-        "display_name": "312160",
+        "display_name": "Carrier 312160",
         "match": {
           "mccmnc": [
             "312160"
@@ -54023,7 +54285,7 @@
     ],
     "312570": [
       {
-        "display_name": "312570",
+        "display_name": "Carrier 312570",
         "match": {
           "mccmnc": [
             "312570"
@@ -56120,9 +56382,22 @@
         "specificity": 0
       }
     ],
+    "316010": [
+      {
+        "display_name": "Sprint",
+        "match": {
+          "mccmnc": [
+            "316010"
+          ]
+        },
+        "path": "carriers/open/316010.27de97776797.json",
+        "profile_id": "open.316010.27de97776797",
+        "specificity": 0
+      }
+    ],
     "330000": [
       {
-        "display_name": "LineageOS 330000",
+        "display_name": "Carrier 330000",
         "match": {
           "mccmnc": [
             "330000"
@@ -63465,7 +63740,7 @@
     ],
     "33818": [
       {
-        "display_name": "33818",
+        "display_name": "Carrier 33818",
         "match": {
           "mccmnc": [
             "33818"
@@ -63860,7 +64135,7 @@
     ],
     "34260": [
       {
-        "display_name": "34260",
+        "display_name": "Carrier 34260",
         "match": {
           "mccmnc": [
             "34260"
@@ -63953,7 +64228,7 @@
     ],
     "34492": [
       {
-        "display_name": "34492",
+        "display_name": "Carrier 34492",
         "match": {
           "mccmnc": [
             "34492"
@@ -64006,7 +64281,7 @@
     ],
     "34614": [
       {
-        "display_name": "34614",
+        "display_name": "Carrier 34614",
         "match": {
           "mccmnc": [
             "34614"
@@ -64046,7 +64321,7 @@
     ],
     "34817": [
       {
-        "display_name": "34817",
+        "display_name": "Carrier 34817",
         "match": {
           "mccmnc": [
             "34817"
@@ -64113,7 +64388,7 @@
     ],
     "34877": [
       {
-        "display_name": "34877",
+        "display_name": "Carrier 34877",
         "match": {
           "mccmnc": [
             "34877"
@@ -64220,7 +64495,7 @@
     ],
     "35211": [
       {
-        "display_name": "35211",
+        "display_name": "Carrier 35211",
         "match": {
           "mccmnc": [
             "35211"
@@ -64393,7 +64668,7 @@
     ],
     "36011": [
       {
-        "display_name": "36011",
+        "display_name": "Carrier 36011",
         "match": {
           "mccmnc": [
             "36011"
@@ -64583,7 +64858,7 @@
     ],
     "363020": [
       {
-        "display_name": "363020",
+        "display_name": "Carrier 363020",
         "match": {
           "mccmnc": [
             "363020"
@@ -64690,7 +64965,7 @@
     ],
     "36584": [
       {
-        "display_name": "36584",
+        "display_name": "Carrier 36584",
         "match": {
           "mccmnc": [
             "36584"
@@ -64730,7 +65005,7 @@
     ],
     "36611": [
       {
-        "display_name": "36611",
+        "display_name": "Carrier 36611",
         "match": {
           "mccmnc": [
             "36611"
@@ -64770,7 +65045,7 @@
     ],
     "36801": [
       {
-        "display_name": "36801",
+        "display_name": "Carrier 36801",
         "match": {
           "mccmnc": [
             "36801"
@@ -64836,7 +65111,7 @@
     ],
     "370020": [
       {
-        "display_name": "370020",
+        "display_name": "Carrier 370020",
         "match": {
           "mccmnc": [
             "370020"
@@ -64916,7 +65191,7 @@
     ],
     "37202": [
       {
-        "display_name": "37202",
+        "display_name": "Carrier 37202",
         "match": {
           "mccmnc": [
             "37202"
@@ -65317,7 +65592,7 @@
     ],
     "40003": [
       {
-        "display_name": "40003",
+        "display_name": "Carrier 40003",
         "match": {
           "mccmnc": [
             "40003"
@@ -66903,6 +67178,19 @@
         "path": "carriers/open/40401.d0dad160ec90.json",
         "profile_id": "open.40401.d0dad160ec90",
         "specificity": 2
+      }
+    ],
+    "404206": [
+      {
+        "display_name": "Carrier 404206",
+        "match": {
+          "mccmnc": [
+            "404206"
+          ]
+        },
+        "path": "carriers/open/404206.a0b81c8ea72c.json",
+        "profile_id": "open.404206.a0b81c8ea72c",
+        "specificity": 0
       }
     ],
     "40421": [
@@ -70480,7 +70768,7 @@
     ],
     "405025": [
       {
-        "display_name": "Tatadocomo In",
+        "display_name": "Carrier 405025",
         "match": {
           "mccmnc": [
             "405025"
@@ -70507,7 +70795,7 @@
     ],
     "405026": [
       {
-        "display_name": "Tatadocomo In",
+        "display_name": "Carrier 405026",
         "match": {
           "mccmnc": [
             "405026"
@@ -70534,7 +70822,7 @@
     ],
     "405027": [
       {
-        "display_name": "Tatadocomo In",
+        "display_name": "Carrier 405027",
         "match": {
           "mccmnc": [
             "405027"
@@ -70561,7 +70849,7 @@
     ],
     "405028": [
       {
-        "display_name": "Tatadocomo In",
+        "display_name": "Carrier 405028",
         "match": {
           "mccmnc": [
             "405028"
@@ -70588,7 +70876,7 @@
     ],
     "405029": [
       {
-        "display_name": "Tatadocomo In",
+        "display_name": "Carrier 405029",
         "match": {
           "mccmnc": [
             "405029"
@@ -70642,7 +70930,7 @@
     ],
     "405030": [
       {
-        "display_name": "Tatadocomo In",
+        "display_name": "Carrier 405030",
         "match": {
           "mccmnc": [
             "405030"
@@ -70669,7 +70957,7 @@
     ],
     "405031": [
       {
-        "display_name": "Tatadocomo In",
+        "display_name": "Carrier 405031",
         "match": {
           "mccmnc": [
             "405031"
@@ -70696,7 +70984,7 @@
     ],
     "405032": [
       {
-        "display_name": "Tatadocomo In",
+        "display_name": "Carrier 405032",
         "match": {
           "mccmnc": [
             "405032"
@@ -70723,7 +71011,7 @@
     ],
     "405033": [
       {
-        "display_name": "Tatadocomo In",
+        "display_name": "Carrier 405033",
         "match": {
           "mccmnc": [
             "405033"
@@ -70750,7 +71038,7 @@
     ],
     "405034": [
       {
-        "display_name": "Tatadocomo In",
+        "display_name": "Carrier 405034",
         "match": {
           "mccmnc": [
             "405034"
@@ -70777,7 +71065,7 @@
     ],
     "405035": [
       {
-        "display_name": "Tatadocomo In",
+        "display_name": "Carrier 405035",
         "match": {
           "mccmnc": [
             "405035"
@@ -70804,7 +71092,7 @@
     ],
     "405036": [
       {
-        "display_name": "Tatadocomo In",
+        "display_name": "Carrier 405036",
         "match": {
           "mccmnc": [
             "405036"
@@ -70831,7 +71119,7 @@
     ],
     "405037": [
       {
-        "display_name": "Tatadocomo In",
+        "display_name": "Carrier 405037",
         "match": {
           "mccmnc": [
             "405037"
@@ -70858,7 +71146,7 @@
     ],
     "405038": [
       {
-        "display_name": "Tatadocomo In",
+        "display_name": "Carrier 405038",
         "match": {
           "mccmnc": [
             "405038"
@@ -70885,7 +71173,7 @@
     ],
     "405039": [
       {
-        "display_name": "Tatadocomo In",
+        "display_name": "Carrier 405039",
         "match": {
           "mccmnc": [
             "405039"
@@ -70939,7 +71227,7 @@
     ],
     "405040": [
       {
-        "display_name": "Tatadocomo In",
+        "display_name": "Carrier 405040",
         "match": {
           "mccmnc": [
             "405040"
@@ -70966,7 +71254,7 @@
     ],
     "405041": [
       {
-        "display_name": "Tatadocomo In",
+        "display_name": "Carrier 405041",
         "match": {
           "mccmnc": [
             "405041"
@@ -70993,7 +71281,7 @@
     ],
     "405042": [
       {
-        "display_name": "Tatadocomo In",
+        "display_name": "Carrier 405042",
         "match": {
           "mccmnc": [
             "405042"
@@ -71020,7 +71308,7 @@
     ],
     "405043": [
       {
-        "display_name": "Tatadocomo In",
+        "display_name": "Carrier 405043",
         "match": {
           "mccmnc": [
             "405043"
@@ -71047,7 +71335,7 @@
     ],
     "405044": [
       {
-        "display_name": "Tatadocomo In",
+        "display_name": "Carrier 405044",
         "match": {
           "mccmnc": [
             "405044"
@@ -71074,7 +71362,7 @@
     ],
     "405045": [
       {
-        "display_name": "Tatadocomo In",
+        "display_name": "Carrier 405045",
         "match": {
           "mccmnc": [
             "405045"
@@ -71101,7 +71389,7 @@
     ],
     "405046": [
       {
-        "display_name": "Tatadocomo In",
+        "display_name": "Carrier 405046",
         "match": {
           "mccmnc": [
             "405046"
@@ -71128,7 +71416,7 @@
     ],
     "405047": [
       {
-        "display_name": "Tatadocomo In",
+        "display_name": "Carrier 405047",
         "match": {
           "mccmnc": [
             "405047"
@@ -77893,6 +78181,17 @@
     ],
     "410310": [
       {
+        "display_name": "Consumer Cellular",
+        "match": {
+          "mccmnc": [
+            "410310"
+          ]
+        },
+        "path": "carriers/open/410310.212a54b939a9.json",
+        "profile_id": "open.410310.212a54b939a9",
+        "specificity": 0
+      },
+      {
         "display_name": "410310Gid1=2Ac9",
         "match": {
           "gid1_prefixes": [
@@ -79274,7 +79573,7 @@
     ],
     "42101": [
       {
-        "display_name": "42101",
+        "display_name": "Carrier 42101",
         "match": {
           "mccmnc": [
             "42101"
@@ -79313,7 +79612,7 @@
     ],
     "42104": [
       {
-        "display_name": "42104",
+        "display_name": "Carrier 42104",
         "match": {
           "mccmnc": [
             "42104"
@@ -79898,7 +80197,7 @@
     ],
     "42509": [
       {
-        "display_name": "We4G",
+        "display_name": "Carrier 42509",
         "match": {
           "mccmnc": [
             "42509"
@@ -80412,7 +80711,7 @@
     ],
     "42891": [
       {
-        "display_name": "42891",
+        "display_name": "Carrier 42891",
         "match": {
           "mccmnc": [
             "42891"
@@ -80425,7 +80724,7 @@
     ],
     "42898": [
       {
-        "display_name": "42898",
+        "display_name": "Carrier 42898",
         "match": {
           "mccmnc": [
             "42898"
@@ -80519,7 +80818,7 @@
     ],
     "42903": [
       {
-        "display_name": "42903",
+        "display_name": "Carrier 42903",
         "match": {
           "mccmnc": [
             "42903"
@@ -80532,7 +80831,7 @@
     ],
     "42904": [
       {
-        "display_name": "42904",
+        "display_name": "Carrier 42904",
         "match": {
           "mccmnc": [
             "42904"
@@ -80558,7 +80857,7 @@
     ],
     "43214": [
       {
-        "display_name": "43214",
+        "display_name": "Carrier 43214",
         "match": {
           "mccmnc": [
             "43214"
@@ -80571,7 +80870,7 @@
     ],
     "43219": [
       {
-        "display_name": "43219",
+        "display_name": "Carrier 43219",
         "match": {
           "mccmnc": [
             "43219"
@@ -80610,7 +80909,7 @@
     ],
     "43270": [
       {
-        "display_name": "43270",
+        "display_name": "Carrier 43270",
         "match": {
           "mccmnc": [
             "43270"
@@ -80623,7 +80922,7 @@
     ],
     "43293": [
       {
-        "display_name": "43293",
+        "display_name": "Carrier 43293",
         "match": {
           "mccmnc": [
             "43293"
@@ -80992,7 +81291,7 @@
     ],
     "43703": [
       {
-        "display_name": "43703",
+        "display_name": "Carrier 43703",
         "match": {
           "mccmnc": [
             "43703"
@@ -81089,7 +81388,7 @@
     ],
     "43801": [
       {
-        "display_name": "43801",
+        "display_name": "Carrier 43801",
         "match": {
           "mccmnc": [
             "43801"
@@ -81116,7 +81415,7 @@
     ],
     "43802": [
       {
-        "display_name": "43802",
+        "display_name": "Carrier 43802",
         "match": {
           "mccmnc": [
             "43802"
@@ -87137,7 +87436,7 @@
     ],
     "46611": [
       {
-        "display_name": "LineageOS 46611",
+        "display_name": "Carrier 46611",
         "match": {
           "mccmnc": [
             "46611"
@@ -87674,6 +87973,19 @@
         "path": "carriers/open/47202.4912adb63e40.json",
         "profile_id": "open.47202.4912adb63e40",
         "specificity": 1
+      }
+    ],
+    "48008": [
+      {
+        "display_name": "Carrier 48008",
+        "match": {
+          "mccmnc": [
+            "48008"
+          ]
+        },
+        "path": "carriers/open/48008.d2b516b37c3a.json",
+        "profile_id": "open.48008.d2b516b37c3a",
+        "specificity": 0
       }
     ],
     "502019": [
@@ -88610,6 +88922,19 @@
         "specificity": 1
       }
     ],
+    "50599": [
+      {
+        "display_name": "Vodafone Live!",
+        "match": {
+          "mccmnc": [
+            "50599"
+          ]
+        },
+        "path": "carriers/open/50599.a005eff0d341.json",
+        "profile_id": "open.50599.a005eff0d341",
+        "specificity": 0
+      }
+    ],
     "51001": [
       {
         "display_name": "Carrier 51001",
@@ -88873,7 +89198,7 @@
     ],
     "51401": [
       {
-        "display_name": "51401",
+        "display_name": "Carrier 51401",
         "match": {
           "mccmnc": [
             "51401"
@@ -88927,7 +89252,7 @@
     ],
     "51403": [
       {
-        "display_name": "51403",
+        "display_name": "Carrier 51403",
         "match": {
           "mccmnc": [
             "51403"
@@ -89602,6 +89927,19 @@
         "specificity": 1
       }
     ],
+    "52023": [
+      {
+        "display_name": "Carrier 52023",
+        "match": {
+          "mccmnc": [
+            "52023"
+          ]
+        },
+        "path": "carriers/open/52023.d8cd5d90b2bb.json",
+        "profile_id": "open.52023.d8cd5d90b2bb",
+        "specificity": 0
+      }
+    ],
     "52047": [
       {
         "display_name": "LineageOS 52047",
@@ -89855,7 +90193,7 @@
     ],
     "52504": [
       {
-        "display_name": "52504",
+        "display_name": "Carrier 52504",
         "match": {
           "mccmnc": [
             "52504"
@@ -90498,7 +90836,7 @@
     ],
     "53602": [
       {
-        "display_name": "53602",
+        "display_name": "Carrier 53602",
         "match": {
           "mccmnc": [
             "53602"
@@ -90635,7 +90973,7 @@
     ],
     "53943": [
       {
-        "display_name": "53943",
+        "display_name": "Carrier 53943",
         "match": {
           "mccmnc": [
             "53943"
@@ -90715,7 +91053,7 @@
     ],
     "54100": [
       {
-        "display_name": "54100",
+        "display_name": "Carrier 54100",
         "match": {
           "mccmnc": [
             "54100"
@@ -91028,7 +91366,7 @@
     ],
     "54509": [
       {
-        "display_name": "54509",
+        "display_name": "Carrier 54509",
         "match": {
           "mccmnc": [
             "54509"
@@ -91206,7 +91544,7 @@
     ],
     "54901": [
       {
-        "display_name": "54901",
+        "display_name": "Carrier 54901",
         "match": {
           "mccmnc": [
             "54901"
@@ -91273,7 +91611,7 @@
     ],
     "55101": [
       {
-        "display_name": "55101",
+        "display_name": "Carrier 55101",
         "match": {
           "mccmnc": [
             "55101"
@@ -91286,7 +91624,7 @@
     ],
     "55201": [
       {
-        "display_name": "55201",
+        "display_name": "Carrier 55201",
         "match": {
           "mccmnc": [
             "55201"
@@ -91299,7 +91637,7 @@
     ],
     "55280": [
       {
-        "display_name": "55280",
+        "display_name": "Carrier 55280",
         "match": {
           "mccmnc": [
             "55280"
@@ -91815,7 +92153,7 @@
     ],
     "60602": [
       {
-        "display_name": "60602",
+        "display_name": "Carrier 60602",
         "match": {
           "mccmnc": [
             "60602"
@@ -91828,7 +92166,7 @@
     ],
     "60603": [
       {
-        "display_name": "60603",
+        "display_name": "Carrier 60603",
         "match": {
           "mccmnc": [
             "60603"
@@ -91855,7 +92193,7 @@
     ],
     "60606": [
       {
-        "display_name": "60606",
+        "display_name": "Carrier 60606",
         "match": {
           "mccmnc": [
             "60606"
@@ -91868,7 +92206,7 @@
     ],
     "60701": [
       {
-        "display_name": "60701",
+        "display_name": "Carrier 60701",
         "match": {
           "mccmnc": [
             "60701"
@@ -91894,7 +92232,7 @@
     ],
     "60703": [
       {
-        "display_name": "60703",
+        "display_name": "Carrier 60703",
         "match": {
           "mccmnc": [
             "60703"
@@ -91907,7 +92245,7 @@
     ],
     "60704": [
       {
-        "display_name": "60704",
+        "display_name": "Carrier 60704",
         "match": {
           "mccmnc": [
             "60704"
@@ -91988,7 +92326,7 @@
     ],
     "60803": [
       {
-        "display_name": "60803",
+        "display_name": "Carrier 60803",
         "match": {
           "mccmnc": [
             "60803"
@@ -92031,7 +92369,7 @@
     ],
     "60901": [
       {
-        "display_name": "60901",
+        "display_name": "Carrier 60901",
         "match": {
           "mccmnc": [
             "60901"
@@ -92044,7 +92382,7 @@
     ],
     "60902": [
       {
-        "display_name": "60902",
+        "display_name": "Carrier 60902",
         "match": {
           "mccmnc": [
             "60902"
@@ -92057,7 +92395,7 @@
     ],
     "60910": [
       {
-        "display_name": "60910",
+        "display_name": "Carrier 60910",
         "match": {
           "mccmnc": [
             "60910"
@@ -92123,7 +92461,7 @@
     ],
     "61102": [
       {
-        "display_name": "61102",
+        "display_name": "Carrier 61102",
         "match": {
           "mccmnc": [
             "61102"
@@ -92136,7 +92474,7 @@
     ],
     "61103": [
       {
-        "display_name": "61103",
+        "display_name": "Carrier 61103",
         "match": {
           "mccmnc": [
             "61103"
@@ -92149,7 +92487,7 @@
     ],
     "61104": [
       {
-        "display_name": "61104",
+        "display_name": "Carrier 61104",
         "match": {
           "mccmnc": [
             "61104"
@@ -92229,7 +92567,7 @@
     ],
     "61204": [
       {
-        "display_name": "61204",
+        "display_name": "Carrier 61204",
         "match": {
           "mccmnc": [
             "61204"
@@ -92299,7 +92637,7 @@
     ],
     "61301": [
       {
-        "display_name": "61301",
+        "display_name": "Carrier 61301",
         "match": {
           "mccmnc": [
             "61301"
@@ -92325,7 +92663,7 @@
     ],
     "61303": [
       {
-        "display_name": "61303",
+        "display_name": "Carrier 61303",
         "match": {
           "mccmnc": [
             "61303"
@@ -92364,7 +92702,7 @@
     ],
     "61501": [
       {
-        "display_name": "61501",
+        "display_name": "Carrier 61501",
         "match": {
           "mccmnc": [
             "61501"
@@ -92377,7 +92715,7 @@
     ],
     "61503": [
       {
-        "display_name": "61503",
+        "display_name": "Carrier 61503",
         "match": {
           "mccmnc": [
             "61503"
@@ -92390,7 +92728,7 @@
     ],
     "61601": [
       {
-        "display_name": "61601",
+        "display_name": "Carrier 61601",
         "match": {
           "mccmnc": [
             "61601"
@@ -92443,7 +92781,7 @@
     ],
     "61604": [
       {
-        "display_name": "61604",
+        "display_name": "Carrier 61604",
         "match": {
           "mccmnc": [
             "61604"
@@ -92523,7 +92861,7 @@
     ],
     "61801": [
       {
-        "display_name": "61801",
+        "display_name": "Carrier 61801",
         "match": {
           "mccmnc": [
             "61801"
@@ -92564,7 +92902,7 @@
     ],
     "61802": [
       {
-        "display_name": "61802",
+        "display_name": "Carrier 61802",
         "match": {
           "mccmnc": [
             "61802"
@@ -92577,7 +92915,7 @@
     ],
     "61804": [
       {
-        "display_name": "61804",
+        "display_name": "Carrier 61804",
         "match": {
           "mccmnc": [
             "61804"
@@ -92603,7 +92941,7 @@
     ],
     "61820": [
       {
-        "display_name": "61820",
+        "display_name": "Carrier 61820",
         "match": {
           "mccmnc": [
             "61820"
@@ -92629,7 +92967,7 @@
     ],
     "61902": [
       {
-        "display_name": "61902",
+        "display_name": "Carrier 61902",
         "match": {
           "mccmnc": [
             "61902"
@@ -92655,7 +92993,7 @@
     ],
     "61904": [
       {
-        "display_name": "61904",
+        "display_name": "Carrier 61904",
         "match": {
           "mccmnc": [
             "61904"
@@ -92708,7 +93046,7 @@
     ],
     "61925": [
       {
-        "display_name": "61925",
+        "display_name": "Carrier 61925",
         "match": {
           "mccmnc": [
             "61925"
@@ -93099,7 +93437,7 @@
     ],
     "62202": [
       {
-        "display_name": "62202",
+        "display_name": "Carrier 62202",
         "match": {
           "mccmnc": [
             "62202"
@@ -93125,7 +93463,7 @@
     ],
     "62204": [
       {
-        "display_name": "62204",
+        "display_name": "Carrier 62204",
         "match": {
           "mccmnc": [
             "62204"
@@ -93138,7 +93476,7 @@
     ],
     "62301": [
       {
-        "display_name": "62301",
+        "display_name": "Carrier 62301",
         "match": {
           "mccmnc": [
             "62301"
@@ -93151,7 +93489,7 @@
     ],
     "62302": [
       {
-        "display_name": "62302",
+        "display_name": "Carrier 62302",
         "match": {
           "mccmnc": [
             "62302"
@@ -93177,7 +93515,7 @@
     ],
     "62304": [
       {
-        "display_name": "62304",
+        "display_name": "Carrier 62304",
         "match": {
           "mccmnc": [
             "62304"
@@ -93257,7 +93595,7 @@
     ],
     "62502": [
       {
-        "display_name": "62502",
+        "display_name": "Carrier 62502",
         "match": {
           "mccmnc": [
             "62502"
@@ -93270,7 +93608,7 @@
     ],
     "62601": [
       {
-        "display_name": "62601",
+        "display_name": "Carrier 62601",
         "match": {
           "mccmnc": [
             "62601"
@@ -93296,7 +93634,7 @@
     ],
     "62703": [
       {
-        "display_name": "62703",
+        "display_name": "Carrier 62703",
         "match": {
           "mccmnc": [
             "62703"
@@ -93309,7 +93647,7 @@
     ],
     "62801": [
       {
-        "display_name": "62801",
+        "display_name": "Carrier 62801",
         "match": {
           "mccmnc": [
             "62801"
@@ -93348,7 +93686,7 @@
     ],
     "62804": [
       {
-        "display_name": "62804",
+        "display_name": "Carrier 62804",
         "match": {
           "mccmnc": [
             "62804"
@@ -93549,7 +93887,7 @@
     ],
     "63202": [
       {
-        "display_name": "63202",
+        "display_name": "Carrier 63202",
         "match": {
           "mccmnc": [
             "63202"
@@ -93575,7 +93913,7 @@
     ],
     "63207": [
       {
-        "display_name": "63207",
+        "display_name": "Carrier 63207",
         "match": {
           "mccmnc": [
             "63207"
@@ -93615,7 +93953,7 @@
     ],
     "63302": [
       {
-        "display_name": "63302",
+        "display_name": "Carrier 63302",
         "match": {
           "mccmnc": [
             "63302"
@@ -93750,7 +94088,7 @@
     ],
     "63409": [
       {
-        "display_name": "63409",
+        "display_name": "Carrier 63409",
         "match": {
           "mccmnc": [
             "63409"
@@ -93776,7 +94114,7 @@
     ],
     "63512": [
       {
-        "display_name": "63512",
+        "display_name": "Carrier 63512",
         "match": {
           "mccmnc": [
             "63512"
@@ -93927,7 +94265,7 @@
     ],
     "63701": [
       {
-        "display_name": "63701",
+        "display_name": "Carrier 63701",
         "match": {
           "mccmnc": [
             "63701"
@@ -93970,7 +94308,7 @@
     ],
     "63704": [
       {
-        "display_name": "63704",
+        "display_name": "Carrier 63704",
         "match": {
           "mccmnc": [
             "63704"
@@ -93983,7 +94321,7 @@
     ],
     "63710": [
       {
-        "display_name": "63710",
+        "display_name": "Carrier 63710",
         "match": {
           "mccmnc": [
             "63710"
@@ -94012,7 +94350,7 @@
     ],
     "63725": [
       {
-        "display_name": "63725",
+        "display_name": "Carrier 63725",
         "match": {
           "mccmnc": [
             "63725"
@@ -94025,7 +94363,7 @@
     ],
     "63730": [
       {
-        "display_name": "63730",
+        "display_name": "Carrier 63730",
         "match": {
           "mccmnc": [
             "63730"
@@ -94054,7 +94392,7 @@
     ],
     "63757": [
       {
-        "display_name": "63757",
+        "display_name": "Carrier 63757",
         "match": {
           "mccmnc": [
             "63757"
@@ -94067,7 +94405,7 @@
     ],
     "63760": [
       {
-        "display_name": "63760",
+        "display_name": "Carrier 63760",
         "match": {
           "mccmnc": [
             "63760"
@@ -94080,7 +94418,7 @@
     ],
     "63771": [
       {
-        "display_name": "63771",
+        "display_name": "Carrier 63771",
         "match": {
           "mccmnc": [
             "63771"
@@ -94093,7 +94431,7 @@
     ],
     "63782": [
       {
-        "display_name": "63782",
+        "display_name": "Carrier 63782",
         "match": {
           "mccmnc": [
             "63782"
@@ -94106,7 +94444,7 @@
     ],
     "63801": [
       {
-        "display_name": "63801",
+        "display_name": "Carrier 63801",
         "match": {
           "mccmnc": [
             "63801"
@@ -94308,7 +94646,7 @@
     ],
     "64003": [
       {
-        "display_name": "ZANTEL",
+        "display_name": "Carrier 64003",
         "match": {
           "mccmnc": [
             "64003"
@@ -94630,7 +94968,7 @@
     ],
     "64201": [
       {
-        "display_name": "64201",
+        "display_name": "Carrier 64201",
         "match": {
           "mccmnc": [
             "64201"
@@ -94669,7 +95007,7 @@
     ],
     "64207": [
       {
-        "display_name": "64207",
+        "display_name": "Carrier 64207",
         "match": {
           "mccmnc": [
             "64207"
@@ -94682,7 +95020,7 @@
     ],
     "64208": [
       {
-        "display_name": "64208",
+        "display_name": "Carrier 64208",
         "match": {
           "mccmnc": [
             "64208"
@@ -94695,7 +95033,7 @@
     ],
     "64282": [
       {
-        "display_name": "64282",
+        "display_name": "Carrier 64282",
         "match": {
           "mccmnc": [
             "64282"
@@ -94843,7 +95181,7 @@
     ],
     "64503": [
       {
-        "display_name": "64503",
+        "display_name": "Carrier 64503",
         "match": {
           "mccmnc": [
             "64503"
@@ -95162,7 +95500,7 @@
     ],
     "64803": [
       {
-        "display_name": "64803",
+        "display_name": "Carrier 64803",
         "match": {
           "mccmnc": [
             "64803"
@@ -95229,7 +95567,7 @@
     ],
     "64902": [
       {
-        "display_name": "64902",
+        "display_name": "Carrier 64902",
         "match": {
           "mccmnc": [
             "64902"
@@ -95503,7 +95841,7 @@
     ],
     "65401": [
       {
-        "display_name": "65401",
+        "display_name": "Carrier 65401",
         "match": {
           "mccmnc": [
             "65401"
@@ -96811,7 +97149,7 @@
     ],
     "65701": [
       {
-        "display_name": "65701",
+        "display_name": "Carrier 65701",
         "match": {
           "mccmnc": [
             "65701"
@@ -96864,7 +97202,7 @@
     ],
     "70299": [
       {
-        "display_name": "70299",
+        "display_name": "Carrier 70299",
         "match": {
           "mccmnc": [
             "70299"
@@ -97171,6 +97509,19 @@
         "specificity": 1
       }
     ],
+    "70611": [
+      {
+        "display_name": "Carrier 70611",
+        "match": {
+          "mccmnc": [
+            "70611"
+          ]
+        },
+        "path": "carriers/open/70611.0d03825adae8.json",
+        "profile_id": "open.70611.0d03825adae8",
+        "specificity": 0
+      }
+    ],
     "70800": [
       {
         "display_name": "Carrier 70800",
@@ -97291,9 +97642,22 @@
         "specificity": 1
       }
     ],
+    "70803": [
+      {
+        "display_name": "Carrier 70803",
+        "match": {
+          "mccmnc": [
+            "70803"
+          ]
+        },
+        "path": "carriers/open/70803.264d549803a8.json",
+        "profile_id": "open.70803.264d549803a8",
+        "specificity": 0
+      }
+    ],
     "70804": [
       {
-        "display_name": "70804",
+        "display_name": "Carrier 70804",
         "match": {
           "mccmnc": [
             "70804"
@@ -97306,7 +97670,7 @@
     ],
     "708040": [
       {
-        "display_name": "708040",
+        "display_name": "Carrier 708040",
         "match": {
           "mccmnc": [
             "708040"
@@ -97642,7 +98006,7 @@
     ],
     "71220": [
       {
-        "display_name": "71220",
+        "display_name": "Carrier 71220",
         "match": {
           "mccmnc": [
             "71220"
@@ -98005,7 +98369,7 @@
     ],
     "71615": [
       {
-        "display_name": "71615",
+        "display_name": "Carrier 71615",
         "match": {
           "mccmnc": [
             "71615"
@@ -98237,7 +98601,7 @@
     ],
     "72210": [
       {
-        "display_name": "LineageOS 72210",
+        "display_name": "Carrier 72210",
         "match": {
           "mccmnc": [
             "72210"
@@ -98302,9 +98666,22 @@
         "specificity": 1
       }
     ],
+    "72232": [
+      {
+        "display_name": "Carrier 72232",
+        "match": {
+          "mccmnc": [
+            "72232"
+          ]
+        },
+        "path": "carriers/open/72232.2daa759a6cf1.json",
+        "profile_id": "open.72232.2daa759a6cf1",
+        "specificity": 0
+      }
+    ],
     "722320": [
       {
-        "display_name": "Claro",
+        "display_name": "Carrier 722320",
         "match": {
           "mccmnc": [
             "722320"
@@ -98317,7 +98694,7 @@
     ],
     "722330": [
       {
-        "display_name": "Claro",
+        "display_name": "Carrier 722330",
         "match": {
           "mccmnc": [
             "722330"
@@ -98425,7 +98802,7 @@
     ],
     "72236": [
       {
-        "display_name": "72236",
+        "display_name": "Carrier 72236",
         "match": {
           "mccmnc": [
             "72236"
@@ -98728,6 +99105,19 @@
         "specificity": 1
       }
     ],
+    "72412": [
+      {
+        "display_name": "Claro Foto",
+        "match": {
+          "mccmnc": [
+            "72412"
+          ]
+        },
+        "path": "carriers/open/72412.80eddc007a7d.json",
+        "profile_id": "open.72412.80eddc007a7d",
+        "specificity": 0
+      }
+    ],
     "72415": [
       {
         "display_name": "Carrier 72415",
@@ -98841,7 +99231,7 @@
     ],
     "72419": [
       {
-        "display_name": "72419",
+        "display_name": "Carrier 72419",
         "match": {
           "mccmnc": [
             "72419"
@@ -99054,6 +99444,19 @@
         "path": "carriers/open/72434.805fdf1a66f8.json",
         "profile_id": "open.72434.805fdf1a66f8",
         "specificity": 1
+      }
+    ],
+    "72438": [
+      {
+        "display_name": "Claro Foto",
+        "match": {
+          "mccmnc": [
+            "72438"
+          ]
+        },
+        "path": "carriers/open/72438.39193c283b79.json",
+        "profile_id": "open.72438.39193c283b79",
+        "specificity": 0
       }
     ],
     "72439": [
@@ -99609,6 +100012,19 @@
         },
         "path": "carriers/open/73026.c4507f773ee7.json",
         "profile_id": "open.73026.c4507f773ee7",
+        "specificity": 0
+      }
+    ],
+    "732001": [
+      {
+        "display_name": "Carrier 732001",
+        "match": {
+          "mccmnc": [
+            "732001"
+          ]
+        },
+        "path": "carriers/open/732001.5cc95d7696c9.json",
+        "profile_id": "open.732001.5cc95d7696c9",
         "specificity": 0
       }
     ],

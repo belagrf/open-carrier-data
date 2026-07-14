@@ -54,6 +54,30 @@
       "types": [
         "mms"
       ]
+    },
+    {
+      "apn": "mms",
+      "mmsc": "http://mms.cmobile.co.za/",
+      "mmsport": 8080,
+      "mmsproxy": "196.31.116.250",
+      "mvno_match_data": "6550713",
+      "mvno_type": "imsi",
+      "name": "Redbull MMS",
+      "types": [
+        "mms"
+      ]
+    },
+    {
+      "apn": "mobile.redbullmobile.co.za",
+      "mvno_match_data": "6550713",
+      "mvno_type": "imsi",
+      "name": "RBM Internet",
+      "port": 8080,
+      "proxy": "196.31.116.250",
+      "types": [
+        "default",
+        "supl"
+      ]
     }
   ],
   "android_carrier_config": {

@@ -67,6 +67,19 @@
       "user_visible": false
     },
     {
+      "apn": "mms.mymeteor.ie",
+      "mmsc": "http://mms.mymeteor.ie",
+      "mmsport": 8799,
+      "mmsproxy": "10.85.85.85",
+      "name": "Meteor",
+      "password": "wap",
+      "types": [
+        "default",
+        "supl"
+      ],
+      "user": "my"
+    },
+    {
       "apn": "wap.mymeteor.ie",
       "mmsc": "http://mms.mymeteor.ie",
       "mmsport": 8799,

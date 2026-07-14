@@ -38,6 +38,15 @@
       "user_visible": false
     },
     {
+      "apn": "internet.orange.md",
+      "authtype": 0,
+      "name": "Orange GPRS Modem",
+      "types": [
+        "default",
+        "supl"
+      ]
+    },
+    {
       "apn": "mms.orange.md",
       "mmsc": "http://mms/mms",
       "mmsport": 3128,

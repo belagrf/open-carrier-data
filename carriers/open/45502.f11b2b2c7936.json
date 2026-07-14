@@ -3,12 +3,24 @@
     {
       "apn": "ctnet",
       "authtype": 3,
-      "name": "\u4e2d\u570b\u96fb\u4fe1(China Telecom) NET",
+      "name": "ctnet",
+      "password": "vnet.mobi",
       "protocol": "IPV4V6",
       "roaming_protocol": "IPV4V6",
       "types": [
         "default",
-        "ia",
+        "hipri",
+        "ia"
+      ],
+      "user": "ctnet@mycdma.cn"
+    },
+    {
+      "apn": "ctnet",
+      "authtype": 3,
+      "name": "\u4e2d\u570b\u96fb\u4fe1(China Telecom) NET",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
         "supl",
         "xcap"
       ]
@@ -19,12 +31,26 @@
       "mmsc": "http://mmsc.vnet.mobi",
       "mmsport": 80,
       "mmsproxy": "10.0.0.200",
-      "name": "\u4e2d\u570b\u96fb\u4fe1(China Telecom) MMS",
+      "name": "ctwap",
+      "password": "vnet.mobi",
       "protocol": "IPV4V6",
       "roaming_protocol": "IPV4V6",
       "types": [
         "mms"
-      ]
+      ],
+      "user": "ctwap@mycdma.cn"
+    },
+    {
+      "apn": "ctwap",
+      "authtype": 3,
+      "name": "APN_NAME_CTWAP",
+      "password": "vnet.mobi",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "supl"
+      ],
+      "user": "ctwap@mycdma.cn"
     },
     {
       "apn": "ims",
@@ -40,7 +66,7 @@
     {
       "apn": "ims",
       "authtype": 0,
-      "name": "\u4e2d\u570b\u96fb\u4fe1(China Telecom) IMS",
+      "name": "ims",
       "protocol": "IPV4V6",
       "roaming_protocol": "IPV4V6",
       "types": [

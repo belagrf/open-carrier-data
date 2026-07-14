@@ -17,6 +17,14 @@
   },
   "android_apns": [
     {
+      "apn": "Internet.be",
+      "name": "Mobile Internet (business)",
+      "types": [
+        "default",
+        "supl"
+      ]
+    },
+    {
       "apn": "iew.be",
       "name": "iew.be",
       "password": "mobistar",

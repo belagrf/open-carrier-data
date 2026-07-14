@@ -9,20 +9,19 @@
     },
     {
       "apn": "internet",
+      "name": "internet",
+      "types": [
+        "dun"
+      ]
+    },
+    {
+      "apn": "internet",
       "authtype": 3,
       "name": "internet",
       "port": 8080,
       "proxy": "196.6.128.12",
       "types": [
-        "default",
         "supl"
-      ]
-    },
-    {
-      "apn": "internet",
-      "name": "Vodacom",
-      "types": [
-        "dun"
       ]
     },
     {

@@ -5,7 +5,7 @@
       "mmsc": "http://10.239.221.47/mms/",
       "mmsport": 8080,
       "mmsproxy": "10.239.221.7",
-      "name": "Reliance MMS",
+      "name": "mms",
       "protocol": "IPV4V6",
       "types": [
         "mms"
@@ -27,7 +27,7 @@
     },
     {
       "apn": "rcomnet",
-      "name": "NetConnect",
+      "name": "rcomnet",
       "types": [
         "default",
         "supl"
@@ -35,7 +35,7 @@
     },
     {
       "apn": "rcomwap",
-      "name": "Reliance GPRS",
+      "name": "rcomwap",
       "port": 8080,
       "proxy": "10.239.221.5",
       "types": [

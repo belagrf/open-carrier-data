@@ -10,6 +10,42 @@
       ]
     },
     {
+      "apn": "CTExcel",
+      "mvno_match_data": "8985231",
+      "mvno_type": "iccid",
+      "name": "CTexcel",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "default",
+        "hipri",
+        "ia"
+      ]
+    },
+    {
+      "apn": "ims",
+      "mvno_match_data": "8985231,898603,898611,898612,8985302,8985307",
+      "mvno_type": "iccid",
+      "name": "CTexcel (IMS)",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ]
+    },
+    {
+      "apn": "ctnet",
+      "mvno_match_data": "898603,898611,898612,8985302,8985307",
+      "mvno_type": "iccid",
+      "name": "APN_NAME_CTNET",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "default",
+        "ia"
+      ]
+    },
+    {
       "apn": "ctexcel",
       "authtype": 3,
       "mvno_match_data": "CTExcel",

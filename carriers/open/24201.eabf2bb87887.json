@@ -55,18 +55,6 @@
       "user_visible": false
     },
     {
-      "apn": "ims",
-      "authtype": 0,
-      "carrier_enabled": true,
-      "name": "ims",
-      "protocol": "IPV6",
-      "roaming_protocol": "IPV6",
-      "types": [
-        "ims"
-      ],
-      "user_visible": false
-    },
-    {
       "apn": "internet.phonero.no",
       "name": "internet.phonero.no",
       "types": [
@@ -107,27 +95,60 @@
     },
     {
       "apn": "telenor.smart",
-      "authtype": 1,
-      "carrier_enabled": true,
-      "mmsc": "http://mmsc/",
-      "mmsport": 8080,
-      "mmsproxy": "mms-proxy.telenor.no",
-      "name": "telenor.smart",
-      "protocol": "IPV4V6",
-      "roaming_protocol": "IP",
-      "types": [
-        "default",
-        "supl"
-      ]
-    },
-    {
-      "apn": "telenor.smart",
       "name": "Telenor",
       "protocol": "IPV4V6",
       "roaming_protocol": "IP",
       "types": [
         "dun"
       ]
+    },
+    {
+      "apn": "internet.phonero.no",
+      "mvno_match_data": "24201700",
+      "mvno_type": "imsi",
+      "name": "Phonero Internet",
+      "types": [
+        "default",
+        "supl"
+      ]
+    },
+    {
+      "apn": "mms.phonero.no",
+      "mmsc": "http://mmsc/",
+      "mmsport": 8080,
+      "mmsproxy": "10.10.10.11",
+      "mvno_match_data": "24201700",
+      "mvno_type": "imsi",
+      "name": "Phonero MMS",
+      "password": "1111",
+      "types": [
+        "mms"
+      ],
+      "user": "Phonero"
+    },
+    {
+      "apn": "internet.ventelo.no",
+      "mvno_match_data": "24201700xxxxxxx",
+      "mvno_type": "imsi",
+      "name": "Ventelo Internet",
+      "types": [
+        "default",
+        "supl"
+      ]
+    },
+    {
+      "apn": "mms.ventelo.no",
+      "mmsc": "http://mmsc/",
+      "mmsport": 8080,
+      "mmsproxy": "10.10.10.11",
+      "mvno_match_data": "24201700xxxxxxx",
+      "mvno_type": "imsi",
+      "name": "Ventelo MMS",
+      "password": "1111",
+      "types": [
+        "mms"
+      ],
+      "user": "ventelo"
     }
   ],
   "android_carrier_config": {

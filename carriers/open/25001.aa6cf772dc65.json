@@ -21,20 +21,6 @@
       "user": "mts"
     },
     {
-      "apn": "mms.etk.ru",
-      "mmsc": "http://mmsc",
-      "mmsport": 8080,
-      "mmsproxy": "10.10.30.60",
-      "name": "ETK",
-      "password": "mms",
-      "types": [
-        "default",
-        "mms",
-        "supl"
-      ],
-      "user": "mms"
-    },
-    {
       "apn": "mms.mts.ru",
       "authtype": 1,
       "mmsc": "http://mmsc",

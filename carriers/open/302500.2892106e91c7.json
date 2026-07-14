@@ -22,7 +22,8 @@
     },
     {
       "apn": "media.ng",
-      "name": "Videotron",
+      "mmsc": "http://media.videotron.com/",
+      "name": "media.ng",
       "protocol": "IPV4V6",
       "roaming_protocol": "IP",
       "types": [
@@ -41,6 +42,15 @@
         "supl"
       ],
       "user_editable": false
+    },
+    {
+      "apn": "media.ng",
+      "mmsc": "http://media.videotron.com/",
+      "name": "Media",
+      "types": [
+        "mms",
+        "supl"
+      ]
     },
     {
       "apn": "sos",

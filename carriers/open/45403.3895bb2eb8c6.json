@@ -48,6 +48,33 @@
       "types": [
         "dun"
       ]
+    },
+    {
+      "apn": "ctnet",
+      "authtype": 3,
+      "mvno_match_data": "898603,898611,898612",
+      "mvno_type": "iccid",
+      "name": "APN_NAME_CTNET",
+      "password": "vnet.mobi",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "default",
+        "hipri",
+        "ia"
+      ],
+      "user": "ctnet@mycdma.cn"
+    },
+    {
+      "apn": "ims",
+      "mvno_match_data": "898603,898611,898612",
+      "mvno_type": "iccid",
+      "name": "APN_NAME_CTIMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ]
     }
   ],
   "android_carrier_config": {

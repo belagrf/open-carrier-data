@@ -15,6 +15,19 @@
       ]
     },
     {
+      "apn": "4g.mycricket.com",
+      "authtype": 0,
+      "mmsc": "http://mms.mycricket.com/servlets/mms",
+      "name": "LTE INTERNET",
+      "protocol": "IP",
+      "roaming_protocol": "IP",
+      "types": [
+        "default",
+        "dun",
+        "mms"
+      ]
+    },
+    {
       "apn": "Apnota.4g.mycricket.com",
       "authtype": 0,
       "bearer": 14,
@@ -27,9 +40,31 @@
       ]
     },
     {
+      "apn": "Apnota.4g.mycricket.com",
+      "authtype": 0,
+      "mmsc": "http://mms.mycricket.com/servlets/mms",
+      "name": "LTE ADMIN",
+      "protocol": "IP",
+      "roaming_protocol": "IP",
+      "types": [
+        "fota"
+      ]
+    },
+    {
       "apn": "apndnsota.4g.mycricket.com",
       "authtype": 0,
       "bearer": 14,
+      "mmsc": "http://mms.mycricket.com/servlets/mms",
+      "name": "LTE DNSADMIN",
+      "protocol": "IP",
+      "roaming_protocol": "IP",
+      "types": [
+        "fota"
+      ]
+    },
+    {
+      "apn": "apndnsota.4g.mycricket.com",
+      "authtype": 0,
       "mmsc": "http://mms.mycricket.com/servlets/mms",
       "name": "LTE DNSADMIN",
       "protocol": "IP",

@@ -122,6 +122,30 @@
         "supl"
       ],
       "user": "igprs"
+    },
+    {
+      "apn": "mms.djuice.com.ua",
+      "mmsc": "http://mms.kyivstar.net",
+      "mmsport": 8080,
+      "mmsproxy": "10.10.10.10",
+      "mvno_match_data": "DJUICE",
+      "mvno_type": "spn",
+      "name": "Djuice MMS",
+      "password": "mms",
+      "types": [
+        "mms"
+      ],
+      "user": "djuice"
+    },
+    {
+      "apn": "www.djuice.com.ua",
+      "mvno_match_data": "DJUICE",
+      "mvno_type": "spn",
+      "name": "Djuice Internet",
+      "types": [
+        "default",
+        "supl"
+      ]
     }
   ],
   "android_carrier_config": {

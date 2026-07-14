@@ -11,11 +11,32 @@
       ]
     },
     {
+      "apn": "hinternet",
+      "name": "True H+ Internet",
+      "password": "TRUE",
+      "types": [
+        "default"
+      ],
+      "user": "TRUE"
+    },
+    {
+      "apn": "internet",
+      "name": "internet",
+      "password": "true",
+      "types": [
+        "supl"
+      ],
+      "user": "true"
+    },
+    {
       "apn": "hmms",
-      "mmsc": "http://mms.trueh.com:8002",
+      "authtype": 1,
+      "mmsc": "http://mms.trueh.com:8002/",
       "mmsport": 8080,
       "mmsproxy": "10.4.7.39",
-      "name": "TrueMove-H MMS",
+      "mvno_match_data": "01",
+      "mvno_type": "gid",
+      "name": "TRUE-H MMS",
       "password": "true",
       "types": [
         "mms"
@@ -24,7 +45,10 @@
     },
     {
       "apn": "internet",
-      "name": "internet",
+      "authtype": 1,
+      "mvno_match_data": "01",
+      "mvno_type": "gid",
+      "name": "TRUE-H INTERNET",
       "password": "true",
       "types": [
         "default",

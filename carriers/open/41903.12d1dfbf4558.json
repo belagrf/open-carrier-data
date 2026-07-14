@@ -35,11 +35,10 @@
     },
     {
       "apn": "action.wataniya.com",
-      "name": "action.wataniya.com",
+      "name": "Wataniya Internet",
       "types": [
         "bip",
         "cbs",
-        "default",
         "dun",
         "emergency",
         "enterprise",
@@ -50,9 +49,17 @@
         "mcx",
         "mms",
         "rcs",
-        "supl",
         "vsim",
         "xcap"
+      ]
+    },
+    {
+      "apn": "action.wataniya.com",
+      "authtype": 0,
+      "name": "action.wataniya.com",
+      "types": [
+        "default",
+        "supl"
       ]
     },
     {

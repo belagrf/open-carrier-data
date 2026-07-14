@@ -30,7 +30,7 @@
       "mmsc": "http://media.videotron.com",
       "mmsport": 8080,
       "mmsproxy": "10.208.89.17",
-      "name": "Videotron Mobile",
+      "name": "media.ng",
       "types": [
         "default",
         "mms",

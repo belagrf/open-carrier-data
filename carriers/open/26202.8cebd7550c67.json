@@ -86,6 +86,16 @@
       "user_visible": false
     },
     {
+      "apn": "wap.vodafone.de",
+      "name": "VF DE live!",
+      "port": 80,
+      "protocol": "IPV4V6",
+      "proxy": "139.007.029.001",
+      "types": [
+        "default"
+      ]
+    },
+    {
       "apn": "web.vodafone.de",
       "authtype": 3,
       "bearer_bitmask": "1|2|3|9|10|11|13|14|15|20",

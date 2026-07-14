@@ -341,6 +341,30 @@
     },
     {
       "apn": "halebop.telia.se",
+      "mvno_match_data": "Halebop",
+      "mvno_type": "spn",
+      "name": "Halebop Internet",
+      "types": [
+        "default",
+        "supl"
+      ]
+    },
+    {
+      "apn": "mms.telia.se",
+      "mmsc": "http://mmss",
+      "mmsport": 80,
+      "mmsproxy": "193.209.134.132",
+      "mvno_match_data": "Halebop",
+      "mvno_type": "spn",
+      "name": "Halebop MMS",
+      "password": "telia",
+      "types": [
+        "mms"
+      ],
+      "user": "mms"
+    },
+    {
+      "apn": "halebop.telia.se",
       "mvno_match_data": "halebop",
       "mvno_type": "spn",
       "name": "Halebop Internet",

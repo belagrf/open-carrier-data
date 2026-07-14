@@ -69,10 +69,13 @@
       "authtype": 1,
       "carrier_enabled": true,
       "mmsc": "http://mms.telekom.si",
+      "mmsport": 8080,
+      "mmsproxy": "213.229.249.40",
       "name": "internet",
       "password": "internet",
       "types": [
-        "dun"
+        "dun",
+        "hipri"
       ],
       "user": "mobitel"
     },
@@ -83,7 +86,6 @@
       "name": "Mobilni Internet",
       "password": "internet",
       "types": [
-        "hipri",
         "rcs"
       ],
       "user": "mobitel"

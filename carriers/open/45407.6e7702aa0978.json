@@ -26,6 +26,28 @@
         "default",
         "supl"
       ]
+    },
+    {
+      "apn": "hkw",
+      "mvno_match_data": "454078",
+      "mvno_type": "imsi",
+      "name": "China Unicom (HK)",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "default",
+        "supl"
+      ]
+    },
+    {
+      "apn": "cuhkiot",
+      "mvno_match_data": "454079",
+      "mvno_type": "imsi",
+      "name": "China Unicom (HK)",
+      "types": [
+        "default",
+        "supl"
+      ]
     }
   ],
   "android_carrier_config": {

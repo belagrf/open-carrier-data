@@ -3,11 +3,11 @@
     {
       "apn": "fido-core-appl1.apn",
       "mmsc": "http://mms.fido.ca",
-      "mmsproxy": "mmsproxy.fido.ca",
-      "name": "Fido",
+      "mmsport": 80,
+      "mmsproxy": "205.151.11.13",
+      "name": "Fido Default",
       "types": [
-        "default",
-        "mms"
+        "supl"
       ]
     },
     {
@@ -33,10 +33,29 @@
       "user_visible": false
     },
     {
-      "apn": "isp.fido.apn",
-      "name": "Fido",
+      "apn": "internet.fido.ca",
+      "name": "Fido Internet",
+      "types": [
+        "default",
+        "supl"
+      ]
+    },
+    {
+      "apn": "internet.mts",
+      "name": "MTS-Roaming",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
       "types": [
         "dun"
+      ]
+    },
+    {
+      "apn": "isp.fido.apn",
+      "name": "isp.fido.apn",
+      "types": [
+        "default",
+        "dun",
+        "supl"
       ]
     },
     {
@@ -86,6 +105,20 @@
         "supl"
       ],
       "user_editable": false
+    },
+    {
+      "apn": "ltemobile.apn",
+      "mmsc": "http://mms.fido.ca",
+      "mmsport": 80,
+      "mmsproxy": "205.151.11.13",
+      "name": "ltemobile.apn",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "default",
+        "mms",
+        "supl"
+      ]
     },
     {
       "apn": "netsvcs",
@@ -172,6 +205,20 @@
         "emergency"
       ],
       "user_visible": false
+    },
+    {
+      "apn": "sp.mts",
+      "mmsc": "http://mmsc2.mts.net/",
+      "mmsport": 9401,
+      "mmsproxy": "209.4.229.90",
+      "name": "MTS-Roaming",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "default",
+        "mms",
+        "supl"
+      ]
     },
     {
       "apn": "internet.mts",

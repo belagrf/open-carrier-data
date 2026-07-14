@@ -1,4 +1,102 @@
 {
+  "android_apns": [
+    {
+      "apn": "CdmaNai",
+      "bearer": 6,
+      "carrier_enabled": false,
+      "mmsc": "http://mms.unitedwireless.com/united/mms.php",
+      "mvno_match_data": "unitedwireless",
+      "mvno_type": "spn",
+      "name": "unitedwireless",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "mms"
+      ]
+    },
+    {
+      "apn": "IMS",
+      "bearer": 13,
+      "mvno_match_data": "unitedwireless",
+      "mvno_type": "spn",
+      "name": "United IMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ia",
+        "ims"
+      ]
+    },
+    {
+      "apn": "IMS",
+      "bearer": 14,
+      "mvno_match_data": "unitedwireless",
+      "mvno_type": "spn",
+      "name": "United IMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ia",
+        "ims"
+      ]
+    },
+    {
+      "apn": "VZWADMIN",
+      "bearer": 13,
+      "mvno_match_data": "unitedwireless",
+      "mvno_type": "spn",
+      "name": "United FOTA",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "fota"
+      ]
+    },
+    {
+      "apn": "VZWADMIN",
+      "bearer": 14,
+      "mvno_match_data": "unitedwireless",
+      "mvno_type": "spn",
+      "name": "United FOTA",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "fota"
+      ]
+    },
+    {
+      "apn": "VZWINTERNET",
+      "bearer": 13,
+      "mmsc": "http://mms.unitedwireless.com/united/mms.php",
+      "mvno_match_data": "unitedwireless",
+      "mvno_type": "spn",
+      "name": "Unitedwireless",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "default",
+        "dun",
+        "mms",
+        "supl"
+      ]
+    },
+    {
+      "apn": "VZWINTERNET",
+      "bearer": 14,
+      "mmsc": "http://mms.unitedwireless.com/united/mms.php",
+      "mvno_match_data": "unitedwireless",
+      "mvno_type": "spn",
+      "name": "Unitedwireless",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "default",
+        "dun",
+        "mms",
+        "supl"
+      ]
+    }
+  ],
   "android_carrier_config": {
     "carrier_default_wfc_ims_mode_int": 1,
     "cdma_3waycall_flash_delay_int": 200,

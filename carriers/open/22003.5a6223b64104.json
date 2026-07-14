@@ -67,6 +67,7 @@
       "port": 8080,
       "protocol": "IPV4V6",
       "proxy": "172.17.88.198",
+      "server": "http://m.mondo.rs",
       "types": [
         "default"
       ],
@@ -89,6 +90,7 @@
       "port": 8080,
       "protocol": "IPV4V6",
       "proxy": "172.17.88.198",
+      "server": "http://m.mondo.rs",
       "types": [
         "supl"
       ],

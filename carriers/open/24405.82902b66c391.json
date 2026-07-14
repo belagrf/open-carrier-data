@@ -54,17 +54,6 @@
       "user_visible": false
     },
     {
-      "apn": "ims",
-      "authtype": 0,
-      "carrier_enabled": true,
-      "name": "ims",
-      "protocol": "IPV6",
-      "roaming_protocol": "IPV4V6",
-      "types": [
-        "ims"
-      ]
-    },
-    {
       "apn": "internet",
       "authtype": 1,
       "carrier_enabled": true,
@@ -91,6 +80,8 @@
       "mmsport": 80,
       "mmsproxy": "213.161.41.57",
       "name": "mms",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
       "types": [
         "mms"
       ]
