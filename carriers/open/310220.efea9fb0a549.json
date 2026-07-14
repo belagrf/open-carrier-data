@@ -1,13 +1,11 @@
 {
   "addons": {
     "emergency_calling": {
-      "e911_routing_policy": "auto",
-      "emergency_dial_call_style": "DisableMuteHold,BlockAddCall,EndPreviousCall,E911Wificall,NoWaitInSvcE911"
+      "e911_routing_policy": "auto"
     },
     "network_policy": {
       "display_antenna_limited": true,
-      "gcf_sor": true,
-      "voice_network_setting_style": "UsaGsmNetworkSetting,AutoSelectionWhenBootup,CdmaSubscriptionEnable,SupportDataPopup,SupportInternationalRoamingNotification,NetworkSetting_TMO"
+      "gcf_sor": true
     }
   },
   "android_apns": [

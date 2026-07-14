@@ -1,13 +1,11 @@
 {
   "addons": {
     "emergency_calling": {
-      "e911_routing_policy": "auto",
-      "emergency_dial_call_style": "DisableMuteHold,EndPreviousCall,NoWaitInSvcE911"
+      "e911_routing_policy": "auto"
     },
     "network_policy": {
       "display_antenna_limited": true,
-      "gcf_sor": true,
-      "network_type_capability": "ATT-ATT-GSM-USA"
+      "gcf_sor": true
     },
     "operator_display": {
       "five_g_icon_configuration": [

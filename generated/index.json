@@ -1006,6 +1006,11 @@
       "profile_id": "open.20465.37c054ff1ebb"
     },
     {
+      "display_name": "AGMS NL",
+      "path": "carriers/open/20465.aa0b274d04bf.json",
+      "profile_id": "open.20465.aa0b274d04bf"
+    },
+    {
       "display_name": "Carrier 20465",
       "path": "carriers/open/20465.c180de92c7d7.json",
       "profile_id": "open.20465.c180de92c7d7"
@@ -6031,6 +6036,11 @@
       "profile_id": "open.23438.f2f1ca9adb5b"
     },
     {
+      "display_name": "Gamma",
+      "path": "carriers/open/23439.0f6336753975.json",
+      "profile_id": "open.23439.0f6336753975"
+    },
+    {
       "display_name": "Jump Gb",
       "path": "carriers/open/23439.8266314af06f.json",
       "profile_id": "open.23439.8266314af06f"
@@ -6669,6 +6679,11 @@
       "display_name": "Spusu It",
       "path": "carriers/open/24007.5d9db45d7d56.json",
       "profile_id": "open.24007.5d9db45d7d56"
+    },
+    {
+      "display_name": "Gamma",
+      "path": "carriers/open/24007.60a967df7aac.json",
+      "profile_id": "open.24007.60a967df7aac"
     },
     {
       "display_name": "spusu IT R",
@@ -8976,6 +8991,11 @@
       "profile_id": "open.26807.5a570bfedbbf"
     },
     {
+      "display_name": "NOS",
+      "path": "carriers/open/26889.c3887a3995bc.json",
+      "profile_id": "open.26889.c3887a3995bc"
+    },
+    {
       "display_name": "vodafone P",
       "path": "carriers/open/26889.d59be146341b.json",
       "profile_id": "open.26889.d59be146341b"
@@ -9379,6 +9399,11 @@
       "display_name": "Carrier 27801",
       "path": "carriers/open/27801.a53dec37c871.json",
       "profile_id": "open.27801.a53dec37c871"
+    },
+    {
+      "display_name": "vodafone MT",
+      "path": "carriers/open/27801.c537752031c2.json",
+      "profile_id": "open.27801.c537752031c2"
     },
     {
       "display_name": "GO",
@@ -12146,6 +12171,11 @@
       "profile_id": "open.310150.a4557d8795f4"
     },
     {
+      "display_name": "Cricket",
+      "path": "carriers/open/310150.affbc3e3afd1.json",
+      "profile_id": "open.310150.affbc3e3afd1"
+    },
+    {
       "display_name": "AIO 5G",
       "path": "carriers/open/310150.bf82740e3b13.json",
       "profile_id": "open.310150.bf82740e3b13"
@@ -12179,6 +12209,11 @@
       "display_name": "Assurance Us",
       "path": "carriers/open/310160.58e5715462ef.json",
       "profile_id": "open.310160.58e5715462ef"
+    },
+    {
+      "display_name": "MetroPCS",
+      "path": "carriers/open/310160.817c21da04fd.json",
+      "profile_id": "open.310160.817c21da04fd"
     },
     {
       "display_name": "Carrier 310160",
@@ -12306,6 +12341,11 @@
       "profile_id": "open.310200.c1406051255d"
     },
     {
+      "display_name": "MetroPCS",
+      "path": "carriers/open/310200.e946061f7590.json",
+      "profile_id": "open.310200.e946061f7590"
+    },
+    {
       "display_name": "Metro",
       "path": "carriers/open/310210.03a829fe1c09.json",
       "profile_id": "open.310210.03a829fe1c09"
@@ -12319,6 +12359,11 @@
       "display_name": "Metropcs Us",
       "path": "carriers/open/310210.0753c905a01b.json",
       "profile_id": "open.310210.0753c905a01b"
+    },
+    {
+      "display_name": "MetroPCS",
+      "path": "carriers/open/310210.4d10d9e53c29.json",
+      "profile_id": "open.310210.4d10d9e53c29"
     },
     {
       "display_name": "LineageOS 310210",
@@ -12354,6 +12399,11 @@
       "display_name": "Metropcs Us",
       "path": "carriers/open/310220.379bac3e2fb3.json",
       "profile_id": "open.310220.379bac3e2fb3"
+    },
+    {
+      "display_name": "MetroPCS",
+      "path": "carriers/open/310220.3ad2de5852c3.json",
+      "profile_id": "open.310220.3ad2de5852c3"
     },
     {
       "display_name": "Metro",
@@ -12409,6 +12459,11 @@
       "display_name": "Metro",
       "path": "carriers/open/310230.cbc9baa5a131.json",
       "profile_id": "open.310230.cbc9baa5a131"
+    },
+    {
+      "display_name": "MetroPCS",
+      "path": "carriers/open/310230.dbb6e223ecf8.json",
+      "profile_id": "open.310230.dbb6e223ecf8"
     },
     {
       "display_name": "T-Mobile",
@@ -12589,6 +12644,11 @@
       "display_name": "Boosttmo Us",
       "path": "carriers/open/310240.3e698779f349.json",
       "profile_id": "open.310240.3e698779f349"
+    },
+    {
+      "display_name": "MetroPCS",
+      "path": "carriers/open/310240.3ea264c9e3ad.json",
+      "profile_id": "open.310240.3ea264c9e3ad"
     },
     {
       "display_name": "Charter",
@@ -13081,6 +13141,11 @@
       "profile_id": "open.310250.499a4c55b6ba"
     },
     {
+      "display_name": "MetroPCS",
+      "path": "carriers/open/310250.4aa6e4652bf8.json",
+      "profile_id": "open.310250.4aa6e4652bf8"
+    },
+    {
       "display_name": "LineageOS 310250",
       "path": "carriers/open/310250.8fd28c41c444.json",
       "profile_id": "open.310250.8fd28c41c444"
@@ -13449,6 +13514,11 @@
       "display_name": "Nymobile Us",
       "path": "carriers/open/310260.7d446f9db788.json",
       "profile_id": "open.310260.7d446f9db788"
+    },
+    {
+      "display_name": "MetroPCS",
+      "path": "carriers/open/310260.7eb1ee901e4c.json",
+      "profile_id": "open.310260.7eb1ee901e4c"
     },
     {
       "display_name": "Carrier",
@@ -13886,6 +13956,11 @@
       "profile_id": "open.310270.b17355fd5d75"
     },
     {
+      "display_name": "MetroPCS",
+      "path": "carriers/open/310270.b8adeec84ac8.json",
+      "profile_id": "open.310270.b8adeec84ac8"
+    },
+    {
       "display_name": "Metro",
       "path": "carriers/open/310270.d0a6141bc955.json",
       "profile_id": "open.310270.d0a6141bc955"
@@ -14176,6 +14251,11 @@
       "profile_id": "open.31030.5bb2be083f26"
     },
     {
+      "display_name": "MetroPCS",
+      "path": "carriers/open/310300.068592c0e6bd.json",
+      "profile_id": "open.310300.068592c0e6bd"
+    },
+    {
       "display_name": "Truphone",
       "path": "carriers/open/310300.309e3275c049.json",
       "profile_id": "open.310300.309e3275c049"
@@ -14239,6 +14319,11 @@
       "display_name": "Assurance",
       "path": "carriers/open/310310.cfe6e79e322f.json",
       "profile_id": "open.310310.cfe6e79e322f"
+    },
+    {
+      "display_name": "MetroPCS",
+      "path": "carriers/open/310310.e7cb5c60537d.json",
+      "profile_id": "open.310310.e7cb5c60537d"
     },
     {
       "display_name": "Metro",
@@ -14369,6 +14454,11 @@
       "display_name": "ATT 5G",
       "path": "carriers/open/310380.6001088a5757.json",
       "profile_id": "open.310380.6001088a5757"
+    },
+    {
+      "display_name": "AGMS Global",
+      "path": "carriers/open/310380.91467efae22f.json",
+      "profile_id": "open.310380.91467efae22f"
     },
     {
       "display_name": "Agms Us",
@@ -14841,6 +14931,11 @@
       "profile_id": "open.310490.637b8be9b943"
     },
     {
+      "display_name": "MetroPCS",
+      "path": "carriers/open/310490.9098db87eaf2.json",
+      "profile_id": "open.310490.9098db87eaf2"
+    },
+    {
       "display_name": "Metro",
       "path": "carriers/open/310490.918ff243cff1.json",
       "profile_id": "open.310490.918ff243cff1"
@@ -14869,6 +14964,11 @@
       "display_name": "Metropcs Us",
       "path": "carriers/open/310530.a602d671b957.json",
       "profile_id": "open.310530.a602d671b957"
+    },
+    {
+      "display_name": "MetroPCS",
+      "path": "carriers/open/310530.b47d819483c0.json",
+      "profile_id": "open.310530.b47d819483c0"
     },
     {
       "display_name": "Carrier 310560",
@@ -14966,6 +15066,11 @@
       "profile_id": "open.310580.953a643b9ec2"
     },
     {
+      "display_name": "MetroPCS",
+      "path": "carriers/open/310580.abd5d49fa4e1.json",
+      "profile_id": "open.310580.abd5d49fa4e1"
+    },
+    {
       "display_name": "Inland Cellular",
       "path": "carriers/open/310580.efa6279063b7.json",
       "profile_id": "open.310580.efa6279063b7"
@@ -14974,6 +15079,11 @@
       "display_name": "Carrier 310582",
       "path": "carriers/open/310582.cf194e86cd5b.json",
       "profile_id": "open.310582.cf194e86cd5b"
+    },
+    {
+      "display_name": "MetroPCS",
+      "path": "carriers/open/310590.0586ad1007ff.json",
+      "profile_id": "open.310590.0586ad1007ff"
     },
     {
       "display_name": "Tracfone-VZW",
@@ -15196,6 +15306,11 @@
       "profile_id": "open.310640.758a1676254a"
     },
     {
+      "display_name": "MetroPCS",
+      "path": "carriers/open/310640.f2e84fcebf4b.json",
+      "profile_id": "open.310640.f2e84fcebf4b"
+    },
+    {
       "display_name": "LineageOS 310650",
       "path": "carriers/open/310650.1c2b41f5c399.json",
       "profile_id": "open.310650.1c2b41f5c399"
@@ -15209,6 +15324,11 @@
       "display_name": "Carrier 310660",
       "path": "carriers/open/310660.371536e6191b.json",
       "profile_id": "open.310660.371536e6191b"
+    },
+    {
+      "display_name": "MetroPCS",
+      "path": "carriers/open/310660.44fb4afa2842.json",
+      "profile_id": "open.310660.44fb4afa2842"
     },
     {
       "display_name": "T-Mobile",
@@ -15329,6 +15449,11 @@
       "display_name": "LineageOS 31080",
       "path": "carriers/open/31080.39d1398359a4.json",
       "profile_id": "open.31080.39d1398359a4"
+    },
+    {
+      "display_name": "MetroPCS",
+      "path": "carriers/open/310800.01561153d58d.json",
+      "profile_id": "open.310800.01561153d58d"
     },
     {
       "display_name": "Metro",
@@ -22339,6 +22464,11 @@
       "display_name": "Carrier 374129",
       "path": "carriers/open/374129.f92d1f775614.json",
       "profile_id": "open.374129.f92d1f775614"
+    },
+    {
+      "display_name": "Digicel Trinidad",
+      "path": "carriers/open/37413.1489c2998b5e.json",
+      "profile_id": "open.37413.1489c2998b5e"
     },
     {
       "display_name": "Carrier 37413",
@@ -31354,6 +31484,11 @@
       "display_name": "Sudani Network",
       "path": "carriers/open/63407.8bb3d21cd4a4.json",
       "profile_id": "open.63407.8bb3d21cd4a4"
+    },
+    {
+      "display_name": "Sudani One",
+      "path": "carriers/open/63407.fd71f2d5ec12.json",
+      "profile_id": "open.63407.fd71f2d5ec12"
     },
     {
       "display_name": "Carrier 63409",

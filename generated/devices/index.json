@@ -1,10 +1,10 @@
 {
   "artifact_registries": {
     "android_carrier_source_artifacts": {
-      "artifact_count": 8121,
-      "extracted_count": 944,
+      "artifact_count": 8140,
+      "extracted_count": 1012,
       "failed_count": 0,
-      "indexed_count": 7177,
+      "indexed_count": 7128,
       "quarantined_count": 6
     },
     "apple_carrier_bundles": {
@@ -19,14 +19,14 @@
   "generated_from_checks_through": "2026-07-14",
   "platforms": {
     "android": {
-      "carrier_artifact_match_count": 3276,
+      "carrier_artifact_match_count": 3299,
       "carrier_data_coverage_counts": {
-        "exact_carrier_data_observed": 662,
-        "exact_source_extracted": 132,
-        "exact_source_indexed": 2656,
+        "exact_carrier_data_observed": 678,
+        "exact_source_extracted": 138,
+        "exact_source_indexed": 2657,
         "inventory_only": 37820,
         "source_checked_no_artifact": 1209,
-        "source_discovery_in_progress": 1094,
+        "source_discovery_in_progress": 1071,
         "source_not_queryable": 72
       },
       "carrier_data_coverage_counts_by_brand": {
@@ -855,8 +855,8 @@
         },
         "Asus": {
           "exact_carrier_data_observed": 19,
-          "exact_source_extracted": 9,
-          "exact_source_indexed": 4,
+          "exact_source_extracted": 10,
+          "exact_source_indexed": 3,
           "inventory_only": 319,
           "source_checked_no_artifact": 20
         },
@@ -6186,10 +6186,10 @@
         },
         "Motorola": {
           "exact_carrier_data_observed": 38,
-          "exact_source_indexed": 54,
+          "exact_source_indexed": 77,
           "inventory_only": 173,
           "source_checked_no_artifact": 40,
-          "source_discovery_in_progress": 355
+          "source_discovery_in_progress": 332
         },
         "Motorola Solutions": {
           "inventory_only": 8
@@ -8323,9 +8323,9 @@
           "inventory_only": 2
         },
         "Samsung": {
-          "exact_carrier_data_observed": 118,
-          "exact_source_extracted": 114,
-          "exact_source_indexed": 1116,
+          "exact_carrier_data_observed": 134,
+          "exact_source_extracted": 119,
+          "exact_source_indexed": 1095,
           "source_checked_no_artifact": 720,
           "source_discovery_in_progress": 1,
           "source_not_queryable": 72
@@ -11736,7 +11736,7 @@
           "inventory_only": 13
         }
       },
-      "carrier_observation_match_count": 662,
+      "carrier_observation_match_count": 678,
       "carrier_source_discovery_match_count": 5656,
       "device_count": 43645,
       "historical_device_count": 76,
@@ -15589,15 +15589,15 @@
     },
     "apple": {
       "carrier_data_coverage_counts": {
+        "carrier_data_not_applicable": 12,
         "exact_source_verified": 5,
-        "family_source_verified": 163,
-        "inventory_only": 12
+        "family_source_verified": 163
       },
       "carrier_data_coverage_counts_by_brand": {
         "Apple": {
+          "carrier_data_not_applicable": 12,
           "exact_source_verified": 5,
-          "family_source_verified": 163,
-          "inventory_only": 12
+          "family_source_verified": 163
         }
       },
       "carrier_observation_match_count": 0,
@@ -15658,7 +15658,7 @@
     {
       "checked_at": "2026-07-14",
       "name": "motorola_software_fix_catalog",
-      "revision": "70fc2f44f422706a50dfafa3f5e86d0924b456085c90295fb340b09898f71c89",
+      "revision": "bc1878118f981728cf6016a2b8cbbd38af5439ab9b38c27487127c1a541f5de8",
       "revision_date": "2026-07-14",
       "url": "https://support.motorola.com/us/en/softwarefix"
     },
@@ -15672,7 +15672,7 @@
     {
       "checked_at": "2026-07-14",
       "name": "samsung_firmware_update_service",
-      "revision": "0cb77cd8686a94b5edcb0ed9d828a6ae4a0d95035e79e49a47f8ae06be62971c",
+      "revision": "b4503c7b3a939c01fc84901dc34c690f63d9bd3200bafd30e79a9d16af68b29d",
       "revision_date": "2026-07-14",
       "url": "https://neofussvr.sslcs.cdngc.net/NF_SmartDownloadBinaryInform.do"
     },

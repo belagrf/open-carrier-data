@@ -42,6 +42,13 @@
       ]
     },
     {
+      "apn": "ims",
+      "name": "IMS",
+      "types": [
+        "ims"
+      ]
+    },
+    {
       "apn": "internet.btonephone.com",
       "name": "BT One Phone Internet",
       "protocol": "IPV4V6",

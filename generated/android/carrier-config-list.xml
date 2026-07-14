@@ -1949,6 +1949,7 @@
     <int name="recipientLimit" value="10" />
     <boolean name="rtt_supported_bool" value="true" />
     <boolean name="rtt_supported_while_roaming_bool" value="true" />
+    <int name="smsToMmsTextThreshold" value="13" />
     <int name="wfc_spn_format_idx_int" value="1" />
   </carrier_config>
   <!-- open.23003.259a66d39357 -->
@@ -1977,7 +1978,6 @@
     <int name="recipientLimit" value="10" />
     <boolean name="rtt_supported_bool" value="true" />
     <boolean name="rtt_supported_while_roaming_bool" value="true" />
-    <int name="smsToMmsTextThreshold" value="6" />
     <int name="wfc_spn_format_idx_int" value="1" />
   </carrier_config>
   <!-- open.23007.993c3ce26683 -->
@@ -4681,7 +4681,6 @@
     <int name="recipientLimit" value="10" />
     <boolean name="rtt_supported_bool" value="true" />
     <boolean name="rtt_supported_while_roaming_bool" value="true" />
-    <int name="smsToMmsTextThreshold" value="5" />
     <int name="volte_replacement_rat_int" value="3" />
   </carrier_config>
   <!-- open.26802.ddc1edcc246a -->
@@ -4762,7 +4761,6 @@
     <boolean name="editable_wfc_mode_bool" value="false" />
     <boolean name="enableSMSDeliveryReports" value="false" />
     <boolean name="hide_enhanced_4g_lte_bool" value="true" />
-    <int name="smsToMmsTextThreshold" value="5" />
   </carrier_config>
   <!-- open.26891.513b53ce7b59 -->
   <carrier_config mcc="268" mnc="91" name="Carrier 26891">
@@ -4775,7 +4773,6 @@
     </string-array>
     <boolean name="rtt_supported_bool" value="true" />
     <boolean name="rtt_supported_while_roaming_bool" value="true" />
-    <int name="smsToMmsTextThreshold" value="5" />
     <int name="volte_replacement_rat_int" value="3" />
   </carrier_config>
   <!-- open.26892.def26f0ccb9e -->
@@ -4789,7 +4786,6 @@
     </string-array>
     <boolean name="rtt_supported_bool" value="true" />
     <boolean name="rtt_supported_while_roaming_bool" value="true" />
-    <int name="smsToMmsTextThreshold" value="5" />
     <int name="volte_replacement_rat_int" value="3" />
   </carrier_config>
   <!-- open.26893.00160602864e -->
@@ -17569,7 +17565,6 @@
   <!-- open.20201.11bbcf0666ed -->
   <carrier_config mcc="202" mnc="01" name="COSMOTE" spn="\QCOSMOTE\E">
     <boolean name="carrier_volte_available_bool" value="true" />
-    <int name="smsToMmsTextThreshold" value="13" />
   </carrier_config>
   <!-- open.20205.a974429253f1 -->
   <carrier_config mcc="202" mnc="05" name="Vodafone GR" spn="\QVodafone GR\E">
@@ -17579,17 +17574,14 @@
   <!-- open.20205.b12c412f3f93 -->
   <carrier_config mcc="202" mnc="05" name="vodafone GR" spn="\Qvodafone GR\E">
     <boolean name="carrier_volte_available_bool" value="true" />
-    <int name="smsToMmsTextThreshold" value="13" />
   </carrier_config>
   <!-- open.20209.2045f02db438 -->
   <carrier_config mcc="202" mnc="09" name="Q Telecom" spn="\QQ Telecom\E">
     <boolean name="carrier_volte_available_bool" value="true" />
-    <int name="smsToMmsTextThreshold" value="13" />
   </carrier_config>
   <!-- open.20210.e508b19549c8 -->
   <carrier_config mcc="202" mnc="10" name="NOVA GR" spn="\QNOVA GR\E">
     <boolean name="carrier_volte_available_bool" value="true" />
-    <int name="smsToMmsTextThreshold" value="13" />
   </carrier_config>
   <!-- open.20210.2cdb31065adf -->
   <carrier_config mcc="202" mnc="10" name="WIND GR" spn="\QWIND GR\E">
@@ -17599,7 +17591,6 @@
   <!-- open.20217.09886ee2fae4 -->
   <carrier_config mcc="202" mnc="17" name="nova" spn="\Qnova\E">
     <boolean name="carrier_volte_available_bool" value="true" />
-    <int name="smsToMmsTextThreshold" value="13" />
   </carrier_config>
   <!-- open.20402.80b129cb63e4 -->
   <carrier_config mcc="204" mnc="02" name="Tele2" spn="\QTele2\E">
@@ -17936,6 +17927,10 @@
     <boolean name="carrier_volte_available_bool" value="true" />
     <boolean name="enabledMMS" value="false" />
     <int name="smsToMmsTextThreshold" value="10" />
+  </carrier_config>
+  <!-- open.20465.aa0b274d04bf -->
+  <carrier_config mcc="204" mnc="65" name="AGMS NL" spn="\QAGMS NL\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
   <!-- open.20601.af51e09fd169 -->
   <carrier_config imsi="20601889[0-9]*" mcc="206" mnc="01" name="Telenet BE">
@@ -20702,6 +20697,11 @@
     <boolean name="carrier_volte_available_bool" value="true" />
     <int name="smsToMmsTextThreshold" value="10" />
   </carrier_config>
+  <!-- open.23439.0f6336753975 -->
+  <carrier_config mcc="234" mnc="39" name="Gamma" spn="\QGamma\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <int name="smsToMmsTextThreshold" value="10" />
+  </carrier_config>
   <!-- open.23440.9a071b3bc82c -->
   <carrier_config mcc="234" mnc="40" name="spusu UK" spn="\Qspusu UK\E">
     <boolean name="carrier_volte_available_bool" value="true" />
@@ -21011,6 +21011,11 @@
   <carrier_config imsi="24007671[0-9]*" mcc="240" mnc="07" name="Sberbank RU">
     <boolean name="carrier_wfc_ims_available_bool" value="true" />
     <boolean name="imssms.sms_over_ims_supported_bool" value="true" />
+  </carrier_config>
+  <!-- open.24007.60a967df7aac -->
+  <carrier_config mcc="240" mnc="07" name="Gamma" spn="\QGamma\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <int name="smsToMmsTextThreshold" value="10" />
   </carrier_config>
   <!-- open.24007.6ccc6696ac99 -->
   <carrier_config mcc="240" mnc="07" name="HELP mobile" spn="\QHELP mobile\E">
@@ -21850,6 +21855,11 @@
     <boolean name="carrier_volte_available_bool" value="true" />
     <int name="smsToMmsTextThreshold" value="10" />
   </carrier_config>
+  <!-- open.26889.c3887a3995bc -->
+  <carrier_config mcc="268" mnc="89" name="NOS" spn="\QNOS\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <int name="smsToMmsTextThreshold" value="10" />
+  </carrier_config>
   <!-- open.26889.d59be146341b -->
   <carrier_config mcc="268" mnc="89" name="vodafone P" spn="\Qvodafone P\E">
     <boolean name="carrier_volte_available_bool" value="true" />
@@ -22045,6 +22055,11 @@
     <boolean name="carrier_volte_available_bool" value="true" />
     <int name="smsToMmsTextThreshold" value="10" />
   </carrier_config>
+  <!-- open.27801.c537752031c2 -->
+  <carrier_config mcc="278" mnc="01" name="vodafone MT" spn="\Qvodafone MT\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <int name="smsToMmsTextThreshold" value="10" />
+  </carrier_config>
   <!-- open.27821.e6bdc9665b4c -->
   <carrier_config mcc="278" mnc="21" name="GO" spn="\QGO\E">
     <boolean name="carrier_volte_available_bool" value="true" />
@@ -22067,7 +22082,6 @@
   <!-- open.28001.641dcdea79d0 -->
   <carrier_config mcc="280" mnc="01" name="CYTAVODA" spn="\QCYTAVODA\E">
     <boolean name="carrier_volte_available_bool" value="true" />
-    <int name="smsToMmsTextThreshold" value="13" />
   </carrier_config>
   <!-- open.28001.b655e4261526 -->
   <carrier_config mcc="280" mnc="01" name="CytaVoda" spn="\QCytaVoda\E">
@@ -22076,12 +22090,10 @@
   <!-- open.28010.d04e96076cc4 -->
   <carrier_config mcc="280" mnc="10" name="epic" spn="\Qepic\E">
     <boolean name="carrier_volte_available_bool" value="true" />
-    <int name="smsToMmsTextThreshold" value="13" />
   </carrier_config>
   <!-- open.28020.f200fb96f449 -->
   <carrier_config mcc="280" mnc="20" name="Primetel" spn="\QPrimetel\E">
     <boolean name="carrier_volte_available_bool" value="true" />
-    <int name="smsToMmsTextThreshold" value="13" />
   </carrier_config>
   <!-- open.28022.8dd051869963 -->
   <carrier_config mcc="280" mnc="22" name="Cablenet" spn="\QCablenet\E">
@@ -22217,7 +22229,6 @@
   <carrier_config mcc="294" mnc="01" name="Telekom MK" spn="\QTelekom MK\E">
     <boolean name="carrier_volte_available_bool" value="true" />
     <boolean name="enabledMMS" value="false" />
-    <int name="smsToMmsTextThreshold" value="2" />
   </carrier_config>
   <!-- open.29402.bd74b2fedb94 -->
   <carrier_config cid="1608" mcc="294" mnc="02" name="Cosmofon">
@@ -24073,6 +24084,10 @@
   <carrier_config mcc="310" mnc="150" name="AIO" spn="\QAIO\E">
     <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
+  <!-- open.310150.affbc3e3afd1 -->
+  <carrier_config mcc="310" mnc="150" name="Cricket" spn="\QCricket\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
   <!-- open.310150.fa7066c99339 -->
   <carrier_config cid="1779" mcc="310" mnc="150" name="Cricket Wireless">
     <boolean name="allow_hold_call_during_emergency_bool" value="false" />
@@ -24095,6 +24110,10 @@
   </carrier_config>
   <!-- open.310160.02e6697d8ec9 -->
   <carrier_config mcc="310" mnc="160" name="Assurance" spn="\QAssurance\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.310160.817c21da04fd -->
+  <carrier_config mcc="310" mnc="160" name="MetroPCS" spn="\QMetroPCS\E">
     <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
   <!-- open.310160.2a6a5d26a0f9 -->
@@ -24245,6 +24264,10 @@
   <carrier_config mcc="310" mnc="200" name="Assurance" spn="\QAssurance\E">
     <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
+  <!-- open.310200.e946061f7590 -->
+  <carrier_config mcc="310" mnc="200" name="MetroPCS" spn="\QMetroPCS\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
   <!-- open.310200.67f2e0045af3 -->
   <carrier_config mcc="310" mnc="200" name="Metro" spn="\QMetro\E">
     <boolean name="carrier_volte_available_bool" value="true" />
@@ -24332,6 +24355,10 @@
   </carrier_config>
   <!-- open.310210.04e8edc3467c -->
   <carrier_config mcc="310" mnc="210" name="Assurance" spn="\QAssurance\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.310210.4d10d9e53c29 -->
+  <carrier_config mcc="310" mnc="210" name="MetroPCS" spn="\QMetroPCS\E">
     <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
   <!-- open.310210.03a829fe1c09 -->
@@ -24423,6 +24450,10 @@
   <carrier_config mcc="310" mnc="220" name="Assurance" spn="\QAssurance\E">
     <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
+  <!-- open.310220.3ad2de5852c3 -->
+  <carrier_config mcc="310" mnc="220" name="MetroPCS" spn="\QMetroPCS\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
   <!-- open.310220.884c7f194c7c -->
   <carrier_config mcc="310" mnc="220" name="Metro" spn="\QMetro\E">
     <boolean name="carrier_volte_available_bool" value="true" />
@@ -24510,6 +24541,10 @@
   </carrier_config>
   <!-- open.310230.f2ccb3a803fb -->
   <carrier_config mcc="310" mnc="230" name="Assurance" spn="\QAssurance\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.310230.dbb6e223ecf8 -->
+  <carrier_config mcc="310" mnc="230" name="MetroPCS" spn="\QMetroPCS\E">
     <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
   <!-- open.310230.cbc9baa5a131 -->
@@ -24631,6 +24666,10 @@
   </carrier_config>
   <!-- open.310240.18658906a9ad -->
   <carrier_config mcc="310" mnc="240" name="LycaMobile" spn="\QLycaMobile\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.310240.3ea264c9e3ad -->
+  <carrier_config mcc="310" mnc="240" name="MetroPCS" spn="\QMetroPCS\E">
     <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
   <!-- open.310240.34ed8526bc6b -->
@@ -24776,6 +24815,10 @@
   </carrier_config>
   <!-- open.310250.437fdd9ce5ea -->
   <carrier_config mcc="310" mnc="250" name="Assurance" spn="\QAssurance\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.310250.4aa6e4652bf8 -->
+  <carrier_config mcc="310" mnc="250" name="MetroPCS" spn="\QMetroPCS\E">
     <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
   <!-- open.310250.377fb1373a94 -->
@@ -24988,6 +25031,10 @@
   <carrier_config mcc="310" mnc="260" name="LycaMobile" spn="\QLycaMobile\E">
     <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
+  <!-- open.310260.7eb1ee901e4c -->
+  <carrier_config mcc="310" mnc="260" name="MetroPCS" spn="\QMetroPCS\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
   <!-- open.310260.23df9eff95e1 -->
   <carrier_config mcc="310" mnc="260" name="Metro" spn="\QMetro\E">
     <boolean name="carrier_volte_available_bool" value="true" />
@@ -25131,6 +25178,10 @@
   </carrier_config>
   <!-- open.310270.b17355fd5d75 -->
   <carrier_config mcc="310" mnc="270" name="Assurance" spn="\QAssurance\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.310270.b8adeec84ac8 -->
+  <carrier_config mcc="310" mnc="270" name="MetroPCS" spn="\QMetroPCS\E">
     <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
   <!-- open.310270.d0a6141bc955 -->
@@ -25305,6 +25356,10 @@
   <carrier_config mcc="310" mnc="290" name="NEP" spn="\QNEP\E">
     <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
+  <!-- open.310300.068592c0e6bd -->
+  <carrier_config mcc="310" mnc="300" name="MetroPCS" spn="\QMetroPCS\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
   <!-- open.310300.54b10fbc1e64 -->
   <carrier_config mcc="310" mnc="300" name="Truphone" spn="\QTruphone\E">
     <boolean name="carrier_volte_available_bool" value="true" />
@@ -25388,6 +25443,10 @@
   </carrier_config>
   <!-- open.310310.cfe6e79e322f -->
   <carrier_config mcc="310" mnc="310" name="Assurance" spn="\QAssurance\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.310310.e7cb5c60537d -->
+  <carrier_config mcc="310" mnc="310" name="MetroPCS" spn="\QMetroPCS\E">
     <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
   <!-- open.310310.fd029c0005d8 -->
@@ -25543,6 +25602,10 @@
   </carrier_config>
   <!-- open.310370.a2bcf4d0696c -->
   <carrier_config mcc="310" mnc="370" name="DOCOMO PACIFIC" spn="\QDOCOMO PACIFIC\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.310380.91467efae22f -->
+  <carrier_config mcc="310" mnc="380" name="AGMS Global" spn="\QAGMS Global\E">
     <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
   <!-- open.310380.4172f635643f -->
@@ -25738,6 +25801,10 @@
   <carrier_config mcc="310" mnc="490" name="Assurance" spn="\QAssurance\E">
     <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
+  <!-- open.310490.9098db87eaf2 -->
+  <carrier_config mcc="310" mnc="490" name="MetroPCS" spn="\QMetroPCS\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
   <!-- open.310490.918ff243cff1 -->
   <carrier_config mcc="310" mnc="490" name="Metro" spn="\QMetro\E">
     <boolean name="carrier_volte_available_bool" value="true" />
@@ -25818,6 +25885,10 @@
       <item value="REG09|0" />
     </string-array>
     <int name="wfc_spn_format_idx_int" value="1" />
+  </carrier_config>
+  <!-- open.310530.b47d819483c0 -->
+  <carrier_config mcc="310" mnc="530" name="MetroPCS" spn="\QMetroPCS\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
   <!-- open.310026.28145f54cfa7 -->
   <carrier_config cid="1" mcc="310" mnc="530" name="T-Mobile - US">
@@ -25977,6 +26048,10 @@
     <boolean name="carrier_volte_available_bool" value="true" />
     <boolean name="carrier_wfc_ims_available_bool" value="true" />
   </carrier_config>
+  <!-- open.310580.abd5d49fa4e1 -->
+  <carrier_config mcc="310" mnc="580" name="MetroPCS" spn="\QMetroPCS\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
   <!-- open.310580.9419177cbef7 -->
   <carrier_config mcc="310" mnc="580" name="LineageOS 310580" spn="\QSPRINT\E">
     <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
@@ -26013,6 +26088,10 @@
     <int name="maxSubjectLength" value="80" />
     <int name="recipientLimit" value="20" />
     <int name="smsToMmsTextThreshold" value="1" />
+  </carrier_config>
+  <!-- open.310590.0586ad1007ff -->
+  <carrier_config mcc="310" mnc="590" name="MetroPCS" spn="\QMetroPCS\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
   <!-- open.310590.d1d2515b888f -->
   <carrier_config mcc="310" mnc="590" name="Tracfone" spn="\QTracfone\E">
@@ -27142,6 +27221,10 @@
     <int name="recipientLimit" value="20" />
     <int name="smsToMmsTextThreshold" value="1" />
   </carrier_config>
+  <!-- open.310640.f2e84fcebf4b -->
+  <carrier_config mcc="310" mnc="640" name="MetroPCS" spn="\QMetroPCS\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
   <!-- open.310026.28145f54cfa7 -->
   <carrier_config cid="1" mcc="310" mnc="640" name="T-Mobile - US">
     <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
@@ -27221,6 +27304,10 @@
   </carrier_config>
   <!-- open.310660.1a36949d29da -->
   <carrier_config mcc="310" mnc="660" name="Assurance" spn="\QAssurance\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.310660.44fb4afa2842 -->
+  <carrier_config mcc="310" mnc="660" name="MetroPCS" spn="\QMetroPCS\E">
     <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
   <!-- open.310660.a6238176dd96 -->
@@ -27382,6 +27469,10 @@
   </carrier_config>
   <!-- open.310800.5f1805c0d229 -->
   <carrier_config mcc="310" mnc="800" name="Assurance" spn="\QAssurance\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.310800.01561153d58d -->
+  <carrier_config mcc="310" mnc="800" name="MetroPCS" spn="\QMetroPCS\E">
     <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
   <!-- open.310800.2ccc8f72a4ed -->
@@ -34569,6 +34660,10 @@
   <carrier_config mcc="374" mnc="129" name="BMobile_TT" spn="\QBMobile_TT\E">
     <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
+  <!-- open.37413.1489c2998b5e -->
+  <carrier_config mcc="374" mnc="13" name="Digicel Trinidad" spn="\QDigicel Trinidad\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
   <!-- open.374130.051127f10920 -->
   <carrier_config mcc="374" mnc="130" name="Digicel Trinidad" spn="\QDigicel Trinidad\E">
     <boolean name="carrier_volte_available_bool" value="true" />
@@ -34599,14 +34694,6 @@
   </carrier_config>
   <!-- open.40006.b730a604d994 -->
   <carrier_config mcc="400" mnc="06" name="Naxtel" spn="\QNaxtel\E">
-    <boolean name="carrier_volte_available_bool" value="true" />
-  </carrier_config>
-  <!-- open.40211.d5d4f5a28f28 -->
-  <carrier_config mcc="402" mnc="11" name="Bhutan Telecom" spn="\QBhutan Telecom\E">
-    <boolean name="carrier_volte_available_bool" value="true" />
-  </carrier_config>
-  <!-- open.40277.f2497588e08f -->
-  <carrier_config mcc="402" mnc="77" name="TashiCell" spn="\QTashiCell\E">
     <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
   <!-- open.40400.56a163f521ce -->
@@ -36528,10 +36615,6 @@
   <carrier_config mcc="427" mnc="07" name="MOD" spn="\QMOD\E">
     <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
-  <!-- open.42901.371116656696 -->
-  <carrier_config mcc="429" mnc="01" name="Nepal Telecom" spn="\QNepal Telecom\E">
-    <boolean name="carrier_volte_available_bool" value="true" />
-  </carrier_config>
   <!-- open.42902.9adc9cb42fdd -->
   <carrier_config mcc="429" mnc="02" name="NCELL" spn="\QNCELL\E">
     <boolean name="carrier_volte_available_bool" value="true" />
@@ -37880,6 +37963,10 @@
   </carrier_config>
   <!-- open.63407.8bb3d21cd4a4 -->
   <carrier_config mcc="634" mnc="07" name="Sudani Network" spn="\QSudani Network\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.63407.fd71f2d5ec12 -->
+  <carrier_config mcc="634" mnc="07" name="Sudani One" spn="\QSudani One\E">
     <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
   <!-- open.63407.373da2470077 -->

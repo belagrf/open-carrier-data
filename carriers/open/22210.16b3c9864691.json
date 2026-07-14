@@ -5,7 +5,6 @@
       "emergency_dial_call_style": "EndPreviousCall"
     },
     "ims": {
-      "contacts_operator_style": "OMN",
       "support_ims_clir_overriding": true
     },
     "network_policy": {

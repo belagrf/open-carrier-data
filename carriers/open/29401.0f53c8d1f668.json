@@ -64,8 +64,7 @@
   ],
   "android_carrier_config": {
     "carrier_volte_available_bool": true,
-    "enabledMMS": false,
-    "smsToMmsTextThreshold": 2
+    "enabledMMS": false
   },
   "capabilities": {
     "esim": "unknown",

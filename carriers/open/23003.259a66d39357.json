@@ -210,7 +210,6 @@
     "recipientLimit": 10,
     "rtt_supported_bool": true,
     "rtt_supported_while_roaming_bool": true,
-    "smsToMmsTextThreshold": 6,
     "wfc_spn_format_idx_int": 1
   },
   "capabilities": {

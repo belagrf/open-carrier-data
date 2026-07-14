@@ -905,8 +905,7 @@
     },
     {
       "android_carrier_config": {
-        "carrier_volte_available_bool": true,
-        "smsToMmsTextThreshold": 13
+        "carrier_volte_available_bool": true
       },
       "display_name": "COSMOTE",
       "match": {
@@ -992,8 +991,7 @@
     },
     {
       "android_carrier_config": {
-        "carrier_volte_available_bool": true,
-        "smsToMmsTextThreshold": 13
+        "carrier_volte_available_bool": true
       },
       "display_name": "vodafone GR",
       "match": {
@@ -1061,8 +1059,7 @@
     },
     {
       "android_carrier_config": {
-        "carrier_volte_available_bool": true,
-        "smsToMmsTextThreshold": 13
+        "carrier_volte_available_bool": true
       },
       "display_name": "Q Telecom",
       "match": {
@@ -1124,8 +1121,7 @@
     },
     {
       "android_carrier_config": {
-        "carrier_volte_available_bool": true,
-        "smsToMmsTextThreshold": 13
+        "carrier_volte_available_bool": true
       },
       "display_name": "NOVA GR",
       "match": {
@@ -1140,8 +1136,7 @@
     },
     {
       "android_carrier_config": {
-        "carrier_volte_available_bool": true,
-        "smsToMmsTextThreshold": 13
+        "carrier_volte_available_bool": true
       },
       "display_name": "nova",
       "match": {
@@ -3531,6 +3526,21 @@
         ]
       },
       "profile_id": "open.20433.6085a49814e0"
+    },
+    {
+      "android_carrier_config": {
+        "carrier_volte_available_bool": true
+      },
+      "display_name": "AGMS NL",
+      "match": {
+        "mccmnc": [
+          "20465"
+        ],
+        "spn": [
+          "AGMS NL"
+        ]
+      },
+      "profile_id": "open.20465.aa0b274d04bf"
     },
     {
       "android_carrier_config": {
@@ -14472,6 +14482,7 @@
         "recipientLimit": 10,
         "rtt_supported_bool": true,
         "rtt_supported_while_roaming_bool": true,
+        "smsToMmsTextThreshold": 13,
         "wfc_spn_format_idx_int": 1
       },
       "display_name": "Carrier 23002",
@@ -14508,7 +14519,6 @@
         "recipientLimit": 10,
         "rtt_supported_bool": true,
         "rtt_supported_while_roaming_bool": true,
-        "smsToMmsTextThreshold": 6,
         "wfc_spn_format_idx_int": 1
       },
       "display_name": "Carrier 23003",
@@ -19347,6 +19357,22 @@
     },
     {
       "android_carrier_config": {
+        "carrier_volte_available_bool": true,
+        "smsToMmsTextThreshold": 10
+      },
+      "display_name": "Gamma",
+      "match": {
+        "mccmnc": [
+          "23439"
+        ],
+        "spn": [
+          "Gamma"
+        ]
+      },
+      "profile_id": "open.23439.0f6336753975"
+    },
+    {
+      "android_carrier_config": {
         "auto_retry_failed_wifi_emergency_call": true,
         "carrier_default_wfc_ims_enabled_bool": true,
         "carrier_default_wfc_ims_mode_int": 1,
@@ -21332,6 +21358,22 @@
         ]
       },
       "profile_id": "open.24007.5d9db45d7d56"
+    },
+    {
+      "android_carrier_config": {
+        "carrier_volte_available_bool": true,
+        "smsToMmsTextThreshold": 10
+      },
+      "display_name": "Gamma",
+      "match": {
+        "mccmnc": [
+          "24007"
+        ],
+        "spn": [
+          "Gamma"
+        ]
+      },
+      "profile_id": "open.24007.60a967df7aac"
     },
     {
       "android_carrier_config": {
@@ -28227,7 +28269,6 @@
         "recipientLimit": 10,
         "rtt_supported_bool": true,
         "rtt_supported_while_roaming_bool": true,
-        "smsToMmsTextThreshold": 5,
         "volte_replacement_rat_int": 3
       },
       "display_name": "Carrier 26801",
@@ -28240,8 +28281,7 @@
     },
     {
       "android_carrier_config": {
-        "carrier_volte_available_bool": true,
-        "smsToMmsTextThreshold": 5
+        "carrier_volte_available_bool": true
       },
       "display_name": "amigo",
       "match": {
@@ -28438,6 +28478,22 @@
     },
     {
       "android_carrier_config": {
+        "carrier_volte_available_bool": true,
+        "smsToMmsTextThreshold": 10
+      },
+      "display_name": "NOS",
+      "match": {
+        "mccmnc": [
+          "26889"
+        ],
+        "spn": [
+          "NOS"
+        ]
+      },
+      "profile_id": "open.26889.c3887a3995bc"
+    },
+    {
+      "android_carrier_config": {
         "carrier_volte_available_bool": true
       },
       "display_name": "vodafone P",
@@ -28463,8 +28519,7 @@
         "carrier_wfc_ims_available_bool": true,
         "editable_wfc_mode_bool": false,
         "enableSMSDeliveryReports": false,
-        "hide_enhanced_4g_lte_bool": true,
-        "smsToMmsTextThreshold": 5
+        "hide_enhanced_4g_lte_bool": true
       },
       "display_name": "Carrier 26889",
       "match": {
@@ -28485,7 +28540,6 @@
         ],
         "rtt_supported_bool": true,
         "rtt_supported_while_roaming_bool": true,
-        "smsToMmsTextThreshold": 5,
         "volte_replacement_rat_int": 3
       },
       "display_name": "Carrier 26891",
@@ -28537,7 +28591,6 @@
         ],
         "rtt_supported_bool": true,
         "rtt_supported_while_roaming_bool": true,
-        "smsToMmsTextThreshold": 5,
         "volte_replacement_rat_int": 3
       },
       "display_name": "Carrier 26892",
@@ -29716,6 +29769,22 @@
         "carrier_volte_available_bool": true,
         "smsToMmsTextThreshold": 10
       },
+      "display_name": "vodafone MT",
+      "match": {
+        "mccmnc": [
+          "27801"
+        ],
+        "spn": [
+          "vodafone MT"
+        ]
+      },
+      "profile_id": "open.27801.c537752031c2"
+    },
+    {
+      "android_carrier_config": {
+        "carrier_volte_available_bool": true,
+        "smsToMmsTextThreshold": 10
+      },
       "display_name": "GO",
       "match": {
         "mccmnc": [
@@ -29801,8 +29870,7 @@
     },
     {
       "android_carrier_config": {
-        "carrier_volte_available_bool": true,
-        "smsToMmsTextThreshold": 13
+        "carrier_volte_available_bool": true
       },
       "display_name": "CYTAVODA",
       "match": {
@@ -29900,8 +29968,7 @@
     },
     {
       "android_carrier_config": {
-        "carrier_volte_available_bool": true,
-        "smsToMmsTextThreshold": 13
+        "carrier_volte_available_bool": true
       },
       "display_name": "epic",
       "match": {
@@ -29955,8 +30022,7 @@
     },
     {
       "android_carrier_config": {
-        "carrier_volte_available_bool": true,
-        "smsToMmsTextThreshold": 13
+        "carrier_volte_available_bool": true
       },
       "display_name": "Primetel",
       "match": {
@@ -30873,8 +30939,7 @@
     {
       "android_carrier_config": {
         "carrier_volte_available_bool": true,
-        "enabledMMS": false,
-        "smsToMmsTextThreshold": 2
+        "enabledMMS": false
       },
       "display_name": "Telekom MK",
       "match": {
@@ -39438,6 +39503,21 @@
       "android_carrier_config": {
         "carrier_volte_available_bool": true
       },
+      "display_name": "Cricket",
+      "match": {
+        "mccmnc": [
+          "310150"
+        ],
+        "spn": [
+          "Cricket"
+        ]
+      },
+      "profile_id": "open.310150.affbc3e3afd1"
+    },
+    {
+      "android_carrier_config": {
+        "carrier_volte_available_bool": true
+      },
       "display_name": "AIO 5G",
       "match": {
         "mccmnc": [
@@ -39578,6 +39658,21 @@
         ]
       },
       "profile_id": "open.310160.58e5715462ef"
+    },
+    {
+      "android_carrier_config": {
+        "carrier_volte_available_bool": true
+      },
+      "display_name": "MetroPCS",
+      "match": {
+        "mccmnc": [
+          "310160"
+        ],
+        "spn": [
+          "MetroPCS"
+        ]
+      },
+      "profile_id": "open.310160.817c21da04fd"
     },
     {
       "android_carrier_config": {
@@ -40179,6 +40274,21 @@
       "android_carrier_config": {
         "carrier_volte_available_bool": true
       },
+      "display_name": "MetroPCS",
+      "match": {
+        "mccmnc": [
+          "310200"
+        ],
+        "spn": [
+          "MetroPCS"
+        ]
+      },
+      "profile_id": "open.310200.e946061f7590"
+    },
+    {
+      "android_carrier_config": {
+        "carrier_volte_available_bool": true
+      },
       "display_name": "Metro",
       "match": {
         "mccmnc": [
@@ -40237,6 +40347,21 @@
         ]
       },
       "profile_id": "open.310210.0753c905a01b"
+    },
+    {
+      "android_carrier_config": {
+        "carrier_volte_available_bool": true
+      },
+      "display_name": "MetroPCS",
+      "match": {
+        "mccmnc": [
+          "310210"
+        ],
+        "spn": [
+          "MetroPCS"
+        ]
+      },
+      "profile_id": "open.310210.4d10d9e53c29"
     },
     {
       "android_carrier_config": {
@@ -40474,6 +40599,21 @@
         ]
       },
       "profile_id": "open.310220.379bac3e2fb3"
+    },
+    {
+      "android_carrier_config": {
+        "carrier_volte_available_bool": true
+      },
+      "display_name": "MetroPCS",
+      "match": {
+        "mccmnc": [
+          "310220"
+        ],
+        "spn": [
+          "MetroPCS"
+        ]
+      },
+      "profile_id": "open.310220.3ad2de5852c3"
     },
     {
       "android_carrier_config": {
@@ -40794,6 +40934,21 @@
         ]
       },
       "profile_id": "open.310230.cbc9baa5a131"
+    },
+    {
+      "android_carrier_config": {
+        "carrier_volte_available_bool": true
+      },
+      "display_name": "MetroPCS",
+      "match": {
+        "mccmnc": [
+          "310230"
+        ],
+        "spn": [
+          "MetroPCS"
+        ]
+      },
+      "profile_id": "open.310230.dbb6e223ecf8"
     },
     {
       "android_carrier_config": {
@@ -41894,6 +42049,21 @@
         ]
       },
       "profile_id": "open.310240.3e698779f349"
+    },
+    {
+      "android_carrier_config": {
+        "carrier_volte_available_bool": true
+      },
+      "display_name": "MetroPCS",
+      "match": {
+        "mccmnc": [
+          "310240"
+        ],
+        "spn": [
+          "MetroPCS"
+        ]
+      },
+      "profile_id": "open.310240.3ea264c9e3ad"
     },
     {
       "android_carrier_config": {
@@ -45103,6 +45273,21 @@
     },
     {
       "android_carrier_config": {
+        "carrier_volte_available_bool": true
+      },
+      "display_name": "MetroPCS",
+      "match": {
+        "mccmnc": [
+          "310250"
+        ],
+        "spn": [
+          "MetroPCS"
+        ]
+      },
+      "profile_id": "open.310250.4aa6e4652bf8"
+    },
+    {
+      "android_carrier_config": {
         "carrier_vt_available_bool": false
       },
       "display_name": "LineageOS 310250",
@@ -47442,6 +47627,21 @@
         ]
       },
       "profile_id": "open.310260.7d446f9db788"
+    },
+    {
+      "android_carrier_config": {
+        "carrier_volte_available_bool": true
+      },
+      "display_name": "MetroPCS",
+      "match": {
+        "mccmnc": [
+          "310260"
+        ],
+        "spn": [
+          "MetroPCS"
+        ]
+      },
+      "profile_id": "open.310260.7eb1ee901e4c"
     },
     {
       "android_carrier_config": {
@@ -50006,6 +50206,21 @@
       "android_carrier_config": {
         "carrier_volte_available_bool": true
       },
+      "display_name": "MetroPCS",
+      "match": {
+        "mccmnc": [
+          "310270"
+        ],
+        "spn": [
+          "MetroPCS"
+        ]
+      },
+      "profile_id": "open.310270.b8adeec84ac8"
+    },
+    {
+      "android_carrier_config": {
+        "carrier_volte_available_bool": true
+      },
       "display_name": "Metro",
       "match": {
         "mccmnc": [
@@ -51758,6 +51973,21 @@
     },
     {
       "android_carrier_config": {
+        "carrier_volte_available_bool": true
+      },
+      "display_name": "MetroPCS",
+      "match": {
+        "mccmnc": [
+          "310300"
+        ],
+        "spn": [
+          "MetroPCS"
+        ]
+      },
+      "profile_id": "open.310300.068592c0e6bd"
+    },
+    {
+      "android_carrier_config": {
         "carrier_default_wfc_ims_roaming_enabled_bool": true,
         "carrier_supports_ss_over_ut_bool": true,
         "carrier_wfc_ims_available_bool": true,
@@ -52078,6 +52308,21 @@
         ]
       },
       "profile_id": "open.310310.cfe6e79e322f"
+    },
+    {
+      "android_carrier_config": {
+        "carrier_volte_available_bool": true
+      },
+      "display_name": "MetroPCS",
+      "match": {
+        "mccmnc": [
+          "310310"
+        ],
+        "spn": [
+          "MetroPCS"
+        ]
+      },
+      "profile_id": "open.310310.e7cb5c60537d"
     },
     {
       "android_carrier_config": {
@@ -52477,6 +52722,21 @@
         ]
       },
       "profile_id": "open.310380.4172f635643f"
+    },
+    {
+      "android_carrier_config": {
+        "carrier_volte_available_bool": true
+      },
+      "display_name": "AGMS Global",
+      "match": {
+        "mccmnc": [
+          "310380"
+        ],
+        "spn": [
+          "AGMS Global"
+        ]
+      },
+      "profile_id": "open.310380.91467efae22f"
     },
     {
       "android_carrier_config": {
@@ -55149,6 +55409,21 @@
       "android_carrier_config": {
         "carrier_volte_available_bool": true
       },
+      "display_name": "MetroPCS",
+      "match": {
+        "mccmnc": [
+          "310490"
+        ],
+        "spn": [
+          "MetroPCS"
+        ]
+      },
+      "profile_id": "open.310490.9098db87eaf2"
+    },
+    {
+      "android_carrier_config": {
+        "carrier_volte_available_bool": true
+      },
       "display_name": "Metro",
       "match": {
         "mccmnc": [
@@ -55262,6 +55537,21 @@
         ]
       },
       "profile_id": "open.310530.a602d671b957"
+    },
+    {
+      "android_carrier_config": {
+        "carrier_volte_available_bool": true
+      },
+      "display_name": "MetroPCS",
+      "match": {
+        "mccmnc": [
+          "310530"
+        ],
+        "spn": [
+          "MetroPCS"
+        ]
+      },
+      "profile_id": "open.310530.b47d819483c0"
     },
     {
       "android_carrier_config": {
@@ -55660,6 +55950,21 @@
     },
     {
       "android_carrier_config": {
+        "carrier_volte_available_bool": true
+      },
+      "display_name": "MetroPCS",
+      "match": {
+        "mccmnc": [
+          "310580"
+        ],
+        "spn": [
+          "MetroPCS"
+        ]
+      },
+      "profile_id": "open.310580.abd5d49fa4e1"
+    },
+    {
+      "android_carrier_config": {
         "carrier_ims_gba_required_bool": true,
         "carrier_volte_available_bool": true,
         "carrier_volte_tty_supported_bool": false,
@@ -55686,6 +55991,21 @@
         ]
       },
       "profile_id": "open.310580.efa6279063b7"
+    },
+    {
+      "android_carrier_config": {
+        "carrier_volte_available_bool": true
+      },
+      "display_name": "MetroPCS",
+      "match": {
+        "mccmnc": [
+          "310590"
+        ],
+        "spn": [
+          "MetroPCS"
+        ]
+      },
+      "profile_id": "open.310590.0586ad1007ff"
     },
     {
       "android_carrier_config": {
@@ -58086,6 +58406,21 @@
       "android_carrier_config": {
         "carrier_volte_available_bool": true
       },
+      "display_name": "MetroPCS",
+      "match": {
+        "mccmnc": [
+          "310640"
+        ],
+        "spn": [
+          "MetroPCS"
+        ]
+      },
+      "profile_id": "open.310640.f2e84fcebf4b"
+    },
+    {
+      "android_carrier_config": {
+        "carrier_volte_available_bool": true
+      },
       "display_name": "Assurance",
       "match": {
         "mccmnc": [
@@ -58150,6 +58485,21 @@
         ]
       },
       "profile_id": "open.310660.371536e6191b"
+    },
+    {
+      "android_carrier_config": {
+        "carrier_volte_available_bool": true
+      },
+      "display_name": "MetroPCS",
+      "match": {
+        "mccmnc": [
+          "310660"
+        ],
+        "spn": [
+          "MetroPCS"
+        ]
+      },
+      "profile_id": "open.310660.44fb4afa2842"
     },
     {
       "android_carrier_config": {
@@ -58531,6 +58881,21 @@
         ]
       },
       "profile_id": "open.31080.39d1398359a4"
+    },
+    {
+      "android_carrier_config": {
+        "carrier_volte_available_bool": true
+      },
+      "display_name": "MetroPCS",
+      "match": {
+        "mccmnc": [
+          "310800"
+        ],
+        "spn": [
+          "MetroPCS"
+        ]
+      },
+      "profile_id": "open.310800.01561153d58d"
     },
     {
       "android_carrier_config": {
@@ -81138,6 +81503,21 @@
     },
     {
       "android_carrier_config": {
+        "carrier_volte_available_bool": true
+      },
+      "display_name": "Digicel Trinidad",
+      "match": {
+        "mccmnc": [
+          "37413"
+        ],
+        "spn": [
+          "Digicel Trinidad"
+        ]
+      },
+      "profile_id": "open.37413.1489c2998b5e"
+    },
+    {
+      "android_carrier_config": {
         "enabledMMS": true,
         "maxMessageSize": 307200,
         "recipientLimit": 10
@@ -81411,21 +81791,6 @@
     },
     {
       "android_carrier_config": {
-        "carrier_volte_available_bool": true
-      },
-      "display_name": "Bhutan Telecom",
-      "match": {
-        "mccmnc": [
-          "40211"
-        ],
-        "spn": [
-          "Bhutan Telecom"
-        ]
-      },
-      "profile_id": "open.40211.d5d4f5a28f28"
-    },
-    {
-      "android_carrier_config": {
         "carrier_volte_available_bool": true,
         "carrier_vt_available_bool": true,
         "imssms.sms_over_ims_supported_bool": true
@@ -81437,21 +81802,6 @@
         ]
       },
       "profile_id": "open.40277.d7eb8ed774f8"
-    },
-    {
-      "android_carrier_config": {
-        "carrier_volte_available_bool": true
-      },
-      "display_name": "TashiCell",
-      "match": {
-        "mccmnc": [
-          "40277"
-        ],
-        "spn": [
-          "TashiCell"
-        ]
-      },
-      "profile_id": "open.40277.f2497588e08f"
     },
     {
       "android_carrier_config": {
@@ -91502,21 +91852,6 @@
         ]
       },
       "profile_id": "open.42901.008234ba61eb"
-    },
-    {
-      "android_carrier_config": {
-        "carrier_volte_available_bool": true
-      },
-      "display_name": "Nepal Telecom",
-      "match": {
-        "mccmnc": [
-          "42901"
-        ],
-        "spn": [
-          "Nepal Telecom"
-        ]
-      },
-      "profile_id": "open.42901.371116656696"
     },
     {
       "android_carrier_config": {
@@ -102408,6 +102743,21 @@
         ]
       },
       "profile_id": "open.63407.8bb3d21cd4a4"
+    },
+    {
+      "android_carrier_config": {
+        "carrier_volte_available_bool": true
+      },
+      "display_name": "Sudani One",
+      "match": {
+        "mccmnc": [
+          "63407"
+        ],
+        "spn": [
+          "Sudani One"
+        ]
+      },
+      "profile_id": "open.63407.fd71f2d5ec12"
     },
     {
       "android_carrier_config": {

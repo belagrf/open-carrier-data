@@ -49,6 +49,13 @@
       "types": [
         "mms"
       ]
+    },
+    {
+      "apn": "wnw",
+      "name": "web'n'walk",
+      "types": [
+        "default"
+      ]
     }
   ],
   "android_carrier_config": {

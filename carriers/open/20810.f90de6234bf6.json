@@ -53,6 +53,13 @@
       ]
     },
     {
+      "apn": "websfr",
+      "name": "La Poste Mobile Modem",
+      "types": [
+        "default"
+      ]
+    },
+    {
       "apn": "ims",
       "carrier_enabled": true,
       "mvno_match_data": "La Poste Mobile",

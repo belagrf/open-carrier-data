@@ -87,7 +87,6 @@
     ],
     "rtt_supported_bool": true,
     "rtt_supported_while_roaming_bool": true,
-    "smsToMmsTextThreshold": 5,
     "volte_replacement_rat_int": 3
   },
   "capabilities": {
