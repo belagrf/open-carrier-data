@@ -161,7 +161,9 @@ source and merge policy.
 - `source_not_queryable` means the maintained inventory has the identity but
   does not provide the identifier needed by that vendor update service;
 - `source_checked_no_artifact` means the configured vendor scope was checked
-  completely without finding a current artifact.
+  completely without finding a current artifact;
+- `carrier_data_not_applicable` is reserved for explicitly classified
+  non-cellular Apple product families and is not an extraction claim.
 
 Failed downloads and digest mismatches are quarantined. They are counted in the
 small coverage summary but are not published as usable artifacts or imported

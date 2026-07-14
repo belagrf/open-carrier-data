@@ -179,6 +179,7 @@
           "properties": {
             "status": {
               "enum": [
+                "carrier_data_not_applicable",
                 "exact_carrier_data_observed",
                 "exact_source_extracted",
                 "exact_source_verified",
