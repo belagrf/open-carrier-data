@@ -52,6 +52,14 @@
       ]
     },
     {
+      "apn": "mobitel3g",
+      "name": "Mobitel",
+      "protocol": "IPV4V6",
+      "types": [
+        "default"
+      ]
+    },
+    {
       "apn": "wapmms",
       "mmsc": "http://192.168.50.165",
       "mmsport": 8080,

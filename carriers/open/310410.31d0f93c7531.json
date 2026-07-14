@@ -37,7 +37,7 @@
     },
     {
       "apn": "ims",
-      "name": "Tracfone ATT IMS",
+      "name": "ims",
       "protocol": "IPV4V6",
       "roaming_protocol": "IPV4V6",
       "types": [
@@ -58,7 +58,7 @@
       "mmsc": "http://mmsc.mobile.att.net",
       "mmsport": 80,
       "mmsproxy": "proxy.mobile.att.net",
-      "name": "Tracfone ATT MMS",
+      "name": "reseller",
       "protocol": "IPV4V6",
       "types": [
         "mms"

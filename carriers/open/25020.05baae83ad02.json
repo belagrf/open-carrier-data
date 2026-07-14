@@ -56,6 +56,13 @@
       ]
     },
     {
+      "apn": "internet.tele2.ru",
+      "name": "TELE2 Internet",
+      "types": [
+        "xcap"
+      ]
+    },
+    {
       "apn": "mms.tele2.ru",
       "mmsc": "http://mmsc.tele2.ru",
       "mmsport": 8080,

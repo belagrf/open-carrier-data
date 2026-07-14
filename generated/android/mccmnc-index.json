@@ -2840,6 +2840,20 @@
         "path": "carriers/open/20465.37c054ff1ebb.json",
         "profile_id": "open.20465.37c054ff1ebb",
         "specificity": 1
+      },
+      {
+        "display_name": "AGMS NL",
+        "match": {
+          "mccmnc": [
+            "20465"
+          ],
+          "spn": [
+            "AGMS NL"
+          ]
+        },
+        "path": "carriers/open/20465.aa0b274d04bf.json",
+        "profile_id": "open.20465.aa0b274d04bf",
+        "specificity": 1
       }
     ],
     "20469": [
@@ -17335,6 +17349,20 @@
         "specificity": 0
       },
       {
+        "display_name": "Gamma",
+        "match": {
+          "mccmnc": [
+            "23439"
+          ],
+          "spn": [
+            "Gamma"
+          ]
+        },
+        "path": "carriers/open/23439.0f6336753975.json",
+        "profile_id": "open.23439.0f6336753975",
+        "specificity": 1
+      },
+      {
         "display_name": "Jump Gb",
         "match": {
           "mccmnc": [
@@ -19203,6 +19231,20 @@
         },
         "path": "carriers/open/24007.5d9db45d7d56.json",
         "profile_id": "open.24007.5d9db45d7d56",
+        "specificity": 1
+      },
+      {
+        "display_name": "Gamma",
+        "match": {
+          "mccmnc": [
+            "24007"
+          ],
+          "spn": [
+            "Gamma"
+          ]
+        },
+        "path": "carriers/open/24007.60a967df7aac.json",
+        "profile_id": "open.24007.60a967df7aac",
         "specificity": 1
       },
       {
@@ -25995,6 +26037,20 @@
         "specificity": 0
       },
       {
+        "display_name": "NOS",
+        "match": {
+          "mccmnc": [
+            "26889"
+          ],
+          "spn": [
+            "NOS"
+          ]
+        },
+        "path": "carriers/open/26889.c3887a3995bc.json",
+        "profile_id": "open.26889.c3887a3995bc",
+        "specificity": 1
+      },
+      {
         "display_name": "vodafone P",
         "match": {
           "mccmnc": [
@@ -27082,6 +27138,20 @@
         },
         "path": "carriers/open/27801.7b81523864bb.json",
         "profile_id": "open.27801.7b81523864bb",
+        "specificity": 1
+      },
+      {
+        "display_name": "vodafone MT",
+        "match": {
+          "mccmnc": [
+            "27801"
+          ],
+          "spn": [
+            "vodafone MT"
+          ]
+        },
+        "path": "carriers/open/27801.c537752031c2.json",
+        "profile_id": "open.27801.c537752031c2",
         "specificity": 1
       }
     ],
@@ -35482,6 +35552,20 @@
         "specificity": 1
       },
       {
+        "display_name": "Cricket",
+        "match": {
+          "mccmnc": [
+            "310150"
+          ],
+          "spn": [
+            "Cricket"
+          ]
+        },
+        "path": "carriers/open/310150.affbc3e3afd1.json",
+        "profile_id": "open.310150.affbc3e3afd1",
+        "specificity": 1
+      },
+      {
         "display_name": "AIO 5G",
         "match": {
           "mccmnc": [
@@ -35690,6 +35774,20 @@
         },
         "path": "carriers/open/310160.58e5715462ef.json",
         "profile_id": "open.310160.58e5715462ef",
+        "specificity": 1
+      },
+      {
+        "display_name": "MetroPCS",
+        "match": {
+          "mccmnc": [
+            "310160"
+          ],
+          "spn": [
+            "MetroPCS"
+          ]
+        },
+        "path": "carriers/open/310160.817c21da04fd.json",
+        "profile_id": "open.310160.817c21da04fd",
         "specificity": 1
       },
       {
@@ -36168,6 +36266,20 @@
         "path": "carriers/open/310200.c1406051255d.json",
         "profile_id": "open.310200.c1406051255d",
         "specificity": 1
+      },
+      {
+        "display_name": "MetroPCS",
+        "match": {
+          "mccmnc": [
+            "310200"
+          ],
+          "spn": [
+            "MetroPCS"
+          ]
+        },
+        "path": "carriers/open/310200.e946061f7590.json",
+        "profile_id": "open.310200.e946061f7590",
+        "specificity": 1
       }
     ],
     "310210": [
@@ -36323,6 +36435,20 @@
         },
         "path": "carriers/open/310210.0753c905a01b.json",
         "profile_id": "open.310210.0753c905a01b",
+        "specificity": 1
+      },
+      {
+        "display_name": "MetroPCS",
+        "match": {
+          "mccmnc": [
+            "310210"
+          ],
+          "spn": [
+            "MetroPCS"
+          ]
+        },
+        "path": "carriers/open/310210.4d10d9e53c29.json",
+        "profile_id": "open.310210.4d10d9e53c29",
         "specificity": 1
       },
       {
@@ -36521,6 +36647,20 @@
         },
         "path": "carriers/open/310220.379bac3e2fb3.json",
         "profile_id": "open.310220.379bac3e2fb3",
+        "specificity": 1
+      },
+      {
+        "display_name": "MetroPCS",
+        "match": {
+          "mccmnc": [
+            "310220"
+          ],
+          "spn": [
+            "MetroPCS"
+          ]
+        },
+        "path": "carriers/open/310220.3ad2de5852c3.json",
+        "profile_id": "open.310220.3ad2de5852c3",
         "specificity": 1
       },
       {
@@ -36761,6 +36901,20 @@
         },
         "path": "carriers/open/310230.cbc9baa5a131.json",
         "profile_id": "open.310230.cbc9baa5a131",
+        "specificity": 1
+      },
+      {
+        "display_name": "MetroPCS",
+        "match": {
+          "mccmnc": [
+            "310230"
+          ],
+          "spn": [
+            "MetroPCS"
+          ]
+        },
+        "path": "carriers/open/310230.dbb6e223ecf8.json",
+        "profile_id": "open.310230.dbb6e223ecf8",
         "specificity": 1
       },
       {
@@ -37351,6 +37505,20 @@
         },
         "path": "carriers/open/310240.3e698779f349.json",
         "profile_id": "open.310240.3e698779f349",
+        "specificity": 1
+      },
+      {
+        "display_name": "MetroPCS",
+        "match": {
+          "mccmnc": [
+            "310240"
+          ],
+          "spn": [
+            "MetroPCS"
+          ]
+        },
+        "path": "carriers/open/310240.3ea264c9e3ad.json",
+        "profile_id": "open.310240.3ea264c9e3ad",
         "specificity": 1
       },
       {
@@ -38847,6 +39015,20 @@
         "specificity": 1
       },
       {
+        "display_name": "MetroPCS",
+        "match": {
+          "mccmnc": [
+            "310250"
+          ],
+          "spn": [
+            "MetroPCS"
+          ]
+        },
+        "path": "carriers/open/310250.4aa6e4652bf8.json",
+        "profile_id": "open.310250.4aa6e4652bf8",
+        "specificity": 1
+      },
+      {
         "display_name": "LineageOS 310250",
         "match": {
           "imsi_prefix_patterns": [
@@ -40094,6 +40276,20 @@
         },
         "path": "carriers/open/310260.7d446f9db788.json",
         "profile_id": "open.310260.7d446f9db788",
+        "specificity": 1
+      },
+      {
+        "display_name": "MetroPCS",
+        "match": {
+          "mccmnc": [
+            "310260"
+          ],
+          "spn": [
+            "MetroPCS"
+          ]
+        },
+        "path": "carriers/open/310260.7eb1ee901e4c.json",
+        "profile_id": "open.310260.7eb1ee901e4c",
         "specificity": 1
       },
       {
@@ -41407,6 +41603,20 @@
         "specificity": 1
       },
       {
+        "display_name": "MetroPCS",
+        "match": {
+          "mccmnc": [
+            "310270"
+          ],
+          "spn": [
+            "MetroPCS"
+          ]
+        },
+        "path": "carriers/open/310270.b8adeec84ac8.json",
+        "profile_id": "open.310270.b8adeec84ac8",
+        "specificity": 1
+      },
+      {
         "display_name": "Metro",
         "match": {
           "mccmnc": [
@@ -42374,6 +42584,20 @@
         "specificity": 1
       },
       {
+        "display_name": "MetroPCS",
+        "match": {
+          "mccmnc": [
+            "310300"
+          ],
+          "spn": [
+            "MetroPCS"
+          ]
+        },
+        "path": "carriers/open/310300.068592c0e6bd.json",
+        "profile_id": "open.310300.068592c0e6bd",
+        "specificity": 1
+      },
+      {
         "display_name": "Truphone",
         "match": {
           "gid1_prefixes": [
@@ -42638,6 +42862,20 @@
         },
         "path": "carriers/open/310310.cfe6e79e322f.json",
         "profile_id": "open.310310.cfe6e79e322f",
+        "specificity": 1
+      },
+      {
+        "display_name": "MetroPCS",
+        "match": {
+          "mccmnc": [
+            "310310"
+          ],
+          "spn": [
+            "MetroPCS"
+          ]
+        },
+        "path": "carriers/open/310310.e7cb5c60537d.json",
+        "profile_id": "open.310310.e7cb5c60537d",
         "specificity": 1
       },
       {
@@ -43041,6 +43279,20 @@
         },
         "path": "carriers/open/310380.6001088a5757.json",
         "profile_id": "open.310380.6001088a5757",
+        "specificity": 1
+      },
+      {
+        "display_name": "AGMS Global",
+        "match": {
+          "mccmnc": [
+            "310380"
+          ],
+          "spn": [
+            "AGMS Global"
+          ]
+        },
+        "path": "carriers/open/310380.91467efae22f.json",
+        "profile_id": "open.310380.91467efae22f",
         "specificity": 1
       },
       {
@@ -44492,6 +44744,20 @@
         "specificity": 1
       },
       {
+        "display_name": "MetroPCS",
+        "match": {
+          "mccmnc": [
+            "310490"
+          ],
+          "spn": [
+            "MetroPCS"
+          ]
+        },
+        "path": "carriers/open/310490.9098db87eaf2.json",
+        "profile_id": "open.310490.9098db87eaf2",
+        "specificity": 1
+      },
+      {
         "display_name": "Metro",
         "match": {
           "mccmnc": [
@@ -44672,6 +44938,20 @@
         },
         "path": "carriers/open/310530.a602d671b957.json",
         "profile_id": "open.310530.a602d671b957",
+        "specificity": 1
+      },
+      {
+        "display_name": "MetroPCS",
+        "match": {
+          "mccmnc": [
+            "310530"
+          ],
+          "spn": [
+            "MetroPCS"
+          ]
+        },
+        "path": "carriers/open/310530.b47d819483c0.json",
+        "profile_id": "open.310530.b47d819483c0",
         "specificity": 1
       }
     ],
@@ -44982,6 +45262,20 @@
         "specificity": 1
       },
       {
+        "display_name": "MetroPCS",
+        "match": {
+          "mccmnc": [
+            "310580"
+          ],
+          "spn": [
+            "MetroPCS"
+          ]
+        },
+        "path": "carriers/open/310580.abd5d49fa4e1.json",
+        "profile_id": "open.310580.abd5d49fa4e1",
+        "specificity": 1
+      },
+      {
         "display_name": "Inland Cellular",
         "match": {
           "android_carrier_ids": [
@@ -45097,6 +45391,20 @@
         },
         "path": "carriers/open/310026.a47237bd58bd.json",
         "profile_id": "open.310026.a47237bd58bd",
+        "specificity": 1
+      },
+      {
+        "display_name": "MetroPCS",
+        "match": {
+          "mccmnc": [
+            "310590"
+          ],
+          "spn": [
+            "MetroPCS"
+          ]
+        },
+        "path": "carriers/open/310590.0586ad1007ff.json",
+        "profile_id": "open.310590.0586ad1007ff",
         "specificity": 1
       },
       {
@@ -46600,6 +46908,20 @@
         "path": "carriers/open/310640.758a1676254a.json",
         "profile_id": "open.310640.758a1676254a",
         "specificity": 1
+      },
+      {
+        "display_name": "MetroPCS",
+        "match": {
+          "mccmnc": [
+            "310640"
+          ],
+          "spn": [
+            "MetroPCS"
+          ]
+        },
+        "path": "carriers/open/310640.f2e84fcebf4b.json",
+        "profile_id": "open.310640.f2e84fcebf4b",
+        "specificity": 1
       }
     ],
     "310650": [
@@ -46740,6 +47062,20 @@
         },
         "path": "carriers/open/310660.1a36949d29da.json",
         "profile_id": "open.310660.1a36949d29da",
+        "specificity": 1
+      },
+      {
+        "display_name": "MetroPCS",
+        "match": {
+          "mccmnc": [
+            "310660"
+          ],
+          "spn": [
+            "MetroPCS"
+          ]
+        },
+        "path": "carriers/open/310660.44fb4afa2842.json",
+        "profile_id": "open.310660.44fb4afa2842",
         "specificity": 1
       },
       {
@@ -47204,6 +47540,20 @@
         },
         "path": "carriers/open/310026.a47237bd58bd.json",
         "profile_id": "open.310026.a47237bd58bd",
+        "specificity": 1
+      },
+      {
+        "display_name": "MetroPCS",
+        "match": {
+          "mccmnc": [
+            "310800"
+          ],
+          "spn": [
+            "MetroPCS"
+          ]
+        },
+        "path": "carriers/open/310800.01561153d58d.json",
+        "profile_id": "open.310800.01561153d58d",
         "specificity": 1
       },
       {
@@ -70880,6 +71230,20 @@
         "path": "carriers/open/37413.7be7163b5b58.json",
         "profile_id": "open.37413.7be7163b5b58",
         "specificity": 0
+      },
+      {
+        "display_name": "Digicel Trinidad",
+        "match": {
+          "mccmnc": [
+            "37413"
+          ],
+          "spn": [
+            "Digicel Trinidad"
+          ]
+        },
+        "path": "carriers/open/37413.1489c2998b5e.json",
+        "profile_id": "open.37413.1489c2998b5e",
+        "specificity": 1
       }
     ],
     "374130": [
@@ -100363,6 +100727,20 @@
         },
         "path": "carriers/open/63407.8bb3d21cd4a4.json",
         "profile_id": "open.63407.8bb3d21cd4a4",
+        "specificity": 1
+      },
+      {
+        "display_name": "Sudani One",
+        "match": {
+          "mccmnc": [
+            "63407"
+          ],
+          "spn": [
+            "Sudani One"
+          ]
+        },
+        "path": "carriers/open/63407.fd71f2d5ec12.json",
+        "profile_id": "open.63407.fd71f2d5ec12",
         "specificity": 1
       }
     ],

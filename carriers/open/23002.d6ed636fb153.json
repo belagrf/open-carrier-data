@@ -12,6 +12,7 @@
       "mobile_network_setting_menu_tokens": [
         "-voltecall"
       ],
+      "network_selection_menu_style": "NUMERIC",
       "network_type_capability": "EUR-EUR-GSM-EUR"
     },
     "operator_display": {
@@ -205,6 +206,7 @@
     "recipientLimit": 10,
     "rtt_supported_bool": true,
     "rtt_supported_while_roaming_bool": true,
+    "smsToMmsTextThreshold": 13,
     "wfc_spn_format_idx_int": 1
   },
   "capabilities": {

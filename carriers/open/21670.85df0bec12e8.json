@@ -15,13 +15,15 @@
         "-voltecall"
       ],
       "network_selection_menu_style": "NUMERIC",
-      "network_type_capability": "EUR-EUR-GSM-EUR",
-      "voice_network_setting_style": "SupportDualDataRoam"
+      "network_type_capability": "EUR-EUR-GSM-EUR"
     },
     "operator_display": {
       "five_g_icon_branding": "5GAvailable,UseOneShapedIcon",
       "indicator_icon_branding": "OVF",
       "refer_eons_without_lac": true
+    },
+    "wifi_calling": {
+      "show_vowifi_end_call": true
     }
   },
   "android_apns": [
