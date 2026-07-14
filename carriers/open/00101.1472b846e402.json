@@ -15,12 +15,30 @@
   },
   "android_apns": [
     {
+      "apn": "COMCAST.RSLR.VZWENTP",
+      "name": "COMCAST.RSLR.VZWENTP",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IP",
+      "types": [
+        "default"
+      ]
+    },
+    {
       "apn": "IMS",
       "name": "CCT Test IMS",
       "protocol": "IPV4V6",
       "roaming_protocol": "IPV6",
       "types": [
         "ims"
+      ]
+    },
+    {
+      "apn": "VZWADMIN",
+      "name": "CCT Test FOTA",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IP",
+      "types": [
+        "default"
       ]
     },
     {

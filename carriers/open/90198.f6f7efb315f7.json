@@ -3,6 +3,8 @@
     {
       "apn": "pixel.ntn",
       "name": "Skylo",
+      "protocol": "NON-IP",
+      "roaming_protocol": "NON-IP",
       "types": [
         "default"
       ],

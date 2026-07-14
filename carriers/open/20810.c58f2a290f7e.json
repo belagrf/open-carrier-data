@@ -1,0 +1,63 @@
+{
+  "android_apns": [
+    {
+      "apn": "mmsdebitel",
+      "mmsc": "http://mmsdebitel",
+      "mmsport": 8080,
+      "mmsproxy": "10.143.156.3",
+      "name": "MMS La Poste Mobile",
+      "types": [
+        "mms"
+      ]
+    },
+    {
+      "apn": "wapdebitel",
+      "name": "WEB La Poste Mobile",
+      "port": 8080,
+      "proxy": "192.168.21.3",
+      "types": [
+        "default",
+        "supl"
+      ]
+    },
+    {
+      "apn": "websfr",
+      "name": "La Poste Mobile modem",
+      "types": [
+        "dun"
+      ],
+      "user_visible": false
+    }
+  ],
+  "android_carrier_config": {
+    "carrier_volte_available_bool": true,
+    "carrier_wfc_ims_available_bool": true,
+    "hide_enhanced_4g_lte_bool": false,
+    "maxImageHeight": 1944,
+    "maxImageWidth": 2592,
+    "maxMessageSize": 614400
+  },
+  "capabilities": {
+    "esim": "unknown",
+    "ims_conference": "unknown",
+    "mms": "supported",
+    "rcs": "unknown",
+    "sms_over_ims": "unknown",
+    "video_calling": "unknown",
+    "volte": "supported",
+    "vonr": "unknown",
+    "vowifi": "supported",
+    "wifi_calling_roaming": "unknown"
+  },
+  "display_name": "20810Gid1=4C",
+  "match": {
+    "gid1_prefixes": [
+      "4C"
+    ],
+    "mccmnc": [
+      "20810"
+    ]
+  },
+  "profile_id": "open.20810.c58f2a290f7e",
+  "schema_version": 1
+}

@@ -5,11 +5,6 @@
       "emergency_dial_call_style": "BlockLog,DisableMuteHold,NoWaitInSvcE911"
     },
     "network_policy": {
-      "mobile_network_setting_menu_tokens": [
-        "-preferrednetworkmode",
-        "-cdmasystemselect",
-        "-voltecall"
-      ],
       "network_type_capability": "USC-USC-GLB-USA",
       "voice_network_setting_style": "NetworkSetting_USC"
     },

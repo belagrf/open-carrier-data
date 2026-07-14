@@ -18,8 +18,11 @@
     }
   ],
   "android_carrier_config": {
+    "carrier_default_wfc_ims_enabled_bool": true,
+    "carrier_default_wfc_ims_mode_int": 2,
     "carrier_volte_available_bool": true,
     "carrier_vt_available_bool": true,
+    "carrier_wfc_ims_available_bool": true,
     "imssms.sms_over_ims_supported_bool": true
   },
   "capabilities": {
@@ -31,10 +34,10 @@
     "video_calling": "supported",
     "volte": "supported",
     "vonr": "unknown",
-    "vowifi": "unknown",
+    "vowifi": "supported",
     "wifi_calling_roaming": "unknown"
   },
-  "display_name": "Virgin KW",
+  "display_name": "Carrier 41909",
   "match": {
     "mccmnc": [
       "41909"

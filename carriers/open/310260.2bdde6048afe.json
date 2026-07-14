@@ -14,6 +14,42 @@
       "user_visible": false
     },
     {
+      "always_on": true,
+      "apn": "ims",
+      "bearer_bitmask": "14|20",
+      "mtu": 1440,
+      "name": "TFWAP IMS",
+      "protocol": "IPV6",
+      "types": [
+        "ims"
+      ],
+      "user_visible": false
+    },
+    {
+      "always_on": true,
+      "apn": "ims",
+      "bearer_bitmask": "18",
+      "mtu": 1440,
+      "name": "TFWAP IMS",
+      "protocol": "IPV6",
+      "roaming_protocol": "IPV6",
+      "types": [
+        "ims"
+      ],
+      "user_visible": false
+    },
+    {
+      "apn": "ims",
+      "bearer_bitmask": "1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17",
+      "mtu": 1440,
+      "name": "TFWAP IMS",
+      "protocol": "IPV6",
+      "types": [
+        "ims"
+      ],
+      "user_visible": false
+    },
+    {
       "apn": "service",
       "bearer_bitmask": "18",
       "mmsc": "http://TF.mmsmvno.com/mms/wapenc",
@@ -25,9 +61,22 @@
     },
     {
       "apn": "wap.tracfone",
+      "bearer_bitmask": "1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17",
+      "mmsc": "http://TF.mmsmvno.com/mms/wapenc",
+      "name": "TFWAP",
+      "protocol": "IP",
+      "roaming_protocol": "IP",
+      "types": [
+        "default",
+        "mms",
+        "supl"
+      ]
+    },
+    {
+      "apn": "wap.tracfone",
       "bearer_bitmask": "1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|17|20",
       "mmsc": "http://TF.mmsmvno.com/mms/wapenc",
-      "name": "Tracfone",
+      "name": "wap.tracfone",
       "types": [
         "default",
         "mms",
@@ -36,17 +85,15 @@
     }
   ],
   "android_carrier_config": {
-    "carrier_default_wfc_ims_enabled_bool": true,
-    "carrier_default_wfc_ims_mode_int": 1,
     "carrier_ims_gba_required_bool": true,
     "carrier_volte_available_bool": true,
+    "carrier_volte_tty_supported_bool": false,
     "carrier_wfc_ims_available_bool": true,
     "imsvoice.conference_factory_uri_string": "8881112663@msg.pc.t-mobile.com",
     "iwlan.epdg_static_address_string": "epdg.epc.mnc260.mcc310.pub.3gppnetwork.org",
     "maxImageHeight": 1944,
     "maxImageWidth": 2592,
     "maxMessageSize": 1048576,
-    "rtt_supported_bool": true,
     "volte_replacement_rat_int": 3,
     "wfc_operator_error_codes_string_array": [
       "REG09|0"

@@ -1,9 +1,11 @@
 {
   "addons": {
+    "emergency_calling": {
+      "e911_routing_policy": "auto"
+    },
     "network_policy": {
       "display_antenna_limited": true,
-      "gcf_sor": true,
-      "network_selection_menu_style": "CHARACTER"
+      "gcf_sor": true
     },
     "operator_display": {
       "five_g_icon_branding": "UseEnlargedIcon",
@@ -40,6 +42,7 @@
       "mmsc": "http://media.videotron.com",
       "name": "xcap",
       "protocol": "IP",
+      "roaming_protocol": "IP",
       "types": [
         "mms",
         "xcap"

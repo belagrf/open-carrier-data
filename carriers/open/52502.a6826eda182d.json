@@ -3,6 +3,8 @@
     {
       "apn": "e-ideas",
       "mmsc": "http://mms.singtel.com:10021/mmsc",
+      "mmsport": 8080,
+      "mmsproxy": "165.21.42.84",
       "name": "Singtel (PostPaid)",
       "protocol": "IPV4V6",
       "roaming_protocol": "IPV4V6",
@@ -28,6 +30,8 @@
     {
       "apn": "hicard",
       "mmsc": "http://mms.singtel.com:10021/mmsc",
+      "mmsport": 8080,
+      "mmsproxy": "165.21.42.84",
       "name": "Singtel (PrePaid)",
       "protocol": "IPV4V6",
       "roaming_protocol": "IPV4V6",
@@ -49,6 +53,14 @@
       "user_visible": false
     },
     {
+      "apn": "ims",
+      "name": "Singtel ims",
+      "types": [
+        "ims"
+      ],
+      "user_visible": false
+    },
+    {
       "apn": "stm-ut",
       "bearer_bitmask": "14|18|20",
       "name": "XCAP",
@@ -62,17 +74,6 @@
   ],
   "android_carrier_config": {
     "carrier_default_wfc_ims_enabled_bool": true,
-    "carrier_default_wfc_ims_mode_int": 1,
-    "carrier_supports_ss_over_ut_bool": true,
-    "carrier_volte_available_bool": true,
-    "carrier_wfc_ims_available_bool": true,
-    "hide_enhanced_4g_lte_bool": true,
-    "ims_reasoninfo_mapping_string_array": [
-      "338|busy everywhere|1404",
-      "501|call completed elsewhere|1014",
-      "510|Call completed elsewhere|1014",
-      "*|Call is dropped due to Wi-Fi signal is degraded|1407"
-    ],
     "imssms.sms_over_ims_supported_bool": true,
     "imsvoice.conference_factory_uri_string": "conference@conference.ims.singtel.com",
     "is_ims_conference_size_enforced_bool": true,
@@ -86,9 +87,9 @@
     "rcs": "unknown",
     "sms_over_ims": "supported",
     "video_calling": "unknown",
-    "volte": "supported",
+    "volte": "conditional",
     "vonr": "supported",
-    "vowifi": "supported",
+    "vowifi": "conditional",
     "wifi_calling_roaming": "unknown"
   },
   "display_name": "Carrier 52502",

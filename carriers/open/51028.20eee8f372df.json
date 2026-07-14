@@ -56,8 +56,8 @@
   ],
   "android_carrier_config": {
     "carrier_volte_available_bool": true,
-    "carrier_vt_available_bool": true,
-    "imssms.sms_over_ims_supported_bool": true
+    "imssms.sms_over_ims_supported_bool": true,
+    "support_video_conference_call_bool": true
   },
   "capabilities": {
     "esim": "unknown",
@@ -65,7 +65,7 @@
     "mms": "supported",
     "rcs": "unknown",
     "sms_over_ims": "supported",
-    "video_calling": "supported",
+    "video_calling": "conditional",
     "volte": "supported",
     "vonr": "unknown",
     "vowifi": "unknown",

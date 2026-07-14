@@ -17,6 +17,10 @@
       ]
     }
   ],
+  "android_carrier_config": {
+    "carrier_default_wfc_ims_enabled_bool": true,
+    "carrier_default_wfc_ims_mode_int": 2
+  },
   "capabilities": {
     "esim": "unknown",
     "ims_conference": "unknown",
@@ -26,7 +30,7 @@
     "video_calling": "unknown",
     "volte": "unknown",
     "vonr": "unknown",
-    "vowifi": "unknown",
+    "vowifi": "conditional",
     "wifi_calling_roaming": "unknown"
   },
   "display_name": "Carrier 25050",

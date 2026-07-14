@@ -29,6 +29,10 @@
       ]
     }
   ],
+  "android_carrier_config": {
+    "ims_conference_size_limit_int": 5,
+    "is_ims_conference_size_enforced_bool": true
+  },
   "capabilities": {
     "esim": "unknown",
     "ims_conference": "unknown",

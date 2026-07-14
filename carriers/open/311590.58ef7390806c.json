@@ -1,9 +1,13 @@
 {
   "android_carrier_config": {
+    "cdma_3waycall_flash_delay_int": 200,
+    "enableMultipartSMS": true,
+    "enabledMMS": true,
     "httpParams": "X-MDN: ##LINE1##",
     "maxImageHeight": 2432,
     "maxImageWidth": 4320,
     "maxMessageSize": 1048576,
+    "maxMessageTextSize": -1,
     "maxSubjectLength": 80,
     "recipientLimit": 20,
     "smsToMmsTextThreshold": 1
@@ -11,7 +15,7 @@
   "capabilities": {
     "esim": "unknown",
     "ims_conference": "unknown",
-    "mms": "unknown",
+    "mms": "supported",
     "rcs": "unknown",
     "sms_over_ims": "unknown",
     "video_calling": "unknown",
@@ -20,7 +24,7 @@
     "vowifi": "unknown",
     "wifi_calling_roaming": "unknown"
   },
-  "display_name": "311590",
+  "display_name": "Carrier 311590",
   "match": {
     "mccmnc": [
       "311590"

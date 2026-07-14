@@ -24,9 +24,8 @@
     },
     {
       "apn": "ims",
-      "bearer_bitmask": "1|2|3|9|10|11|13|14|15|18|20",
       "name": "IMS",
-      "protocol": "IPV6",
+      "protocol": "IPV4V6",
       "roaming_protocol": "IPV4V6",
       "types": [
         "ims"
@@ -51,11 +50,21 @@
       "user_editable": false
     },
     {
-      "apn": "ltedata.apn",
-      "name": "Fido Tethering",
-      "protocol": "IPV6",
+      "apn": "ltemobile.apn",
+      "bearer_bitmask": "1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17",
+      "mmsc": "http://mms.fido.ca",
+      "mmsport": 80,
+      "mmsproxy": "mmsproxy.fido.ca",
+      "name": "Fido Internet",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IP",
       "types": [
-        "dun"
+        "default",
+        "fota",
+        "hipri",
+        "ia",
+        "mms",
+        "supl"
       ],
       "user_editable": false
     },
@@ -79,22 +88,18 @@
       "user_editable": false
     },
     {
-      "apn": "ltemobile.apn",
-      "bearer_bitmask": "1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|17|20",
+      "apn": "netsvcs",
+      "bearer_bitmask": "18",
       "mmsc": "http://mms.fido.ca",
       "mmsport": 80,
       "mmsproxy": "mmsproxy.fido.ca",
-      "name": "Fido Internet",
-      "protocol": "IPV6",
+      "name": "Netsvcs",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IP",
       "types": [
-        "default",
-        "fota",
-        "hipri",
-        "ia",
-        "mms",
-        "supl"
+        "mms"
       ],
-      "user_editable": false
+      "user_visible": false
     },
     {
       "apn": "netsvcs",
@@ -104,20 +109,6 @@
       "mmsport": 80,
       "mmsproxy": "mmsproxy.fido.ca",
       "name": "Fido Services",
-      "protocol": "IPV4V6",
-      "types": [
-        "mms",
-        "xcap"
-      ],
-      "user_visible": false
-    },
-    {
-      "apn": "netsvcs",
-      "bearer_bitmask": "18",
-      "mmsc": "http://mms.fido.ca",
-      "mmsport": 80,
-      "mmsproxy": "mmsproxy.fido.ca",
-      "name": "Netsvcs",
       "protocol": "IPV4V6",
       "types": [
         "mms",
@@ -132,6 +123,19 @@
       "name": "Fido Services",
       "protocol": "IPV4V6",
       "roaming_protocol": "IPV4V6",
+      "types": [
+        "xcap"
+      ],
+      "user_visible": false
+    },
+    {
+      "apn": "netsvcs",
+      "bearer_bitmask": "18",
+      "mmsc": "http://mms.fido.ca",
+      "mmsport": 80,
+      "mmsproxy": "mmsproxy.fido.ca",
+      "name": "Netsvcs",
+      "protocol": "IPV4V6",
       "types": [
         "xcap"
       ],
@@ -321,19 +325,21 @@
     "carrier_default_wfc_ims_roaming_enabled_bool": true,
     "carrier_supports_ss_over_ut_bool": true,
     "carrier_volte_available_bool": true,
+    "carrier_volte_tty_supported_bool": false,
     "carrier_wfc_ims_available_bool": true,
     "enabledMMS": true,
     "hide_enhanced_4g_lte_bool": true,
+    "ims_conference_size_limit_int": 5,
     "imsvoice.conference_factory_uri_string": "mmtel@conf-factory.ims.mnc720.mcc302.3gppnetwork.org",
     "imsvoice.conference_subscribe_type_int": 0,
+    "is_ims_conference_size_enforced_bool": true,
     "iwlan.epdg_static_address_string": "epdg.epc.mnc720.mcc302.pub.3gppnetwork.org",
     "maxImageHeight": 1944,
     "maxImageWidth": 2592,
     "maxMessageSize": 1048576,
     "maxSubjectLength": 80,
-    "read_only_apn_types_string_array": [],
     "recipientLimit": 20,
-    "smsToMmsTextThreshold": 6,
+    "support_video_conference_call_bool": true,
     "wfc_spn_format_idx_int": 1
   },
   "capabilities": {

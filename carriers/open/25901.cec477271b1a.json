@@ -93,10 +93,20 @@
     }
   ],
   "android_carrier_config": {
+    "carrier_metered_apn_types_strings": [
+      "default",
+      "dun",
+      "supl"
+    ],
     "carrier_volte_available_bool": true,
     "carrier_vt_available_bool": true,
     "enabledMMS": true,
-    "maxMessageSize": 307200
+    "maxMessageSize": 307200,
+    "read_only_apn_types_string_array": [
+      "mms"
+    ],
+    "rtt_supported_bool": true,
+    "rtt_supported_while_roaming_bool": true
   },
   "capabilities": {
     "esim": "unknown",

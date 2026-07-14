@@ -12,6 +12,17 @@
       "user_visible": false
     },
     {
+      "apn": "ims",
+      "bearer_bitmask": "14|20",
+      "name": "IMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ],
+      "user_visible": false
+    },
+    {
       "apn": "www.dtac.co.th",
       "name": "www.dtac.co.th",
       "types": [
@@ -22,10 +33,18 @@
     }
   ],
   "android_carrier_config": {
-    "carrier_volte_available_bool": true,
-    "carrier_vt_available_bool": true,
-    "carrier_wfc_ims_available_bool": true,
+    "call_barring_supports_deactivate_all_bool": false,
+    "carrier_default_wfc_ims_enabled_bool": true,
+    "carrier_default_wfc_ims_mode_int": 1,
+    "carrier_default_wfc_ims_roaming_enabled_bool": false,
+    "carrier_default_wfc_ims_roaming_mode_int": 2,
+    "carrier_metered_apn_types_strings": [
+      "default",
+      "dun",
+      "supl"
+    ],
     "enabledMMS": true,
+    "ignore_data_enabled_changed_for_video_calls": true,
     "imssms.sms_over_ims_supported_bool": true,
     "maxMessageSize": 512000,
     "recipientLimit": 33
@@ -36,10 +55,10 @@
     "mms": "supported",
     "rcs": "unknown",
     "sms_over_ims": "supported",
-    "video_calling": "supported",
-    "volte": "supported",
+    "video_calling": "conditional",
+    "volte": "conditional",
     "vonr": "unknown",
-    "vowifi": "supported",
+    "vowifi": "conditional",
     "wifi_calling_roaming": "unknown"
   },
   "display_name": "Carrier 52005",

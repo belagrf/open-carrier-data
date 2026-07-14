@@ -7,12 +7,6 @@
     "network_policy": {
       "display_antenna_limited": true,
       "gcf_sor": true,
-      "mobile_network_setting_menu_tokens": [
-        "+dataenabled",
-        "-preferrednetworkmode",
-        "-voltecall",
-        "+attdiag"
-      ],
       "network_type_capability": "ATT-AIO-GSM-USA"
     },
     "wifi_calling": {
@@ -49,6 +43,28 @@
       "roaming_protocol": "IPV4V6",
       "types": [
         "ims"
+      ]
+    },
+    {
+      "apn": "ndo",
+      "name": "ndo",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "default",
+        "xcap"
+      ]
+    },
+    {
+      "apn": "ndo",
+      "mmsc": "http://mmsc.aiowireless.net",
+      "mmsport": 80,
+      "mmsproxy": "proxy.aiowireless.net",
+      "name": "AIO MMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "mms"
       ]
     }
   ],

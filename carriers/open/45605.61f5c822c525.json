@@ -2,7 +2,7 @@
   "android_apns": [
     {
       "apn": "default",
-      "name": "Smart",
+      "name": "default",
       "types": [
         "default",
         "supl"

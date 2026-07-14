@@ -19,6 +19,17 @@
       "user_visible": false
     },
     {
+      "apn": "ims",
+      "bearer_bitmask": "14|20",
+      "name": "IMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ],
+      "user_visible": false
+    },
+    {
       "apn": "modem.attmex.mx",
       "name": "Modem",
       "protocol": "IPV4V6",
@@ -30,12 +41,14 @@
     },
     {
       "apn": "modem.iusacellgsm.mx",
-      "name": "AT&T",
+      "authtype": 1,
+      "name": "modem.iusacellgsm.mx",
       "password": "iusacellgsm",
       "types": [
         "dun"
       ],
-      "user": "iusacellgsm"
+      "user": "iusacellgsm",
+      "user_visible": false
     },
     {
       "apn": "web.5g.attmex.mx",
@@ -71,19 +84,22 @@
   ],
   "android_carrier_config": {
     "carrier_default_wfc_ims_enabled_bool": true,
-    "carrier_default_wfc_ims_mode_int": 1,
     "carrier_default_wfc_ims_roaming_enabled_bool": true,
-    "carrier_supports_ss_over_ut_bool": false,
     "carrier_volte_available_bool": true,
+    "carrier_volte_tty_supported_bool": false,
     "carrier_wfc_ims_available_bool": true,
+    "editable_enhanced_4g_lte_bool": true,
     "editable_wfc_mode_bool": false,
+    "editable_wfc_roaming_mode_bool": true,
     "enabledMMS": true,
+    "hide_ims_apn_bool": true,
     "imssms.sms_over_ims_supported_bool": true,
     "imsvoice.conference_factory_uri_string": "ALU_CONF@ims.attmex.mx",
     "imsvoice.conference_subscribe_type_int": 0,
     "iwlan.epdg_static_address_string": "epdg.epc.mnc050.mcc334.pub.3gppnetwork.org",
-    "maxMessageSize": 307200,
-    "smsToMmsTextThreshold": 5,
+    "read_only_apn_types_string_array": [
+      "*"
+    ],
     "wfc_spn_format_idx_int": 1
   },
   "capabilities": {

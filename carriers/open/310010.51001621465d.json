@@ -1,10 +1,13 @@
 {
   "android_carrier_config": {
+    "enableMMSDeliveryReports": false,
+    "enableMMSReadReports": false,
     "enableMultipartSMS": false,
     "enableSMSDeliveryReports": false,
     "maxImageHeight": 1944,
     "maxImageWidth": 2592,
     "maxMessageSize": 1048576,
+    "maxMessageTextSize": -1,
     "mmsCloseConnection": true,
     "sendMultipartSmsAsSeparateMessages": true,
     "supportMmsContentDisposition": false

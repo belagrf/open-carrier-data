@@ -22,6 +22,29 @@
   "android_apns": [
     {
       "apn": "XCAP",
+      "name": "XCAP",
+      "protocol": "IPV4V6",
+      "types": [
+        "xcap"
+      ]
+    },
+    {
+      "apn": "ims",
+      "name": "IMS",
+      "protocol": "IP",
+      "types": [
+        "ims"
+      ]
+    },
+    {
+      "apn": "internet",
+      "name": "4ka Internet",
+      "types": [
+        "default"
+      ]
+    },
+    {
+      "apn": "XCAP",
       "authtype": 1,
       "carrier_enabled": true,
       "mtu": 1500,

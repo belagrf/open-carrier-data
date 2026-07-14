@@ -4,6 +4,7 @@
       "apn": "CdmaNai",
       "bearer_bitmask": "6",
       "mmsc": "http://mmsc.hawkeyeswitch.net/mms/",
+      "mmsport": 80,
       "name": "chatmobrsa1",
       "protocol": "IPV4V6",
       "roaming_protocol": "IPV4V6",
@@ -79,6 +80,7 @@
       "apn": "VZWINTERNET",
       "bearer_bitmask": "13",
       "mmsc": "http://mmsc.hawkeyeswitch.net/mms/",
+      "mmsport": 80,
       "name": "Chatmobrsa1",
       "protocol": "IPV4V6",
       "roaming_protocol": "IPV4V6",
@@ -94,6 +96,7 @@
       "apn": "VZWINTERNET",
       "bearer_bitmask": "14",
       "mmsc": "http://mmsc.hawkeyeswitch.net/mms/",
+      "mmsport": 80,
       "name": "Chatmobrsa1",
       "protocol": "IPV4V6",
       "roaming_protocol": "IPV4V6",
@@ -107,10 +110,13 @@
     }
   ],
   "android_carrier_config": {
+    "enableMultipartSMS": true,
+    "enabledMMS": true,
     "httpParams": "X-MDN: ##LINE1##",
     "maxImageHeight": 2432,
     "maxImageWidth": 4320,
     "maxMessageSize": 1048576,
+    "maxMessageTextSize": -1,
     "maxSubjectLength": 80,
     "recipientLimit": 20,
     "smsToMmsTextThreshold": 1

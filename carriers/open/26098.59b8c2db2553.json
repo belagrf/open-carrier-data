@@ -1,0 +1,43 @@
+{
+  "android_carrier_config": {
+    "carrier_metered_apn_types_strings": [
+      "default",
+      "dun",
+      "supl"
+    ],
+    "carrier_metered_roaming_apn_types_strings": [
+      "default",
+      "dun",
+      "supl"
+    ],
+    "carrier_volte_available_bool": true,
+    "carrier_wfc_ims_available_bool": true,
+    "recipientLimit": 100,
+    "smsToMmsTextThreshold": 6,
+    "wfc_data_spn_format_idx_int": 1,
+    "wfc_spn_format_idx_int": 1
+  },
+  "capabilities": {
+    "esim": "unknown",
+    "ims_conference": "unknown",
+    "mms": "unknown",
+    "rcs": "unknown",
+    "sms_over_ims": "unknown",
+    "video_calling": "unknown",
+    "volte": "supported",
+    "vonr": "unknown",
+    "vowifi": "supported",
+    "wifi_calling_roaming": "unknown"
+  },
+  "display_name": "LineageOS 26098",
+  "match": {
+    "mccmnc": [
+      "26098"
+    ],
+    "spn": [
+      "PLAY PL"
+    ]
+  },
+  "profile_id": "open.26098.59b8c2db2553",
+  "schema_version": 1
+}

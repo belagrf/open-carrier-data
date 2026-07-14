@@ -1,0 +1,27 @@
+{
+  "android_carrier_config": {
+    "allow_hold_call_during_emergency_bool": false,
+    "carrier_allow_turnoff_ims_bool": false,
+    "carrier_vt_available_bool": true
+  },
+  "capabilities": {
+    "esim": "unknown",
+    "ims_conference": "unknown",
+    "mms": "unknown",
+    "rcs": "unknown",
+    "sms_over_ims": "unknown",
+    "video_calling": "supported",
+    "volte": "unknown",
+    "vonr": "unknown",
+    "vowifi": "unknown",
+    "wifi_calling_roaming": "unknown"
+  },
+  "display_name": "LineageOS 45003",
+  "match": {
+    "mccmnc": [
+      "45003"
+    ]
+  },
+  "profile_id": "open.45003.2a2ca7bf3119",
+  "schema_version": 1
+}

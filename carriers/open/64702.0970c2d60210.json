@@ -2,6 +2,7 @@
   "android_apns": [
     {
       "apn": "onlymms",
+      "authtype": 1,
       "mmsc": "http://10.4.85.50:8514",
       "mmsport": 8080,
       "mmsproxy": "10.4.85.50",
@@ -14,7 +15,8 @@
     },
     {
       "apn": "onlywap",
-      "name": "Onlyplanet",
+      "authtype": 1,
+      "name": "onlywap",
       "password": "only",
       "port": 8080,
       "proxy": "10.4.85.50",

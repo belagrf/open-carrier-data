@@ -1,9 +1,11 @@
 {
   "addons": {
+    "emergency_calling": {
+      "e911_routing_policy": "auto"
+    },
     "network_policy": {
       "display_antenna_limited": true,
-      "gcf_sor": true,
-      "network_selection_menu_style": "CHARACTER"
+      "gcf_sor": true
     },
     "operator_display": {
       "five_g_icon_branding": "UseEnlargedIcon",
@@ -11,15 +13,6 @@
     }
   },
   "android_apns": [
-    {
-      "apn": "ims",
-      "name": "IMS",
-      "protocol": "IPV4V6",
-      "roaming_protocol": "IPV4V6",
-      "types": [
-        "ims"
-      ]
-    },
     {
       "apn": "pda.stm.sk.ca",
       "name": "pda.stm.sk.ca",
@@ -35,7 +28,7 @@
       "mmsc": "http://mms.sasktel.com",
       "mmsport": 80,
       "mmsproxy": "mig.sasktel.com",
-      "name": "SaskTel-MMS",
+      "name": "pda.stm.sk.ca",
       "protocol": "IPV4V6",
       "roaming_protocol": "IPV4V6",
       "types": [

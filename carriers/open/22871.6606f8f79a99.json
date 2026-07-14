@@ -25,8 +25,10 @@
   "android_carrier_config": {
     "carrier_default_wfc_ims_enabled_bool": true,
     "carrier_default_wfc_ims_mode_int": 1,
+    "carrier_default_wfc_ims_roaming_mode_int": 1,
     "carrier_volte_available_bool": true,
     "carrier_wfc_ims_available_bool": true,
+    "editable_wfc_roaming_mode_bool": true,
     "ims.sip_over_ipsec_enabled_bool": false,
     "iwlan.epdg_static_address_string": "epdg.epc.mnc071.mcc228.pub.3gppnetwork.org",
     "wfc_spn_format_idx_int": 1
@@ -43,7 +45,7 @@
     "vowifi": "supported",
     "wifi_calling_roaming": "unknown"
   },
-  "display_name": "Spusu Ch",
+  "display_name": "Carrier 22871",
   "match": {
     "mccmnc": [
       "22871"

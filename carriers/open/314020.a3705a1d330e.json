@@ -2,7 +2,7 @@
   "android_apns": [
     {
       "apn": "spectrum",
-      "name": "Spectrum",
+      "name": "spectrum",
       "protocol": "IPV4V6",
       "types": [
         "default"
@@ -21,7 +21,7 @@
     "vowifi": "unknown",
     "wifi_calling_roaming": "unknown"
   },
-  "display_name": "Spectrummso Us",
+  "display_name": "Carrier 314020",
   "match": {
     "mccmnc": [
       "314020"

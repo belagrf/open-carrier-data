@@ -19,7 +19,12 @@
     },
     "operator_display": {
       "five_g_icon_branding": "UseOneShapedIcon",
-      "five_g_icon_configuration": "connected_mmwave:5G,connected:5G,not_restricted_rrc_idle:5G,not_restricted_rrc_con:5G",
+      "five_g_icon_configuration": [
+        "connected_mmwave:5G",
+        "connected:5G",
+        "not_restricted_rrc_idle:5G",
+        "not_restricted_rrc_con:5G"
+      ],
       "refer_eons_without_lac": true
     },
     "wifi_calling": {
@@ -33,6 +38,16 @@
       "name": "ims",
       "protocol": "IPV4V6",
       "roaming_protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ],
+      "user_visible": false
+    },
+    {
+      "apn": "IMS",
+      "name": "ims",
+      "protocol": "IP",
+      "roaming_protocol": "IP",
       "types": [
         "ims"
       ],
@@ -104,13 +119,42 @@
     {
       "apn": "live.vodafone.com",
       "authtype": 1,
+      "mmsc": "http://mmsc.mms.vodafone.nl",
+      "mmsport": 8799,
+      "mmsproxy": "192.168.251.150",
+      "name": "Vodafone NL",
+      "password": "vodafone",
+      "types": [
+        "mms"
+      ],
+      "user": "vodafone"
+    },
+    {
+      "apn": "live.vodafone.com",
+      "authtype": 1,
       "carrier_enabled": true,
+      "mmsc": "http://mmsc.mms.vodafone.nl",
+      "mmsport": 8799,
+      "mmsproxy": "192.168.251.150",
       "name": "live.vodafone.com",
       "password": "vodafone",
       "protocol": "IPV4V6",
       "roaming_protocol": "IPV4V6",
       "types": [
-        "supl",
+        "supl"
+      ],
+      "user": "vodafone",
+      "user_editable": false
+    },
+    {
+      "apn": "live.vodafone.com",
+      "authtype": 1,
+      "carrier_enabled": true,
+      "name": "Internet",
+      "password": "vodafone",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
         "xcap"
       ],
       "user": "vodafone",
@@ -331,28 +375,28 @@
   ],
   "android_carrier_config": {
     "auto_retry_failed_wifi_emergency_call": true,
+    "call_barring_supports_deactivate_all_bool": false,
+    "carrier_allow_transfer_ims_call_bool": false,
     "carrier_default_wfc_ims_enabled_bool": true,
     "carrier_default_wfc_ims_mode_int": 1,
-    "carrier_default_wfc_ims_roaming_enabled_bool": true,
-    "carrier_supports_ss_over_ut_bool": true,
-    "carrier_volte_available_bool": true,
-    "carrier_wfc_ims_available_bool": true,
+    "carrier_default_wfc_ims_roaming_mode_int": 1,
+    "carrier_use_ims_first_for_emergency_bool": true,
+    "editable_enhanced_4g_lte_bool": false,
+    "editable_wfc_mode_bool": true,
+    "editable_wfc_roaming_mode_bool": true,
     "enabledMMS": false,
-    "hide_enhanced_4g_lte_bool": true,
-    "ims_reasoninfo_mapping_string_array": [
-      "510|Call completed elsewhere|1014",
-      "*|Call is dropped due to Wi-Fi signal is degraded|1407",
-      "338|busy everywhere|1017"
-    ],
+    "enhanced_4g_lte_on_by_default_bool": true,
+    "hide_ims_apn_bool": true,
     "imsvoice.conference_factory_uri_string": "conference@conference.ims.mnc004.mcc204.3gppnetwork.org",
     "imsvoice.conference_subscribe_type_int": 0,
     "maxImageHeight": 1944,
     "maxImageWidth": 2592,
-    "maxMessageSize": 1048576,
+    "read_only_apn_types_string_array": [
+      "*"
+    ],
     "rtt_supported_bool": true,
     "rtt_supported_while_roaming_bool": true,
-    "smsToMmsTextThreshold": 10,
-    "wfc_spn_format_idx_int": 11
+    "show_wifi_calling_icon_in_status_bar_bool": true
   },
   "capabilities": {
     "esim": "unknown",
@@ -360,7 +404,7 @@
     "mms": "conditional",
     "rcs": "unknown",
     "sms_over_ims": "conditional",
-    "video_calling": "unknown",
+    "video_calling": "conditional",
     "volte": "conditional",
     "vonr": "unknown",
     "vowifi": "conditional",

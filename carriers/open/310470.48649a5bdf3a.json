@@ -1,6 +1,28 @@
 {
   "android_apns": [
     {
+      "apn": "admin.4g.ntelos.com",
+      "bearer_bitmask": "13",
+      "mmsc": "http://mms.ntelospcs.net",
+      "name": "nTelos Ota",
+      "protocol": "IPV4V6",
+      "server": "*",
+      "types": [
+        "fota"
+      ]
+    },
+    {
+      "apn": "admin.4g.ntelos.com",
+      "bearer_bitmask": "14",
+      "mmsc": "http://mms.ntelospcs.net",
+      "name": "nTelos Ota",
+      "protocol": "IPV4V6",
+      "server": "*",
+      "types": [
+        "fota"
+      ]
+    },
+    {
       "apn": "gcpos",
       "mmsc": "http://mmsc.guamcell.csky.us:6672/",
       "name": "Docomo Pacific MMS",
@@ -38,12 +60,49 @@
       "user_editable": false
     },
     {
+      "apn": "internet.4g.ntelos.com",
+      "mmsc": "http://mms.ntelospcs.net",
+      "name": "nTelos Wireless",
+      "protocol": "IPV4V6",
+      "server": "*",
+      "types": [
+        "default",
+        "hipri",
+        "mms",
+        "supl"
+      ]
+    },
+    {
       "apn": "isp.cingular",
       "name": "DataConnect",
       "types": [
         "default",
         "supl"
       ]
+    },
+    {
+      "apn": "tethering.4g.ntelos.com",
+      "bearer_bitmask": "13",
+      "mmsc": "http://mms.ntelospcs.net",
+      "name": "nTelos Tether",
+      "protocol": "IPV4V6",
+      "server": "*",
+      "types": [
+        "dun"
+      ],
+      "user_editable": false
+    },
+    {
+      "apn": "tethering.4g.ntelos.com",
+      "bearer_bitmask": "14",
+      "mmsc": "http://mms.ntelospcs.net",
+      "name": "nTelos Tether",
+      "protocol": "IPV4V6",
+      "server": "*",
+      "types": [
+        "dun"
+      ],
+      "user_editable": false
     },
     {
       "apn": "wap.cingular",

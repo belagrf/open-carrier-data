@@ -1,0 +1,120 @@
+{
+  "addons": {
+    "emergency_calling": {
+      "e911_routing_policy": "auto",
+      "emergency_dial_call_style": "EndPreviousCall"
+    },
+    "ims": {
+      "contacts_operator_style": "DT",
+      "support_ims_clir_overriding": true
+    },
+    "network_policy": {
+      "display_antenna_limited": true,
+      "gcf_sor": true,
+      "mobile_network_setting_menu_tokens": [
+        "-voltecall"
+      ],
+      "network_selection_menu_style": "NUMERIC"
+    },
+    "operator_display": {
+      "five_g_icon_branding": "5GAvailable",
+      "five_g_icon_configuration": [
+        "connected_mmwave:5G",
+        "connected:5G",
+        "not_restricted_rrc_idle:5G",
+        "not_restricted_rrc_con:5G"
+      ],
+      "refer_eons_without_lac": true
+    },
+    "wifi_calling": {
+      "operator_branding": "WLAN Call",
+      "operator_style_tokens": [
+        "WFC_TITLE_FROM_CSC",
+        "WFC_DT"
+      ],
+      "show_vowifi_end_call": true
+    }
+  },
+  "android_apns": [
+    {
+      "apn": "HOS",
+      "mmsc": "http://mms.t-mobile.de/servlets/mms",
+      "mmsport": 8008,
+      "mmsproxy": "109.237.176.193",
+      "name": "Telekom EPDG",
+      "types": [
+        "mms",
+        "xcap"
+      ]
+    },
+    {
+      "apn": "IMS",
+      "name": "Telekom IMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ]
+    },
+    {
+      "apn": "internet.telekom",
+      "name": "Telekom Internet",
+      "protocol": "IPV4V6",
+      "types": [
+        "default"
+      ]
+    },
+    {
+      "apn": "internet.telekom",
+      "mmsc": "http://mms.t-mobile.de/servlets/mms",
+      "mmsport": 8008,
+      "mmsproxy": "109.237.176.193",
+      "name": "T-Mobile MMS",
+      "types": [
+        "mms"
+      ]
+    },
+    {
+      "apn": "internet.telekom",
+      "name": "Telekom Internet",
+      "types": [
+        "xcap"
+      ]
+    },
+    {
+      "apn": "internet.v6.telekom",
+      "name": "Internet",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IP",
+      "types": [
+        "default"
+      ]
+    }
+  ],
+  "android_carrier_config": {
+    "carrier_volte_available_bool": true
+  },
+  "capabilities": {
+    "esim": "unknown",
+    "ims_conference": "unknown",
+    "mms": "supported",
+    "rcs": "unknown",
+    "sms_over_ims": "unknown",
+    "video_calling": "unknown",
+    "volte": "supported",
+    "vonr": "unknown",
+    "vowifi": "unknown",
+    "wifi_calling_roaming": "unknown"
+  },
+  "display_name": "Telekom.de",
+  "match": {
+    "mccmnc": [
+      "26201"
+    ],
+    "spn": [
+      "Telekom.de"
+    ]
+  },
+  "profile_id": "open.26201.1f7e1db680d5",
+  "schema_version": 1
+}

@@ -22,7 +22,12 @@
     }
   ],
   "android_carrier_config": {
+    "carrier_allow_transfer_ims_call_bool": true,
+    "carrier_default_wfc_ims_enabled_bool": true,
+    "carrier_default_wfc_ims_mode_int": 1,
     "carrier_volte_available_bool": true,
+    "carrier_wfc_ims_available_bool": true,
+    "editable_wfc_mode_bool": false,
     "enabledMMS": false,
     "hide_enhanced_4g_lte_bool": true
   },
@@ -35,10 +40,10 @@
     "video_calling": "unknown",
     "volte": "supported",
     "vonr": "unknown",
-    "vowifi": "unknown",
+    "vowifi": "supported",
     "wifi_calling_roaming": "unknown"
   },
-  "display_name": "Viti Pf",
+  "display_name": "Carrier 54705",
   "match": {
     "mccmnc": [
       "54705"

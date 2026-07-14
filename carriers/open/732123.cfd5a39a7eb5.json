@@ -51,10 +51,13 @@
     }
   ],
   "android_carrier_config": {
+    "carrier_default_wfc_ims_enabled_bool": true,
     "carrier_volte_available_bool": true,
+    "carrier_wfc_ims_available_bool": true,
     "enabledMMS": true,
     "maxMessageSize": 614400,
-    "recipientLimit": 10
+    "recipientLimit": 10,
+    "smsToMmsTextThreshold": 6
   },
   "capabilities": {
     "esim": "unknown",

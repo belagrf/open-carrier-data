@@ -1,6 +1,14 @@
 {
   "android_apns": [
     {
+      "apn": "default",
+      "name": "Hutch",
+      "types": [
+        "default",
+        "supl"
+      ]
+    },
+    {
       "apn": "hutch3g",
       "name": "hutch3g",
       "port": 8080,

@@ -1,6 +1,18 @@
 {
   "android_apns": [
     {
+      "apn": "RESELLER",
+      "mmsc": "http://mmsc.mobile.att.net",
+      "mmsport": 80,
+      "mmsproxy": "proxy.mobile.att.net",
+      "name": "Red Pocket Mobile",
+      "types": [
+        "default",
+        "mms",
+        "supl"
+      ]
+    },
+    {
       "apn": "ereseller",
       "mmsc": "http://mmsc.mobile.att.net",
       "mmsport": 80,
@@ -20,6 +32,16 @@
     {
       "apn": "ims",
       "bearer_bitmask": "3|9|10|11|14|15|18|20",
+      "name": "ims",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ],
+      "user_visible": false
+    },
+    {
+      "apn": "ims",
       "name": "ims",
       "protocol": "IPV4V6",
       "roaming_protocol": "IPV4V6",
@@ -61,12 +83,6 @@
     "enableSMSDeliveryReports": false,
     "hide_enhanced_4g_lte_bool": true,
     "ims_dtmf_tone_delay_int": 120,
-    "ims_reasoninfo_mapping_string_array": [
-      "332|service not allowed in this location|1623",
-      "352|emergency calls over wifi not allowed in this location|1622",
-      "510|Call completed elsewhere|1014",
-      "*|Call is dropped due to Wi-Fi signal is degraded|1407"
-    ],
     "imssms.sms_over_ims_supported_bool": true,
     "iwlan.epdg_static_address_string": "epdg.epc.att.net",
     "maxImageHeight": 1944,

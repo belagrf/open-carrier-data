@@ -14,7 +14,12 @@
       "voice_network_setting_style": "StopNetworkSearchingOnPause"
     },
     "operator_display": {
-      "five_g_icon_configuration": "connected_mmwave:5G,connected:5G,not_restricted_rrc_idle:NONE,not_restricted_rrc_con:NONE",
+      "five_g_icon_configuration": [
+        "connected_mmwave:5G",
+        "connected:5G",
+        "not_restricted_rrc_idle:NONE",
+        "not_restricted_rrc_con:NONE"
+      ],
       "refer_eons_without_lac": true
     },
     "wifi_calling": {
@@ -46,6 +51,17 @@
     {
       "apn": "ims",
       "bearer_bitmask": "14|18|20",
+      "name": "IMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ],
+      "user_visible": false
+    },
+    {
+      "apn": "ims",
+      "bearer_bitmask": "14|20",
       "name": "IMS",
       "protocol": "IPV4V6",
       "roaming_protocol": "IPV4V6",
@@ -195,15 +211,26 @@
   "android_carrier_config": {
     "carrier_allow_transfer_ims_call_bool": true,
     "carrier_default_wfc_ims_enabled_bool": true,
+    "carrier_default_wfc_ims_mode_int": 2,
     "carrier_default_wfc_ims_roaming_enabled_bool": true,
+    "carrier_default_wfc_ims_roaming_mode_int": 1,
+    "carrier_metered_roaming_apn_types_strings": [
+      "default",
+      "dun",
+      "supl",
+      "fota"
+    ],
     "carrier_volte_available_bool": true,
     "carrier_wfc_ims_available_bool": true,
+    "editable_wfc_roaming_mode_bool": true,
     "enabledMMS": true,
+    "hide_enhanced_4g_lte_bool": false,
     "maxMessageSize": 5242880,
+    "recipientLimit": 10,
     "rtt_supported_bool": true,
     "rtt_supported_while_roaming_bool": true,
     "smsToMmsTextThreshold": 6,
-    "wfc_spn_format_idx_int": 1
+    "wfc_data_spn_format_idx_int": 6
   },
   "capabilities": {
     "esim": "unknown",

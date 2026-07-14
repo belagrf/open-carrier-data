@@ -1,0 +1,25 @@
+{
+  "android_carrier_config": {
+    "carrier_default_wfc_ims_mode_int": 1
+  },
+  "capabilities": {
+    "esim": "unknown",
+    "ims_conference": "unknown",
+    "mms": "unknown",
+    "rcs": "unknown",
+    "sms_over_ims": "unknown",
+    "video_calling": "unknown",
+    "volte": "unknown",
+    "vonr": "unknown",
+    "vowifi": "unknown",
+    "wifi_calling_roaming": "unknown"
+  },
+  "display_name": "LineageOS 311830",
+  "match": {
+    "mccmnc": [
+      "311830"
+    ]
+  },
+  "profile_id": "open.311830.80890a8adb23",
+  "schema_version": 1
+}

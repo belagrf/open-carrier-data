@@ -1,0 +1,27 @@
+{
+  "android_carrier_config": {
+    "ims_conference_size_limit_int": 5,
+    "is_ims_conference_size_enforced_bool": true,
+    "show_ims_registration_status_bool": true
+  },
+  "capabilities": {
+    "esim": "unknown",
+    "ims_conference": "unknown",
+    "mms": "unknown",
+    "rcs": "unknown",
+    "sms_over_ims": "unknown",
+    "video_calling": "unknown",
+    "volte": "unknown",
+    "vonr": "unknown",
+    "vowifi": "unknown",
+    "wifi_calling_roaming": "unknown"
+  },
+  "display_name": "LineageOS 302512",
+  "match": {
+    "mccmnc": [
+      "302512"
+    ]
+  },
+  "profile_id": "open.302512.55078e5b019e",
+  "schema_version": 1
+}

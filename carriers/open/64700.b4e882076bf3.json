@@ -19,7 +19,12 @@
     },
     "operator_display": {
       "five_g_icon_branding": "UseOneShapedIcon",
-      "five_g_icon_configuration": "connected_mmwave:5G,connected:5G,not_restricted_rrc_idle:5G,not_restricted_rrc_con:5G",
+      "five_g_icon_configuration": [
+        "connected_mmwave:5G",
+        "connected:5G",
+        "not_restricted_rrc_idle:5G",
+        "not_restricted_rrc_con:5G"
+      ],
       "indicator_icon_branding": "ORANGE",
       "refer_eons_without_lac": true
     },
@@ -35,6 +40,17 @@
     {
       "apn": "ims",
       "bearer_bitmask": "14|18|20",
+      "name": "IMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ],
+      "user_visible": false
+    },
+    {
+      "apn": "ims",
+      "bearer_bitmask": "14|20",
       "name": "IMS",
       "protocol": "IPV4V6",
       "roaming_protocol": "IPV4V6",
@@ -100,12 +116,17 @@
     }
   ],
   "android_carrier_config": {
+    "carrier_default_wfc_ims_mode_int": 2,
     "carrier_volte_available_bool": true,
     "carrier_wfc_ims_available_bool": true,
     "enabledMMS": true,
-    "hide_enhanced_4g_lte_bool": true,
     "imssms.sms_over_ims_supported_bool": true,
     "maxMessageSize": 614400,
+    "read_only_apn_types_string_array": [
+      "mms"
+    ],
+    "rtt_supported_bool": true,
+    "rtt_supported_while_roaming_bool": true,
     "smsToMmsTextThreshold": 10,
     "wfc_spn_format_idx_int": 1
   },

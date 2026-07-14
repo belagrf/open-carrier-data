@@ -34,10 +34,24 @@
       ]
     },
     {
+      "apn": "ims",
+      "name": "O! IMS",
+      "types": [
+        "ims"
+      ]
+    },
+    {
       "apn": "internet",
       "name": "O! Internet",
       "types": [
         "default"
+      ]
+    },
+    {
+      "apn": "xcap",
+      "name": "O! XCAP",
+      "types": [
+        "xcap"
       ]
     }
   ],

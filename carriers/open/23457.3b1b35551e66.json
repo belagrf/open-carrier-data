@@ -12,6 +12,17 @@
       "user_visible": false
     },
     {
+      "apn": "ims",
+      "bearer_bitmask": "14|20",
+      "name": "IMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ],
+      "user_visible": false
+    },
+    {
       "apn": "mms.mobile.sky",
       "authtype": 0,
       "bearer_bitmask": "1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|17|20",
@@ -27,12 +38,22 @@
       "user_visible": false
     },
     {
+      "apn": "mms.mobile.sky",
+      "mmsc": "http://185.110.178.96:38090/was",
+      "mmsport": 9028,
+      "mmsproxy": "185.110.178.97",
+      "name": "SKY MMS",
+      "roaming_protocol": "IP",
+      "types": [
+        "mms"
+      ]
+    },
+    {
       "apn": "mobile.sky",
       "name": "SKY Internet",
       "protocol": "IPV4V6",
       "roaming_protocol": "IPV4V6",
       "types": [
-        "default",
         "ia",
         "supl"
       ]
@@ -61,17 +82,28 @@
       "types": [
         "mms"
       ],
+      "user_editable": false,
       "user_visible": false
     }
   ],
   "android_carrier_config": {
-    "carrier_default_wfc_ims_enabled_bool": true,
+    "carrier_default_wfc_ims_mode_int": 2,
+    "carrier_default_wfc_ims_roaming_enabled_bool": false,
+    "carrier_default_wfc_ims_roaming_mode_int": 2,
+    "carrier_metered_apn_types_strings": [
+      "default",
+      "dun",
+      "supl"
+    ],
     "carrier_supports_ss_over_ut_bool": true,
-    "carrier_volte_available_bool": true,
-    "carrier_wfc_ims_available_bool": true,
-    "editable_wfc_mode_bool": false,
+    "carrier_vt_available_bool": false,
+    "editable_enhanced_4g_lte_bool": false,
+    "editable_wfc_roaming_mode_bool": true,
     "imsvoice.conference_subscribe_type_int": 0,
     "maxMessageSize": 307200,
+    "show_wifi_calling_icon_in_status_bar_bool": true,
+    "smsToMmsTextThreshold": 10,
+    "wfc_data_spn_format_idx_int": 1,
     "wfc_spn_format_idx_int": 1
   },
   "capabilities": {
@@ -80,13 +112,13 @@
     "mms": "supported",
     "rcs": "unknown",
     "sms_over_ims": "unknown",
-    "video_calling": "unknown",
-    "volte": "supported",
+    "video_calling": "unsupported",
+    "volte": "conditional",
     "vonr": "unknown",
-    "vowifi": "supported",
+    "vowifi": "conditional",
     "wifi_calling_roaming": "unknown"
   },
-  "display_name": "Sky Gb",
+  "display_name": "Carrier 23457",
   "match": {
     "mccmnc": [
       "23457"

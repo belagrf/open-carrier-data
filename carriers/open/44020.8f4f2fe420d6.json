@@ -38,6 +38,20 @@
     {
       "apn": "plus.acs.jp",
       "authtype": 2,
+      "name": "LINEMO",
+      "password": "lm",
+      "protocol": "IPV4V6",
+      "types": [
+        "default",
+        "hipri",
+        "supl"
+      ],
+      "user": "lm",
+      "user_editable": false
+    },
+    {
+      "apn": "plus.acs.jp",
+      "authtype": 2,
       "name": "XCAP",
       "password": "lm",
       "protocol": "IPV4V6",
@@ -81,11 +95,6 @@
     "hide_enhanced_4g_lte_bool": true,
     "ignore_data_enabled_changed_for_video_calls": true,
     "ims_dtmf_tone_delay_int": 300,
-    "ims_reasoninfo_mapping_string_array": [
-      "332||510",
-      "332|q.850|510",
-      "510|Call completed elsewhere|1014"
-    ],
     "imsvoice.conference_subscribe_type_int": 0,
     "is_ims_conference_size_enforced_bool": true,
     "maxImageHeight": 1944,

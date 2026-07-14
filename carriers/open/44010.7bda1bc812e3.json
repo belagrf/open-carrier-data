@@ -2,6 +2,18 @@
   "android_apns": [
     {
       "apn": "ims",
+      "bearer_bitmask": "14",
+      "name": "lte_ims",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ],
+      "user_editable": false,
+      "user_visible": false
+    },
+    {
+      "apn": "ims",
       "bearer_bitmask": "14|20",
       "name": "lte_ims",
       "protocol": "IPV4V6",
@@ -65,10 +77,6 @@
     "hide_enhanced_4g_lte_bool": true,
     "hide_ims_apn_bool": true,
     "ignore_data_enabled_changed_for_video_calls": true,
-    "ims_reasoninfo_mapping_string_array": [
-      "332||510",
-      "510|Call completed elsewhere|1014"
-    ],
     "imsvoice.conference_subscribe_type_int": 0,
     "support_ims_conference_call_bool": false,
     "support_ims_conference_event_package_bool": false,

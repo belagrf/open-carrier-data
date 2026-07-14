@@ -28,6 +28,7 @@
       "roaming_protocol": "IPV4V6",
       "types": [
         "default",
+        "dun",
         "supl"
       ],
       "user_editable": false

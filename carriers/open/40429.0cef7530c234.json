@@ -4,6 +4,7 @@
       "apn": "aircelgprs",
       "name": "aircelgprs",
       "protocol": "IPV4V6",
+      "roaming_protocol": "IP",
       "types": [
         "default",
         "dun",

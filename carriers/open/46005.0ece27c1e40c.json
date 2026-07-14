@@ -1,6 +1,15 @@
 {
   "android_carrier_config": {
-    "show_apn_setting_cdma_bool": false
+    "carrier_allow_transfer_ims_call_bool": false,
+    "carrier_default_wfc_ims_mode_int": 1,
+    "carrier_default_wfc_ims_roaming_mode_int": 1,
+    "carrier_wfc_ims_available_bool": true,
+    "editable_wfc_mode_bool": false,
+    "enhanced_4g_lte_on_by_default_bool": false,
+    "hide_enhanced_4g_lte_bool": true,
+    "ignore_data_enabled_changed_for_video_calls": true,
+    "support_swap_after_merge_bool": false,
+    "support_video_conference_call_bool": false
   },
   "capabilities": {
     "esim": "unknown",
@@ -8,13 +17,13 @@
     "mms": "unknown",
     "rcs": "unknown",
     "sms_over_ims": "unknown",
-    "video_calling": "unknown",
-    "volte": "unknown",
+    "video_calling": "conditional",
+    "volte": "conditional",
     "vonr": "unknown",
-    "vowifi": "unknown",
+    "vowifi": "supported",
     "wifi_calling_roaming": "unknown"
   },
-  "display_name": "46005",
+  "display_name": "Carrier 46005",
   "match": {
     "mccmnc": [
       "46005"

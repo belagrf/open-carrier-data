@@ -55,6 +55,16 @@
       "user_visible": false
     },
     {
+      "apn": "ims",
+      "name": "ims",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ],
+      "user_visible": false
+    },
+    {
       "apn": "phone",
       "mmsc": "http://mmsc.mobile.att.net",
       "mmsproxy": "proxy.mobile.att.net",
@@ -72,16 +82,11 @@
     "carrier_default_wfc_ims_roaming_enabled_bool": true,
     "carrier_supports_ss_over_ut_bool": true,
     "carrier_volte_available_bool": true,
-    "carrier_vt_available_bool": true,
+    "carrier_volte_tty_supported_bool": false,
     "carrier_wfc_ims_available_bool": true,
-    "editable_wfc_mode_bool": true,
     "enableSMSDeliveryReports": false,
     "enabledMMS": true,
     "hide_enhanced_4g_lte_bool": true,
-    "ims_reasoninfo_mapping_string_array": [
-      "510|Call completed elsewhere|1014",
-      "*|Call is dropped due to Wi-Fi signal is degraded|1407"
-    ],
     "imssms.sms_over_ims_supported_bool": true,
     "iwlan.epdg_static_address_string": "epdg.epc.firstnet.com",
     "maxImageHeight": 1944,
@@ -102,7 +107,7 @@
     "mms": "supported",
     "rcs": "supported",
     "sms_over_ims": "supported",
-    "video_calling": "supported",
+    "video_calling": "conditional",
     "volte": "supported",
     "vonr": "supported",
     "vowifi": "supported",

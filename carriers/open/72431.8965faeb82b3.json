@@ -24,7 +24,11 @@
   ],
   "android_carrier_config": {
     "enabledMMS": true,
-    "maxMessageSize": 307200
+    "hide_ims_apn_bool": false,
+    "maxMessageSize": 307200,
+    "read_only_apn_types_string_array": [
+      "*"
+    ]
   },
   "capabilities": {
     "esim": "unknown",

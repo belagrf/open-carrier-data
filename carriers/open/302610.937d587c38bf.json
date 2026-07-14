@@ -1,12 +1,14 @@
 {
   "addons": {
+    "emergency_calling": {
+      "e911_routing_policy": "auto"
+    },
     "network_policy": {
       "display_antenna_limited": true,
       "gcf_sor": true,
       "network_selection_menu_style": "CHARACTER"
     },
     "operator_display": {
-      "five_g_icon_branding": "UseEnlargedIcon",
       "refer_eons_without_lac": true
     }
   },
@@ -35,26 +37,6 @@
       "roaming_protocol": "IPV6",
       "types": [
         "ims"
-      ]
-    },
-    {
-      "apn": "pda.bell.ca",
-      "name": "pda.bell.ca",
-      "protocol": "IPV6",
-      "roaming_protocol": "IP",
-      "types": [
-        "default",
-        "xcap"
-      ]
-    },
-    {
-      "apn": "pda.bell.ca",
-      "mmsc": "http://mms.bell.ca/mms/wapenc",
-      "name": "Bell-MMS",
-      "protocol": "IPV6",
-      "roaming_protocol": "IP",
-      "types": [
-        "mms"
       ]
     }
   ],

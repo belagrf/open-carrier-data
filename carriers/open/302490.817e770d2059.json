@@ -24,15 +24,6 @@
       "user_visible": false
     },
     {
-      "apn": "e911.mobilefrdm.ca",
-      "name": "Freedom Mobile",
-      "protocol": "IP",
-      "roaming_protocol": "IP",
-      "types": [
-        "emergency"
-      ]
-    },
-    {
       "apn": "internet.freedommobile.ca",
       "carrier_id": 1895,
       "name": "Freedom Mobile",
@@ -90,15 +81,6 @@
       ]
     },
     {
-      "apn": "volte.mobilefrdm.ca",
-      "name": "Freedom Mobile",
-      "protocol": "IP",
-      "roaming_protocol": "IPV6",
-      "types": [
-        "ims"
-      ]
-    },
-    {
       "apn": "xcap.freedommobile.ca",
       "bearer_bitmask": "14|18",
       "carrier_id": 1895,
@@ -124,7 +106,6 @@
   ],
   "android_carrier_config": {
     "carrier_default_wfc_ims_roaming_enabled_bool": true,
-    "carrier_supports_ss_over_ut_bool": true,
     "carrier_volte_available_bool": true,
     "carrier_wfc_ims_available_bool": true,
     "enabledMMS": true,
@@ -137,7 +118,6 @@
     "maxImageHeight": 1944,
     "maxImageWidth": 2592,
     "maxSubjectLength": 80,
-    "read_only_apn_types_string_array": [],
     "smsToMmsTextThreshold": 6,
     "wfc_spn_format_idx_int": 1
   },

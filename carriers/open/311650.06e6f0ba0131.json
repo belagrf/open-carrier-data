@@ -1,17 +1,10 @@
 {
   "addons": {
     "emergency_calling": {
+      "e911_routing_policy": "auto",
       "emergency_dial_call_style": "BlockLog,DisableMuteHold"
     },
     "network_policy": {
-      "mobile_network_setting_menu_tokens": [
-        "-gsmumtsapn",
-        "+cdmaapn",
-        "-voltecall_sim_mobility",
-        "-preferrednetworkmode",
-        "-allowReasonEnable2g",
-        "+allow5gService"
-      ],
       "network_selection_menu_style": "GLOBALLTECDMA",
       "network_type_capability": "USC-ACG-GLB-USA"
     },
@@ -131,7 +124,7 @@
     "vowifi": "supported",
     "wifi_calling_roaming": "supported"
   },
-  "display_name": "Unitedwireless Us",
+  "display_name": "United Wireless",
   "match": {
     "mccmnc": [
       "311650"

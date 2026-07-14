@@ -5,13 +5,6 @@
       "emergency_dial_call_style": "BlockRecent,BlockLog,DisableMuteHold"
     },
     "network_policy": {
-      "mobile_network_setting_menu_tokens": [
-        "-cdmasystemselect",
-        "-voltecall",
-        "-preferrednetworkmode",
-        "+allow5gService",
-        "+autoSwitchNr5gMode"
-      ],
       "network_type_capability": "VZW-CHA-GLB-USA",
       "voice_network_setting_style": "SystemSelectionAutoAB"
     },

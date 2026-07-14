@@ -31,6 +31,17 @@
       "user_visible": false
     },
     {
+      "apn": "ims",
+      "bearer_bitmask": "14|20",
+      "name": "IMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ],
+      "user_visible": false
+    },
+    {
       "apn": "smart.com",
       "name": "smart.com",
       "protocol": "IPV4V6",
@@ -55,6 +66,19 @@
       "roaming_protocol": "IPV4V6",
       "types": [
         "emergency"
+      ],
+      "user_editable": false
+    },
+    {
+      "apn": "union.wap.com",
+      "name": "Union Wireless Data",
+      "port": 8799,
+      "proxy": "166.230.4.83",
+      "types": [
+        "default",
+        "dun",
+        "hipri",
+        "supl"
       ],
       "user_editable": false
     }

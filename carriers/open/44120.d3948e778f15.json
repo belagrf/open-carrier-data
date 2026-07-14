@@ -1,6 +1,5 @@
 {
   "android_carrier_config": {
-    "carrier_volte_available_bool": true,
     "enabledMMS": true,
     "ims_dtmf_tone_delay_int": 300,
     "maxImageHeight": 1944,
@@ -17,12 +16,12 @@
     "rcs": "unknown",
     "sms_over_ims": "unknown",
     "video_calling": "unknown",
-    "volte": "supported",
+    "volte": "conditional",
     "vonr": "unknown",
     "vowifi": "unknown",
     "wifi_calling_roaming": "unknown"
   },
-  "display_name": "44120",
+  "display_name": "Carrier 44120",
   "match": {
     "mccmnc": [
       "44120"

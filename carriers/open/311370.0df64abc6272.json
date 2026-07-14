@@ -1,0 +1,50 @@
+{
+  "android_apns": [
+    {
+      "apn": "mms.acs",
+      "mmsc": "http://mmsc.acsalaska.net",
+      "mmsport": 9201,
+      "mmsproxy": "209.4.229.92",
+      "name": "ACS MMS",
+      "types": [
+        "mms"
+      ]
+    },
+    {
+      "apn": "web.acs",
+      "name": "ACS WEB",
+      "types": [
+        "default",
+        "supl"
+      ]
+    }
+  ],
+  "android_carrier_config": {
+    "maxImageHeight": 1944,
+    "maxImageWidth": 2592,
+    "maxMessageSize": 1048576
+  },
+  "capabilities": {
+    "esim": "unknown",
+    "ims_conference": "unknown",
+    "mms": "supported",
+    "rcs": "unknown",
+    "sms_over_ims": "unknown",
+    "video_calling": "unknown",
+    "volte": "unknown",
+    "vonr": "unknown",
+    "vowifi": "unknown",
+    "wifi_calling_roaming": "unknown"
+  },
+  "display_name": "311370Imsi=3113702",
+  "match": {
+    "imsi_prefix_patterns": [
+      "3113702"
+    ],
+    "mccmnc": [
+      "311370"
+    ]
+  },
+  "profile_id": "open.311370.0df64abc6272",
+  "schema_version": 1
+}

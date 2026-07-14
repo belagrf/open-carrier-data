@@ -1,16 +1,14 @@
 {
   "addons": {
     "emergency_calling": {
-      "emergency_dial_call_style": "NoWaitInSvcE911"
+      "e911_routing_policy": "auto"
     },
     "network_policy": {
       "display_antenna_limited": true,
       "gcf_sor": true,
       "mobile_network_setting_menu_tokens": [
         "-voltecall"
-      ],
-      "network_selection_menu_style": "CHARACTER",
-      "network_type_capability": "BMC-XAC-GSM-CAN"
+      ]
     },
     "operator_display": {
       "five_g_icon_branding": "UseEnlargedIcon",

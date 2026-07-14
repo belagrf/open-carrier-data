@@ -1,0 +1,52 @@
+{
+  "android_apns": [
+    {
+      "apn": "halebop.telia.se",
+      "authtype": 0,
+      "name": "Internet",
+      "types": [
+        "default",
+        "supl"
+      ]
+    },
+    {
+      "apn": "mms.telia.se",
+      "authtype": 0,
+      "mmsc": "http://mmss",
+      "mmsport": 80,
+      "mmsproxy": "193.209.134.132",
+      "name": "MMS",
+      "types": [
+        "mms"
+      ]
+    }
+  ],
+  "android_carrier_config": {
+    "maxImageHeight": 1944,
+    "maxImageWidth": 2592,
+    "maxMessageSize": 614400
+  },
+  "capabilities": {
+    "esim": "unknown",
+    "ims_conference": "unknown",
+    "mms": "supported",
+    "rcs": "unknown",
+    "sms_over_ims": "unknown",
+    "video_calling": "unknown",
+    "volte": "unknown",
+    "vonr": "unknown",
+    "vowifi": "unknown",
+    "wifi_calling_roaming": "unknown"
+  },
+  "display_name": "24001Imsi=240017Xxxxxxxxx",
+  "match": {
+    "imsi_prefix_patterns": [
+      "240017"
+    ],
+    "mccmnc": [
+      "24001"
+    ]
+  },
+  "profile_id": "open.24001.077c4ff60d63",
+  "schema_version": 1
+}

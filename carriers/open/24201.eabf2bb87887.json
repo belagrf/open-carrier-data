@@ -17,7 +17,12 @@
       "network_type_capability": "EUR-EUR-GSM-EUR"
     },
     "operator_display": {
-      "five_g_icon_configuration": "connected_mmwave:5G,connected:5G,not_restricted_rrc_idle:5G,not_restricted_rrc_con:5G",
+      "five_g_icon_configuration": [
+        "connected_mmwave:5G",
+        "connected:5G",
+        "not_restricted_rrc_idle:5G",
+        "not_restricted_rrc_con:5G"
+      ],
       "refer_eons_without_lac": true
     },
     "wifi_calling": {
@@ -57,7 +62,8 @@
       "roaming_protocol": "IPV6",
       "types": [
         "ims"
-      ]
+      ],
+      "user_visible": false
     },
     {
       "apn": "internet.phonero.no",
@@ -78,22 +84,6 @@
         "mms"
       ],
       "user": "phonero"
-    },
-    {
-      "apn": "telenor",
-      "mmsc": "http://mmsc/",
-      "mmsport": 8080,
-      "mmsproxy": "10.10.10.11",
-      "name": "Mobitalk",
-      "password": "dj",
-      "port": 8080,
-      "proxy": "10.10.10.10",
-      "types": [
-        "default",
-        "mms",
-        "supl"
-      ],
-      "user": "dj"
     },
     {
       "apn": "telenor.apple",
@@ -140,20 +130,31 @@
     }
   ],
   "android_carrier_config": {
-    "carrier_default_wfc_ims_enabled_bool": true,
     "carrier_default_wfc_ims_mode_int": 1,
-    "carrier_supports_ss_over_ut_bool": true,
-    "carrier_volte_available_bool": true,
-    "carrier_wfc_ims_available_bool": true,
+    "carrier_default_wfc_ims_roaming_enabled_bool": false,
+    "carrier_metered_apn_types_strings": [
+      "default",
+      "dun",
+      "supl"
+    ],
+    "carrier_metered_roaming_apn_types_strings": [
+      "default",
+      "dun",
+      "supl"
+    ],
+    "carrier_use_ims_first_for_emergency_bool": true,
+    "editable_wfc_mode_bool": true,
+    "editable_wfc_roaming_mode_bool": true,
     "enabledMMS": true,
-    "hide_enhanced_4g_lte_bool": true,
+    "enhanced_4g_lte_on_by_default_bool": true,
     "imsvoice.conference_subscribe_type_int": 0,
     "is_ims_conference_size_enforced_bool": true,
     "maxImageHeight": 1944,
     "maxImageWidth": 2592,
-    "maxMessageSize": 2097152,
     "rtt_supported_bool": true,
     "rtt_supported_while_roaming_bool": true,
+    "show_wifi_calling_icon_in_status_bar_bool": true,
+    "smsToMmsTextThreshold": 5,
     "wfc_spn_format_idx_int": 1
   },
   "capabilities": {
@@ -163,9 +164,9 @@
     "rcs": "unknown",
     "sms_over_ims": "unknown",
     "video_calling": "unknown",
-    "volte": "supported",
+    "volte": "conditional",
     "vonr": "unknown",
-    "vowifi": "supported",
+    "vowifi": "conditional",
     "wifi_calling_roaming": "unknown"
   },
   "display_name": "Carrier 24201",

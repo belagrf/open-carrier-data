@@ -44,6 +44,8 @@
   ],
   "android_carrier_config": {
     "apn_expand_bool": false,
+    "enableMMSReadReports": false,
+    "enableMultipartSMS": true,
     "enabledNotifyWapMMSC": true,
     "enabledTransID": true,
     "httpParams": "x-up-calling-line-id: 1##LINE1NOCOUNTRYCODE##|X-VzW-MDN: 1##LINE1NOCOUNTRYCODE##",

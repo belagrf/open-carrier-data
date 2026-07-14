@@ -1,0 +1,82 @@
+{
+  "android_apns": [
+    {
+      "apn": "isp.apn",
+      "name": "Ztar Tethering",
+      "protocol": "IP",
+      "types": [
+        "dun"
+      ],
+      "user_editable": false
+    },
+    {
+      "apn": "ltedata.apn",
+      "name": "Ztar Tethering",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "dun"
+      ],
+      "user_editable": false
+    },
+    {
+      "apn": "ltemobile.apn",
+      "mmsc": "http://mms.gprs.rogers.com",
+      "mmsport": 80,
+      "mmsproxy": "mmsproxy.rogers.com",
+      "name": "Ztar Internet",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "default",
+        "mms",
+        "supl"
+      ]
+    },
+    {
+      "apn": "rogers-core-appl1.apn",
+      "mmsc": "http://mms.gprs.rogers.com",
+      "mmsport": 8080,
+      "mmsproxy": "mmsproxy.rogers.com",
+      "name": "Ztar Internet",
+      "protocol": "IP",
+      "types": [
+        "default",
+        "mms",
+        "supl"
+      ]
+    }
+  ],
+  "android_carrier_config": {
+    "read_only_apn_types_string_array": [
+      "default",
+      "mms",
+      "dun",
+      "supl",
+      "ims"
+    ]
+  },
+  "capabilities": {
+    "esim": "unknown",
+    "ims_conference": "unknown",
+    "mms": "supported",
+    "rcs": "unknown",
+    "sms_over_ims": "unknown",
+    "video_calling": "unknown",
+    "volte": "unknown",
+    "vonr": "unknown",
+    "vowifi": "unknown",
+    "wifi_calling_roaming": "unknown"
+  },
+  "display_name": "LineageOS 302720",
+  "match": {
+    "gid1_prefixes": [
+      "D4"
+    ],
+    "mccmnc": [
+      "302720"
+    ]
+  },
+  "profile_id": "open.302720.a9f85a6c1ff1",
+  "schema_version": 1
+}

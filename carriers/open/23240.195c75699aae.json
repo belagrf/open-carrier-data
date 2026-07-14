@@ -1,0 +1,28 @@
+{
+  "android_carrier_config": {
+    "carrier_volte_available_bool": true
+  },
+  "capabilities": {
+    "esim": "unknown",
+    "ims_conference": "unknown",
+    "mms": "unknown",
+    "rcs": "unknown",
+    "sms_over_ims": "unknown",
+    "video_calling": "unknown",
+    "volte": "supported",
+    "vonr": "unknown",
+    "vowifi": "unknown",
+    "wifi_calling_roaming": "unknown"
+  },
+  "display_name": "U264A Us",
+  "match": {
+    "gid1_prefixes": [
+      "4280"
+    ],
+    "mccmnc": [
+      "23240"
+    ]
+  },
+  "profile_id": "open.23240.195c75699aae",
+  "schema_version": 1
+}

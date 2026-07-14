@@ -14,13 +14,24 @@
     {
       "apn": "internet.mvno.mobi",
       "authtype": 1,
-      "name": "Enreach NL",
+      "name": "internet.mvno.mobi",
+      "password": "mvno",
       "protocol": "IPV4V6",
       "roaming_protocol": "IPV4V6",
       "types": [
         "default",
-        "dun",
         "supl"
+      ],
+      "user": "mvno"
+    },
+    {
+      "apn": "internet.mvno.mobi",
+      "authtype": 1,
+      "name": "Enreach NL",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "dun"
       ]
     }
   ],

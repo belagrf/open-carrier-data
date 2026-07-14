@@ -3,6 +3,8 @@
     {
       "apn": "akcell.mobi",
       "name": "TelAlaska Cellular",
+      "protocol": "IP",
+      "roaming_protocol": "IP",
       "types": [
         "default"
       ]

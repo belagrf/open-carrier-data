@@ -27,6 +27,7 @@
       "authtype": 1,
       "name": "web.gprs.mtnnigeria.net",
       "password": "web",
+      "port": 8080,
       "proxy": "10.199.212.2",
       "types": [
         "default",
@@ -57,6 +58,11 @@
     }
   ],
   "android_carrier_config": {
+    "carrier_metered_apn_types_strings": [
+      "default",
+      "dun",
+      "supl"
+    ],
     "carrier_volte_available_bool": true
   },
   "capabilities": {

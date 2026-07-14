@@ -19,10 +19,21 @@
       "name": "EE Internet",
       "password": "secure",
       "protocol": "IPV4V6",
+      "roaming_protocol": "IP",
       "types": [
         "default",
-        "dun",
         "supl"
+      ],
+      "user": "eesecure"
+    },
+    {
+      "apn": "everywhere",
+      "authtype": 1,
+      "name": "EE Internet",
+      "password": "secure",
+      "protocol": "IPV4V6",
+      "types": [
+        "dun"
       ],
       "user": "eesecure"
     },
@@ -46,6 +57,25 @@
       ]
     }
   ],
+  "android_carrier_config": {
+    "carrier_default_wfc_ims_enabled_bool": false,
+    "carrier_default_wfc_ims_mode_int": 2,
+    "carrier_default_wfc_ims_roaming_mode_int": 1,
+    "carrier_supports_ss_over_ut_bool": true,
+    "carrier_volte_available_bool": true,
+    "carrier_wfc_ims_available_bool": true,
+    "editable_wfc_mode_bool": true,
+    "editable_wfc_roaming_mode_bool": true,
+    "enhanced_4g_lte_on_by_default_bool": true,
+    "hide_enhanced_4g_lte_bool": false,
+    "hide_ims_apn_bool": true,
+    "maxSubjectLength": 80,
+    "read_only_apn_types_string_array": [
+      "mms",
+      "default"
+    ],
+    "wfc_spn_format_idx_int": 1
+  },
   "capabilities": {
     "esim": "unknown",
     "ims_conference": "unknown",
@@ -53,9 +83,9 @@
     "rcs": "unknown",
     "sms_over_ims": "unknown",
     "video_calling": "unknown",
-    "volte": "unknown",
+    "volte": "supported",
     "vonr": "unknown",
-    "vowifi": "unknown",
+    "vowifi": "supported",
     "wifi_calling_roaming": "unknown"
   },
   "display_name": "Carrier 23431",

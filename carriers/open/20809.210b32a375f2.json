@@ -2,10 +2,8 @@
   "android_apns": [
     {
       "apn": "ims",
-      "bearer_bitmask": "14|18|20",
       "name": "SFR IMS",
-      "protocol": "IPV4V6",
-      "roaming_protocol": "IPV4V6",
+      "protocol": "IPV6",
       "types": [
         "ims"
       ],
@@ -26,12 +24,12 @@
       "mmsc": "http://mms1",
       "mmsport": 8080,
       "mmsproxy": "10.151.0.1",
-      "name": "sl2sfr",
+      "name": "SFR webphone",
       "protocol": "IPV4V6",
-      "server": "*",
       "types": [
-        "default",
-        "supl"
+        "dun",
+        "hipri",
+        "xcap"
       ]
     },
     {
@@ -40,12 +38,9 @@
       "mmsport": 8080,
       "mmsproxy": "10.151.0.1",
       "name": "SFR webphone",
-      "protocol": "IPV4V6",
+      "protocol": "IP",
       "types": [
-        "dun",
-        "hipri",
-        "mms",
-        "xcap"
+        "fota"
       ]
     },
     {
@@ -72,14 +67,18 @@
   ],
   "android_carrier_config": {
     "auto_retry_failed_wifi_emergency_call": true,
-    "carrier_supports_ss_over_ut_bool": true,
+    "carrier_default_wfc_ims_enabled_bool": false,
+    "carrier_default_wfc_ims_mode_int": 2,
+    "carrier_default_wfc_ims_roaming_enabled_bool": true,
+    "carrier_default_wfc_ims_roaming_mode_int": 2,
+    "carrier_promote_wfc_on_call_fail_bool": true,
     "carrier_volte_available_bool": true,
+    "carrier_vt_available_bool": false,
     "carrier_wfc_ims_available_bool": true,
-    "hide_enhanced_4g_lte_bool": true,
-    "ims_reasoninfo_mapping_string_array": [
-      "510|Call completed elsewhere|1014",
-      "*|Call is dropped due to Wi-Fi signal is degraded|1407"
-    ],
+    "editable_enhanced_4g_lte_bool": true,
+    "editable_wfc_mode_bool": true,
+    "editable_wfc_roaming_mode_bool": true,
+    "enhanced_4g_lte_on_by_default_bool": true,
     "is_ims_conference_size_enforced_bool": true,
     "maxImageHeight": 1944,
     "maxImageWidth": 2592,
@@ -87,6 +86,7 @@
     "read_only_apn_types_string_array": [],
     "rtt_supported_bool": true,
     "rtt_supported_while_roaming_bool": true,
+    "show_wifi_calling_icon_in_status_bar_bool": true,
     "support_ims_conference_event_package_bool": false,
     "volte_replacement_rat_int": 3,
     "wfc_spn_format_idx_int": 1
@@ -97,11 +97,11 @@
     "mms": "supported",
     "rcs": "unknown",
     "sms_over_ims": "unknown",
-    "video_calling": "unknown",
+    "video_calling": "unsupported",
     "volte": "supported",
     "vonr": "unknown",
     "vowifi": "supported",
-    "wifi_calling_roaming": "unknown"
+    "wifi_calling_roaming": "supported"
   },
   "display_name": "Carrier 20809",
   "match": {

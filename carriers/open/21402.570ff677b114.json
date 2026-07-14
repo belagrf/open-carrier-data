@@ -40,6 +40,9 @@
       "user": "telefonica"
     }
   ],
+  "android_carrier_config": {
+    "maxMessageSize": 512000
+  },
   "capabilities": {
     "esim": "unknown",
     "ims_conference": "unknown",

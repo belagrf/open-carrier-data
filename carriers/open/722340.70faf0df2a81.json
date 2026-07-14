@@ -6,7 +6,6 @@
       "name": "Personal Datos",
       "password": "datos",
       "types": [
-        "default",
         "supl"
       ],
       "user": "datos"
@@ -20,17 +19,6 @@
       "types": [
         "ims"
       ],
-      "user_visible": false
-    },
-    {
-      "apn": "internet.personal.com",
-      "authtype": 1,
-      "name": "Personal Internet Movil",
-      "password": "internet",
-      "types": [
-        "dun"
-      ],
-      "user": "internet",
       "user_visible": false
     }
   ],

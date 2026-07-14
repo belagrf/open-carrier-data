@@ -17,7 +17,12 @@
       "network_type_capability": "EUR-EUR-GSM-EUR"
     },
     "operator_display": {
-      "five_g_icon_configuration": "connected_mmwave:5G,connected:5G,not_restricted_rrc_idle:5G,not_restricted_rrc_con:5G",
+      "five_g_icon_configuration": [
+        "connected_mmwave:5G",
+        "connected:5G",
+        "not_restricted_rrc_idle:5G",
+        "not_restricted_rrc_con:5G"
+      ],
       "refer_eons_without_lac": true
     },
     "wifi_calling": {
@@ -81,10 +86,19 @@
     },
     {
       "apn": "internet",
+      "authtype": 0,
       "name": "internet",
       "protocol": "IPV4V6",
       "types": [
         "dun"
+      ]
+    },
+    {
+      "apn": "internet",
+      "authtype": 0,
+      "name": "DK TDC",
+      "types": [
+        "fota"
       ]
     },
     {
@@ -198,20 +212,29 @@
     }
   ],
   "android_carrier_config": {
-    "carrier_default_wfc_ims_enabled_bool": true,
     "carrier_default_wfc_ims_mode_int": 1,
+    "carrier_default_wfc_ims_roaming_enabled_bool": true,
+    "carrier_default_wfc_ims_roaming_mode_int": 1,
     "carrier_supports_ss_over_ut_bool": true,
+    "carrier_use_ims_first_for_emergency_bool": true,
     "carrier_volte_available_bool": true,
+    "carrier_vt_available_bool": true,
     "carrier_wfc_ims_available_bool": true,
     "editable_enhanced_4g_lte_bool": false,
+    "editable_wfc_mode_bool": true,
+    "editable_wfc_roaming_mode_bool": true,
+    "enableMMSDeliveryReports": false,
     "enabledMMS": true,
+    "enhanced_4g_lte_on_by_default_bool": true,
     "imsvoice.conference_subscribe_type_int": 0,
     "is_ims_conference_size_enforced_bool": true,
     "iwlan.epdg_static_address_string": "epdg.epc.mnc001.mcc238.pub.3gppnetwork.org",
-    "maxMessageSize": 614400,
     "rtt_supported_bool": true,
     "rtt_supported_while_roaming_bool": true,
-    "wfc_spn_format_idx_int": 1
+    "show_wifi_calling_icon_in_status_bar_bool": true,
+    "video_calls_can_be_hd_audio": true,
+    "wfc_spn_format_idx_int": 1,
+    "wifi_calls_can_be_hd_audio": true
   },
   "capabilities": {
     "esim": "unknown",
@@ -223,7 +246,7 @@
     "volte": "conditional",
     "vonr": "unknown",
     "vowifi": "conditional",
-    "wifi_calling_roaming": "unknown"
+    "wifi_calling_roaming": "supported"
   },
   "display_name": "Carrier 23801",
   "match": {

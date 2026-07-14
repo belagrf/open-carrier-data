@@ -5,13 +5,6 @@
       "emergency_dial_call_style": "BlockLog,DisableMuteHold"
     },
     "network_policy": {
-      "mobile_network_setting_menu_tokens": [
-        "-cdmasystemselect",
-        "+cdmaapn",
-        "-voltecall",
-        "-allowReasonEnable2g",
-        "-preferrednetworkmode"
-      ],
       "network_type_capability": "VZW-LRA-GLB-USA"
     }
   },
@@ -23,6 +16,24 @@
       "roaming_protocol": "IPV6",
       "types": [
         "ims"
+      ]
+    },
+    {
+      "apn": "VZWADMIN",
+      "name": "Chat Mobility FOTA",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IP",
+      "types": [
+        "default"
+      ]
+    },
+    {
+      "apn": "VZWAPP",
+      "name": "Chat Mobility CBS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IP",
+      "types": [
+        "default"
       ]
     },
     {

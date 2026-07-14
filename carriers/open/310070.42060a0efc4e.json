@@ -1,17 +1,34 @@
 {
+  "android_carrier_config": {
+    "allow_emergency_video_calls_bool": true,
+    "allow_hold_call_during_emergency_bool": false,
+    "allow_merging_rtt_calls_bool": true,
+    "carrier_allow_turnoff_ims_bool": false,
+    "carrier_metered_roaming_apn_types_strings": [
+      "default",
+      "dun",
+      "supl"
+    ],
+    "carrier_volte_available_bool": true,
+    "carrier_volte_tty_supported_bool": false,
+    "carrier_wfc_ims_available_bool": true,
+    "hide_enhanced_4g_lte_bool": true,
+    "maxMessageSize": 1048576,
+    "rtt_supported_bool": true
+  },
   "capabilities": {
     "esim": "unknown",
     "ims_conference": "unknown",
     "mms": "supported",
     "rcs": "unknown",
     "sms_over_ims": "unknown",
-    "video_calling": "unknown",
-    "volte": "unknown",
+    "video_calling": "conditional",
+    "volte": "supported",
     "vonr": "unknown",
-    "vowifi": "unknown",
+    "vowifi": "supported",
     "wifi_calling_roaming": "unknown"
   },
-  "display_name": "AT&T",
+  "display_name": "Carrier 310070",
   "match": {
     "mccmnc": [
       "310070"

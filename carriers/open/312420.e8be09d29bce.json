@@ -2,9 +2,31 @@
   "android_apns": [
     {
       "apn": "admin.lte.ntwls.com",
+      "bearer_bitmask": "13",
+      "mmsc": "http://mms.ntwls.net/nex-tech/mms.php",
+      "name": "NexTech Ota",
+      "protocol": "IP",
+      "server": "*",
+      "types": [
+        "fota"
+      ]
+    },
+    {
+      "apn": "admin.lte.ntwls.com",
       "bearer_bitmask": "13|14",
       "mmsc": "http://mms.ntwls.net/nex-tech/mms.php",
       "name": "NexTech Ota",
+      "server": "*",
+      "types": [
+        "fota"
+      ]
+    },
+    {
+      "apn": "admin.lte.ntwls.com",
+      "bearer_bitmask": "14",
+      "mmsc": "http://mms.ntwls.net/nex-tech/mms.php",
+      "name": "NexTech Ota",
+      "protocol": "IP",
       "server": "*",
       "types": [
         "fota"
@@ -23,6 +45,17 @@
     {
       "apn": "ims",
       "bearer_bitmask": "14|18|20",
+      "name": "IMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ],
+      "user_visible": false
+    },
+    {
+      "apn": "ims",
+      "bearer_bitmask": "14|20",
       "name": "IMS",
       "protocol": "IPV4V6",
       "roaming_protocol": "IPV4V6",
@@ -73,7 +106,31 @@
     },
     {
       "apn": "modem.lte.ntwls.com",
+      "bearer_bitmask": "13",
+      "mmsc": "http://mms.ntwls.net/nex-tech/mms.php",
+      "name": "NexTech Tether",
+      "protocol": "IPV4V6",
+      "server": "*",
+      "types": [
+        "dun"
+      ],
+      "user_editable": false
+    },
+    {
+      "apn": "modem.lte.ntwls.com",
       "bearer_bitmask": "13|14",
+      "mmsc": "http://mms.ntwls.net/nex-tech/mms.php",
+      "name": "NexTech Tether",
+      "protocol": "IPV4V6",
+      "server": "*",
+      "types": [
+        "dun"
+      ],
+      "user_editable": false
+    },
+    {
+      "apn": "modem.lte.ntwls.com",
+      "bearer_bitmask": "14",
       "mmsc": "http://mms.ntwls.net/nex-tech/mms.php",
       "name": "NexTech Tether",
       "protocol": "IPV4V6",
@@ -103,8 +160,7 @@
     "maxMessageSize": 1048576,
     "recipientLimit": 25,
     "rtt_supported_bool": true,
-    "rtt_supported_while_roaming_bool": true,
-    "wfc_spn_format_idx_int": 4
+    "rtt_supported_while_roaming_bool": true
   },
   "capabilities": {
     "esim": "unknown",

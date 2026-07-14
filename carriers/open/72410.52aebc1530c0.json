@@ -82,10 +82,13 @@
     }
   ],
   "android_carrier_config": {
+    "carrier_default_wfc_ims_mode_int": 2,
     "carrier_supports_ss_over_ut_bool": true,
     "carrier_volte_available_bool": true,
     "carrier_wfc_ims_available_bool": true,
+    "editable_wfc_mode_bool": false,
     "enabledMMS": true,
+    "hide_ims_apn_bool": false,
     "iwlan.epdg_static_address_string": "epdg.epc.mnc006.mcc724.pub.3gppnetwork.org",
     "maxMessageSize": 307200,
     "wfc_spn_format_idx_int": 1

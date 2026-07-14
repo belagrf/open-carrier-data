@@ -9,9 +9,8 @@
     },
     {
       "apn": "ims",
-      "bearer_bitmask": "1|2|3|9|10|11|13|14|15|18|20",
       "name": "IMS",
-      "protocol": "IPV6",
+      "protocol": "IPV4V6",
       "roaming_protocol": "IPV4V6",
       "types": [
         "ims"
@@ -26,22 +25,14 @@
       ]
     },
     {
-      "apn": "ltedata.apn",
-      "name": "Fido Tethering",
-      "protocol": "IPV6",
-      "types": [
-        "dun"
-      ],
-      "user_editable": false
-    },
-    {
       "apn": "ltemobile.apn",
-      "bearer_bitmask": "1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|17|20",
+      "bearer_bitmask": "1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17",
       "mmsc": "http://mms.fido.ca",
       "mmsport": 80,
       "mmsproxy": "mmsproxy.fido.ca",
       "name": "Fido Internet",
-      "protocol": "IPV6",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IP",
       "types": [
         "default",
         "fota",
@@ -60,8 +51,21 @@
       "mmsproxy": "mmsproxy.fido.ca",
       "name": "Netsvcs",
       "protocol": "IPV4V6",
+      "roaming_protocol": "IP",
       "types": [
-        "mms",
+        "mms"
+      ],
+      "user_visible": false
+    },
+    {
+      "apn": "netsvcs",
+      "bearer_bitmask": "18",
+      "mmsc": "http://mms.fido.ca",
+      "mmsport": 80,
+      "mmsproxy": "mmsproxy.fido.ca",
+      "name": "Netsvcs",
+      "protocol": "IPV4V6",
+      "types": [
         "xcap"
       ],
       "user_visible": false
@@ -93,6 +97,7 @@
     "carrier_default_wfc_ims_roaming_enabled_bool": true,
     "carrier_supports_ss_over_ut_bool": true,
     "carrier_volte_available_bool": true,
+    "carrier_volte_tty_supported_bool": false,
     "carrier_wfc_ims_available_bool": true,
     "hide_enhanced_4g_lte_bool": true,
     "imsvoice.conference_factory_uri_string": "mmtel@conf-factory.ims.mnc720.mcc302.3gppnetwork.org",

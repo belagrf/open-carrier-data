@@ -38,6 +38,17 @@
         "ims"
       ],
       "user_visible": false
+    },
+    {
+      "apn": "ims",
+      "bearer_bitmask": "14|20",
+      "name": "IMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ],
+      "user_visible": false
     }
   ],
   "android_carrier_config": {
@@ -45,7 +56,13 @@
     "carrier_wfc_ims_available_bool": true,
     "enabledMMS": true,
     "maxMessageSize": 1048576,
-    "recipientLimit": 10
+    "read_only_apn_types_string_array": [
+      "ims"
+    ],
+    "recipientLimit": 10,
+    "rtt_supported_bool": true,
+    "show_ims_registration_status_bool": true,
+    "support_video_conference_call_bool": true
   },
   "capabilities": {
     "esim": "unknown",

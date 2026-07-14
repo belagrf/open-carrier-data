@@ -4,6 +4,8 @@
       "apn": "agms.nl.gmm",
       "mtu": 1410,
       "name": "AGMS NL",
+      "protocol": "IP",
+      "roaming_protocol": "IP",
       "types": [
         "default"
       ]

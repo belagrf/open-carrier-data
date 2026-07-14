@@ -5,6 +5,7 @@
       "mmsc": "http://mms.bell.ca/mms/wapenc",
       "name": "Solo Mobile",
       "protocol": "IPV4V6",
+      "roaming_protocol": "IP",
       "types": [
         "default",
         "dun",

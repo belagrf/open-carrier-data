@@ -32,7 +32,19 @@
       "protocol": "IPV6",
       "roaming_protocol": "IPV6",
       "types": [
-        "mms",
+        "mms"
+      ],
+      "user_editable": false,
+      "user_visible": false
+    },
+    {
+      "apn": "TMUS",
+      "bearer_bitmask": "18",
+      "mmsc": "http://mms.msg.eng.t-mobile.com/mms/wapenc",
+      "name": "T-Mobile MMS",
+      "protocol": "IPV6",
+      "roaming_protocol": "IPV6",
+      "types": [
         "xcap"
       ],
       "user_visible": false
@@ -67,6 +79,52 @@
       "user_visible": false
     },
     {
+      "always_on": true,
+      "apn": "ims",
+      "bearer_bitmask": "14|20",
+      "mtu": 1440,
+      "name": "T-Mobile US IMS",
+      "protocol": "IPV6",
+      "types": [
+        "ims"
+      ],
+      "user_visible": false
+    },
+    {
+      "always_on": true,
+      "apn": "ims",
+      "bearer_bitmask": "18",
+      "mtu": 1440,
+      "name": "T-Mobile US IMS",
+      "protocol": "IPV6",
+      "roaming_protocol": "IPV6",
+      "types": [
+        "ims"
+      ],
+      "user_visible": false
+    },
+    {
+      "apn": "mms",
+      "mmsc": "http://mmsc.vmobl.com:8088",
+      "mmsport": 80,
+      "mmsproxy": "oap7.sprintpcs.com",
+      "name": "MMS",
+      "types": [
+        "mms"
+      ]
+    },
+    {
+      "apn": "otasn",
+      "name": "OTA",
+      "password": "null",
+      "protocol": "IPV4V6",
+      "types": [
+        "fota",
+        "ia"
+      ],
+      "user": "null"
+    },
+    {
       "apn": "pcweb.tmobile.com",
       "infrastructure_bitmask": "cellular",
       "name": "T-Mobile Tethering",
@@ -77,30 +135,57 @@
       "user_visible": false
     },
     {
-      "always_on": true,
-      "apn": "sos",
-      "name": "T-Mobile Emergency",
+      "apn": "pcweb.tmobile.com",
+      "name": "T-Mobile Tethering",
       "protocol": "IPV6",
-      "roaming_protocol": "IPV4V6",
       "types": [
-        "emergency"
+        "dun"
       ],
       "user_visible": false
+    },
+    {
+      "apn": "sprint",
+      "bearer_bitmask": "4|5|6|7|8|12",
+      "modem_cognitive": true,
+      "name": "Internet",
+      "profile_id": 1,
+      "types": [
+        "cbs",
+        "default",
+        "dun",
+        "supl"
+      ],
+      "user_editable": false
+    },
+    {
+      "apn": "sprint",
+      "bearer_bitmask": "4|5|6|7|8|12",
+      "name": "Internet",
+      "types": [
+        "cbs",
+        "default",
+        "supl"
+      ]
     }
   ],
   "android_carrier_config": {
+    "allow_non_emergency_calls_in_ecm_bool": false,
+    "apn_expand_bool": false,
     "carrier_default_wfc_ims_enabled_bool": true,
     "carrier_default_wfc_ims_mode_int": 1,
     "carrier_default_wfc_ims_roaming_enabled_bool": true,
-    "carrier_default_wfc_ims_roaming_mode_int": 2,
     "carrier_ims_gba_required_bool": true,
-    "carrier_supports_ss_over_ut_bool": true,
     "carrier_volte_available_bool": true,
     "carrier_vowifi_tty_supported_bool": false,
-    "carrier_vt_available_bool": true,
     "carrier_wfc_ims_available_bool": true,
+    "cdma_3waycall_flash_delay_int": 300,
+    "enableMMSDeliveryReports": false,
+    "enableMMSReadReports": false,
+    "enableMultipartSMS": true,
+    "enableSMSDeliveryReports": false,
+    "enabledMMS": true,
     "hide_enhanced_4g_lte_bool": true,
-    "ims.enable_presence_capability_exchange_bool": true,
+    "httpParams": "X-MDN: ##LINE1##|Proxy-Authorization: Basic ##NAI##",
     "ims.enable_presence_publish_bool": true,
     "ims_reasoninfo_mapping_string_array": [
       "510|Call completed elsewhere|1014",
@@ -110,15 +195,15 @@
     "iwlan.epdg_static_address_string": "epdg.epc.mnc260.mcc310.pub.3gppnetwork.org",
     "maxImageHeight": 1944,
     "maxImageWidth": 2592,
-    "maxMessageSize": 1048576,
+    "maxMessageTextSize": -1,
+    "maxSubjectLength": 80,
     "mmsCloseConnection": true,
     "read_only_apn_types_string_array": [],
-    "recipientLimit": 20,
     "rtt_supported_bool": true,
     "rtt_supported_while_roaming_bool": true,
-    "smsToMmsTextThreshold": 12,
+    "supportMmsContentDisposition": false,
+    "support_swap_after_merge_bool": false,
     "support_video_conference_call_bool": true,
-    "volte_replacement_rat_int": 3,
     "wfc_operator_error_codes_string_array": [
       "REG09|0"
     ],
@@ -130,7 +215,7 @@
     "mms": "supported",
     "rcs": "conditional",
     "sms_over_ims": "unknown",
-    "video_calling": "supported",
+    "video_calling": "conditional",
     "volte": "supported",
     "vonr": "unknown",
     "vowifi": "supported",

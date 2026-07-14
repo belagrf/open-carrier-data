@@ -2,6 +2,13 @@
   "android_apns": [
     {
       "apn": "ims",
+      "name": "Walmart MX",
+      "types": [
+        "ims"
+      ]
+    },
+    {
+      "apn": "ims",
       "bearer_bitmask": "14|20",
       "name": "Walmart MX IMS",
       "types": [

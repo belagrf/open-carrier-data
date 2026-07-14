@@ -12,6 +12,16 @@
       "user_visible": false
     },
     {
+      "apn": "ims",
+      "name": "TELUS IMS",
+      "protocol": "IPV6",
+      "roaming_protocol": "IPV6",
+      "types": [
+        "ims"
+      ],
+      "user_visible": false
+    },
+    {
       "apn": "isp.telus.com",
       "name": "TELUS ISP",
       "types": [
@@ -57,12 +67,44 @@
     },
     {
       "apn": "sp.telus.com",
+      "bearer_bitmask": "1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17",
+      "mmsc": "http://aliasredirect.net/proxy/mmsc",
+      "mmsport": 8799,
+      "mmsproxy": "mmscproxy.mobility.ca",
+      "name": "TELUS SP",
+      "types": [
+        "default",
+        "hipri",
+        "ia",
+        "mms",
+        "supl"
+      ],
+      "user_editable": false
+    },
+    {
+      "apn": "sp.telus.com",
       "bearer_bitmask": "1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|17|20",
       "mmsc": "http://aliasredirect.net/proxy/mmsc",
       "mmsport": 8799,
       "mmsproxy": "mmscproxy.mobility.ca",
       "name": "TELUS SP",
       "protocol": "IPV4V6",
+      "types": [
+        "default",
+        "hipri",
+        "ia",
+        "mms",
+        "supl"
+      ],
+      "user_editable": false
+    },
+    {
+      "apn": "sp.telus.com",
+      "mmsc": "http://aliasredirect.net/proxy/mmsc",
+      "mmsport": 8799,
+      "mmsproxy": "mmscproxy.mobility.ca",
+      "name": "TELUS SP",
+      "protocol": "IPV6",
       "types": [
         "default",
         "hipri",
@@ -79,9 +121,9 @@
     "carrier_default_wfc_ims_roaming_mode_int": 1,
     "carrier_supports_ss_over_ut_bool": true,
     "carrier_volte_available_bool": true,
+    "carrier_volte_tty_supported_bool": false,
     "carrier_wfc_ims_available_bool": true,
     "editable_wfc_mode_bool": false,
-    "hide_enhanced_4g_lte_bool": true,
     "ims_conference_size_limit_int": 2,
     "imsvoice.conference_factory_uri_string": "factory@conference.ims.mnc220.mcc302.3gppnetwork.org",
     "imsvoice.conference_subscribe_type_int": 0,

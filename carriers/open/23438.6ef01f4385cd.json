@@ -13,7 +13,12 @@
       "network_type_capability": "EUR-EUR-GSM-EUR"
     },
     "operator_display": {
-      "five_g_icon_configuration": "connected_mmwave:5G,connected:5G,not_restricted_rrc_idle:5G,not_restricted_rrc_con:5G",
+      "five_g_icon_configuration": [
+        "connected_mmwave:5G",
+        "connected:5G",
+        "not_restricted_rrc_idle:5G",
+        "not_restricted_rrc_con:5G"
+      ],
       "refer_eons_without_lac": true
     }
   },
@@ -22,6 +27,17 @@
       "apn": "IMS",
       "bearer_bitmask": "14|18|20",
       "lingering_network_type_bitmask": "1|2|3|8|9|10|13|14|15|18|20",
+      "mtu": 1280,
+      "name": "ims",
+      "protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ],
+      "user_visible": false
+    },
+    {
+      "apn": "IMS",
+      "bearer_bitmask": "1|2|3|9|10|11|13|14|15|18|20",
       "mtu": 1280,
       "name": "ims",
       "protocol": "IPV4V6",
@@ -75,29 +91,36 @@
     }
   ],
   "android_carrier_config": {
-    "carrier_default_wfc_ims_enabled_bool": true,
-    "carrier_default_wfc_ims_mode_int": 2,
-    "carrier_supports_ss_over_ut_bool": true,
-    "carrier_volte_available_bool": true,
-    "carrier_wfc_ims_available_bool": true,
-    "editable_wfc_mode_bool": false,
+    "carrier_default_wfc_ims_roaming_enabled_bool": false,
+    "carrier_default_wfc_ims_roaming_mode_int": 1,
+    "carrier_metered_apn_types_strings": [
+      "default",
+      "dun",
+      "supl"
+    ],
+    "editable_wfc_roaming_mode_bool": true,
     "enabledMMS": true,
+    "enhanced_4g_lte_on_by_default_bool": false,
+    "hide_enhanced_4g_lte_bool": false,
     "hide_ims_apn_bool": true,
     "iwlan.epdg_static_address_string": "epdg.epc.mnc038.mcc234.pub.3gppnetwork.org",
     "maxMessageSize": 307200,
-    "smsToMmsTextThreshold": 10,
-    "wfc_spn_format_idx_int": 1
+    "support_ims_conference_call_bool": false,
+    "wfc_data_spn_format_idx_int": 11,
+    "wfc_operator_error_codes_string_array": [
+      "REG09|0"
+    ]
   },
   "capabilities": {
     "esim": "unknown",
-    "ims_conference": "unknown",
+    "ims_conference": "unsupported",
     "mms": "supported",
     "rcs": "unknown",
     "sms_over_ims": "unknown",
     "video_calling": "unknown",
-    "volte": "supported",
+    "volte": "conditional",
     "vonr": "unknown",
-    "vowifi": "supported",
+    "vowifi": "conditional",
     "wifi_calling_roaming": "unknown"
   },
   "display_name": "Carrier 23438",

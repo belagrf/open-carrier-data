@@ -1,6 +1,14 @@
 {
   "android_apns": [
     {
+      "apn": "default",
+      "name": "MobiCom",
+      "types": [
+        "default",
+        "supl"
+      ]
+    },
+    {
       "apn": "internet",
       "name": "MobiCom",
       "types": [

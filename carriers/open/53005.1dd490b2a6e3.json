@@ -1,0 +1,53 @@
+{
+  "android_apns": [
+    {
+      "apn": "wapaccess.co.nz",
+      "name": "wapaccess.co.nz",
+      "port": 80,
+      "proxy": "210.55.11.73",
+      "types": [
+        "default",
+        "supl"
+      ]
+    },
+    {
+      "apn": "wapaccess.co.nz",
+      "mmsc": "http://mms.mmsaccess.co.nz",
+      "mmsport": 80,
+      "mmsproxy": "210.55.11.73",
+      "name": "MMS",
+      "types": [
+        "mms"
+      ]
+    }
+  ],
+  "android_carrier_config": {
+    "maxImageHeight": 1944,
+    "maxImageWidth": 2592,
+    "maxMessageSize": 614400,
+    "supportMmsContentDisposition": false
+  },
+  "capabilities": {
+    "esim": "unknown",
+    "ims_conference": "unknown",
+    "mms": "supported",
+    "rcs": "unknown",
+    "sms_over_ims": "unknown",
+    "video_calling": "unknown",
+    "volte": "unknown",
+    "vonr": "unknown",
+    "vowifi": "unknown",
+    "wifi_calling_roaming": "unknown"
+  },
+  "display_name": "53005Imsi=53005204",
+  "match": {
+    "imsi_prefix_patterns": [
+      "53005204"
+    ],
+    "mccmnc": [
+      "53005"
+    ]
+  },
+  "profile_id": "open.53005.1dd490b2a6e3",
+  "schema_version": 1
+}

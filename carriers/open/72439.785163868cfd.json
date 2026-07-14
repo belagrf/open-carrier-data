@@ -38,8 +38,7 @@
     }
   ],
   "android_carrier_config": {
-    "enabledMMS": true,
-    "maxMessageSize": 614400
+    "enabledMMS": true
   },
   "capabilities": {
     "esim": "unknown",

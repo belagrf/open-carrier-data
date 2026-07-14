@@ -18,6 +18,7 @@
       "mmsport": 8080,
       "mmsproxy": "172.16.16.102",
       "name": "wap.mymobiletxt.com",
+      "protocol": "IP",
       "types": [
         "default"
       ]
@@ -28,6 +29,7 @@
       "mmsport": 8080,
       "mmsproxy": "172.16.16.102",
       "name": "Duet Internet",
+      "protocol": "IP",
       "types": [
         "mms"
       ]

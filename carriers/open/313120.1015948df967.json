@@ -7,13 +7,6 @@
     "network_policy": {
       "display_antenna_limited": true,
       "gcf_sor": true,
-      "mobile_network_setting_menu_tokens": [
-        "+dataenabled",
-        "-preferrednetworkmode",
-        "-voltecall_sim_mobility",
-        "+attdiag",
-        "+autoSwitchNr5gMode"
-      ],
       "network_type_capability": "ATT-ATT-GSM-USA",
       "voice_network_setting_style": "UsaGsmNetworkSetting,CdmaSubscriptionEnable,SupportENSNetworkSetting,SupportDataOffNotification,NetworkSetting_ATT"
     },

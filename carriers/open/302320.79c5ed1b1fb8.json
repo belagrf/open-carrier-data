@@ -1,7 +1,7 @@
 {
   "addons": {
     "emergency_calling": {
-      "emergency_dial_call_style": "NoWaitInSvcE911"
+      "e911_routing_policy": "auto"
     },
     "network_policy": {
       "display_antenna_limited": true,

@@ -89,9 +89,14 @@
   "android_carrier_config": {
     "carrier_volte_available_bool": true,
     "carrier_vt_available_bool": true,
+    "editable_wfc_mode_bool": false,
+    "enableGroupMms": false,
     "enabledMMS": true,
     "imssms.sms_over_ims_supported_bool": true,
     "maxMessageSize": 307200,
+    "read_only_apn_types_string_array": [
+      "ims"
+    ],
     "recipientLimit": 20
   },
   "capabilities": {

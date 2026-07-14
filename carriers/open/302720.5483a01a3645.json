@@ -12,6 +12,14 @@
   },
   "android_apns": [
     {
+      "apn": "Netsvcs",
+      "name": "Netsvcs",
+      "protocol": "IPV4V6",
+      "types": [
+        "xcap"
+      ]
+    },
+    {
       "apn": "ims",
       "name": "IMS",
       "protocol": "IPV6",

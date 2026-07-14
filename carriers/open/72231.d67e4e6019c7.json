@@ -39,7 +39,7 @@
     "vowifi": "unknown",
     "wifi_calling_roaming": "unknown"
   },
-  "display_name": "Claro Ar",
+  "display_name": "Carrier 72231",
   "match": {
     "mccmnc": [
       "72231"

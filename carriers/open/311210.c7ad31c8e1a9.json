@@ -18,14 +18,6 @@
         "default",
         "supl"
       ]
-    },
-    {
-      "apn": "mms.farmers.com",
-      "mmsc": "http://172.16.0.37:8514",
-      "name": "Farmers MMS",
-      "types": [
-        "mms"
-      ]
     }
   ],
   "capabilities": {

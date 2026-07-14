@@ -62,19 +62,28 @@
     }
   ],
   "android_carrier_config": {
-    "enabledMMS": true,
-    "maxMessageSize": 307200
+    "carrier_default_wfc_ims_enabled_bool": true,
+    "carrier_volte_available_bool": true,
+    "carrier_vt_available_bool": true,
+    "carrier_wfc_ims_available_bool": true,
+    "editable_wfc_mode_bool": false,
+    "ims_conference_size_limit_int": 6,
+    "is_ims_conference_size_enforced_bool": true,
+    "maxMessageSize": 307200,
+    "read_only_apn_types_string_array": [
+      "*"
+    ]
   },
   "capabilities": {
     "esim": "unknown",
     "ims_conference": "unknown",
-    "mms": "supported",
+    "mms": "conditional",
     "rcs": "unknown",
     "sms_over_ims": "unknown",
-    "video_calling": "unknown",
-    "volte": "unknown",
+    "video_calling": "supported",
+    "volte": "supported",
     "vonr": "unknown",
-    "vowifi": "unknown",
+    "vowifi": "supported",
     "wifi_calling_roaming": "unknown"
   },
   "display_name": "Carrier 37002",

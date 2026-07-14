@@ -47,9 +47,22 @@
     }
   ],
   "android_carrier_config": {
+    "carrier_metered_apn_types_strings": [
+      "default",
+      "dun",
+      "supl"
+    ],
     "carrier_supports_ss_over_ut_bool": true,
     "carrier_volte_available_bool": true,
-    "imsvoice.conference_factory_uri_string": "conference@factory.ims.movistar.mx"
+    "imsvoice.conference_factory_uri_string": "conference@factory.ims.movistar.mx",
+    "maxMessageSize": 512000,
+    "read_only_apn_types_string_array": [
+      "default",
+      "supl",
+      "mms",
+      "ims",
+      "ut"
+    ]
   },
   "capabilities": {
     "esim": "unknown",
@@ -63,7 +76,7 @@
     "vowifi": "unknown",
     "wifi_calling_roaming": "unknown"
   },
-  "display_name": "Movistar Mx",
+  "display_name": "Carrier 334030",
   "match": {
     "mccmnc": [
       "334030"

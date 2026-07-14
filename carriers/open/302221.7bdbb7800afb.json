@@ -1,9 +1,11 @@
 {
   "addons": {
+    "emergency_calling": {
+      "e911_routing_policy": "auto"
+    },
     "network_policy": {
       "display_antenna_limited": true,
-      "gcf_sor": true,
-      "network_selection_menu_style": "CHARACTER"
+      "gcf_sor": true
     },
     "operator_display": {
       "five_g_icon_branding": "UseEnlargedIcon",
@@ -18,19 +20,6 @@
       "roaming_protocol": "IPV4V6",
       "types": [
         "ims"
-      ]
-    },
-    {
-      "apn": "services.koodo.com",
-      "mmsc": "http://aliasredirect.net/proxy/koodo/mmsc",
-      "mmsport": 8799,
-      "mmsproxy": "mmscproxy.mobility.ca",
-      "name": "services.koodo.com",
-      "protocol": "IPV6",
-      "roaming_protocol": "IPV4V6",
-      "types": [
-        "mms",
-        "xcap"
       ]
     },
     {

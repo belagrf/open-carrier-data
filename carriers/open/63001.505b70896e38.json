@@ -3,9 +3,9 @@
     {
       "apn": "vodanet",
       "name": "vodanet",
+      "port": 8080,
       "types": [
-        "default",
-        "supl"
+        "default"
       ],
       "user": "vodalive"
     },
@@ -15,6 +15,14 @@
       "types": [
         "dun"
       ]
+    },
+    {
+      "apn": "vodanet",
+      "name": "vodanet",
+      "types": [
+        "supl"
+      ],
+      "user": "vodalive"
     }
   ],
   "android_carrier_config": {

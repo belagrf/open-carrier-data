@@ -9,7 +9,20 @@
       "name": "HOS",
       "protocol": "IPV4V6",
       "types": [
-        "mms",
+        "mms"
+      ],
+      "user_editable": false,
+      "user_visible": false
+    },
+    {
+      "apn": "hos",
+      "authtype": 1,
+      "mmsc": "http://mms.t-mobile.hr/servlets/mms",
+      "mmsport": 8080,
+      "mmsproxy": "10.12.0.4",
+      "name": "HOS",
+      "protocol": "IPV4V6",
+      "types": [
         "xcap"
       ],
       "user_visible": false
@@ -17,6 +30,17 @@
     {
       "apn": "ims",
       "bearer_bitmask": "14|18|20",
+      "name": "IMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ],
+      "user_visible": false
+    },
+    {
+      "apn": "ims",
+      "bearer_bitmask": "14|20",
       "name": "IMS",
       "protocol": "IPV4V6",
       "roaming_protocol": "IPV4V6",
@@ -42,8 +66,7 @@
     "carrier_wfc_ims_available_bool": true,
     "hide_enhanced_4g_lte_bool": true,
     "rtt_supported_bool": true,
-    "rtt_supported_while_roaming_bool": true,
-    "wfc_spn_format_idx_int": 4
+    "rtt_supported_while_roaming_bool": true
   },
   "capabilities": {
     "esim": "unknown",

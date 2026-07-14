@@ -50,6 +50,13 @@
     "maxImageHeight": 1944,
     "maxImageWidth": 2592,
     "maxSubjectLength": 80,
+    "read_only_apn_types_string_array": [
+      "default",
+      "mms",
+      "dun",
+      "supl",
+      "ims"
+    ],
     "smsToMmsTextThreshold": 6
   },
   "capabilities": {

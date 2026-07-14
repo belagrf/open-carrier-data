@@ -1,0 +1,33 @@
+{
+  "android_carrier_config": {
+    "carrier_default_wfc_ims_enabled_bool": true,
+    "carrier_default_wfc_ims_mode_int": 2,
+    "carrier_default_wfc_ims_roaming_mode_int": 2,
+    "carrier_volte_available_bool": true,
+    "carrier_wfc_ims_available_bool": true,
+    "editable_wfc_roaming_mode_bool": true
+  },
+  "capabilities": {
+    "esim": "unknown",
+    "ims_conference": "unknown",
+    "mms": "unknown",
+    "rcs": "unknown",
+    "sms_over_ims": "unknown",
+    "video_calling": "unknown",
+    "volte": "supported",
+    "vonr": "unknown",
+    "vowifi": "supported",
+    "wifi_calling_roaming": "unknown"
+  },
+  "display_name": "LineageOS 52505",
+  "match": {
+    "gid1_prefixes": [
+      "0AFFFFFFFFFFFFFF"
+    ],
+    "mccmnc": [
+      "52505"
+    ]
+  },
+  "profile_id": "open.52505.125cbd3d50d2",
+  "schema_version": 1
+}

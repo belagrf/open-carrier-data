@@ -47,22 +47,6 @@
     },
     {
       "apn": "pps",
-      "authtype": 1,
-      "mmsc": "http://mms.zain",
-      "mmsport": 8080,
-      "mmsproxy": "176.0.0.65",
-      "name": "pps",
-      "password": "pps",
-      "protocol": "IPV4V6",
-      "roaming_protocol": "IPV4V6",
-      "types": [
-        "default",
-        "supl"
-      ],
-      "user": "pps"
-    },
-    {
-      "apn": "pps",
       "mmsc": "http://mms.zain",
       "mmsport": 8080,
       "mmsproxy": "176.0.0.65",
@@ -84,6 +68,12 @@
     }
   ],
   "android_carrier_config": {
+    "carrier_default_wfc_ims_mode_int": 2,
+    "carrier_metered_apn_types_strings": [
+      "default",
+      "dun",
+      "supl"
+    ],
     "carrier_supports_ss_over_ut_bool": true,
     "carrier_volte_available_bool": true,
     "carrier_vt_available_bool": true,

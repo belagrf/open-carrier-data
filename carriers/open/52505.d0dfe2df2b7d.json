@@ -35,10 +35,12 @@
     },
     {
       "apn": "ims",
-      "name": "StarHub",
+      "name": "ims",
+      "protocol": "IP",
       "types": [
         "ims"
-      ]
+      ],
+      "user_visible": false
     },
     {
       "apn": "shinternet",
@@ -46,6 +48,17 @@
       "types": [
         "default",
         "dun"
+      ]
+    },
+    {
+      "apn": "shmms",
+      "apn_set_id": 1,
+      "mmsc": "http://mms.starhubgee.com.sg:8002/",
+      "mmsport": 80,
+      "mmsproxy": "10.12.1.80",
+      "name": "SH MMS Postpaid",
+      "types": [
+        "mms"
       ]
     },
     {
@@ -68,6 +81,26 @@
         "default",
         "ia",
         "supl"
+      ]
+    },
+    {
+      "apn": "shppd",
+      "apn_set_id": 2,
+      "name": "SH Data Prepaid",
+      "types": [
+        "default",
+        "supl"
+      ]
+    },
+    {
+      "apn": "shppd",
+      "apn_set_id": 2,
+      "mmsc": "http://mms.starhubgee.com.sg:8002/",
+      "mmsport": 80,
+      "mmsproxy": "10.12.1.80",
+      "name": "SH MMS Prepaid",
+      "types": [
+        "mms"
       ]
     },
     {
@@ -146,12 +179,15 @@
   ],
   "android_carrier_config": {
     "allow_hold_call_during_emergency_bool": false,
+    "call_barring_supports_deactivate_all_bool": false,
     "carrier_default_wfc_ims_enabled_bool": true,
-    "carrier_default_wfc_ims_mode_int": 1,
-    "carrier_supports_ss_over_ut_bool": true,
-    "carrier_volte_available_bool": true,
-    "carrier_wfc_ims_available_bool": true,
-    "hide_enhanced_4g_lte_bool": true,
+    "carrier_default_wfc_ims_roaming_enabled_bool": false,
+    "carrier_metered_apn_types_strings": [
+      "default",
+      "dun",
+      "supl"
+    ],
+    "editable_wfc_mode_bool": false,
     "imsvoice.conference_factory_uri_string": "shconf@ims.mnc005.mcc525.3gppnetwork.org",
     "is_ims_conference_size_enforced_bool": true,
     "maxMessageSize": 307200,
@@ -165,9 +201,9 @@
     "rcs": "unknown",
     "sms_over_ims": "conditional",
     "video_calling": "unknown",
-    "volte": "supported",
+    "volte": "conditional",
     "vonr": "supported",
-    "vowifi": "supported",
+    "vowifi": "conditional",
     "wifi_calling_roaming": "unknown"
   },
   "display_name": "Carrier 52505",

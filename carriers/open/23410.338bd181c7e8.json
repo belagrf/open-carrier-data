@@ -1,9 +1,5 @@
 {
   "addons": {
-    "emergency_calling": {
-      "e911_routing_policy": "auto",
-      "emergency_dial_call_style": "EndPreviousCall"
-    },
     "ims": {
       "support_ims_clir_overriding": true
     },
@@ -13,7 +9,13 @@
       "network_type_capability": "EUR-EUR-GSM-EUR"
     },
     "operator_display": {
-      "five_g_icon_configuration": "connected_mmwave:5G,connected:5G,not_restricted_rrc_idle:5G,not_restricted_rrc_con:5G",
+      "five_g_icon_branding": "5GAvailable",
+      "five_g_icon_configuration": [
+        "connected_mmwave:5G",
+        "connected:5G",
+        "not_restricted_rrc_idle:5G",
+        "not_restricted_rrc_con:5G"
+      ],
       "refer_eons_without_lac": true
     },
     "wifi_calling": {
@@ -24,23 +26,29 @@
     {
       "apn": "giffgaff.com",
       "name": "giffgaff",
+      "protocol": "IPV4V6",
       "types": [
-        "default"
+        "default",
+        "xcap"
       ]
     },
     {
-      "apn": "giffgaff.com",
-      "mmsc": "http://mmsc.mms.mediamessaging.co.uk:8002",
-      "mmsport": 8080,
-      "mmsproxy": "82.132.254.1",
-      "name": "giffgaff MMS",
+      "apn": "ims",
+      "name": "IMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
       "types": [
-        "mms"
+        "ims"
       ]
     }
   ],
   "android_carrier_config": {
-    "carrier_volte_available_bool": true
+    "carrier_volte_available_bool": true,
+    "read_only_apn_types_string_array": [
+      "dun",
+      "ims"
+    ],
+    "smsToMmsTextThreshold": 10
   },
   "capabilities": {
     "esim": "unknown",

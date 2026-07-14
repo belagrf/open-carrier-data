@@ -2,6 +2,18 @@
   "android_apns": [
     {
       "apn": "gprs.oi.com.br",
+      "authtype": 1,
+      "name": "OI:INTERNET:2",
+      "password": "oi",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "dun"
+      ],
+      "user": "oi"
+    },
+    {
+      "apn": "gprs.oi.com.br",
       "name": "Oi Internet",
       "password": "oi",
       "protocol": "IPV4V6",
@@ -12,6 +24,11 @@
       "user": "oi"
     }
   ],
+  "android_carrier_config": {
+    "read_only_apn_types_string_array": [
+      "*"
+    ]
+  },
   "capabilities": {
     "esim": "unknown",
     "ims_conference": "unknown",

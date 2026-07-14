@@ -13,13 +13,33 @@
     },
     {
       "apn": "rakuten.jp",
+      "mmsc": "https://mms.rakuten.jp:8443/mmsc",
       "name": "rakuten.jp",
       "protocol": "IPV4V6",
       "roaming_protocol": "IPV4V6",
       "types": [
         "default",
         "dun",
-        "ia",
+        "mms",
+        "supl"
+      ]
+    },
+    {
+      "apn": "rakuten.jp",
+      "name": "rakuten.jp",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ia"
+      ]
+    },
+    {
+      "apn": "rm-n.jp",
+      "name": "Internet",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "default",
         "supl"
       ]
     },
@@ -35,6 +55,15 @@
       "user_visible": false
     },
     {
+      "apn": "tethering.rm-n.jp",
+      "name": "Tethering",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "dun"
+      ]
+    },
+    {
       "apn": "v6.rakuten.jp",
       "name": "Rakuten",
       "protocol": "IPV6",
@@ -48,20 +77,19 @@
   "android_carrier_config": {
     "carrier_supports_ss_over_ut_bool": true,
     "carrier_volte_available_bool": true,
+    "editable_enhanced_4g_lte_bool": false,
     "enabledMMS": false,
     "hide_enhanced_4g_lte_bool": true,
+    "hide_ims_apn_bool": true,
     "imssms.sms_over_ims_supported_bool": true,
     "maxImageHeight": 1944,
     "maxImageWidth": 2592,
-    "maxMessageSize": 2097152,
-    "read_only_apn_types_string_array": [
-      "ims"
-    ]
+    "maxMessageSize": 2097152
   },
   "capabilities": {
     "esim": "unknown",
     "ims_conference": "unknown",
-    "mms": "unsupported",
+    "mms": "conditional",
     "rcs": "unknown",
     "sms_over_ims": "supported",
     "video_calling": "unknown",

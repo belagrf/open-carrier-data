@@ -20,7 +20,12 @@
     },
     "operator_display": {
       "five_g_icon_branding": "UseOneShapedIcon",
-      "five_g_icon_configuration": "connected_mmwave:5G,connected:5G,not_restricted_rrc_idle:5G,not_restricted_rrc_con:5G",
+      "five_g_icon_configuration": [
+        "connected_mmwave:5G",
+        "connected:5G",
+        "not_restricted_rrc_idle:5G",
+        "not_restricted_rrc_con:5G"
+      ],
       "indicator_icon_branding": "OVF",
       "refer_eons_without_lac": true
     }
@@ -83,34 +88,6 @@
       ]
     },
     {
-      "apn": "mms.vodafone.it",
-      "authtype": 0,
-      "carrier_enabled": true,
-      "mmsc": "http://mms.vodafone.it/servlets/mms",
-      "mmsport": 80,
-      "mmsproxy": "10.128.224.10",
-      "mtu": 1350,
-      "name": "mms.vodafone.it",
-      "protocol": "IPV4V6",
-      "roaming_protocol": "IPV4V6",
-      "types": [
-        "mms"
-      ]
-    },
-    {
-      "apn": "mobile.vodafone.it",
-      "authtype": 0,
-      "carrier_enabled": true,
-      "mtu": 1350,
-      "name": "mobile.vodafone.it",
-      "protocol": "IPV4V6",
-      "roaming_protocol": "IPV4V6",
-      "types": [
-        "default",
-        "supl"
-      ]
-    },
-    {
       "apn": "wap.omnitel.it",
       "name": "Internet da cellulare",
       "port": 80,
@@ -130,7 +107,6 @@
       "roaming_protocol": "IPV4V6",
       "types": [
         "default",
-        "dun",
         "xcap"
       ]
     },
@@ -206,20 +182,29 @@
     }
   ],
   "android_carrier_config": {
+    "call_barring_default_service_class_int": 0,
     "carrier_allow_transfer_ims_call_bool": true,
-    "carrier_default_wfc_ims_enabled_bool": true,
     "carrier_default_wfc_ims_mode_int": 1,
-    "carrier_volte_available_bool": true,
-    "carrier_wfc_ims_available_bool": true,
+    "carrier_metered_apn_types_strings": [
+      "default",
+      "dun",
+      "supl"
+    ],
+    "carrier_supports_ss_over_ut_bool": false,
+    "carrier_vt_available_bool": false,
+    "editable_enhanced_4g_lte_bool": false,
+    "editable_wfc_mode_bool": false,
+    "enableMMSDeliveryReports": false,
+    "enableSMSDeliveryReports": false,
     "enabledMMS": true,
-    "hide_enhanced_4g_lte_bool": true,
+    "enhanced_4g_lte_on_by_default_bool": true,
+    "hide_ims_apn_bool": true,
     "imssms.sms_over_ims_supported_bool": true,
     "maxMessageSize": 307200,
     "read_only_apn_types_string_array": [],
     "recipientLimit": 99,
     "rtt_supported_bool": true,
     "rtt_supported_while_roaming_bool": true,
-    "smsToMmsTextThreshold": 10,
     "volte_replacement_rat_int": 3,
     "wfc_spn_format_idx_int": 1
   },
@@ -229,10 +214,10 @@
     "mms": "supported",
     "rcs": "unknown",
     "sms_over_ims": "supported",
-    "video_calling": "unknown",
-    "volte": "supported",
+    "video_calling": "unsupported",
+    "volte": "conditional",
     "vonr": "supported",
-    "vowifi": "supported",
+    "vowifi": "conditional",
     "wifi_calling_roaming": "unknown"
   },
   "display_name": "Carrier 22210",

@@ -2,7 +2,7 @@
   "android_apns": [
     {
       "apn": "fi.omv.es",
-      "name": "FINETWORK_DATA",
+      "name": "fi.omv.es",
       "types": [
         "default",
         "dun",

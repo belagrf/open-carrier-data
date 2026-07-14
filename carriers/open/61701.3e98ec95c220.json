@@ -39,6 +39,11 @@
       "user": "mmsc"
     }
   ],
+  "android_carrier_config": {
+    "read_only_apn_types_string_array": [
+      "mms"
+    ]
+  },
   "capabilities": {
     "esim": "unknown",
     "ims_conference": "unknown",

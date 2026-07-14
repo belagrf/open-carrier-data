@@ -12,6 +12,16 @@
       ]
     },
     {
+      "apn": "ims",
+      "bearer_bitmask": "1|2|3|9|10|11|13|14|15|18|20",
+      "mtu": 1300,
+      "name": "Orange Fr IMS",
+      "protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ]
+    },
+    {
       "apn": "orange5g",
       "authtype": 1,
       "bearer_bitmask": "1|2|3|9|10|11|13|14|15|20",
@@ -50,6 +60,7 @@
     "carrier_volte_available_bool": true,
     "carrier_volte_provisioning_required_bool": true,
     "carrier_wfc_ims_available_bool": true,
+    "editable_wfc_mode_bool": false,
     "hide_enhanced_4g_lte_bool": true,
     "ims_reasoninfo_mapping_string_array": [
       "510|Call completed elsewhere|1014",

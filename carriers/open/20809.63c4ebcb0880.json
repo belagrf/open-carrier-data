@@ -12,6 +12,13 @@
       "user_visible": false
     },
     {
+      "apn": "ims",
+      "name": "Be Aliv IMS",
+      "types": [
+        "ims"
+      ]
+    },
+    {
       "apn": "pda.newcomobile.com",
       "name": "Be Aliv",
       "protocol": "IPV4V6",

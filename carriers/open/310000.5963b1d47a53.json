@@ -106,6 +106,17 @@
       "user_editable": false
     }
   ],
+  "android_carrier_config": {
+    "carrier_supports_ss_over_ut_bool": true,
+    "cdma_3waycall_flash_delay_int": 200,
+    "httpParams": "X-MDN: ##LINE1##",
+    "maxMessageSize": 1048576,
+    "maxSubjectLength": 80,
+    "recipientLimit": 20,
+    "rtt_supported_bool": true,
+    "smsToMmsTextThreshold": 1,
+    "volte_replacement_rat_int": 6
+  },
   "capabilities": {
     "esim": "unknown",
     "ims_conference": "unknown",
@@ -118,7 +129,7 @@
     "vowifi": "unknown",
     "wifi_calling_roaming": "unknown"
   },
-  "display_name": "310000Spn=Revol",
+  "display_name": "LineageOS 310000",
   "match": {
     "mccmnc": [
       "310000"

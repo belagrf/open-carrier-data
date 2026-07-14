@@ -1,23 +1,27 @@
 {
   "addons": {
     "emergency_calling": {
-      "e911_routing_policy": "auto",
-      "emergency_dial_call_style": "DisableMuteHold,EndPreviousCall"
+      "e911_routing_policy": "auto"
     },
     "network_policy": {
       "display_antenna_limited": true,
-      "gcf_sor": true,
-      "mobile_network_setting_menu_tokens": [
-        "+dataenabled",
-        "-preferrednetworkmode",
-        "+disable2gmenu",
-        "-voltecall"
-      ],
-      "network_type_capability": "ATT-DSH-GSM-USA",
-      "voice_network_setting_style": "UsaGsmNetworkSetting,CdmaSubscriptionEnable,SupportENSNetworkSetting,SupportDataOffNotification,NetworkSetting_AIO"
+      "gcf_sor": true
     },
     "operator_display": {
-      "indicator_icon_branding": "DSA"
+      "five_g_icon_branding": "5GAvailable",
+      "five_g_icon_configuration": [
+        "connected_mmwave:5G_PLUS",
+        "connected:5G_PLUS",
+        "not_restricted_rrc_idle:NONE",
+        "not_restricted_rrc_con:NONE",
+        "connected_mmwave_2nd:5G_PLUS",
+        "connected_2nd:5G",
+        "not_restricted_rrc_idle_2nd:5G",
+        "not_restricted_rrc_con_2nd:5G"
+      ]
+    },
+    "wifi_calling": {
+      "show_vowifi_end_call": true
     }
   },
   "android_apns": [

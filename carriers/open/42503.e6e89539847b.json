@@ -13,6 +13,17 @@
     },
     {
       "apn": "ims",
+      "bearer_bitmask": "14|20",
+      "name": "IMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ],
+      "user_visible": false
+    },
+    {
+      "apn": "ims",
       "name": "Pelephone",
       "protocol": "IPV6",
       "types": [
@@ -99,11 +110,20 @@
   "android_carrier_config": {
     "carrier_default_wfc_ims_enabled_bool": true,
     "carrier_default_wfc_ims_mode_int": 1,
+    "carrier_metered_apn_types_strings": [
+      "default",
+      "dun",
+      "supl"
+    ],
     "carrier_volte_available_bool": true,
     "carrier_vt_available_bool": true,
     "carrier_wfc_ims_available_bool": true,
     "enabledMMS": true,
     "maxMessageSize": 1048576,
+    "read_only_apn_types_string_array": [
+      "mms",
+      "default"
+    ],
     "recipientLimit": 50,
     "wfc_spn_format_idx_int": 1
   },

@@ -6,7 +6,7 @@
       "mmsport": 80,
       "mmsproxy": "proxy.mobile.att.net",
       "mtu": 1410,
-      "name": "MVNO Reseller",
+      "name": "ereseller",
       "protocol": "IPV4V6",
       "roaming_protocol": "IPV4V6",
       "types": [
@@ -30,6 +30,34 @@
       "user_visible": false
     },
     {
+      "apn": "ims",
+      "name": "ATT IMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ],
+      "user_visible": false
+    },
+    {
+      "apn": "nxtgenphone",
+      "mmsc": "http://mmsc.mobile.att.net",
+      "mmsport": 80,
+      "mmsproxy": "proxy.mobile.att.net",
+      "mtu": 1410,
+      "name": "ATT Nextgenphone",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "default",
+        "fota",
+        "hipri",
+        "mms",
+        "supl"
+      ],
+      "user_editable": false
+    },
+    {
       "apn": "resellermht",
       "name": "ATT Hotspot",
       "protocol": "IPV4V6",
@@ -38,6 +66,23 @@
         "dun"
       ],
       "user_visible": false
+    },
+    {
+      "apn": "wap.cingular",
+      "mmsc": "http://mmsc.cingular.com/",
+      "mmsproxy": "wireless.cingular.com",
+      "name": "ATT WAP",
+      "port": 80,
+      "protocol": "IPV4V6",
+      "proxy": "wireless.cingular.com",
+      "roaming_protocol": "IPV4V6",
+      "server": "cingulargprs.com",
+      "types": [
+        "default",
+        "mms",
+        "supl"
+      ],
+      "user_editable": false
     }
   ],
   "android_carrier_config": {
@@ -57,7 +102,6 @@
     ],
     "carrier_supports_ss_over_ut_bool": true,
     "carrier_volte_available_bool": true,
-    "carrier_wfc_ims_available_bool": true,
     "enableSMSDeliveryReports": false,
     "hide_enhanced_4g_lte_bool": false,
     "ims_dtmf_tone_delay_int": 120,
@@ -92,7 +136,7 @@
     "video_calling": "unknown",
     "volte": "supported",
     "vonr": "unknown",
-    "vowifi": "supported",
+    "vowifi": "conditional",
     "wifi_calling_roaming": "supported"
   },
   "display_name": "Ztar Us",

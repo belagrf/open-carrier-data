@@ -24,6 +24,17 @@
       "user_visible": false
     },
     {
+      "apn": "ims.cs4glte.com",
+      "name": "INTL CSpire IMS",
+      "password": "cs3g",
+      "protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ],
+      "user": "Uniroam@inet.cs.com",
+      "user_visible": false
+    },
+    {
       "apn": "internet.cs4glte.com",
       "authtype": 3,
       "mmsc": "http://pix.cspire.com",
@@ -50,7 +61,8 @@
     }
   ],
   "android_carrier_config": {
-    "cdma_3waycall_flash_delay_int": 0,
+    "enableMMSDeliveryReports": false,
+    "enableMMSReadReports": false,
     "enableMultipartSMS": false,
     "enableSMSDeliveryReports": false,
     "httpParams": "X-CS3G-MDN: 1##LINE1NOCOUNTRYCODE##",
@@ -59,11 +71,12 @@
     "maxImageHeight": 1944,
     "maxImageWidth": 2592,
     "maxMessageSize": 1048576,
+    "maxMessageTextSize": -1,
     "maxSubjectLength": 80,
     "recipientLimit": 20,
     "rtt_supported_bool": true,
     "rtt_supported_while_roaming_bool": true,
-    "support_swap_after_merge_bool": true
+    "smsToMmsTextThreshold": -1
   },
   "capabilities": {
     "esim": "unknown",

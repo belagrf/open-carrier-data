@@ -1,0 +1,30 @@
+{
+  "android_carrier_config": {
+    "allow_emergency_video_calls_bool": true,
+    "carrier_volte_available_bool": true,
+    "carrier_volte_tty_supported_bool": true,
+    "carrier_wfc_ims_available_bool": true,
+    "cdma_3waycall_flash_delay_int": 300,
+    "rtt_supported_bool": true
+  },
+  "capabilities": {
+    "esim": "unknown",
+    "ims_conference": "unknown",
+    "mms": "unknown",
+    "rcs": "unknown",
+    "sms_over_ims": "unknown",
+    "video_calling": "conditional",
+    "volte": "supported",
+    "vonr": "unknown",
+    "vowifi": "supported",
+    "wifi_calling_roaming": "unknown"
+  },
+  "display_name": "LineageOS 31100",
+  "match": {
+    "mccmnc": [
+      "31100"
+    ]
+  },
+  "profile_id": "open.31100.a88da3df55a4",
+  "schema_version": 1
+}

@@ -5,12 +5,13 @@
       "name": "Xfinity Mobile",
       "protocol": "IPV4V6",
       "types": [
+        "default",
         "fota"
       ]
     },
     {
       "apn": "internet",
-      "name": "Xfinity Mobile",
+      "name": "internet",
       "protocol": "IPV4V6",
       "types": [
         "default"

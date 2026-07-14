@@ -1,0 +1,41 @@
+{
+  "android_carrier_config": {
+    "carrier_default_wfc_ims_enabled_bool": true,
+    "carrier_default_wfc_ims_mode_int": 1,
+    "carrier_default_wfc_ims_roaming_enabled_bool": true,
+    "carrier_default_wfc_ims_roaming_mode_int": 2,
+    "carrier_volte_available_bool": true,
+    "carrier_vowifi_tty_supported_bool": false,
+    "carrier_wfc_ims_available_bool": false,
+    "ims_reasoninfo_mapping_string_array": [
+      "510|Call completed elsewhere|1014",
+      "*|Call is dropped due to Wi-Fi signal is degraded|1407"
+    ],
+    "imsvoice.conference_factory_uri_string": "8881112663@msg.pc.t-mobile.com",
+    "iwlan.epdg_static_address_string": "epdg.epc.mnc260.mcc310.pub.3gppnetwork.org",
+    "rtt_supported_bool": true
+  },
+  "capabilities": {
+    "esim": "unknown",
+    "ims_conference": "unknown",
+    "mms": "unknown",
+    "rcs": "unknown",
+    "sms_over_ims": "unknown",
+    "video_calling": "unknown",
+    "volte": "supported",
+    "vonr": "unknown",
+    "vowifi": "unsupported",
+    "wifi_calling_roaming": "supported"
+  },
+  "display_name": "Fi Us",
+  "match": {
+    "gid1_prefixes": [
+      "0306"
+    ],
+    "mccmnc": [
+      "23420"
+    ]
+  },
+  "profile_id": "open.23420.b7dfa1ff345d",
+  "schema_version": 1
+}

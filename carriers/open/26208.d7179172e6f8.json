@@ -3,7 +3,7 @@
     {
       "apn": "ims",
       "bearer_bitmask": "14|18|20",
-      "name": "o2 DE IMS",
+      "name": "ims",
       "protocol": "IPV4V6",
       "roaming_protocol": "IPV4V6",
       "types": [
@@ -13,22 +13,21 @@
     },
     {
       "apn": "internet",
-      "mmsc": "http://10.81.0.7:8002",
-      "mmsport": 8080,
-      "mmsproxy": "82.113.100.5",
-      "name": "internet",
-      "protocol": "IPV4V6",
-      "roaming_protocol": "IPV4V6",
+      "name": "o2 - de",
       "types": [
-        "default",
-        "xcap"
+        "dun"
       ]
     },
     {
       "apn": "internet",
-      "name": "o2 - de",
+      "mmsc": "http://10.81.0.7:8002",
+      "mmsport": 8080,
+      "mmsproxy": "82.113.100.5",
+      "name": "o2 Internet",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
       "types": [
-        "dun"
+        "xcap"
       ]
     },
     {
@@ -44,15 +43,14 @@
     }
   ],
   "android_carrier_config": {
+    "carrier_default_wfc_ims_enabled_bool": false,
+    "carrier_default_wfc_ims_mode_int": 2,
     "carrier_default_wfc_ims_roaming_enabled_bool": true,
-    "carrier_supports_ss_over_ut_bool": true,
-    "carrier_volte_available_bool": true,
-    "carrier_wfc_ims_available_bool": true,
+    "carrier_promote_wfc_on_call_fail_bool": true,
+    "editable_wfc_mode_bool": true,
+    "enhanced_4g_lte_on_by_default_bool": true,
+    "hide_enhanced_4g_lte_bool": false,
     "hide_ims_apn_bool": true,
-    "ims_reasoninfo_mapping_string_array": [
-      "510|Call completed elsewhere|1014",
-      "*|Call is dropped due to Wi-Fi signal is degraded|1407"
-    ],
     "imsvoice.conference_factory_uri_string": "teleconferenceuri-factory@telefonica.de",
     "maxImageHeight": 1944,
     "maxImageWidth": 2592,
@@ -67,10 +65,10 @@
     "mms": "supported",
     "rcs": "unknown",
     "sms_over_ims": "unknown",
-    "video_calling": "unknown",
-    "volte": "supported",
+    "video_calling": "conditional",
+    "volte": "conditional",
     "vonr": "unknown",
-    "vowifi": "supported",
+    "vowifi": "conditional",
     "wifi_calling_roaming": "supported"
   },
   "display_name": "Carrier 26208",

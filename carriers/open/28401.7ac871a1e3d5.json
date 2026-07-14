@@ -12,7 +12,12 @@
       "network_type_capability": "EUR-EUR-GSM-EUR"
     },
     "operator_display": {
-      "five_g_icon_configuration": "connected_mmwave:5G,connected:5G,not_restricted_rrc_idle:NONE,not_restricted_rrc_con:NONE",
+      "five_g_icon_configuration": [
+        "connected_mmwave:5G",
+        "connected:5G",
+        "not_restricted_rrc_idle:NONE",
+        "not_restricted_rrc_con:NONE"
+      ],
       "refer_eons_without_lac": true
     }
   },
@@ -102,12 +107,17 @@
     }
   ],
   "android_carrier_config": {
+    "carrier_default_wfc_ims_mode_int": 2,
     "carrier_supports_ss_over_ut_bool": true,
     "carrier_volte_available_bool": true,
     "carrier_wfc_ims_available_bool": true,
+    "editable_enhanced_4g_lte_bool": false,
+    "enableMMSDeliveryReports": false,
+    "enableSMSDeliveryReports": false,
     "enabledMMS": true,
+    "enhanced_4g_lte_on_by_default_bool": true,
+    "hide_enhanced_4g_lte_bool": true,
     "imssms.sms_over_ims_supported_bool": true,
-    "maxMessageSize": 512000,
     "wfc_spn_format_idx_int": 1
   },
   "capabilities": {

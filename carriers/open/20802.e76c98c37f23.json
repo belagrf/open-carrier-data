@@ -25,6 +25,39 @@
       "user_visible": false
     },
     {
+      "apn": "ims",
+      "bearer_bitmask": "18",
+      "name": "Orange Fr IMS",
+      "protocol": "IP",
+      "types": [
+        "ims"
+      ],
+      "user_editable": false,
+      "user_visible": false
+    },
+    {
+      "apn": "ims",
+      "bearer_bitmask": "1|2|3|9|10|11|13|14|15",
+      "mtu": 1300,
+      "name": "Orange Fr IMS",
+      "protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ],
+      "user_visible": false
+    },
+    {
+      "apn": "ims",
+      "bearer_bitmask": "1|2|3|9|10|11|13|14|15|18|20",
+      "mtu": 1300,
+      "name": "Orange Fr IMS",
+      "protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ],
+      "user_visible": false
+    },
+    {
       "apn": "ofnew.fr",
       "name": "NRJWEB",
       "types": [
@@ -34,15 +67,17 @@
     },
     {
       "apn": "orange",
+      "authtype": 1,
       "mmsc": "http://mms.orange.fr",
-      "name": "Orange France",
+      "name": "orange",
       "password": "orange",
       "protocol": "IPV6",
       "roaming_protocol": "IP",
       "types": [
         "default"
       ],
-      "user": "orange"
+      "user": "orange",
+      "user_editable": false
     },
     {
       "apn": "orange",
@@ -75,23 +110,42 @@
     },
     {
       "apn": "orange",
+      "authtype": 1,
       "mmsc": "http://mms.orange.fr",
-      "name": "Orange France",
+      "name": "orange",
       "password": "orange",
+      "protocol": "IPV6",
       "types": [
-        "mms"
+        "mms",
+        "supl",
+        "xcap"
       ],
-      "user": "orange"
+      "user": "orange",
+      "user_editable": false
     },
     {
-      "apn": "orange.acte",
-      "mmsc": "http://mms.orange.fr/",
-      "mmsport": 8080,
-      "mmsproxy": "192.168.10.200",
-      "name": "MMS Orange GPRS",
+      "apn": "orange-mib",
+      "authtype": 1,
+      "bearer_bitmask": "1|2|3|9|10|11|13|14|15|20",
+      "name": "Orange enterprises",
       "password": "orange",
+      "port": 8000,
+      "proxy": "172.16.2.8",
       "types": [
-        "mms"
+        "default"
+      ],
+      "user": "orange",
+      "user_editable": false
+    },
+    {
+      "apn": "orange-mib",
+      "authtype": 1,
+      "name": "Orange enterprises",
+      "password": "orange",
+      "port": 8000,
+      "proxy": "172.16.2.8",
+      "types": [
+        "default"
       ],
       "user": "orange"
     },
@@ -105,12 +159,26 @@
     },
     {
       "apn": "orange.fr",
-      "name": "Orange France",
+      "authtype": 1,
+      "name": "orange.fr",
       "password": "orange",
       "types": [
         "dun"
       ],
-      "user": "orange"
+      "user": "orange",
+      "user_editable": false,
+      "user_visible": false
+    },
+    {
+      "apn": "vowifiorange",
+      "bearer_bitmask": "18",
+      "mmsc": "http://mms.orange.fr",
+      "name": "vowifiorange",
+      "protocol": "IPV4V6",
+      "types": [
+        "mms"
+      ],
+      "user_visible": false
     },
     {
       "apn": "vowifiorange",
@@ -118,35 +186,43 @@
       "mmsc": "http://mms.orange.fr",
       "name": "vowifiorange",
       "types": [
-        "mms",
         "xcap"
       ],
       "user_visible": false
     }
   ],
   "android_carrier_config": {
+    "carrier_default_wfc_ims_enabled_bool": false,
+    "carrier_default_wfc_ims_mode_int": 2,
+    "carrier_default_wfc_ims_roaming_enabled_bool": false,
+    "carrier_default_wfc_ims_roaming_mode_int": 1,
     "carrier_metered_apn_types_strings": [
       "default",
       "dun",
       "supl"
     ],
-    "carrier_supports_ss_over_ut_bool": true,
-    "carrier_volte_available_bool": true,
-    "carrier_volte_provisioning_required_bool": true,
-    "carrier_wfc_ims_available_bool": true,
-    "enabledMMS": true,
-    "hide_enhanced_4g_lte_bool": true,
-    "ims_reasoninfo_mapping_string_array": [
-      "510|Call completed elsewhere|1014",
-      "*|Call is dropped due to Wi-Fi signal is degraded|1407"
+    "carrier_metered_roaming_apn_types_strings": [
+      "default",
+      "dun",
+      "supl"
     ],
+    "carrier_vt_available_bool": false,
+    "editable_enhanced_4g_lte_bool": false,
+    "editable_wfc_roaming_mode_bool": true,
+    "enabledMMS": true,
+    "enhanced_4g_lte_on_by_default_bool": true,
     "maxImageHeight": 1944,
     "maxImageWidth": 2592,
     "maxMessageSize": 614400,
+    "maxSubjectLength": 80,
     "rtt_supported_bool": true,
     "rtt_supported_while_roaming_bool": true,
+    "show_wifi_calling_icon_in_status_bar_bool": true,
+    "smsToMmsTextThreshold": 6,
+    "video_calls_can_be_hd_audio": true,
     "volte_replacement_rat_int": 3,
-    "wfc_spn_format_idx_int": 1
+    "wfc_spn_format_idx_int": 1,
+    "wifi_calls_can_be_hd_audio": true
   },
   "capabilities": {
     "esim": "unknown",
@@ -154,10 +230,10 @@
     "mms": "supported",
     "rcs": "unknown",
     "sms_over_ims": "unknown",
-    "video_calling": "unknown",
-    "volte": "supported",
+    "video_calling": "unsupported",
+    "volte": "conditional",
     "vonr": "unknown",
-    "vowifi": "supported",
+    "vowifi": "conditional",
     "wifi_calling_roaming": "unknown"
   },
   "display_name": "Carrier 20802",

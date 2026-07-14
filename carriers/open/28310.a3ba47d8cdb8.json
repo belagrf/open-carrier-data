@@ -26,8 +26,10 @@
     }
   ],
   "android_carrier_config": {
+    "carrier_default_wfc_ims_mode_int": 2,
     "enabledMMS": true,
-    "maxMessageSize": 307200
+    "maxMessageSize": 307200,
+    "smsToMmsTextThreshold": 10
   },
   "capabilities": {
     "esim": "unknown",

@@ -50,6 +50,15 @@
       "user_visible": false
     },
     {
+      "apn": "ims",
+      "name": "\u4e2d\u83ef\u96fb\u4fe1(Chunghwa) (IMS)",
+      "protocol": "IP",
+      "types": [
+        "ims"
+      ],
+      "user_visible": false
+    },
+    {
       "apn": "internet",
       "name": "internet",
       "protocol": "IPV4V6",
@@ -74,20 +83,25 @@
     }
   ],
   "android_carrier_config": {
-    "carrier_default_wfc_ims_enabled_bool": true,
-    "carrier_default_wfc_ims_mode_int": 1,
-    "carrier_default_wfc_ims_roaming_enabled_bool": true,
-    "carrier_supports_ss_over_ut_bool": true,
-    "carrier_volte_available_bool": true,
-    "carrier_wfc_ims_available_bool": true,
+    "carrier_default_wfc_ims_roaming_mode_int": 2,
+    "carrier_metered_apn_types_strings": [
+      "default",
+      "mms",
+      "supl"
+    ],
+    "carrier_volte_tty_supported_bool": false,
+    "editable_enhanced_4g_lte_bool": true,
+    "editable_wfc_mode_bool": true,
+    "editable_wfc_roaming_mode_bool": true,
     "enabledMMS": true,
-    "hide_enhanced_4g_lte_bool": true,
+    "enhanced_4g_lte_on_by_default_bool": false,
     "imssms.sms_over_ims_supported_bool": true,
     "imsvoice.conference_subscribe_type_int": 0,
     "is_ims_conference_size_enforced_bool": true,
     "iwlan.epdg_static_address_string": "epdg.epc.mnc092.mcc466.pub.3gppnetwork.org",
     "maxMessageSize": 614400,
     "recipientLimit": 10,
+    "show_ims_registration_status_bool": true,
     "wfc_spn_format_idx_int": 1
   },
   "capabilities": {
@@ -96,10 +110,10 @@
     "mms": "supported",
     "rcs": "unknown",
     "sms_over_ims": "supported",
-    "video_calling": "unknown",
-    "volte": "supported",
+    "video_calling": "conditional",
+    "volte": "conditional",
     "vonr": "supported",
-    "vowifi": "supported",
+    "vowifi": "conditional",
     "wifi_calling_roaming": "supported"
   },
   "display_name": "Carrier 46692",

@@ -30,6 +30,17 @@
       ]
     },
     {
+      "apn": "mms/airtel mms",
+      "authtype": 0,
+      "mmsc": "http://100.1.201.171:10021/mmsc",
+      "mmsport": 8799,
+      "mmsproxy": "100.1.201.172",
+      "name": "Airtel mms",
+      "types": [
+        "mms"
+      ]
+    },
+    {
       "apn": "wap",
       "name": "Zain WAP",
       "port": 9401,

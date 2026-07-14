@@ -21,7 +21,12 @@
     },
     "operator_display": {
       "five_g_icon_branding": "UseOneShapedIcon",
-      "five_g_icon_configuration": "connected_mmwave:5G,connected:5G,not_restricted_rrc_idle:5G,not_restricted_rrc_con:5G",
+      "five_g_icon_configuration": [
+        "connected_mmwave:5G",
+        "connected:5G",
+        "not_restricted_rrc_idle:5G",
+        "not_restricted_rrc_con:5G"
+      ],
       "indicator_icon_branding": "OVF",
       "refer_eons_without_lac": true
     }
@@ -73,6 +78,17 @@
       "user_visible": false
     },
     {
+      "apn": "ims",
+      "bearer_bitmask": "14|20",
+      "name": "IMS",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ],
+      "user_visible": false
+    },
+    {
       "apn": "ut.es",
       "authtype": 0,
       "carrier_enabled": true,
@@ -84,16 +100,33 @@
     }
   ],
   "android_carrier_config": {
-    "carrier_supports_ss_over_ut_bool": true,
-    "carrier_volte_available_bool": true,
-    "carrier_wfc_ims_available_bool": true,
+    "carrier_allow_transfer_ims_call_bool": true,
+    "carrier_default_wfc_ims_enabled_bool": false,
+    "carrier_default_wfc_ims_mode_int": 2,
+    "carrier_metered_apn_types_strings": [
+      "default",
+      "dun",
+      "supl"
+    ],
+    "carrier_metered_roaming_apn_types_strings": [
+      "default",
+      "dun",
+      "supl"
+    ],
+    "carrier_vt_available_bool": false,
+    "editable_enhanced_4g_lte_bool": false,
+    "enhanced_4g_lte_on_by_default_bool": true,
+    "hide_ims_apn_bool": true,
     "imssms.sms_over_ims_supported_bool": true,
     "imsvoice.conference_subscribe_type_int": 0,
     "maxMessageSize": 307200,
+    "read_only_apn_types_string_array": [
+      "ims"
+    ],
     "recipientLimit": 10,
     "rtt_supported_bool": true,
     "rtt_supported_while_roaming_bool": true,
-    "smsToMmsTextThreshold": 5,
+    "support_ims_conference_event_package_bool": false,
     "volte_replacement_rat_int": 3,
     "wfc_spn_format_idx_int": 1
   },
@@ -103,10 +136,10 @@
     "mms": "conditional",
     "rcs": "unknown",
     "sms_over_ims": "supported",
-    "video_calling": "unknown",
-    "volte": "supported",
+    "video_calling": "unsupported",
+    "volte": "conditional",
     "vonr": "supported",
-    "vowifi": "supported",
+    "vowifi": "conditional",
     "wifi_calling_roaming": "unknown"
   },
   "display_name": "Carrier 21401",

@@ -31,6 +31,17 @@
       "user_visible": false
     },
     {
+      "apn": "ims",
+      "bearer_bitmask": "14|18|20",
+      "name": "ims",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ims"
+      ],
+      "user_visible": false
+    },
+    {
       "apn": "websp",
       "authtype": 3,
       "name": "websp",
@@ -120,7 +131,6 @@
     }
   ],
   "android_carrier_config": {
-    "carrier_default_wfc_ims_enabled_bool": true,
     "carrier_default_wfc_ims_mode_int": 1,
     "carrier_default_wfc_ims_roaming_mode_int": 1,
     "carrier_metered_apn_types_strings": [
@@ -129,10 +139,12 @@
       "supl"
     ],
     "carrier_supports_ss_over_ut_bool": true,
-    "carrier_volte_available_bool": true,
     "carrier_wfc_ims_available_bool": true,
+    "carrier_wfc_supports_wifi_only_bool": false,
+    "editable_wfc_roaming_mode_bool": false,
     "enabledMMS": true,
     "hide_enhanced_4g_lte_bool": true,
+    "hide_ims_apn_bool": true,
     "ims_reasoninfo_mapping_string_array": [
       "338|busy everywhere|1017",
       "510|Call completed elsewhere|1014"
@@ -142,6 +154,7 @@
     "is_ims_conference_size_enforced_bool": true,
     "rtt_supported_bool": true,
     "rtt_supported_while_roaming_bool": true,
+    "smsToMmsTextThreshold": 5,
     "wfc_spn_format_idx_int": 1
   },
   "capabilities": {
@@ -151,7 +164,7 @@
     "rcs": "unknown",
     "sms_over_ims": "supported",
     "video_calling": "unknown",
-    "volte": "supported",
+    "volte": "conditional",
     "vonr": "unknown",
     "vowifi": "supported",
     "wifi_calling_roaming": "unknown"

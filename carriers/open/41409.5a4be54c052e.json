@@ -15,7 +15,7 @@
     "vowifi": "unknown",
     "wifi_calling_roaming": "unknown"
   },
-  "display_name": "Mytel MM",
+  "display_name": "Carrier 41409",
   "match": {
     "mccmnc": [
       "41409"

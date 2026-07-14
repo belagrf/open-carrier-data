@@ -1,0 +1,29 @@
+{
+  "android_carrier_config": {
+    "allow_emergency_video_calls_bool": true,
+    "carrier_volte_available_bool": true,
+    "carrier_volte_tty_supported_bool": true,
+    "carrier_wfc_ims_available_bool": true,
+    "rtt_supported_bool": true
+  },
+  "capabilities": {
+    "esim": "unknown",
+    "ims_conference": "unknown",
+    "mms": "unknown",
+    "rcs": "unknown",
+    "sms_over_ims": "unknown",
+    "video_calling": "conditional",
+    "volte": "supported",
+    "vonr": "unknown",
+    "vowifi": "supported",
+    "wifi_calling_roaming": "unknown"
+  },
+  "display_name": "LineageOS 31001",
+  "match": {
+    "mccmnc": [
+      "31001"
+    ]
+  },
+  "profile_id": "open.31001.2353d9a69eb5",
+  "schema_version": 1
+}

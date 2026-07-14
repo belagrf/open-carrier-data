@@ -1,0 +1,42 @@
+{
+  "android_apns": [
+    {
+      "apn": "internet",
+      "name": "Lime Internet Postpaid",
+      "types": [
+        "default",
+        "supl"
+      ]
+    },
+    {
+      "apn": "multimedia",
+      "mmsc": "http://mmsc",
+      "mmsport": 8799,
+      "mmsproxy": "10.20.5.34",
+      "name": "Lime Postpaid MMS",
+      "types": [
+        "mms"
+      ]
+    }
+  ],
+  "capabilities": {
+    "esim": "unknown",
+    "ims_conference": "unknown",
+    "mms": "supported",
+    "rcs": "unknown",
+    "sms_over_ims": "unknown",
+    "video_calling": "unknown",
+    "volte": "unknown",
+    "vonr": "unknown",
+    "vowifi": "unknown",
+    "wifi_calling_roaming": "unknown"
+  },
+  "display_name": "35211",
+  "match": {
+    "mccmnc": [
+      "35211"
+    ]
+  },
+  "profile_id": "open.35211.0f4ef37099c2",
+  "schema_version": 1
+}

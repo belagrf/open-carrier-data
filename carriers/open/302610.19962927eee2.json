@@ -6,8 +6,19 @@
       "mmsc": "http://mms.bell.ca/mms/wapenc",
       "name": "Virgin Mobile Apps",
       "protocol": "IPV4V6",
+      "roaming_protocol": "IP",
       "types": [
-        "mms",
+        "mms"
+      ],
+      "user_editable": false
+    },
+    {
+      "apn": "apps.bell.ca",
+      "bearer_bitmask": "18",
+      "mmsc": "http://mms.bell.ca/mms/wapenc",
+      "name": "Virgin Mobile Apps",
+      "protocol": "IPV4V6",
+      "types": [
         "xcap"
       ],
       "user_editable": false
@@ -25,16 +36,39 @@
     },
     {
       "apn": "pda.bell.ca",
+      "authtype": 2,
+      "bearer_bitmask": "1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17",
+      "mmsc": "http://mms.bell.ca/mms/wapenc",
+      "name": "Virgin Mobile",
+      "protocol": "IPV4V6",
+      "types": [
+        "default",
+        "dun",
+        "hipri",
+        "ia",
+        "mms",
+        "supl"
+      ],
+      "user_editable": false
+    },
+    {
+      "apn": "pda.bell.ca",
+      "bearer_bitmask": "1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|17|20",
+      "mmsc": "http://mms.bell.ca/mms/wapenc",
+      "name": "Virgin Mobile",
+      "protocol": "IPV4V6",
+      "types": [
+        "ia"
+      ],
+      "user_editable": false
+    },
+    {
+      "apn": "pda.bell.ca",
       "bearer_bitmask": "1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|17|20",
       "mmsc": "http://mms.bell.ca/mms/wapenc",
       "name": "Virgin Mobile",
       "protocol": "IPV6",
       "types": [
-        "default",
-        "dun",
-        "hipri",
-        "mms",
-        "supl",
         "xcap"
       ],
       "user_editable": false
@@ -50,22 +84,13 @@
         "dun",
         "mms"
       ]
-    },
-    {
-      "apn": "sos",
-      "name": "Virgin Mobile SOS",
-      "protocol": "IPV4V6",
-      "roaming_protocol": "IPV4V6",
-      "types": [
-        "emergency"
-      ],
-      "user_visible": false
     }
   ],
   "android_carrier_config": {
     "carrier_default_wfc_ims_mode_int": 1,
     "carrier_supports_ss_over_ut_bool": true,
     "carrier_volte_available_bool": true,
+    "carrier_volte_tty_supported_bool": false,
     "carrier_wfc_ims_available_bool": true,
     "enabledMMS": true,
     "hide_enhanced_4g_lte_bool": true,
@@ -77,6 +102,7 @@
     "maxSubjectLength": 80,
     "read_only_apn_types_string_array": [],
     "recipientLimit": 20,
+    "show_ims_registration_status_bool": true,
     "smsToMmsTextThreshold": 8,
     "volte_replacement_rat_int": 3,
     "wfc_spn_format_idx_int": 1

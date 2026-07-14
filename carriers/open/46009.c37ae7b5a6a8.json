@@ -7,7 +7,6 @@
     "network_policy": {
       "display_antenna_limited": true,
       "gcf_sor": true,
-      "network_type_capability": "CHC-CHC-GSM-CHN",
       "voice_network_setting_style": "SupportSoftSim"
     },
     "operator_display": {
@@ -31,7 +30,7 @@
       "mmsc": "http://mmsc.myuni.com.cn",
       "mmsport": 80,
       "mmsproxy": "10.0.0.172",
-      "name": "\u8054\u901a\u5f69\u4fe1",
+      "name": "3gwap",
       "protocol": "IPV4V6",
       "roaming_protocol": "IPV4V6",
       "types": [

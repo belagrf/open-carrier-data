@@ -15,7 +15,12 @@
       "voice_network_setting_style": "StopNetworkSearchingOnPause,DisplayRatInfoForManualSearch"
     },
     "operator_display": {
-      "five_g_icon_configuration": "connected_mmwave:5G,connected:5G,not_restricted_rrc_idle:5G,not_restricted_rrc_con:5G",
+      "five_g_icon_configuration": [
+        "connected_mmwave:5G",
+        "connected:5G",
+        "not_restricted_rrc_idle:5G",
+        "not_restricted_rrc_con:5G"
+      ],
       "refer_eons_without_lac": true
     }
   },
@@ -56,7 +61,10 @@
     }
   ],
   "android_carrier_config": {
+    "carrier_default_wfc_ims_enabled_bool": true,
+    "carrier_default_wfc_ims_mode_int": 2,
     "carrier_volte_available_bool": true,
+    "carrier_wfc_ims_available_bool": true,
     "smsToMmsTextThreshold": 5
   },
   "capabilities": {
@@ -68,10 +76,10 @@
     "video_calling": "unknown",
     "volte": "supported",
     "vonr": "unknown",
-    "vowifi": "unknown",
+    "vowifi": "supported",
     "wifi_calling_roaming": "unknown"
   },
-  "display_name": "Lebara",
+  "display_name": "Carrier 26214",
   "match": {
     "mccmnc": [
       "26214"

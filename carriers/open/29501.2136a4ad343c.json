@@ -1,7 +1,16 @@
 {
   "addons": {
+    "emergency_calling": {
+      "e911_routing_policy": "auto",
+      "emergency_dial_call_style": "EndPreviousCall"
+    },
+    "ims": {
+      "contacts_operator_style": "SWC",
+      "support_ims_clir_overriding": true
+    },
     "network_policy": {
       "display_antenna_limited": true,
+      "gcf_sor": true,
       "mobile_network_setting_menu_tokens": [
         "-voltecall"
       ],
@@ -9,7 +18,14 @@
       "network_type_capability": "EUR-EUR-GSM-EUR"
     },
     "operator_display": {
-      "five_g_icon_configuration": "connected_mmwave:5G,connected:5G,not_restricted_rrc_idle:5G,not_restricted_rrc_con:5G"
+      "five_g_icon_branding": "5GAvailable",
+      "five_g_icon_configuration": [
+        "connected_mmwave:5G",
+        "connected:5G",
+        "not_restricted_rrc_idle:5G",
+        "not_restricted_rrc_con:5G"
+      ],
+      "refer_eons_without_lac": true
     },
     "wifi_calling": {
       "show_vowifi_end_call": true
@@ -33,18 +49,10 @@
       "types": [
         "xcap"
       ]
-    },
-    {
-      "apn": "ims",
-      "name": "Swisscom IMS",
-      "protocol": "IPV4V6",
-      "roaming_protocol": "IPV4V6",
-      "types": [
-        "ims"
-      ]
     }
   ],
   "android_carrier_config": {
+    "carrier_volte_available_bool": true,
     "smsToMmsTextThreshold": 10
   },
   "capabilities": {
@@ -54,7 +62,7 @@
     "rcs": "unknown",
     "sms_over_ims": "unknown",
     "video_calling": "unknown",
-    "volte": "unknown",
+    "volte": "supported",
     "vonr": "unknown",
     "vowifi": "unknown",
     "wifi_calling_roaming": "unknown"

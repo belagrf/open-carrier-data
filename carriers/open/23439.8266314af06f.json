@@ -6,6 +6,8 @@
       "mmsport": 80,
       "mmsproxy": "164.39.236.69",
       "name": "Jump",
+      "protocol": "IP",
+      "roaming_protocol": "IP",
       "types": [
         "bip",
         "cbs",

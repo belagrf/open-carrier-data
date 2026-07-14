@@ -18,7 +18,12 @@
       "voice_network_setting_style": "StopNetworkSearchingOnPause"
     },
     "operator_display": {
-      "five_g_icon_configuration": "connected_mmwave:5G,connected:5G,not_restricted_rrc_idle:5G,not_restricted_rrc_con:5G",
+      "five_g_icon_configuration": [
+        "connected_mmwave:5G",
+        "connected:5G",
+        "not_restricted_rrc_idle:5G",
+        "not_restricted_rrc_con:5G"
+      ],
       "refer_eons_without_lac": true
     },
     "wifi_calling": {
@@ -98,16 +103,6 @@
         "ims"
       ],
       "user_visible": false
-    },
-    {
-      "apn": "ims",
-      "authtype": 1,
-      "name": "Optus IMS",
-      "protocol": "IPV6",
-      "roaming_protocol": "IPV4V6",
-      "types": [
-        "ims"
-      ]
     },
     {
       "apn": "internet",
@@ -200,18 +195,32 @@
   ],
   "android_carrier_config": {
     "allow_hold_call_during_emergency_bool": false,
-    "carrier_default_wfc_ims_enabled_bool": true,
     "carrier_default_wfc_ims_mode_int": 1,
+    "carrier_default_wfc_ims_roaming_enabled_bool": false,
     "carrier_default_wfc_ims_roaming_mode_int": 1,
+    "carrier_metered_apn_types_strings": [
+      "default",
+      "dun",
+      "supl"
+    ],
     "carrier_supports_ss_over_ut_bool": true,
     "carrier_volte_available_bool": true,
-    "carrier_wfc_ims_available_bool": true,
+    "carrier_volte_tty_supported_bool": false,
+    "editable_enhanced_4g_lte_bool": false,
+    "editable_wfc_mode_bool": true,
+    "editable_wfc_roaming_mode_bool": true,
     "enabledMMS": true,
-    "hide_enhanced_4g_lte_bool": true,
+    "enhanced_4g_lte_on_by_default_bool": true,
     "imssms.sms_over_ims_supported_bool": true,
     "is_ims_conference_size_enforced_bool": true,
     "maxMessageSize": 500000,
-    "volte_replacement_rat_int": 3
+    "read_only_apn_types_string_array": [
+      "*"
+    ],
+    "show_wifi_calling_icon_in_status_bar_bool": false,
+    "volte_replacement_rat_int": 3,
+    "wfc_data_spn_format_idx_int": 1,
+    "wfc_spn_format_idx_int": 1
   },
   "capabilities": {
     "esim": "unknown",
@@ -222,7 +231,7 @@
     "video_calling": "unknown",
     "volte": "supported",
     "vonr": "supported",
-    "vowifi": "supported",
+    "vowifi": "conditional",
     "wifi_calling_roaming": "unknown"
   },
   "display_name": "Carrier 50502",

@@ -2,32 +2,13 @@
   "android_apns": [
     {
       "apn": "imis",
-      "name": "IDEA Wap",
+      "name": "imis",
       "port": 8080,
+      "protocol": "IPV4V6",
       "proxy": "10.4.42.15",
       "types": [
         "default",
         "supl"
-      ]
-    },
-    {
-      "apn": "ims",
-      "bearer_bitmask": "14|18|20",
-      "name": "IDEA IMS",
-      "protocol": "IPV4V6",
-      "roaming_protocol": "IPV4V6",
-      "types": [
-        "ims"
-      ],
-      "user_visible": false
-    },
-    {
-      "apn": "ims",
-      "name": "Vi",
-      "protocol": "IPV4V6",
-      "roaming_protocol": "IPV4V6",
-      "types": [
-        "ims"
       ]
     },
     {
@@ -49,16 +30,6 @@
       ]
     },
     {
-      "apn": "mmsc",
-      "mmsc": "http://10.4.42.21:8002",
-      "mmsport": 8080,
-      "mmsproxy": "10.4.42.15",
-      "name": "IDEA MMS",
-      "types": [
-        "mms"
-      ]
-    },
-    {
       "apn": "mobile",
       "name": "IDEA Mobile",
       "types": [
@@ -68,12 +39,16 @@
     }
   ],
   "android_carrier_config": {
-    "allow_hold_call_during_emergency_bool": false,
+    "carrier_default_wfc_ims_enabled_bool": true,
     "carrier_default_wfc_ims_roaming_enabled_bool": true,
+    "carrier_default_wfc_ims_roaming_mode_int": 2,
     "carrier_volte_available_bool": true,
-    "carrier_wfc_ims_available_bool": true,
+    "carrier_volte_tty_supported_bool": false,
+    "editable_wfc_mode_bool": false,
     "editable_wfc_roaming_mode_bool": true,
-    "hide_enhanced_4g_lte_bool": true,
+    "enhanced_4g_lte_on_by_default_bool": true,
+    "hide_ims_apn_bool": true,
+    "ignore_data_enabled_changed_for_video_calls": true,
     "is_ims_conference_size_enforced_bool": true,
     "wfc_spn_format_idx_int": 1
   },
@@ -83,10 +58,10 @@
     "mms": "supported",
     "rcs": "unknown",
     "sms_over_ims": "unknown",
-    "video_calling": "unknown",
+    "video_calling": "conditional",
     "volte": "supported",
     "vonr": "unknown",
-    "vowifi": "supported",
+    "vowifi": "conditional",
     "wifi_calling_roaming": "supported"
   },
   "display_name": "Carrier 40456",

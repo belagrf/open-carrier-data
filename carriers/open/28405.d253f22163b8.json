@@ -12,7 +12,12 @@
       "network_type_capability": "EUR-EUR-GSM-EUR"
     },
     "operator_display": {
-      "five_g_icon_configuration": "connected_mmwave:5G,connected:5G,not_restricted_rrc_idle:NONE,not_restricted_rrc_con:NONE",
+      "five_g_icon_configuration": [
+        "connected_mmwave:5G",
+        "connected:5G",
+        "not_restricted_rrc_idle:NONE",
+        "not_restricted_rrc_con:NONE"
+      ],
       "refer_eons_without_lac": true
     }
   },
@@ -96,13 +101,27 @@
         "supl"
       ],
       "user": "telenor"
+    },
+    {
+      "apn": "telenorbg",
+      "authtype": 0,
+      "name": "Telenor Internet",
+      "types": [
+        "default",
+        "supl"
+      ]
     }
   ],
   "android_carrier_config": {
+    "carrier_default_wfc_ims_enabled_bool": false,
+    "carrier_default_wfc_ims_mode_int": 1,
     "carrier_volte_available_bool": true,
     "carrier_vt_available_bool": true,
+    "carrier_wfc_ims_available_bool": false,
+    "editable_wfc_mode_bool": true,
+    "enableGroupMms": false,
     "enabledMMS": true,
-    "hide_enhanced_4g_lte_bool": true,
+    "enhanced_4g_lte_on_by_default_bool": true,
     "maxMessageSize": 307200
   },
   "capabilities": {
@@ -114,7 +133,7 @@
     "video_calling": "supported",
     "volte": "supported",
     "vonr": "unknown",
-    "vowifi": "unknown",
+    "vowifi": "unsupported",
     "wifi_calling_roaming": "unknown"
   },
   "display_name": "Carrier 28405",

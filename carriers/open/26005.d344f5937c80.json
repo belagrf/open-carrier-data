@@ -1,0 +1,33 @@
+{
+  "android_carrier_config": {
+    "carrier_default_wfc_ims_mode_int": 10,
+    "carrier_default_wfc_ims_roaming_mode_int": 1,
+    "carrier_volte_available_bool": true,
+    "carrier_vt_available_bool": true,
+    "carrier_wfc_ims_available_bool": true,
+    "editable_wfc_mode_bool": true,
+    "editable_wfc_roaming_mode_bool": true,
+    "video_calls_can_be_hd_audio": true,
+    "wifi_calls_can_be_hd_audio": true
+  },
+  "capabilities": {
+    "esim": "unknown",
+    "ims_conference": "unknown",
+    "mms": "unknown",
+    "rcs": "unknown",
+    "sms_over_ims": "unknown",
+    "video_calling": "supported",
+    "volte": "supported",
+    "vonr": "unknown",
+    "vowifi": "supported",
+    "wifi_calling_roaming": "unknown"
+  },
+  "display_name": "LineageOS 26005",
+  "match": {
+    "mccmnc": [
+      "26005"
+    ]
+  },
+  "profile_id": "open.26005.d344f5937c80",
+  "schema_version": 1
+}

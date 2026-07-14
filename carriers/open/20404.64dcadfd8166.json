@@ -5,6 +5,7 @@
       "mmsc": "http://wholesale.mmsmvno.com/mms/wapenc",
       "name": "Vodafone US",
       "protocol": "IPV6",
+      "roaming_protocol": "IP",
       "types": [
         "default",
         "dun",

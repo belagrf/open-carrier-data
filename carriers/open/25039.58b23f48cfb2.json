@@ -43,6 +43,9 @@
       ]
     }
   ],
+  "android_carrier_config": {
+    "smsToMmsTextThreshold": 10
+  },
   "capabilities": {
     "esim": "unknown",
     "ims_conference": "unknown",
