@@ -163,7 +163,7 @@ def validate_source_catalogs(path: Path, device_id: str, value: Any) -> None:
             or source <= previous_source
         ):
             raise ValidationError(f"{path}: source catalogs are invalid or unsorted")
-        if item["match_kind"] != "exact_model":
+        if item["match_kind"] not in {"exact_device_id", "exact_model"}:
             raise ValidationError(f"{path}: invalid source match kind for {device_id}")
         validate_string_array(path, "matched identifiers", item["matched_identifiers"])
         counts = [

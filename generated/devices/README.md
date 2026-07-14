@@ -43,6 +43,9 @@ carrier extraction. Unrecognized present or future families remain
 One device can be listed by more than one maintained inventory. Such records
 merge only when their canonical device ID is identical, and
 `inventory_sources` keeps each source's current or historical state visible.
+Android artifact and discovery records may link directly through that canonical
+ID. `match_kind: exact_device_id` means the maintained source adapter supplied
+that exact link; it does not rely on a similar marketing name or fuzzy alias.
 
 Use the schemas under `schemas/` and run:
 
