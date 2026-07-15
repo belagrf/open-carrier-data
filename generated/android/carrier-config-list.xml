@@ -18103,7 +18103,7 @@
     <boolean name="show_ims_registration_status_bool" value="true" />
   </carrier_config>
   <!-- open.20801.c047facbbdbe -->
-  <carrier_config mcc="208" mnc="01" name="Rakuten Jp" spn="\QRakuten\E">
+  <carrier_config mcc="208" mnc="01" name="Rakuten" spn="\QRakuten\E">
     <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
     <boolean name="carrier_volte_available_bool" value="true" />
     <boolean name="carrier_volte_provisioning_required_bool" value="false" />
@@ -36817,6 +36817,16 @@
     <int name="recipientLimit" value="-1" />
     <int name="volte_replacement_rat_int" value="3" />
   </carrier_config>
+  <!-- open.44010.75046ee534a1 -->
+  <carrier_config mcc="440" mnc="10" name="NTT DOCOMO" spn="\QNTT DOCOMO\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="enabledMMS" value="false" />
+  </carrier_config>
+  <!-- open.44011.1fbd5626537d -->
+  <carrier_config mcc="440" mnc="11" name="Rakuten" spn="\QRakuten\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="enabledMMS" value="false" />
+  </carrier_config>
   <!-- open.44011.cd3bd8523d33 -->
   <carrier_config cid="2109" mcc="440" mnc="11" name="Rakuten Mobile">
     <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
@@ -36827,6 +36837,11 @@
     <int name="maxImageHeight" value="1944" />
     <int name="maxImageWidth" value="2592" />
     <int name="maxMessageSize" value="2097152" />
+  </carrier_config>
+  <!-- open.44020.caac61f52f1a -->
+  <carrier_config mcc="440" mnc="20" name="SOFTBANK" spn="\QSOFTBANK\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+    <boolean name="enabledMMS" value="false" />
   </carrier_config>
   <!-- open.44020.a813f274ed8a -->
   <carrier_config cid="1894" mcc="440" mnc="20" name="SoftBank">
@@ -36862,6 +36877,26 @@
     <string-array name="read_only_apn_types_string_array" num="0">
     </string-array>
   </carrier_config>
+  <!-- open.44051.fbb3488a6812 -->
+  <carrier_config mcc="440" mnc="51" name="J:COM MOBILE" spn="\QJ:COM MOBILE\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.44051.cb45547aede5 -->
+  <carrier_config mcc="440" mnc="51" name="KDDI For DATA" spn="\QKDDI For DATA\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.44051.e68f3bd5d5fd -->
+  <carrier_config mcc="440" mnc="51" name="KDDI" spn="\QKDDI\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.44051.db93825e2271 -->
+  <carrier_config mcc="440" mnc="51" name="UQ Mobile" spn="\QUQ Mobile\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.44051.f71601b2c727 -->
+  <carrier_config mcc="440" mnc="51" name="povo" spn="\Qpovo\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
   <!-- open.44050.b4d7d5bd51ef -->
   <carrier_config cid="1581" mcc="440" mnc="51" name="au">
     <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
@@ -36869,6 +36904,26 @@
   <!-- open.44050.b4d7d5bd51ef -->
   <carrier_config cid="1581" mcc="440" mnc="52" name="au">
     <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
+  </carrier_config>
+  <!-- open.44054.1d09ef711221 -->
+  <carrier_config mcc="440" mnc="54" name="J:COM MOBILE" spn="\QJ:COM MOBILE\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.44054.13ec42860f86 -->
+  <carrier_config mcc="440" mnc="54" name="KDDI For DATA" spn="\QKDDI For DATA\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.44054.8889ff0a0e6c -->
+  <carrier_config mcc="440" mnc="54" name="KDDI" spn="\QKDDI\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.44054.d1c38813e4f7 -->
+  <carrier_config mcc="440" mnc="54" name="UQ Mobile SA" spn="\QUQ Mobile SA\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
+  </carrier_config>
+  <!-- open.44054.f6eb88a4980e -->
+  <carrier_config mcc="440" mnc="54" name="povo" spn="\Qpovo\E">
+    <boolean name="carrier_volte_available_bool" value="true" />
   </carrier_config>
   <!-- open.44100.b07a90fc302f -->
   <carrier_config cid="2411" mcc="441" mnc="00" name="Wireless City Planning">

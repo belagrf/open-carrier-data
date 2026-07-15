@@ -1566,7 +1566,7 @@
       "profile_id": "open.20801.bf22460aff66"
     },
     {
-      "display_name": "Rakuten Jp",
+      "display_name": "Rakuten",
       "path": "carriers/open/20801.c047facbbdbe.json",
       "profile_id": "open.20801.c047facbbdbe"
     },
@@ -26956,6 +26956,11 @@
       "profile_id": "open.44010.46376b2a83cb"
     },
     {
+      "display_name": "NTT DOCOMO",
+      "path": "carriers/open/44010.75046ee534a1.json",
+      "profile_id": "open.44010.75046ee534a1"
+    },
+    {
       "display_name": "Docomo Jp",
       "path": "carriers/open/44010.76eb9fef8bdd.json",
       "profile_id": "open.44010.76eb9fef8bdd"
@@ -26979,6 +26984,11 @@
       "display_name": "Carrier 44011",
       "path": "carriers/open/44011.123684a4dc34.json",
       "profile_id": "open.44011.123684a4dc34"
+    },
+    {
+      "display_name": "Rakuten",
+      "path": "carriers/open/44011.1fbd5626537d.json",
+      "profile_id": "open.44011.1fbd5626537d"
     },
     {
       "display_name": "Rakuten Mobile(MNO)",
@@ -27054,6 +27064,11 @@
       "display_name": "\u30ef\u30a4\u30e2\u30d0\u30a4\u30eb",
       "path": "carriers/open/44020.b4d7481ef213.json",
       "profile_id": "open.44020.b4d7481ef213"
+    },
+    {
+      "display_name": "SOFTBANK",
+      "path": "carriers/open/44020.caac61f52f1a.json",
+      "profile_id": "open.44020.caac61f52f1a"
     },
     {
       "display_name": "Carrier 44021",
@@ -27261,6 +27276,16 @@
       "profile_id": "open.44051.b8bd6c266348"
     },
     {
+      "display_name": "KDDI For DATA",
+      "path": "carriers/open/44051.cb45547aede5.json",
+      "profile_id": "open.44051.cb45547aede5"
+    },
+    {
+      "display_name": "UQ Mobile",
+      "path": "carriers/open/44051.db93825e2271.json",
+      "profile_id": "open.44051.db93825e2271"
+    },
+    {
       "display_name": "Kddi Jp",
       "path": "carriers/open/44051.dc16892ada47.json",
       "profile_id": "open.44051.dc16892ada47"
@@ -27269,6 +27294,11 @@
       "display_name": "UQ mobile",
       "path": "carriers/open/44051.e2c88154c872.json",
       "profile_id": "open.44051.e2c88154c872"
+    },
+    {
+      "display_name": "KDDI",
+      "path": "carriers/open/44051.e68f3bd5d5fd.json",
+      "profile_id": "open.44051.e68f3bd5d5fd"
     },
     {
       "display_name": "Uqmobile Jp",
@@ -27282,8 +27312,18 @@
     },
     {
       "display_name": "povo",
+      "path": "carriers/open/44051.f71601b2c727.json",
+      "profile_id": "open.44051.f71601b2c727"
+    },
+    {
+      "display_name": "povo",
       "path": "carriers/open/44051.fa0d804f6c63.json",
       "profile_id": "open.44051.fa0d804f6c63"
+    },
+    {
+      "display_name": "J:COM MOBILE",
+      "path": "carriers/open/44051.fbb3488a6812.json",
+      "profile_id": "open.44051.fbb3488a6812"
     },
     {
       "display_name": "Carrier 44052",
@@ -27294,6 +27334,16 @@
       "display_name": "Carrier 44053",
       "path": "carriers/open/44053.0ddfb7f4d177.json",
       "profile_id": "open.44053.0ddfb7f4d177"
+    },
+    {
+      "display_name": "KDDI For DATA",
+      "path": "carriers/open/44054.13ec42860f86.json",
+      "profile_id": "open.44054.13ec42860f86"
+    },
+    {
+      "display_name": "J:COM MOBILE",
+      "path": "carriers/open/44054.1d09ef711221.json",
+      "profile_id": "open.44054.1d09ef711221"
     },
     {
       "display_name": "Kddi Jp",
@@ -27311,9 +27361,24 @@
       "profile_id": "open.44054.74ac6696b6e8"
     },
     {
+      "display_name": "KDDI",
+      "path": "carriers/open/44054.8889ff0a0e6c.json",
+      "profile_id": "open.44054.8889ff0a0e6c"
+    },
+    {
       "display_name": "Carrier 44054",
       "path": "carriers/open/44054.b1f26ab8773e.json",
       "profile_id": "open.44054.b1f26ab8773e"
+    },
+    {
+      "display_name": "UQ Mobile SA",
+      "path": "carriers/open/44054.d1c38813e4f7.json",
+      "profile_id": "open.44054.d1c38813e4f7"
+    },
+    {
+      "display_name": "povo",
+      "path": "carriers/open/44054.f6eb88a4980e.json",
+      "profile_id": "open.44054.f6eb88a4980e"
     },
     {
       "display_name": "Carrier 44055",

@@ -1,8 +1,8 @@
 {
   "artifact_registries": {
     "android_carrier_source_artifacts": {
-      "artifact_count": 8590,
-      "extracted_count": 1144,
+      "artifact_count": 8592,
+      "extracted_count": 1146,
       "failed_count": 0,
       "indexed_count": 7446,
       "quarantined_count": 12
@@ -19,17 +19,17 @@
   "generated_from_checks_through": "2026-07-15",
   "platforms": {
     "android": {
-      "carrier_artifact_match_count": 3758,
+      "carrier_artifact_match_count": 3760,
       "carrier_data_coverage_counts": {
-        "carrier_data_not_applicable": 6,
-        "exact_carrier_data_observed": 256,
-        "exact_source_extracted": 443,
+        "carrier_data_not_applicable": 8,
+        "exact_carrier_data_observed": 257,
+        "exact_source_extracted": 444,
         "exact_source_indexed": 3059,
         "inventory_only": 37770,
-        "platform_out_of_scope": 52,
-        "source_checked_no_artifact": 1369,
-        "source_discovery_in_progress": 609,
-        "source_not_queryable": 74,
+        "platform_out_of_scope": 53,
+        "source_checked_no_artifact": 1365,
+        "source_discovery_in_progress": 610,
+        "source_not_queryable": 72,
         "source_terms_restrict_extraction": 6
       },
       "carrier_data_coverage_counts_by_brand": {
@@ -854,8 +854,8 @@
         },
         "Asus": {
           "exact_carrier_data_observed": 8,
-          "exact_source_extracted": 38,
-          "exact_source_indexed": 6,
+          "exact_source_extracted": 39,
+          "exact_source_indexed": 5,
           "inventory_only": 176,
           "source_checked_no_artifact": 142,
           "source_discovery_in_progress": 1
@@ -3711,12 +3711,12 @@
           "inventory_only": 1
         },
         "Google": {
-          "carrier_data_not_applicable": 6,
+          "carrier_data_not_applicable": 8,
           "exact_carrier_data_observed": 31,
           "exact_source_extracted": 3,
-          "platform_out_of_scope": 52,
-          "source_checked_no_artifact": 47,
-          "source_discovery_in_progress": 1,
+          "platform_out_of_scope": 53,
+          "source_checked_no_artifact": 43,
+          "source_discovery_in_progress": 2,
           "source_not_queryable": 2,
           "source_terms_restrict_extraction": 6
         },
@@ -8259,11 +8259,11 @@
           "inventory_only": 2
         },
         "Samsung": {
-          "exact_carrier_data_observed": 164,
+          "exact_carrier_data_observed": 165,
           "exact_source_extracted": 141,
-          "exact_source_indexed": 1042,
+          "exact_source_indexed": 1043,
           "source_checked_no_artifact": 722,
-          "source_not_queryable": 72
+          "source_not_queryable": 70
         },
         "Samtech": {
           "inventory_only": 7
@@ -11645,7 +11645,7 @@
           "inventory_only": 13
         }
       },
-      "carrier_observation_match_count": 256,
+      "carrier_observation_match_count": 257,
       "carrier_source_discovery_match_count": 5874,
       "device_count": 43644,
       "historical_device_count": 76,
@@ -15537,6 +15537,20 @@
       "url": "https://www.asus.com/support/"
     },
     {
+      "checked_at": "2026-07-15",
+      "name": "google_pixel_c_official_specs",
+      "revision": "4ae63861b095e26674b1bddacb21e939b693b728d4a2f4cc4304e2f04a82f145",
+      "revision_date": "2026-07-15",
+      "url": "https://support.google.com/pixel/answer/6328677?hl=en"
+    },
+    {
+      "checked_at": "2026-07-15",
+      "name": "google_pixel_tablet_official_specs",
+      "revision": "2f9b7187288e6686ef89a2cc1d4dbd9e6cae2c271ab14a8d0c667b4c89e60611",
+      "revision_date": "2026-07-15",
+      "url": "https://support.google.com/googlepixeltablet/answer/13555146?hl=en"
+    },
+    {
       "checked_at": "2026-07-14",
       "name": "google_pixel_vendor_carriersettings",
       "revision": "c8fd77039282684e55950805cac5ed38a9c2a37bf4fb52819a01aad48857bf30",
@@ -15595,7 +15609,7 @@
     {
       "checked_at": "2026-07-15",
       "name": "samsung_firmware_update_service",
-      "revision": "550ee4c705cf1129034200cd5703d9c0680890583d69955e7630e16dd32bf592",
+      "revision": "954e8dd9b818416b47b3ed73e5df02f61c50acbe3d1a6637fbd650126bb11b60",
       "revision_date": "2026-07-15",
       "url": "https://neofussvr.sslcs.cdngc.net/NF_SmartDownloadBinaryInform.do"
     },
