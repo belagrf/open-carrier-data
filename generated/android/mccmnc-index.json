@@ -4380,7 +4380,7 @@
         "specificity": 1
       },
       {
-        "display_name": "Rakuten Jp",
+        "display_name": "Rakuten",
         "match": {
           "mccmnc": [
             "20801"
@@ -87861,6 +87861,20 @@
         "specificity": 0
       },
       {
+        "display_name": "NTT DOCOMO",
+        "match": {
+          "mccmnc": [
+            "44010"
+          ],
+          "spn": [
+            "NTT DOCOMO"
+          ]
+        },
+        "path": "carriers/open/44010.75046ee534a1.json",
+        "profile_id": "open.44010.75046ee534a1",
+        "specificity": 1
+      },
+      {
         "display_name": "Docomo Jp",
         "match": {
           "gid1_prefixes": [
@@ -87935,6 +87949,20 @@
         "path": "carriers/open/44011.123684a4dc34.json",
         "profile_id": "open.44011.123684a4dc34",
         "specificity": 0
+      },
+      {
+        "display_name": "Rakuten",
+        "match": {
+          "mccmnc": [
+            "44011"
+          ],
+          "spn": [
+            "Rakuten"
+          ]
+        },
+        "path": "carriers/open/44011.1fbd5626537d.json",
+        "profile_id": "open.44011.1fbd5626537d",
+        "specificity": 1
       },
       {
         "display_name": "Rakuten Mobile(MNO)",
@@ -88135,6 +88163,20 @@
         },
         "path": "carriers/open/44020.b4d7481ef213.json",
         "profile_id": "open.44020.b4d7481ef213",
+        "specificity": 1
+      },
+      {
+        "display_name": "SOFTBANK",
+        "match": {
+          "mccmnc": [
+            "44020"
+          ],
+          "spn": [
+            "SOFTBANK"
+          ]
+        },
+        "path": "carriers/open/44020.caac61f52f1a.json",
+        "profile_id": "open.44020.caac61f52f1a",
         "specificity": 1
       }
     ],
@@ -88715,6 +88757,34 @@
         "specificity": 1
       },
       {
+        "display_name": "KDDI For DATA",
+        "match": {
+          "mccmnc": [
+            "44051"
+          ],
+          "spn": [
+            "KDDI For DATA"
+          ]
+        },
+        "path": "carriers/open/44051.cb45547aede5.json",
+        "profile_id": "open.44051.cb45547aede5",
+        "specificity": 1
+      },
+      {
+        "display_name": "UQ Mobile",
+        "match": {
+          "mccmnc": [
+            "44051"
+          ],
+          "spn": [
+            "UQ Mobile"
+          ]
+        },
+        "path": "carriers/open/44051.db93825e2271.json",
+        "profile_id": "open.44051.db93825e2271",
+        "specificity": 1
+      },
+      {
         "display_name": "Kddi Jp",
         "match": {
           "gid1_prefixes": [
@@ -88729,6 +88799,20 @@
         "specificity": 1
       },
       {
+        "display_name": "KDDI",
+        "match": {
+          "mccmnc": [
+            "44051"
+          ],
+          "spn": [
+            "KDDI"
+          ]
+        },
+        "path": "carriers/open/44051.e68f3bd5d5fd.json",
+        "profile_id": "open.44051.e68f3bd5d5fd",
+        "specificity": 1
+      },
+      {
         "display_name": "Uqmobile Jp",
         "match": {
           "gid1_prefixes": [
@@ -88740,6 +88824,34 @@
         },
         "path": "carriers/open/44051.ee5aed0ef221.json",
         "profile_id": "open.44051.ee5aed0ef221",
+        "specificity": 1
+      },
+      {
+        "display_name": "povo",
+        "match": {
+          "mccmnc": [
+            "44051"
+          ],
+          "spn": [
+            "povo"
+          ]
+        },
+        "path": "carriers/open/44051.f71601b2c727.json",
+        "profile_id": "open.44051.f71601b2c727",
+        "specificity": 1
+      },
+      {
+        "display_name": "J:COM MOBILE",
+        "match": {
+          "mccmnc": [
+            "44051"
+          ],
+          "spn": [
+            "J:COM MOBILE"
+          ]
+        },
+        "path": "carriers/open/44051.fbb3488a6812.json",
+        "profile_id": "open.44051.fbb3488a6812",
         "specificity": 1
       },
       {
@@ -88947,6 +89059,34 @@
         "specificity": 0
       },
       {
+        "display_name": "KDDI For DATA",
+        "match": {
+          "mccmnc": [
+            "44054"
+          ],
+          "spn": [
+            "KDDI For DATA"
+          ]
+        },
+        "path": "carriers/open/44054.13ec42860f86.json",
+        "profile_id": "open.44054.13ec42860f86",
+        "specificity": 1
+      },
+      {
+        "display_name": "J:COM MOBILE",
+        "match": {
+          "mccmnc": [
+            "44054"
+          ],
+          "spn": [
+            "J:COM MOBILE"
+          ]
+        },
+        "path": "carriers/open/44054.1d09ef711221.json",
+        "profile_id": "open.44054.1d09ef711221",
+        "specificity": 1
+      },
+      {
         "display_name": "Kddi Jp",
         "match": {
           "gid1_prefixes": [
@@ -88986,6 +89126,48 @@
         },
         "path": "carriers/open/44054.74ac6696b6e8.json",
         "profile_id": "open.44054.74ac6696b6e8",
+        "specificity": 1
+      },
+      {
+        "display_name": "KDDI",
+        "match": {
+          "mccmnc": [
+            "44054"
+          ],
+          "spn": [
+            "KDDI"
+          ]
+        },
+        "path": "carriers/open/44054.8889ff0a0e6c.json",
+        "profile_id": "open.44054.8889ff0a0e6c",
+        "specificity": 1
+      },
+      {
+        "display_name": "UQ Mobile SA",
+        "match": {
+          "mccmnc": [
+            "44054"
+          ],
+          "spn": [
+            "UQ Mobile SA"
+          ]
+        },
+        "path": "carriers/open/44054.d1c38813e4f7.json",
+        "profile_id": "open.44054.d1c38813e4f7",
+        "specificity": 1
+      },
+      {
+        "display_name": "povo",
+        "match": {
+          "mccmnc": [
+            "44054"
+          ],
+          "spn": [
+            "povo"
+          ]
+        },
+        "path": "carriers/open/44054.f6eb88a4980e.json",
+        "profile_id": "open.44054.f6eb88a4980e",
         "specificity": 1
       },
       {

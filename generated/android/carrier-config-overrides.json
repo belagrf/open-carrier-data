@@ -5220,7 +5220,7 @@
         "maxImageWidth": 2592,
         "maxMessageSize": 2097152
       },
-      "display_name": "Rakuten Jp",
+      "display_name": "Rakuten",
       "match": {
         "mccmnc": [
           "20801"
@@ -92603,6 +92603,22 @@
     },
     {
       "android_carrier_config": {
+        "carrier_volte_available_bool": true,
+        "enabledMMS": false
+      },
+      "display_name": "NTT DOCOMO",
+      "match": {
+        "mccmnc": [
+          "44010"
+        ],
+        "spn": [
+          "NTT DOCOMO"
+        ]
+      },
+      "profile_id": "open.44010.75046ee534a1"
+    },
+    {
+      "android_carrier_config": {
         "allow_hold_call_during_emergency_bool": false,
         "carrier_volte_available_bool": true,
         "enabledMMS": false,
@@ -92726,6 +92742,22 @@
         ]
       },
       "profile_id": "open.44011.123684a4dc34"
+    },
+    {
+      "android_carrier_config": {
+        "carrier_volte_available_bool": true,
+        "enabledMMS": false
+      },
+      "display_name": "Rakuten",
+      "match": {
+        "mccmnc": [
+          "44011"
+        ],
+        "spn": [
+          "Rakuten"
+        ]
+      },
+      "profile_id": "open.44011.1fbd5626537d"
     },
     {
       "android_carrier_config": {
@@ -92879,6 +92911,22 @@
         ]
       },
       "profile_id": "open.44020.b4d7481ef213"
+    },
+    {
+      "android_carrier_config": {
+        "carrier_volte_available_bool": true,
+        "enabledMMS": false
+      },
+      "display_name": "SOFTBANK",
+      "match": {
+        "mccmnc": [
+          "44020"
+        ],
+        "spn": [
+          "SOFTBANK"
+        ]
+      },
+      "profile_id": "open.44020.caac61f52f1a"
     },
     {
       "android_carrier_config": {
@@ -93156,6 +93204,36 @@
     },
     {
       "android_carrier_config": {
+        "carrier_volte_available_bool": true
+      },
+      "display_name": "KDDI For DATA",
+      "match": {
+        "mccmnc": [
+          "44051"
+        ],
+        "spn": [
+          "KDDI For DATA"
+        ]
+      },
+      "profile_id": "open.44051.cb45547aede5"
+    },
+    {
+      "android_carrier_config": {
+        "carrier_volte_available_bool": true
+      },
+      "display_name": "UQ Mobile",
+      "match": {
+        "mccmnc": [
+          "44051"
+        ],
+        "spn": [
+          "UQ Mobile"
+        ]
+      },
+      "profile_id": "open.44051.db93825e2271"
+    },
+    {
+      "android_carrier_config": {
         "carrier_supports_ss_over_ut_bool": true,
         "carrier_volte_available_bool": true,
         "disable_dun_apn_while_roaming_with_preset_apn_bool": true,
@@ -93199,6 +93277,21 @@
         ]
       },
       "profile_id": "open.44051.e2c88154c872"
+    },
+    {
+      "android_carrier_config": {
+        "carrier_volte_available_bool": true
+      },
+      "display_name": "KDDI",
+      "match": {
+        "mccmnc": [
+          "44051"
+        ],
+        "spn": [
+          "KDDI"
+        ]
+      },
+      "profile_id": "open.44051.e68f3bd5d5fd"
     },
     {
       "android_carrier_config": {
@@ -93261,6 +93354,21 @@
     },
     {
       "android_carrier_config": {
+        "carrier_volte_available_bool": true
+      },
+      "display_name": "povo",
+      "match": {
+        "mccmnc": [
+          "44051"
+        ],
+        "spn": [
+          "povo"
+        ]
+      },
+      "profile_id": "open.44051.f71601b2c727"
+    },
+    {
+      "android_carrier_config": {
         "carrier_supports_ss_over_ut_bool": true,
         "disable_dun_apn_while_roaming_with_preset_apn_bool": true
       },
@@ -93278,6 +93386,21 @@
         ]
       },
       "profile_id": "open.44051.fa0d804f6c63"
+    },
+    {
+      "android_carrier_config": {
+        "carrier_volte_available_bool": true
+      },
+      "display_name": "J:COM MOBILE",
+      "match": {
+        "mccmnc": [
+          "44051"
+        ],
+        "spn": [
+          "J:COM MOBILE"
+        ]
+      },
+      "profile_id": "open.44051.fbb3488a6812"
     },
     {
       "android_carrier_config": {
@@ -93319,6 +93442,36 @@
         ]
       },
       "profile_id": "open.44053.0ddfb7f4d177"
+    },
+    {
+      "android_carrier_config": {
+        "carrier_volte_available_bool": true
+      },
+      "display_name": "KDDI For DATA",
+      "match": {
+        "mccmnc": [
+          "44054"
+        ],
+        "spn": [
+          "KDDI For DATA"
+        ]
+      },
+      "profile_id": "open.44054.13ec42860f86"
+    },
+    {
+      "android_carrier_config": {
+        "carrier_volte_available_bool": true
+      },
+      "display_name": "J:COM MOBILE",
+      "match": {
+        "mccmnc": [
+          "44054"
+        ],
+        "spn": [
+          "J:COM MOBILE"
+        ]
+      },
+      "profile_id": "open.44054.1d09ef711221"
     },
     {
       "android_carrier_config": {
@@ -93402,6 +93555,21 @@
     },
     {
       "android_carrier_config": {
+        "carrier_volte_available_bool": true
+      },
+      "display_name": "KDDI",
+      "match": {
+        "mccmnc": [
+          "44054"
+        ],
+        "spn": [
+          "KDDI"
+        ]
+      },
+      "profile_id": "open.44054.8889ff0a0e6c"
+    },
+    {
+      "android_carrier_config": {
         "carrier_default_wfc_ims_roaming_enabled_bool": false,
         "carrier_volte_available_bool": true,
         "editable_enhanced_4g_lte_bool": false,
@@ -93423,6 +93591,36 @@
         ]
       },
       "profile_id": "open.44054.b1f26ab8773e"
+    },
+    {
+      "android_carrier_config": {
+        "carrier_volte_available_bool": true
+      },
+      "display_name": "UQ Mobile SA",
+      "match": {
+        "mccmnc": [
+          "44054"
+        ],
+        "spn": [
+          "UQ Mobile SA"
+        ]
+      },
+      "profile_id": "open.44054.d1c38813e4f7"
+    },
+    {
+      "android_carrier_config": {
+        "carrier_volte_available_bool": true
+      },
+      "display_name": "povo",
+      "match": {
+        "mccmnc": [
+          "44054"
+        ],
+        "spn": [
+          "povo"
+        ]
+      },
+      "profile_id": "open.44054.f6eb88a4980e"
     },
     {
       "android_carrier_config": {

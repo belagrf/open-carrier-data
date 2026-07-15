@@ -1,4 +1,22 @@
 {
+  "addons": {
+    "emergency_calling": {
+      "e911_routing_policy": "auto"
+    },
+    "network_policy": {
+      "gcf_sor": true,
+      "mobile_network_setting_menu_tokens": [
+        "-voltecall",
+        "+autoSwitchNr5gMode"
+      ],
+      "network_selection_menu_style": "NUMERIC",
+      "network_type_capability": "SJP-SJP-GSM-JPN"
+    },
+    "operator_display": {
+      "five_g_icon_branding": "UseOneShapedIcon",
+      "indicator_icon_branding": "XJP"
+    }
+  },
   "android_apns": [
     {
       "apn": "ims",
@@ -24,7 +42,7 @@
     {
       "apn": "rakuten.jp",
       "mmsc": "https://mms.rakuten.jp:8443/mmsc",
-      "name": "Internet",
+      "name": "rakuten.jp",
       "protocol": "IPV4V6",
       "roaming_protocol": "IPV4V6",
       "types": [
@@ -77,7 +95,7 @@
     "vowifi": "unsupported",
     "wifi_calling_roaming": "unknown"
   },
-  "display_name": "Rakuten Jp",
+  "display_name": "Rakuten",
   "match": {
     "mccmnc": [
       "20801"
