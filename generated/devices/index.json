@@ -16,18 +16,21 @@
     }
   },
   "description": "Device discovery and carrier-artifact coverage. Listing a device or matching an artifact scope does not claim that every carrier feature works on it.",
-  "generated_from_checks_through": "2026-07-14",
+  "generated_from_checks_through": "2026-07-15",
   "platforms": {
     "android": {
       "carrier_artifact_match_count": 3391,
       "carrier_data_coverage_counts": {
+        "carrier_data_not_applicable": 6,
         "exact_carrier_data_observed": 255,
         "exact_source_extracted": 443,
         "exact_source_indexed": 2693,
-        "inventory_only": 37837,
+        "inventory_only": 37770,
+        "platform_out_of_scope": 52,
         "source_checked_no_artifact": 1337,
-        "source_discovery_in_progress": 1007,
-        "source_not_queryable": 72
+        "source_discovery_in_progress": 1008,
+        "source_not_queryable": 74,
+        "source_terms_restrict_extraction": 6
       },
       "carrier_data_coverage_counts_by_brand": {
         "(not provided by source)": {
@@ -3708,10 +3711,14 @@
           "inventory_only": 1
         },
         "Google": {
+          "carrier_data_not_applicable": 6,
           "exact_carrier_data_observed": 31,
           "exact_source_extracted": 3,
-          "inventory_only": 67,
-          "source_checked_no_artifact": 47
+          "platform_out_of_scope": 52,
+          "source_checked_no_artifact": 47,
+          "source_discovery_in_progress": 1,
+          "source_not_queryable": 2,
+          "source_terms_restrict_extraction": 6
         },
         "Gowin": {
           "inventory_only": 1
@@ -11641,7 +11648,7 @@
         }
       },
       "carrier_observation_match_count": 255,
-      "carrier_source_discovery_match_count": 5807,
+      "carrier_source_discovery_match_count": 5874,
       "device_count": 43644,
       "historical_device_count": 76,
       "present_device_count": 43568,
@@ -15537,6 +15544,20 @@
       "revision": "c8fd77039282684e55950805cac5ed38a9c2a37bf4fb52819a01aad48857bf30",
       "revision_date": "2026-03-28",
       "url": "https://github.com/TheMuppets"
+    },
+    {
+      "checked_at": "2026-07-15",
+      "name": "google_pixel_watch_official_images",
+      "revision": "c11ff907de7626bf55183bdd57bede28169971165f669497d594391d209c0ff0",
+      "revision_date": "2026-06-16",
+      "url": "https://developers.google.cn/android/ota-watch?hl=en"
+    },
+    {
+      "checked_at": "2026-07-13",
+      "name": "google_play_device_coverage_dispatch",
+      "revision": "750653d57d90c290e6d689614b4bc2e0070e70586a099400c60a7e3e851e98dc",
+      "revision_date": "2026-07-13",
+      "url": "https://storage.googleapis.com/play_public/supported_devices.csv"
     },
     {
       "checked_at": "2026-07-13",
