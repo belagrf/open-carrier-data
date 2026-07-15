@@ -25,12 +25,12 @@
         "exact_carrier_data_observed": 259,
         "exact_source_extracted": 446,
         "exact_source_indexed": 3057,
-        "inventory_only": 36823,
+        "inventory_only": 36221,
         "platform_out_of_scope": 53,
-        "source_checked_no_artifact": 1354,
+        "source_checked_no_artifact": 1282,
         "source_discovery_in_progress": 610,
         "source_not_queryable": 72,
-        "source_terms_restrict_extraction": 962
+        "source_terms_restrict_extraction": 1636
       },
       "carrier_data_coverage_counts_by_brand": {
         "(not provided by source)": {
@@ -5183,8 +5183,7 @@
         "LGE": {
           "exact_carrier_data_observed": 2,
           "exact_source_extracted": 31,
-          "inventory_only": 602,
-          "source_checked_no_artifact": 72
+          "source_terms_restrict_extraction": 674
         },
         "LGU+": {
           "inventory_only": 12
@@ -11645,7 +11644,7 @@
         }
       },
       "carrier_observation_match_count": 259,
-      "carrier_source_discovery_match_count": 6821,
+      "carrier_source_discovery_match_count": 7423,
       "device_count": 43644,
       "historical_device_count": 76,
       "present_device_count": 43568,
@@ -15590,6 +15589,13 @@
       "revision": "faeb8fea0954f5b2fea581fa62480293476309395801c459e0d83c3df2414dba",
       "revision_date": "2026-07-07",
       "url": "https://github.com/GrapheneOS/adevtool"
+    },
+    {
+      "checked_at": "2026-07-15",
+      "name": "lge_official_terms_of_use",
+      "revision": "7626ad52d2ba953cb140dbabf4e88e27d7f48ec10af50048c452d79d860d3a77",
+      "revision_date": "2026-07-15",
+      "url": "https://opensource.lge.com/terms"
     },
     {
       "checked_at": "2026-07-14",
