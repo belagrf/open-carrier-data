@@ -2,9 +2,9 @@
   "artifact_registries": {
     "android_carrier_source_artifacts": {
       "artifact_count": 8590,
-      "extracted_count": 1143,
+      "extracted_count": 1144,
       "failed_count": 0,
-      "indexed_count": 7447,
+      "indexed_count": 7446,
       "quarantined_count": 12
     },
     "apple_carrier_bundles": {
@@ -22,9 +22,9 @@
       "carrier_artifact_match_count": 3758,
       "carrier_data_coverage_counts": {
         "carrier_data_not_applicable": 6,
-        "exact_carrier_data_observed": 255,
+        "exact_carrier_data_observed": 256,
         "exact_source_extracted": 443,
-        "exact_source_indexed": 3060,
+        "exact_source_indexed": 3059,
         "inventory_only": 37770,
         "platform_out_of_scope": 52,
         "source_checked_no_artifact": 1369,
@@ -6737,8 +6737,8 @@
           "inventory_only": 1
         },
         "OPPO": {
-          "exact_carrier_data_observed": 1,
-          "exact_source_indexed": 881,
+          "exact_carrier_data_observed": 2,
+          "exact_source_indexed": 880,
           "source_checked_no_artifact": 4,
           "source_discovery_in_progress": 6
         },
@@ -11645,7 +11645,7 @@
           "inventory_only": 13
         }
       },
-      "carrier_observation_match_count": 255,
+      "carrier_observation_match_count": 256,
       "carrier_source_discovery_match_count": 5874,
       "device_count": 43644,
       "historical_device_count": 76,
