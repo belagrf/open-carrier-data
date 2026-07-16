@@ -49,6 +49,7 @@ DATA_COVERAGE_STATUSES = {
     "source_terms_restrict_extraction",
     "inventory_only",
 }
+ANDROID_SCOPE_KINDS = {"model", "device_id", "source_api_row"}
 APPLE_NON_CELLULAR_FAMILIES = {"AppleTV", "AudioAccessory", "iPod"}
 
 
@@ -547,7 +548,7 @@ def validate_android_artifacts(
             or key[0] not in source_names
             or key in seen_coverage
             or key <= previous_key
-            or record.get("scope_kind") not in {"model", "device_id"}
+            or record.get("scope_kind") not in ANDROID_SCOPE_KINDS
             or record.get("discovery_status") not in allowed_statuses
         ):
             raise ValidationError(f"{path}: Android scope coverage is invalid or unsorted")

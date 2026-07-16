@@ -80,7 +80,7 @@
         "properties": {
           "source": { "type": "string", "pattern": "^[a-z0-9][a-z0-9_]{1,63}$" },
           "device_scope": { "type": "string", "minLength": 1, "maxLength": 500 },
-          "scope_kind": { "enum": ["model", "device_id"] },
+          "scope_kind": { "enum": ["model", "device_id", "source_api_row"] },
           "device_ids": { "$ref": "#/$defs/device_ids" },
           "discovery_status": {
             "enum": [
