@@ -25,12 +25,13 @@
         "exact_carrier_data_observed": 257,
         "exact_source_extracted": 429,
         "exact_source_indexed": 1865,
-        "inventory_only": 32724,
+        "inventory_only": 32548,
         "platform_out_of_scope": 97,
         "source_checked_no_artifact": 1446,
         "source_discovery_in_progress": 7,
         "source_not_queryable": 72,
-        "source_terms_restrict_extraction": 5351
+        "source_terms_restrict_extraction": 5351,
+        "source_transport_untrusted": 176
       },
       "carrier_data_coverage_counts_by_brand": {
         "(not provided by source)": {
@@ -8382,8 +8383,9 @@
           "inventory_only": 1
         },
         "Sharp": {
-          "inventory_only": 436,
-          "platform_out_of_scope": 18
+          "inventory_only": 260,
+          "platform_out_of_scope": 18,
+          "source_transport_untrusted": 176
         },
         "Shelby": {
           "inventory_only": 1
@@ -11651,7 +11653,7 @@
         }
       },
       "carrier_observation_match_count": 257,
-      "carrier_source_discovery_match_count": 9532,
+      "carrier_source_discovery_match_count": 9708,
       "device_count": 42256,
       "historical_device_count": 78,
       "present_device_count": 42178,
