@@ -43,6 +43,19 @@ def assert_true(condition: bool, message: str) -> None:
 
 def main() -> int:
     exact_device_id = "android:" + "a" * 20
+    artifact_schema = load_json(
+        Path(__file__).resolve().parents[1]
+        / "schemas/android-carrier-artifact-registry.schema.json"
+    )
+    schema_scope_kinds = set(
+        artifact_schema["properties"]["scope_coverage"]["items"]["properties"][
+            "scope_kind"
+        ]["enum"]
+    )
+    assert_true(
+        schema_scope_kinds == validate_device_catalog.ANDROID_SCOPE_KINDS,
+        "Android artifact schema and validator scope kinds must match",
+    )
     observation = {
         "matched_identifiers": [exact_device_id],
         "profile_count": 1,
@@ -114,18 +127,33 @@ def main() -> int:
                         }
                     ],
                     "scope_coverage": [
+                        *[
+                            {
+                                "source": "synthetic_source",
+                                "device_scope": "android:" + marker * 20,
+                                "scope_kind": "device_id",
+                                "device_ids": ["android:" + marker * 20],
+                                "discovery_status": status,
+                                "region_seed_count": 0,
+                                "probed_region_count": 0,
+                                "available_region_count": 0,
+                                "extracted_artifact_count": 0,
+                            }
+                            for marker, status in zip(
+                                "abc", terminal_statuses, strict=True
+                            )
+                        ],
                         {
                             "source": "synthetic_source",
-                            "device_scope": "android:" + marker * 20,
-                            "scope_kind": "device_id",
-                            "device_ids": ["android:" + marker * 20],
-                            "discovery_status": status,
-                            "region_seed_count": 0,
-                            "probed_region_count": 0,
-                            "available_region_count": 0,
+                            "device_scope": "api_device_id:101",
+                            "scope_kind": "source_api_row",
+                            "device_ids": [exact_device_id],
+                            "discovery_status": "artifact_indexed",
+                            "region_seed_count": 1,
+                            "probed_region_count": 1,
+                            "available_region_count": 1,
                             "extracted_artifact_count": 0,
-                        }
-                        for marker, status in zip("abc", terminal_statuses, strict=True)
+                        },
                     ],
                     "artifacts": [],
                 },
