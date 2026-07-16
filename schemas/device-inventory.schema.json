@@ -13,7 +13,7 @@
     "devices"
   ],
   "properties": {
-    "schema_version": { "const": 1 },
+    "schema_version": { "type": "integer", "enum": [1, 2] },
     "inventory_id": { "type": "string", "minLength": 1 },
     "platform": { "enum": ["android", "apple"] },
     "description": { "type": "string", "minLength": 1 },
@@ -61,6 +61,26 @@
                 "device_id": { "pattern": "^apple:[a-z0-9-]{3,80}$" }
               }
             }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": { "schema_version": { "const": 1 } },
+        "required": ["schema_version"]
+      },
+      "then": {
+        "properties": {
+          "devices": {
+            "items": { "not": { "required": ["carrier_relevance"] } }
+          }
+        }
+      },
+      "else": {
+        "properties": {
+          "devices": {
+            "items": { "required": ["carrier_relevance"] }
           }
         }
       }
@@ -259,6 +279,63 @@
             },
             "sources": { "$ref": "#/$defs/strings" }
           }
+        },
+        "carrier_relevance": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["status", "evidence"],
+          "properties": {
+            "status": {
+              "enum": [
+                "evidence_confirmed_cellular",
+                "evidence_confirmed_non_cellular",
+                "not_established"
+              ]
+            },
+            "evidence": {
+              "type": "array",
+              "uniqueItems": true,
+              "items": { "$ref": "#/$defs/carrier_relevance_evidence" }
+            }
+          },
+          "allOf": [
+            {
+              "if": {
+                "properties": { "status": { "const": "not_established" } },
+                "required": ["status"]
+              },
+              "then": {
+                "properties": { "evidence": { "maxItems": 0 } }
+              },
+              "else": {
+                "properties": { "evidence": { "minItems": 1 } }
+              }
+            },
+            {
+              "if": {
+                "properties": {
+                  "status": { "const": "evidence_confirmed_non_cellular" }
+                },
+                "required": ["status"]
+              },
+              "then": {
+                "properties": {
+                  "evidence": {
+                    "items": {
+                      "properties": {
+                        "kind": {
+                          "enum": [
+                            "official_connectivity_specification",
+                            "official_connectivity_variant"
+                          ]
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ]
         }
       },
       "allOf": [
@@ -269,7 +346,25 @@
           },
           "then": {
             "properties": {
-              "device_id": { "pattern": "^android:[a-z0-9-]{3,80}$" }
+              "device_id": { "pattern": "^android:[a-z0-9-]{3,80}$" },
+              "carrier_relevance": {
+                "properties": {
+                  "evidence": {
+                    "items": {
+                      "properties": {
+                        "kind": {
+                          "enum": [
+                            "exact_carrier_observation",
+                            "extracted_carrier_configuration",
+                            "official_connectivity_specification",
+                            "official_connectivity_variant"
+                          ]
+                        }
+                      }
+                    }
+                  }
+                }
+              }
             }
           }
         },
@@ -280,8 +375,137 @@
           },
           "then": {
             "properties": {
-              "device_id": { "pattern": "^apple:[a-z0-9-]{3,80}$" }
+              "device_id": { "pattern": "^apple:[a-z0-9-]{3,80}$" },
+              "carrier_relevance": {
+                "properties": {
+                  "evidence": {
+                    "items": {
+                      "properties": {
+                        "kind": {
+                          "enum": [
+                            "exact_product_type_carrier_bundle",
+                            "official_connectivity_specification",
+                            "official_connectivity_variant"
+                          ]
+                        }
+                      }
+                    }
+                  }
+                }
+              }
             }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "carrier_relevance": {
+                "properties": {
+                  "evidence": {
+                    "contains": {
+                      "properties": {
+                        "kind": { "const": "exact_carrier_observation" }
+                      },
+                      "required": ["kind"]
+                    }
+                  }
+                },
+                "required": ["evidence"]
+              }
+            },
+            "required": ["carrier_relevance"]
+          },
+          "then": {
+            "properties": {
+              "platform": { "const": "android" },
+              "carrier_observations": {
+                "properties": {
+                  "matched_identifiers": {
+                    "minItems": 1,
+                    "maxItems": 1,
+                    "items": {
+                      "type": "string",
+                      "pattern": "^android:[a-z0-9-]{3,80}$"
+                    }
+                  }
+                }
+              }
+            },
+            "required": ["carrier_observations"]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "carrier_relevance": {
+                "properties": {
+                  "evidence": {
+                    "contains": {
+                      "properties": {
+                        "kind": { "const": "extracted_carrier_configuration" }
+                      },
+                      "required": ["kind"]
+                    }
+                  }
+                },
+                "required": ["evidence"]
+              }
+            },
+            "required": ["carrier_relevance"]
+          },
+          "then": {
+            "properties": {
+              "platform": { "const": "android" },
+              "carrier_source_catalogs": {
+                "minItems": 1,
+                "items": {
+                  "properties": {
+                    "match_kind": { "const": "exact_device_id" },
+                    "matched_identifiers": {
+                      "minItems": 1,
+                      "maxItems": 1,
+                      "items": {
+                        "type": "string",
+                        "pattern": "^android:[a-z0-9-]{3,80}$"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "required": ["carrier_source_catalogs"]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "carrier_relevance": {
+                "properties": {
+                  "evidence": {
+                    "contains": {
+                      "properties": {
+                        "kind": { "const": "exact_product_type_carrier_bundle" }
+                      },
+                      "required": ["kind"]
+                    }
+                  }
+                },
+                "required": ["evidence"]
+              }
+            },
+            "required": ["carrier_relevance"]
+          },
+          "then": {
+            "properties": {
+              "platform": { "const": "apple" },
+              "carrier_artifact_catalog": {
+                "properties": {
+                  "match_kind": { "const": "exact_product_type" }
+                },
+                "required": ["match_kind"]
+              }
+            },
+            "required": ["carrier_artifact_catalog"]
           }
         },
         {
@@ -301,8 +525,74 @@
               "platform": { "const": "android" }
             }
           }
+        },
+        {
+          "if": {
+            "properties": {
+              "carrier_relevance": {
+                "properties": {
+                  "status": { "const": "evidence_confirmed_non_cellular" }
+                },
+                "required": ["status"]
+              }
+            },
+            "required": ["carrier_relevance"]
+          },
+          "then": {
+            "properties": {
+              "carrier_data_coverage": {
+                "properties": {
+                  "status": { "const": "carrier_data_not_applicable" }
+                },
+                "required": ["status"]
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "carrier_data_coverage": {
+                "properties": {
+                  "status": { "const": "carrier_data_not_applicable" }
+                },
+                "required": ["status"]
+              }
+            },
+            "required": ["carrier_data_coverage", "carrier_relevance"]
+          },
+          "then": {
+            "properties": {
+              "carrier_relevance": {
+                "properties": {
+                  "status": { "const": "evidence_confirmed_non_cellular" }
+                },
+                "required": ["status"]
+              }
+            }
+          }
         }
       ]
+    },
+    "carrier_relevance_evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "source"],
+      "properties": {
+        "kind": {
+          "enum": [
+            "exact_carrier_observation",
+            "extracted_carrier_configuration",
+            "exact_product_type_carrier_bundle",
+            "official_connectivity_specification",
+            "official_connectivity_variant"
+          ]
+        },
+        "source": {
+          "type": "string",
+          "pattern": "^[a-z0-9][a-z0-9_]{1,63}$"
+        }
+      }
     }
   }
 }

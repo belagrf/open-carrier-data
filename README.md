@@ -166,8 +166,10 @@ source and merge policy.
 - `source_checked_no_artifact` means the configured vendor scope was checked
   completely without finding a current artifact;
 - `carrier_data_not_applicable` is reserved for explicitly classified
-  non-cellular Apple product families or exact Android variants backed by an
-  official connectivity source, and is not an extraction claim;
+  non-cellular Apple devices or exact Android variants backed by an official
+  connectivity source, and is not an extraction claim; schema version 2 pairs
+  this status with exact non-cellular relevance evidence on both platforms
+  instead of any family or coverage inference;
 - `platform_out_of_scope` identifies an exact inventory record, such as a
   ChromeOS or emulator target, that is outside this Android phone/watch carrier
   extraction system; it does not claim that the hardware lacks cellular radio;
@@ -180,6 +182,32 @@ source and merge policy.
   vendor-authenticated digest.
   The scope is artifact-free: it is not a claim that carrier data was found or
   that the device lacks cellular support.
+
+Schema-version-2 device inventories add an independent `carrier_relevance`
+classification to every exact device ID. `evidence_confirmed_cellular` and
+`evidence_confirmed_non_cellular` require sorted, unique evidence tied to a
+declared source associated with that device; `not_established` requires an empty
+evidence list. The only evidence kinds are exact carrier observation, extracted
+carrier configuration, exact product-type carrier bundle, official connectivity
+specification, and official connectivity variant. Cellular observations,
+extracted configurations, and exact carrier bundles conflict with a
+non-cellular classification. In version 2, confirmed non-cellular relevance and
+`carrier_data_not_applicable` must occur together on both platforms.
+
+Exact observations and extracted configurations are Android-only evidence, and
+an extracted source catalog must be bound as `exact_device_id` to the enclosing
+Android ID. Exact product-type carrier bundles are Apple-only evidence. Official
+connectivity specifications and exact variants are valid for either platform;
+all evidence sources still have to be declared and associated with that exact
+device.
+
+Device family, name, form factor, and carrier-data coverage are not relevance
+evidence. For example, an Apple TV or iPod label cannot establish non-cellular
+status, and `platform_out_of_scope` says nothing about whether the hardware has
+a cellular radio. Version-2 index summaries therefore report exact relevance
+totals and a complete coverage-by-relevance matrix. Existing version-1 device
+catalogs remain temporarily accepted while generated publication migrates, but
+version 1 cannot publish `carrier_relevance`.
 
 Failed downloads and digest mismatches are quarantined. They are counted in the
 small coverage summary but are not published as usable artifacts or imported

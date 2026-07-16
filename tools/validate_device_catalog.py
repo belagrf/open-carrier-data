@@ -35,6 +35,7 @@ BASE_DEVICE_FIELDS = {
     "carrier_source_catalogs",
     "carrier_source_discovery",
     "carrier_data_coverage",
+    "carrier_relevance",
 }
 DATA_COVERAGE_STATUSES = {
     "carrier_data_not_applicable",
@@ -65,6 +66,36 @@ ANDROID_DISCOVERY_STATUSES = {
     "source_terms_restrict_extraction",
 }
 APPLE_NON_CELLULAR_FAMILIES = {"AppleTV", "AudioAccessory", "iPod"}
+CARRIER_RELEVANCE_STATUSES = {
+    "evidence_confirmed_cellular",
+    "evidence_confirmed_non_cellular",
+    "not_established",
+}
+CARRIER_RELEVANCE_EVIDENCE_KINDS = {
+    "exact_carrier_observation",
+    "extracted_carrier_configuration",
+    "exact_product_type_carrier_bundle",
+    "official_connectivity_specification",
+    "official_connectivity_variant",
+}
+CARRIER_RELEVANCE_EVIDENCE_KINDS_BY_PLATFORM = {
+    "android": {
+        "exact_carrier_observation",
+        "extracted_carrier_configuration",
+        "official_connectivity_specification",
+        "official_connectivity_variant",
+    },
+    "apple": {
+        "exact_product_type_carrier_bundle",
+        "official_connectivity_specification",
+        "official_connectivity_variant",
+    },
+}
+CELLULAR_ONLY_RELEVANCE_EVIDENCE_KINDS = {
+    "exact_carrier_observation",
+    "extracted_carrier_configuration",
+    "exact_product_type_carrier_bundle",
+}
 
 
 class ValidationError(Exception):
@@ -207,7 +238,13 @@ def validate_source_catalogs(path: Path, device_id: str, value: Any) -> None:
             raise ValidationError(f"{path}: source catalogs are invalid or unsorted")
         if item["match_kind"] not in {"exact_device_id", "exact_model"}:
             raise ValidationError(f"{path}: invalid source match kind for {device_id}")
-        validate_string_array(path, "matched identifiers", item["matched_identifiers"])
+        matched_identifiers = validate_string_array(
+            path, "matched identifiers", item["matched_identifiers"]
+        )
+        if item["match_kind"] == "exact_device_id" and matched_identifiers != [device_id]:
+            raise ValidationError(
+                f"{path}: exact-device source catalog is not bound to {device_id}"
+            )
         counts = [
             item["artifact_count"],
             item["indexed_artifact_count"],
@@ -220,7 +257,166 @@ def validate_source_catalogs(path: Path, device_id: str, value: Any) -> None:
         previous_source = source
 
 
-def validate_data_coverage(path: Path, device_id: str, record: dict[str, Any]) -> None:
+def device_associated_sources(record: dict[str, Any]) -> set[str]:
+    """Return sources explicitly joined to one exact device record."""
+
+    sources = {
+        state["source"]
+        for state in record.get("inventory_sources") or []
+        if isinstance(state, dict) and isinstance(state.get("source"), str)
+    }
+    observations = record.get("carrier_observations")
+    if isinstance(observations, dict):
+        sources.update(
+            source
+            for source in observations.get("sources") or []
+            if isinstance(source, str)
+        )
+    artifact_catalog = record.get("carrier_artifact_catalog")
+    if isinstance(artifact_catalog, dict) and isinstance(
+        artifact_catalog.get("source"), str
+    ):
+        sources.add(artifact_catalog["source"])
+    for field in ("carrier_source_catalogs", "carrier_source_discovery"):
+        sources.update(
+            item["source"]
+            for item in record.get(field) or []
+            if isinstance(item, dict) and isinstance(item.get("source"), str)
+        )
+    coverage = record.get("carrier_data_coverage")
+    if isinstance(coverage, dict):
+        sources.update(
+            source
+            for source in coverage.get("sources") or []
+            if isinstance(source, str)
+        )
+    return sources
+
+
+def validate_carrier_relevance(
+    path: Path,
+    device_id: str,
+    record: dict[str, Any],
+    declared_sources: set[str],
+) -> None:
+    """Validate explicit evidence without inferring relevance from labels or coverage."""
+
+    platform = record.get("platform")
+    platform_device_id_re = {
+        "android": ANDROID_DEVICE_ID_RE,
+        "apple": APPLE_DEVICE_ID_RE,
+    }.get(platform)
+    if (
+        platform_device_id_re is None
+        or not isinstance(device_id, str)
+        or record.get("device_id") != device_id
+        or not platform_device_id_re.fullmatch(device_id)
+    ):
+        raise ValidationError(
+            f"{path}: carrier relevance device/platform binding is invalid"
+        )
+    value = record.get("carrier_relevance")
+    if not isinstance(value, dict) or set(value) != {"status", "evidence"}:
+        raise ValidationError(f"{path}: carrier relevance is missing for {device_id}")
+    status = value["status"]
+    if not isinstance(status, str) or status not in CARRIER_RELEVANCE_STATUSES:
+        raise ValidationError(f"{path}: invalid carrier relevance status for {device_id}")
+    evidence = value["evidence"]
+    if not isinstance(evidence, list):
+        raise ValidationError(f"{path}: carrier relevance evidence must be an array")
+    if status == "not_established" and evidence:
+        raise ValidationError(f"{path}: unestablished carrier relevance has evidence")
+    if status != "not_established" and not evidence:
+        raise ValidationError(f"{path}: confirmed carrier relevance lacks evidence")
+
+    associated_sources = device_associated_sources(record)
+    observations = record.get("carrier_observations") or {}
+    observation_sources = (
+        set(observations.get("sources") or [])
+        if observations.get("matched_identifiers") == [device_id]
+        else set()
+    )
+    extracted_sources = {
+        item["source"]
+        for item in record.get("carrier_source_catalogs") or []
+        if is_json_integer(item.get("extracted_artifact_count"))
+        and item["extracted_artifact_count"] > 0
+        and item.get("match_kind") == "exact_device_id"
+        and item.get("matched_identifiers") == [device_id]
+    }
+    artifact_catalog = record.get("carrier_artifact_catalog") or {}
+    exact_bundle_sources = (
+        {artifact_catalog.get("source")}
+        if artifact_catalog.get("match_kind") == "exact_product_type"
+        and isinstance(artifact_catalog.get("source"), str)
+        else set()
+    )
+    previous_key: tuple[str, str] | None = None
+    for item in evidence:
+        if not isinstance(item, dict) or set(item) != {"kind", "source"}:
+            raise ValidationError(f"{path}: invalid carrier relevance evidence for {device_id}")
+        kind = item["kind"]
+        source = item["source"]
+        if (
+            not isinstance(kind, str)
+            or kind not in CARRIER_RELEVANCE_EVIDENCE_KINDS
+            or kind not in CARRIER_RELEVANCE_EVIDENCE_KINDS_BY_PLATFORM[platform]
+            or not isinstance(source, str)
+            or not SOURCE_NAME_RE.fullmatch(source)
+        ):
+            raise ValidationError(f"{path}: invalid carrier relevance evidence for {device_id}")
+        key = (kind, source)
+        if previous_key is not None and key <= previous_key:
+            raise ValidationError(
+                f"{path}: carrier relevance evidence is duplicate or unsorted"
+            )
+        if source not in declared_sources or source not in associated_sources:
+            raise ValidationError(
+                f"{path}: carrier relevance source is not associated with {device_id}"
+            )
+        if kind == "exact_carrier_observation" and source not in observation_sources:
+            raise ValidationError(
+                f"{path}: relevance observation lacks exact observation evidence"
+            )
+        if kind == "extracted_carrier_configuration" and source not in extracted_sources:
+            raise ValidationError(
+                f"{path}: relevance extraction lacks extracted configuration evidence"
+            )
+        if kind == "exact_product_type_carrier_bundle" and source not in exact_bundle_sources:
+            raise ValidationError(
+                f"{path}: relevance bundle lacks exact product-type evidence"
+            )
+        previous_key = key
+
+    if status == "evidence_confirmed_non_cellular":
+        conflicting_kinds = {
+            item["kind"] for item in evidence
+        } & CELLULAR_ONLY_RELEVANCE_EVIDENCE_KINDS
+        if conflicting_kinds:
+            raise ValidationError(f"{path}: conflicting carrier relevance evidence")
+        if observation_sources or extracted_sources or exact_bundle_sources:
+            raise ValidationError(f"{path}: non-cellular relevance conflicts with carrier data")
+        if (record.get("carrier_data_coverage") or {}).get("status") != (
+            "carrier_data_not_applicable"
+        ):
+            raise ValidationError(
+                f"{path}: non-cellular relevance requires not-applicable coverage"
+            )
+    if (
+        status == "evidence_confirmed_cellular"
+        and (record.get("carrier_data_coverage") or {}).get("status")
+        == "carrier_data_not_applicable"
+    ):
+        raise ValidationError(f"{path}: cellular relevance conflicts with not-applicable coverage")
+
+
+def validate_data_coverage(
+    path: Path,
+    device_id: str,
+    record: dict[str, Any],
+    *,
+    schema_version: int = 1,
+) -> None:
     value = record.get("carrier_data_coverage")
     if not isinstance(value, dict) or set(value) != {"status", "sources"}:
         raise ValidationError(f"{path}: carrier data coverage is missing for {device_id}")
@@ -233,12 +429,28 @@ def validate_data_coverage(path: Path, device_id: str, record: dict[str, Any]) -
     if status not in {"inventory_only", "carrier_data_not_applicable"} and not sources:
         raise ValidationError(f"{path}: covered device has no carrier sources")
     if status == "carrier_data_not_applicable":
-        approved_apple = (
-            record.get("platform") == "apple"
-            and record.get("family") in APPLE_NON_CELLULAR_FAMILIES
-            and not sources
-        )
-        evidenced_android = record.get("platform") == "android" and bool(sources)
+        if schema_version == 1:
+            approved_apple = (
+                record.get("platform") == "apple"
+                and record.get("family") in APPLE_NON_CELLULAR_FAMILIES
+                and not sources
+            )
+            evidenced_android = record.get("platform") == "android" and bool(sources)
+        else:
+            confirmed_non_cellular = (
+                (record.get("carrier_relevance") or {}).get("status")
+                == "evidence_confirmed_non_cellular"
+            )
+            approved_apple = (
+                record.get("platform") == "apple"
+                and confirmed_non_cellular
+                and not sources
+            )
+            evidenced_android = (
+                record.get("platform") == "android"
+                and confirmed_non_cellular
+                and bool(sources)
+            )
         if not approved_apple and not evidenced_android:
             raise ValidationError(
                 f"{path}: not-applicable coverage lacks approved exact evidence"
@@ -338,15 +550,16 @@ def validate_source_discovery(path: Path, device_id: str, value: Any) -> None:
 
 def validate_inventory(
     path: Path, platform: str
-) -> tuple[list[dict[str, str]], list[dict[str, Any]]]:
+) -> tuple[int, list[dict[str, str]], list[dict[str, Any]]]:
     value = load_object(path)
     expected = {"schema_version", "inventory_id", "platform", "description", "sources", "devices"}
     if (
         set(value) != expected
         or not is_json_integer(value.get("schema_version"))
-        or value.get("schema_version") != 1
+        or value.get("schema_version") not in {1, 2}
     ):
         raise ValidationError(f"{path}: inventory keys are invalid")
+    schema_version = value["schema_version"]
     if value.get("platform") != platform:
         raise ValidationError(f"{path}: expected {platform} platform")
     if not isinstance(value.get("inventory_id"), str) or not value["inventory_id"]:
@@ -368,6 +581,10 @@ def validate_inventory(
     for record in devices:
         if not isinstance(record, dict) or not set(record) <= BASE_DEVICE_FIELDS:
             raise ValidationError(f"{path}: device record fields are invalid")
+        if schema_version == 1 and "carrier_relevance" in record:
+            raise ValidationError(f"{path}: v1 device record has v2 carrier relevance")
+        if schema_version == 2 and "carrier_relevance" not in record:
+            raise ValidationError(f"{path}: v2 device record lacks carrier relevance")
         device_id = record.get("device_id")
         if (
             not isinstance(device_id, str)
@@ -429,10 +646,14 @@ def validate_inventory(
             validate_source_catalogs(path, device_id, record["carrier_source_catalogs"])
         if "carrier_source_discovery" in record:
             validate_source_discovery(path, device_id, record["carrier_source_discovery"])
-        validate_data_coverage(path, device_id, record)
+        if schema_version == 2:
+            validate_carrier_relevance(path, device_id, record, set(source_names))
+        validate_data_coverage(
+            path, device_id, record, schema_version=schema_version
+        )
         seen.add(device_id)
         previous_id = device_id
-    return sources, devices
+    return schema_version, sources, devices
 
 
 def validate_artifacts(path: Path) -> tuple[dict[str, str], list[dict[str, Any]]]:
@@ -748,6 +969,8 @@ def validate_index(
     artifacts: list[dict[str, Any]],
     android_artifact_sources: list[dict[str, str]],
     android_artifacts: list[dict[str, Any]],
+    *,
+    inventory_schema_versions: tuple[int, int] | None = None,
 ) -> None:
     value = load_object(path)
     expected = {
@@ -761,9 +984,17 @@ def validate_index(
     if (
         set(value) != expected
         or not is_json_integer(value.get("schema_version"))
-        or value.get("schema_version") != 1
+        or value.get("schema_version") not in {1, 2}
     ):
         raise ValidationError(f"{path}: catalog index keys are invalid")
+    schema_version = value["schema_version"]
+    if schema_version == 2 and inventory_schema_versions is None:
+        raise ValidationError(f"{path}: v2 index requires inventory schema versions")
+    if inventory_schema_versions is not None and inventory_schema_versions != (
+        schema_version,
+        schema_version,
+    ):
+        raise ValidationError(f"{path}: inventory and index schema versions do not match")
     validate_date(path, "generated_from_checks_through", value["generated_from_checks_through"])
     expected_sources = sorted(
         {
@@ -827,6 +1058,33 @@ def validate_index(
             for brand, statuses in sorted(counts.items(), key=lambda item: item[0].casefold())
         }
 
+    def relevance_counts(devices: list[dict[str, Any]]) -> dict[str, int]:
+        counts = Counter(
+            item["carrier_relevance"]["status"] for item in devices
+        )
+        return {
+            status: counts[status]
+            for status in sorted(CARRIER_RELEVANCE_STATUSES)
+        }
+
+    def relevance_by_coverage(
+        devices: list[dict[str, Any]],
+    ) -> dict[str, dict[str, int]]:
+        counts: dict[str, Counter[str]] = {
+            coverage_status: Counter() for coverage_status in DATA_COVERAGE_STATUSES
+        }
+        for item in devices:
+            counts[item["carrier_data_coverage"]["status"]][
+                item["carrier_relevance"]["status"]
+            ] += 1
+        return {
+            coverage_status: {
+                relevance_status: counts[coverage_status][relevance_status]
+                for relevance_status in sorted(CARRIER_RELEVANCE_STATUSES)
+            }
+            for coverage_status in sorted(DATA_COVERAGE_STATUSES)
+        }
+
     expected_platforms = {
         "android": {
             "carrier_observation_match_count": android_observed,
@@ -859,6 +1117,19 @@ def validate_index(
             "present_device_count_by_brand": brand_counts(apple_devices),
         },
     }
+    if schema_version == 2:
+        expected_platforms["android"].update(
+            {
+                "carrier_relevance_counts": relevance_counts(android_devices),
+                "carrier_relevance_by_coverage": relevance_by_coverage(android_devices),
+            }
+        )
+        expected_platforms["apple"].update(
+            {
+                "carrier_relevance_counts": relevance_counts(apple_devices),
+                "carrier_relevance_by_coverage": relevance_by_coverage(apple_devices),
+            }
+        )
     if platforms != expected_platforms:
         raise ValidationError(f"{path}: platform counts do not match records")
     statuses = Counter(item["verification"] for item in artifacts)
@@ -901,8 +1172,12 @@ def validate_index(
 
 def main(argv: list[str]) -> int:
     root = Path(argv[1]) if len(argv) > 1 else Path("generated/devices")
-    android_sources, android_devices = validate_inventory(root / "android.json", "android")
-    apple_sources, apple_devices = validate_inventory(root / "apple.json", "apple")
+    android_version, android_sources, android_devices = validate_inventory(
+        root / "android.json", "android"
+    )
+    apple_version, apple_sources, apple_devices = validate_inventory(
+        root / "apple.json", "apple"
+    )
     artifact_source, artifacts = validate_artifacts(root / "apple-carrier-artifacts.json")
     android_artifact_sources, android_artifacts, android_scope_coverage = validate_android_artifacts(
         root / "android-carrier-artifacts.json"
@@ -920,6 +1195,7 @@ def main(argv: list[str]) -> int:
         artifacts,
         android_artifact_sources,
         android_artifacts,
+        inventory_schema_versions=(android_version, apple_version),
     )
     print(
         f"validated {len(android_devices)} Android devices, {len(apple_devices)} Apple "
