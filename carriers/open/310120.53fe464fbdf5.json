@@ -63,6 +63,21 @@
     },
     {
       "apn": "cinet.spcs",
+      "mmsc": "http://mm.myboostmobile.com",
+      "mmsport": 80,
+      "mmsproxy": "68.28.31.7",
+      "name": "Boost",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "dun",
+        "fota",
+        "mms",
+        "supl"
+      ]
+    },
+    {
+      "apn": "cinet.spcs",
       "bearer_bitmask": "1|2|3|9|10|11|15|16",
       "mmsc": "https://mms.plspictures.com",
       "mmsport": 80,

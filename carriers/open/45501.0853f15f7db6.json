@@ -40,22 +40,20 @@
     },
     {
       "apn": "ctm-mobile",
-      "authtype": 0,
-      "name": "ctm-mobile",
-      "protocol": "IPV4V6",
-      "roaming_protocol": "IPV4V6",
-      "types": [
-        "default",
-        "ia",
-        "supl"
-      ]
-    },
-    {
-      "apn": "ctm-mobile",
       "name": "ctm-mobile",
       "protocol": "IPV4V6",
       "types": [
         "dun"
+      ]
+    },
+    {
+      "apn": "ctm-mobile",
+      "authtype": 0,
+      "name": "CTM Data",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ia"
       ]
     },
     {
@@ -73,19 +71,6 @@
       ]
     },
     {
-      "apn": "ctmmms",
-      "authtype": 0,
-      "mmsc": "http://mms.wap.ctm.net:8002",
-      "mmsport": 8080,
-      "mmsproxy": "192.168.99.3",
-      "name": "ctmmms",
-      "protocol": "IPV4V6",
-      "roaming_protocol": "IPV4V6",
-      "types": [
-        "mms"
-      ]
-    },
-    {
       "apn": "ctmprepaid",
       "authtype": 0,
       "carrier_id": 1614,
@@ -112,9 +97,7 @@
       "protocol": "IPV4V6",
       "roaming_protocol": "IPV4V6",
       "types": [
-        "default",
         "ia",
-        "mms",
         "supl"
       ]
     },

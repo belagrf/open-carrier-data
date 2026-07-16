@@ -39,6 +39,16 @@
       ]
     },
     {
+      "apn": "broadband.t-mobile.uk",
+      "name": "T-Mobile Broadband",
+      "password": "TM",
+      "types": [
+        "default",
+        "dun"
+      ],
+      "user": "T-Mobile"
+    },
+    {
       "apn": "eezone",
       "authtype": 1,
       "carrier_id": 718,
@@ -129,6 +139,44 @@
         "xcap"
       ],
       "user": "eesecure"
+    },
+    {
+      "apn": "general.t-mobile.uk",
+      "authtype": 1,
+      "name": "T-Mobile Internet",
+      "password": "tm",
+      "types": [
+        "default",
+        "supl"
+      ],
+      "user": "t-mobile"
+    },
+    {
+      "apn": "general.t-mobile.uk",
+      "authtype": 1,
+      "mmsc": "http://mmsc.t-mobile.co.uk:8002",
+      "mmsport": 8080,
+      "mmsproxy": "149.254.201.135",
+      "name": "T-Mobile PictureMessage",
+      "password": "tm",
+      "types": [
+        "mms"
+      ],
+      "user": "t-mobile"
+    },
+    {
+      "apn": "goto.virginmobile.uk",
+      "authtype": 1,
+      "mmsc": "http://mms.virginmobile.co.uk:8002",
+      "mmsport": 8080,
+      "mmsproxy": "193.30.166.2",
+      "name": "goto.virginmobile.uk",
+      "types": [
+        "default",
+        "mms",
+        "supl"
+      ],
+      "user": "user"
     },
     {
       "apn": "goto.virginmobile.uk",
@@ -509,23 +557,31 @@
     }
   ],
   "android_carrier_config": {
+    "allow_adding_apns_bool": true,
+    "apn_expand_bool": true,
+    "auto_retry_failed_wifi_emergency_call": true,
     "call_barring_default_service_class_int": 0,
-    "carrier_default_wfc_ims_enabled_bool": false,
     "carrier_default_wfc_ims_mode_int": 2,
     "carrier_default_wfc_ims_roaming_mode_int": 1,
-    "carrier_metered_apn_types_strings": [
+    "carrier_metered_roaming_apn_types_strings": [
       "default",
       "dun",
-      "supl"
+      "supl",
+      "fota"
     ],
     "carrier_supports_ss_over_ut_bool": true,
+    "carrier_use_ims_first_for_emergency_bool": true,
     "carrier_volte_available_bool": true,
+    "carrier_volte_provisioned_bool": true,
+    "carrier_vt_available_bool": true,
     "carrier_wfc_ims_available_bool": true,
+    "carrier_wfc_supports_wifi_only_bool": false,
     "editable_enhanced_4g_lte_bool": false,
     "editable_wfc_roaming_mode_bool": true,
     "enabledMMS": true,
     "enhanced_4g_lte_on_by_default_bool": true,
     "hide_ims_apn_bool": true,
+    "ignore_data_enabled_changed_for_video_calls": true,
     "imsvoice.conference_subscribe_type_int": 0,
     "maxMessageSize": 307200,
     "read_only_apn_types_string_array": [
@@ -533,7 +589,9 @@
       "ims",
       "mms"
     ],
+    "show_apn_setting_cdma_bool": true,
     "show_wifi_calling_icon_in_status_bar_bool": false,
+    "support_video_conference_call_bool": true,
     "wfc_data_spn_format_idx_int": 1,
     "wfc_operator_error_codes_string_array": [
       "REG09|0"
@@ -546,7 +604,7 @@
     "mms": "supported",
     "rcs": "unknown",
     "sms_over_ims": "unknown",
-    "video_calling": "unknown",
+    "video_calling": "supported",
     "volte": "supported",
     "vonr": "unknown",
     "vowifi": "supported",

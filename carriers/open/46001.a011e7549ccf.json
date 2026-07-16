@@ -45,7 +45,8 @@
     },
     {
       "apn": "3gwap",
-      "name": "\u6c833G\u624b\u673a\u4e0a\u7f51 (China Unicom)",
+      "authtype": 3,
+      "name": "3gwap",
       "port": 80,
       "proxy": "10.0.0.172",
       "types": [
@@ -70,6 +71,7 @@
     },
     {
       "apn": "3gwap",
+      "authtype": 3,
       "mmsc": "http://mmsc.myuni.com.cn",
       "mmsport": 80,
       "mmsproxy": "10.0.0.172",
@@ -105,7 +107,9 @@
     },
     {
       "apn": "uninet",
-      "name": "\u8054\u901a2GNET\u4e0a\u7f51 (China Unicom)",
+      "name": "uninet",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
       "types": [
         "default",
         "supl"
@@ -113,17 +117,26 @@
     },
     {
       "apn": "uniwap",
-      "carrier_id": 1436,
+      "name": "\u4e2d\u56fd\u8054\u901a Wap \u7f51\u7edc (China Unicom)",
+      "port": 80,
+      "proxy": "10.0.0.172",
+      "types": [
+        "default"
+      ]
+    },
+    {
+      "apn": "uniwap",
       "mmsc": "http://mmsc.myuni.com.cn",
       "mmsport": 80,
       "mmsproxy": "10.0.0.172",
-      "name": "\u8054\u901a2g\u5f69\u4fe1 (China Unicom)",
+      "name": "uniwap",
       "types": [
         "mms"
       ]
     },
     {
       "apn": "uniwap",
+      "carrier_id": 1436,
       "mmsc": "http://mmsc.myuni.com.cn",
       "mmsport": 80,
       "mmsproxy": "10.0.0.172",

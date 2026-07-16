@@ -12,6 +12,8 @@
     },
     {
       "apn": "claro.com.br",
+      "authtype": 1,
+      "mmsc": "http://www.google.com.br",
       "name": "claro.com.br",
       "password": "claro",
       "types": [
@@ -61,6 +63,19 @@
       "password": "claro",
       "protocol": "IPV4V6",
       "types": [
+        "supl"
+      ],
+      "user": "claro"
+    },
+    {
+      "apn": "wap.claro.com.br",
+      "mmsc": "http://wap.claro.com.br",
+      "name": "Portal Claro",
+      "password": "claro",
+      "port": 8799,
+      "proxy": "200.169.126.11",
+      "types": [
+        "default",
         "supl"
       ],
       "user": "claro"

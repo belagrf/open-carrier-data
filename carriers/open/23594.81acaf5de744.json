@@ -179,25 +179,34 @@
     }
   ],
   "android_carrier_config": {
+    "allow_adding_apns_bool": true,
+    "apn_expand_bool": true,
     "auto_retry_failed_wifi_emergency_call": true,
     "carrier_default_wfc_ims_enabled_bool": true,
     "carrier_default_wfc_ims_mode_int": 1,
-    "carrier_metered_apn_types_strings": [
+    "carrier_metered_roaming_apn_types_strings": [
       "default",
       "dun",
-      "supl"
+      "supl",
+      "fota"
     ],
     "carrier_volte_available_bool": true,
+    "carrier_volte_provisioned_bool": true,
+    "carrier_vt_available_bool": true,
     "carrier_wfc_ims_available_bool": true,
+    "carrier_wfc_supports_wifi_only_bool": false,
     "editable_enhanced_4g_lte_bool": false,
     "editable_wfc_mode_bool": false,
+    "editable_wfc_roaming_mode_bool": true,
     "enableGroupMms": false,
     "enhanced_4g_lte_on_by_default_bool": true,
-    "hide_enhanced_4g_lte_bool": true,
+    "ignore_data_enabled_changed_for_video_calls": true,
     "imsvoice.conference_factory_uri_string": "Conf-Factory@three.co.uk",
     "is_ims_conference_size_enforced_bool": true,
     "recipientLimit": 20,
+    "show_apn_setting_cdma_bool": true,
     "smsToMmsTextThreshold": 11,
+    "support_video_conference_call_bool": true,
     "volte_replacement_rat_int": 3,
     "wfc_data_spn_format_idx_int": 1,
     "wfc_operator_error_codes_string_array": [
@@ -211,7 +220,7 @@
     "mms": "supported",
     "rcs": "unknown",
     "sms_over_ims": "unknown",
-    "video_calling": "unknown",
+    "video_calling": "supported",
     "volte": "supported",
     "vonr": "unknown",
     "vowifi": "supported",

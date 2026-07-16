@@ -23,6 +23,14 @@
       "user": "t-mobile"
     },
     {
+      "apn": "internet.at.upcmobile.com",
+      "name": "UPC Mobile",
+      "types": [
+        "default",
+        "supl"
+      ]
+    },
+    {
       "apn": "internet.t-mobile.at",
       "authtype": 1,
       "name": "T-Mobile A Internet",

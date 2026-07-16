@@ -238,21 +238,6 @@
     },
     {
       "apn": "sp.mts",
-      "mmsc": "http://mmsc2.mts.net/",
-      "mmsport": 9201,
-      "mmsproxy": "wapgw1.mts.net",
-      "mvno_match_data": "2C",
-      "mvno_type": "gid",
-      "name": "sp.mts",
-      "protocol": "IPV4V6",
-      "roaming_protocol": "IP",
-      "types": [
-        "default",
-        "mms"
-      ]
-    },
-    {
-      "apn": "sp.mts",
       "carrier_id": 578,
       "mmsc": "http://mmsc2.mts.net/",
       "mmsport": 9201,
@@ -275,8 +260,9 @@
       "mmsproxy": "wapgw1.mts.net",
       "mvno_match_data": "2C",
       "mvno_type": "gid",
-      "name": "MTS Internet",
+      "name": "sp.mts",
       "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
       "types": [
         "supl"
       ]

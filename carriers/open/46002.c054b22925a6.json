@@ -15,6 +15,7 @@
     },
     {
       "apn": "cmnet",
+      "authtype": 3,
       "name": "cmnet",
       "password": "guest",
       "protocol": "IPV4V6",
@@ -43,6 +44,7 @@
     },
     {
       "apn": "cmwap",
+      "authtype": 3,
       "name": "cmwap",
       "password": "guest",
       "port": 80,
@@ -81,25 +83,8 @@
     },
     {
       "apn": "cmwap",
-      "authtype": 1,
-      "mmsc": "http://mmsc.monternet.com",
-      "mmsport": 80,
-      "mmsproxy": "10.0.0.172",
+      "authtype": 3,
       "name": "cmwap",
-      "password": "wap",
-      "port": 80,
-      "protocol": "IPV4V6",
-      "proxy": "10.0.0.172",
-      "roaming_protocol": "IPV4V6",
-      "types": [
-        "mms"
-      ],
-      "user": "wap",
-      "user_editable": false
-    },
-    {
-      "apn": "cmwap",
-      "name": "\u4e2d\u56fd\u79fb\u52a8 (China Mobile) WAP",
       "port": 80,
       "proxy": "10.0.0.172",
       "types": [
@@ -152,8 +137,12 @@
     }
   ],
   "android_carrier_config": {
+    "allow_adding_apns_bool": true,
     "allow_hold_call_during_emergency_bool": false,
+    "apn_expand_bool": true,
+    "auto_retry_failed_wifi_emergency_call": true,
     "carrier_allow_transfer_ims_call_bool": false,
+    "carrier_default_wfc_ims_enabled_bool": true,
     "carrier_default_wfc_ims_mode_int": 1,
     "carrier_metered_apn_types_strings": [
       "default",
@@ -161,17 +150,28 @@
       "supl",
       "fota"
     ],
+    "carrier_metered_roaming_apn_types_strings": [
+      "default",
+      "dun",
+      "supl",
+      "fota"
+    ],
+    "carrier_supports_ss_over_ut_bool": true,
     "carrier_volte_available_bool": true,
+    "carrier_volte_provisioned_bool": true,
     "carrier_wfc_ims_available_bool": true,
+    "carrier_wfc_supports_wifi_only_bool": false,
     "editable_wfc_mode_bool": false,
+    "editable_wfc_roaming_mode_bool": true,
     "enableGroupMms": false,
     "enabledMMS": true,
+    "enhanced_4g_lte_on_by_default_bool": true,
     "ignore_data_enabled_changed_for_video_calls": true,
     "maxMessageSize": 307200,
     "recipientLimit": 50,
+    "show_apn_setting_cdma_bool": true,
     "smsToMmsTextThreshold": 10,
-    "support_ims_conference_call_bool": true,
-    "support_video_conference_call_bool": false
+    "support_ims_conference_call_bool": true
   },
   "capabilities": {
     "esim": "unknown",

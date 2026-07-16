@@ -91,6 +91,21 @@
     },
     {
       "apn": "fast.t-mobile.com",
+      "mmsc": "http://mms.msg.eng.t-mobile.com/mms/wapenc",
+      "mtu": 1440,
+      "name": "fast.t-mobile.com",
+      "protocol": "IPV6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "default",
+        "ia",
+        "mms",
+        "supl"
+      ],
+      "user_editable": false
+    },
+    {
+      "apn": "fast.t-mobile.com",
       "bearer_bitmask": "1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|17|20",
       "carrier_id": 1,
       "mmsc": "http://mms.msg.eng.t-mobile.com/mms/wapenc",
@@ -149,32 +164,9 @@
     {
       "apn": "fast.t-mobile.com",
       "mmsc": "http://mms.msg.eng.t-mobile.com/mms/wapenc",
-      "mtu": 1440,
-      "name": "fast.t-mobile.com",
-      "protocol": "IPV6",
-      "types": [
-        "default",
-        "supl"
-      ],
-      "user_editable": false
-    },
-    {
-      "apn": "fast.t-mobile.com",
-      "mtu": 1440,
-      "name": "T-Mobile US",
-      "protocol": "IPV6",
-      "types": [
-        "ia"
-      ],
-      "user_editable": false
-    },
-    {
-      "apn": "fast.t-mobile.com",
-      "mmsc": "http://mms.msg.eng.t-mobile.com/mms/wapenc",
       "name": "T-Mobile LTE",
       "protocol": "IPV6",
       "types": [
-        "mms",
         "xcap"
       ],
       "user_editable": false
@@ -192,6 +184,38 @@
         "default"
       ],
       "user": "none"
+    },
+    {
+      "apn": "h2g2",
+      "mmsc": "http://mmsc1.g-mms.com/mms/wapenc",
+      "name": "Project Fi - T",
+      "password": "none",
+      "protocol": "IPV6",
+      "roaming_protocol": "IP",
+      "server": "*",
+      "types": [
+        "default"
+      ],
+      "user": "none"
+    },
+    {
+      "apn": "h2g2",
+      "name": "Project Fi - T",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "ia"
+      ]
+    },
+    {
+      "apn": "i2.iwireless.com",
+      "mmsc": "http://mmsc.iwireless.datonair.net:6672",
+      "name": "I-Wireless",
+      "types": [
+        "default",
+        "mms",
+        "supl"
+      ]
     },
     {
       "apn": "ims",
@@ -301,6 +325,7 @@
     {
       "apn": "ims",
       "mmsc": "epdg",
+      "modem_cognitive": true,
       "name": "ims",
       "protocol": "IPV6",
       "roaming_protocol": "IPV6",
@@ -331,6 +356,40 @@
       "user_visible": false
     },
     {
+      "apn": "pwg",
+      "mmsc": "http://pwg.mmsmvno.com/mms/wapenc",
+      "name": "US Mobile",
+      "types": [
+        "default",
+        "mms",
+        "supl"
+      ]
+    },
+    {
+      "apn": "simple",
+      "mmsc": "http://smpl.mms.msg.eng.t-mobile.com/mms/wapenc",
+      "mmsport": 8080,
+      "mmsproxy": "216.155.165.50",
+      "name": "Simple",
+      "port": 8080,
+      "proxy": "216.155.165.50",
+      "types": [
+        "default",
+        "mms",
+        "supl"
+      ]
+    },
+    {
+      "apn": "solavei",
+      "mmsc": "http://solavei.mmsmvno.com/mms/wapenc",
+      "name": "Solavei",
+      "types": [
+        "default",
+        "mms",
+        "supl"
+      ]
+    },
+    {
       "apn": "sos",
       "carrier_id": 1,
       "name": "T-Mobile Emergency",
@@ -350,6 +409,33 @@
       "types": [
         "mms",
         "xcap"
+      ]
+    },
+    {
+      "apn": "wap.cellular1.net",
+      "authtype": 0,
+      "mmsc": "http://mms.cellular1.net/ecit/mms.php",
+      "mmsport": 9201,
+      "mmsproxy": "10.10.0.97",
+      "name": "CellOne WAP",
+      "port": 9201,
+      "proxy": "10.10.0.97",
+      "types": [
+        "default",
+        "mms",
+        "supl"
+      ]
+    },
+    {
+      "apn": "web.omwtoday.com",
+      "mmsc": "http://wirelessfour.mmsmvno.com/mms/wapenc",
+      "mmsport": 8080,
+      "mmsproxy": "216.155.165.50",
+      "name": "Walmart Family Mobile",
+      "types": [
+        "default",
+        "mms",
+        "supl"
       ]
     },
     {
@@ -619,6 +705,18 @@
       ]
     },
     {
+      "apn": "web.omwtoday.com",
+      "mmsc": "http://wirelessfour.mmsmvno.com/mms/wapenc",
+      "mvno_match_data": "4d4b",
+      "mvno_type": "gid",
+      "name": "Family Mobile",
+      "types": [
+        "default",
+        "mms",
+        "supl"
+      ]
+    },
+    {
       "apn": "qlink",
       "mmsc": "http://wholesale.mmsmvno.com/mms/wapenc",
       "mvno_match_data": "514C",
@@ -694,6 +792,18 @@
         "supl"
       ],
       "user_editable": false
+    },
+    {
+      "apn": "simple",
+      "mmsc": "http://smpl.mms.msg.eng.t-mobile.com/mms/wapenc",
+      "mvno_match_data": "534d",
+      "mvno_type": "gid",
+      "name": "Simple",
+      "types": [
+        "default",
+        "mms",
+        "supl"
+      ]
     },
     {
       "apn": "wholesale",
@@ -1231,23 +1341,16 @@
     }
   ],
   "android_carrier_config": {
+    "allow_adding_apns_bool": true,
     "allow_emergency_video_calls_bool": true,
+    "apn_expand_bool": true,
+    "auto_retry_failed_wifi_emergency_call": true,
     "carrier_allow_turnoff_ims_bool": false,
     "carrier_default_wfc_ims_enabled_bool": true,
     "carrier_default_wfc_ims_mode_int": 1,
     "carrier_default_wfc_ims_roaming_enabled_bool": true,
     "carrier_ims_gba_required_bool": true,
-    "carrier_metered_apn_types_strings": [
-      "default",
-      "dun",
-      "supl"
-    ],
-    "carrier_metered_roaming_apn_types_strings": [
-      "default",
-      "dun",
-      "supl",
-      "mms"
-    ],
+    "carrier_volte_provisioned_bool": true,
     "carrier_volte_tty_supported_bool": false,
     "carrier_vowifi_tty_supported_bool": false,
     "carrier_wfc_ims_available_bool": true,
@@ -1256,6 +1359,7 @@
     "enableMMSReadReports": true,
     "enhanced_4g_lte_on_by_default_bool": true,
     "hide_ims_apn_bool": true,
+    "ignore_data_enabled_changed_for_video_calls": true,
     "ims.enable_presence_publish_bool": true,
     "imsvoice.conference_factory_uri_string": "8881112663@msg.pc.t-mobile.com",
     "iwlan.epdg_static_address_string": "epdg.epc.mnc260.mcc310.pub.3gppnetwork.org",
@@ -1265,6 +1369,7 @@
     "mmsCloseConnection": true,
     "recipientLimit": 20,
     "rtt_supported_while_roaming_bool": true,
+    "show_apn_setting_cdma_bool": true,
     "smsToMmsTextThreshold": 12,
     "support_video_conference_call_bool": true,
     "volte_replacement_rat_int": 3,

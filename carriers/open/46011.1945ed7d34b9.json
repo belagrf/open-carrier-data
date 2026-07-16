@@ -53,17 +53,12 @@
     },
     {
       "apn": "ctlte",
-      "authtype": 0,
-      "name": "ctlte",
-      "password": "vnet.mobi",
-      "port": 80,
+      "name": "China Telecom",
       "protocol": "IPV4V6",
-      "server": "*",
+      "roaming_protocol": "IPV4V6",
       "types": [
-        "default",
-        "supl"
-      ],
-      "user": "ctlte@mycdma.cn"
+        "ia"
+      ]
     },
     {
       "apn": "ctnet",
@@ -213,6 +208,22 @@
       "types": [
         "ia"
       ]
+    },
+    {
+      "apn": "ctwap",
+      "authtype": 2,
+      "mmsc": "http://mmsc.vnet.mobi",
+      "mmsport": 80,
+      "mmsproxy": "10.0.0.200",
+      "name": "\u4e2d\u56fd\u7535\u4fe1WAP\u8bbe\u7f6eCTWAP",
+      "password": "vnet.mobi",
+      "port": 80,
+      "proxy": "10.0.0.200",
+      "types": [
+        "default",
+        "supl"
+      ],
+      "user": "ctwap@mycdma.cn"
     },
     {
       "apn": "ctwap",
@@ -393,28 +404,35 @@
   ],
   "android_carrier_config": {
     "allow_add_call_during_video_call": false,
+    "allow_adding_apns_bool": true,
     "allow_hold_call_during_emergency_bool": false,
     "allow_hold_video_call_bool": false,
+    "apn_expand_bool": true,
+    "auto_retry_failed_wifi_emergency_call": true,
     "carrier_allow_transfer_ims_call_bool": false,
+    "carrier_default_wfc_ims_enabled_bool": true,
     "carrier_default_wfc_ims_mode_int": 1,
     "carrier_default_wfc_ims_roaming_mode_int": 1,
-    "carrier_metered_apn_types_strings": [
+    "carrier_metered_roaming_apn_types_strings": [
       "default",
       "dun",
-      "supl"
+      "supl",
+      "fota"
     ],
+    "carrier_supports_ss_over_ut_bool": true,
+    "carrier_volte_provisioned_bool": true,
     "carrier_wfc_ims_available_bool": true,
+    "carrier_wfc_supports_wifi_only_bool": false,
     "editable_wfc_mode_bool": false,
+    "editable_wfc_roaming_mode_bool": true,
     "enableGroupMms": false,
     "enabledMMS": true,
-    "enhanced_4g_lte_on_by_default_bool": false,
-    "hide_enhanced_4g_lte_bool": true,
     "ignore_data_enabled_changed_for_video_calls": true,
     "maxMessageSize": 307200,
     "recipientLimit": 10,
     "smsToMmsTextThreshold": 10,
     "support_swap_after_merge_bool": false,
-    "support_video_conference_call_bool": false
+    "volte_replacement_rat_int": 6
   },
   "capabilities": {
     "esim": "unknown",

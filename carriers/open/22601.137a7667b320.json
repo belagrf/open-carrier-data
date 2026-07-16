@@ -77,6 +77,8 @@
       "carrier_enabled": true,
       "name": "internet.vodafone.ro",
       "password": "vodafone",
+      "protocol": "IP",
+      "roaming_protocol": "IP",
       "types": [
         "default"
       ],

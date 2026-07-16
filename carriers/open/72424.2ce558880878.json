@@ -3,12 +3,22 @@
     {
       "apn": "gprs.amazoniacelular.com.br",
       "authtype": 1,
+      "mmsc": "null",
       "name": "gprs.amazoniacelular.com.br",
       "password": "celular",
       "types": [
         "default",
-        "dun",
         "supl"
+      ],
+      "user": "celular"
+    },
+    {
+      "apn": "gprs.amazoniacelular.com.br",
+      "authtype": 1,
+      "name": "gprs.amazoniacelular.com.br",
+      "password": "celular",
+      "types": [
+        "dun"
       ],
       "user": "celular"
     },
@@ -71,6 +81,18 @@
         "mms"
       ],
       "user": "celular"
+    },
+    {
+      "apn": "wapgprs.oi.com.br",
+      "mmsc": "http://wap.oi.com.br",
+      "name": "Oi WAP GPRS",
+      "password": "oiwap",
+      "port": 3128,
+      "proxy": "200.222.108.241",
+      "types": [
+        "supl"
+      ],
+      "user": "oiwap"
     }
   ],
   "android_carrier_config": {

@@ -2809,17 +2809,6 @@
       ]
     },
     {
-      "apn": "ltedata.apn",
-      "mvno_match_data": "ROGERS",
-      "mvno_type": "spn",
-      "name": "ltedata.apn",
-      "protocol": "IPV4V6",
-      "roaming_protocol": "IP",
-      "types": [
-        "dun"
-      ]
-    },
-    {
       "apn": "ltemobile.apn",
       "mmsc": "http://mms.gprs.rogers.com",
       "mmsport": 80,
@@ -2829,10 +2818,7 @@
       "name": "Rogers Phone LTE",
       "protocol": "IPV4V6",
       "types": [
-        "default",
-        "hipri",
-        "mms",
-        "supl"
+        "hipri"
       ]
     },
     {

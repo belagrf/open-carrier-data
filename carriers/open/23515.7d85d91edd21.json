@@ -1,0 +1,36 @@
+{
+  "android_apns": [
+    {
+      "apn": "ovivomvno.com",
+      "mmsc": "http://mms.gprsconnect.com/servlets/mms",
+      "mmsport": 8799,
+      "mmsproxy": "212.183.137.12",
+      "mvno_match_data": "Ovivo",
+      "mvno_type": "spn",
+      "name": "OVIVO MMS",
+      "types": [
+        "mms"
+      ]
+    }
+  ],
+  "capabilities": {
+    "esim": "unknown",
+    "ims_conference": "unknown",
+    "mms": "supported",
+    "rcs": "unknown",
+    "sms_over_ims": "unknown",
+    "video_calling": "unknown",
+    "volte": "unknown",
+    "vonr": "unknown",
+    "vowifi": "unknown",
+    "wifi_calling_roaming": "unknown"
+  },
+  "display_name": "OVIVO",
+  "match": {
+    "mccmnc": [
+      "23515"
+    ]
+  },
+  "profile_id": "open.23515.7d85d91edd21",
+  "schema_version": 1
+}

@@ -79,6 +79,7 @@
     },
     {
       "apn": "web.gci",
+      "authtype": 0,
       "name": "web.gci",
       "types": [
         "default",

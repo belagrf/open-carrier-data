@@ -52,9 +52,17 @@
     },
     {
       "apn": "broadband",
-      "name": "broadband",
+      "name": "TELEKOM.RO",
       "types": [
-        "dun",
+        "dun"
+      ]
+    },
+    {
+      "apn": "broadband",
+      "name": "broadband",
+      "protocol": "IP",
+      "roaming_protocol": "IP",
+      "types": [
         "supl"
       ]
     },
@@ -68,18 +76,6 @@
       "roaming_protocol": "IP",
       "types": [
         "xcap"
-      ]
-    },
-    {
-      "apn": "ims",
-      "authtype": 0,
-      "carrier_enabled": true,
-      "mtu": 1500,
-      "name": "IMS",
-      "protocol": "IPV4V6",
-      "roaming_protocol": "IPV4V6",
-      "types": [
-        "ims"
       ]
     },
     {
@@ -109,7 +105,9 @@
       "name": "web'n'walk",
       "password": "wnw",
       "port": 8080,
+      "protocol": "IP",
       "proxy": "10.252.1.62",
+      "roaming_protocol": "IP",
       "types": [
         "default",
         "supl"

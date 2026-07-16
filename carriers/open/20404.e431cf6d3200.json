@@ -144,6 +144,8 @@
       "mmsproxy": "192.168.251.150",
       "name": "Vodafone NL",
       "password": "vodafone",
+      "port": 8799,
+      "proxy": "192.168.251.150",
       "types": [
         "mms"
       ],
@@ -158,7 +160,9 @@
       "mmsproxy": "192.168.251.150",
       "name": "live.vodafone.com",
       "password": "vodafone",
+      "port": 8799,
       "protocol": "IPV4V6",
+      "proxy": "192.168.251.150",
       "roaming_protocol": "IPV4V6",
       "types": [
         "supl"

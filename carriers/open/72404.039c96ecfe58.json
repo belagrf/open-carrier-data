@@ -21,6 +21,30 @@
       ]
     },
     {
+      "apn": "mms.tim.br",
+      "authtype": 1,
+      "mmsc": "http://mms.tim.br",
+      "mmsport": 8080,
+      "mmsproxy": "200.179.66.242",
+      "name": "TIM MMS",
+      "password": "tim",
+      "types": [
+        "mms"
+      ],
+      "user": "tim"
+    },
+    {
+      "apn": "tim.br",
+      "mmsc": "null",
+      "name": "tim.br",
+      "password": "tim",
+      "types": [
+        "default",
+        "supl"
+      ],
+      "user": "tim"
+    },
+    {
       "apn": "timbrasil.br",
       "mmsc": "http://mms.tim.br",
       "mmsport": 8080,
@@ -61,6 +85,19 @@
       "types": [
         "ia",
         "xcap"
+      ],
+      "user": "tim"
+    },
+    {
+      "apn": "wap.tim.br",
+      "mmsc": "http://wap.tim.com.br",
+      "name": "TIM WAP FAST",
+      "password": "tim",
+      "port": 8080,
+      "proxy": "200.244.116.65",
+      "types": [
+        "default",
+        "supl"
       ],
       "user": "tim"
     }

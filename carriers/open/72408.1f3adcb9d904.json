@@ -1,4 +1,44 @@
 {
+  "android_apns": [
+    {
+      "apn": "mms.tim.br",
+      "authtype": 1,
+      "mmsc": "http://mms.tim.br",
+      "mmsport": 8080,
+      "mmsproxy": "200.179.66.242",
+      "name": "TIM MMS",
+      "password": "tim",
+      "types": [
+        "mms"
+      ],
+      "user": "tim"
+    },
+    {
+      "apn": "timbrasil.br",
+      "authtype": 1,
+      "mmsc": "http://www.google.com.br",
+      "name": "TIM Connect FAST",
+      "password": "tim",
+      "types": [
+        "default",
+        "supl"
+      ],
+      "user": "tim"
+    },
+    {
+      "apn": "wap.tim.br",
+      "mmsc": "http://wap.tim.com.br",
+      "name": "TIM WAP FAST",
+      "password": "tim",
+      "port": 8080,
+      "proxy": "200.244.116.65",
+      "types": [
+        "default",
+        "supl"
+      ],
+      "user": "tim"
+    }
+  ],
   "capabilities": {
     "esim": "unknown",
     "ims_conference": "unknown",
@@ -11,7 +51,7 @@
     "vowifi": "unknown",
     "wifi_calling_roaming": "unknown"
   },
-  "display_name": "TIM",
+  "display_name": "Carrier 72408",
   "match": {
     "mccmnc": [
       "72408"

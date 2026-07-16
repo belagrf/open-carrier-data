@@ -67,6 +67,38 @@
       ]
     },
     {
+      "apn": "ctnet",
+      "authtype": 3,
+      "name": "\u4e2d\u56fd\u7535\u4fe1\u4e92\u8054\u7f51\u8bbe\u7f6eCTNET",
+      "password": "vnet.mobi",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "default",
+        "dun",
+        "supl"
+      ],
+      "user": "ctnet@mycdma.cn"
+    },
+    {
+      "apn": "ctwap",
+      "authtype": 3,
+      "mmsc": "http://mmsc.vnet.mobi",
+      "mmsport": 80,
+      "mmsproxy": "10.0.0.200",
+      "name": "\u4e2d\u56fd\u7535\u4fe1WAP\u8bbe\u7f6eCTWAP",
+      "password": "vnet.mobi",
+      "port": 80,
+      "proxy": "10.0.0.200",
+      "types": [
+        "default",
+        "dun",
+        "mms",
+        "supl"
+      ],
+      "user": "ctwap@mycdma.cn"
+    },
+    {
       "apn": "ims",
       "bearer_bitmask": "1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20",
       "name": "ims",

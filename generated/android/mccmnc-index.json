@@ -760,6 +760,19 @@
         "specificity": 0
       }
     ],
+    "200053": [
+      {
+        "display_name": "Virgin Mobile US",
+        "match": {
+          "mccmnc": [
+            "200053"
+          ]
+        },
+        "path": "carriers/open/200053.5bacee400853.json",
+        "profile_id": "open.200053.5bacee400853",
+        "specificity": 0
+      }
+    ],
     "20201": [
       {
         "display_name": "Carrier 20201",
@@ -907,6 +920,19 @@
         "path": "carriers/open/20210.e508b19549c8.json",
         "profile_id": "open.20210.e508b19549c8",
         "specificity": 1
+      }
+    ],
+    "20214": [
+      {
+        "display_name": "Cyta GR",
+        "match": {
+          "mccmnc": [
+            "20214"
+          ]
+        },
+        "path": "carriers/open/20214.2586384c88b2.json",
+        "profile_id": "open.20214.2586384c88b2",
+        "specificity": 0
       }
     ],
     "20217": [
@@ -1909,6 +1935,24 @@
         },
         "path": "carriers/open/20404.d6c86fc1d152.json",
         "profile_id": "open.20404.d6c86fc1d152",
+        "specificity": 1
+      },
+      {
+        "display_name": "Sony Open Devices AOSP 20404",
+        "match": {
+          "iccid_prefixes": [
+            "8985231",
+            "8985302",
+            "8985307",
+            "898603",
+            "898611"
+          ],
+          "mccmnc": [
+            "20404"
+          ]
+        },
+        "path": "carriers/open/20404.d9abf8dd6b95.json",
+        "profile_id": "open.20404.d9abf8dd6b95",
         "specificity": 1
       },
       {
@@ -14932,7 +14976,7 @@
     ],
     "23302": [
       {
-        "display_name": "LineageOS 23302",
+        "display_name": "Carrier 23302",
         "match": {
           "mccmnc": [
             "23302"
@@ -14945,7 +14989,7 @@
     ],
     "23304": [
       {
-        "display_name": "LineageOS 23304",
+        "display_name": "Carrier 23304",
         "match": {
           "mccmnc": [
             "23304"
@@ -18006,6 +18050,19 @@
         "specificity": 0
       }
     ],
+    "23515": [
+      {
+        "display_name": "OVIVO",
+        "match": {
+          "mccmnc": [
+            "23515"
+          ]
+        },
+        "path": "carriers/open/23515.7d85d91edd21.json",
+        "profile_id": "open.23515.7d85d91edd21",
+        "specificity": 0
+      }
+    ],
     "23591": [
       {
         "display_name": "Carrier 23591",
@@ -20626,7 +20683,7 @@
     ],
     "24406": [
       {
-        "display_name": "LineageOS 24406",
+        "display_name": "Carrier 24406",
         "match": {
           "mccmnc": [
             "24406"
@@ -47474,7 +47531,7 @@
     ],
     "31080": [
       {
-        "display_name": "LineageOS 31080",
+        "display_name": "Carrier 31080",
         "match": {
           "mccmnc": [
             "31080"
@@ -49034,7 +49091,7 @@
     ],
     "31100": [
       {
-        "display_name": "LineageOS 31100",
+        "display_name": "Carrier 31100",
         "match": {
           "mccmnc": [
             "31100"
@@ -58995,6 +59052,19 @@
         "specificity": 0
       }
     ],
+    "312120": [
+      {
+        "display_name": "Sony Open Devices AOSP 312120,312530",
+        "match": {
+          "mccmnc": [
+            "312120"
+          ]
+        },
+        "path": "carriers/open/312120.5e45524c258b.json",
+        "profile_id": "open.312120.5e45524c258b",
+        "specificity": 0
+      }
+    ],
     "312130": [
       {
         "display_name": "Carrier 312130",
@@ -62338,7 +62408,7 @@
     ],
     "33402": [
       {
-        "display_name": "Telcel",
+        "display_name": "Carrier 33402",
         "match": {
           "mccmnc": [
             "33402"
@@ -75323,6 +75393,84 @@
         "specificity": 1
       }
     ],
+    "404750": [
+      {
+        "display_name": "Sony Open Devices AOSP 40466,40467,404750,404751,404753,404754,404755,404756,40484,40486,40488",
+        "match": {
+          "mccmnc": [
+            "404750"
+          ]
+        },
+        "path": "carriers/open/404750.2551250437a5.json",
+        "profile_id": "open.404750.2551250437a5",
+        "specificity": 0
+      }
+    ],
+    "404751": [
+      {
+        "display_name": "Sony Open Devices AOSP 40466,40467,404750,404751,404753,404754,404755,404756,40484,40486,40488",
+        "match": {
+          "mccmnc": [
+            "404751"
+          ]
+        },
+        "path": "carriers/open/404751.8663e8937e5b.json",
+        "profile_id": "open.404751.8663e8937e5b",
+        "specificity": 0
+      }
+    ],
+    "404753": [
+      {
+        "display_name": "Sony Open Devices AOSP 40466,40467,404750,404751,404753,404754,404755,404756,40484,40486,40488",
+        "match": {
+          "mccmnc": [
+            "404753"
+          ]
+        },
+        "path": "carriers/open/404753.be11c344891f.json",
+        "profile_id": "open.404753.be11c344891f",
+        "specificity": 0
+      }
+    ],
+    "404754": [
+      {
+        "display_name": "Sony Open Devices AOSP 40466,40467,404750,404751,404753,404754,404755,404756,40484,40486,40488",
+        "match": {
+          "mccmnc": [
+            "404754"
+          ]
+        },
+        "path": "carriers/open/404754.cc1ac1b22190.json",
+        "profile_id": "open.404754.cc1ac1b22190",
+        "specificity": 0
+      }
+    ],
+    "404755": [
+      {
+        "display_name": "Sony Open Devices AOSP 40466,40467,404750,404751,404753,404754,404755,404756,40484,40486,40488",
+        "match": {
+          "mccmnc": [
+            "404755"
+          ]
+        },
+        "path": "carriers/open/404755.6b29cbc12a73.json",
+        "profile_id": "open.404755.6b29cbc12a73",
+        "specificity": 0
+      }
+    ],
+    "404756": [
+      {
+        "display_name": "Sony Open Devices AOSP 40466,40467,404750,404751,404753,404754,404755,404756,40484,40486,40488",
+        "match": {
+          "mccmnc": [
+            "404756"
+          ]
+        },
+        "path": "carriers/open/404756.80c1e0e82caa.json",
+        "profile_id": "open.404756.80c1e0e82caa",
+        "specificity": 0
+      }
+    ],
     "40476": [
       {
         "display_name": "Carrier 40476",
@@ -85619,6 +85767,19 @@
         "specificity": 1
       }
     ],
+    "42002": [
+      {
+        "display_name": "Sony Open Devices AOSP 42001,42002,42003",
+        "match": {
+          "mccmnc": [
+            "42002"
+          ]
+        },
+        "path": "carriers/open/42002.857a4076d83a.json",
+        "profile_id": "open.42002.857a4076d83a",
+        "specificity": 0
+      }
+    ],
     "42003": [
       {
         "display_name": "Carrier 42003",
@@ -90606,6 +90767,20 @@
         "specificity": 1
       },
       {
+        "display_name": "Sony Open Devices AOSP 45400",
+        "match": {
+          "mccmnc": [
+            "45400"
+          ],
+          "spn": [
+            "Club"
+          ]
+        },
+        "path": "carriers/open/45400.4a17d8889a99.json",
+        "profile_id": "open.45400.4a17d8889a99",
+        "specificity": 1
+      },
+      {
         "display_name": "Reliance",
         "match": {
           "iccid_prefixes": [
@@ -93924,7 +94099,7 @@
     ],
     "46059": [
       {
-        "display_name": "China Telecomm (IMS)",
+        "display_name": "Carrier 46059",
         "match": {
           "mccmnc": [
             "46059"
@@ -105610,6 +105785,123 @@
         "specificity": 1
       }
     ],
+    "722071": [
+      {
+        "display_name": "Carrier 722071",
+        "match": {
+          "mccmnc": [
+            "722071"
+          ]
+        },
+        "path": "carriers/open/722071.1e2b646e4107.json",
+        "profile_id": "open.722071.1e2b646e4107",
+        "specificity": 0
+      }
+    ],
+    "722072": [
+      {
+        "display_name": "Carrier 722072",
+        "match": {
+          "mccmnc": [
+            "722072"
+          ]
+        },
+        "path": "carriers/open/722072.7b904b384c10.json",
+        "profile_id": "open.722072.7b904b384c10",
+        "specificity": 0
+      }
+    ],
+    "722073": [
+      {
+        "display_name": "Carrier 722073",
+        "match": {
+          "mccmnc": [
+            "722073"
+          ]
+        },
+        "path": "carriers/open/722073.89f203479998.json",
+        "profile_id": "open.722073.89f203479998",
+        "specificity": 0
+      }
+    ],
+    "722074": [
+      {
+        "display_name": "Carrier 722074",
+        "match": {
+          "mccmnc": [
+            "722074"
+          ]
+        },
+        "path": "carriers/open/722074.9acb63e96e40.json",
+        "profile_id": "open.722074.9acb63e96e40",
+        "specificity": 0
+      }
+    ],
+    "722075": [
+      {
+        "display_name": "Carrier 722075",
+        "match": {
+          "mccmnc": [
+            "722075"
+          ]
+        },
+        "path": "carriers/open/722075.da4eff0179ec.json",
+        "profile_id": "open.722075.da4eff0179ec",
+        "specificity": 0
+      }
+    ],
+    "722076": [
+      {
+        "display_name": "Carrier 722076",
+        "match": {
+          "mccmnc": [
+            "722076"
+          ]
+        },
+        "path": "carriers/open/722076.23fb419ae62d.json",
+        "profile_id": "open.722076.23fb419ae62d",
+        "specificity": 0
+      }
+    ],
+    "722077": [
+      {
+        "display_name": "Carrier 722077",
+        "match": {
+          "mccmnc": [
+            "722077"
+          ]
+        },
+        "path": "carriers/open/722077.38a213646013.json",
+        "profile_id": "open.722077.38a213646013",
+        "specificity": 0
+      }
+    ],
+    "722078": [
+      {
+        "display_name": "Carrier 722078",
+        "match": {
+          "mccmnc": [
+            "722078"
+          ]
+        },
+        "path": "carriers/open/722078.40826388244d.json",
+        "profile_id": "open.722078.40826388244d",
+        "specificity": 0
+      }
+    ],
+    "722079": [
+      {
+        "display_name": "Carrier 722079",
+        "match": {
+          "mccmnc": [
+            "722079"
+          ]
+        },
+        "path": "carriers/open/722079.1e64ef18504b.json",
+        "profile_id": "open.722079.1e64ef18504b",
+        "specificity": 0
+      }
+    ],
     "72210": [
       {
         "display_name": "Carrier 72210",
@@ -106051,7 +106343,7 @@
     ],
     "72408": [
       {
-        "display_name": "TIM",
+        "display_name": "Carrier 72408",
         "match": {
           "mccmnc": [
             "72408"
