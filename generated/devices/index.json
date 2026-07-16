@@ -25,7 +25,7 @@
         "exact_carrier_data_observed": 257,
         "exact_source_extracted": 429,
         "exact_source_indexed": 3117,
-        "inventory_only": 35194,
+        "inventory_only": 35207,
         "platform_out_of_scope": 53,
         "source_checked_no_artifact": 1270,
         "source_discovery_in_progress": 610,
@@ -88,7 +88,7 @@
           "inventory_only": 5
         },
         "8849": {
-          "inventory_only": 8
+          "inventory_only": 9
         },
         "9mobile": {
           "inventory_only": 1
@@ -1315,7 +1315,7 @@
           "inventory_only": 1
         },
         "Blu": {
-          "inventory_only": 419
+          "inventory_only": 420
         },
         "Bluboo": {
           "inventory_only": 16
@@ -3104,7 +3104,7 @@
           "inventory_only": 3
         },
         "FCNT": {
-          "inventory_only": 23
+          "inventory_only": 24
         },
         "FEC": {
           "inventory_only": 1
@@ -3510,6 +3510,9 @@
           "inventory_only": 1
         },
         "GYRO": {
+          "inventory_only": 1
+        },
+        "Gadnic": {
           "inventory_only": 1
         },
         "Galactic": {
@@ -5505,7 +5508,7 @@
           "inventory_only": 2
         },
         "Lunnen": {
-          "inventory_only": 6
+          "inventory_only": 8
         },
         "Lyf": {
           "inventory_only": 26
@@ -6141,7 +6144,7 @@
           "exact_carrier_data_observed": 5,
           "exact_source_extracted": 31,
           "exact_source_indexed": 90,
-          "inventory_only": 174,
+          "inventory_only": 175,
           "source_checked_no_artifact": 40,
           "source_discovery_in_progress": 320
         },
@@ -6717,7 +6720,7 @@
           "inventory_only": 1
         },
         "ONERugged": {
-          "inventory_only": 22
+          "inventory_only": 23
         },
         "ONIDA": {
           "inventory_only": 6
@@ -7709,7 +7712,7 @@
           "inventory_only": 27
         },
         "RebotAi": {
-          "inventory_only": 17
+          "inventory_only": 18
         },
         "Rectron": {
           "inventory_only": 2
@@ -7723,7 +7726,7 @@
         "Redmi": {
           "exact_source_extracted": 20,
           "exact_source_indexed": 173,
-          "inventory_only": 40,
+          "inventory_only": 41,
           "source_checked_no_artifact": 1
         },
         "Redway": {
@@ -8386,7 +8389,7 @@
           "inventory_only": 2
         },
         "Shenzhen SEI Robotics": {
-          "inventory_only": 9
+          "inventory_only": 10
         },
         "Shiarffe": {
           "inventory_only": 2
@@ -9233,7 +9236,7 @@
           "inventory_only": 230
         },
         "Tecno": {
-          "inventory_only": 384
+          "inventory_only": 385
         },
         "Tecno Mobile": {
           "inventory_only": 15
@@ -10302,7 +10305,7 @@
           "inventory_only": 1
         },
         "Welio": {
-          "inventory_only": 1
+          "inventory_only": 2
         },
         "Welwitcha": {
           "inventory_only": 1
@@ -11643,9 +11646,9 @@
       },
       "carrier_observation_match_count": 257,
       "carrier_source_discovery_match_count": 8450,
-      "device_count": 43644,
-      "historical_device_count": 76,
-      "present_device_count": 43568,
+      "device_count": 43657,
+      "historical_device_count": 78,
+      "present_device_count": 43579,
       "present_device_count_by_brand": {
         "(not provided by source)": 3,
         "1&1": 4,
@@ -11665,7 +11668,7 @@
         "5STAR": 2,
         "7Eleven": 1,
         "7mobile": 5,
-        "8849": 8,
+        "8849": 9,
         "9mobile": 1,
         "A.O.I. ELECTRONICS FACTORY": 1,
         "A1": 6,
@@ -12072,7 +12075,7 @@
         "Blackview": 274,
         "Blaupunkt": 70,
         "Blincast": 1,
-        "Blu": 419,
+        "Blu": 420,
         "Bluboo": 16,
         "BlueTech": 1,
         "Bluebird": 28,
@@ -12668,7 +12671,7 @@
         "FAVORITT": 2,
         "FBC": 2,
         "FCC Movil": 3,
-        "FCNT": 23,
+        "FCNT": 24,
         "FEC": 1,
         "FEITIAN": 2,
         "FELUX": 3,
@@ -12804,6 +12807,7 @@
         "GUIDE_SAMJUNG": 1,
         "GYGAR": 1,
         "GYRO": 1,
+        "Gadnic": 1,
         "Galactic": 2,
         "Galapad": 1,
         "Galax": 1,
@@ -13462,10 +13466,10 @@
         "Lucentel": 1,
         "Lumigon": 3,
         "Lumitel": 2,
-        "Lunnen": 6,
+        "Lunnen": 8,
         "Lyf": 26,
         "M-Horse": 18,
-        "M-KOPA": 4,
+        "M-KOPA": 3,
         "M-tech": 4,
         "M3 Mobile": 21,
         "M4tel": 19,
@@ -13673,7 +13677,7 @@
         "Mosambee": 3,
         "MoshiMore": 1,
         "Most Computers": 1,
-        "Motorola": 660,
+        "Motorola": 661,
         "Motorola Solutions": 8,
         "Motumation": 1,
         "Movado": 3,
@@ -13863,7 +13867,7 @@
         "OMIX": 16,
         "ONDA TLC": 2,
         "ONENZ": 1,
-        "ONERugged": 22,
+        "ONERugged": 23,
         "ONIDA": 6,
         "ONPAD": 2,
         "ONVO": 2,
@@ -14189,11 +14193,11 @@
         "Realtek": 2,
         "Realtime": 6,
         "Rebecco": 27,
-        "RebotAi": 17,
+        "RebotAi": 18,
         "Rectron": 2,
         "Red Mobile": 2,
         "Red-X": 6,
-        "Redmi": 234,
+        "Redmi": 235,
         "Redway": 4,
         "Reeder": 68,
         "Reekoo": 2,
@@ -14412,7 +14416,7 @@
         "Sharp": 454,
         "Shelby": 1,
         "Shenzhen Jiuzhou": 2,
-        "Shenzhen SEI Robotics": 9,
+        "Shenzhen SEI Robotics": 10,
         "Shiarffe": 2,
         "Shivaki": 2,
         "Shuodum": 4,
@@ -14693,7 +14697,7 @@
         "Techsonic": 1,
         "Techview": 4,
         "Teclast": 230,
-        "Tecno": 384,
+        "Tecno": 385,
         "Tecno Mobile": 15,
         "Tecnomaster": 8,
         "Tectoy": 2,
@@ -14721,7 +14725,6 @@
         "Telenor(HU)": 1,
         "Teleone": 1,
         "Teletab": 6,
-        "Telev8": 1,
         "Telia": 3,
         "Telikom": 1,
         "Telkom": 1,
@@ -15049,7 +15052,7 @@
         "Webfleet Solutions": 1,
         "Weimei": 2,
         "Welgate": 1,
-        "Welio": 1,
+        "Welio": 2,
         "Welwitcha": 1,
         "Wemax": 1,
         "Wenu": 1,
@@ -15575,17 +15578,17 @@
       "url": "https://developers.google.cn/android/ota-watch?hl=en"
     },
     {
-      "checked_at": "2026-07-13",
+      "checked_at": "2026-07-16",
       "name": "google_play_device_coverage_dispatch",
-      "revision": "750653d57d90c290e6d689614b4bc2e0070e70586a099400c60a7e3e851e98dc",
-      "revision_date": "2026-07-13",
+      "revision": "9b467b7f4516a7779c3ec5f54b89f0e976bc5e8da9c7e94e53822c52a38607fa",
+      "revision_date": "2026-07-15",
       "url": "https://storage.googleapis.com/play_public/supported_devices.csv"
     },
     {
-      "checked_at": "2026-07-13",
+      "checked_at": "2026-07-16",
       "name": "google_play_supported_devices",
-      "revision": "750653d57d90c290e6d689614b4bc2e0070e70586a099400c60a7e3e851e98dc",
-      "revision_date": "2026-07-13",
+      "revision": "9b467b7f4516a7779c3ec5f54b89f0e976bc5e8da9c7e94e53822c52a38607fa",
+      "revision_date": "2026-07-15",
       "url": "https://storage.googleapis.com/play_public/supported_devices.csv"
     },
     {
