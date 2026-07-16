@@ -47,6 +47,10 @@ jobs:
         run: |
           python3 tools/test_generated_android_outputs.py
 
+      - name: Test carrier relevance contract
+        run: |
+          python3 tools/test_carrier_relevance_contract.py
+
       - name: Test carrier profile resolver
         run: |
           python3 tools/test_resolve_carrier_profiles.py

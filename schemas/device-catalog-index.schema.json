@@ -13,7 +13,7 @@
     "artifact_registries"
   ],
   "properties": {
-    "schema_version": { "const": 1 },
+    "schema_version": { "type": "integer", "enum": [1, 2] },
     "description": { "type": "string", "minLength": 1 },
     "generated_from_checks_through": { "type": "string", "format": "date" },
     "sources": { "type": "array", "minItems": 1 },
@@ -24,6 +24,110 @@
     "artifact_registries": {
       "type": "object",
       "required": ["apple_carrier_bundles", "android_carrier_source_artifacts"]
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": { "schema_version": { "const": 2 } },
+        "required": ["schema_version"]
+      },
+      "then": {
+        "properties": {
+          "platforms": {
+            "properties": {
+              "android": { "$ref": "#/$defs/v2_platform_relevance" },
+              "apple": { "$ref": "#/$defs/v2_platform_relevance" }
+            }
+          }
+        }
+      },
+      "else": {
+        "properties": {
+          "platforms": {
+            "properties": {
+              "android": {
+                "not": {
+                  "anyOf": [
+                    { "required": ["carrier_relevance_counts"] },
+                    { "required": ["carrier_relevance_by_coverage"] }
+                  ]
+                }
+              },
+              "apple": {
+                "not": {
+                  "anyOf": [
+                    { "required": ["carrier_relevance_counts"] },
+                    { "required": ["carrier_relevance_by_coverage"] }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "$defs": {
+    "relevance_counts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "evidence_confirmed_cellular",
+        "evidence_confirmed_non_cellular",
+        "not_established"
+      ],
+      "properties": {
+        "evidence_confirmed_cellular": { "type": "integer", "minimum": 0 },
+        "evidence_confirmed_non_cellular": { "type": "integer", "minimum": 0 },
+        "not_established": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "relevance_by_coverage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "carrier_data_not_applicable",
+        "exact_carrier_data_observed",
+        "exact_source_extracted",
+        "exact_source_verified",
+        "exact_source_indexed",
+        "family_source_verified",
+        "family_source_indexed",
+        "source_discovery_in_progress",
+        "source_checked_no_artifact",
+        "source_not_queryable",
+        "platform_out_of_scope",
+        "source_transport_untrusted",
+        "source_terms_restrict_extraction",
+        "inventory_only"
+      ],
+      "properties": {
+        "carrier_data_not_applicable": { "$ref": "#/$defs/relevance_counts" },
+        "exact_carrier_data_observed": { "$ref": "#/$defs/relevance_counts" },
+        "exact_source_extracted": { "$ref": "#/$defs/relevance_counts" },
+        "exact_source_verified": { "$ref": "#/$defs/relevance_counts" },
+        "exact_source_indexed": { "$ref": "#/$defs/relevance_counts" },
+        "family_source_verified": { "$ref": "#/$defs/relevance_counts" },
+        "family_source_indexed": { "$ref": "#/$defs/relevance_counts" },
+        "source_discovery_in_progress": { "$ref": "#/$defs/relevance_counts" },
+        "source_checked_no_artifact": { "$ref": "#/$defs/relevance_counts" },
+        "source_not_queryable": { "$ref": "#/$defs/relevance_counts" },
+        "platform_out_of_scope": { "$ref": "#/$defs/relevance_counts" },
+        "source_transport_untrusted": { "$ref": "#/$defs/relevance_counts" },
+        "source_terms_restrict_extraction": { "$ref": "#/$defs/relevance_counts" },
+        "inventory_only": { "$ref": "#/$defs/relevance_counts" }
+      }
+    },
+    "v2_platform_relevance": {
+      "type": "object",
+      "required": ["carrier_relevance_counts", "carrier_relevance_by_coverage"],
+      "properties": {
+        "carrier_relevance_counts": { "$ref": "#/$defs/relevance_counts" },
+        "carrier_relevance_by_coverage": {
+          "$ref": "#/$defs/relevance_by_coverage"
+        }
+      }
     }
   }
 }
