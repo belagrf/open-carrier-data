@@ -15670,6 +15670,13 @@
     },
     {
       "checked_at": "2026-07-16",
+      "name": "tcl_sourceforge_metadata",
+      "revision": "a21f4574ddddf4f574a2d0f98c9d0328c824e1931cb1f219de70dbe195e10d75",
+      "revision_date": "2026-07-09",
+      "url": "https://sourceforge.net/projects/tcl-mobile/rss?path=/"
+    },
+    {
+      "checked_at": "2026-07-16",
       "name": "transsion_official_terms_of_use",
       "revision": "b3eeeb0b3f7791924d14d0eb9f482d625a57960126d7d0faabd53277f8d98523",
       "revision_date": "2026-07-16",
