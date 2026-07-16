@@ -16,7 +16,7 @@
     }
   },
   "description": "Device discovery and carrier-artifact coverage. Listing a device or matching an artifact scope does not claim that every carrier feature works on it.",
-  "generated_from_checks_through": "2026-07-15",
+  "generated_from_checks_through": "2026-07-16",
   "platforms": {
     "android": {
       "carrier_artifact_match_count": 3762,
@@ -25,12 +25,12 @@
         "exact_carrier_data_observed": 259,
         "exact_source_extracted": 446,
         "exact_source_indexed": 3057,
-        "inventory_only": 36221,
+        "inventory_only": 35660,
         "platform_out_of_scope": 53,
-        "source_checked_no_artifact": 1282,
+        "source_checked_no_artifact": 1270,
         "source_discovery_in_progress": 610,
         "source_not_queryable": 72,
-        "source_terms_restrict_extraction": 1636
+        "source_terms_restrict_extraction": 2209
       },
       "carrier_data_coverage_counts_by_brand": {
         "(not provided by source)": {
@@ -4199,8 +4199,7 @@
         "Huawei": {
           "exact_carrier_data_observed": 1,
           "exact_source_extracted": 2,
-          "inventory_only": 561,
-          "source_checked_no_artifact": 12
+          "source_terms_restrict_extraction": 573
         },
         "Hublot": {
           "inventory_only": 2
@@ -11644,7 +11643,7 @@
         }
       },
       "carrier_observation_match_count": 259,
-      "carrier_source_discovery_match_count": 7423,
+      "carrier_source_discovery_match_count": 7984,
       "device_count": 43644,
       "historical_device_count": 76,
       "present_device_count": 43568,
@@ -15591,6 +15590,13 @@
       "url": "https://github.com/GrapheneOS/adevtool"
     },
     {
+      "checked_at": "2026-07-16",
+      "name": "huawei_official_terms_of_use",
+      "revision": "cd5be540fd3c03741bf50e59f215b0f1da32f565ca0fb6d4f1f9504c6fc4818f",
+      "revision_date": "2026-07-16",
+      "url": "https://consumer.huawei.com/en/legal/terms-of-use/"
+    },
+    {
       "checked_at": "2026-07-15",
       "name": "lge_official_terms_of_use",
       "revision": "7626ad52d2ba953cb140dbabf4e88e27d7f48ec10af50048c452d79d860d3a77",
@@ -15626,10 +15632,10 @@
       "url": "https://neofussvr.sslcs.cdngc.net/NF_SmartDownloadBinaryInform.do"
     },
     {
-      "checked_at": "2026-07-15",
+      "checked_at": "2026-07-16",
       "name": "vivo_official_firmware_update_index",
-      "revision": "e506921cb0cc3a8b078b0b5c0a2eda29e143790b48db5a556f034ba39ba732a6",
-      "revision_date": "2026-07-15",
+      "revision": "3a7375f3c005838a528331d0c51f4fbb036bb7b6518a791ba8ed431de946b27b",
+      "revision_date": "2026-07-16",
       "url": "https://www.vivo.com/sitemap.xml"
     },
     {
