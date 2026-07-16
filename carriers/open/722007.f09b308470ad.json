@@ -1,17 +1,14 @@
 {
   "android_apns": [
     {
-      "apn": "mms.gprs.unifon.com.ar",
-      "authtype": 1,
-      "mmsc": "http://mms.tmovil.cl/",
-      "mmsport": 9201,
-      "mmsproxy": "200.68.32.239",
-      "name": "MOVISTAR MMS",
-      "password": "mms",
+      "apn": "internet.unifon",
+      "name": "Movistar AG",
+      "password": "password",
       "types": [
-        "mms"
+        "default",
+        "supl"
       ],
-      "user": "mms"
+      "user": "wap"
     },
     {
       "apn": "wap.gprs.unifon.com.ar",

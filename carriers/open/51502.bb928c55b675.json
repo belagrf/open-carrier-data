@@ -109,6 +109,14 @@
       ]
     },
     {
+      "apn": "real.globe.com.ph",
+      "name": "MyGlobe Stream",
+      "types": [
+        "default",
+        "supl"
+      ]
+    },
+    {
       "apn": "www.globe.com.ph",
       "carrier_id": 1653,
       "name": "myGlobe Connect",
@@ -119,18 +127,6 @@
         "ia",
         "supl"
       ]
-    },
-    {
-      "apn": "www.globe.com.ph",
-      "name": "www.globe.com.ph",
-      "password": "globe",
-      "port": 8080,
-      "proxy": "203.177.42.214",
-      "types": [
-        "default",
-        "supl"
-      ],
-      "user": "globe"
     }
   ],
   "android_carrier_config": {

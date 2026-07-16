@@ -22,7 +22,7 @@
     {
       "apn": "3g-d-2.ocn.ne.jp",
       "authtype": 2,
-      "name": "OCN \u30e2\u30d0\u30a4\u30eb ONE (3G)",
+      "name": "3g-d-2.ocn.ne.jp",
       "password": "mobile",
       "types": [
         "default",
@@ -42,19 +42,28 @@
       "user": "roke@moba"
     },
     {
+      "apn": "bbnw.jp",
+      "authtype": 3,
+      "name": "Wi-Ho!",
+      "password": "0000",
+      "types": [
+        "default",
+        "supl"
+      ],
+      "user": "user"
+    },
+    {
       "apn": "biglobe.jp",
       "authtype": 3,
       "name": "biglobe.jp",
       "password": "0000",
       "types": [
         "cbs",
-        "default",
         "dun",
         "fota",
         "hipri",
         "ia",
-        "mms",
-        "supl"
+        "mms"
       ],
       "user": "user"
     },
@@ -93,6 +102,17 @@
       "user": "dmm@dmm.com"
     },
     {
+      "apn": "dream.jp",
+      "authtype": 2,
+      "name": "DTI",
+      "password": "dti",
+      "types": [
+        "default",
+        "supl"
+      ],
+      "user": "user@dream.jp"
+    },
+    {
       "apn": "dti.jp",
       "authtype": 3,
       "name": "DTI",
@@ -107,6 +127,17 @@
         "supl"
       ],
       "user": "dti"
+    },
+    {
+      "apn": "foma01.wi-gate.net",
+      "authtype": 3,
+      "name": "WirelessGate 3G",
+      "password": "wg",
+      "types": [
+        "default",
+        "supl"
+      ],
+      "user": "wg@sim"
     },
     {
       "apn": "freetel.link",
@@ -324,12 +355,10 @@
       "password": "0000",
       "types": [
         "cbs",
-        "default",
         "fota",
         "hipri",
         "ia",
-        "mms",
-        "supl"
+        "mms"
       ],
       "user": "d@w.asahinet.jp"
     },
@@ -361,6 +390,17 @@
         "mms"
       ],
       "user": "mda@nifty"
+    },
+    {
+      "apn": "mdb.nifty.com",
+      "authtype": 3,
+      "name": "NifMo 3G",
+      "password": "nifty",
+      "types": [
+        "default",
+        "supl"
+      ],
+      "user": "mdb@nifty"
     },
     {
       "apn": "mercari.com",
@@ -399,15 +439,12 @@
       "user": "mmt@mmt"
     },
     {
-      "apn": "mmtmobile.jp",
-      "authtype": 3,
-      "name": "\u3069\u3053\u3067\u3082\u30d5\u30a3\u30c3\u30c8SIM",
-      "password": "admin",
+      "apn": "mopera.flat.foma.ne.jp",
+      "name": "mopera U Flat",
       "types": [
         "default",
         "supl"
-      ],
-      "user": "dfit@ft"
+      ]
     },
     {
       "apn": "mopera.net",
@@ -434,7 +471,7 @@
     },
     {
       "apn": "mpr2.bizho.net",
-      "name": "mopera U\uff08\u30b9\u30de\u30fc\u30c8\u30d5\u30a9\u30f3\u5b9a\u984d\uff09",
+      "name": "mpr2.bizho.net",
       "types": [
         "default",
         "supl"
@@ -480,6 +517,14 @@
         "dun"
       ],
       "user": "mobileid@ocn"
+    },
+    {
+      "apn": "open.mopera.net",
+      "name": "mopera U FF",
+      "types": [
+        "default",
+        "supl"
+      ]
     },
     {
       "apn": "ratel.com",
@@ -613,6 +658,17 @@
       "user": "tone"
     },
     {
+      "apn": "umob.jp",
+      "authtype": 3,
+      "name": "U-mobile Premium",
+      "password": "umob",
+      "types": [
+        "default",
+        "supl"
+      ],
+      "user": "umob"
+    },
+    {
       "apn": "umobile.jp",
       "authtype": 3,
       "name": "umobile.jp",
@@ -637,7 +693,7 @@
     {
       "apn": "xi01.wi-gate.net",
       "authtype": 3,
-      "name": "\u30ef\u30a4\u30e4\u30ec\u30b9\u30b2\u30fc\u30c8",
+      "name": "xi01.wi-gate.net",
       "password": "wg",
       "types": [
         "default",

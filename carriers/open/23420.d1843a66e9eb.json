@@ -67,6 +67,13 @@
       "user_visible": false
     },
     {
+      "apn": "freedompop.foggmobile.com",
+      "name": "FreedomPop",
+      "types": [
+        "default"
+      ]
+    },
+    {
       "apn": "id",
       "mmsc": "http://mms.um.idmobile.co.uk:10021/mmsc",
       "mmsport": 8799,
@@ -392,6 +399,22 @@
         "xcap"
       ],
       "user_visible": false
+    },
+    {
+      "apn": "giffgaff.com",
+      "mmsc": "http://mmsc.mediamessaging.co.uk:8002",
+      "mmsport": 8080,
+      "mmsproxy": "193.113.200.195",
+      "mvno_match_data": "giffgaff",
+      "mvno_type": "spn",
+      "name": "Giffgaff",
+      "password": "user",
+      "types": [
+        "default",
+        "mms",
+        "supl"
+      ],
+      "user": "giffgaff"
     }
   ],
   "android_carrier_config": {

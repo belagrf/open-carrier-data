@@ -77,15 +77,6 @@
         "ia",
         "supl"
       ]
-    },
-    {
-      "apn": "wap",
-      "name": "SUN WAP GPRS",
-      "port": 8080,
-      "proxy": "202.138.159.78",
-      "types": [
-        "supl"
-      ]
     }
   ],
   "android_carrier_config": {

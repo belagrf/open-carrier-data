@@ -10,11 +10,12 @@
     },
     {
       "apn": "internet.itelcel.com",
-      "name": "Telcel",
+      "name": "internet.itelcel.com",
       "password": "webgprs2002",
       "types": [
         "default",
-        "dun"
+        "dun",
+        "supl"
       ],
       "user": "webgprs"
     },
@@ -48,7 +49,7 @@
     "vowifi": "unknown",
     "wifi_calling_roaming": "unknown"
   },
-  "display_name": "Telcel",
+  "display_name": "Carrier 33402",
   "match": {
     "mccmnc": [
       "33402"

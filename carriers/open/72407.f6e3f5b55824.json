@@ -39,12 +39,21 @@
     },
     {
       "apn": "sercomtel.com.br",
+      "mmsc": "null",
       "name": "SCTL GPRS",
       "password": "sercomtel",
       "types": [
         "default",
-        "ia",
         "supl"
+      ],
+      "user": "sercomtel"
+    },
+    {
+      "apn": "sercomtel.com.br",
+      "name": "SCTL GPRS",
+      "password": "sercomtel",
+      "types": [
+        "ia"
       ],
       "user": "sercomtel"
     }

@@ -29,6 +29,14 @@
     },
     {
       "apn": "mms.life.com.by",
+      "name": "Life:) // Internet",
+      "types": [
+        "default",
+        "supl"
+      ]
+    },
+    {
+      "apn": "mms.life.com.by",
       "authtype": 1,
       "carrier_id": 1950,
       "mmsc": "http://mms.life.com.by/mmsc/",

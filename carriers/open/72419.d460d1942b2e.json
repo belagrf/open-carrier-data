@@ -14,7 +14,8 @@
     },
     {
       "apn": "gprs.telemigcelular.com.br",
-      "name": "TelemigC GPRS",
+      "mmsc": "null",
+      "name": "gprs.telemigcelular.com.br",
       "password": "celular",
       "types": [
         "default",
@@ -40,7 +41,7 @@
       "mmsc": "http://mms.telemigcelular.com.br",
       "mmsport": 8080,
       "mmsproxy": "200.192.230.142",
-      "name": "MMS Telemig",
+      "name": "mmsgprs.telemigcelular.com.br",
       "password": "celular",
       "types": [
         "mms"

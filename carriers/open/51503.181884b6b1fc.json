@@ -113,19 +113,6 @@
       ]
     },
     {
-      "apn": "mms",
-      "authtype": 1,
-      "mmsc": "http://10.102.61.238:8002",
-      "mmsport": 8080,
-      "mmsproxy": "10.102.61.46",
-      "name": "mms",
-      "protocol": "IPV4V6",
-      "roaming_protocol": "IPV4V6",
-      "types": [
-        "mms"
-      ]
-    },
-    {
       "apn": "smartbro",
       "name": "SMART",
       "types": [

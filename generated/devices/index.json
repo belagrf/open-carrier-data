@@ -1,8 +1,8 @@
 {
   "artifact_registries": {
     "android_carrier_source_artifacts": {
-      "artifact_count": 8594,
-      "extracted_count": 1154,
+      "artifact_count": 8597,
+      "extracted_count": 1157,
       "failed_count": 0,
       "indexed_count": 7440,
       "quarantined_count": 12
@@ -19,13 +19,13 @@
   "generated_from_checks_through": "2026-07-16",
   "platforms": {
     "android": {
-      "carrier_artifact_match_count": 3762,
+      "carrier_artifact_match_count": 3803,
       "carrier_data_coverage_counts": {
         "carrier_data_not_applicable": 8,
         "exact_carrier_data_observed": 259,
-        "exact_source_extracted": 446,
+        "exact_source_extracted": 487,
         "exact_source_indexed": 3057,
-        "inventory_only": 35660,
+        "inventory_only": 35619,
         "platform_out_of_scope": 53,
         "source_checked_no_artifact": 1270,
         "source_discovery_in_progress": 610,
@@ -8598,8 +8598,8 @@
         },
         "Sony": {
           "exact_carrier_data_observed": 2,
-          "exact_source_extracted": 21,
-          "inventory_only": 487,
+          "exact_source_extracted": 62,
+          "inventory_only": 446,
           "source_checked_no_artifact": 61
         },
         "Sony Ericsson": {
@@ -11643,7 +11643,7 @@
         }
       },
       "carrier_observation_match_count": 259,
-      "carrier_source_discovery_match_count": 7984,
+      "carrier_source_discovery_match_count": 8025,
       "device_count": 43644,
       "historical_device_count": 76,
       "present_device_count": 43568,
@@ -15630,6 +15630,13 @@
       "revision": "14d4b37682f81c2a7db798f30c0913fd22670d4425db46f7f714af8e0e42316b",
       "revision_date": "2026-07-15",
       "url": "https://neofussvr.sslcs.cdngc.net/NF_SmartDownloadBinaryInform.do"
+    },
+    {
+      "checked_at": "2026-07-16",
+      "name": "sony_open_devices_aosp",
+      "revision": "de3ce20286662db532d7d69924d700f043c8235d1bc70479ee93f038b71d144d",
+      "revision_date": "2026-07-06",
+      "url": "https://github.com/sonyxperiadev/local_manifests.git"
     },
     {
       "checked_at": "2026-07-16",

@@ -23,7 +23,8 @@
     },
     {
       "apn": "isp.cellularoneaz.net",
-      "name": "Cellular One NEAZ ISP",
+      "authtype": 0,
+      "name": "isp.cellularoneaz.net",
       "types": [
         "default",
         "supl"
@@ -42,10 +43,11 @@
     },
     {
       "apn": "wap.c1csky.net",
+      "authtype": 0,
       "mmsc": "http://mmsc.c1neaz.csky.us:6672",
       "mmsport": 9401,
       "mmsproxy": "209.4.229.94",
-      "name": "Cellular One ClearSky MMS",
+      "name": "wap.c1csky.net",
       "types": [
         "mms"
       ]

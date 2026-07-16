@@ -276,6 +276,11 @@
       "profile_id": "open.00114.aec54700b240"
     },
     {
+      "display_name": "Virgin Mobile US",
+      "path": "carriers/open/200053.5bacee400853.json",
+      "profile_id": "open.200053.5bacee400853"
+    },
+    {
       "display_name": "COSMOTE",
       "path": "carriers/open/20201.11bbcf0666ed.json",
       "profile_id": "open.20201.11bbcf0666ed"
@@ -329,6 +334,11 @@
       "display_name": "NOVA GR",
       "path": "carriers/open/20210.e508b19549c8.json",
       "profile_id": "open.20210.e508b19549c8"
+    },
+    {
+      "display_name": "Cyta GR",
+      "path": "carriers/open/20214.2586384c88b2.json",
+      "profile_id": "open.20214.2586384c88b2"
     },
     {
       "display_name": "nova",
@@ -744,6 +754,11 @@
       "display_name": "USC",
       "path": "carriers/open/20404.d6c86fc1d152.json",
       "profile_id": "open.20404.d6c86fc1d152"
+    },
+    {
+      "display_name": "Sony Open Devices AOSP 20404",
+      "path": "carriers/open/20404.d9abf8dd6b95.json",
+      "profile_id": "open.20404.d9abf8dd6b95"
     },
     {
       "display_name": "Truphone Zz",
@@ -5241,12 +5256,12 @@
       "profile_id": "open.23240.195c75699aae"
     },
     {
-      "display_name": "LineageOS 23302",
+      "display_name": "Carrier 23302",
       "path": "carriers/open/23302.c8021cc75b60.json",
       "profile_id": "open.23302.c8021cc75b60"
     },
     {
-      "display_name": "LineageOS 23304",
+      "display_name": "Carrier 23304",
       "path": "carriers/open/23304.1ca3e1695070.json",
       "profile_id": "open.23304.1ca3e1695070"
     },
@@ -6256,6 +6271,11 @@
       "profile_id": "open.23502.86af6793daf7"
     },
     {
+      "display_name": "OVIVO",
+      "path": "carriers/open/23515.7d85d91edd21.json",
+      "profile_id": "open.23515.7d85d91edd21"
+    },
+    {
       "display_name": "Carrier 23591",
       "path": "carriers/open/23591.dbd841d81f6b.json",
       "profile_id": "open.23591.dbd841d81f6b"
@@ -7181,7 +7201,7 @@
       "profile_id": "open.24405.a8b5dfa1f250"
     },
     {
-      "display_name": "LineageOS 24406",
+      "display_name": "Carrier 24406",
       "path": "carriers/open/24406.4b0789c5cca4.json",
       "profile_id": "open.24406.4b0789c5cca4"
     },
@@ -15466,7 +15486,7 @@
       "profile_id": "open.310770.b35483908cb4"
     },
     {
-      "display_name": "LineageOS 31080",
+      "display_name": "Carrier 31080",
       "path": "carriers/open/31080.39d1398359a4.json",
       "profile_id": "open.31080.39d1398359a4"
     },
@@ -15961,7 +15981,7 @@
       "profile_id": "open.310999.7f1111ee582e"
     },
     {
-      "display_name": "LineageOS 31100",
+      "display_name": "Carrier 31100",
       "path": "carriers/open/31100.a88da3df55a4.json",
       "profile_id": "open.31100.a88da3df55a4"
     },
@@ -18236,6 +18256,11 @@
       "profile_id": "open.312090.fea57a18870d"
     },
     {
+      "display_name": "Sony Open Devices AOSP 312120,312530",
+      "path": "carriers/open/312120.5e45524c258b.json",
+      "profile_id": "open.312120.5e45524c258b"
+    },
+    {
       "display_name": "AppalachianCDMA",
       "path": "carriers/open/312130.1b1bb576a4af.json",
       "profile_id": "open.312130.1b1bb576a4af"
@@ -19316,7 +19341,7 @@
       "profile_id": "open.33402.980ee97fa7e7"
     },
     {
-      "display_name": "Telcel",
+      "display_name": "Carrier 33402",
       "path": "carriers/open/33402.ab5b14db2185.json",
       "profile_id": "open.33402.ab5b14db2185"
     },
@@ -23436,6 +23461,36 @@
       "profile_id": "open.40475.2875e785fd2d"
     },
     {
+      "display_name": "Sony Open Devices AOSP 40466,40467,404750,404751,404753,404754,404755,404756,40484,40486,40488",
+      "path": "carriers/open/404750.2551250437a5.json",
+      "profile_id": "open.404750.2551250437a5"
+    },
+    {
+      "display_name": "Sony Open Devices AOSP 40466,40467,404750,404751,404753,404754,404755,404756,40484,40486,40488",
+      "path": "carriers/open/404751.8663e8937e5b.json",
+      "profile_id": "open.404751.8663e8937e5b"
+    },
+    {
+      "display_name": "Sony Open Devices AOSP 40466,40467,404750,404751,404753,404754,404755,404756,40484,40486,40488",
+      "path": "carriers/open/404753.be11c344891f.json",
+      "profile_id": "open.404753.be11c344891f"
+    },
+    {
+      "display_name": "Sony Open Devices AOSP 40466,40467,404750,404751,404753,404754,404755,404756,40484,40486,40488",
+      "path": "carriers/open/404754.cc1ac1b22190.json",
+      "profile_id": "open.404754.cc1ac1b22190"
+    },
+    {
+      "display_name": "Sony Open Devices AOSP 40466,40467,404750,404751,404753,404754,404755,404756,40484,40486,40488",
+      "path": "carriers/open/404755.6b29cbc12a73.json",
+      "profile_id": "open.404755.6b29cbc12a73"
+    },
+    {
+      "display_name": "Sony Open Devices AOSP 40466,40467,404750,404751,404753,404754,404755,404756,40484,40486,40488",
+      "path": "carriers/open/404756.80c1e0e82caa.json",
+      "profile_id": "open.404756.80c1e0e82caa"
+    },
+    {
       "display_name": "CellOne_Kolkata",
       "path": "carriers/open/40476.4d29d6689903.json",
       "profile_id": "open.40476.4d29d6689903"
@@ -26131,6 +26186,11 @@
       "profile_id": "open.42001.8a5152594b2e"
     },
     {
+      "display_name": "Sony Open Devices AOSP 42001,42002,42003",
+      "path": "carriers/open/42002.857a4076d83a.json",
+      "profile_id": "open.42002.857a4076d83a"
+    },
+    {
       "display_name": "Carrier 42003",
       "path": "carriers/open/42003.817326ebcbf9.json",
       "profile_id": "open.42003.817326ebcbf9"
@@ -27871,6 +27931,11 @@
       "profile_id": "open.45400.4435ef4f1c14"
     },
     {
+      "display_name": "Sony Open Devices AOSP 45400",
+      "path": "carriers/open/45400.4a17d8889a99.json",
+      "profile_id": "open.45400.4a17d8889a99"
+    },
+    {
       "display_name": "Reliance",
       "path": "carriers/open/45400.4dd5374cc8cb.json",
       "profile_id": "open.45400.4dd5374cc8cb"
@@ -29031,7 +29096,7 @@
       "profile_id": "open.46030.37096e4f1be2"
     },
     {
-      "display_name": "China Telecomm (IMS)",
+      "display_name": "Carrier 46059",
       "path": "carriers/open/46059.6760b77c9566.json",
       "profile_id": "open.46059.6760b77c9566"
     },
@@ -33266,6 +33331,51 @@
       "profile_id": "open.722070.2f04158c6d13"
     },
     {
+      "display_name": "Carrier 722071",
+      "path": "carriers/open/722071.1e2b646e4107.json",
+      "profile_id": "open.722071.1e2b646e4107"
+    },
+    {
+      "display_name": "Carrier 722072",
+      "path": "carriers/open/722072.7b904b384c10.json",
+      "profile_id": "open.722072.7b904b384c10"
+    },
+    {
+      "display_name": "Carrier 722073",
+      "path": "carriers/open/722073.89f203479998.json",
+      "profile_id": "open.722073.89f203479998"
+    },
+    {
+      "display_name": "Carrier 722074",
+      "path": "carriers/open/722074.9acb63e96e40.json",
+      "profile_id": "open.722074.9acb63e96e40"
+    },
+    {
+      "display_name": "Carrier 722075",
+      "path": "carriers/open/722075.da4eff0179ec.json",
+      "profile_id": "open.722075.da4eff0179ec"
+    },
+    {
+      "display_name": "Carrier 722076",
+      "path": "carriers/open/722076.23fb419ae62d.json",
+      "profile_id": "open.722076.23fb419ae62d"
+    },
+    {
+      "display_name": "Carrier 722077",
+      "path": "carriers/open/722077.38a213646013.json",
+      "profile_id": "open.722077.38a213646013"
+    },
+    {
+      "display_name": "Carrier 722078",
+      "path": "carriers/open/722078.40826388244d.json",
+      "profile_id": "open.722078.40826388244d"
+    },
+    {
+      "display_name": "Carrier 722079",
+      "path": "carriers/open/722079.1e64ef18504b.json",
+      "profile_id": "open.722079.1e64ef18504b"
+    },
+    {
       "display_name": "Carrier 72210",
       "path": "carriers/open/72210.dce1bc2eb631.json",
       "profile_id": "open.72210.dce1bc2eb631"
@@ -33416,7 +33526,7 @@
       "profile_id": "open.724077.0300d1d36ad5"
     },
     {
-      "display_name": "TIM",
+      "display_name": "Carrier 72408",
       "path": "carriers/open/72408.1f3adcb9d904.json",
       "profile_id": "open.72408.1f3adcb9d904"
     },

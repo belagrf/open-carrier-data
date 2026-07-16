@@ -36,11 +36,13 @@
     },
     {
       "apn": "wapgprs.oi.com.br",
-      "name": "wapgprs.oi.com.br",
-      "password": "oioioi",
-      "protocol": "IPV4V6",
+      "mmsc": "http://wap.oi.com.br",
+      "name": "Oi WAP GPRS",
+      "password": "oiwap",
+      "port": 3128,
+      "proxy": "200.222.108.241",
       "types": [
-        "default"
+        "supl"
       ],
       "user": "oiwap"
     }

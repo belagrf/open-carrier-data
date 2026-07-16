@@ -20,6 +20,19 @@
       "user_visible": false
     },
     {
+      "apn": "andoworld.softbank.ne.jp",
+      "authtype": 2,
+      "mmsc": "http://mms/",
+      "mmsport": 8080,
+      "mmsproxy": "andmms.softbank.ne.jp",
+      "name": "andoworld",
+      "types": [
+        "default",
+        "mms",
+        "supl"
+      ]
+    },
+    {
       "apn": "cmn.mgx",
       "authtype": 1,
       "mtu": 1422,
@@ -46,6 +59,19 @@
       ],
       "user": "cmn@mgx",
       "user_editable": false
+    },
+    {
+      "apn": "fourgsmartphone",
+      "authtype": 2,
+      "mmsc": "http://mms/",
+      "mmsport": 8080,
+      "mmsproxy": "andmms.softbank.ne.jp",
+      "name": "fourgsmartphone",
+      "types": [
+        "default",
+        "mms",
+        "supl"
+      ]
     },
     {
       "apn": "ims",
@@ -88,7 +114,7 @@
       "mmsc": "http://mms/",
       "mmsport": 8080,
       "mmsproxy": "smilemms.softbank.ne.jp",
-      "name": "Softbank(jpspir)",
+      "name": "jpspir",
       "password": "amstkoi",
       "types": [
         "default",
@@ -144,6 +170,20 @@
         "supl"
       ],
       "user": "mineo@k-opti.com"
+    },
+    {
+      "apn": "open.softbank.ne.jp",
+      "mmsc": "http://mms/",
+      "mmsport": 8080,
+      "mmsproxy": "mmsopen.softbank.ne.jp",
+      "name": "open",
+      "password": "ebMNuX1FIHg9d3DA",
+      "types": [
+        "default",
+        "mms",
+        "supl"
+      ],
+      "user": "opensoftbank"
     },
     {
       "apn": "plus.4g",
@@ -221,6 +261,21 @@
       "user_visible": false
     },
     {
+      "apn": "plus.softbank",
+      "authtype": 3,
+      "mmsc": "http://mms/",
+      "mmsport": 8080,
+      "mmsproxy": "andmms.softbank.ne.jp",
+      "name": "plus.softbank",
+      "password": "softbank",
+      "types": [
+        "default",
+        "mms",
+        "supl"
+      ],
+      "user": "plus"
+    },
+    {
       "apn": "ratel.com",
       "authtype": 3,
       "carrier_id": 1894,
@@ -252,22 +307,38 @@
     },
     {
       "apn": "sbm",
-      "name": "\u30bd\u30d5\u30c8\u30d0\u30f3\u30af",
-      "password": "softbank",
-      "types": [
-        "default"
-      ],
-      "user": "data"
-    },
-    {
-      "apn": "sbm4glte",
-      "name": "Softbank(sbm4glte)",
+      "name": "sbm",
       "password": "softbank",
       "types": [
         "default",
         "supl"
       ],
       "user": "data"
+    },
+    {
+      "apn": "sbm4glte",
+      "name": "sbm4glte",
+      "password": "softbank",
+      "types": [
+        "default",
+        "supl"
+      ],
+      "user": "data"
+    },
+    {
+      "apn": "smile.world",
+      "authtype": 1,
+      "mmsc": "http://mms/",
+      "mmsport": 8080,
+      "mmsproxy": "smilemms.softbank.ne.jp",
+      "name": "smile.world",
+      "password": "so2t3k3m2a",
+      "types": [
+        "default",
+        "mms",
+        "supl"
+      ],
+      "user": "dna1trop"
     },
     {
       "apn": "so-net.jp",

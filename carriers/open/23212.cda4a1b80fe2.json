@@ -110,6 +110,53 @@
       ]
     },
     {
+      "apn": "orange.mms",
+      "authtype": 3,
+      "mmsc": "http://mmsc.orange.at/mms/wapenc",
+      "mmsport": 8080,
+      "mmsproxy": "194.24.128.118",
+      "name": "Orange MMS",
+      "password": "mms",
+      "types": [
+        "mms"
+      ],
+      "user": "mms"
+    },
+    {
+      "apn": "orange.video",
+      "authtype": 3,
+      "name": "Orange Video",
+      "types": [
+        "default",
+        "supl"
+      ],
+      "user": "video"
+    },
+    {
+      "apn": "orange.web",
+      "authtype": 3,
+      "name": "Orange Web",
+      "password": "web",
+      "types": [
+        "default",
+        "supl"
+      ],
+      "user": "web"
+    },
+    {
+      "apn": "orange.world",
+      "authtype": 3,
+      "name": "Orange World",
+      "password": "wap",
+      "port": 80,
+      "proxy": "194.24.128.118",
+      "types": [
+        "default",
+        "supl"
+      ],
+      "user": "wap"
+    },
+    {
       "apn": "web.yesss.at",
       "name": "web.yesss.at",
       "types": [

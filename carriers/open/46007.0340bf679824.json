@@ -15,13 +15,13 @@
     },
     {
       "apn": "cmnet",
+      "authtype": 3,
       "name": "cmnet",
       "protocol": "IPV4V6",
       "roaming_protocol": "IPV4V6",
       "types": [
         "default",
-        "supl",
-        "xcap"
+        "supl"
       ]
     },
     {
@@ -29,6 +29,15 @@
       "name": "\u4e2d\u56fd\u79fb\u52a8",
       "types": [
         "dun"
+      ]
+    },
+    {
+      "apn": "cmnet",
+      "name": "CMCC Internet",
+      "protocol": "IPV4V6",
+      "roaming_protocol": "IPV4V6",
+      "types": [
+        "xcap"
       ]
     },
     {
@@ -45,7 +54,7 @@
     },
     {
       "apn": "cmwap",
-      "name": "\u4e2d\u56fd\u79fb\u52a8 (China Mobile) WAP",
+      "name": "cmwap",
       "port": 80,
       "proxy": "10.0.0.172",
       "types": [
@@ -85,6 +94,19 @@
       ],
       "user": "wap",
       "user_editable": false
+    },
+    {
+      "apn": "hwmobile",
+      "authtype": 3,
+      "mmsc": "http://192.168.111.12:19090/was",
+      "mmsport": 8080,
+      "mmsproxy": "192.168.111.32",
+      "name": "HW-KuiKe",
+      "port": 8080,
+      "proxy": "192.168.111.32",
+      "types": [
+        "default"
+      ]
     },
     {
       "apn": "ims",

@@ -55,7 +55,15 @@
       "name": "broadband",
       "types": [
         "dun",
-        "ia",
+        "ia"
+      ]
+    },
+    {
+      "apn": "broadband",
+      "name": "broadband",
+      "protocol": "IP",
+      "roaming_protocol": "IP",
+      "types": [
         "supl"
       ]
     },
@@ -93,18 +101,6 @@
         "ims"
       ],
       "user_visible": false
-    },
-    {
-      "apn": "ims",
-      "authtype": 0,
-      "carrier_enabled": true,
-      "mtu": 1500,
-      "name": "IMS",
-      "protocol": "IPV4V6",
-      "roaming_protocol": "IPV4V6",
-      "types": [
-        "ims"
-      ]
     },
     {
       "apn": "internet",

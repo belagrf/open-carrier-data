@@ -38,6 +38,14 @@
       "user_editable": false
     },
     {
+      "apn": "gpinterneth",
+      "name": "Grameenphone",
+      "types": [
+        "default",
+        "supl"
+      ]
+    },
+    {
       "apn": "gpmms",
       "authtype": 0,
       "carrier_id": 1362,

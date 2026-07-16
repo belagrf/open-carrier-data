@@ -75,7 +75,7 @@
     },
     {
       "apn": "internet.windmobile.ca",
-      "name": "Internet",
+      "name": "internet.windmobile.ca",
       "protocol": "IPV4V6",
       "types": [
         "default",

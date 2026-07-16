@@ -48,20 +48,13 @@
     },
     {
       "apn": "media.videotron",
-      "name": "media.videotron",
-      "types": [
-        "default",
-        "supl"
-      ]
-    },
-    {
-      "apn": "media.videotron",
-      "mmsc": "http://media.videotron.com",
+      "mmsc": "http://media.videotron.com/",
       "mmsport": 8080,
       "mmsproxy": "10.208.89.17",
       "name": "media.videotron",
       "types": [
-        "mms"
+        "default",
+        "supl"
       ]
     },
     {

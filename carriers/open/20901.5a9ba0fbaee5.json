@@ -5,7 +5,8 @@
       "name": "NRJ WEB",
       "password": "orange",
       "types": [
-        "default"
+        "default",
+        "supl"
       ],
       "user": "orange"
     }

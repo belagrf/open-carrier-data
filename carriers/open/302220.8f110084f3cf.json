@@ -94,7 +94,7 @@
       "mmsproxy": "74.49.0.18",
       "mvno_match_data": "4B",
       "mvno_type": "gid",
-      "name": "Koodo",
+      "name": "sp.koodo.com",
       "types": [
         "default",
         "dun",
@@ -461,7 +461,7 @@
       "mmsproxy": "74.49.0.18",
       "mvno_match_data": "50",
       "mvno_type": "gid",
-      "name": "Mobile Internet",
+      "name": "sp.mb.com",
       "types": [
         "default",
         "mms",
@@ -579,10 +579,7 @@
       "protocol": "IP",
       "roaming_protocol": "IP",
       "types": [
-        "default",
-        "ia",
-        "mms",
-        "supl"
+        "ia"
       ]
     },
     {

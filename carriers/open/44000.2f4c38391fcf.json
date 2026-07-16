@@ -10,6 +10,17 @@
       ]
     },
     {
+      "apn": "em.std",
+      "bearer": 14,
+      "name": "em.std",
+      "password": "em",
+      "types": [
+        "default",
+        "supl"
+      ],
+      "user": "em"
+    },
+    {
       "apn": "plus.acs.jp",
       "authtype": 2,
       "mmsc": "http://mms-s",

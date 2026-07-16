@@ -494,14 +494,11 @@
       "mmsproxy": "mmscproxy.mobility.ca",
       "mvno_match_data": "54",
       "mvno_type": "gid",
-      "name": "sp.telus.com",
+      "name": "TELUS SP",
       "protocol": "IP",
       "roaming_protocol": "IP",
       "types": [
-        "default",
-        "ia",
-        "mms",
-        "supl"
+        "ia"
       ]
     },
     {

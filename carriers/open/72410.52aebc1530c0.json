@@ -65,12 +65,25 @@
     {
       "apn": "wap.vivo.com.br",
       "authtype": 1,
+      "mmsc": "http://termwapgsm2.vivo.com.br",
       "name": "Vivo WAP",
       "password": "vivo",
       "port": 80,
       "proxy": "200.142.130.104",
       "types": [
         "default"
+      ],
+      "user": "vivo"
+    },
+    {
+      "apn": "wap.vivo.com.br",
+      "mmsc": "http://termwapgsm2.vivo.com.br",
+      "name": "Vivo WAP",
+      "password": "vivo",
+      "port": 80,
+      "proxy": "200.142.130.104",
+      "types": [
+        "supl"
       ],
       "user": "vivo"
     },
@@ -83,18 +96,6 @@
       "types": [
         "xcap"
       ]
-    },
-    {
-      "apn": "zap.vivo.com.br",
-      "authtype": 1,
-      "name": "zap.vivo.com.br",
-      "password": "vivo",
-      "protocol": "IPV4V6",
-      "roaming_protocol": "IPV4V6",
-      "types": [
-        "default"
-      ],
-      "user": "vivo"
     },
     {
       "apn": "zap.vivo.com.br",
@@ -119,17 +120,6 @@
       "roaming_protocol": "IPV4V6",
       "types": [
         "dun"
-      ],
-      "user": "vivo"
-    },
-    {
-      "apn": "zap.vivo.com.br",
-      "authtype": 1,
-      "name": "zap.vivo.com.br",
-      "password": "vivo",
-      "protocol": "IPV4V6",
-      "types": [
-        "supl"
       ],
       "user": "vivo"
     }

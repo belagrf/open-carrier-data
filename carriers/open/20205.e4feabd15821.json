@@ -81,8 +81,17 @@
     {
       "apn": "internet",
       "name": "internet",
+      "password": "pass",
       "types": [
         "default",
+        "supl"
+      ],
+      "user": "user"
+    },
+    {
+      "apn": "internet",
+      "name": "vf GR",
+      "types": [
         "dun"
       ]
     },
@@ -111,6 +120,64 @@
         "mms"
       ],
       "user": "user"
+    },
+    {
+      "apn": "surfonly.vodafone.gr",
+      "name": "Vodafone GR",
+      "types": [
+        "default",
+        "supl"
+      ]
+    },
+    {
+      "apn": "wap.vodafone.gr",
+      "authtype": 3,
+      "name": "Vf live!",
+      "password": "pass",
+      "port": 5080,
+      "proxy": "213.249.19.49",
+      "types": [
+        "default",
+        "supl"
+      ],
+      "user": "user"
+    },
+    {
+      "apn": "wapkarta.vodafone.gr",
+      "authtype": 3,
+      "name": "Vf live! Prepay",
+      "password": "pass",
+      "port": 5080,
+      "proxy": "213.249.19.49",
+      "types": [
+        "default",
+        "supl"
+      ],
+      "user": "user"
+    },
+    {
+      "apn": "webkarta.vodafone.gr",
+      "name": "Vodafone GR Prepaid",
+      "types": [
+        "default",
+        "supl"
+      ]
+    },
+    {
+      "apn": "webonly.vodafone.gr",
+      "name": "Vf Mobile Internet",
+      "types": [
+        "default",
+        "supl"
+      ]
+    },
+    {
+      "apn": "websession",
+      "name": "Vf kartointernet",
+      "types": [
+        "default",
+        "supl"
+      ]
     }
   ],
   "android_carrier_config": {

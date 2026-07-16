@@ -1,6 +1,17 @@
 {
   "android_apns": [
     {
+      "apn": "gprs.telemigcelular.com.br",
+      "mmsc": "null",
+      "name": "Telemig GPRS",
+      "password": "celular",
+      "types": [
+        "default",
+        "supl"
+      ],
+      "user": "celular"
+    },
+    {
       "apn": "ims",
       "bearer_bitmask": "14|18|20",
       "name": "Vivo IMS",
@@ -63,14 +74,39 @@
       "user": "vivo"
     },
     {
+      "apn": "mmsgprs.telemigcelular.com.br",
+      "mmsc": "http://mms.telemigcelular.com.br",
+      "mmsport": 8080,
+      "mmsproxy": "200.192.230.142",
+      "name": "Telemig MMS",
+      "password": "celular",
+      "types": [
+        "mms"
+      ],
+      "user": "celular"
+    },
+    {
       "apn": "wap.vivo.com.br",
       "authtype": 1,
+      "mmsc": "http://termwapgsm2.vivo.com.br",
       "name": "Vivo WAP",
       "password": "vivo",
       "port": 80,
       "proxy": "200.142.130.104",
       "types": [
         "default"
+      ],
+      "user": "vivo"
+    },
+    {
+      "apn": "wap.vivo.com.br",
+      "mmsc": "http://termwapgsm2.vivo.com.br",
+      "name": "Vivo WAP",
+      "password": "vivo",
+      "port": 80,
+      "proxy": "200.142.130.104",
+      "types": [
+        "supl"
       ],
       "user": "vivo"
     },
@@ -97,6 +133,7 @@
     {
       "apn": "zap.vivo.com.br",
       "authtype": 1,
+      "mmsc": "http://www.google.com.br",
       "name": "zap.vivo.com.br",
       "password": "vivo",
       "protocol": "IPV4V6",
@@ -135,6 +172,7 @@
     {
       "apn": "zap.vivo.com.br",
       "authtype": 1,
+      "mmsc": "http://www.google.com.br",
       "name": "zap.vivo.com.br",
       "password": "vivo",
       "protocol": "IPV4V6",

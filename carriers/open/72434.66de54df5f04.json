@@ -58,6 +58,17 @@
       "user": "CTBC"
     },
     {
+      "apn": "ctbc.br",
+      "authtype": 1,
+      "mmsc": "http://www.google.com.br",
+      "name": "ctbc.br",
+      "password": "1212",
+      "types": [
+        "supl"
+      ],
+      "user": "ctbc"
+    },
+    {
       "apn": "mms.algar.br",
       "carrier_id": 1390,
       "mmsc": "http://mms.ctbccelular.com.br/was",
@@ -83,6 +94,19 @@
         "mms"
       ],
       "user": "CTBC"
+    },
+    {
+      "apn": "wap.ctbc.br",
+      "mmsc": "http://wap.ctbccelular.com.br",
+      "name": "CTBC WAP",
+      "password": "1212",
+      "port": 8080,
+      "proxy": "172.29.7.70",
+      "types": [
+        "default",
+        "supl"
+      ],
+      "user": "ctbc"
     }
   ],
   "capabilities": {

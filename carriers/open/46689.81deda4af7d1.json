@@ -23,6 +23,24 @@
       ]
     },
     {
+      "apn": "aurorawap",
+      "mmsc": "http://auroramms",
+      "mmsport": 8080,
+      "mmsproxy": "172.24.128.36",
+      "name": "\u9707\u65e6\u96fb\u4fe1(AURORA) (MMS)",
+      "types": [
+        "mms"
+      ]
+    },
+    {
+      "apn": "auroraweb",
+      "name": "\u9707\u65e6\u96fb\u4fe1(AURORA) (Internet)",
+      "types": [
+        "default",
+        "supl"
+      ]
+    },
+    {
       "apn": "ims",
       "bearer_bitmask": "14|18|20",
       "name": "ims",
@@ -52,6 +70,7 @@
     },
     {
       "apn": "internet",
+      "authtype": 1,
       "mmsc": "http://mms.vibo.net.tw",
       "mmsport": 8080,
       "mmsproxy": "172.24.128.36",
@@ -110,6 +129,7 @@
     },
     {
       "apn": "internet",
+      "authtype": 1,
       "name": "internet",
       "protocol": "IPV4V6",
       "roaming_protocol": "IPV4V6",
@@ -129,10 +149,27 @@
     },
     {
       "apn": "vibo",
+      "authtype": 1,
+      "mmsc": "http://mms",
+      "mmsport": 8080,
+      "mmsproxy": "172.24.128.36",
       "name": "vibo",
+      "port": 8080,
+      "proxy": "172.24.128.36",
       "types": [
         "default",
         "supl"
+      ]
+    },
+    {
+      "apn": "vibo",
+      "authtype": 1,
+      "mmsc": "http://mms",
+      "mmsport": 8080,
+      "mmsproxy": "172.24.128.36",
+      "name": "vibo",
+      "types": [
+        "mms"
       ]
     },
     {
@@ -147,6 +184,7 @@
     },
     {
       "apn": "viboone",
+      "authtype": 1,
       "name": "VIBOONE",
       "types": [
         "default",
