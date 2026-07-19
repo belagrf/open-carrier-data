@@ -66,8 +66,9 @@ def inventory(
     sources: list[dict[str, str]],
     *,
     schema_version: int = 2,
+    relevance_registries: list[dict] | None = None,
 ) -> dict:
-    return {
+    value = {
         "schema_version": schema_version,
         "inventory_id": f"synthetic_{platform}_inventory",
         "platform": platform,
@@ -75,12 +76,36 @@ def inventory(
         "sources": sorted(sources, key=lambda item: item["name"]),
         "devices": records,
     }
+    if relevance_registries is not None:
+        value["carrier_relevance_registries"] = relevance_registries
+    return value
+
+
+def relevance_registry(
+    bindings: list[dict],
+    *,
+    registry_id: str = "synthetic_relevance_only",
+    source_name: str = "other_source",
+) -> dict:
+    return {
+        "binding_count": len(bindings),
+        "bindings": bindings,
+        "bindings_revision": catalog.canonical_revision(bindings),
+        "device_id_set_sha256": catalog.device_id_set_sha256(
+            [item["device_id"] for item in bindings]
+        ),
+        "registry_id": registry_id,
+        "source": source_name,
+    }
 
 
 def validate_inventory(tmp: Path, value: dict, platform: str) -> tuple:
     path = tmp / f"{platform}.json"
     path.write_text(json.dumps(value, sort_keys=True) + "\n", encoding="utf-8")
-    return catalog.validate_inventory(path, platform)
+    version, sources, records, _relevance_only_sources = (
+        catalog.validate_inventory(path, platform)
+    )
+    return version, sources, records
 
 
 def zero_relevance_counts() -> dict[str, int]:
@@ -180,6 +205,15 @@ def main() -> int:
     relevance_schema = inventory_schema["$defs"]["device"]["properties"][
         "carrier_relevance"
     ]
+    registry_schema = inventory_schema["properties"][
+        "carrier_relevance_registries"
+    ]["items"]
+    assert registry_schema == {"$ref": "#/$defs/carrier_relevance_registry"}
+    assert set(
+        inventory_schema["$defs"]["carrier_relevance_registry_binding"][
+            "properties"
+        ]["kind"]["enum"]
+    ) == catalog.RELEVANCE_ONLY_EVIDENCE_KINDS
     assert set(relevance_schema["properties"]["status"]["enum"]) == (
         catalog.CARRIER_RELEVANCE_STATUSES
     )
@@ -370,6 +404,457 @@ def main() -> int:
                 "android",
             ),
             "carrier relevance accepted a declared but device-unassociated source",
+        )
+
+        relevance_only = deepcopy(established)
+        relevance_only["carrier_relevance"] = {
+            "status": "evidence_confirmed_cellular",
+            "evidence": [
+                {
+                    "kind": "official_connectivity_specification",
+                    "source": "other_source",
+                }
+            ],
+        }
+        binding = {
+            "classification": "cellular",
+            "device_id": ANDROID_ID,
+            "kind": "official_connectivity_specification",
+            "source": "other_source",
+        }
+        root_registry = relevance_registry([binding])
+        validate_inventory(
+            tmp,
+            inventory(
+                "android",
+                [relevance_only],
+                [inventory_source, other_source],
+                relevance_registries=[root_registry],
+            ),
+            "android",
+        )
+
+        def registered_inventory(
+            record: dict | None = None,
+            registry: dict | None = None,
+            *,
+            records: list[dict] | None = None,
+            sources: list[dict[str, str]] | None = None,
+            registries: list[dict] | None = None,
+        ) -> dict:
+            return inventory(
+                "android",
+                records if records is not None else [record or relevance_only],
+                sources if sources is not None else [inventory_source, other_source],
+                relevance_registries=(
+                    registries
+                    if registries is not None
+                    else [registry or root_registry]
+                ),
+            )
+
+        for field, invalid_value in (
+            ("binding_count", 0),
+            ("binding_count", True),
+            ("bindings_revision", "0" * 64),
+            ("device_id_set_sha256", "0" * 64),
+            ("source", "undeclared_source"),
+        ):
+            changed_registry = deepcopy(root_registry)
+            changed_registry[field] = invalid_value
+            assert_rejected(
+                lambda value=changed_registry: validate_inventory(
+                    tmp, registered_inventory(registry=value), "android"
+                ),
+                f"relevance-only registry accepted {field}={invalid_value!r}",
+            )
+
+        for field, invalid_value in (
+            ("classification", "non_cellular"),
+            ("classification", []),
+            ("classification", {}),
+            ("device_id", "apple:" + "a" * 20),
+            ("kind", "exact_carrier_observation"),
+            ("source", "inventory_source"),
+        ):
+            changed_binding = deepcopy(binding)
+            changed_binding[field] = invalid_value
+            changed_registry = relevance_registry(
+                [changed_binding],
+                source_name=(
+                    "inventory_source" if field == "source" else "other_source"
+                ),
+            )
+            assert_rejected(
+                lambda value=changed_registry: validate_inventory(
+                    tmp, registered_inventory(registry=value), "android"
+                ),
+                f"relevance-only registry accepted binding {field}={invalid_value!r}",
+            )
+
+        for invalid_device_ids in (
+            None,
+            {},
+            "android:" + "a" * 20,
+            [0],
+            [False],
+            [[]],
+            [{}],
+        ):
+            assert_rejected(
+                lambda value=invalid_device_ids: catalog.device_id_set_sha256(
+                    value
+                ),
+                "relevance-only device-ID hashing accepted a non-string array",
+            )
+
+        artifact_source_path = tmp / "android-carrier-artifacts.json"
+
+        def validated_android_artifact_sources(
+            *, artifact: bool, positive_scope: bool
+        ) -> list[dict[str, str]]:
+            artifact_source_value = source("other_source")
+            value = {
+                "schema_version": 1,
+                "registry_id": "android_carrier_source_artifacts",
+                "description": "Synthetic Android carrier artifacts.",
+                "sources": [artifact_source_value],
+                "scope_coverage": (
+                    [
+                        {
+                            "source": "other_source",
+                            "device_scope": ANDROID_ID,
+                            "scope_kind": "device_id",
+                            "device_ids": [ANDROID_ID],
+                            "discovery_status": "artifact_indexed",
+                            "region_seed_count": 1,
+                            "probed_region_count": 1,
+                            "available_region_count": 1,
+                            "extracted_artifact_count": 0,
+                        }
+                    ]
+                    if positive_scope
+                    else []
+                ),
+                "artifacts": (
+                    [
+                        {
+                            "artifact_id": "android:" + "1" * 24,
+                            "source": "other_source",
+                            "device_scopes": [ANDROID_ID],
+                            "device_ids": [ANDROID_ID],
+                            "regions": ["GLOBAL"],
+                            "build_versions": ["synthetic-build"],
+                            "verification": "indexed",
+                            "checked_at": artifact_source_value["checked_at"],
+                        }
+                    ]
+                    if artifact
+                    else []
+                ),
+            }
+            artifact_source_path.write_text(
+                json.dumps(value, sort_keys=True) + "\n", encoding="utf-8"
+            )
+            sources, _artifacts, _scope_coverage = (
+                catalog.validate_android_artifacts(artifact_source_path)
+            )
+            return sources
+
+        for artifact, positive_scope, label in (
+            (True, False, "indexed Android artifact"),
+            (False, True, "positive Android artifact scope"),
+        ):
+            android_artifact_sources = validated_android_artifact_sources(
+                artifact=artifact, positive_scope=positive_scope
+            )
+            assert_rejected(
+                lambda sources=android_artifact_sources: (
+                    catalog.validate_relevance_only_artifact_source_disjointness(
+                        tmp,
+                        {"other_source"},
+                        set(),
+                        sources,
+                        inventory_source,
+                    )
+                ),
+                f"relevance-only source escaped through {label}",
+            )
+
+            (tmp / "android.json").write_text(
+                json.dumps(registered_inventory(), sort_keys=True) + "\n",
+                encoding="utf-8",
+            )
+            apple_inventory_source = source("apple_inventory_source")
+            (tmp / "apple.json").write_text(
+                json.dumps(
+                    inventory(
+                        "apple",
+                        [device("apple", APPLE_ID, "apple_inventory_source")],
+                        [apple_inventory_source],
+                    ),
+                    sort_keys=True,
+                )
+                + "\n",
+                encoding="utf-8",
+            )
+            (tmp / "apple-carrier-artifacts.json").write_text(
+                json.dumps(
+                    {
+                        "schema_version": 1,
+                        "registry_id": "synthetic_apple_artifacts",
+                        "description": "Synthetic Apple carrier artifacts.",
+                        "source": apple_inventory_source,
+                        "artifacts": [],
+                    },
+                    sort_keys=True,
+                )
+                + "\n",
+                encoding="utf-8",
+            )
+            assert_rejected(
+                lambda: catalog.main(["validate_device_catalog.py", str(tmp)]),
+                f"full validator accepted relevance-only source through {label}",
+            )
+
+        assert_rejected(
+            lambda: catalog.validate_relevance_only_artifact_source_disjointness(
+                tmp,
+                set(),
+                {"other_source"},
+                [inventory_source],
+                other_source,
+            ),
+            "relevance-only source escaped through Apple artifacts",
+        )
+
+        apple_relevance_only = device("apple", APPLE_ID, "inventory_source")
+        apple_relevance_only["carrier_relevance"] = {
+            "status": "evidence_confirmed_cellular",
+            "evidence": [
+                {
+                    "kind": "official_connectivity_specification",
+                    "source": "other_source",
+                }
+            ],
+        }
+        apple_binding = {
+            "classification": "cellular",
+            "device_id": APPLE_ID,
+            "kind": "official_connectivity_specification",
+            "source": "other_source",
+        }
+        (tmp / "android.json").write_text(
+            json.dumps(
+                inventory(
+                    "android",
+                    [device("android", ANDROID_ID, "inventory_source")],
+                    [inventory_source],
+                ),
+                sort_keys=True,
+            )
+            + "\n",
+            encoding="utf-8",
+        )
+        (tmp / "apple.json").write_text(
+            json.dumps(
+                inventory(
+                    "apple",
+                    [apple_relevance_only],
+                    [inventory_source, other_source],
+                    relevance_registries=[
+                        relevance_registry(
+                            [apple_binding], source_name="other_source"
+                        )
+                    ],
+                ),
+                sort_keys=True,
+            )
+            + "\n",
+            encoding="utf-8",
+        )
+        (tmp / "android-carrier-artifacts.json").write_text(
+            json.dumps(
+                {
+                    "schema_version": 1,
+                    "registry_id": "android_carrier_source_artifacts",
+                    "description": "Synthetic Android carrier artifacts.",
+                    "sources": [inventory_source],
+                    "scope_coverage": [],
+                    "artifacts": [],
+                },
+                sort_keys=True,
+            )
+            + "\n",
+            encoding="utf-8",
+        )
+        (tmp / "apple-carrier-artifacts.json").write_text(
+            json.dumps(
+                {
+                    "schema_version": 1,
+                    "registry_id": "synthetic_apple_artifacts",
+                    "description": "Synthetic Apple carrier artifacts.",
+                    "source": other_source,
+                    "artifacts": [],
+                },
+                sort_keys=True,
+            )
+            + "\n",
+            encoding="utf-8",
+        )
+        assert_rejected(
+            lambda: catalog.main(["validate_device_catalog.py", str(tmp)]),
+            "full validator accepted an Apple relevance-only artifact source",
+        )
+
+        def cross_platform_coverage_record(
+            platform: str, device_id: str
+        ) -> dict:
+            record = device(platform, device_id, "inventory_source")
+            record["carrier_source_discovery"] = [
+                {
+                    "source": "other_source",
+                    "matched_identifiers": [device_id],
+                    "scope_count": 1,
+                    "status_counts": {"no_artifact_found": 1},
+                }
+            ]
+            record["carrier_data_coverage"] = {
+                "status": "source_checked_no_artifact",
+                "sources": ["other_source"],
+            }
+            return record
+
+        (tmp / "android.json").write_text(
+            json.dumps(registered_inventory(), sort_keys=True) + "\n",
+            encoding="utf-8",
+        )
+        (tmp / "apple.json").write_text(
+            json.dumps(
+                inventory(
+                    "apple",
+                    [cross_platform_coverage_record("apple", APPLE_ID)],
+                    [inventory_source, other_source],
+                ),
+                sort_keys=True,
+            )
+            + "\n",
+            encoding="utf-8",
+        )
+        assert_rejected(
+            lambda: catalog.main(["validate_device_catalog.py", str(tmp)]),
+            "Android relevance-only source escaped through Apple device coverage",
+        )
+
+        apple_relevance_only = device("apple", APPLE_ID, "inventory_source")
+        apple_relevance_only["carrier_relevance"] = {
+            "status": "evidence_confirmed_cellular",
+            "evidence": [
+                {
+                    "kind": "official_connectivity_specification",
+                    "source": "other_source",
+                }
+            ],
+        }
+        apple_binding = {
+            "classification": "cellular",
+            "device_id": APPLE_ID,
+            "kind": "official_connectivity_specification",
+            "source": "other_source",
+        }
+        (tmp / "android.json").write_text(
+            json.dumps(
+                inventory(
+                    "android",
+                    [cross_platform_coverage_record("android", ANDROID_ID)],
+                    [inventory_source, other_source],
+                ),
+                sort_keys=True,
+            )
+            + "\n",
+            encoding="utf-8",
+        )
+        (tmp / "apple.json").write_text(
+            json.dumps(
+                inventory(
+                    "apple",
+                    [apple_relevance_only],
+                    [inventory_source, other_source],
+                    relevance_registries=[
+                        relevance_registry(
+                            [apple_binding], source_name="other_source"
+                        )
+                    ],
+                ),
+                sort_keys=True,
+            )
+            + "\n",
+            encoding="utf-8",
+        )
+        assert_rejected(
+            lambda: catalog.main(["validate_device_catalog.py", str(tmp)]),
+            "Apple relevance-only source escaped through Android device coverage",
+        )
+
+        orphan_binding = deepcopy(binding)
+        orphan_binding["device_id"] = "android:" + "b" * 20
+        assert_rejected(
+            lambda: validate_inventory(
+                tmp,
+                registered_inventory(
+                    registry=relevance_registry([orphan_binding])
+                ),
+                "android",
+            ),
+            "relevance-only registry accepted an orphan device binding",
+        )
+
+        leaked = deepcopy(relevance_only)
+        leaked["carrier_data_coverage"] = {
+            "status": "source_checked_no_artifact",
+            "sources": ["other_source"],
+        }
+        leaked["carrier_source_discovery"] = [
+            {
+                "source": "other_source",
+                "matched_identifiers": [ANDROID_ID],
+                "scope_count": 1,
+                "status_counts": {"no_artifact_found": 1},
+            }
+        ]
+        assert_rejected(
+            lambda: validate_inventory(
+                tmp, registered_inventory(record=leaked), "android"
+            ),
+            "relevance-only source leaked into carrier coverage/discovery",
+        )
+
+        duplicate_registry = relevance_registry(
+            [binding], registry_id="synthetic_relevance_only_2"
+        )
+        assert_rejected(
+            lambda: validate_inventory(
+                tmp,
+                registered_inventory(
+                    registries=[root_registry, duplicate_registry]
+                ),
+                "android",
+            ),
+            "duplicate relevance-only source registry",
+        )
+
+        unbound_record = deepcopy(relevance_only)
+        unbound_record["carrier_relevance"]["evidence"] = [
+            {
+                "kind": "official_connectivity_variant",
+                "source": "other_source",
+            }
+        ]
+        assert_rejected(
+            lambda: validate_inventory(
+                tmp, registered_inventory(record=unbound_record), "android"
+            ),
+            "relevance-only registry accepted a different evidence kind",
         )
 
         two_evidence = [
@@ -863,6 +1348,20 @@ def main() -> int:
             "apple",
         )
         assert legacy_version == 1
+        assert_rejected(
+            lambda: validate_inventory(
+                tmp,
+                inventory(
+                    "apple",
+                    [legacy_apple],
+                    [inventory_source, other_source],
+                    schema_version=1,
+                    relevance_registries=[root_registry],
+                ),
+                "apple",
+            ),
+            "v1 inventory accepted a relevance-only root registry",
+        )
         legacy_with_v2_field = deepcopy(legacy_apple)
         legacy_with_v2_field["carrier_relevance"] = {
             "status": "not_established",
