@@ -23,6 +23,12 @@
       "uniqueItems": true,
       "items": { "$ref": "#/$defs/source" }
     },
+    "carrier_relevance_registries": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "$ref": "#/$defs/carrier_relevance_registry" }
+    },
     "devices": {
       "type": "array",
       "items": { "$ref": "#/$defs/device" }
@@ -72,6 +78,7 @@
       },
       "then": {
         "properties": {
+          "carrier_relevance_registries": false,
           "devices": {
             "items": { "not": { "required": ["carrier_relevance"] } }
           }
@@ -103,6 +110,65 @@
       "type": "array",
       "uniqueItems": true,
       "items": { "type": "string", "minLength": 1, "maxLength": 500 }
+    },
+    "carrier_relevance_registry_binding": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["classification", "device_id", "kind", "source"],
+      "properties": {
+        "classification": { "enum": ["cellular", "non_cellular"] },
+        "device_id": {
+          "type": "string",
+          "pattern": "^(android|apple):[a-z0-9-]{3,80}$"
+        },
+        "kind": {
+          "enum": [
+            "official_connectivity_specification",
+            "official_connectivity_variant"
+          ]
+        },
+        "source": {
+          "type": "string",
+          "pattern": "^[a-z0-9][a-z0-9_]{1,63}$"
+        }
+      }
+    },
+    "carrier_relevance_registry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "binding_count",
+        "bindings",
+        "bindings_revision",
+        "device_id_set_sha256",
+        "registry_id",
+        "source"
+      ],
+      "properties": {
+        "binding_count": { "type": "integer", "minimum": 1 },
+        "bindings": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "$ref": "#/$defs/carrier_relevance_registry_binding" }
+        },
+        "bindings_revision": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "device_id_set_sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "registry_id": {
+          "type": "string",
+          "pattern": "^[a-z0-9][a-z0-9_]{1,63}$"
+        },
+        "source": {
+          "type": "string",
+          "pattern": "^[a-z0-9][a-z0-9_]{1,63}$"
+        }
+      }
     },
     "device": {
       "type": "object",

@@ -206,6 +206,21 @@ connectivity specifications and exact variants are valid for either platform;
 all evidence sources still have to be declared and associated with that exact
 device.
 
+An official connectivity source that contributes relevance only, and therefore
+must not masquerade as inventory, carrier coverage, discovery, or an artifact,
+is associated through the inventory root's optional
+`carrier_relevance_registries` array. Each registry contains sorted exact
+`device_id`/evidence-kind/source/classification bindings plus an exact binding
+count, a canonical binding SHA-256, and a newline-sorted device-ID-set SHA-256.
+The validator rejects undeclared sources, duplicate registries or bindings,
+wrong-platform IDs, count or hash drift, unused or orphan bindings, and any
+relevance-only source that also appears in a device's inventory, coverage,
+discovery, observation, or artifact association, or in either platform's
+carrier-artifact registry sources. Only the two official connectivity evidence
+kinds are eligible for this root binding; carrier
+observations, extracted configurations, and carrier bundles must retain their
+existing exact carrier-data backing.
+
 Device family, name, form factor, and carrier-data coverage are not relevance
 evidence. For example, an Apple TV or iPod label cannot establish non-cellular
 status, and `platform_out_of_scope` says nothing about whether the hardware has

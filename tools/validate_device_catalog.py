@@ -5,6 +5,7 @@ from __future__ import annotations
 
 from collections import Counter
 from datetime import date
+import hashlib
 import json
 from pathlib import Path
 import re
@@ -107,6 +108,10 @@ CELLULAR_ONLY_RELEVANCE_EVIDENCE_KINDS = {
     "extracted_carrier_configuration",
     "exact_product_type_carrier_bundle",
 }
+RELEVANCE_ONLY_EVIDENCE_KINDS = {
+    "official_connectivity_specification",
+    "official_connectivity_variant",
+}
 
 
 class ValidationError(Exception):
@@ -140,6 +145,26 @@ def load_object(path: Path) -> dict[str, Any]:
     if not isinstance(value, dict):
         raise ValidationError(f"{path}: root must be an object")
     return value
+
+
+def canonical_revision(value: Any) -> str:
+    payload = json.dumps(
+        value, ensure_ascii=False, separators=(",", ":"), sort_keys=True
+    ).encode("utf-8")
+    return hashlib.sha256(payload).hexdigest()
+
+
+def device_id_set_sha256(values: Any) -> str:
+    if (
+        type(values) is not list
+        or any(type(value) is not str or not value for value in values)
+    ):
+        raise ValidationError(
+            "carrier relevance registry device IDs must be a string array"
+        )
+    if len(values) != len(set(values)):
+        raise ValidationError("carrier relevance registry device IDs are duplicated")
+    return hashlib.sha256("\n".join(sorted(values)).encode("utf-8")).hexdigest()
 
 
 def validate_date(path: Path, field: str, value: Any) -> str:
@@ -304,11 +329,171 @@ def device_associated_sources(record: dict[str, Any]) -> set[str]:
     return sources
 
 
+def validate_relevance_only_registries(
+    path: Path,
+    value: Any,
+    platform: str,
+    declared_sources: set[str],
+) -> dict[str, set[tuple[str, str, str]]]:
+    """Validate exact root bindings that imply no coverage or artifact link."""
+
+    if value is None:
+        return {}
+    if not isinstance(value, list) or not value:
+        raise ValidationError(
+            f"{path}: carrier relevance registries must be a non-empty array"
+        )
+    device_id_re = {
+        "android": ANDROID_DEVICE_ID_RE,
+        "apple": APPLE_DEVICE_ID_RE,
+    }.get(platform)
+    if device_id_re is None:
+        raise ValidationError(f"{path}: relevance registry platform is invalid")
+    associations: dict[str, set[tuple[str, str, str]]] = {}
+    seen_bindings: set[tuple[str, str, str]] = set()
+    seen_sources: set[str] = set()
+    previous_registry_id = ""
+    for registry in value:
+        expected_registry = {
+            "binding_count",
+            "bindings",
+            "bindings_revision",
+            "device_id_set_sha256",
+            "registry_id",
+            "source",
+        }
+        if not isinstance(registry, dict) or set(registry) != expected_registry:
+            raise ValidationError(f"{path}: carrier relevance registry is invalid")
+        registry_id = registry["registry_id"]
+        source = registry["source"]
+        bindings = registry["bindings"]
+        if (
+            not isinstance(registry_id, str)
+            or not SOURCE_NAME_RE.fullmatch(registry_id)
+            or registry_id <= previous_registry_id
+            or not isinstance(source, str)
+            or source not in declared_sources
+            or source in seen_sources
+            or not is_json_integer(registry["binding_count"])
+            or registry["binding_count"] < 1
+            or not isinstance(bindings, list)
+            or not bindings
+            or not isinstance(registry["bindings_revision"], str)
+            or not HASH_RE.fullmatch(registry["bindings_revision"])
+            or not isinstance(registry["device_id_set_sha256"], str)
+            or not HASH_RE.fullmatch(registry["device_id_set_sha256"])
+        ):
+            raise ValidationError(
+                f"{path}: carrier relevance registry identity is invalid"
+            )
+        device_ids: list[str] = []
+        previous_binding: tuple[str, str, str] | None = None
+        for binding in bindings:
+            expected_binding = {
+                "classification",
+                "device_id",
+                "kind",
+                "source",
+            }
+            if not isinstance(binding, dict) or set(binding) != expected_binding:
+                raise ValidationError(
+                    f"{path}: carrier relevance registry binding is invalid"
+                )
+            device_id = binding["device_id"]
+            kind = binding["kind"]
+            binding_source = binding["source"]
+            classification = binding["classification"]
+            key = (device_id, kind, binding_source)
+            if (
+                not isinstance(device_id, str)
+                or not device_id_re.fullmatch(device_id)
+                or not isinstance(kind, str)
+                or kind not in RELEVANCE_ONLY_EVIDENCE_KINDS
+                or not isinstance(binding_source, str)
+                or binding_source != source
+                or not isinstance(classification, str)
+                or classification not in {"cellular", "non_cellular"}
+                or (previous_binding is not None and key <= previous_binding)
+                or key in seen_bindings
+            ):
+                raise ValidationError(
+                    f"{path}: carrier relevance registry binding escaped its "
+                    "exact device/source"
+                )
+            associations.setdefault(device_id, set()).add(
+                (kind, source, classification)
+            )
+            seen_bindings.add(key)
+            device_ids.append(device_id)
+            previous_binding = key
+        if (
+            registry["binding_count"] != len(bindings)
+            or registry["bindings_revision"] != canonical_revision(bindings)
+            or registry["device_id_set_sha256"]
+            != device_id_set_sha256(device_ids)
+        ):
+            raise ValidationError(
+                f"{path}: carrier relevance registry count or hash drifted"
+            )
+        seen_sources.add(source)
+        previous_registry_id = registry_id
+    return associations
+
+
+def validate_relevance_only_registry_links(
+    path: Path,
+    records: list[dict[str, Any]],
+    associations: dict[str, set[tuple[str, str, str]]],
+) -> None:
+    """Reject orphan bindings and any coverage/artifact/inventory implication."""
+
+    by_id = {record["device_id"]: record for record in records}
+    registry_sources = {
+        source
+        for bindings in associations.values()
+        for _kind, source, _classification in bindings
+    }
+    for record in records:
+        leaked = device_associated_sources(record) & registry_sources
+        if leaked:
+            raise ValidationError(
+                f"{path}: relevance-only source leaked into inventory, coverage, "
+                f"discovery, or artifact association for {record['device_id']}"
+            )
+    for device_id, bindings in associations.items():
+        record = by_id.get(device_id)
+        if record is None:
+            raise ValidationError(
+                f"{path}: carrier relevance registry has orphan {device_id}"
+            )
+        relevance = record.get("carrier_relevance") or {}
+        evidence = relevance.get("evidence") or []
+        evidence_keys = {
+            (item.get("kind"), item.get("source"))
+            for item in evidence
+            if isinstance(item, dict)
+        }
+        expected_classification = {
+            "evidence_confirmed_cellular": "cellular",
+            "evidence_confirmed_non_cellular": "non_cellular",
+        }.get(relevance.get("status"))
+        for kind, source, classification in bindings:
+            if (
+                expected_classification != classification
+                or (kind, source) not in evidence_keys
+            ):
+                raise ValidationError(
+                    f"{path}: carrier relevance registry binding is not used "
+                    f"exactly by {device_id}"
+                )
+
+
 def validate_carrier_relevance(
     path: Path,
     device_id: str,
     record: dict[str, Any],
     declared_sources: set[str],
+    relevance_only_associations: set[tuple[str, str, str]] | None = None,
 ) -> None:
     """Validate explicit evidence without inferring relevance from labels or coverage."""
 
@@ -341,6 +526,7 @@ def validate_carrier_relevance(
         raise ValidationError(f"{path}: confirmed carrier relevance lacks evidence")
 
     associated_sources = device_associated_sources(record)
+    root_associations = relevance_only_associations or set()
     observations = record.get("carrier_observations") or {}
     observation_sources = (
         set(observations.get("sources") or [])
@@ -381,7 +567,14 @@ def validate_carrier_relevance(
             raise ValidationError(
                 f"{path}: carrier relevance evidence is duplicate or unsorted"
             )
-        if source not in declared_sources or source not in associated_sources:
+        classification = {
+            "evidence_confirmed_cellular": "cellular",
+            "evidence_confirmed_non_cellular": "non_cellular",
+        }.get(status)
+        root_associated = (kind, source, classification) in root_associations
+        if source not in declared_sources or (
+            source not in associated_sources and not root_associated
+        ):
             raise ValidationError(
                 f"{path}: carrier relevance source is not associated with {device_id}"
             )
@@ -577,11 +770,25 @@ def validate_source_discovery(path: Path, device_id: str, value: Any) -> None:
 
 def validate_inventory(
     path: Path, platform: str
-) -> tuple[int, list[dict[str, str]], list[dict[str, Any]]]:
+) -> tuple[
+    int,
+    list[dict[str, str]],
+    list[dict[str, Any]],
+    set[str],
+]:
     value = load_object(path)
-    expected = {"schema_version", "inventory_id", "platform", "description", "sources", "devices"}
+    expected = {
+        "schema_version",
+        "inventory_id",
+        "platform",
+        "description",
+        "sources",
+        "devices",
+    }
+    actual_fields = set(value)
     if (
-        set(value) != expected
+        actual_fields
+        not in (expected, expected | {"carrier_relevance_registries"})
         or not is_json_integer(value.get("schema_version"))
         or value.get("schema_version") not in {1, 2}
     ):
@@ -600,6 +807,14 @@ def validate_inventory(
     source_names = [source["name"] for source in sources]
     if source_names != sorted(source_names) or len(source_names) != len(set(source_names)):
         raise ValidationError(f"{path}: sources must be unique and sorted")
+    if schema_version == 1 and "carrier_relevance_registries" in value:
+        raise ValidationError(f"{path}: v1 inventory has a relevance-only registry")
+    relevance_only_associations = validate_relevance_only_registries(
+        path,
+        value.get("carrier_relevance_registries"),
+        platform,
+        set(source_names),
+    )
     devices = value.get("devices")
     if not isinstance(devices, list):
         raise ValidationError(f"{path}: devices must be an array")
@@ -674,13 +889,27 @@ def validate_inventory(
         if "carrier_source_discovery" in record:
             validate_source_discovery(path, device_id, record["carrier_source_discovery"])
         if schema_version == 2:
-            validate_carrier_relevance(path, device_id, record, set(source_names))
+            validate_carrier_relevance(
+                path,
+                device_id,
+                record,
+                set(source_names),
+                relevance_only_associations.get(device_id),
+            )
         validate_data_coverage(
             path, device_id, record, schema_version=schema_version
         )
         seen.add(device_id)
         previous_id = device_id
-    return schema_version, sources, devices
+    validate_relevance_only_registry_links(
+        path, devices, relevance_only_associations
+    )
+    relevance_only_sources = {
+        source
+        for bindings in relevance_only_associations.values()
+        for _kind, source, _classification in bindings
+    }
+    return schema_version, sources, devices, relevance_only_sources
 
 
 def validate_artifacts(path: Path) -> tuple[dict[str, str], list[dict[str, Any]]]:
@@ -930,6 +1159,57 @@ def validate_android_artifacts(
             f"{source}/{device_id}"
         )
     return sources, artifacts, scope_coverage
+
+
+def validate_relevance_only_artifact_source_disjointness(
+    path: Path,
+    android_relevance_only_sources: set[str],
+    apple_relevance_only_sources: set[str],
+    android_artifact_sources: list[dict[str, str]],
+    apple_artifact_source: dict[str, str],
+) -> None:
+    """Keep relevance-only sources out of every carrier-artifact registry."""
+
+    relevance_only_sources = (
+        android_relevance_only_sources | apple_relevance_only_sources
+    )
+    artifact_sources = {
+        source["name"] for source in android_artifact_sources
+    } | {apple_artifact_source["name"]}
+    overlap = sorted(relevance_only_sources & artifact_sources)
+    if overlap:
+        raise ValidationError(
+            f"{path}: relevance-only source appears in a carrier-artifact "
+            f"registry: {overlap[0]}"
+        )
+
+
+def validate_relevance_only_cross_platform_device_disjointness(
+    path: Path,
+    android_relevance_only_sources: set[str],
+    apple_relevance_only_sources: set[str],
+    android_devices: list[dict[str, Any]],
+    apple_devices: list[dict[str, Any]],
+) -> None:
+    """Keep every relevance-only source out of all device coverage links."""
+
+    relevance_only_sources = (
+        android_relevance_only_sources | apple_relevance_only_sources
+    )
+    for platform, records in (
+        ("android", android_devices),
+        ("apple", apple_devices),
+    ):
+        for record in records:
+            overlap = sorted(
+                device_associated_sources(record) & relevance_only_sources
+            )
+            if overlap:
+                raise ValidationError(
+                    f"{path}: relevance-only source appears in a {platform} "
+                    f"inventory, coverage, discovery, observation, or artifact "
+                    f"association for {record['device_id']}: {overlap[0]}"
+                )
 
 
 def validate_android_exact_terminal_links(
@@ -1307,15 +1587,39 @@ def validate_index(
 
 def main(argv: list[str]) -> int:
     root = Path(argv[1]) if len(argv) > 1 else Path("generated/devices")
-    android_version, android_sources, android_devices = validate_inventory(
+    (
+        android_version,
+        android_sources,
+        android_devices,
+        android_relevance_only_sources,
+    ) = validate_inventory(
         root / "android.json", "android"
     )
-    apple_version, apple_sources, apple_devices = validate_inventory(
+    (
+        apple_version,
+        apple_sources,
+        apple_devices,
+        apple_relevance_only_sources,
+    ) = validate_inventory(
         root / "apple.json", "apple"
+    )
+    validate_relevance_only_cross_platform_device_disjointness(
+        root,
+        android_relevance_only_sources,
+        apple_relevance_only_sources,
+        android_devices,
+        apple_devices,
     )
     artifact_source, artifacts = validate_artifacts(root / "apple-carrier-artifacts.json")
     android_artifact_sources, android_artifacts, android_scope_coverage = validate_android_artifacts(
         root / "android-carrier-artifacts.json"
+    )
+    validate_relevance_only_artifact_source_disjointness(
+        root,
+        android_relevance_only_sources,
+        apple_relevance_only_sources,
+        android_artifact_sources,
+        artifact_source,
     )
     validate_android_transport_links(root, android_devices, android_scope_coverage)
     validate_android_authentication_links(
